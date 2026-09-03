@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Альфа‑Банк — перевод в Таджикистан</title>
+  <style>
+    :root { --red:#ef3124; --ink:#151515; --muted:#767676; --line:#e8e8e8; --bg:#f4f4f4; --good:#137333; --bad:#bd1e17; }
+    * { box-sizing:border-box } body { margin:0; background:#d7d7d7; color:var(--ink); font:15px/1.35 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .phone { width:min(100%,430px); min-height:100vh; margin:auto; padding:20px 18px 30px; background:var(--bg); }
+    .demo { margin:-10px 0 18px; display:flex; align-items:center; gap:8px; font-size:12px; color:var(--muted); }
+    select { flex:1; appearance:none; border:1px solid #d4d4d4; border-radius:9px; padding:8px 28px 8px 10px; background:#fff; color:var(--ink); font:inherit; }
+    .top { display:flex; align-items:center; gap:16px; margin:3px 0 24px; } .back { border:0; background:transparent; font-size:28px; padding:0; line-height:1; } h1 { font-size:24px; letter-spacing:-.5px; margin:0; }
+    .card { background:#fff; border-radius:18px; padding:18px; margin:12px 0; box-shadow:0 1px 0 rgba(0,0,0,.03); }
+    .notice { display:flex; gap:12px; align-items:flex-start; border:1px solid var(--line); } .notice.changed { border-color:#f0b5b1; background:#fffafa; } .notice.good { border-color:#b9e1c5; background:#f8fffa; }
+    .dot { height:22px; width:22px; flex:0 0 22px; display:grid; place-items:center; background:#f2f2f2; border-radius:50%; font-size:13px; } .changed .dot { background:#ffe0de; color:var(--bad); } .good .dot { background:#d8f2df; color:var(--good); }
+    .notice h2 { margin:0 0 5px; font-size:16px; } .notice p { margin:0; font-size:13px; color:#555; }
+    .compare { margin-top:14px; display:grid; grid-template-columns:1fr 1fr; gap:8px; } .compare div { padding:10px; border-radius:11px; background:#f7f7f7; } .compare small { display:block; color:var(--muted); margin-bottom:3px; } .compare b { font-size:15px; }
+    .field-label { display:flex; justify-content:space-between; font-size:13px; margin:18px 0 7px; color:#555; } .edit { color:var(--red); }
+    .input { min-height:54px; padding:15px; border:1px solid var(--line); border-radius:12px; background:#fff; display:flex; justify-content:space-between; align-items:center; font-size:16px; } .chev { color:var(--muted); }
+    .sum { font-size:28px; letter-spacing:-.8px; } .under { margin:8px 2px; color:var(--muted); font-size:13px; } .rate { margin-top:18px; padding-top:15px; border-top:1px solid var(--line); display:flex; justify-content:space-between; font-size:13px; } .rate strong { font-weight:600; }
+    .cta { width:100%; min-height:54px; border:0; border-radius:13px; background:var(--red); color:#fff; font:600 16px inherit; margin-top:16px; } .secondary { background:#fff; color:var(--ink); border:1px solid #cecece; margin-top:9px; }
+    .foot { text-align:center; margin:16px 10px 0; color:var(--muted); font-size:11px; } .hidden { display:none; } .toast { position:fixed; left:50%; bottom:20px; transform:translateX(-50%); background:#202020; color:#fff; padding:10px 14px; border-radius:10px; font-size:13px; opacity:0; transition:opacity .2s; pointer-events:none; } .toast.show { opacity:1; }
+  </style>
+</head>
+<body>
+  <main class="phone">
+    <div class="demo"><span>Сценарий прототипа</span><select id="state"><option value="fresh">Условия актуальны</option><option value="better">Сейчас лучше</option><option value="worse" selected>Условия изменились</option><option value="old">Пуш открыт через 8 часов</option></select></div>
+    <header class="top"><button class="back" aria-label="Назад">‹</button><h1>Перевод за рубеж</h1></header>
+    <section class="card notice changed" id="notice" aria-live="polite">
+      <div class="dot" id="icon">!</div><div><h2 id="noticeTitle">Условия изменились</h2><p id="noticeText">Курс отличается от того, который был, когда пришло уведомление.</p><div class="compare" id="compare"><div><small>В момент пуша · 10:24</small><b>1 ₽ = 0,1328 TJS</b></div><div><small>Сейчас · 12:31</small><b id="currentCompare">1 ₽ = 0,1316 TJS</b></div></div></div>
+    </section>
+    <section class="card">
+      <div class="field-label"><span>Куда</span><span class="edit">Изменить</span></div><div class="input"><span>Таджикистан · TJS</span><span class="chev">›</span></div>
+      <div class="field-label"><span>Получатель</span><span class="edit">Изменить</span></div><div class="input"><span>Мадина С.</span><span class="chev">›</span></div>
+      <div class="field-label"><span>Сумма перевода</span><span>₽</span></div><div class="input sum"><span>10 000</span><span class="chev">⌨</span></div>
+      <p class="under" id="receive">Получатель получит 1 316 TJS</p>
+      <div class="rate"><span>Курс перевода</span><strong id="rate">1 ₽ = 0,1316 TJS</strong></div>
+    </section>
+    <button class="cta" id="transfer">Перевести по актуальному курсу</button>
+    <button class="cta secondary" id="alert">Уведомить меня о курсе</button>
+    <p class="foot">Курс и сумма получателя могут измениться до подтверждения. Перед переводом покажем актуальные условия.</p>
+  </main><div class="toast" id="toast"></div>
+  <script>
+    const states = {
+      fresh:{title:'Условия актуальны', text:'Курс не изменился с момента уведомления.', rate:'1 ₽ = 0,1328 TJS', receive:'Получатель получит 1 328 TJS', type:'', icon:'✓', compare:false},
+      better:{title:'Сейчас получатель получит на 45 TJS больше', text:'По сравнению с курсом в момент уведомления.', rate:'1 ₽ = 0,1333 TJS', receive:'Получатель получит 1 333 TJS', type:'good', icon:'↑', compare:true},
+      worse:{title:'Условия изменились', text:'Курс отличается от того, который был, когда пришло уведомление.', rate:'1 ₽ = 0,1316 TJS', receive:'Получатель получит 1 316 TJS', type:'changed', icon:'!', compare:true},
+      old:{title:'Проверьте актуальные условия', text:'Уведомление было отправлено 8 часов назад. Показываем курс сейчас.', rate:'1 ₽ = 0,1309 TJS', receive:'Получатель получит 1 309 TJS', type:'changed', icon:'!', compare:true}
+    };
+    const $=id=>document.getElementById(id); function render(key){ const s=states[key]; $('notice').className='card notice '+s.type; $('noticeTitle').textContent=s.title; $('noticeText').textContent=s.text; $('rate').textContent=s.rate; $('receive').textContent=s.receive; $('icon').textContent=s.icon; $('compare').classList.toggle('hidden',!s.compare); $('currentCompare').textContent=s.rate; }
+    $('state').addEventListener('change',e=>render(e.target.value)); function toast(t){$('toast').textContent=t; $('toast').classList.add('show'); setTimeout(()=>$('toast').classList.remove('show'),2600)} $('transfer').onclick=()=>toast('Перед подтверждением запросим актуальный курс.'); $('alert').onclick=()=>toast('Уведомление о курсе настроено.');
+  </script>
+</body>
+</html>

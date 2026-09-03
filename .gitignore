@@ -1,4 +1,7 @@
 .pycache/
-*.py[cod]
 *.sqlite3-shm
 *.sqlite3-wal
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
