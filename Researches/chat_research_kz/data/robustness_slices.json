@@ -1,0 +1,169 @@
+{
+  "full_complete_days": {
+    "start": "2022-06-10",
+    "end": "2026-09-02",
+    "eligible_days": 1529,
+    "abs_return_p90": 0.018791413337260865,
+    "high_volatility": {
+      "n_days": 153,
+      "rate_information_share": 0.058272809413725424,
+      "timing_forecast_share": 0.0070360707233203595,
+      "strict_listing_share": 0.005357258374516425
+    },
+    "other": {
+      "n_days": 1376,
+      "rate_information_share": 0.04949431802853487,
+      "timing_forecast_share": 0.004941062320914768,
+      "strict_listing_share": 0.0033677356227999567
+    },
+    "ratio_high_to_other": {
+      "rate_information_share": 1.1773636193982813,
+      "timing_forecast_share": 1.4239995908446121,
+      "strict_listing_share": 1.5907597788398742
+    },
+    "correlations": {
+      "abs_return_vs_rate_information_share": {
+        "n_days": 1529,
+        "pearson": 0.11098299715652263,
+        "spearman": 0.05159112209599013
+      },
+      "abs_return_vs_timing_forecast_share": {
+        "n_days": 1529,
+        "pearson": 0.1256897413447534,
+        "spearman": 0.10480413504098715
+      },
+      "rate_percentile_vs_listing_share": {
+        "n_days": 1529,
+        "pearson": 0.051479988732423404,
+        "spearman": 0.011745843974098596
+      }
+    }
+  },
+  "post_2022": {
+    "start": "2023-01-01",
+    "end": "2026-09-02",
+    "eligible_days": 1341,
+    "abs_return_p90": 0.016922669461484352,
+    "high_volatility": {
+      "n_days": 135,
+      "rate_information_share": 0.04608978862686579,
+      "timing_forecast_share": 0.006602738241373202,
+      "strict_listing_share": 0.0035725073740214813
+    },
+    "other": {
+      "n_days": 1206,
+      "rate_information_share": 0.045727523188443114,
+      "timing_forecast_share": 0.004751621703562836,
+      "strict_listing_share": 0.0028977532046573916
+    },
+    "ratio_high_to_other": {
+      "rate_information_share": 1.0079222624179704,
+      "timing_forecast_share": 1.3895757392517953,
+      "strict_listing_share": 1.23285425697385
+    },
+    "correlations": {
+      "abs_return_vs_rate_information_share": {
+        "n_days": 1341,
+        "pearson": 0.022368274612330468,
+        "spearman": 0.007707416711309258
+      },
+      "abs_return_vs_timing_forecast_share": {
+        "n_days": 1341,
+        "pearson": 0.09059517900300595,
+        "spearman": 0.1037875877184798
+      },
+      "rate_percentile_vs_listing_share": {
+        "n_days": 1341,
+        "pearson": 0.0017490485000428747,
+        "spearman": -0.01780944844309067
+      }
+    }
+  },
+  "recent_24_complete_months": {
+    "start": "2024-09-01",
+    "end": "2026-08-31",
+    "eligible_days": 730,
+    "abs_return_p90": 0.017797826652163,
+    "high_volatility": {
+      "n_days": 73,
+      "rate_information_share": 0.03735485194885251,
+      "timing_forecast_share": 0.006431502580851765,
+      "strict_listing_share": 0.003358422903771273
+    },
+    "other": {
+      "n_days": 657,
+      "rate_information_share": 0.03439954387866974,
+      "timing_forecast_share": 0.005174285688739234,
+      "strict_listing_share": 0.002767761503527936
+    },
+    "ratio_high_to_other": {
+      "rate_information_share": 1.0859112574459244,
+      "timing_forecast_share": 1.2429740002274332,
+      "strict_listing_share": 1.213407621823791
+    },
+    "correlations": {
+      "abs_return_vs_rate_information_share": {
+        "n_days": 730,
+        "pearson": 0.04492889954637513,
+        "spearman": 0.03801321306347686
+      },
+      "abs_return_vs_timing_forecast_share": {
+        "n_days": 730,
+        "pearson": 0.06851135864055148,
+        "spearman": 0.07438309965489447
+      },
+      "rate_percentile_vs_listing_share": {
+        "n_days": 730,
+        "pearson": 0.05488562187193713,
+        "spearman": 0.039249666271069655
+      }
+    }
+  },
+  "annual_monthly_distribution": {
+    "2022": {
+      "n_months": 6,
+      "messages_median": 18773.0,
+      "messages_min": 10692,
+      "messages_max": 32457,
+      "authors_median": 2133.5,
+      "authors_min": 1308,
+      "authors_max": 3796
+    },
+    "2023": {
+      "n_months": 12,
+      "messages_median": 9106.0,
+      "messages_min": 5997,
+      "messages_max": 14252,
+      "authors_median": 1414.5,
+      "authors_min": 777,
+      "authors_max": 2037
+    },
+    "2024": {
+      "n_months": 12,
+      "messages_median": 9343.5,
+      "messages_min": 7384,
+      "messages_max": 11341,
+      "authors_median": 1122.0,
+      "authors_min": 892,
+      "authors_max": 1413
+    },
+    "2025": {
+      "n_months": 12,
+      "messages_median": 6603.5,
+      "messages_min": 5418,
+      "messages_max": 10787,
+      "authors_median": 951.0,
+      "authors_min": 761,
+      "authors_max": 1248
+    },
+    "2026": {
+      "n_months": 8,
+      "messages_median": 5499.0,
+      "messages_min": 4836,
+      "messages_max": 7697,
+      "authors_median": 713.0,
+      "authors_min": 583,
+      "authors_max": 952
+    }
+  }
+}

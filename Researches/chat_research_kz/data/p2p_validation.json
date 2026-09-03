@@ -1,0 +1,53 @@
+{
+  "method": {
+    "universe": "Telegram result.json, type=message only",
+    "primary_rule": "Tier A: both RUB and KZT plus explicit first-person offer, peer request, possession-to-need, or paired-need phrase; transaction context required; bank/exchange-office how-to filtered",
+    "review_sample": "Fixed-seed stratified manual review: all 48 KZT_to_RUB candidates and random 52 of 75 RUB_to_KZT candidates",
+    "review_n": 100,
+    "pii_handling": "Transient redacted review only; no raw text or identifiers persisted"
+  },
+  "manual_validation": {
+    "relevant_p2p": 89,
+    "not_p2p": 11,
+    "precision": 0.89,
+    "wilson_95_ci": [0.814, 0.937],
+    "false_positive_breakdown": {
+      "bank_or_exchange_how_to": 10,
+      "service_or_other": 1
+    }
+  },
+  "primary_universe": {
+    "messages": 123,
+    "expected_relevant_point_estimate": 109.8,
+    "expected_relevant_approx_95_ci": [101, 115],
+    "by_direction": {
+      "KZT_to_RUB": 48,
+      "RUB_to_KZT": 75
+    },
+    "unique_authors": 100,
+    "author_activity_buckets": {
+      "1": 85,
+      "2-3": 14,
+      "4-10": 1
+    },
+    "messages_with_amount": 18,
+    "course_mentions_reliably_parsed": 5,
+    "reply_count": 13,
+    "edit_count": 19,
+    "reaction_count": 5,
+    "reply_rate": 0.106,
+    "edit_rate": 0.154,
+    "reaction_rate": 0.041
+  },
+  "recall_expansion": {
+    "all_pattern_candidates": 290,
+    "tier_A_plus_B": 188,
+    "tier_B_not_precision_validated": 65
+  },
+  "caveats": [
+    "Conservative Tier A estimates a high-precision core, not recall-complete prevalence.",
+    "Completion is not observed; reply, edit, and reaction are engagement proxies only.",
+    "Direction is apparent intent, not guaranteed settlement.",
+    "Amounts and explicit rates are too sparse for GMV or market-price estimates."
+  ]
+}
