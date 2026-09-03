@@ -1,0 +1,43 @@
+{
+  "surface": "report",
+  "title": "RUB→KZT V0: target lift does not survive source robustness",
+  "generatedAt": "2026-09-03T20:00:00Z",
+  "status": "reviewed",
+  "queries": {
+    "primary_metrics": {
+      "rows": [
+        {"scenario":"favorable_now","horizon":5,"signals":7,"hitRate":0.5714,"randomHitRate":0.054,"lift":10.5739,"timingBps":83.79,"brier":0.05042},
+        {"scenario":"window_closing","horizon":5,"signals":10,"hitRate":1.0,"randomHitRate":0.7671,"lift":1.3036,"timingBps":28.14,"brier":0.74485}
+      ],
+      "source": {
+        "label": "Expanding walk-forward output",
+        "files": ["data/kzt_v0/backtest.json"],
+        "filters": ["36m train, 6m validation, 3m untouched test, 3m step; fresh MOEX sessions only"],
+        "metricDefinitions": [
+          {"label":"Lift","definition":"Signal hit rate divided by random-day hit rate on the same untouched test periods and eligible MOEX calendar.","componentIds":["report-summary","report-primary-metrics","report-metric-lift"]},
+          {"label":"Timing bps","definition":"Mean symmetric-window rate divided by the signal-day CBR rate, minus one, in basis points.","componentIds":["report-primary-metrics"]}
+        ]
+      }
+    },
+    "source_robustness": {
+      "rows": [
+        {"source":"CBR","signals":7,"hitRate":0.5714,"randomHitRate":0.0542,"lift":10.5476},
+        {"source":"NBK","signals":7,"hitRate":0.0,"randomHitRate":0.0497,"lift":0.0},
+        {"source":"MOEX","signals":7,"hitRate":0.0,"randomHitRate":0.0497,"lift":0.0}
+      ],
+      "source": {
+        "label": "Same OOT favorable_now dates evaluated on each direct normalized series",
+        "files": ["data/kzt_v0/backtest.json"],
+        "metricDefinitions": [{"label":"Source robustness lift","definition":"Local-minimum hit lift of the frozen CBR-target candidate dates when truth is independently computed on each source series.","componentIds":["report-summary","report-robustness"]}]
+      }
+    },
+    "quality": {
+      "rows": [{"modelRows":1295,"calendarDays":2192,"closedDays":793,"duplicateObservationKeys":0,"commonStart":"2021-05-11","end":"2026-09-03"}],
+      "source": {"label":"Validated normalized observation and calendar outputs","files":["data/kzt_v0/observations.csv","data/kzt_v0/calendar.csv","data/kzt_v0/features.csv"],"metricDefinitions":[{"label":"Model row","definition":"One point-in-time feature row per observed MOEX KZTRUB_TOM daily candle after all three sources become available.","componentIds":["report-quality"]}]}
+    },
+    "current_signal": {
+      "rows": [{"asOf":"2026-09-03","scenario":null,"confidence":0.0,"eligibleToSend":false,"suppressedReason":"no_candidate","cbrRate":0.189762,"nbkRate":0.19047619,"moexClose":0.191975}],
+      "source": {"label":"Point-in-time public signal output","files":["data/kzt_v0/signal.json"],"metricDefinitions":[{"label":"Eligible to send","definition":"True only for a same-day MOEX candidate that passed model threshold, explanation rule, policy controls, and scenario OOT lift gate.","componentIds":["report-metric-signal"]}]}
+    }
+  }
+}

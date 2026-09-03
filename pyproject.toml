@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "alphatransfer-signal"
-version = "0.1.0"
-description = "Reproducible no-look-ahead FX signal layer for transfer corridors"
-requires-python = ">=3.10"
+version = "0.2.0"
+description = "Auditable RUB to KZT timing signal and walk-forward report"
+requires-python = ">=3.11"
 
 [project.scripts]
 alphatransfer = "alphatransfer.cli:main"
@@ -16,18 +16,3 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-*** Add File: src/alphatransfer/__init__.py
-"""Public, reproducible signal layer for RUB transfer corridors."""
-
-from .cbr import CURRENCIES, fetch_cbr_daily_history, read_quotes_csv, write_quotes_csv
-from .engine import SignalConfig, signals_as_of, signal_at
-
-__all__ = [
-    "CURRENCIES",
-    "SignalConfig",
-    "fetch_cbr_daily_history",
-    "read_quotes_csv",
-    "write_quotes_csv",
-    "signal_at",
-    "signals_as_of",
-]

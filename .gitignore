@@ -5,3 +5,9 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .DS_Store
+
+# Кэш сырых HTTP-ответов источников: воссоздаётся командой `alphatransfer fetch`.
+data/raw/
+
+# Зависимости и сборка вспомогательного review-приложения.
+node_modules/

@@ -1,0 +1,3690 @@
+{
+  "as_of": "2026-09-03",
+  "backtest": {
+    "confidence_stability": [
+      {
+        "candidates": 0,
+        "mean_confidence": null,
+        "test_end": "2025-02-11"
+      },
+      {
+        "candidates": 0,
+        "mean_confidence": null,
+        "test_end": "2025-05-11"
+      },
+      {
+        "candidates": 0,
+        "mean_confidence": null,
+        "test_end": "2025-08-11"
+      },
+      {
+        "candidates": 0,
+        "mean_confidence": null,
+        "test_end": "2025-11-11"
+      },
+      {
+        "candidates": 0,
+        "mean_confidence": null,
+        "test_end": "2026-02-11"
+      },
+      {
+        "candidates": 23,
+        "mean_confidence": 0.8736,
+        "test_end": "2026-05-11"
+      },
+      {
+        "candidates": 35,
+        "mean_confidence": 0.9211,
+        "test_end": "2026-08-11"
+      }
+    ],
+    "events": [
+      {
+        "confidence": 0.8057156463473718,
+        "date": "2026-02-27",
+        "evidence": [
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1162,
+        "policy_eligible": true,
+        "rate": 0.153856,
+        "scenario": "favorable_now",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.8138271272125965,
+        "date": "2026-03-03",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_81.1_bps"
+        ],
+        "index": 1164,
+        "policy_eligible": false,
+        "rate": 0.15510400000000002,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8093554134022802,
+        "date": "2026-03-04",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_36.4_bps"
+        ],
+        "index": 1165,
+        "policy_eligible": false,
+        "rate": 0.154416,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8209376721377213,
+        "date": "2026-03-05",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_152.2_bps"
+        ],
+        "index": 1166,
+        "policy_eligible": true,
+        "rate": 0.156198,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.8224650743839774,
+        "date": "2026-03-06",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_167.5_bps"
+        ],
+        "index": 1167,
+        "policy_eligible": false,
+        "rate": 0.156433,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8484504113224134,
+        "date": "2026-03-09",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_427.3_bps"
+        ],
+        "index": 1168,
+        "policy_eligible": false,
+        "rate": 0.160431,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8484504113224134,
+        "date": "2026-03-10",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_427.3_bps"
+        ],
+        "index": 1169,
+        "policy_eligible": false,
+        "rate": 0.160431,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8420093235520307,
+        "date": "2026-03-11",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_362.9_bps"
+        ],
+        "index": 1170,
+        "policy_eligible": true,
+        "rate": 0.15944,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.8511152407733285,
+        "date": "2026-03-12",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_454.0_bps"
+        ],
+        "index": 1171,
+        "policy_eligible": false,
+        "rate": 0.16084099999999998,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8558079404405499,
+        "date": "2026-03-13",
+        "evidence": [
+          "strong_candidate_on_2026-02-27",
+          "rebound_500.9_bps"
+        ],
+        "index": 1172,
+        "policy_eligible": false,
+        "rate": 0.161563,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8876083800706246,
+        "date": "2026-04-16",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1196,
+        "policy_eligible": true,
+        "rate": 0.157734,
+        "scenario": "favorable_now",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9050935132695542,
+        "date": "2026-04-17",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_174.9_bps"
+        ],
+        "index": 1197,
+        "policy_eligible": false,
+        "rate": 0.160492,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9103111581653917,
+        "date": "2026-04-20",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_227.0_bps"
+        ],
+        "index": 1198,
+        "policy_eligible": false,
+        "rate": 0.161315,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9035085664603691,
+        "date": "2026-04-21",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_159.0_bps"
+        ],
+        "index": 1199,
+        "policy_eligible": false,
+        "rate": 0.160242,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8948357375205084,
+        "date": "2026-04-22",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_72.3_bps"
+        ],
+        "index": 1200,
+        "policy_eligible": true,
+        "rate": 0.158874,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9107422636974899,
+        "date": "2026-04-23",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_231.3_bps"
+        ],
+        "index": 1201,
+        "policy_eligible": false,
+        "rate": 0.161383,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9159282096571434,
+        "date": "2026-04-24",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_283.2_bps"
+        ],
+        "index": 1202,
+        "policy_eligible": false,
+        "rate": 0.16220099999999998,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9220841430640184,
+        "date": "2026-04-27",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_344.8_bps"
+        ],
+        "index": 1203,
+        "policy_eligible": false,
+        "rate": 0.16317199999999998,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9078449809302996,
+        "date": "2026-04-28",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_202.4_bps"
+        ],
+        "index": 1204,
+        "policy_eligible": true,
+        "rate": 0.160926,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9152752115717594,
+        "date": "2026-04-29",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_276.7_bps"
+        ],
+        "index": 1205,
+        "policy_eligible": false,
+        "rate": 0.16209800000000002,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9259197143422463,
+        "date": "2026-04-30",
+        "evidence": [
+          "strong_candidate_on_2026-04-16",
+          "rebound_383.1_bps"
+        ],
+        "index": 1206,
+        "policy_eligible": false,
+        "rate": 0.163777,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8448059720455783,
+        "date": "2026-05-07",
+        "evidence": [
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1210,
+        "policy_eligible": true,
+        "rate": 0.16177,
+        "scenario": "favorable_now",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9308537022275725,
+        "date": "2026-05-08",
+        "evidence": [
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1211,
+        "policy_eligible": false,
+        "rate": 0.161026,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8431384672126945,
+        "date": "2026-05-13",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1214,
+        "policy_eligible": true,
+        "rate": 0.15997,
+        "scenario": "favorable_now",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9791072546003047,
+        "date": "2026-05-14",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1215,
+        "policy_eligible": false,
+        "rate": 0.15809499999999999,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9834008946598398,
+        "date": "2026-05-15",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1216,
+        "policy_eligible": false,
+        "rate": 0.156402,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.956376244038585,
+        "date": "2026-05-19",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1218,
+        "policy_eligible": true,
+        "rate": 0.15388,
+        "scenario": "favorable_now",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9529521474979757,
+        "date": "2026-05-20",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1219,
+        "policy_eligible": false,
+        "rate": 0.152471,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9911273035910413,
+        "date": "2026-05-21",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1220,
+        "policy_eligible": false,
+        "rate": 0.150342,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9862181990454826,
+        "date": "2026-05-22",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1221,
+        "policy_eligible": false,
+        "rate": 0.150052,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9957900059629667,
+        "date": "2026-05-25",
+        "evidence": [
+          "strong_candidate_on_2026-05-21",
+          "rebound_46.6_bps"
+        ],
+        "index": 1222,
+        "policy_eligible": true,
+        "rate": 0.151043,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.999,
+        "date": "2026-05-26",
+        "evidence": [
+          "strong_candidate_on_2026-05-21",
+          "rebound_108.1_bps"
+        ],
+        "index": 1223,
+        "policy_eligible": false,
+        "rate": 0.151967,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.999,
+        "date": "2026-05-27",
+        "evidence": [
+          "strong_candidate_on_2026-05-21",
+          "rebound_89.3_bps"
+        ],
+        "index": 1224,
+        "policy_eligible": false,
+        "rate": 0.151685,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8825017444846175,
+        "date": "2026-05-28",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1225,
+        "policy_eligible": false,
+        "rate": 0.14849,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9981140751417692,
+        "date": "2026-06-05",
+        "evidence": [
+          "strong_candidate_on_2026-05-22",
+          "rebound_119.0_bps"
+        ],
+        "index": 1231,
+        "policy_eligible": true,
+        "rate": 0.151837,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.901937396717091,
+        "date": "2026-06-08",
+        "evidence": [
+          "strong_candidate_on_2026-05-28",
+          "rebound_194.4_bps"
+        ],
+        "index": 1232,
+        "policy_eligible": false,
+        "rate": 0.151376,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8947180553473018,
+        "date": "2026-06-09",
+        "evidence": [
+          "strong_candidate_on_2026-05-28",
+          "rebound_122.2_bps"
+        ],
+        "index": 1233,
+        "policy_eligible": false,
+        "rate": 0.150304,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8496934908474107,
+        "date": "2026-06-10",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1234,
+        "policy_eligible": false,
+        "rate": 0.147968,
+        "scenario": "favorable_now",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9460963512899102,
+        "date": "2026-06-11",
+        "evidence": [
+          "cbr_in_bottom_quartile_20",
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1235,
+        "policy_eligible": true,
+        "rate": 0.146446,
+        "scenario": "favorable_now",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9510674669229763,
+        "date": "2026-06-15",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_49.7_bps"
+        ],
+        "index": 1236,
+        "policy_eligible": false,
+        "rate": 0.147174,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9571311354424307,
+        "date": "2026-06-16",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_110.3_bps"
+        ],
+        "index": 1237,
+        "policy_eligible": false,
+        "rate": 0.148062,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9657759601559771,
+        "date": "2026-06-18",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_196.8_bps"
+        ],
+        "index": 1239,
+        "policy_eligible": true,
+        "rate": 0.14932800000000002,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9696750082692748,
+        "date": "2026-06-19",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_235.8_bps"
+        ],
+        "index": 1240,
+        "policy_eligible": false,
+        "rate": 0.149899,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9742773873031846,
+        "date": "2026-06-22",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_281.8_bps"
+        ],
+        "index": 1241,
+        "policy_eligible": false,
+        "rate": 0.15057299999999998,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9774867614069501,
+        "date": "2026-06-23",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_313.9_bps"
+        ],
+        "index": 1242,
+        "policy_eligible": false,
+        "rate": 0.151043,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.9923591375729087,
+        "date": "2026-06-24",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_462.6_bps"
+        ],
+        "index": 1243,
+        "policy_eligible": true,
+        "rate": 0.153221,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.9962786710528263,
+        "date": "2026-06-25",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_501.8_bps"
+        ],
+        "index": 1244,
+        "policy_eligible": false,
+        "rate": 0.15379500000000002,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.999,
+        "date": "2026-06-26",
+        "evidence": [
+          "strong_candidate_on_2026-06-11",
+          "rebound_604.7_bps"
+        ],
+        "index": 1245,
+        "policy_eligible": false,
+        "rate": 0.155301,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.7974317232188645,
+        "date": "2026-07-28",
+        "evidence": [
+          "cbr_falling_streak",
+          "cbr_3_observation_momentum_down"
+        ],
+        "index": 1267,
+        "policy_eligible": true,
+        "rate": 0.163878,
+        "scenario": "favorable_now",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.8118448842288842,
+        "date": "2026-07-29",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_144.1_bps"
+        ],
+        "index": 1268,
+        "policy_eligible": false,
+        "rate": 0.16624,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8131507337022729,
+        "date": "2026-07-30",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_157.2_bps"
+        ],
+        "index": 1269,
+        "policy_eligible": false,
+        "rate": 0.166454,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.818654828211603,
+        "date": "2026-07-31",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_212.2_bps"
+        ],
+        "index": 1270,
+        "policy_eligible": false,
+        "rate": 0.167356,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8190575668342369,
+        "date": "2026-08-03",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_216.3_bps"
+        ],
+        "index": 1271,
+        "policy_eligible": true,
+        "rate": 0.16742200000000002,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.8291016239987129,
+        "date": "2026-08-04",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_316.7_bps"
+        ],
+        "index": 1272,
+        "policy_eligible": false,
+        "rate": 0.169068,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8388283719453561,
+        "date": "2026-08-05",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_414.0_bps"
+        ],
+        "index": 1273,
+        "policy_eligible": false,
+        "rate": 0.17066199999999998,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.8437466648217641,
+        "date": "2026-08-06",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_463.1_bps"
+        ],
+        "index": 1274,
+        "policy_eligible": false,
+        "rate": 0.17146799999999998,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      },
+      {
+        "confidence": 0.854699934937338,
+        "date": "2026-08-07",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_572.7_bps"
+        ],
+        "index": 1275,
+        "policy_eligible": true,
+        "rate": 0.173263,
+        "scenario": "window_closing",
+        "suppressed_reason": null
+      },
+      {
+        "confidence": 0.8699673899953689,
+        "date": "2026-08-10",
+        "evidence": [
+          "strong_candidate_on_2026-07-28",
+          "rebound_725.4_bps"
+        ],
+        "index": 1276,
+        "policy_eligible": false,
+        "rate": 0.175765,
+        "scenario": "window_closing",
+        "suppressed_reason": "cooldown"
+      }
+    ],
+    "feature_names": [
+      "cbr_age_days",
+      "nbk_age_days",
+      "cbr_is_fresh",
+      "nbk_is_fresh",
+      "moex_is_fresh",
+      "return_1",
+      "return_3",
+      "return_5",
+      "return_10",
+      "decreasing_run",
+      "falling_2",
+      "falling_3",
+      "falling_4",
+      "falling_5",
+      "percentile_20",
+      "distance_min_20_bps",
+      "percentile_60",
+      "distance_min_60_bps",
+      "percentile_120",
+      "distance_min_120_bps",
+      "rebound_5_bps",
+      "rebound_10_bps",
+      "rebound_20_bps",
+      "volatility_20_bps",
+      "volatility_regime",
+      "speed_3_bps",
+      "candle_body_bps",
+      "candle_range_bps",
+      "candle_close_position",
+      "gap_bps",
+      "cbr_nbk_basis_bps",
+      "cbr_moex_basis_bps",
+      "nbk_moex_basis_bps",
+      "usd_cross_rate",
+      "cny_cross_rate",
+      "usd_cross_basis_bps",
+      "cny_cross_basis_bps",
+      "weekday",
+      "week_of_month",
+      "month",
+      "is_month_end",
+      "is_ru_weekend",
+      "is_kz_weekend",
+      "is_ru_holiday",
+      "is_kz_holiday",
+      "days_since_ru_holiday",
+      "days_to_ru_holiday",
+      "days_since_kz_holiday",
+      "days_to_kz_holiday"
+    ],
+    "folds": [
+      {
+        "events": [],
+        "metrics": [
+          {
+            "brier_score": 0.1746,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.1746,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.8254,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8254,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.07937,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0794,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.8254,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8254,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.04762,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0476,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.8254,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8254,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.03175,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0317,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.8254,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8254,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.0,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": null,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.8254,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8254,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          }
+        ],
+        "model": {
+          "features": [
+            "cbr_age_days",
+            "nbk_age_days",
+            "cbr_is_fresh",
+            "nbk_is_fresh",
+            "moex_is_fresh",
+            "return_1",
+            "return_3",
+            "return_5",
+            "return_10",
+            "decreasing_run",
+            "falling_2",
+            "falling_3",
+            "falling_4",
+            "falling_5",
+            "percentile_20",
+            "distance_min_20_bps",
+            "percentile_60",
+            "distance_min_60_bps",
+            "percentile_120",
+            "distance_min_120_bps",
+            "rebound_5_bps",
+            "rebound_10_bps",
+            "rebound_20_bps",
+            "volatility_20_bps",
+            "volatility_regime",
+            "speed_3_bps",
+            "candle_body_bps",
+            "candle_range_bps",
+            "candle_close_position",
+            "gap_bps",
+            "cbr_nbk_basis_bps",
+            "cbr_moex_basis_bps",
+            "nbk_moex_basis_bps",
+            "usd_cross_rate",
+            "cny_cross_rate",
+            "usd_cross_basis_bps",
+            "cny_cross_basis_bps",
+            "weekday",
+            "week_of_month",
+            "month",
+            "is_month_end",
+            "is_ru_weekend",
+            "is_kz_weekend",
+            "is_ru_holiday",
+            "is_kz_holiday",
+            "days_since_ru_holiday",
+            "days_to_ru_holiday",
+            "days_since_kz_holiday",
+            "days_to_kz_holiday"
+          ],
+          "kind": "shallow_gradient_boosting",
+          "learning_rate": 0.25,
+          "rounds": 8,
+          "stumps": [
+            {
+              "feature": "decreasing_run",
+              "left": -0.023819790512474827,
+              "right": 0.09513566933596873,
+              "threshold": 1.0
+            },
+            {
+              "feature": "decreasing_run",
+              "left": -0.023606025096339828,
+              "right": 0.09427005777299256,
+              "threshold": 1.0
+            },
+            {
+              "feature": "decreasing_run",
+              "left": -0.02339533737791448,
+              "right": 0.093393362407848,
+              "threshold": 1.0
+            },
+            {
+              "feature": "decreasing_run",
+              "left": -0.023187663070669592,
+              "right": 0.09250583656569378,
+              "threshold": 1.0
+            },
+            {
+              "feature": "decreasing_run",
+              "left": -0.02298293965275091,
+              "right": 0.09160775041232136,
+              "threshold": 1.0
+            },
+            {
+              "feature": "decreasing_run",
+              "left": -0.022781106307198637,
+              "right": 0.09069939077639218,
+              "threshold": 1.0
+            },
+            {
+              "feature": "decreasing_run",
+              "left": -0.022582103864568208,
+              "right": 0.08978106091762943,
+              "threshold": 1.0
+            },
+            {
+              "feature": "decreasing_run",
+              "left": -0.022385874747841088,
+              "right": 0.08885308024053139,
+              "threshold": 1.0
+            }
+          ]
+        },
+        "rebound_threshold_bps": 35.0,
+        "scenario_utility": {
+          "favorable_now": -0.054264,
+          "window_closing": -0.775194
+        },
+        "selected_model": "shallow_gradient_boosting",
+        "selected_parameter": 8,
+        "test_end": "2025-02-11",
+        "threshold": 0.45,
+        "train_end": "2024-05-11",
+        "validation_end": "2024-11-11",
+        "validation_utility": -0.054264
+      },
+      {
+        "events": [],
+        "metrics": [
+          {
+            "brier_score": 0.19355,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.1935,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.67742,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6774,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.08065,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0806,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.67742,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6774,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.06452,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0645,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.67742,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6774,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.04839,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0484,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.67742,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6774,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.01613,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0161,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.67742,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6774,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          }
+        ],
+        "model": {
+          "features": [
+            "cbr_age_days",
+            "nbk_age_days",
+            "cbr_is_fresh",
+            "nbk_is_fresh",
+            "moex_is_fresh",
+            "return_1",
+            "return_3",
+            "return_5",
+            "return_10",
+            "decreasing_run",
+            "falling_2",
+            "falling_3",
+            "falling_4",
+            "falling_5",
+            "percentile_20",
+            "distance_min_20_bps",
+            "percentile_60",
+            "distance_min_60_bps",
+            "percentile_120",
+            "distance_min_120_bps",
+            "rebound_5_bps",
+            "rebound_10_bps",
+            "rebound_20_bps",
+            "volatility_20_bps",
+            "volatility_regime",
+            "speed_3_bps",
+            "candle_body_bps",
+            "candle_range_bps",
+            "candle_close_position",
+            "gap_bps",
+            "cbr_nbk_basis_bps",
+            "cbr_moex_basis_bps",
+            "nbk_moex_basis_bps",
+            "usd_cross_rate",
+            "cny_cross_rate",
+            "usd_cross_basis_bps",
+            "cny_cross_basis_bps",
+            "weekday",
+            "week_of_month",
+            "month",
+            "is_month_end",
+            "is_ru_weekend",
+            "is_kz_weekend",
+            "is_ru_holiday",
+            "is_kz_holiday",
+            "days_since_ru_holiday",
+            "days_to_ru_holiday",
+            "days_since_kz_holiday",
+            "days_to_kz_holiday"
+          ],
+          "kind": "shallow_gradient_boosting",
+          "learning_rate": 0.25,
+          "rounds": 8,
+          "stumps": [
+            {
+              "feature": "falling_2",
+              "left": -0.025476142490048873,
+              "right": 0.10077229696063777,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.025243315673972994,
+              "right": 0.09983780058785813,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.025013964513207084,
+              "right": 0.09889031811766899,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.024788013535128325,
+              "right": 0.09793013284464382,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.024565389419765517,
+              "right": 0.09695754932647792,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.024346020924071,
+              "right": 0.09597289321364605,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.024129838809349675,
+              "right": 0.09497651100568343,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.023916775771693346,
+              "right": 0.09396876973313525,
+              "threshold": 0.0
+            }
+          ]
+        },
+        "rebound_threshold_bps": 35.0,
+        "scenario_utility": {
+          "favorable_now": -0.039062,
+          "window_closing": -0.882812
+        },
+        "selected_model": "shallow_gradient_boosting",
+        "selected_parameter": 8,
+        "test_end": "2025-05-11",
+        "threshold": 0.45,
+        "train_end": "2024-08-11",
+        "validation_end": "2025-02-11",
+        "validation_utility": -0.039062
+      },
+      {
+        "events": [],
+        "metrics": [
+          {
+            "brier_score": 0.23438,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.2344,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.64062,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6406,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.09375,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0938,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.64062,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6406,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.04688,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0469,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.64062,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6406,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.04688,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0469,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.64062,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6406,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.01562,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0156,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.64062,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.6406,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          }
+        ],
+        "model": {
+          "features": [
+            "cbr_age_days",
+            "nbk_age_days",
+            "cbr_is_fresh",
+            "nbk_is_fresh",
+            "moex_is_fresh",
+            "return_1",
+            "return_3",
+            "return_5",
+            "return_10",
+            "decreasing_run",
+            "falling_2",
+            "falling_3",
+            "falling_4",
+            "falling_5",
+            "percentile_20",
+            "distance_min_20_bps",
+            "percentile_60",
+            "distance_min_60_bps",
+            "percentile_120",
+            "distance_min_120_bps",
+            "rebound_5_bps",
+            "rebound_10_bps",
+            "rebound_20_bps",
+            "volatility_20_bps",
+            "volatility_regime",
+            "speed_3_bps",
+            "candle_body_bps",
+            "candle_range_bps",
+            "candle_close_position",
+            "gap_bps",
+            "cbr_nbk_basis_bps",
+            "cbr_moex_basis_bps",
+            "nbk_moex_basis_bps",
+            "usd_cross_rate",
+            "cny_cross_rate",
+            "usd_cross_basis_bps",
+            "cny_cross_basis_bps",
+            "weekday",
+            "week_of_month",
+            "month",
+            "is_month_end",
+            "is_ru_weekend",
+            "is_kz_weekend",
+            "is_ru_holiday",
+            "is_kz_holiday",
+            "days_since_ru_holiday",
+            "days_to_ru_holiday",
+            "days_since_kz_holiday",
+            "days_to_kz_holiday"
+          ],
+          "kind": "shallow_gradient_boosting",
+          "learning_rate": 0.25,
+          "rounds": 8,
+          "stumps": [
+            {
+              "feature": "falling_2",
+              "left": -0.02689503141884688,
+              "right": 0.1033479126094776,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.026645146506240065,
+              "right": 0.10237315216151234,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.02639910772861779,
+              "right": 0.10138445804915146,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.02615682882728139,
+              "right": 0.10038213676012134,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.025918226083386384,
+              "right": 0.09936651856376967,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.025683218225749163,
+              "right": 0.09833795732369542,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.025451726342617872,
+              "right": 0.09729683022471453,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.02522367379721105,
+              "right": 0.09624353741299546,
+              "threshold": 0.0
+            }
+          ]
+        },
+        "rebound_threshold_bps": 20.0,
+        "scenario_utility": {
+          "favorable_now": -0.056,
+          "window_closing": -0.752
+        },
+        "selected_model": "shallow_gradient_boosting",
+        "selected_parameter": 8,
+        "test_end": "2025-08-11",
+        "threshold": 0.45,
+        "train_end": "2024-11-11",
+        "validation_end": "2025-05-11",
+        "validation_utility": -0.056
+      },
+      {
+        "events": [],
+        "metrics": [
+          {
+            "brier_score": 0.24242,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.2424,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.86364,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8636,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.10606,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.1061,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.86364,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8636,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.09091,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0909,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.86364,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8636,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.01515,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0152,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.86364,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8636,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.01515,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0152,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.86364,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.8636,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          }
+        ],
+        "model": {
+          "features": [
+            "cbr_age_days",
+            "nbk_age_days",
+            "cbr_is_fresh",
+            "nbk_is_fresh",
+            "moex_is_fresh",
+            "return_1",
+            "return_3",
+            "return_5",
+            "return_10",
+            "decreasing_run",
+            "falling_2",
+            "falling_3",
+            "falling_4",
+            "falling_5",
+            "percentile_20",
+            "distance_min_20_bps",
+            "percentile_60",
+            "distance_min_60_bps",
+            "percentile_120",
+            "distance_min_120_bps",
+            "rebound_5_bps",
+            "rebound_10_bps",
+            "rebound_20_bps",
+            "volatility_20_bps",
+            "volatility_regime",
+            "speed_3_bps",
+            "candle_body_bps",
+            "candle_range_bps",
+            "candle_close_position",
+            "gap_bps",
+            "cbr_nbk_basis_bps",
+            "cbr_moex_basis_bps",
+            "nbk_moex_basis_bps",
+            "usd_cross_rate",
+            "cny_cross_rate",
+            "usd_cross_basis_bps",
+            "cny_cross_basis_bps",
+            "weekday",
+            "week_of_month",
+            "month",
+            "is_month_end",
+            "is_ru_weekend",
+            "is_kz_weekend",
+            "is_ru_holiday",
+            "is_kz_holiday",
+            "days_since_ru_holiday",
+            "days_to_ru_holiday",
+            "days_since_kz_holiday",
+            "days_to_kz_holiday"
+          ],
+          "kind": "shallow_gradient_boosting",
+          "learning_rate": 0.25,
+          "rounds": 8,
+          "stumps": [
+            {
+              "feature": "falling_2",
+              "left": -0.027790654609047147,
+              "right": 0.10258209374122929,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.027522962865614186,
+              "right": 0.10157904727479486,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.027259530674200633,
+              "right": 0.10056227970628992,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.027000259368385824,
+              "right": 0.09953213601452415,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.026745053280603174,
+              "right": 0.09848898527166512,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.026493819629833885,
+              "right": 0.09743322033094648,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.026246468414280338,
+              "right": 0.0963652574242146,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.026002912308764777,
+              "right": 0.09528553566885456,
+              "threshold": 0.0
+            }
+          ]
+        },
+        "rebound_threshold_bps": 35.0,
+        "scenario_utility": {
+          "favorable_now": -0.055556,
+          "window_closing": -0.634921
+        },
+        "selected_model": "shallow_gradient_boosting",
+        "selected_parameter": 8,
+        "test_end": "2025-11-11",
+        "threshold": 0.45,
+        "train_end": "2025-02-11",
+        "validation_end": "2025-08-11",
+        "validation_utility": -0.055556
+      },
+      {
+        "events": [],
+        "metrics": [
+          {
+            "brier_score": 0.19355,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.1935,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.74194,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 1,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.7419,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.06452,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0645,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.74194,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 3,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.7419,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.04839,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0484,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.74194,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 5,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.7419,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.03226,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0323,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.74194,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 10,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.7419,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.03226,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.0323,
+            "scenario": "favorable_now",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          },
+          {
+            "brier_score": 0.74194,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": null,
+            "hit_rate": 0.0,
+            "horizon": 20,
+            "lift": 0.0,
+            "mean_timing_bps": null,
+            "random_hit_rate": 0.7419,
+            "scenario": "window_closing",
+            "signals": 0,
+            "slow_wait_cost_bps": null,
+            "threshold": 0.45
+          }
+        ],
+        "model": {
+          "features": [
+            "cbr_age_days",
+            "nbk_age_days",
+            "cbr_is_fresh",
+            "nbk_is_fresh",
+            "moex_is_fresh",
+            "return_1",
+            "return_3",
+            "return_5",
+            "return_10",
+            "decreasing_run",
+            "falling_2",
+            "falling_3",
+            "falling_4",
+            "falling_5",
+            "percentile_20",
+            "distance_min_20_bps",
+            "percentile_60",
+            "distance_min_60_bps",
+            "percentile_120",
+            "distance_min_120_bps",
+            "rebound_5_bps",
+            "rebound_10_bps",
+            "rebound_20_bps",
+            "volatility_20_bps",
+            "volatility_regime",
+            "speed_3_bps",
+            "candle_body_bps",
+            "candle_range_bps",
+            "candle_close_position",
+            "gap_bps",
+            "cbr_nbk_basis_bps",
+            "cbr_moex_basis_bps",
+            "nbk_moex_basis_bps",
+            "usd_cross_rate",
+            "cny_cross_rate",
+            "usd_cross_basis_bps",
+            "cny_cross_basis_bps",
+            "weekday",
+            "week_of_month",
+            "month",
+            "is_month_end",
+            "is_ru_weekend",
+            "is_kz_weekend",
+            "is_ru_holiday",
+            "is_kz_holiday",
+            "days_since_ru_holiday",
+            "days_to_ru_holiday",
+            "days_since_kz_holiday",
+            "days_to_kz_holiday"
+          ],
+          "kind": "shallow_gradient_boosting",
+          "learning_rate": 0.25,
+          "rounds": 8,
+          "stumps": [
+            {
+              "feature": "falling_2",
+              "left": -0.030522461000572668,
+              "right": 0.11523237479070825,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.03020705870144655,
+              "right": 0.1140216283916964,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.0298970736632303,
+              "right": 0.11279192112450366,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.02959237049826282,
+              "right": 0.11154374069797057,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.029292818252525034,
+              "right": 0.11027761489324608,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.028998290226972284,
+              "right": 0.1089941110813679,
+              "threshold": 0.0
+            },
+            {
+              "feature": "falling_2",
+              "left": -0.028708663807381223,
+              "right": 0.10769383555929209,
+              "threshold": 0.0
+            },
+            {
+              "feature": "return_5",
+              "left": 0.10961784066550949,
+              "right": -0.02768005559386481,
+              "threshold": -0.013818764270187356
+            }
+          ]
+        },
+        "rebound_threshold_bps": 35.0,
+        "scenario_utility": {
+          "favorable_now": -0.069231,
+          "window_closing": -0.730769
+        },
+        "selected_model": "shallow_gradient_boosting",
+        "selected_parameter": 8,
+        "test_end": "2026-02-11",
+        "threshold": 0.45,
+        "train_end": "2025-05-11",
+        "validation_end": "2025-11-11",
+        "validation_utility": -0.069231
+      },
+      {
+        "events": [
+          {
+            "confidence": 0.8057156463473718,
+            "date": "2026-02-27",
+            "evidence": [
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1162,
+            "policy_eligible": true,
+            "rate": 0.153856,
+            "scenario": "favorable_now",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.8138271272125965,
+            "date": "2026-03-03",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_81.1_bps"
+            ],
+            "index": 1164,
+            "policy_eligible": false,
+            "rate": 0.15510400000000002,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8093554134022802,
+            "date": "2026-03-04",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_36.4_bps"
+            ],
+            "index": 1165,
+            "policy_eligible": false,
+            "rate": 0.154416,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8209376721377213,
+            "date": "2026-03-05",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_152.2_bps"
+            ],
+            "index": 1166,
+            "policy_eligible": true,
+            "rate": 0.156198,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.8224650743839774,
+            "date": "2026-03-06",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_167.5_bps"
+            ],
+            "index": 1167,
+            "policy_eligible": false,
+            "rate": 0.156433,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8484504113224134,
+            "date": "2026-03-09",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_427.3_bps"
+            ],
+            "index": 1168,
+            "policy_eligible": false,
+            "rate": 0.160431,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8484504113224134,
+            "date": "2026-03-10",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_427.3_bps"
+            ],
+            "index": 1169,
+            "policy_eligible": false,
+            "rate": 0.160431,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8420093235520307,
+            "date": "2026-03-11",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_362.9_bps"
+            ],
+            "index": 1170,
+            "policy_eligible": true,
+            "rate": 0.15944,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.8511152407733285,
+            "date": "2026-03-12",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_454.0_bps"
+            ],
+            "index": 1171,
+            "policy_eligible": false,
+            "rate": 0.16084099999999998,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8558079404405499,
+            "date": "2026-03-13",
+            "evidence": [
+              "strong_candidate_on_2026-02-27",
+              "rebound_500.9_bps"
+            ],
+            "index": 1172,
+            "policy_eligible": false,
+            "rate": 0.161563,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8876083800706246,
+            "date": "2026-04-16",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1196,
+            "policy_eligible": true,
+            "rate": 0.157734,
+            "scenario": "favorable_now",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9050935132695542,
+            "date": "2026-04-17",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_174.9_bps"
+            ],
+            "index": 1197,
+            "policy_eligible": false,
+            "rate": 0.160492,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9103111581653917,
+            "date": "2026-04-20",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_227.0_bps"
+            ],
+            "index": 1198,
+            "policy_eligible": false,
+            "rate": 0.161315,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9035085664603691,
+            "date": "2026-04-21",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_159.0_bps"
+            ],
+            "index": 1199,
+            "policy_eligible": false,
+            "rate": 0.160242,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8948357375205084,
+            "date": "2026-04-22",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_72.3_bps"
+            ],
+            "index": 1200,
+            "policy_eligible": true,
+            "rate": 0.158874,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9107422636974899,
+            "date": "2026-04-23",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_231.3_bps"
+            ],
+            "index": 1201,
+            "policy_eligible": false,
+            "rate": 0.161383,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9159282096571434,
+            "date": "2026-04-24",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_283.2_bps"
+            ],
+            "index": 1202,
+            "policy_eligible": false,
+            "rate": 0.16220099999999998,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9220841430640184,
+            "date": "2026-04-27",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_344.8_bps"
+            ],
+            "index": 1203,
+            "policy_eligible": false,
+            "rate": 0.16317199999999998,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9078449809302996,
+            "date": "2026-04-28",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_202.4_bps"
+            ],
+            "index": 1204,
+            "policy_eligible": true,
+            "rate": 0.160926,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9152752115717594,
+            "date": "2026-04-29",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_276.7_bps"
+            ],
+            "index": 1205,
+            "policy_eligible": false,
+            "rate": 0.16209800000000002,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9259197143422463,
+            "date": "2026-04-30",
+            "evidence": [
+              "strong_candidate_on_2026-04-16",
+              "rebound_383.1_bps"
+            ],
+            "index": 1206,
+            "policy_eligible": false,
+            "rate": 0.163777,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8448059720455783,
+            "date": "2026-05-07",
+            "evidence": [
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1210,
+            "policy_eligible": true,
+            "rate": 0.16177,
+            "scenario": "favorable_now",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9308537022275725,
+            "date": "2026-05-08",
+            "evidence": [
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1211,
+            "policy_eligible": false,
+            "rate": 0.161026,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          }
+        ],
+        "metrics": [
+          {
+            "brier_score": 0.17646,
+            "false_positive_cost": 3.0,
+            "fast_wait_cost_bps": 46.25,
+            "hit_rate": 0.6667,
+            "horizon": 1,
+            "lift": 3.3889,
+            "mean_timing_bps": 32.72,
+            "random_hit_rate": 0.1967,
+            "scenario": "favorable_now",
+            "signals": 3,
+            "slow_wait_cost_bps": 35.36,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.77175,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 83.42,
+            "hit_rate": 1,
+            "horizon": 1,
+            "lift": 1.1961,
+            "mean_timing_bps": 42.28,
+            "random_hit_rate": 0.8361,
+            "scenario": "window_closing",
+            "signals": 4,
+            "slow_wait_cost_bps": 211.52,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.0781,
+            "false_positive_cost": 3.0,
+            "fast_wait_cost_bps": 46.25,
+            "hit_rate": 0.6667,
+            "horizon": 3,
+            "lift": 6.7778,
+            "mean_timing_bps": 62.48,
+            "random_hit_rate": 0.0984,
+            "scenario": "favorable_now",
+            "signals": 3,
+            "slow_wait_cost_bps": 35.36,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.77175,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 83.42,
+            "hit_rate": 1,
+            "horizon": 3,
+            "lift": 1.1961,
+            "mean_timing_bps": 77.52,
+            "random_hit_rate": 0.8361,
+            "scenario": "window_closing",
+            "signals": 4,
+            "slow_wait_cost_bps": 211.52,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.02892,
+            "false_positive_cost": 3.0,
+            "fast_wait_cost_bps": 46.25,
+            "hit_rate": 0.6667,
+            "horizon": 5,
+            "lift": 13.5556,
+            "mean_timing_bps": 96.63,
+            "random_hit_rate": 0.0492,
+            "scenario": "favorable_now",
+            "signals": 3,
+            "slow_wait_cost_bps": 35.36,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.77175,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 83.42,
+            "hit_rate": 1,
+            "horizon": 5,
+            "lift": 1.1961,
+            "mean_timing_bps": 70.99,
+            "random_hit_rate": 0.8361,
+            "scenario": "window_closing",
+            "signals": 4,
+            "slow_wait_cost_bps": 211.52,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.01253,
+            "false_positive_cost": 3.0,
+            "fast_wait_cost_bps": 46.25,
+            "hit_rate": 0.6667,
+            "horizon": 10,
+            "lift": 20.3333,
+            "mean_timing_bps": 132.53,
+            "random_hit_rate": 0.0328,
+            "scenario": "favorable_now",
+            "signals": 3,
+            "slow_wait_cost_bps": 35.36,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.77175,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 83.42,
+            "hit_rate": 1,
+            "horizon": 10,
+            "lift": 1.1961,
+            "mean_timing_bps": 134.69,
+            "random_hit_rate": 0.8361,
+            "scenario": "window_closing",
+            "signals": 4,
+            "slow_wait_cost_bps": 211.52,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.03526,
+            "false_positive_cost": 9.0,
+            "fast_wait_cost_bps": 46.25,
+            "hit_rate": 0,
+            "horizon": 20,
+            "lift": null,
+            "mean_timing_bps": 168.88,
+            "random_hit_rate": 0,
+            "scenario": "favorable_now",
+            "signals": 3,
+            "slow_wait_cost_bps": 35.36,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.77175,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 83.42,
+            "hit_rate": 1,
+            "horizon": 20,
+            "lift": 1.1961,
+            "mean_timing_bps": 165.21,
+            "random_hit_rate": 0.8361,
+            "scenario": "window_closing",
+            "signals": 4,
+            "slow_wait_cost_bps": 211.52,
+            "threshold": 0.75
+          }
+        ],
+        "model": {
+          "coefficients": {
+            "candle_body_bps": -0.14863742546368316,
+            "candle_close_position": -0.0893364584540946,
+            "candle_range_bps": -0.39950798625757633,
+            "cbr_age_days": -0.23720770658716542,
+            "cbr_is_fresh": 0.46522771288452874,
+            "cbr_moex_basis_bps": -0.5046216647386084,
+            "cbr_nbk_basis_bps": -0.22322692171721095,
+            "cny_cross_basis_bps": 0.09450790567326312,
+            "cny_cross_rate": 0.0045580383110923935,
+            "days_since_kz_holiday": -0.23223889963139668,
+            "days_since_ru_holiday": -0.10974935343634526,
+            "days_to_kz_holiday": 0.11309327315883828,
+            "days_to_ru_holiday": 0.20005671853670273,
+            "decreasing_run": 0.016278918587175176,
+            "distance_min_120_bps": 0.02889453041687089,
+            "distance_min_20_bps": 0.10304455383915694,
+            "distance_min_60_bps": -0.07997730872740863,
+            "falling_2": 0.3587106456831763,
+            "falling_3": 0.286855392545238,
+            "falling_4": -0.16223447051161657,
+            "falling_5": 0.18067487802691481,
+            "gap_bps": 0.32794653528060125,
+            "intercept": -2.218371724664111,
+            "is_kz_holiday": 0.24001597507745812,
+            "is_kz_weekend": -0.05663306863450591,
+            "is_month_end": 0.32683145908861944,
+            "is_ru_holiday": 0.05340018779916888,
+            "is_ru_weekend": -0.05663306863450591,
+            "moex_is_fresh": 0.0,
+            "month": 0.5693548113071917,
+            "nbk_age_days": -0.12806769141054453,
+            "nbk_is_fresh": 0.0634092228804635,
+            "nbk_moex_basis_bps": -0.34011705801755515,
+            "percentile_120": -0.008677558963254162,
+            "percentile_20": -0.4810499999298625,
+            "percentile_60": -0.049169935605905886,
+            "rebound_10_bps": -0.26133034255661625,
+            "rebound_20_bps": 0.0888247039037787,
+            "rebound_5_bps": -0.30713776167609014,
+            "return_1": -0.6930272555897592,
+            "return_10": -0.06547988897869458,
+            "return_3": -0.16282414515116767,
+            "return_5": -0.27010219435460436,
+            "speed_3_bps": -0.1628241451511678,
+            "usd_cross_basis_bps": 0.12872525843647203,
+            "usd_cross_rate": -0.0013316367567737014,
+            "volatility_20_bps": -0.7260428193301857,
+            "volatility_regime": -0.0023078087949045707,
+            "week_of_month": -0.17661953513704617,
+            "weekday": 0.24891705186647578
+          },
+          "features": [
+            "cbr_age_days",
+            "nbk_age_days",
+            "cbr_is_fresh",
+            "nbk_is_fresh",
+            "moex_is_fresh",
+            "return_1",
+            "return_3",
+            "return_5",
+            "return_10",
+            "decreasing_run",
+            "falling_2",
+            "falling_3",
+            "falling_4",
+            "falling_5",
+            "percentile_20",
+            "distance_min_20_bps",
+            "percentile_60",
+            "distance_min_60_bps",
+            "percentile_120",
+            "distance_min_120_bps",
+            "rebound_5_bps",
+            "rebound_10_bps",
+            "rebound_20_bps",
+            "volatility_20_bps",
+            "volatility_regime",
+            "speed_3_bps",
+            "candle_body_bps",
+            "candle_range_bps",
+            "candle_close_position",
+            "gap_bps",
+            "cbr_nbk_basis_bps",
+            "cbr_moex_basis_bps",
+            "nbk_moex_basis_bps",
+            "usd_cross_rate",
+            "cny_cross_rate",
+            "usd_cross_basis_bps",
+            "cny_cross_basis_bps",
+            "weekday",
+            "week_of_month",
+            "month",
+            "is_month_end",
+            "is_ru_weekend",
+            "is_kz_weekend",
+            "is_ru_holiday",
+            "is_kz_holiday",
+            "days_since_ru_holiday",
+            "days_to_ru_holiday",
+            "days_since_kz_holiday",
+            "days_to_kz_holiday"
+          ],
+          "kind": "logistic_regression",
+          "l2": 0.1
+        },
+        "rebound_threshold_bps": 35.0,
+        "scenario_utility": {
+          "favorable_now": -0.046875,
+          "window_closing": -0.585938
+        },
+        "selected_model": "logistic_regression",
+        "selected_parameter": 0.1,
+        "test_end": "2026-05-11",
+        "threshold": 0.75,
+        "train_end": "2025-08-11",
+        "validation_end": "2026-02-11",
+        "validation_utility": -0.046875
+      },
+      {
+        "events": [
+          {
+            "confidence": 0.8431384672126945,
+            "date": "2026-05-13",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1214,
+            "policy_eligible": true,
+            "rate": 0.15997,
+            "scenario": "favorable_now",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9791072546003047,
+            "date": "2026-05-14",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1215,
+            "policy_eligible": false,
+            "rate": 0.15809499999999999,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9834008946598398,
+            "date": "2026-05-15",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1216,
+            "policy_eligible": false,
+            "rate": 0.156402,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.956376244038585,
+            "date": "2026-05-19",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1218,
+            "policy_eligible": true,
+            "rate": 0.15388,
+            "scenario": "favorable_now",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9529521474979757,
+            "date": "2026-05-20",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1219,
+            "policy_eligible": false,
+            "rate": 0.152471,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9911273035910413,
+            "date": "2026-05-21",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1220,
+            "policy_eligible": false,
+            "rate": 0.150342,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9862181990454826,
+            "date": "2026-05-22",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1221,
+            "policy_eligible": false,
+            "rate": 0.150052,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9957900059629667,
+            "date": "2026-05-25",
+            "evidence": [
+              "strong_candidate_on_2026-05-21",
+              "rebound_46.6_bps"
+            ],
+            "index": 1222,
+            "policy_eligible": true,
+            "rate": 0.151043,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.999,
+            "date": "2026-05-26",
+            "evidence": [
+              "strong_candidate_on_2026-05-21",
+              "rebound_108.1_bps"
+            ],
+            "index": 1223,
+            "policy_eligible": false,
+            "rate": 0.151967,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.999,
+            "date": "2026-05-27",
+            "evidence": [
+              "strong_candidate_on_2026-05-21",
+              "rebound_89.3_bps"
+            ],
+            "index": 1224,
+            "policy_eligible": false,
+            "rate": 0.151685,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8825017444846175,
+            "date": "2026-05-28",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1225,
+            "policy_eligible": false,
+            "rate": 0.14849,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9981140751417692,
+            "date": "2026-06-05",
+            "evidence": [
+              "strong_candidate_on_2026-05-22",
+              "rebound_119.0_bps"
+            ],
+            "index": 1231,
+            "policy_eligible": true,
+            "rate": 0.151837,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.901937396717091,
+            "date": "2026-06-08",
+            "evidence": [
+              "strong_candidate_on_2026-05-28",
+              "rebound_194.4_bps"
+            ],
+            "index": 1232,
+            "policy_eligible": false,
+            "rate": 0.151376,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8947180553473018,
+            "date": "2026-06-09",
+            "evidence": [
+              "strong_candidate_on_2026-05-28",
+              "rebound_122.2_bps"
+            ],
+            "index": 1233,
+            "policy_eligible": false,
+            "rate": 0.150304,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8496934908474107,
+            "date": "2026-06-10",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1234,
+            "policy_eligible": false,
+            "rate": 0.147968,
+            "scenario": "favorable_now",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9460963512899102,
+            "date": "2026-06-11",
+            "evidence": [
+              "cbr_in_bottom_quartile_20",
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1235,
+            "policy_eligible": true,
+            "rate": 0.146446,
+            "scenario": "favorable_now",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9510674669229763,
+            "date": "2026-06-15",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_49.7_bps"
+            ],
+            "index": 1236,
+            "policy_eligible": false,
+            "rate": 0.147174,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9571311354424307,
+            "date": "2026-06-16",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_110.3_bps"
+            ],
+            "index": 1237,
+            "policy_eligible": false,
+            "rate": 0.148062,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9657759601559771,
+            "date": "2026-06-18",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_196.8_bps"
+            ],
+            "index": 1239,
+            "policy_eligible": true,
+            "rate": 0.14932800000000002,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9696750082692748,
+            "date": "2026-06-19",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_235.8_bps"
+            ],
+            "index": 1240,
+            "policy_eligible": false,
+            "rate": 0.149899,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9742773873031846,
+            "date": "2026-06-22",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_281.8_bps"
+            ],
+            "index": 1241,
+            "policy_eligible": false,
+            "rate": 0.15057299999999998,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9774867614069501,
+            "date": "2026-06-23",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_313.9_bps"
+            ],
+            "index": 1242,
+            "policy_eligible": false,
+            "rate": 0.151043,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.9923591375729087,
+            "date": "2026-06-24",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_462.6_bps"
+            ],
+            "index": 1243,
+            "policy_eligible": true,
+            "rate": 0.153221,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.9962786710528263,
+            "date": "2026-06-25",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_501.8_bps"
+            ],
+            "index": 1244,
+            "policy_eligible": false,
+            "rate": 0.15379500000000002,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.999,
+            "date": "2026-06-26",
+            "evidence": [
+              "strong_candidate_on_2026-06-11",
+              "rebound_604.7_bps"
+            ],
+            "index": 1245,
+            "policy_eligible": false,
+            "rate": 0.155301,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.7974317232188645,
+            "date": "2026-07-28",
+            "evidence": [
+              "cbr_falling_streak",
+              "cbr_3_observation_momentum_down"
+            ],
+            "index": 1267,
+            "policy_eligible": true,
+            "rate": 0.163878,
+            "scenario": "favorable_now",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.8118448842288842,
+            "date": "2026-07-29",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_144.1_bps"
+            ],
+            "index": 1268,
+            "policy_eligible": false,
+            "rate": 0.16624,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8131507337022729,
+            "date": "2026-07-30",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_157.2_bps"
+            ],
+            "index": 1269,
+            "policy_eligible": false,
+            "rate": 0.166454,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.818654828211603,
+            "date": "2026-07-31",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_212.2_bps"
+            ],
+            "index": 1270,
+            "policy_eligible": false,
+            "rate": 0.167356,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8190575668342369,
+            "date": "2026-08-03",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_216.3_bps"
+            ],
+            "index": 1271,
+            "policy_eligible": true,
+            "rate": 0.16742200000000002,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.8291016239987129,
+            "date": "2026-08-04",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_316.7_bps"
+            ],
+            "index": 1272,
+            "policy_eligible": false,
+            "rate": 0.169068,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8388283719453561,
+            "date": "2026-08-05",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_414.0_bps"
+            ],
+            "index": 1273,
+            "policy_eligible": false,
+            "rate": 0.17066199999999998,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.8437466648217641,
+            "date": "2026-08-06",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_463.1_bps"
+            ],
+            "index": 1274,
+            "policy_eligible": false,
+            "rate": 0.17146799999999998,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          },
+          {
+            "confidence": 0.854699934937338,
+            "date": "2026-08-07",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_572.7_bps"
+            ],
+            "index": 1275,
+            "policy_eligible": true,
+            "rate": 0.173263,
+            "scenario": "window_closing",
+            "suppressed_reason": null
+          },
+          {
+            "confidence": 0.8699673899953689,
+            "date": "2026-08-10",
+            "evidence": [
+              "strong_candidate_on_2026-07-28",
+              "rebound_725.4_bps"
+            ],
+            "index": 1276,
+            "policy_eligible": false,
+            "rate": 0.175765,
+            "scenario": "window_closing",
+            "suppressed_reason": "cooldown"
+          }
+        ],
+        "metrics": [
+          {
+            "brier_score": 0.11799,
+            "false_positive_cost": 6.0,
+            "fast_wait_cost_bps": -3.73,
+            "hit_rate": 0.5,
+            "horizon": 1,
+            "lift": 4.0625,
+            "mean_timing_bps": 29.98,
+            "random_hit_rate": 0.1231,
+            "scenario": "favorable_now",
+            "signals": 4,
+            "slow_wait_cost_bps": -92.06,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.69316,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 58.21,
+            "hit_rate": 1,
+            "horizon": 1,
+            "lift": 1.2745,
+            "mean_timing_bps": -18.86,
+            "random_hit_rate": 0.7846,
+            "scenario": "window_closing",
+            "signals": 6,
+            "slow_wait_cost_bps": 82.44,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.05645,
+            "false_positive_cost": 6.0,
+            "fast_wait_cost_bps": -3.73,
+            "hit_rate": 0.5,
+            "horizon": 3,
+            "lift": 8.125,
+            "mean_timing_bps": 48.58,
+            "random_hit_rate": 0.0615,
+            "scenario": "favorable_now",
+            "signals": 4,
+            "slow_wait_cost_bps": -92.06,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.69316,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 58.21,
+            "hit_rate": 1,
+            "horizon": 3,
+            "lift": 1.2745,
+            "mean_timing_bps": -22.99,
+            "random_hit_rate": 0.7846,
+            "scenario": "window_closing",
+            "signals": 6,
+            "slow_wait_cost_bps": 82.44,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.02568,
+            "false_positive_cost": 6.0,
+            "fast_wait_cost_bps": -3.73,
+            "hit_rate": 0.5,
+            "horizon": 5,
+            "lift": 16.25,
+            "mean_timing_bps": 70.96,
+            "random_hit_rate": 0.0308,
+            "scenario": "favorable_now",
+            "signals": 4,
+            "slow_wait_cost_bps": -92.06,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.69316,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 58.21,
+            "hit_rate": 1,
+            "horizon": 5,
+            "lift": 1.2745,
+            "mean_timing_bps": -14.71,
+            "random_hit_rate": 0.7846,
+            "scenario": "window_closing",
+            "signals": 6,
+            "slow_wait_cost_bps": 82.44,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.04856,
+            "false_positive_cost": 12.0,
+            "fast_wait_cost_bps": -3.73,
+            "hit_rate": 0,
+            "horizon": 10,
+            "lift": null,
+            "mean_timing_bps": 94.09,
+            "random_hit_rate": 0,
+            "scenario": "favorable_now",
+            "signals": 4,
+            "slow_wait_cost_bps": -92.06,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.69316,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 58.21,
+            "hit_rate": 1,
+            "horizon": 10,
+            "lift": 1.2745,
+            "mean_timing_bps": 70.95,
+            "random_hit_rate": 0.7846,
+            "scenario": "window_closing",
+            "signals": 6,
+            "slow_wait_cost_bps": 82.44,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.0501,
+            "false_positive_cost": 12.0,
+            "fast_wait_cost_bps": -3.73,
+            "hit_rate": 0,
+            "horizon": 20,
+            "lift": null,
+            "mean_timing_bps": 170.11,
+            "random_hit_rate": 0,
+            "scenario": "favorable_now",
+            "signals": 4,
+            "slow_wait_cost_bps": -92.06,
+            "threshold": 0.75
+          },
+          {
+            "brier_score": 0.69895,
+            "false_positive_cost": 0.0,
+            "fast_wait_cost_bps": 40.97,
+            "hit_rate": 1,
+            "horizon": 20,
+            "lift": 1.2857,
+            "mean_timing_bps": 214.27,
+            "random_hit_rate": 0.7778,
+            "scenario": "window_closing",
+            "signals": 5,
+            "slow_wait_cost_bps": 58.81,
+            "threshold": 0.75
+          }
+        ],
+        "model": {
+          "coefficients": {
+            "candle_body_bps": -0.15729243428575898,
+            "candle_close_position": -0.11719782145910493,
+            "candle_range_bps": -0.3596758032748081,
+            "cbr_age_days": -0.22675385646483134,
+            "cbr_is_fresh": 0.412242284472284,
+            "cbr_moex_basis_bps": -0.5078079816044188,
+            "cbr_nbk_basis_bps": -0.2912556000981022,
+            "cny_cross_basis_bps": 0.08365293353120527,
+            "cny_cross_rate": -0.003683913567358715,
+            "days_since_kz_holiday": -0.23061605184312853,
+            "days_since_ru_holiday": -0.11540786050901387,
+            "days_to_kz_holiday": 0.11189938382815229,
+            "days_to_ru_holiday": 0.17162639154973025,
+            "decreasing_run": 0.036880146087719036,
+            "distance_min_120_bps": 0.008623805810175255,
+            "distance_min_20_bps": 0.0824553985586989,
+            "distance_min_60_bps": -0.10947517290457892,
+            "falling_2": 0.3681574294884688,
+            "falling_3": 0.2880052747158852,
+            "falling_4": -0.08712008347863191,
+            "falling_5": 0.11355535883893987,
+            "gap_bps": 0.31589441968971094,
+            "intercept": -2.18993029502527,
+            "is_kz_holiday": 0.23796687168765276,
+            "is_kz_weekend": -0.058595788232952514,
+            "is_month_end": 0.3275562698577771,
+            "is_ru_holiday": 0.034115779241506154,
+            "is_ru_weekend": -0.058595788232952514,
+            "moex_is_fresh": 0.0,
+            "month": 0.5144189966574555,
+            "nbk_age_days": -0.10774859526736,
+            "nbk_is_fresh": 0.05089494394608213,
+            "nbk_moex_basis_bps": -0.3051384431969251,
+            "percentile_120": 0.026358959150051237,
+            "percentile_20": -0.44077189406973033,
+            "percentile_60": -0.027551882097363974,
+            "rebound_10_bps": -0.22030679346381138,
+            "rebound_20_bps": 0.09161062686513567,
+            "rebound_5_bps": -0.2916081015373545,
+            "return_1": -0.5903532265485503,
+            "return_10": -0.0361760909902236,
+            "return_3": -0.1794577823175634,
+            "return_5": -0.31903573935420126,
+            "speed_3_bps": -0.1794577823175635,
+            "usd_cross_basis_bps": 0.09417763296770851,
+            "usd_cross_rate": -0.009927470425533345,
+            "volatility_20_bps": -0.6973008537613069,
+            "volatility_regime": -0.015449927944065592,
+            "week_of_month": -0.14077992679693727,
+            "weekday": 0.28915790202803276
+          },
+          "features": [
+            "cbr_age_days",
+            "nbk_age_days",
+            "cbr_is_fresh",
+            "nbk_is_fresh",
+            "moex_is_fresh",
+            "return_1",
+            "return_3",
+            "return_5",
+            "return_10",
+            "decreasing_run",
+            "falling_2",
+            "falling_3",
+            "falling_4",
+            "falling_5",
+            "percentile_20",
+            "distance_min_20_bps",
+            "percentile_60",
+            "distance_min_60_bps",
+            "percentile_120",
+            "distance_min_120_bps",
+            "rebound_5_bps",
+            "rebound_10_bps",
+            "rebound_20_bps",
+            "volatility_20_bps",
+            "volatility_regime",
+            "speed_3_bps",
+            "candle_body_bps",
+            "candle_range_bps",
+            "candle_close_position",
+            "gap_bps",
+            "cbr_nbk_basis_bps",
+            "cbr_moex_basis_bps",
+            "nbk_moex_basis_bps",
+            "usd_cross_rate",
+            "cny_cross_rate",
+            "usd_cross_basis_bps",
+            "cny_cross_basis_bps",
+            "weekday",
+            "week_of_month",
+            "month",
+            "is_month_end",
+            "is_ru_weekend",
+            "is_kz_weekend",
+            "is_ru_holiday",
+            "is_kz_holiday",
+            "days_since_ru_holiday",
+            "days_to_ru_holiday",
+            "days_since_kz_holiday",
+            "days_to_kz_holiday"
+          ],
+          "kind": "logistic_regression",
+          "l2": 10.0
+        },
+        "rebound_threshold_bps": 35.0,
+        "scenario_utility": {
+          "favorable_now": -0.04065,
+          "window_closing": -0.707317
+        },
+        "selected_model": "logistic_regression",
+        "selected_parameter": 10.0,
+        "test_end": "2026-08-11",
+        "threshold": 0.75,
+        "train_end": "2025-11-11",
+        "validation_end": "2026-05-11",
+        "validation_utility": -0.04065
+      }
+    ],
+    "frequency": {
+      "cluster_share_le_3d": 0,
+      "eligible_signals": 17,
+      "gap_std_days": 9.55,
+      "median_gap_days": 6
+    },
+    "last_selection": {
+      "rebound_threshold_bps": 35.0,
+      "selected_model": "logistic_regression",
+      "selected_parameter": 10.0,
+      "threshold": 0.75
+    },
+    "method": "expanding walk-forward 36m train / 6m validation / 3m untouched test / 3m step",
+    "metrics": [
+      {
+        "brier_score": 0.19042,
+        "false_positive_cost": 9.0,
+        "fast_wait_cost_bps": 21.26,
+        "hit_rate": 0.5714,
+        "horizon": 1,
+        "lift": 2.9451,
+        "mean_timing_bps": 31.35,
+        "random_hit_rate": 0.194,
+        "scenario": "favorable_now",
+        "signals": 7,
+        "slow_wait_cost_bps": -28.35
+      },
+      {
+        "brier_score": 0.74485,
+        "false_positive_cost": 0.0,
+        "fast_wait_cost_bps": 70.81,
+        "hit_rate": 1.0,
+        "horizon": 1,
+        "lift": 1.3036,
+        "mean_timing_bps": 11.71,
+        "random_hit_rate": 0.7671,
+        "scenario": "window_closing",
+        "signals": 10,
+        "slow_wait_cost_bps": 146.98
+      },
+      {
+        "brier_score": 0.07984,
+        "false_positive_cost": 9.0,
+        "fast_wait_cost_bps": 21.26,
+        "hit_rate": 0.5714,
+        "horizon": 3,
+        "lift": 6.846,
+        "mean_timing_bps": 55.53,
+        "random_hit_rate": 0.0835,
+        "scenario": "favorable_now",
+        "signals": 7,
+        "slow_wait_cost_bps": -28.35
+      },
+      {
+        "brier_score": 0.74485,
+        "false_positive_cost": 0.0,
+        "fast_wait_cost_bps": 70.81,
+        "hit_rate": 1.0,
+        "horizon": 3,
+        "lift": 1.3036,
+        "mean_timing_bps": 27.27,
+        "random_hit_rate": 0.7671,
+        "scenario": "window_closing",
+        "signals": 10,
+        "slow_wait_cost_bps": 146.98
+      },
+      {
+        "brier_score": 0.05042,
+        "false_positive_cost": 9.0,
+        "fast_wait_cost_bps": 21.26,
+        "hit_rate": 0.5714,
+        "horizon": 5,
+        "lift": 10.5739,
+        "mean_timing_bps": 83.79,
+        "random_hit_rate": 0.054,
+        "scenario": "favorable_now",
+        "signals": 7,
+        "slow_wait_cost_bps": -28.35
+      },
+      {
+        "brier_score": 0.74485,
+        "false_positive_cost": 0.0,
+        "fast_wait_cost_bps": 70.81,
+        "hit_rate": 1.0,
+        "horizon": 5,
+        "lift": 1.3036,
+        "mean_timing_bps": 28.14,
+        "random_hit_rate": 0.7671,
+        "scenario": "window_closing",
+        "signals": 10,
+        "slow_wait_cost_bps": 146.98
+      },
+      {
+        "brier_score": 0.03365,
+        "false_positive_cost": 15.0,
+        "fast_wait_cost_bps": 21.26,
+        "hit_rate": 0.2857,
+        "horizon": 10,
+        "lift": 9.6483,
+        "mean_timing_bps": 113.31,
+        "random_hit_rate": 0.0296,
+        "scenario": "favorable_now",
+        "signals": 7,
+        "slow_wait_cost_bps": -28.35
+      },
+      {
+        "brier_score": 0.74485,
+        "false_positive_cost": 0.0,
+        "fast_wait_cost_bps": 70.81,
+        "hit_rate": 1.0,
+        "horizon": 10,
+        "lift": 1.3036,
+        "mean_timing_bps": 102.82,
+        "random_hit_rate": 0.7671,
+        "scenario": "window_closing",
+        "signals": 10,
+        "slow_wait_cost_bps": 146.98
+      },
+      {
+        "brier_score": 0.0235,
+        "false_positive_cost": 21.0,
+        "fast_wait_cost_bps": 21.26,
+        "hit_rate": 0.0,
+        "horizon": 20,
+        "lift": 0.0,
+        "mean_timing_bps": 169.5,
+        "random_hit_rate": 0.0113,
+        "scenario": "favorable_now",
+        "signals": 7,
+        "slow_wait_cost_bps": -28.35
+      },
+      {
+        "brier_score": 0.74567,
+        "false_positive_cost": 0.0,
+        "fast_wait_cost_bps": 62.2,
+        "hit_rate": 1.0,
+        "horizon": 20,
+        "lift": 1.3053,
+        "mean_timing_bps": 189.74,
+        "random_hit_rate": 0.7661,
+        "scenario": "window_closing",
+        "signals": 9,
+        "slow_wait_cost_bps": 135.17
+      }
+    ],
+    "primary_lifts": {
+      "favorable_now": 10.5739,
+      "window_closing": 1.3036
+    },
+    "source_robustness": [
+      {
+        "hit_rate": 0.5714,
+        "lift": 10.5476,
+        "random_hit_rate": 0.0542,
+        "signals": 7,
+        "source": "CBR"
+      },
+      {
+        "hit_rate": 0.0,
+        "lift": 0.0,
+        "random_hit_rate": 0.0497,
+        "signals": 7,
+        "source": "NBK"
+      },
+      {
+        "hit_rate": 0.0,
+        "lift": 0.0,
+        "random_hit_rate": 0.0497,
+        "signals": 7,
+        "source": "MOEX"
+      }
+    ]
+  },
+  "decision": "no-go",
+  "decision_reason": "не пройден один из gate: OOT lift ≥ 1.3, подтверждение ≥2 источниками или базовое качество данных",
+  "quality": {
+    "calendar_days": 2192,
+    "cbr_fresh_share": 0.7707,
+    "closed_calendar_days": 793,
+    "duplicate_dates": 0,
+    "end": "2026-09-03",
+    "grain": "one row per fresh MOEX KZTRUB_TOM daily candle",
+    "max_session_gap_days": 12,
+    "missing_core_values": 0,
+    "nbk_fresh_share": 0.983,
+    "nbk_unavailable_calendar_days": 246,
+    "rows": 1295,
+    "start": "2021-05-11"
+  },
+  "signal": {
+    "as_of": "2026-09-03",
+    "confidence": 0.0,
+    "corridor": "RUB_KZT",
+    "eligible_to_send": false,
+    "evidence": [],
+    "rate_snapshot": {
+      "cbr_rate": 0.189762,
+      "cny_cross_rate": 0.1907262,
+      "moex_close": 0.191975,
+      "nbk_rate": 0.19047619,
+      "usd_cross_rate": 0.19103272
+    },
+    "scenario": null,
+    "source_freshness": {
+      "cbr": {
+        "age_days": 0,
+        "is_fresh": true
+      },
+      "moex": {
+        "age_days": 0,
+        "is_fresh": true
+      },
+      "nbk": {
+        "age_days": 0,
+        "is_fresh": true
+      }
+    },
+    "suppressed_reason": "no_candidate"
+  }
+}

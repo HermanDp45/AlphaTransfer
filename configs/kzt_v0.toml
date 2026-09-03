@@ -1,0 +1,52 @@
+[project]
+corridor = "RUB_KZT"
+timezone = "Europe/Moscow"
+history_years = 6
+
+[paths]
+raw_cache = "data/raw"
+observations = "data/kzt_v0/observations.csv"
+calendar = "data/kzt_v0/calendar.csv"
+features = "data/kzt_v0/features.csv"
+backtest = "data/kzt_v0/backtest.json"
+signal = "data/kzt_v0/signal.json"
+report_snapshot = "data/kzt_v0/report_snapshot.json"
+report_html = "reports/kzt_v0.html"
+report_app = "reports/kzt_v0_app"
+
+[sources]
+cbr_codes = ["KZT", "USD", "CNY"]
+nbk_codes = ["RUB", "USD", "CNY"]
+moex_security = "KZTRUB_TOM"
+moex_facevalue = 100
+cbr_fresh_days = 4
+nbk_fresh_days = 4
+signal_ttl_calendar_days = 3
+
+[features]
+return_windows = [1, 3, 5, 10]
+level_windows = [20, 60, 120]
+rebound_windows = [5, 10, 20]
+streaks = [2, 3, 4, 5]
+volatility_window = 20
+
+[model]
+primary_horizon = 5
+horizons = [1, 3, 5, 10, 20]
+false_positive_cost = 3.0
+logit_l2 = [0.1, 1.0, 10.0]
+boost_rounds = [8, 16]
+thresholds = [0.45, 0.55, 0.65, 0.75]
+min_oot_lift = 1.3
+
+[walk_forward]
+initial_train_months = 36
+validation_months = 6
+test_months = 3
+step_months = 3
+
+[policy]
+cooldown_sessions = 3
+max_candidates_7d = 2
+window_closing_lookback = 10
+rebound_threshold_bps = [10.0, 20.0, 35.0]

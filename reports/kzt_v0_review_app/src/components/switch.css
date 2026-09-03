@@ -1,0 +1,57 @@
+.data-switch {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.data-switch[data-full-width] { width: 100%; }
+
+.data-switch-track {
+  position: relative;
+  width: 34px;
+  height: 20px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--border-strong);
+  transition: background 160ms ease;
+}
+
+.data-switch-track::after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--surface-raised);
+  content: "";
+  transition: transform 160ms ease;
+}
+
+.data-switch[aria-checked="true"] .data-switch-track { background: var(--accent); }
+.data-switch[aria-checked="true"] .data-switch-track::after { transform: translateX(14px); }
+.data-switch:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.data-switch:disabled { cursor: default; opacity: var(--control-disabled-opacity, .58); }
+
+@media (prefers-reduced-motion: reduce) {
+  .data-switch-track,
+  .data-switch-track::after { transition: none; }
+}
+
+.data-switch[data-size="compact"] { display: inline-flex; align-items: center; gap: 8px; border: 0; background: transparent; padding: 6px 8px; color: var(--secondary); font: inherit; font-size: 14px; border-radius: var(--control-radius); cursor: pointer; white-space: nowrap; }
+.data-switch[data-size="compact"]:hover { background: var(--interaction-hover); color: var(--text); }
+.data-switch[data-size="compact"] .data-switch-track { position: relative; width: 28px; height: 16px; border-radius: 10px; background: var(--border-strong); transition: background 120ms ease; }
+.data-switch[data-size="compact"] .data-switch-track::after { content: ""; position: absolute; width: 12px; height: 12px; top: 2px; left: 2px; border-radius: 50%; background: var(--surface); transition: transform 120ms ease; }
+.data-switch[data-size="compact"][aria-checked="true"] .data-switch-track { background: var(--text); }
+.data-switch[data-size="compact"][aria-checked="true"] .data-switch-track::after { transform: translateX(12px); }

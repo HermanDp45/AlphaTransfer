@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-09-03",
+  "confidence": 0.0,
+  "corridor": "RUB_KZT",
+  "eligible_to_send": false,
+  "evidence": [],
+  "rate_snapshot": {
+    "cbr_rate": 0.189762,
+    "cny_cross_rate": 0.1907262,
+    "moex_close": 0.191975,
+    "nbk_rate": 0.19047619,
+    "usd_cross_rate": 0.19103272
+  },
+  "scenario": null,
+  "source_freshness": {
+    "cbr": {
+      "age_days": 0,
+      "is_fresh": true
+    },
+    "moex": {
+      "age_days": 0,
+      "is_fresh": true
+    },
+    "nbk": {
+      "age_days": 0,
+      "is_fresh": true
+    }
+  },
+  "suppressed_reason": "no_candidate"
+}

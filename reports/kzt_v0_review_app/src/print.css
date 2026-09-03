@@ -1,0 +1,110 @@
+@page {
+  margin: 12mm;
+}
+
+@media print {
+  :root {
+    color-scheme: light dark;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  html,
+  body,
+  #root,
+  .dashboard-root {
+    width: auto;
+    min-width: 0;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  .dashboard-topbar,
+  .theme-drawer,
+  .popover,
+  .dialog-backdrop,
+  .source-sidebar-backdrop,
+  .source-sidebar,
+  .dashboard-toast,
+  .dashboard-ask-panel,
+  .dashboard-ask-selected-region,
+  .dashboard-tooltip,
+  .menu-trigger,
+  .info,
+  .table-pagination {
+    display: none !important;
+  }
+
+  main.page,
+  main.report-page {
+    width: auto;
+    max-width: none;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+
+  main.page.has-source-sidebar {
+    margin-inline-end: 0;
+  }
+
+  .filters.filter-bar,
+  .filters.filter-bar[data-stuck] {
+    position: static;
+    margin-inline: 0;
+    padding-inline: 0;
+    border-color: transparent;
+    background: transparent;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .data-section-header { break-inside: avoid-page; }
+  .chart-funnel { break-inside: avoid-page; }
+  .chart-funnel-scroll { overflow: visible; }
+  .chart-funnel-canvas { min-width: 0; }
+  .chart-funnel-stage-name { padding-inline: 6px; font-size: 12px; }
+  .chart-funnel-stage-value { padding-inline: 6px; font-size: 20px; line-height: 28px; }
+  .chart-funnel-stage-share { padding-inline: 2px; }
+  .chart-funnel-stage-share > span { padding-inline: 4px; }
+  .chart-funnel-stage:focus-visible { outline: none; }
+  .chart-funnel-tooltip { display: none; }
+  :is(.data-section-filters, .component-section-filters) .clear-filters { display: none; }
+  /* Print can change dimensions before ResizeObserver runs. Keep a native
+     surface rather than printing a stale, screen-sized SVG background. */
+  .smooth-card-surface { display: none !important; }
+  .dashboard-component:has(> .smooth-card-surface[data-ready]) {
+    background: var(--card-surface, var(--background)) !important;
+    border-color: var(--card-surface-border, var(--border)) !important;
+  }
+
+  .dashboard-component,
+  .metric-item,
+  .chart-layout,
+  .report-summary,
+  .report-recommendations,
+  .report-facts,
+  table,
+  tr,
+  svg,
+  img {
+    break-inside: avoid-page;
+  }
+
+  .table-wrap,
+  .table-scroll,
+  .chart-layout,
+  .recharts-responsive-container {
+    max-width: 100%;
+    max-height: none;
+    overflow: visible;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+}
