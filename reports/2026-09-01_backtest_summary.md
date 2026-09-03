@@ -1,5 +1,12 @@
 # Результат воспроизводимого бэктеста
 
+> **Историческая справка.** Это прогон предшественника текущего V0: только ряд
+> ЦБ РФ, зато сразу пять коридоров. Код, которым он был получен, удалён вместе
+> с остальным устаревшим поколением; исходники лежат в коммите `bca8ace`.
+> Входной ряд сохранён в `data/cbr_daily.csv`. Текущее поколение считает один
+> коридор RUB→KZT на трёх источниках — см. `data/kzt_v0/backtest.json` и
+> `reports/kzt_v0.html`.
+
 **Данные:** официальный XML-ряд ЦБ РФ, скачан 03.09.2026; период
 01.01.2020–01.09.2026, 8 205 публикаций (по 1 641 на AMD, KGS, KZT, TJS и
 UZS). CSV с номиналами и нормализованным `rub_per_unit` находится в
@@ -66,11 +73,6 @@ out-of-time период, а не быть объявлена успешной �
 
 ## Команды
 
-```bash
-PYTHONPATH=src python -m alphatransfer download \
-  --start 2020-01-01 --end 2026-09-01 --output data/cbr_daily.csv
-PYTHONPATH=src python -m alphatransfer backtest \
-  --input data/cbr_daily.csv --as-of 2026-09-01 --horizon 5 --walk-forward
-PYTHONPATH=src python -m alphatransfer backtest \
-  --input data/cbr_daily.csv --as-of 2026-09-01 --horizon 5 --model classical
-```
+Команды, которыми получен этот прогон (`alphatransfer download` и
+`alphatransfer backtest --input …`), удалены вместе со старым поколением кода и
+доступны в коммите `bca8ace`. Актуальный CLI описан в [README](../README.md).

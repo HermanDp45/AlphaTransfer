@@ -15,7 +15,7 @@ alphatransfer all --start 2020-09-03 --end 2026-09-03 --as-of 2026-09-03
 
 Без установки: `PYTHONPATH=src python -m alphatransfer …`. Подробный контракт,
 команды и ограничения описаны в [RUB→KZT V0](docs/kzt_v0.md). Проверка:
-`PYTHONPATH=src python -m unittest discover -s tests -v`.
+`PYTHONPATH=src:tests python -m unittest test_kzt_v0 -v`.
 
 ## Команды
 
