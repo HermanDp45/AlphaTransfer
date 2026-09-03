@@ -4,21 +4,25 @@
 
 ## Главный артефакт
 
-- `report.md` — продуктовый отчёт: вывод, JTBD, сегменты, проверка timing-гипотезы, риски, рекомендации и план пилота.
+- `report.md` — продуктовый отчёт: вывод, JTBD, сегменты, проверка timing-гипотезы, риски и ограничения для сигнального слоя.
+- `../ml_hackathon/HACKATHON_ML_PLAN.md` — приоритетный backlog ML/алгоритма/MVP и проверки, которые реально выполнить на хакатоне.
+- `../ml_hackathon/results/` — воспроизводимый аудит данных, baseline-матрица и таблица сигналов.
 
 ## Воспроизведение
 
 Скрипты используют только стандартную библиотеку Python и не записывают исходные тексты, имена, handles, телефоны, карты, email или Telegram ID.
 
+Из корня общей директории `ai product hack`:
+
 ```bash
-PYTHONDONTWRITEBYTECODE=1 python3 chat_research_kz/analyze_chat.py \
+PYTHONDONTWRITEBYTECODE=1 python3 AlphaTransfer/Researches/chat_research_kz/analyze_chat.py \
   --input result.json \
   --rates AlphaTransfer/data/open_exchange_rates/rub_cis_daily.csv \
-  --output chat_research_kz/data
+  --output AlphaTransfer/Researches/chat_research_kz/data
 
-PYTHONDONTWRITEBYTECODE=1 python3 chat_research_kz/derive_slices.py
-PYTHONDONTWRITEBYTECODE=1 python3 chat_research_kz/build_charts.py
-PYTHONDONTWRITEBYTECODE=1 python3 chat_research_kz/verify_outputs.py
+PYTHONDONTWRITEBYTECODE=1 python3 AlphaTransfer/Researches/chat_research_kz/derive_slices.py
+PYTHONDONTWRITEBYTECODE=1 python3 AlphaTransfer/Researches/chat_research_kz/build_charts.py
+PYTHONDONTWRITEBYTECODE=1 python3 AlphaTransfer/Researches/chat_research_kz/verify_outputs.py
 ```
 
 Первый шаг потоково читает Telegram JSON объёмом около 320 МБ и обычно занимает несколько минут.

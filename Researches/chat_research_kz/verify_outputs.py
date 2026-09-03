@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
-SOURCE = ROOT.parent / "result.json"
+SOURCE = ROOT.parents[2] / "result.json"
 
 
 def read_csv(name: str) -> list[dict[str, str]]:

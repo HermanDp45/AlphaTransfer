@@ -1,0 +1,67 @@
+{
+  "rate_field": "rub_per_quote",
+  "rate_orientation": "lower_is_better_for_sender",
+  "signal_time_contract": "point is usable only at or after published_at_utc",
+  "corridors": {
+    "RUB/AMD": {
+      "rows": 3000,
+      "first_date": "2018-06-17",
+      "last_date": "2026-09-02",
+      "duplicate_dates": 0,
+      "non_daily_gaps": 0,
+      "non_positive_rates": 0,
+      "unchanged_days": 236,
+      "unchanged_share": 0.07869289763254418,
+      "unchanged_weekend_share": 0.9957627118644068,
+      "publication_date_after_rate_date": 0
+    },
+    "RUB/KGS": {
+      "rows": 3000,
+      "first_date": "2018-06-17",
+      "last_date": "2026-09-02",
+      "duplicate_dates": 0,
+      "non_daily_gaps": 0,
+      "non_positive_rates": 0,
+      "unchanged_days": 272,
+      "unchanged_share": 0.0906968989663221,
+      "unchanged_weekend_share": 0.9816176470588235,
+      "publication_date_after_rate_date": 0
+    },
+    "RUB/KZT": {
+      "rows": 3000,
+      "first_date": "2018-06-17",
+      "last_date": "2026-09-02",
+      "duplicate_dates": 0,
+      "non_daily_gaps": 0,
+      "non_positive_rates": 0,
+      "unchanged_days": 267,
+      "unchanged_share": 0.08902967655885295,
+      "unchanged_weekend_share": 0.9962546816479401,
+      "publication_date_after_rate_date": 0
+    },
+    "RUB/TJS": {
+      "rows": 3000,
+      "first_date": "2018-06-17",
+      "last_date": "2026-09-02",
+      "duplicate_dates": 0,
+      "non_daily_gaps": 0,
+      "non_positive_rates": 0,
+      "unchanged_days": 274,
+      "unchanged_share": 0.09136378792930977,
+      "unchanged_weekend_share": 0.9927007299270073,
+      "publication_date_after_rate_date": 0
+    },
+    "RUB/UZS": {
+      "rows": 3000,
+      "first_date": "2018-06-17",
+      "last_date": "2026-09-02",
+      "duplicate_dates": 0,
+      "non_daily_gaps": 0,
+      "non_positive_rates": 0,
+      "unchanged_days": 251,
+      "unchanged_share": 0.08369456485495165,
+      "unchanged_weekend_share": 0.9960159362549801,
+      "publication_date_after_rate_date": 0
+    }
+  }
+}

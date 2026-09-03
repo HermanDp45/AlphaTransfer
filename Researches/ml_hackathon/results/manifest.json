@@ -1,0 +1,62 @@
+{
+  "input": "data/open_exchange_rates/rub_cis_daily.csv",
+  "as_of": null,
+  "quotes": [
+    "AMD",
+    "KGS",
+    "KZT",
+    "TJS",
+    "UZS"
+  ],
+  "horizons": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "indicators": [
+    {
+      "name": "momentum_down_3",
+      "scenario": "NOW_FAVORABLE",
+      "direction": "recipient_currency_cheaper_in_rub",
+      "speed_days": 3,
+      "warmup_days": 5,
+      "cooldown_days": 4,
+      "detector": "detect_momentum_down_3"
+    },
+    {
+      "name": "low_level_90_p10",
+      "scenario": "NOW_FAVORABLE",
+      "direction": "historically_low_rub_per_quote",
+      "speed_days": 90,
+      "warmup_days": 90,
+      "cooldown_days": 4,
+      "detector": "detect_low_level_90_p10"
+    },
+    {
+      "name": "reversal_up_from_30d_low",
+      "scenario": "WINDOW_CLOSING",
+      "direction": "recipient_currency_started_rising_in_rub",
+      "speed_days": 1,
+      "warmup_days": 30,
+      "cooldown_days": 4,
+      "detector": "detect_reversal_up_from_30d_low"
+    },
+    {
+      "name": "seasonal_positive_month",
+      "scenario": "WINDOW_CLOSING",
+      "direction": "historically_rising_calendar_month",
+      "speed_days": 365,
+      "warmup_days": 730,
+      "cooldown_days": 4,
+      "detector": "detect_seasonal_positive_month"
+    }
+  ],
+  "outputs": [
+    "data_audit.json",
+    "baseline_metrics.csv",
+    "baseline_verdicts.csv",
+    "signals.csv"
+  ]
+}
