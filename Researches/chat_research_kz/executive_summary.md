@@ -30,11 +30,13 @@
 
 - Уже реализован диагностический baseline: 15 000 точек по пяти коридорам, четыре индикатора, все пять горизонтов, OOT-разрезы, CI, частота/кучность и prefix-invariance unit-test.
 - Ни одна из 100 overall-комбинаций не прошла все гейты: 55 оставлены отрицательными контролями, 45 — только кандидатами на ML. Это честная стартовая точка, а не повод скрыть результат.
-- Следующий обязательный слой: barrier labels `δ × h`, pooled Elastic Net, затем EBM/GAM и shallow CatBoost; пороги выбирать только внутри inner walk-forward.
-- Для каждой модели показать lift к random day и rules, symmetric и forward bps, block-bootstrap CI, worst-year/corridor, frequency, clustering и ablation.
-- MVP должен воспроизводить решение на произвольный cutoff, показывать причины SIGNAL/SILENCE и не раскрывать будущее до включения режима оценки.
+- В `edelkin_test` уже есть технический KZT V0 на CBR/NBK/MOEX, logistic/shallow boosting, cutoff CLI, отчёт и stale-state MVP. Переписывать их не нужно.
+- Численные выводы V0 надо пересчитать: обе truth-функции расходятся с документацией/Q&A, validation не purged, а все 17 eligible signals появились только в двух последних из семи folds — 0,187 сигнала/неделю на полном test-span.
+- Следующий обязательный слой — исправить evaluator, повторить KZT без изменения моделей, затем вернуть пять официальных CBR-коридоров и только после этого сравнивать rules с сокращённой logistic regression.
+- Barrier labels, EBM, CatBoost и HMM демотированы: они не исправят неверный target и малое число OOT events.
+- MVP должен использовать уже готовый frontend, но показывать результаты исправленного cutoff-прогона, причины SIGNAL/SILENCE и скрывать будущее до режима оценки.
 
-Подробный исполнимый backlog и Definition of Done: [HACKATHON_ML_PLAN.md](../ml_hackathon/HACKATHON_ML_PLAN.md).
+Подробный исполнимый backlog, аудит `edelkin_test` и Definition of Done: [HACKATHON_ML_PLAN_V2.md](../ml_hackathon/HACKATHON_ML_PLAN_V2.md).
 
 ## Чего не утверждать
 

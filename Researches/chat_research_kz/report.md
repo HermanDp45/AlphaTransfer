@@ -305,7 +305,7 @@
 
 ## 7. Что делать на хакатоне: ML и алгоритмический контур
 
-Исследование чата задаёт продуктовые ограничения, но не заменяет проверку сигнала. Главный рабочий артефакт команды теперь — [план ML, алгоритма и MVP](../ml_hackathon/HACKATHON_ML_PLAN.md), а не план будущего rollout.
+Исследование чата задаёт продуктовые ограничения, но не заменяет проверку сигнала. Главный рабочий артефакт команды теперь — [актуальный план ML, алгоритма и MVP](../ml_hackathon/HACKATHON_ML_PLAN_V2.md), сверенный с Q&A и экспериментами `edelkin_test`, а не план будущего rollout.
 
 ### Что уже проверено на публичных рядах
 
@@ -316,19 +316,21 @@
 - Лучшие агрегатные lift нестабильны по годам. KZT momentum на `h=20` даёт lift 1,41 overall, но 0,79 в 2022, 0,95 в 2025 и 0,92 в 2026.
 - Симметричная выгода `±h` может вознаграждать индикатор за уже случившееся движение. Поэтому рядом обязательно показывается forward-only robustness: для TJS momentum на `h=10` это +83,4 против −1,6 б.п.
 - После cooldown частота простых правил составляет 0,07–0,49 сигнала на коридор в неделю, ниже требуемых 1–2.
+- В `edelkin_test` дополнительно реализован KZT V0 на ЦБ РФ, НБК и MOEX: ingestion, freshness, 49 point-in-time признаков, logistic/shallow boosting, policy, cutoff CLI, отчёт и MVP.
+- Его headline lift пока invalidated методологическим аудитом: `favorable_now` размечен уникальным минимумом `±h` вместо forward-условия Q&A, а `window_closing` — уже случившимся rebound без future truth. Все 17 разрешённых сигналов сосредоточены в двух последних из семи folds; частота на полном test-span — 0,187/неделю.
 
 ### Приоритет задач
 
-1. Заморозить определения `NOW/WAIT/INDIFFERENT`, rate orientation и decision timestamp.
-2. Реализовать cutoff feature API и автоматический prefix-invariance test.
-3. Построить barrier labels по `δ=25/50/75/100` б.п. и `h=1/3/5/10/20`.
-4. Сравнить pooled Elastic Net, EBM/GAM и shallow CatBoost в nested walk-forward с purge `h`.
-5. Оптимизировать асимметричный decision score, а не accuracy; порог выбирать при ограничении частоты.
-6. Проверить block-bootstrap CI, worst-year, worst-corridor, source/2022 sensitivity и ablation.
-7. Применить reject option, conflict suppression и cooldown; только затем мерить частоту и кучность.
-8. Собрать MVP, который на произвольную дату показывает `SIGNAL` или `SILENCE` и объясняет решение.
+1. Исправить в V0 обе future-truth функции по определениям Q&A и отделить trigger condition от outcome.
+2. Добавить purge последних `h` наблюдений validation, counts-based aggregation и честный frequency denominator со всеми zero-signal folds.
+3. Считать Brier/reliability по raw OOT probabilities на всех eligible days, а не только по разрешённым policy events.
+4. Повторить KZT V0 без изменения признаков и моделей, чтобы изолировать эффект исправления evaluator.
+5. Восстановить официальный CBR ingestion пяти коридоров из старого поколения, но не переносить старый evaluator.
+6. Построить полную матрицу `5 коридоров × 5 горизонтов`; затем перезапустить существующую logistic regression на сокращённом наборе признаков.
+7. Проверить rolling против expanding window и ablation price/calendar/cross-source; новые модели добавлять только после устойчивого результата.
+8. Не строить новый MVP: подключить исправленные результаты к уже готовым HTML-report и stale-state prototype из `edelkin_test`.
 
-Критерий победы ML строгий: она должна улучшить устойчивость и forward-выгоду относительно прозрачных правил. Если этого нет, честный rule-based MVP сильнее сложной модели с красивым in-sample.
+Критерий победы ML строгий: она должна улучшить устойчивость и обязательную `±h` выгоду относительно прозрачных правил. Forward-only остаётся дополнительной диагностикой. Если выигрыша нет, честный rule-based/no-signal MVP сильнее сложной модели с красивым pooled результатом.
 
 ## 8. Что проверить в MVP до production
 
@@ -398,7 +400,7 @@
 - [Диагностическая проверка timing vs in-flow](../analysis_work/timing_vs_inflow.md)
 - [Подробный P2P precision-аудит](../analysis_work/data_audit/p2p_validation.md)
 - [Продуктовая рамка и критика старого отчёта](../analysis_work/product_context.md)
-- [Backlog ML/алгоритма/MVP и критерии готовности](../ml_hackathon/HACKATHON_ML_PLAN.md)
+- [Backlog ML/алгоритма/MVP и критерии готовности](../ml_hackathon/HACKATHON_ML_PLAN_V2.md)
 - [Baseline-матрица и аудит рядов](../ml_hackathon/README.md)
 
 Прямые идентификаторы, контакты и исходные тексты не выгружаются в производные файлы. Детальный `data/daily.csv` сохранён только для внутренней воспроизводимости: в нём есть редкие ячейки, поэтому его не следует публиковать вне команды без недельной агрегации и suppression значений `<5` (предпочтительно `<10`).
