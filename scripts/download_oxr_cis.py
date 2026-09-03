@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import getpass
+import hashlib
 import json
 import os
 import sqlite3
@@ -120,9 +121,11 @@ def connect_db(path: Path) -> sqlite3.Connection:
     )
     connection.execute(
         """
-        CREATE TABLE IF NOT EXISTS monthly_usage (
-            utc_month TEXT PRIMARY KEY,
-            requests_reserved INTEGER NOT NULL
+        CREATE TABLE IF NOT EXISTS account_monthly_usage (
+            account_fingerprint TEXT NOT NULL,
+            utc_month TEXT NOT NULL,
+            requests_reserved INTEGER NOT NULL,
+            PRIMARY KEY (account_fingerprint, utc_month)
         )
         """
     )
@@ -145,22 +148,46 @@ def contiguous_days(end: date, existing: set[date]) -> int:
     return count
 
 
-def local_requests_reserved(connection: sqlite3.Connection, utc_month: str) -> int:
+def covered_span_days(end: date, existing: set[date]) -> int:
+    relevant_dates = [existing_date for existing_date in existing if existing_date <= end]
+    if not relevant_dates:
+        return 0
+    return (end - min(relevant_dates)).days + 1
+
+
+def app_id_fingerprint(app_id: str) -> str:
+    return hashlib.sha256(app_id.encode("utf-8")).hexdigest()[:16]
+
+
+def local_requests_reserved(
+    connection: sqlite3.Connection, account_fingerprint: str, utc_month: str
+) -> int:
     row = connection.execute(
-        "SELECT requests_reserved FROM monthly_usage WHERE utc_month = ?", (utc_month,)
+        """
+        SELECT requests_reserved
+        FROM account_monthly_usage
+        WHERE account_fingerprint = ? AND utc_month = ?
+        """,
+        (account_fingerprint, utc_month),
     ).fetchone()
     return int(row[0]) if row else 0
 
 
-def reserve_requests(connection: sqlite3.Connection, utc_month: str, count: int) -> None:
+def reserve_requests(
+    connection: sqlite3.Connection,
+    account_fingerprint: str,
+    utc_month: str,
+    count: int,
+) -> None:
     connection.execute(
         """
-        INSERT INTO monthly_usage (utc_month, requests_reserved)
-        VALUES (?, ?)
-        ON CONFLICT (utc_month) DO UPDATE
+        INSERT INTO account_monthly_usage (
+            account_fingerprint, utc_month, requests_reserved
+        ) VALUES (?, ?, ?)
+        ON CONFLICT (account_fingerprint, utc_month) DO UPDATE
         SET requests_reserved = requests_reserved + excluded.requests_reserved
         """,
-        (utc_month, count),
+        (account_fingerprint, utc_month, count),
     )
     connection.commit()
 
@@ -287,7 +314,8 @@ def main() -> int:
 
     connection = connect_db(args.db)
     utc_month = current_utc_date.strftime("%Y-%m")
-    local_reserved = local_requests_reserved(connection, utc_month)
+    account_fingerprint = app_id_fingerprint(app_id)
+    local_reserved = local_requests_reserved(connection, account_fingerprint, utc_month)
     if usage.requests_quota < 0:
         allowance = (args.end - EARLIEST_DATE).days + 1
     else:
@@ -298,11 +326,14 @@ def main() -> int:
     if usage.requests_remaining <= 0:
         print("No historical-request quota remains; exporting already downloaded data.")
     elif allowance <= 0:
-        print("New downloads disabled by --max-new-days; exporting already downloaded data.")
+        print(
+            "No new range extension is allowed; previously reserved gaps will still be retried."
+        )
 
     existing = existing_complete_dates(connection)
     already_contiguous = contiguous_days(args.end, existing)
-    targets = newest_target_dates(args.end, already_contiguous + allowance)
+    already_reserved_span = max(already_contiguous, covered_span_days(args.end, existing))
+    targets = newest_target_dates(args.end, already_reserved_span + allowance)
     missing = [day for day in targets if day not in existing]
 
     if targets:
@@ -314,7 +345,8 @@ def main() -> int:
         print("No dates are available to export yet.")
     if local_reserved:
         print(f"Locally reserved this UTC month: {local_reserved} requests")
-    reserve_requests(connection, utc_month, len(missing))
+    newly_reserved = max(len(targets) - already_reserved_span, 0)
+    reserve_requests(connection, account_fingerprint, utc_month, newly_reserved)
 
     failures: list[tuple[date, str]] = []
     completed = 0
