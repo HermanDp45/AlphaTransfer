@@ -1,0 +1,11 @@
+{
+  "client_id": "synthetic-demo-client",
+  "timezone": "Europe/Moscow",
+  "relevant_corridors": ["AMD", "KZT"],
+  "marketing_contacts_last_7d": 0,
+  "urgent_transfer": false,
+  "has_saved_recipient": true,
+  "alpha_quote": null,
+  "note": "Synthetic context for UX preview only; contains no real customer data."
+}
+
