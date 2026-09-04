@@ -1,0 +1,413 @@
+report_date,amount,type,currency,ambiguous_duplicate_key
+2023-01-01,0.38,Volume (mln.),Euro,False
+2023-01-01,2.9,Weighted average rate,Euro,False
+2023-01-01,2477.9052317,Volume (mln.),Tenge,True
+2023-01-01,17056750.0,Volume (mln.),Tenge,True
+2023-01-01,15.745876735016928,Weighted average rate,Tenge,True
+2023-01-01,16.75,Weighted average rate,Tenge,True
+2023-01-01,16.67485317,Volume (mln.),US dollars,True
+2023-01-01,8244.19684,Volume (mln.),US dollars,True
+2023-01-01,2.9681370876147106,Weighted average rate,US dollars,True
+2023-01-01,5.353567262325705,Weighted average rate,US dollars,True
+2023-02-01,58.5,Volume (mln.),Euro,False
+2023-02-01,2.1102564102564103,Weighted average rate,Euro,False
+2023-02-01,14263850.0,Volume (mln.),Tenge,False
+2023-02-01,15.934597987219439,Weighted average rate,Tenge,False
+2023-02-01,9162.051807,Volume (mln.),US dollars,False
+2023-02-01,3.2461590967371396,Weighted average rate,US dollars,False
+2023-03-01,5.0,Volume (mln.),Euro,False
+2023-03-01,2.5,Weighted average rate,Euro,False
+2023-03-01,3751.69004761,Volume (mln.),Tenge,True
+2023-03-01,10784278.0,Volume (mln.),Tenge,True
+2023-03-01,15.94647764087684,Weighted average rate,Tenge,True
+2023-03-01,17.75,Weighted average rate,Tenge,True
+2023-03-01,0.16054346,Volume (mln.),US dollars,True
+2023-03-01,7673.050666,Volume (mln.),US dollars,True
+2023-03-01,1.75,Weighted average rate,US dollars,True
+2023-03-01,3.425001137176122,Weighted average rate,US dollars,True
+2023-04-01,179.0,Volume (mln.),Euro,False
+2023-04-01,2.6154748603351954,Weighted average rate,Euro,False
+2023-04-01,4582.64536706,Volume (mln.),Tenge,True
+2023-04-01,10235350.0,Volume (mln.),Tenge,True
+2023-04-01,15.946136136038337,Weighted average rate,Tenge,True
+2023-04-01,17.75,Weighted average rate,Tenge,True
+2023-04-01,1.7,Volume (mln.),US dollars,True
+2023-04-01,8021.915985,Volume (mln.),US dollars,True
+2023-04-01,2.932295875927202,Weighted average rate,US dollars,True
+2023-04-01,3.5,Weighted average rate,US dollars,True
+2023-05-01,51.0,Volume (mln.),Euro,False
+2023-05-01,3.656862745098039,Weighted average rate,Euro,False
+2023-05-01,1981.7096715999999,Volume (mln.),Tenge,True
+2023-05-01,11753424.0,Volume (mln.),Tenge,True
+2023-05-01,15.906191251162214,Weighted average rate,Tenge,True
+2023-05-01,17.75,Weighted average rate,Tenge,True
+2023-05-01,1.3,Volume (mln.),US dollars,True
+2023-05-01,8506.117621,Volume (mln.),US dollars,True
+2023-05-01,3.2420542960900116,Weighted average rate,US dollars,True
+2023-05-01,3.5,Weighted average rate,US dollars,True
+2023-06-01,158.4,Volume (mln.),Euro,False
+2023-06-01,2.5786300505050503,Weighted average rate,Euro,False
+2023-06-01,5906.89479548,Volume (mln.),Tenge,True
+2023-06-01,12614174.0,Volume (mln.),Tenge,True
+2023-06-01,15.864431630640262,Weighted average rate,Tenge,True
+2023-06-01,17.75,Weighted average rate,Tenge,True
+2023-06-01,1.1,Volume (mln.),US dollars,True
+2023-06-01,7828.432936,Volume (mln.),US dollars,True
+2023-06-01,3.5,Weighted average rate,US dollars,True
+2023-06-01,3.9407424476351163,Weighted average rate,US dollars,True
+2023-07-01,341.6,Volume (mln.),Euro,False
+2023-07-01,2.82751756440281,Weighted average rate,Euro,False
+2023-07-01,12955.61434578,Volume (mln.),Tenge,True
+2023-07-01,16213941.0,Volume (mln.),Tenge,True
+2023-07-01,15.881899348221385,Weighted average rate,Tenge,True
+2023-07-01,17.75,Weighted average rate,Tenge,True
+2023-07-01,0.27401714,Volume (mln.),US dollars,True
+2023-07-01,6966.251613,Volume (mln.),US dollars,True
+2023-07-01,2.75,Weighted average rate,US dollars,True
+2023-07-01,3.4408633003434406,Weighted average rate,US dollars,True
+2023-08-01,297.9,Volume (mln.),Euro,False
+2023-08-01,3.0113125209801948,Weighted average rate,Euro,False
+2023-08-01,5257.20815751,Volume (mln.),Tenge,True
+2023-08-01,12577119.3,Volume (mln.),Tenge,True
+2023-08-01,15.96808382226286,Weighted average rate,Tenge,True
+2023-08-01,17.749999999999996,Weighted average rate,Tenge,True
+2023-08-01,0.46123958000000004,Volume (mln.),US dollars,True
+2023-08-01,7274.677004,Volume (mln.),US dollars,True
+2023-08-01,2.8514778697006014,Weighted average rate,US dollars,True
+2023-08-01,3.082291518607745,Weighted average rate,US dollars,True
+2023-09-01,270.8,Volume (mln.),Euro,False
+2023-09-01,3.146418020679468,Weighted average rate,Euro,False
+2023-09-01,10473.242670059999,Volume (mln.),Tenge,True
+2023-09-01,13229477.0,Volume (mln.),Tenge,True
+2023-09-01,15.958468993143116,Weighted average rate,Tenge,True
+2023-09-01,17.75,Weighted average rate,Tenge,True
+2023-09-01,6710.619838,Volume (mln.),US dollars,False
+2023-09-01,2.7597109425735877,Weighted average rate,US dollars,False
+2023-10-01,227.0,Volume (mln.),Euro,False
+2023-10-01,3.4435022026431716,Weighted average rate,Euro,False
+2023-10-01,3241.60455985,Volume (mln.),Tenge,True
+2023-10-01,14703250.0,Volume (mln.),Tenge,True
+2023-10-01,14.49482019475541,Weighted average rate,Tenge,True
+2023-10-01,15.658090694234268,Weighted average rate,Tenge,True
+2023-10-01,5138.12748188,Volume (mln.),US dollars,False
+2023-10-01,2.416454993039111,Weighted average rate,US dollars,False
+2023-11-01,248.2,Volume (mln.),Euro,False
+2023-11-01,3.6482473811442384,Weighted average rate,Euro,False
+2023-11-01,4725.21200854,Volume (mln.),Tenge,True
+2023-11-01,18010464.911,Volume (mln.),Tenge,True
+2023-11-01,15.288636620330939,Weighted average rate,Tenge,True
+2023-11-01,16.0,Weighted average rate,Tenge,True
+2023-11-01,6014.489844,Volume (mln.),US dollars,False
+2023-11-01,2.6151793745451375,Weighted average rate,US dollars,False
+2023-12-01,4.0,Volume (mln.),Euro,True
+2023-12-01,241.40696393000002,Volume (mln.),Euro,True
+2023-12-01,3.680940194252912,Weighted average rate,Euro,True
+2023-12-01,6.706,Weighted average rate,Euro,True
+2023-12-01,3003.26914403,Volume (mln.),Tenge,True
+2023-12-01,22724672.2326389,Volume (mln.),Tenge,True
+2023-12-01,15.236767271019753,Weighted average rate,Tenge,True
+2023-12-01,17.248639339386006,Weighted average rate,Tenge,True
+2023-12-01,5501.96558,Volume (mln.),US dollars,False
+2023-12-01,2.9635797459496285,Weighted average rate,US dollars,False
+2024-01-01,583.22596795,Volume (mln.),Euro,False
+2024-01-01,3.7549946060962247,Weighted average rate,Euro,False
+2024-01-01,3.44208052,Volume (mln.),Tenge,True
+2024-01-01,26590793.184027787,Volume (mln.),Tenge,True
+2024-01-01,8.0,Weighted average rate,Tenge,True
+2024-01-01,15.046796148402992,Weighted average rate,Tenge,True
+2024-01-01,0.489,Volume (mln.),US dollars,True
+2024-01-01,5060.578705,Volume (mln.),US dollars,True
+2024-01-01,2.584033931560007,Weighted average rate,US dollars,True
+2024-01-01,3.0,Weighted average rate,US dollars,True
+2024-02-01,833.70752737,Volume (mln.),Euro,False
+2024-02-01,3.746879917441545,Weighted average rate,Euro,False
+2024-02-01,29610574.19097222,Volume (mln.),Tenge,False
+2024-02-01,14.976419609339054,Weighted average rate,Tenge,False
+2024-02-01,31.0,Volume (mln.),US dollars,True
+2024-02-01,6362.856044,Volume (mln.),US dollars,True
+2024-02-01,2.880649480939286,Weighted average rate,US dollars,True
+2024-02-01,6.670322580645161,Weighted average rate,US dollars,True
+2024-03-01,400.40704174,Volume (mln.),Euro,False
+2024-03-01,3.8000228986557283,Weighted average rate,Euro,False
+2024-03-01,9000.0,Volume (mln.),Tenge,True
+2024-03-01,36807550.0625,Volume (mln.),Tenge,True
+2024-03-01,14.602053266723267,Weighted average rate,Tenge,True
+2024-03-01,17.4,Weighted average rate,Tenge,True
+2024-03-01,0.44125,Volume (mln.),US dollars,True
+2024-03-01,5440.318918,Volume (mln.),US dollars,True
+2024-03-01,2.9793283139251434,Weighted average rate,US dollars,True
+2024-03-01,3.0,Weighted average rate,US dollars,True
+2024-04-01,833.22705509,Volume (mln.),Euro,False
+2024-04-01,3.672759982333929,Weighted average rate,Euro,False
+2024-04-01,3941.88271254,Volume (mln.),Tenge,True
+2024-04-01,31246845.27777778,Volume (mln.),Tenge,True
+2024-04-01,14.190988134242138,Weighted average rate,Tenge,True
+2024-04-01,14.722351758601722,Weighted average rate,Tenge,True
+2024-04-01,0.27417253,Volume (mln.),US dollars,True
+2024-04-01,5098.179493,Volume (mln.),US dollars,True
+2024-04-01,3.5,Weighted average rate,US dollars,True
+2024-04-01,4.348509288352747,Weighted average rate,US dollars,True
+2024-05-01,626.90735309,Volume (mln.),Euro,False
+2024-05-01,3.657043164882716,Weighted average rate,Euro,False
+2024-05-01,2632.91834413,Volume (mln.),Tenge,True
+2024-05-01,36846769.65277776,Volume (mln.),Tenge,True
+2024-05-01,14.20941320391227,Weighted average rate,Tenge,True
+2024-05-01,14.749999999999998,Weighted average rate,Tenge,True
+2024-05-01,40.76755596,Volume (mln.),US dollars,True
+2024-05-01,7116.709561,Volume (mln.),US dollars,True
+2024-05-01,0.25081297392545476,Weighted average rate,US dollars,True
+2024-05-01,3.252323492650398,Weighted average rate,US dollars,True
+2024-06-01,3.0,Volume (mln.),Euro,True
+2024-06-01,872.0273591,Volume (mln.),Euro,True
+2024-06-01,3.63636558312543,Weighted average rate,Euro,True
+2024-06-01,5.541,Weighted average rate,Euro,True
+2024-06-01,11589.19686759,Volume (mln.),Tenge,True
+2024-06-01,39236335.24305554,Volume (mln.),Tenge,True
+2024-06-01,14.157231891078004,Weighted average rate,Tenge,True
+2024-06-01,16.30532779414665,Weighted average rate,Tenge,True
+2024-06-01,0.4732832,Volume (mln.),US dollars,True
+2024-06-01,7514.362512,Volume (mln.),US dollars,True
+2024-06-01,3.4582170151974165,Weighted average rate,US dollars,True
+2024-06-01,3.6248901292080515,Weighted average rate,US dollars,True
+2024-07-01,1201.20742219,Volume (mln.),Euro,False
+2024-07-01,3.5337207095912304,Weighted average rate,Euro,False
+2024-07-01,36547383.95833333,Volume (mln.),Tenge,False
+2024-07-01,13.925143241984097,Weighted average rate,Tenge,False
+2024-07-01,8.60513645,Volume (mln.),US dollars,True
+2024-07-01,6380.33884,Volume (mln.),US dollars,True
+2024-07-01,1.86404360123294,Weighted average rate,US dollars,True
+2024-07-01,3.6353207594982413,Weighted average rate,US dollars,True
+2024-08-01,951.7076696,Volume (mln.),Euro,False
+2024-08-01,3.5220191061492736,Weighted average rate,Euro,False
+2024-08-01,4160.28665752,Volume (mln.),Tenge,True
+2024-08-01,45453757.694444455,Volume (mln.),Tenge,True
+2024-08-01,13.81839574570878,Weighted average rate,Tenge,True
+2024-08-01,14.412014618583232,Weighted average rate,Tenge,True
+2024-08-01,4.2234507,Volume (mln.),US dollars,True
+2024-08-01,4472.904773,Volume (mln.),US dollars,True
+2024-08-01,2.674118036755709,Weighted average rate,US dollars,True
+2024-08-01,4.149551461557252,Weighted average rate,US dollars,True
+2024-09-01,446.22760963999997,Volume (mln.),Euro,False
+2024-09-01,3.5575731009802967,Weighted average rate,Euro,False
+2024-09-01,1969.67652881,Volume (mln.),Tenge,True
+2024-09-01,43168770.27778079,Volume (mln.),Tenge,True
+2024-09-01,13.72028230985883,Weighted average rate,Tenge,True
+2024-09-01,14.208036764518928,Weighted average rate,Tenge,True
+2024-09-01,29.405169409999996,Volume (mln.),US dollars,True
+2024-09-01,4811.894852,Volume (mln.),US dollars,True
+2024-09-01,2.1353897818962566,Weighted average rate,US dollars,True
+2024-09-01,7.328794203372692,Weighted average rate,US dollars,True
+2024-10-01,1705.00749238,Volume (mln.),Euro,False
+2024-10-01,2.687913022726819,Weighted average rate,Euro,False
+2024-10-01,44486002.5,Volume (mln.),Tenge,False
+2024-10-01,13.705737914414765,Weighted average rate,Tenge,False
+2024-10-01,2.96008438,Volume (mln.),US dollars,True
+2024-10-01,8672.280136,Volume (mln.),US dollars,True
+2024-10-01,2.2462670550152533,Weighted average rate,US dollars,True
+2024-10-01,4.25,Weighted average rate,US dollars,True
+2024-11-01,1841.8077421300002,Volume (mln.),Euro,False
+2024-11-01,2.629770085802272,Weighted average rate,Euro,False
+2024-11-01,39950981.48611111,Volume (mln.),Tenge,False
+2024-11-01,13.818851105895876,Weighted average rate,Tenge,False
+2024-11-01,2.00519574,Volume (mln.),US dollars,True
+2024-11-01,7944.759809,Volume (mln.),US dollars,True
+2024-11-01,2.632613622176026,Weighted average rate,US dollars,True
+2024-11-01,4.327771185570143,Weighted average rate,US dollars,True
+2024-12-01,2205.82676258,Volume (mln.),Euro,False
+2024-12-01,2.607900585865418,Weighted average rate,Euro,False
+2024-12-01,245.06298303999998,Volume (mln.),Tenge,True
+2024-12-01,36970845.01388887,Volume (mln.),Tenge,True
+2024-12-01,13.76510859415969,Weighted average rate,Tenge,True
+2024-12-01,14.25,Weighted average rate,Tenge,True
+2024-12-01,3.2268011000000003,Volume (mln.),US dollars,True
+2024-12-01,63209.076638,Volume (mln.),US dollars,True
+2024-12-01,4.027918445735357,Weighted average rate,US dollars,True
+2024-12-01,4.351300015052058,Weighted average rate,US dollars,True
+2025-01-01,2488.69459703,Volume (mln.),Euro,False
+2025-01-01,2.612131074794404,Weighted average rate,Euro,False
+2025-01-01,3305.32668925,Volume (mln.),Tenge,True
+2025-01-01,40664653.28472222,Volume (mln.),Tenge,True
+2025-01-01,14.721858978937531,Weighted average rate,Tenge,True
+2025-01-01,15.23291636392141,Weighted average rate,Tenge,True
+2025-01-01,6.25957868,Volume (mln.),US dollars,True
+2025-01-01,8561.637035,Volume (mln.),US dollars,True
+2025-01-01,2.864776586751204,Weighted average rate,US dollars,True
+2025-01-01,4.364496611775156,Weighted average rate,US dollars,True
+2025-02-01,2961.75459704,Volume (mln.),Euro,False
+2025-02-01,2.537474407944171,Weighted average rate,Euro,False
+2025-02-01,19352.68723959,Volume (mln.),Tenge,True
+2025-02-01,39715731.3225,Volume (mln.),Tenge,True
+2025-02-01,14.775786671208456,Weighted average rate,Tenge,True
+2025-02-01,16.25,Weighted average rate,Tenge,True
+2025-02-01,0.3425295,Volume (mln.),US dollars,True
+2025-02-01,7783.659448,Volume (mln.),US dollars,True
+2025-02-01,3.3859952471034678,Weighted average rate,US dollars,True
+2025-02-01,5.7370398024111795,Weighted average rate,US dollars,True
+2025-03-01,2959.5959642,Volume (mln.),Euro,False
+2025-03-01,2.2051050175235942,Weighted average rate,Euro,False
+2025-03-01,3172.18260355,Volume (mln.),Tenge,True
+2025-03-01,33053959.22276149,Volume (mln.),Tenge,True
+2025-03-01,14.847036524674014,Weighted average rate,Tenge,True
+2025-03-01,16.25,Weighted average rate,Tenge,True
+2025-03-01,1.92294119,Volume (mln.),US dollars,True
+2025-03-01,7268.394527,Volume (mln.),US dollars,True
+2025-03-01,3.272829309008146,Weighted average rate,US dollars,True
+2025-03-01,4.3824311977528545,Weighted average rate,US dollars,True
+2025-04-01,2791.23462245,Volume (mln.),Euro,False
+2025-04-01,2.1256549013845154,Weighted average rate,Euro,False
+2025-04-01,19964.98235992,Volume (mln.),Tenge,True
+2025-04-01,34129269.79998975,Volume (mln.),Tenge,True
+2025-04-01,15.688729789382142,Weighted average rate,Tenge,True
+2025-04-01,18.12609622060543,Weighted average rate,Tenge,True
+2025-04-01,1.37614187,Volume (mln.),US dollars,True
+2025-04-01,6959.804602,Volume (mln.),US dollars,True
+2025-04-01,3.2932493272603516,Weighted average rate,US dollars,True
+2025-04-01,3.7903033195988725,Weighted average rate,US dollars,True
+2025-05-01,2614.73447334,Volume (mln.),Euro,False
+2025-05-01,1.9479745401619175,Weighted average rate,Euro,False
+2025-05-01,14861.42300475,Volume (mln.),Tenge,True
+2025-05-01,38254053.89326403,Volume (mln.),Tenge,True
+2025-05-01,16.041929349719723,Weighted average rate,Tenge,True
+2025-05-01,17.5,Weighted average rate,Tenge,True
+2025-05-01,11.17811738,Volume (mln.),US dollars,True
+2025-05-01,9102.92423,Volume (mln.),US dollars,True
+2025-05-01,3.2018519147884854,Weighted average rate,US dollars,True
+2025-05-01,4.999584301645614,Weighted average rate,US dollars,True
+2025-06-01,2850.55462245,Volume (mln.),Euro,False
+2025-06-01,1.816558439309762,Weighted average rate,Euro,False
+2025-06-01,14422.64211469,Volume (mln.),Tenge,True
+2025-06-01,36623429.29166667,Volume (mln.),Tenge,True
+2025-06-01,16.027731547094575,Weighted average rate,Tenge,True
+2025-06-01,18.713369912450062,Weighted average rate,Tenge,True
+2025-06-01,4.96779469,Volume (mln.),US dollars,True
+2025-06-01,10265.672705,Volume (mln.),US dollars,True
+2025-06-01,3.4339999277719033,Weighted average rate,US dollars,True
+2025-06-01,3.75,Weighted average rate,US dollars,True
+2025-07-01,2788.58447335,Volume (mln.),Euro,False
+2025-07-01,1.691550400733712,Weighted average rate,Euro,False
+2025-07-01,2425.98323192,Volume (mln.),Tenge,True
+2025-07-01,40350903.64500002,Volume (mln.),Tenge,True
+2025-07-01,16.015135862826597,Weighted average rate,Tenge,True
+2025-07-01,17.5,Weighted average rate,Tenge,True
+2025-07-01,0.62736982,Volume (mln.),US dollars,True
+2025-07-01,9223.541687,Volume (mln.),US dollars,True
+2025-07-01,3.2370719994231645,Weighted average rate,US dollars,True
+2025-07-01,3.75,Weighted average rate,US dollars,True
+2025-08-01,2471.40462244,Volume (mln.),Euro,False
+2025-08-01,1.7824404454463005,Weighted average rate,Euro,False
+2025-08-01,11325.10727297,Volume (mln.),Tenge,True
+2025-08-01,44613522.52222223,Volume (mln.),Tenge,True
+2025-08-01,16.039418465287355,Weighted average rate,Tenge,True
+2025-08-01,18.206395074869963,Weighted average rate,Tenge,True
+2025-08-01,1.4454886,Volume (mln.),US dollars,True
+2025-08-01,11822.665918,Volume (mln.),US dollars,True
+2025-08-01,3.6760919885531353,Weighted average rate,US dollars,True
+2025-08-01,3.75,Weighted average rate,US dollars,True
+2025-09-01,2488.65462247,Volume (mln.),Euro,False
+2025-09-01,1.7883052216212654,Weighted average rate,Euro,False
+2025-09-01,13219.0064867,Volume (mln.),Tenge,True
+2025-09-01,43944776.07833333,Volume (mln.),Tenge,True
+2025-09-01,16.013888598493377,Weighted average rate,Tenge,True
+2025-09-01,17.261706751322855,Weighted average rate,Tenge,True
+2025-09-01,0.3430272,Volume (mln.),US dollars,True
+2025-09-01,10786.018199,Volume (mln.),US dollars,True
+2025-09-01,3.664897886243591,Weighted average rate,US dollars,True
+2025-09-01,3.75,Weighted average rate,US dollars,True
+2025-10-01,2551.40447335,Volume (mln.),Euro,False
+2025-10-01,1.7586769288224349,Weighted average rate,Euro,False
+2025-10-01,12870.19065041,Volume (mln.),Tenge,True
+2025-10-01,32562666.71,Volume (mln.),Tenge,True
+2025-10-01,15.985398236445604,Weighted average rate,Tenge,True
+2025-10-01,17.5,Weighted average rate,Tenge,True
+2025-10-01,0.1053696,Volume (mln.),US dollars,True
+2025-10-01,10068.720576,Volume (mln.),US dollars,True
+2025-10-01,3.545836891044537,Weighted average rate,US dollars,True
+2025-10-01,3.75,Weighted average rate,US dollars,True
+2025-11-01,2885.50462244,Volume (mln.),Euro,False
+2025-11-01,1.7870311196173527,Weighted average rate,Euro,False
+2025-11-01,9586.66945551,Volume (mln.),Tenge,True
+2025-11-01,35619399.94444444,Volume (mln.),Tenge,True
+2025-11-01,16.994595557468674,Weighted average rate,Tenge,True
+2025-11-01,19.0,Weighted average rate,Tenge,True
+2025-11-01,2.463923,Volume (mln.),US dollars,True
+2025-11-01,9993.733531,Volume (mln.),US dollars,True
+2025-11-01,3.1289009604672837,Weighted average rate,US dollars,True
+2025-11-01,3.659638685949196,Weighted average rate,US dollars,True
+2025-12-01,2393.10447335,Volume (mln.),Euro,False
+2025-12-01,1.783731646867677,Weighted average rate,Euro,False
+2025-12-01,15553.49463393,Volume (mln.),Tenge,True
+2025-12-01,33305449.0,Volume (mln.),Tenge,True
+2025-12-01,17.46927786501242,Weighted average rate,Tenge,True
+2025-12-01,20.306715981092964,Weighted average rate,Tenge,True
+2025-12-01,3.3390055,Volume (mln.),US dollars,True
+2025-12-01,11379.214978,Volume (mln.),US dollars,True
+2025-12-01,3.03524834985326,Weighted average rate,US dollars,True
+2025-12-01,6.268934622898944,Weighted average rate,US dollars,True
+2026-01-01,1862.26462245,Volume (mln.),Euro,False
+2026-01-01,1.8067258087620877,Weighted average rate,Euro,False
+2026-01-01,3000.0,Volume (mln.),Tenge,True
+2026-01-01,38536329.16666666,Volume (mln.),Tenge,True
+2026-01-01,17.429237822016216,Weighted average rate,Tenge,True
+2026-01-01,20.0,Weighted average rate,Tenge,True
+2026-01-01,5.74337903,Volume (mln.),US dollars,True
+2026-01-01,12796.820146,Volume (mln.),US dollars,True
+2026-01-01,2.7796914676900233,Weighted average rate,US dollars,True
+2026-01-01,4.5408611855101615,Weighted average rate,US dollars,True
+2026-02-01,1914.28462245,Volume (mln.),Euro,False
+2026-02-01,1.7830940687160823,Weighted average rate,Euro,False
+2026-02-01,4540.87392442,Volume (mln.),Tenge,True
+2026-02-01,37363532.5411111,Volume (mln.),Tenge,True
+2026-02-01,17.49787735593608,Weighted average rate,Tenge,True
+2026-02-01,19.0,Weighted average rate,Tenge,True
+2026-02-01,17.12225285,Volume (mln.),US dollars,True
+2026-02-01,12774.409323,Volume (mln.),US dollars,True
+2026-02-01,2.6517508121420326,Weighted average rate,US dollars,True
+2026-02-01,5.010011148912569,Weighted average rate,US dollars,True
+2026-03-01,2097.20417512,Volume (mln.),Euro,False
+2026-03-01,1.7902407797682223,Weighted average rate,Euro,False
+2026-03-01,10000.0,Volume (mln.),Tenge,True
+2026-03-01,33284829.980804,Volume (mln.),Tenge,True
+2026-03-01,17.548490370944585,Weighted average rate,Tenge,True
+2026-03-01,20.0,Weighted average rate,Tenge,True
+2026-03-01,4.1683042,Volume (mln.),US dollars,True
+2026-03-01,14936.481124,Volume (mln.),US dollars,True
+2026-03-01,2.73852976130203,Weighted average rate,US dollars,True
+2026-03-01,4.883020079964413,Weighted average rate,US dollars,True
+2026-04-01,1809.07462245,Volume (mln.),Euro,False
+2026-04-01,1.7493911068405745,Weighted average rate,Euro,False
+2026-04-01,13803.41559503,Volume (mln.),Tenge,True
+2026-04-01,30747327.0,Volume (mln.),Tenge,True
+2026-04-01,17.521973471059777,Weighted average rate,Tenge,True
+2026-04-01,19.79690420999572,Weighted average rate,Tenge,True
+2026-04-01,5.0934445,Volume (mln.),US dollars,True
+2026-04-01,11860.425317,Volume (mln.),US dollars,True
+2026-04-01,2.368960753441756,Weighted average rate,US dollars,True
+2026-04-01,3.087989357693011,Weighted average rate,US dollars,True
+2026-05-01,2412.20447334,Volume (mln.),Euro,False
+2026-05-01,1.7253683215284275,Weighted average rate,Euro,False
+2026-05-01,28374441.68888888,Volume (mln.),Tenge,False
+2026-05-01,17.54468394231179,Weighted average rate,Tenge,False
+2026-05-01,2.5617192,Volume (mln.),US dollars,True
+2026-05-01,19479.787873,Volume (mln.),US dollars,True
+2026-05-01,2.8152309316422914,Weighted average rate,US dollars,True
+2026-05-01,3.3957160082182307,Weighted average rate,US dollars,True
+2026-06-01,2499.05462245,Volume (mln.),Euro,False
+2026-06-01,1.7358380313721182,Weighted average rate,Euro,False
+2026-06-01,26331887.13333333,Volume (mln.),Tenge,False
+2026-06-01,17.537312927416036,Weighted average rate,Tenge,False
+2026-06-01,2.8872263,Volume (mln.),US dollars,True
+2026-06-01,17049.288369,Volume (mln.),US dollars,True
+2026-06-01,1.8201288184441933,Weighted average rate,US dollars,True
+2026-06-01,2.5515567318222065,Weighted average rate,US dollars,True
+2026-07-01,3310.19447334,Volume (mln.),Euro,False
+2026-07-01,1.8356348040237587,Weighted average rate,Euro,False
+2026-07-01,22161.33719189,Volume (mln.),Tenge,True
+2026-07-01,28684025.37608344,Volume (mln.),Tenge,True
+2026-07-01,16.748508384512075,Weighted average rate,Tenge,True
+2026-07-01,19.850068867460042,Weighted average rate,Tenge,True
+2026-07-01,11.10054035,Volume (mln.),US dollars,True
+2026-07-01,16513.304219,Volume (mln.),US dollars,True
+2026-07-01,2.9516422527733,Weighted average rate,US dollars,True
+2026-07-01,5.110383512366585,Weighted average rate,US dollars,True
+2026-08-01,25078.91453431,Volume (mln.),Tenge,False
+2026-08-01,14.9439642,Volume (mln.),US dollars,False

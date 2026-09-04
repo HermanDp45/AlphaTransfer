@@ -1,0 +1,31 @@
+{
+  "alignment": "selected_strict_prior_nbk_effective_date_not_publication_time",
+  "cbr_method_start": "2024-12-27",
+  "hashes": {
+    "data/kzt_v0/observations.csv": "bac1b11113cb7a08b49ef22bfa99a571f4e7c6440adcc01bbfb165e072d61d17",
+    "historical_kzt_identity.csv": "0e6d54f2bac9b15e044bd1c77a9a1d2ed26ff35dadc66b828b573a4f70011759",
+    "live_five_corridor_identity_2026-09-04.csv": "76c5fed5f91590f1d219706f9f3320ca814e41443d9a392a20fa919fb005b1ea",
+    "review_artifacts/quant_macro/cbr_cross_rate_identity.py": "09d93d6dffb17f63d11bad480420bb76e7a9e5ecb200faa445a5d0abdefe2359"
+  },
+  "historical_kzt": {
+    "exact_rounding_match_rate": 0.9975786924939467,
+    "exact_rounding_matches": 412,
+    "maximum_absolute_relative_error_bps": 2.3502575457823305,
+    "mean_absolute_relative_error_bps": 0.021280319123361886,
+    "rows": 413
+  },
+  "interpretation": "The five contemporaneous CBR corridor targets are arithmetically compatible with one RUB anchor and national-bank USD/local denominators. This is not forecast alpha. A NOW-h model must forecast the future path of both cross components and the Alpha executable-quote residual, conditional on what is known at decision_ts.",
+  "legacy_output_filename_note": "Historical output filenames retain the word identity for compatibility; the supported claim is arithmetic compatibility on the selected alignment.",
+  "live_five_corridor": {
+    "exact_rounding_match_rate": 1.0,
+    "exact_rounding_matches": 5,
+    "rows": 5
+  },
+  "point_in_time_warning": "The live table is a manually transcribed one-day arithmetic illustration, without an independent raw-response/hash lineage for all five local inputs. Historical KZT uses a selected strict-prior effective-date alignment from the branch snapshot; publication timestamps are absent, so it neither identifies the actual CBR denominator nor proves PIT.",
+  "sources": {
+    "cbr_daily": "https://www.cbr.ru/eng/currency_base/daily/",
+    "cbr_method": "https://www.cbr.ru/Queries/XsltBlock/File/105012/-1/2531",
+    "cbr_pair_list": "https://www.cbr.ru/Content/Document/File/186003/Annex_OD-1012_en.pdf"
+  },
+  "status": "mechanism_compatibility_audit_not_predictive_backtest"
+}

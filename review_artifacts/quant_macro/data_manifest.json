@@ -1,0 +1,1367 @@
+{
+  "artifacts": {
+    "normalized/cbr_business_climate_monthly.csv": {
+      "bytes": 5226,
+      "sha256": "a67a0e20fa69ae4128ed692a8189c0aa71133ba15755af2f9854286ca3a7725e"
+    },
+    "normalized/cbr_current_account_quarterly.csv": {
+      "bytes": 1114,
+      "sha256": "4879e7a58c56a4a9d27c59af6010dbb15b8970a57ecfa7fd64185bce52d417cc"
+    },
+    "normalized/cbr_international_reserves_weekly.csv": {
+      "bytes": 5954,
+      "sha256": "4b4f7dfb324ff61136b95868c994ca374675d4a4cd493426e20634fc8dbb8d81"
+    },
+    "normalized/cbr_key_rate.csv": {
+      "bytes": 26478,
+      "sha256": "ec4a9d888b16eadbb65b1f5a18901b3231fc2c81d79c3e52515301e73345b058"
+    },
+    "normalized/ecb_ciss_daily.csv": {
+      "bytes": 118106,
+      "sha256": "ac6347ec1b15fedc0272ddc87ffcdec58342f71666164e6805033fc1c78bbe2a"
+    },
+    "normalized/eia_brent_daily.csv": {
+      "bytes": 28682,
+      "sha256": "4b9bf021ca1dab2286155211b25e2c578f9349a5171ae28f9b060d1e2d20ef2d"
+    },
+    "normalized/fed_h10_daily_indexes.csv": {
+      "bytes": 63837,
+      "sha256": "a88616b154b6cffc6f3ea793c0a7e8cfb11e45570522ba697bbc938ce5026b1d"
+    },
+    "normalized/kz_cpi_monthly.csv": {
+      "bytes": 2599,
+      "sha256": "f7322cc78da51a8e609acc88d4bc458b39cb6fca8e43fc715a52e3df981eec45"
+    },
+    "normalized/moex_amdrub_tom.csv": {
+      "bytes": 111954,
+      "sha256": "ac018371b76f4e19e4f2513b7222c791732b3910e1fd35a534b885681ea48703"
+    },
+    "normalized/moex_cny_fixing.csv": {
+      "bytes": 46661,
+      "sha256": "d14b596218b670f8cb6112ebc939a0deefc5591ec287350778583b6de5b05433"
+    },
+    "normalized/moex_cnyrub_tom.csv": {
+      "bytes": 148983,
+      "sha256": "3057fcee8436b5fe8ff6b6b346a07913d88ad8f890c18e8cca8f3fe6f6cf5039"
+    },
+    "normalized/moex_imoex.csv": {
+      "bytes": 97692,
+      "sha256": "7459d7377b40b805289595f8846da8e254c83238a4eddc8ec954d5113b12699a"
+    },
+    "normalized/moex_kgsrub_tom.csv": {
+      "bytes": 83973,
+      "sha256": "dd022b21f5ae921487115b8ccf54e5306599fcbc483b89c2ebd998db9f6275c3"
+    },
+    "normalized/moex_kztrub_tom.csv": {
+      "bytes": 165205,
+      "sha256": "c374ef71e9f99cd197a5cfde89d1d1f7f3fee5559233fb42efe6ec8cae88295a"
+    },
+    "normalized/moex_rgbitr.csv": {
+      "bytes": 90573,
+      "sha256": "4ea86227e32d599a36c1820048afc1329f214e81683f5f2faf02a8b2398b9b38"
+    },
+    "normalized/moex_rusfar.csv": {
+      "bytes": 53211,
+      "sha256": "a36b761eb4f38e07dd4bc4a5cc0e508467050a46e4fac7ffbe1bdd558767a474"
+    },
+    "normalized/moex_rusfar_cny.csv": {
+      "bytes": 28458,
+      "sha256": "0b37e47c262552320ef9eb09fd10945558b61ed201a048d2d963a2dbe6426ec0"
+    },
+    "normalized/moex_rvi.csv": {
+      "bytes": 66986,
+      "sha256": "c22498f47d61880a0ff88fdab23d3508b46922badab47e305945d9a0fd0761b6"
+    },
+    "normalized/moex_tjsrub_tom.csv": {
+      "bytes": 46656,
+      "sha256": "66c8760ded96e974406d768c60c0b46cb1b3061cf6448e3535380b510867d81c"
+    },
+    "normalized/moex_uzsrub_tom.csv": {
+      "bytes": 88913,
+      "sha256": "4a1b79d7745b4273780aa51d24da3f56eef6e31a9cce5f585f81f53eb27e01ab"
+    },
+    "normalized/nbk_base_rate_events.csv": {
+      "bytes": 931,
+      "sha256": "da2caa28cd07175d50d88102ff022be02acd20ca0f3a4376603dbfef8a7d15d2"
+    },
+    "normalized/nbk_business_activity_monthly.csv": {
+      "bytes": 19329,
+      "sha256": "7e25bd139cd56b6703507e75b3d903b26b9410090ed2b7bb758b893084d0a128"
+    },
+    "normalized/nbk_current_account.csv": {
+      "bytes": 1066,
+      "sha256": "9652206ec634a4a539f12516e1162f44a8432035f50a62cfd2bf0fa315508c58"
+    },
+    "normalized/nbk_daily_indicators.csv": {
+      "bytes": 5901,
+      "sha256": "2a45ba7a1504114f9002bd68483f1a8507121bdfd7542c3718198905c4d6182a"
+    },
+    "normalized/nbk_inflation_expectations_monthly.csv": {
+      "bytes": 6777,
+      "sha256": "15e78d64d1ba0a9745715f475239a8b902c376b9ffab6d2729a541bd862cd168"
+    },
+    "normalized/nbk_interbank_monthly.csv": {
+      "bytes": 23301,
+      "sha256": "eaaec1429d12913a383b3257665a3898cea34b997aa02c481fac975902b2c7c0"
+    },
+    "normalized/nbk_kase_monthly_rub.csv": {
+      "bytes": 1401,
+      "sha256": "00538917c5bc97274a36033449316e3c1e552c4238639f0e7f3b5c6808bc42b5"
+    },
+    "normalized/nbk_reserves.csv": {
+      "bytes": 7083,
+      "sha256": "d60f9295087c3d0afafee07480ff583482d6a8f4bbcddf34030dc3adb94f4d00"
+    },
+    "normalized/project_cbr_fx_snapshot.csv": {
+      "bytes": 275282,
+      "sha256": "a855ade8f1fee5f7b86cc4262625cec8a6e7eb1c316e435618d04ab8ff8b75b3"
+    },
+    "normalized/project_nbk_fx_snapshot.csv": {
+      "bytes": 364577,
+      "sha256": "7f0f6032799b47ea6026097637f5d347b1cc56dd712058ba40895a302d7cf5b3"
+    },
+    "normalized/us_treasury_curve.csv": {
+      "bytes": 42981,
+      "sha256": "15f4a0dd834387d503699ae57f5935c33b1648371cec86ebe458e62a941e1d0a"
+    },
+    "normalized/world_bank_commodities_monthly.csv": {
+      "bytes": 67843,
+      "sha256": "309c891d6d47bfb2b26f3b60a5a5b93dc60124009c3f049c88e6619fa081924e"
+    },
+    "raw/cbr_business_climate.json": {
+      "bytes": 155322,
+      "sha256": "20f2d61ca95695ca708b392b0a4394a3712b41741145f1106f9b261854c77654"
+    },
+    "raw/cbr_current_account_quarterly.json": {
+      "bytes": 5317,
+      "sha256": "784d3c42bec419468eb220cbf07ddaa67ff48b2b5481a2bfc0f9d8ad29fce86a"
+    },
+    "raw/cbr_international_reserves.html": {
+      "bytes": 52048,
+      "sha256": "ac5c96e48d1341d90b8b1351c24f5e4e371b11bcf0f42794a116f2522ba250be"
+    },
+    "raw/cbr_key_rate.html": {
+      "bytes": 189031,
+      "sha256": "38e8975e4988b445e8d86a39f11b4e178515204d5920773f1660fcb2b1e82d25"
+    },
+    "raw/ecb_ciss_euro_area.csv": {
+      "bytes": 492085,
+      "sha256": "e9e1b673057c85d09587b3263d366f448cd02fe7502304614749ee6a3a1e20b8"
+    },
+    "raw/ecb_ciss_fx.csv": {
+      "bytes": 532363,
+      "sha256": "6426514c2db24679cdff5c204ef41f395d5596b09927b6c741dbe7f2d7d28c47"
+    },
+    "raw/ecb_ciss_us.csv": {
+      "bytes": 459265,
+      "sha256": "86d7c021f5a6655dfc0bd59edcd3fd128f36ae6cdb83990b023594df82a0d101"
+    },
+    "raw/eia_brent_daily.xls": {
+      "bytes": 492032,
+      "sha256": "ba7aa32a1e1dd6154179c581ee140e4b9bccbbc191ed521346142a14bc1701a7"
+    },
+    "raw/fed_h10_daily_indexes.csv": {
+      "bytes": 66892,
+      "sha256": "40f0a8084d6c1f1334a1854eb2e1049800dcba3ce4c92f7c990a0ba34a277bf5"
+    },
+    "raw/kz_cpi_2022_2026.xlsx": {
+      "bytes": 16605,
+      "sha256": "b8e079179d68f1f2b5cb2be6d5adfded7f7231c35d4c9974d8f9bca5218b36cc"
+    },
+    "raw/moex_amdrub_tom.json": {
+      "bytes": 55526,
+      "sha256": "640759a59e74c5b73b6fdd2739a0e1c9027e6aaf20d127339ae02f14e55a84b3"
+    },
+    "raw/moex_cny_fixing.json": {
+      "bytes": 56775,
+      "sha256": "6fa8eee8c8016047b08254b7facdbacef6d3f6d620d11c1131ca98de0b346ab6"
+    },
+    "raw/moex_cnyrub_tom.json": {
+      "bytes": 95080,
+      "sha256": "fab4007eb65ea6a1116afd8100a579b2d28d465c7c7f0e54f99d518f3b6cc098"
+    },
+    "raw/moex_imoex.json": {
+      "bytes": 110784,
+      "sha256": "2f56ca35a41cdc8246d14af8bc4a92eb9a7d2fdc6e8cba8681cf1deb7a640008"
+    },
+    "raw/moex_kgsrub_tom.json": {
+      "bytes": 45286,
+      "sha256": "8e7d90a28389c1d4b5ea74abc1072981297b9181968ffa82e44de728a6db8dc7"
+    },
+    "raw/moex_kztrub_tom.json": {
+      "bytes": 84855,
+      "sha256": "d4aa7a7f0edd13a0a9240d6e5530d33420ec3fbf3a154ba902b5d67c2b8e26d4"
+    },
+    "raw/moex_rgbitr.json": {
+      "bytes": 103799,
+      "sha256": "ef47a61fa205ba14d91bee789cb5859d5c06b839b9427c951c090dbec302376e"
+    },
+    "raw/moex_rusfar.json": {
+      "bytes": 59623,
+      "sha256": "5940ff36911d87d7c790b36ab4360904727b92a99cfe694c3d0bdc0297ad6c71"
+    },
+    "raw/moex_rusfar_cny.json": {
+      "bytes": 32044,
+      "sha256": "f31cf553490fb88afe3ebb8b7ba540feced6b399401b88e4ba65b13ca590b7bf"
+    },
+    "raw/moex_rvi.json": {
+      "bytes": 75276,
+      "sha256": "17433741585aef5052f4d990e467ebdf2728c5cde78b318aa605b8f2a78f0ca1"
+    },
+    "raw/moex_tjsrub_tom.json": {
+      "bytes": 29605,
+      "sha256": "b6f1a37373ea2a6672b2cc299afc6db66ee744ebe1a660483ed7742b8ac4308f"
+    },
+    "raw/moex_uzsrub_tom.json": {
+      "bytes": 43093,
+      "sha256": "23a1109b96f2715fcdbf65f269932a27a9dcf065fdf1dafc4f845bfdfd825d4d"
+    },
+    "raw/nbk_base_rate_2020.html": {
+      "bytes": 652992,
+      "sha256": "cad18ffdcb27c66844aced030859d54d7314f62b39c192035435a74a516f917f"
+    },
+    "raw/nbk_base_rate_2021.html": {
+      "bytes": 653901,
+      "sha256": "c463a74fa4698175b8a502db24c0c95533bbd0f7d84f05017b8f555f2afb8d9e"
+    },
+    "raw/nbk_base_rate_2022.html": {
+      "bytes": 654342,
+      "sha256": "67e2dcab6a0dfa1ee909d35efa1e3cb3607efec319e090b540fb087c8c9047d6"
+    },
+    "raw/nbk_base_rate_2023.html": {
+      "bytes": 655037,
+      "sha256": "476d9f8a8977b69087eb544baa363966d18d30dbae644b12fd46d1670c0457c5"
+    },
+    "raw/nbk_base_rate_2024.html": {
+      "bytes": 654897,
+      "sha256": "a126b2d0f380c2f692f7c7627f4e78ea76d592bbbb548dede45f358339a27ddf"
+    },
+    "raw/nbk_base_rate_2025.html": {
+      "bytes": 656157,
+      "sha256": "e73bff28804d67fc3b8d03093b684f44fc5c547790b0098dab487b8789b865e5"
+    },
+    "raw/nbk_base_rate_2026.html": {
+      "bytes": 654467,
+      "sha256": "2947c80709e70dcc59ab6830dbf2a53641c1b0037e501dd5a397aa845f482708"
+    },
+    "raw/nbk_business_activity.xlsx": {
+      "bytes": 24192161,
+      "sha256": "1614374940eeb2b497dea71aaf8e120d8f71369dc3e26298553b5da75a5ea156"
+    },
+    "raw/nbk_current_account.json": {
+      "bytes": 104210,
+      "sha256": "2b28349d9dc8e503c0ea9c97828c58d6af6bf5b6e25f184b51a84b099126224e"
+    },
+    "raw/nbk_daily_indicators.json": {
+      "bytes": 18799,
+      "sha256": "6e500ccfb64d02fd4a119b1d6b41ed3470a8e7a9e27291e0a76b8975fb58004b"
+    },
+    "raw/nbk_inflation_expectations.xlsx": {
+      "bytes": 482128,
+      "sha256": "5c8af96395dc84affbfc95e195b0d4175ce2fe596026bd36fbfac40b44345b55"
+    },
+    "raw/nbk_interbank_monthly.json": {
+      "bytes": 41807,
+      "sha256": "2a053beb81bab9769b8a23ee44d184086fab330b16a585791eac4ae415cfd118"
+    },
+    "raw/nbk_kase_monthly_rub.json": {
+      "bytes": 24526,
+      "sha256": "b058020c2d51a64c4a7f5b888cafa55ada00804c37ed69c8eeabea5f78983719"
+    },
+    "raw/nbk_reserves.json": {
+      "bytes": 54864,
+      "sha256": "69614244b03b3ea2ff9a99b6cb6e1df647d2a00cd1e0b1ba4a293ce036d0f20c"
+    },
+    "raw/us_treasury_curve_2020.xml": {
+      "bytes": 362113,
+      "sha256": "f13fbc3e370d438320ee4ada98d3384f1f69024e8b2354e8562752f02ef3c7f9"
+    },
+    "raw/us_treasury_curve_2021.xml": {
+      "bytes": 362113,
+      "sha256": "4702539b4568e667f6fb8b2f6ef3cb51bfff7d9084f61aa05340d04ee3d504a0"
+    },
+    "raw/us_treasury_curve_2022.xml": {
+      "bytes": 343983,
+      "sha256": "aa488bdd38b8ecdadd2e548a328f8dc903921de5c820e9e2d0be0aeba420c9bd"
+    },
+    "raw/us_treasury_curve_2023.xml": {
+      "bytes": 284423,
+      "sha256": "ff3c0fe226f9ba3854c6ad81846703b9079242f842375207538f4cfa05c328f9"
+    },
+    "raw/us_treasury_curve_2024.xml": {
+      "bytes": 284423,
+      "sha256": "d0e90bc72fd7084ad3a1fba3eb93789422dd3dedcff697c4318f8bcc9e556370"
+    },
+    "raw/us_treasury_curve_2025.xml": {
+      "bytes": 345104,
+      "sha256": "f07f66dafeade0d729b74c5f196d35bb01ea27208cfa0b28948739ef80497869"
+    },
+    "raw/us_treasury_curve_2026.xml": {
+      "bytes": 263323,
+      "sha256": "1033cf429cb36e20f9f7ad52539a911a181d2b2df410b992bf4c490a867e41d3"
+    },
+    "raw/world_bank_cmo_historical_monthly.xlsx": {
+      "bytes": 586735,
+      "sha256": "9fdcfa8a2aed9a1bb545a10c1a5ce036c6a0acd4766f450424ca800b4b5a0225"
+    }
+  },
+  "date_window": {
+    "from": "2020-01-01",
+    "to": "2026-09-03"
+  },
+  "exclusions": {
+    "Bloomberg": "not used: proprietary terminal/feed; public web pages are not a reproducible open API",
+    "FRED": "not used: current FRED Terms prohibit using content to develop/train ML systems"
+  },
+  "generated_at_utc": "2026-09-03T22:17:48.848288+00:00",
+  "libraries": {
+    "openpyxl": "3.1.5",
+    "pandas": "3.0.3",
+    "xlrd": "2.0.2"
+  },
+  "pipeline_sha256": "d2214f4af928945be35e5a267b1e30c6a2dc09c6ba42090f2c97fff9a721acb6",
+  "python": "3.11.15",
+  "sources": [
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 1.0,
+      "active_market_rows": 1691,
+      "assembled_raw_sha256": "fab4007eb65ea6a1116afd8100a579b2d28d465c7c7f0e54f99d518f3b6cc098",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_cnyrub_tom.csv",
+      "normalized_price_unit": "RUB_per_one_base_currency_unit",
+      "normalized_sha256": "3057fcee8436b5fe8ff6b6b346a07913d88ad8f890c18e8cca8f3fe6f6cf5039",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": 1,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1691,
+      "source_id": "moex_cnyrub_tom",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/CETS/securities/CNYRUB_TOM.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 0.8982850384387936,
+      "active_market_rows": 1519,
+      "assembled_raw_sha256": "d4aa7a7f0edd13a0a9240d6e5530d33420ec3fbf3a154ba902b5d67c2b8e26d4",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_kztrub_tom.csv",
+      "normalized_price_unit": "RUB_per_one_base_currency_unit",
+      "normalized_sha256": "c374ef71e9f99cd197a5cfde89d1d1f7f3fee5559233fb42efe6ec8cae88295a",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": 100,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1691,
+      "source_id": "moex_kztrub_tom",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/CETS/securities/KZTRUB_TOM.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 0.9990636704119851,
+      "active_market_rows": 1067,
+      "assembled_raw_sha256": "640759a59e74c5b73b6fdd2739a0e1c9027e6aaf20d127339ae02f14e55a84b3",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2022-06-27",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_amdrub_tom.csv",
+      "normalized_price_unit": "RUB_per_one_base_currency_unit",
+      "normalized_sha256": "ac018371b76f4e19e4f2513b7222c791732b3910e1fd35a534b885681ea48703",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": 100,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1068,
+      "source_id": "moex_amdrub_tom",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/CETS/securities/AMDRUB_TOM.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 0.8619631901840491,
+      "active_market_rows": 843,
+      "assembled_raw_sha256": "8e7d90a28389c1d4b5ea74abc1072981297b9181968ffa82e44de728a6db8dc7",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2022-10-31",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_kgsrub_tom.csv",
+      "normalized_price_unit": "RUB_per_one_base_currency_unit",
+      "normalized_sha256": "dd022b21f5ae921487115b8ccf54e5306599fcbc483b89c2ebd998db9f6275c3",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": 100,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 978,
+      "source_id": "moex_kgsrub_tom",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/CETS/securities/KGSRUB_TOM.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 0.6436327739387957,
+      "active_market_rows": 652,
+      "assembled_raw_sha256": "23a1109b96f2715fcdbf65f269932a27a9dcf065fdf1dafc4f845bfdfd825d4d",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2022-09-12",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_uzsrub_tom.csv",
+      "normalized_price_unit": "RUB_per_one_base_currency_unit",
+      "normalized_sha256": "4a1b79d7745b4273780aa51d24da3f56eef6e31a9cce5f585f81f53eb27e01ab",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": 10000,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1013,
+      "source_id": "moex_uzsrub_tom",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/CETS/securities/UZSRUB_TOM.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2024-10-30",
+        "reference_date": "2026-09-03",
+        "staleness_days": 673,
+        "status": "fail"
+      },
+      "active_market_row_rate": 0.017382413087934562,
+      "active_market_rows": 17,
+      "assembled_raw_sha256": "b6f1a37373ea2a6672b2cc299afc6db66ee744ebe1a660483ed7742b8ac4308f",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2022-10-31",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_tjsrub_tom.csv",
+      "normalized_price_unit": "RUB_per_one_base_currency_unit",
+      "normalized_sha256": "66c8760ded96e974406d768c60c0b46cb1b3061cf6448e3535380b510867d81c",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": 10,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 978,
+      "source_id": "moex_tjsrub_tom",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/CETS/securities/TJSRUB_TOM.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 1.0,
+      "active_market_rows": 1674,
+      "assembled_raw_sha256": "2f56ca35a41cdc8246d14af8bc4a92eb9a7d2fdc6e8cba8681cf1deb7a640008",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_imoex.csv",
+      "normalized_price_unit": null,
+      "normalized_sha256": "7459d7377b40b805289595f8846da8e254c83238a4eddc8ec954d5113b12699a",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1674,
+      "source_id": "moex_imoex",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/stock/markets/index/boards/SNDX/securities/IMOEX.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,VALUE,VOLUME"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 1.0,
+      "active_market_rows": 1676,
+      "assembled_raw_sha256": "ef47a61fa205ba14d91bee789cb5859d5c06b839b9427c951c090dbec302376e",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_rgbitr.csv",
+      "normalized_price_unit": null,
+      "normalized_sha256": "4ea86227e32d599a36c1820048afc1329f214e81683f5f2faf02a8b2398b9b38",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1676,
+      "source_id": "moex_rgbitr",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/stock/markets/index/boards/SNDX/securities/RGBITR.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,VALUE,VOLUME"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 1.0,
+      "active_market_rows": 1678,
+      "assembled_raw_sha256": "17433741585aef5052f4d990e467ebdf2728c5cde78b318aa605b8f2a78f0ca1",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_rvi.csv",
+      "normalized_price_unit": null,
+      "normalized_sha256": "c22498f47d61880a0ff88fdab23d3508b46922badab47e305945d9a0fd0761b6",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1678,
+      "source_id": "moex_rvi",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/stock/markets/index/boards/RTSI/securities/RVI.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,VALUE,VOLUME"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 1.0,
+      "active_market_rows": 1681,
+      "assembled_raw_sha256": "6fa8eee8c8016047b08254b7facdbacef6d3f6d620d11c1131ca98de0b346ab6",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_cny_fixing.csv",
+      "normalized_price_unit": null,
+      "normalized_sha256": "d14b596218b670f8cb6112ebc939a0deefc5591ec287350778583b6de5b05433",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1681,
+      "source_id": "moex_cny_fixing",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/index/securities/CNYFIXME.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,SECID,CLOSE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 1.0,
+      "active_market_rows": 1635,
+      "assembled_raw_sha256": "5940ff36911d87d7c790b36ab4360904727b92a99cfe694c3d0bdc0297ad6c71",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2020-01-09",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_rusfar.csv",
+      "normalized_price_unit": null,
+      "normalized_sha256": "a36b761eb4f38e07dd4bc4a5cc0e508467050a46e4fac7ffbe1bdd558767a474",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 1635,
+      "source_id": "moex_rusfar",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/stock/markets/index/boards/MMIX/securities/RUSFAR.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE"
+    },
+    {
+      "active_market_freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "active_market_row_rate": 0.8774834437086093,
+      "active_market_rows": 795,
+      "assembled_raw_sha256": "f31cf553490fb88afe3ebb8b7ba540feced6b399401b88e4ba65b13ca590b7bf",
+      "authority": "Moscow Exchange (MOEX ISS)",
+      "availability": "daily close; experiment applies a conservative lag",
+      "first_date": "2022-09-26",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "conditional; validate MOEX market-data user agreement before production",
+      "normalized_path": "normalized/moex_rusfar_cny.csv",
+      "normalized_price_unit": null,
+      "normalized_sha256": "0b37e47c262552320ef9eb09fd10945558b61ed201a048d2d963a2dbe6426ec0",
+      "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+      "quote_units": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "rows": 906,
+      "source_id": "moex_rusfar_cny",
+      "terms_url": "https://www.moex.com/en/datapolicy/",
+      "url_template": "https://iss.moex.com/iss/history/engines/stock/markets/index/boards/MMIX/securities/RUSFARCNY.json?from=2020-01-01&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE"
+    },
+    {
+      "authority": "Board of Governors of the Federal Reserve System",
+      "availability": "daily observations released weekly; primary experiment applies an eight-day proxy",
+      "first_date": "2020-01-01",
+      "freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-08-28",
+        "reference_date": "2026-09-03",
+        "staleness_days": 6,
+        "status": "pass"
+      },
+      "last_date": "2026-08-28",
+      "license_review": "US federal government source; attribution retained; verify site terms for production ETL",
+      "response_headers": {
+        "content-type": "text/csv",
+        "last-modified": "Thu, 03 Sep 2026 22:18:11 GMT"
+      },
+      "rows": 1738,
+      "source_id": "fed_h10_dollar_indexes",
+      "url": "https://www.federalreserve.gov/datadownload/Output.aspx?rel=H10&series=122e3bcb627e8e53f1bf72a1a09cfb81&lastobs=&from=01/01/2020&to=09/03/2026&filetype=csv&label=include&layout=seriescolumn"
+    },
+    {
+      "authority": "U.S. Department of the Treasury",
+      "availability": "daily after US market close; experiment applies a conservative lag",
+      "first_date": "2020-01-02",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "US federal government source; attribution retained",
+      "response_headers_by_year": {
+        "2020": {
+          "content-type": "text/xml; charset=UTF-8"
+        },
+        "2021": {
+          "content-type": "text/xml; charset=UTF-8"
+        },
+        "2022": {
+          "content-type": "text/xml; charset=UTF-8"
+        },
+        "2023": {
+          "content-type": "text/xml; charset=UTF-8"
+        },
+        "2024": {
+          "content-type": "text/xml; charset=UTF-8"
+        },
+        "2025": {
+          "content-type": "text/xml; charset=UTF-8"
+        },
+        "2026": {
+          "content-type": "text/xml; charset=UTF-8"
+        }
+      },
+      "rows": 1670,
+      "source_id": "us_treasury_daily_curve",
+      "url_template": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value={year}"
+    },
+    {
+      "authority": "U.S. Energy Information Administration",
+      "availability": "daily observations updated weekly; primary experiment applies ten calendar days",
+      "first_date": "2020-01-02",
+      "freshness": {
+        "maximum_staleness_days": 21,
+        "observed_last_date": "2026-09-01",
+        "reference_date": "2026-09-03",
+        "staleness_days": 2,
+        "status": "pass"
+      },
+      "last_date": "2026-09-01",
+      "license_review": "EIA public data; cite EIA and retain any source notices",
+      "response_headers": {
+        "content-type": "application/vnd.ms-excel",
+        "etag": "\"0a88a8f13add1:0\"",
+        "last-modified": "Wed, 02 Sep 2026 15:42:28 GMT"
+      },
+      "rows": 1686,
+      "source_id": "eia_brent_daily",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls"
+    },
+    {
+      "authority": "World Bank Prospects Group",
+      "availability": "monthly, second business day; seven-day proxy used; current workbook is not a vintage",
+      "first_date": "1960-01-01",
+      "freshness": {
+        "maximum_staleness_days": 45,
+        "observed_last_date": "2026-08-31",
+        "reference_date": "2026-09-03",
+        "staleness_days": 3,
+        "status": "pass"
+      },
+      "last_date": "2026-08-01",
+      "license_review": "CC BY 4.0 according to World Bank dataset catalog",
+      "response_headers": {
+        "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "last-modified": "Wed, 02 Sep 2026 20:17:37 GMT"
+      },
+      "rows": 800,
+      "source_id": "world_bank_commodity_prices",
+      "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx"
+    },
+    {
+      "authority": "Bureau of National Statistics of Kazakhstan",
+      "availability": "monthly; experiment uses period-end plus seven calendar days; current workbook is not a vintage",
+      "first_date": "2022-01-01",
+      "freshness": {
+        "maximum_staleness_days": 45,
+        "observed_last_date": "2026-08-31",
+        "reference_date": "2026-09-03",
+        "staleness_days": 3,
+        "status": "pass"
+      },
+      "last_date": "2026-08-01",
+      "license_review": "official statistics may be freely reused, modified and used in software with attribution",
+      "response_headers": {
+        "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "etag": "\"6a967bd4-40dd\"",
+        "last-modified": "Tue, 01 Sep 2026 07:16:36 GMT"
+      },
+      "rows": 56,
+      "source_id": "kz_official_cpi",
+      "terms_url": "https://stat.gov.kz/ru/description/",
+      "url": "https://stat.gov.kz/api/iblock/element/14511/file/ru/"
+    },
+    {
+      "api_announcement_url": "https://nationalbank.kz/en/news/informacionnye-soobshcheniya/17144",
+      "authority": "National Bank of Kazakhstan Open Data",
+      "availability": "monthly reserves and National Fund FX assets; 40-day conservative availability proxy",
+      "columns": [
+        {
+          "colId": null,
+          "key": "report_date",
+          "label": "Report date"
+        },
+        {
+          "colId": null,
+          "key": "amount",
+          "label": "Amount"
+        },
+        {
+          "colId": null,
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "colId": null,
+          "key": "class_type",
+          "label": "Category"
+        },
+        {
+          "colId": null,
+          "key": "subtype",
+          "label": "Subcategory"
+        }
+      ],
+      "data_quality_status": "latest_revised_eval_only",
+      "first_date": "2020-01-01",
+      "form_id": 34,
+      "last_date": "2026-08-01",
+      "license_review": "NBK permits perpetual commercial reuse and modification with source attribution",
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "rows": 79,
+      "source_id": "nbk_reserves",
+      "terms_url": "https://nationalbank.kz/en/page/data-usage-terms",
+      "total_rows_reported": 395,
+      "url": "https://data.nationalbank.kz/api/v1/data?formId=34&page=0&pageSize=1000&startDate=2020-01-01&endDate=2026-09-03"
+    },
+    {
+      "api_announcement_url": "https://nationalbank.kz/en/news/informacionnye-soobshcheniya/17144",
+      "authority": "National Bank of Kazakhstan Open Data",
+      "availability": "quarterly current-account aggregate; 100-day conservative availability proxy",
+      "columns": [
+        {
+          "colId": null,
+          "key": "report_date",
+          "label": "Report date"
+        },
+        {
+          "colId": null,
+          "key": "amount",
+          "label": "Amount"
+        },
+        {
+          "colId": null,
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "colId": null,
+          "key": "account_type_code",
+          "label": "Account type"
+        },
+        {
+          "colId": null,
+          "key": "class_type_code",
+          "label": "Class type"
+        },
+        {
+          "colId": null,
+          "key": "code",
+          "label": "Attribute code"
+        },
+        {
+          "colId": null,
+          "key": "instrument_subtype1_code",
+          "label": "Instrument subtype 1"
+        },
+        {
+          "colId": null,
+          "key": "instrument_type_code",
+          "label": "Instrument type"
+        },
+        {
+          "colId": null,
+          "key": "period",
+          "label": "Period"
+        }
+      ],
+      "data_quality_status": "latest_revised_eval_only",
+      "first_date": "2020-01-01",
+      "form_id": 479,
+      "last_date": "2025-04-01",
+      "license_review": "NBK permits perpetual commercial reuse and modification with source attribution",
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "rows": 22,
+      "source_id": "nbk_current_account",
+      "terms_url": "https://nationalbank.kz/en/page/data-usage-terms",
+      "total_rows_reported": 598,
+      "url": "https://data.nationalbank.kz/api/v1/data?formId=479&page=0&pageSize=5000&startDate=2020-01-01&endDate=2026-09-03"
+    },
+    {
+      "api_announcement_url": "https://nationalbank.kz/en/news/informacionnye-soobshcheniya/17144",
+      "authority": "National Bank of Kazakhstan Open Data",
+      "availability": "monthly KASE RUB volume and end-period average; 40-day conservative availability proxy",
+      "columns": [
+        {
+          "colId": null,
+          "key": "report_date",
+          "label": "Report date"
+        },
+        {
+          "colId": null,
+          "key": "amount",
+          "label": "Amount"
+        },
+        {
+          "colId": null,
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "colId": null,
+          "key": "class_type",
+          "label": null
+        },
+        {
+          "colId": null,
+          "key": "currency",
+          "label": null
+        },
+        {
+          "colId": null,
+          "key": "period",
+          "label": null
+        }
+      ],
+      "data_quality_status": "short_history_eval_only",
+      "first_date": "2025-01-01",
+      "form_id": 35,
+      "last_date": "2026-08-01",
+      "license_review": "NBK permits perpetual commercial reuse and modification with source attribution",
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "rows": 20,
+      "source_id": "nbk_kase_monthly_rub",
+      "terms_url": "https://nationalbank.kz/en/page/data-usage-terms",
+      "total_rows_reported": 168,
+      "url": "https://data.nationalbank.kz/api/v1/data?formId=35&page=0&pageSize=1000&startDate=2020-01-01&endDate=2026-09-03"
+    },
+    {
+      "api_announcement_url": "https://nationalbank.kz/en/news/informacionnye-soobshcheniya/17144",
+      "authority": "National Bank of Kazakhstan Open Data",
+      "availability": "monthly interbank aggregates; category keys are incomplete in the API response",
+      "columns": [
+        {
+          "colId": null,
+          "key": "report_date",
+          "label": "Report date"
+        },
+        {
+          "colId": null,
+          "key": "amount",
+          "label": "Amount"
+        },
+        {
+          "colId": null,
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "colId": null,
+          "key": "class_type",
+          "label": "Category"
+        },
+        {
+          "colId": null,
+          "key": "currency",
+          "label": "Currency"
+        },
+        {
+          "colId": null,
+          "key": "periodicity",
+          "label": null
+        }
+      ],
+      "data_quality_status": "inventory_only_ambiguous_schema",
+      "first_date": "2023-01-01",
+      "form_id": 181,
+      "last_date": "2026-08-01",
+      "license_review": "NBK permits perpetual commercial reuse and modification with source attribution",
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "rows": 412,
+      "source_id": "nbk_interbank_monthly",
+      "terms_url": "https://nationalbank.kz/en/page/data-usage-terms",
+      "total_rows_reported": 412,
+      "url": "https://data.nationalbank.kz/api/v1/data?formId=181&page=0&pageSize=1000&startDate=2020-01-01&endDate=2026-09-03"
+    },
+    {
+      "authority": "National Bank of Kazakhstan Open Data",
+      "availability": "daily API; history currently begins in 2026 and is not used for model selection",
+      "data_quality_status": "prospective_collection_candidate_insufficient_oot_history",
+      "first_date": "2026-02-24",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "NBK permits perpetual commercial reuse and modification with source attribution",
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "rows": 188,
+      "source_id": "nbk_daily_indicators",
+      "terms_url": "https://nationalbank.kz/en/page/data-usage-terms",
+      "url": "https://data.nationalbank.kz/api/v1/data/indicators?from=2026-02-24&to=2026-09-03"
+    },
+    {
+      "authority": "Bank of Russia",
+      "availability": "weekly Friday observation typically released the following Thursday; experiment applies seven calendar days",
+      "data_quality_status": "operational_candidate_publication_timestamp_not_proven",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-08-28",
+        "reference_date": "2026-09-03",
+        "staleness_days": 6,
+        "status": "pass"
+      },
+      "last_date": "2026-08-28",
+      "license_review": "official public statistics; cite Bank of Russia and confirm automated-use terms for production",
+      "response_headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "rows": 348,
+      "source_id": "cbr_international_reserves_weekly",
+      "url": "https://www.cbr.ru/eng/hd_base/mrrf/mrrf_7d/?UniDbQuery.Posted=True&UniDbQuery.From=01.2020&UniDbQuery.To=08.2026"
+    },
+    {
+      "authority": "Bank of Russia",
+      "availability": "monthly; API period marker plus 14 calendar days; current response is not an immutable vintage",
+      "data_quality_status": "latest_revised_eval_only",
+      "first_date": "2020-01-31",
+      "freshness": {
+        "maximum_staleness_days": 60,
+        "observed_last_date": "2026-08-31",
+        "reference_date": "2026-09-03",
+        "staleness_days": 3,
+        "status": "pass"
+      },
+      "last_date": "2026-08-31",
+      "license_review": "official public statistics; cite Bank of Russia and confirm automated-use terms for production",
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "rows": 80,
+      "source_id": "cbr_business_climate_monthly",
+      "url": "https://www.cbr.ru/dataservice/data?y1=2020&y2=2026&datasetId=58&publicationId=25&measureId=119"
+    },
+    {
+      "authority": "Bank of Russia",
+      "availability": "quarterly; period marker plus 90 calendar days; latest API values are revised",
+      "data_quality_status": "latest_revised_eval_only",
+      "first_date": "2020-03-31",
+      "freshness": {
+        "maximum_staleness_days": 250,
+        "observed_last_date": "2026-03-31",
+        "reference_date": "2026-09-03",
+        "staleness_days": 156,
+        "status": "pass"
+      },
+      "last_date": "2026-03-31",
+      "license_review": "official public statistics; cite Bank of Russia and confirm automated-use terms for production",
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "rows": 25,
+      "source_id": "cbr_current_account_quarterly",
+      "url": "https://www.cbr.ru/dataservice/data?y1=2020&y2=2026&datasetId=9&publicationId=8"
+    },
+    {
+      "authority": "National Bank of Kazakhstan",
+      "availability": "monthly; period-end plus seven calendar days; current workbook is not an immutable vintage",
+      "data_quality_status": "latest_revised_eval_only",
+      "first_date": "2017-01-31",
+      "freshness": {
+        "maximum_staleness_days": 60,
+        "observed_last_date": "2026-08-31",
+        "reference_date": "2026-09-03",
+        "staleness_days": 3,
+        "status": "pass"
+      },
+      "last_date": "2026-08-31",
+      "license_review": "NBK permits perpetual commercial reuse and modification with source attribution",
+      "response_headers": {
+        "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "rows": 116,
+      "source_id": "nbk_business_activity_monthly",
+      "terms_url": "https://nationalbank.kz/en/page/data-usage-terms",
+      "url": "https://nationalbank.kz/file/download/134770"
+    },
+    {
+      "authority": "National Bank of Kazakhstan",
+      "availability": "monthly; period-end plus 31 calendar days; current workbook is not an immutable vintage",
+      "data_quality_status": "latest_revised_eval_only",
+      "first_date": "2016-01-31",
+      "freshness": {
+        "maximum_staleness_days": 75,
+        "observed_last_date": "2026-07-31",
+        "reference_date": "2026-09-03",
+        "staleness_days": 34,
+        "status": "pass"
+      },
+      "last_date": "2026-07-31",
+      "license_review": "NBK permits perpetual commercial reuse and modification with source attribution",
+      "response_headers": {
+        "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "rows": 126,
+      "source_id": "nbk_inflation_expectations_monthly",
+      "terms_url": "https://nationalbank.kz/en/page/data-usage-terms",
+      "url": "https://nationalbank.kz/file/download/133154"
+    },
+    {
+      "authority": "European Central Bank",
+      "availability": "business-daily, approximately T+1; revisions possible",
+      "first_date": "2020-01-01",
+      "freshness": {
+        "maximum_staleness_days": 14,
+        "observed_last_date": "2026-09-02",
+        "reference_date": "2026-09-03",
+        "staleness_days": 1,
+        "status": "pass"
+      },
+      "last_date": "2026-09-02",
+      "license_review": "ECB permits commercial and non-commercial reuse with attribution",
+      "response_headers_by_series": {
+        "ecb_ciss_euro_area": {
+          "content-type": "text/csv",
+          "last-modified": "Thu, 03 Sep 2026 07:24:46 GMT"
+        },
+        "ecb_ciss_fx": {
+          "content-type": "text/csv",
+          "last-modified": "Thu, 03 Sep 2026 07:24:46 GMT"
+        },
+        "ecb_ciss_us": {
+          "content-type": "text/csv",
+          "last-modified": "Thu, 03 Sep 2026 07:24:46 GMT"
+        }
+      },
+      "rows": 1749,
+      "source_id": "ecb_new_ciss",
+      "urls": {
+        "ecb_ciss_euro_area": "https://data-api.ecb.europa.eu/service/data/CISS/D.U2.Z0Z.4F.EC.SS_CIN.IDX?format=csvdata&startPeriod=2020-01-01&endPeriod=2026-09-03",
+        "ecb_ciss_fx": "https://data-api.ecb.europa.eu/service/data/CISS/D.U2.Z0Z.4F.EC.SS_FXN.CON?format=csvdata&startPeriod=2020-01-01&endPeriod=2026-09-03",
+        "ecb_ciss_us": "https://data-api.ecb.europa.eu/service/data/CISS/D.US.Z0Z.4F.EC.SS_CIN.IDX?format=csvdata&startPeriod=2020-01-01&endPeriod=2026-09-03"
+      }
+    },
+    {
+      "authority": "Bank of Russia",
+      "availability": "daily effective rate; primary experiment waits one calendar day",
+      "first_date": "2020-01-03",
+      "freshness": {
+        "maximum_staleness_days": 7,
+        "observed_last_date": "2026-09-03",
+        "reference_date": "2026-09-03",
+        "staleness_days": 0,
+        "status": "pass"
+      },
+      "last_date": "2026-09-03",
+      "license_review": "official public statistics; cite Bank of Russia; verify automated-use terms for production",
+      "response_headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "rows": 1691,
+      "source_id": "cbr_key_rate",
+      "url": "https://www.cbr.ru/eng/hd_base/KeyRate/?UniDbQuery.Posted=True&UniDbQuery.From=01.01.2020&UniDbQuery.To=03.09.2026"
+    },
+    {
+      "authority": "National Bank of Kazakhstan",
+      "availability": "event effective dates; primary experiment waits one calendar day",
+      "data_quality_status": "excluded_from_models_incomplete_event_history",
+      "events_by_year": {
+        "2020": 10,
+        "2021": 1,
+        "2022": 2,
+        "2023": 8,
+        "2024": 8,
+        "2025": 8,
+        "2026": 5
+      },
+      "first_date": "2020-02-04",
+      "last_date": "2026-07-27",
+      "license_review": "official public statistics; cite NBK; production terms/SLA need legal confirmation",
+      "maximum_gap_days": 364,
+      "response_headers_by_year": {
+        "2020": {
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "2021": {
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "2022": {
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "2023": {
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "2024": {
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "2025": {
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "2026": {
+          "content-type": "text/html; charset=UTF-8"
+        }
+      },
+      "rows": 42,
+      "source_id": "nbk_base_rate",
+      "urls": [
+        "https://nationalbank.kz/en/news/grafik-prinyatiya-resheniy-po-bazovoy-stavke/rubrics/1543",
+        "https://nationalbank.kz/en/news/grafik-prinyatiya-resheniy-po-bazovoy-stavke/rubrics/1581",
+        "https://nationalbank.kz/en/news/grafik-prinyatiya-resheniy-po-bazovoy-stavke/rubrics/1698",
+        "https://nationalbank.kz/en/news/grafik-prinyatiya-resheniy-po-bazovoy-stavke/rubrics/1843",
+        "https://nationalbank.kz/en/news/grafik-prinyatiya-resheniy-po-bazovoy-stavke/rubrics/2098",
+        "https://nationalbank.kz/en/news/grafik-prinyatiya-resheniy-po-bazovoy-stavke/rubrics/2237",
+        "https://nationalbank.kz/en/news/grafik-prinyatiya-resheniy-po-bazovoy-stavke/rubrics/2365"
+      ]
+    },
+    {
+      "cbr_rows": 4455,
+      "freshness": {
+        "cbr": {
+          "maximum_staleness_days": 7,
+          "observed_last_date": "2026-09-03",
+          "reference_date": "2026-09-03",
+          "staleness_days": 0,
+          "status": "pass"
+        },
+        "nbk": {
+          "maximum_staleness_days": 7,
+          "observed_last_date": "2026-09-03",
+          "reference_date": "2026-09-03",
+          "staleness_days": 0,
+          "status": "pass"
+        }
+      },
+      "input_path": "data/kzt_v0/observations.csv",
+      "input_sha256": "bac1b11113cb7a08b49ef22bfa99a571f4e7c6440adcc01bbfb165e072d61d17",
+      "integrity_repairs": [
+        {
+          "action": "dropped_first_effective_date",
+          "effective_date": "2021-05-07",
+          "reason": "complete FX basket duplicates distant date 2026-09-02",
+          "source": "NBK"
+        }
+      ],
+      "nbk_rows": 5739,
+      "normalized_paths": [
+        "normalized/project_cbr_fx_snapshot.csv",
+        "normalized/project_nbk_fx_snapshot.csv"
+      ],
+      "source_id": "project_official_fx_snapshot",
+      "warning": "available_at in the branch snapshot is not independently proven; experiment lags values"
+    }
+  ]
+}

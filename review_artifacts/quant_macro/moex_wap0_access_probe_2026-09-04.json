@@ -1,0 +1,26 @@
+{
+  "status": "free_iss_security_history_has_no_usable_wap_values",
+  "probe_date": "2026-09-04",
+  "security": "CNYRUB_WAP0",
+  "board": "WAPS",
+  "history_from": "2023-12-04",
+  "history_till": "2026-09-03",
+  "scheduled_history_rows": 700,
+  "pages_checked": 7,
+  "page_size": 100,
+  "rows_with_numtrades_above_zero_or_nonnull_waprice": 0,
+  "fields_checked": [
+    "TRADEDATE",
+    "OPEN",
+    "LOW",
+    "HIGH",
+    "CLOSE",
+    "NUMTRADES",
+    "WAPRICE"
+  ],
+  "query_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/WAPS/securities/CNYRUB_WAP0.json?from=2023-12-04&till=2026-09-03&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE",
+  "security_metadata_url": "https://iss.moex.com/iss/securities/CNYRUB_WAP0.json?iss.meta=off",
+  "methodology_context_url": "https://www.moex.com/n65680",
+  "interpretation": "The unauthenticated WAPS security history exposes scheduled rows but not the calculated 15:30 WAP. It cannot replace licensed timestamped market data or an independently reconstructed WAP from timestamped trades.",
+  "rights_warning": "This is access/coverage metadata, not permission to use MOEX information for a model or distribute derived data. Obtain written rights and SLA approval."
+}

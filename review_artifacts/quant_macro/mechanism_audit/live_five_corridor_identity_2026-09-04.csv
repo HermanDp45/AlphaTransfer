@@ -1,0 +1,6 @@
+cbr_effective_date,corridor,nominal,cbr_rub_per_usd,local_currency_per_usd,synthetic_cbr_value_per_nominal,actual_cbr_value_per_nominal,exact_to_four_decimals,local_authority,local_source_url,cbr_source_url
+2026-09-04,AMD,100,86.8872,364.19,23.8577,23.8577,True,Central Bank of Armenia,https://www.cba.am/en/exchange-rates-archive,https://www.cbr.ru/eng/currency_base/daily/
+2026-09-04,KGS,100,86.8872,87.4488,99.3578,99.3578,True,National Bank of the Kyrgyz Republic,https://www.nbkr.kg/getservice.jsp?lang=ENG,https://www.cbr.ru/eng/currency_base/daily/
+2026-09-04,KZT,100,86.8872,455.4,19.0793,19.0793,True,National Bank of Kazakhstan,https://nationalbank.kz/rss/get_rates.cfm?fdate=03.09.2026,https://www.cbr.ru/eng/currency_base/daily/
+2026-09-04,TJS,10,86.8872,9.2525,93.9067,93.9067,True,National Bank of Tajikistan,https://www.nbt.tj/en/kurs/kurs.php,https://www.cbr.ru/eng/currency_base/daily/
+2026-09-04,UZS,10000,86.8872,11813.09,73.5516,73.5516,True,Central Bank of Uzbekistan,https://cbu.uz/en/arkhiv-kursov-valyut/,https://www.cbr.ru/eng/currency_base/daily/

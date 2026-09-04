@@ -1,0 +1,150 @@
+{
+  "availability_profiles": {
+    "illegal_lead5": {
+      "cbr_rate_days": -5,
+      "eia_days": -5,
+      "fed_h10_days": -5,
+      "local_fx_days": -5,
+      "moex_days": -5,
+      "name": "illegal_lead5",
+      "nbk_rate_days": -5,
+      "treasury_days": -5
+    },
+    "optimistic": {
+      "cbr_rate_days": 0,
+      "eia_days": 5,
+      "fed_h10_days": 2,
+      "local_fx_days": 0,
+      "moex_days": 1,
+      "name": "optimistic",
+      "nbk_rate_days": 0,
+      "treasury_days": 1
+    },
+    "primary": {
+      "cbr_rate_days": 1,
+      "eia_days": 10,
+      "fed_h10_days": 8,
+      "local_fx_days": 1,
+      "moex_days": 1,
+      "name": "primary",
+      "nbk_rate_days": 1,
+      "treasury_days": 1
+    },
+    "stale": {
+      "cbr_rate_days": 2,
+      "eia_days": 14,
+      "fed_h10_days": 12,
+      "local_fx_days": 3,
+      "moex_days": 3,
+      "name": "stale",
+      "nbk_rate_days": 2,
+      "treasury_days": 3
+    }
+  },
+  "development_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "diagnostic_tracks": {
+    "contract_required_market_data": {
+      "config_id": "hgb_plus_cnyrub_basis",
+      "status": "diagnostic_best_paired_delta_no_gate_pass"
+    },
+    "public_source_research": {
+      "config_id": "logit_plus_kazakhstan_official",
+      "status": "diagnostic_best_paired_delta_no_gate_pass"
+    }
+  },
+  "diagnostic_year_already_inspected": 2026,
+  "inferential_status": "final_retrospective_exploratory",
+  "minimum_final_bootstrap_repetitions": 10000,
+  "posthoc_adaptive_policy": {
+    "cooldown_sessions": 3,
+    "minimum_history_dates": 40,
+    "quantile_is_selected_on_previous_year_scores_for_target_cadence": true,
+    "reason": "designed after observing 2026 fixed-threshold cadence drift; diagnostic only",
+    "score_window_portfolio_best_dates": 126,
+    "selection_uses_labels": false
+  },
+  "primary_horizon_cbr_rows_pub_proxy": 5,
+  "probability_calibration": {
+    "calibration_parameters_never_fit_on_test": true,
+    "method": "positive-slope Platt calibration on the purged prior-year validation fold; explicit identity fallback for a single class, non-monotone fitted slope or no validation Brier gain",
+    "ranking_inversion_forbidden": true,
+    "raw_and_calibrated_probabilities_saved": true
+  },
+  "production_promoted_tracks": [],
+  "prospective_shadow_tracks": {},
+  "protocol_note": "This entire study is retrospective and exploratory: multiple horizons, feature families and 2026 diagnostics were inspected while the protocol evolved. Holm correction covers only the displayed h=5 family and is a screen, not a confirmatory significance claim. Any candidate must be frozen and evaluated in a new prospective shadow period before promotion.",
+  "run_tier": "final",
+  "selection_rule": {
+    "brier_month_block_ci_upper_below_zero": true,
+    "candidate_cadence_range_per_corridor_week": [
+      1.0,
+      2.0
+    ],
+    "corridor_candidate_forward_delta_vs_base_nonnegative": true,
+    "corridor_forward_point_minimum_bps": 0.0,
+    "corridor_forward_simultaneous_lower_strictly_above_bps": -25.0,
+    "corridor_hit_delta_pp_simultaneous_lower_strictly_above": 0.0,
+    "corridor_lift_simultaneous_lower_strictly_above": 1.0,
+    "corridor_simultaneous95_implemented_as_two_sided_99pct_interval": true,
+    "corridor_symmetric_bps_simultaneous_lower_strictly_above": 0.0,
+    "fast_machine_readable_source_required": true,
+    "holm_adjusted_p_below": 0.05,
+    "maximum_top_fold_signal_share": 0.5,
+    "minimum_active_folds_per_passing_corridor": 3,
+    "minimum_fold_lift_strictly_above": 1.0,
+    "minimum_improved_fold_corridor_cells": 8,
+    "minimum_improved_years": 3,
+    "minimum_passing_corridors": 2,
+    "minimum_point_cell_standardized_lift": 1.3,
+    "minimum_relative_brier_improvement": 0.005,
+    "minimum_signals_per_passing_corridor": 20,
+    "minimum_weekly_candidate_cadence_fulfillment": 0.9,
+    "offline_level_names": {
+      "candidate_signal": "corridor policy signal after threshold and corridor cooldown",
+      "delivered_contact": "not observed; requires client eligibility and the bank CRM budget",
+      "signal": "synthetic all-five market portfolio after shared cooldown; not a client estimate"
+    },
+    "per_signal_model_explanation_required": true,
+    "pooled_corridor_candidate_forward_ci95_lower_strictly_above_bps": -25.0,
+    "pooled_corridor_candidate_forward_point_minimum_bps": 0.0,
+    "pooled_corridor_candidate_hit_delta_pp_ci95_lower_strictly_above": 0.0,
+    "pooled_corridor_candidate_lift_month_block_ci95_lower_strictly_above": 1.0,
+    "pooled_corridor_candidate_symmetric_bps_ci95_lower_strictly_above": 0.0,
+    "positive_brier_skill_vs_prior_year_required": true,
+    "prediction_suppression_ledger": [
+      "raw_threshold_candidate",
+      "corridor_cooldown_suppressed",
+      "candidate_signal",
+      "portfolio_daily_rank_suppressed",
+      "portfolio_shared_cooldown_suppressed",
+      "signal"
+    ],
+    "source_lineage_and_policy_reproducibility_required": true,
+    "statistical_unit": "decision_date; five correlated corridor rows collapsed",
+    "synthetic_all_five_market_portfolio_cadence_range_per_week_diagnostic_only": [
+      0.8,
+      1.2
+    ],
+    "synthetic_portfolio_is_promotion_gate": false,
+    "synthetic_portfolio_tie_break_rule": "sha256(seed|date|corridor), lowest digest wins",
+    "threshold_objective": "independently per corridor on purged validation: cadence band first, then weighted_error_3 with FP:FN=3:1"
+  },
+  "warnings": [
+    "CBR date is an effective date, not a proven publication timestamp.",
+    "World Bank current workbook is not an immutable real-time vintage.",
+    "MOEX/KASE-style market-data use still needs legal approval for production.",
+    "2026 is partial, already inspected, and never treated as confirmation.",
+    "Month-block sign-flip p-values assume symmetric block effects and are secondary to confidence intervals.",
+    "The rolling-quantile cadence policy is a post-hoc operational robustness analysis.",
+    "The post-hoc adaptive policy is portfolio-only and has no comparable corridor candidate layer.",
+    "The all-five market portfolio is an upper-bound scenario, not a per-client CRM simulation.",
+    "The synthetic portfolio uses a deterministic hash tie-break and is diagnostic, never a promotion gate.",
+    "Counterfactual wait and fast/slow trigger-pair deltas are not executable P&L and exclude spread, fees and app quote slippage.",
+    "The slow trigger in the fast/slow audit is an official-history model, not an independently identified causal confirmation.",
+    "Current downloaded histories are latest-revised snapshots, not immutable point-in-time vintages."
+  ]
+}

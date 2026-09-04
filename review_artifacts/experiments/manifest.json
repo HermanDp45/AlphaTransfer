@@ -1,0 +1,198 @@
+{
+  "cooldown_cbr_rows_pub_proxy": 3,
+  "corridors": [
+    "AMD",
+    "KGS",
+    "KZT",
+    "TJS",
+    "UZS"
+  ],
+  "date_field_semantics": "CBR effective-date records; ordered-record sequence is used as a publication-session proxy; actual published_at is unavailable",
+  "experiments": [
+    {
+      "config_id": "weekly_first",
+      "feature_set": "none",
+      "model_kind": "weekly_first"
+    },
+    {
+      "config_id": "down3",
+      "feature_set": "none",
+      "model_kind": "down3"
+    },
+    {
+      "config_id": "level_pr120",
+      "feature_set": "pr120",
+      "model_kind": "level_score"
+    },
+    {
+      "config_id": "logit_core10",
+      "feature_set": "core10",
+      "model_kind": "logistic"
+    },
+    {
+      "config_id": "logit_core_levels",
+      "feature_set": "core_levels",
+      "model_kind": "logistic"
+    },
+    {
+      "config_id": "logit_core_vol",
+      "feature_set": "core_vol",
+      "model_kind": "logistic"
+    },
+    {
+      "config_id": "logit_core_vol_calendar",
+      "feature_set": "core_vol_calendar",
+      "model_kind": "logistic"
+    },
+    {
+      "config_id": "logit_full",
+      "feature_set": "full",
+      "model_kind": "logistic"
+    },
+    {
+      "config_id": "hgb_core_vol",
+      "feature_set": "core_vol",
+      "model_kind": "hist_gradient_boosting"
+    }
+  ],
+  "feature_groups": {
+    "core10": [
+      "ret1",
+      "ret3",
+      "ret5",
+      "ret10",
+      "ret20",
+      "ret60",
+      "pr20",
+      "pr60",
+      "pr120",
+      "pr252"
+    ],
+    "core_levels": [
+      "ret1",
+      "ret3",
+      "ret5",
+      "ret10",
+      "ret20",
+      "ret60",
+      "pr20",
+      "pr60",
+      "pr120",
+      "pr252",
+      "dmin20",
+      "dmin60",
+      "dmin120",
+      "dmin252",
+      "dmax20",
+      "dmax60",
+      "dmax120",
+      "dmax252"
+    ],
+    "core_vol": [
+      "ret1",
+      "ret3",
+      "ret5",
+      "ret10",
+      "ret20",
+      "ret60",
+      "pr20",
+      "pr60",
+      "pr120",
+      "pr252",
+      "vol5",
+      "vol20",
+      "vol60",
+      "volratio"
+    ],
+    "core_vol_calendar": [
+      "ret1",
+      "ret3",
+      "ret5",
+      "ret10",
+      "ret20",
+      "ret60",
+      "pr20",
+      "pr60",
+      "pr120",
+      "pr252",
+      "vol5",
+      "vol20",
+      "vol60",
+      "volratio",
+      "dow",
+      "dom",
+      "month"
+    ],
+    "full": [
+      "ret1",
+      "ret3",
+      "ret5",
+      "ret10",
+      "ret20",
+      "ret60",
+      "pr20",
+      "pr60",
+      "pr120",
+      "pr252",
+      "dmin20",
+      "dmin60",
+      "dmin120",
+      "dmin252",
+      "dmax20",
+      "dmax60",
+      "dmax120",
+      "dmax252",
+      "vol5",
+      "vol20",
+      "vol60",
+      "volratio",
+      "dow",
+      "dom",
+      "month",
+      "common_ret1",
+      "common_ret5",
+      "resid1",
+      "resid5",
+      "accel",
+      "reversal1"
+    ]
+  },
+  "horizons_cbr_rows_pub_proxy": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "input_files": {
+    "data/cbr_daily.csv": "6132fe4d80c879b7b5ff137107c6b52ed17906c7931f73ac720fed72e915b64e",
+    "data/kzt_v0/backtest.json": "104a4da13edbeb40f835c4dde8935e14decfef800bb0f782e5ffb7b31383c4db",
+    "data/kzt_v0/features.csv": "1eaedd19387431d018d9ee83200144337eb78c41a57981e9e3e3b1c7ffc465d7",
+    "data/open_exchange_rates/rub_cis_daily.csv": "d30d226fbaa0b2d89a2e7eacf011b90af93eb60150572ec66c2fb1ff26a25db2"
+  },
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "posthoc_diagnostic_frequency_band_per_week": [
+    0.8,
+    1.2
+  ],
+  "posthoc_screening_scope": "learned configurations only; 28 of 30 met the frequency band; 14 also had positive absolute signal-date symmetric and forward point estimates; no configuration is declared a winner",
+  "primary_aggregate_estimand": "signal-count-weighted fold×corridor standardization; exposure-pooled metrics retained as sensitivity",
+  "purge_contract": "train/validation and closed test-year tails purge h sessions; partial final year keeps every row whose target is globally resolved",
+  "python": "3.11.15",
+  "scikit_learn": "1.9.0",
+  "seed": 20260903,
+  "status": "exploratory_post_selection_not_a_headline_claim",
+  "target": "rub_per_unit[T] <= min(rub_per_unit[T+1:T+h])",
+  "target_signals_per_week": 1.0,
+  "test_policy_state": "cooldown replayed on the complete prior-year history with the frozen fold model and threshold",
+  "test_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "threshold_selection": "prior-year validation scores; frequency only; no validation labels",
+  "train_window_years": 2,
+  "validation_window_years": 1
+}

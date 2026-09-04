@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="1000" height="620" fill="#ffffff"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Quality–cadence frontier: ни одна policy не проходит оба gate</text>
+  <text x="500" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">hgb + CNY spot-minus-fixing, h=5 CBR proxy rows, development 2023–2025</text>
+
+  <rect x="627" y="90" width="273" height="148" fill="#dcfce7" opacity="0.72"/>
+  <text x="764" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#166534">PASS REGION</text>
+  <text x="764" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">lift ≥ 1.3 and fulfillment ≥ 0.90</text>
+
+  <line x1="120" y1="500" x2="900" y2="500" stroke="#111827" stroke-width="2"/>
+  <line x1="120" y1="90" x2="120" y2="500" stroke="#111827" stroke-width="2"/>
+  <line x1="627" y1="90" x2="627" y2="500" stroke="#ef4444" stroke-width="2" stroke-dasharray="8 7"/>
+  <line x1="120" y1="238" x2="900" y2="238" stroke="#ef4444" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <g font-family="Arial, sans-serif" font-size="12" fill="#4b5563">
+    <line x1="153" y1="500" x2="153" y2="507" stroke="#111827"/><text x="153" y="526" text-anchor="middle">0.75</text>
+    <line x1="315" y1="500" x2="315" y2="507" stroke="#111827"/><text x="315" y="526" text-anchor="middle">0.80</text>
+    <line x1="478" y1="500" x2="478" y2="507" stroke="#111827"/><text x="478" y="526" text-anchor="middle">0.85</text>
+    <line x1="640" y1="500" x2="640" y2="507" stroke="#111827"/><text x="640" y="526" text-anchor="middle">0.90</text>
+    <line x1="803" y1="500" x2="803" y2="507" stroke="#111827"/><text x="803" y="526" text-anchor="middle">0.95</text>
+
+    <line x1="113" y1="500" x2="120" y2="500" stroke="#111827"/><text x="105" y="504" text-anchor="end">1.05</text>
+    <line x1="113" y1="395" x2="120" y2="395" stroke="#111827"/><text x="105" y="399" text-anchor="end">1.15</text>
+    <line x1="113" y1="290" x2="120" y2="290" stroke="#111827"/><text x="105" y="294" text-anchor="end">1.25</text>
+    <line x1="113" y1="185" x2="120" y2="185" stroke="#111827"/><text x="105" y="189" text-anchor="end">1.35</text>
+    <line x1="113" y1="90" x2="120" y2="90" stroke="#111827"/><text x="105" y="94" text-anchor="end">1.44</text>
+  </g>
+
+  <text x="510" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#111827">Минимальная доля недель с 1–2 сигналами по folds</text>
+  <text x="28" y="300" text-anchor="middle" transform="rotate(-90 28 300)" font-family="Arial, sans-serif" font-size="16" fill="#111827">Cell-standardized lift</text>
+
+  <polyline points="168,120 427,157 614,281 684,432 684,398 814,452" fill="none" stroke="#7c3aed" stroke-width="3" opacity="0.75"/>
+
+  <g font-family="Arial, sans-serif" font-size="13" font-weight="700">
+    <circle cx="168" cy="120" r="8" fill="#7c3aed"/><text x="184" y="113" fill="#4c1d95">q=.50 · 1.421</text>
+    <circle cx="427" cy="157" r="8" fill="#7c3aed"/><text x="443" y="150" fill="#4c1d95">q=.40 · 1.377</text>
+    <circle cx="614" cy="281" r="8" fill="#7c3aed"/><text x="630" y="274" fill="#4c1d95">q=.30 · 1.259</text>
+    <circle cx="684" cy="432" r="8" fill="#2563eb"/><text x="700" y="447" fill="#1e3a8a">q=.20 · 1.115</text>
+    <circle cx="684" cy="398" r="8" fill="#2563eb"/><text x="700" y="391" fill="#1e3a8a">q=.10 · 1.147</text>
+    <circle cx="814" cy="452" r="8" fill="#2563eb"/><text x="830" y="445" fill="#1e3a8a">q=.05 · 1.096</text>
+  </g>
+
+  <text x="500" y="602" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Post-hoc point-estimate diagnostic; source data: cadence_quality_frontier.csv</text>
+</svg>

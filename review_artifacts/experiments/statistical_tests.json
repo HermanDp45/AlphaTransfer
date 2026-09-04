@@ -1,0 +1,196 @@
+{
+  "bonferroni_adjusted_p_values": {
+    "exposure_forward_bps_delta": 1.0,
+    "exposure_lift": 1.0,
+    "exposure_regret_bps_improvement": 1.0,
+    "exposure_symmetric_bps_delta": 0.16648335166483352,
+    "forward_bps_delta": 1.0,
+    "lift": 1.0,
+    "regret_bps_improvement": 1.0,
+    "symmetric_bps_delta": 0.16648335166483352
+  },
+  "bootstrap_repetitions": 20000,
+  "brier_score": 0.19567341291544377,
+  "brier_skill_vs_oracle_same_fold_climatology": -0.2660780682975388,
+  "ece_10_equal_count_bins": 0.17538538886240537,
+  "month_block_bootstrap_95_interval": {
+    "absolute_delta_pp": [
+      -1.034380801184226,
+      1.7332944859064319,
+      4.810456032215097
+    ],
+    "exposure_absolute_delta_pp": [
+      -2.4803115585151305,
+      0.3020836205434779,
+      3.4834787892655474
+    ],
+    "exposure_forward_bps_delta": [
+      -25.218629339772182,
+      -3.4679844664163073,
+      17.444286238532857
+    ],
+    "exposure_lift": [
+      0.873053733245722,
+      1.015263231882137,
+      1.1776212596703435
+    ],
+    "exposure_regret_bps_improvement": [
+      -29.10899608171528,
+      -3.805433790837469,
+      19.339447835708622
+    ],
+    "exposure_symmetric_bps_delta": [
+      4.014722756487214,
+      15.828732406728415,
+      29.332745220777213
+    ],
+    "forward_bps_delta": [
+      0.5694576511702076,
+      13.847899949226235,
+      28.27563089353675
+    ],
+    "lift": [
+      0.9448084302732291,
+      1.0945933293088763,
+      1.266298634237861
+    ],
+    "regret_bps_improvement": [
+      -7.301890170491481,
+      7.050110825725112,
+      20.995707797448418
+    ],
+    "signal_forward_bps": [
+      -25.592635813564574,
+      35.603866038378456,
+      97.3591166896365
+    ],
+    "signal_regret_bps": [
+      203.05638947663178,
+      281.00574595422836,
+      367.4363898138681
+    ],
+    "signal_symmetric_bps": [
+      0.3818858605094502,
+      26.874961703160984,
+      53.697753253005786
+    ],
+    "symmetric_bps_delta": [
+      6.566555822866485,
+      16.256255534580443,
+      27.818020771488893
+    ]
+  },
+  "multiple_testing_family_size": 45,
+  "null_95_percentile": {
+    "exposure_forward_bps_delta": 6.28680223782304,
+    "exposure_lift": 1.060704537619513,
+    "exposure_regret_bps_improvement": 12.664806607092489,
+    "exposure_symmetric_bps_delta": 9.347899587954094,
+    "forward_bps_delta": 23.923047435301584,
+    "lift": 1.1442352139475482,
+    "regret_bps_improvement": 23.33921693014373,
+    "symmetric_bps_delta": 9.787733989676928
+  },
+  "null_repetitions": 10000,
+  "observed_and_null": {
+    "observed": {
+      "exposure_forward_bps_delta": -3.7999798119696706,
+      "exposure_lift": 1.015152809010086,
+      "exposure_regret_bps_improvement": -4.239817523446732,
+      "exposure_symmetric_bps_delta": 16.022879973475536,
+      "forward_bps_delta": 13.836265385508867,
+      "lift": 1.0950962783792486,
+      "regret_bps_improvement": 6.434592799604571,
+      "symmetric_bps_delta": 16.462714375198363
+    },
+    "p_value_one_sided": {
+      "exposure_forward_bps_delta": 0.16318368163183683,
+      "exposure_lift": 0.1391860813918608,
+      "exposure_regret_bps_improvement": 0.3050694930506949,
+      "exposure_symmetric_bps_delta": 0.0036996300369963003,
+      "forward_bps_delta": 0.16318368163183683,
+      "lift": 0.1391860813918608,
+      "regret_bps_improvement": 0.3050694930506949,
+      "symmetric_bps_delta": 0.0036996300369963003
+    }
+  },
+  "oracle_same_fold_climatology_brier": 0.1545508273265965,
+  "primary_aggregate_estimand": "signal-count-weighted fold×corridor standardization; exposure-pooled metrics retained as sensitivity",
+  "ranking_lift_leader": {
+    "cell_standardized_forward_bps_delta": 11.446276940047207,
+    "cell_standardized_lift": 1.1101459376391987,
+    "cell_standardized_symmetric_bps_delta": -2.4066969575913175,
+    "config_id": "logit_full",
+    "horizon_cbr_rows_pub_proxy": 1,
+    "is_winner_or_confirmatory_claim": false,
+    "signal_forward_bps": 14.570641582355318,
+    "signal_symmetric_bps": -2.0663036439851266
+  },
+  "saved_kzt_frequency": {
+    "active_week_count": 16,
+    "eligible_saved_events": 17,
+    "first_signal_delay_days": 473,
+    "fold_count": 7,
+    "folds_without_any_candidate": 5,
+    "signals_per_week": 0.1865203761755486,
+    "silent_week_share": 0.8260869565217391,
+    "test_span_days": 638,
+    "week_count": 92
+  },
+  "statistical_focus_absolute_signal_metrics": {
+    "forward_bps": 35.22936847839965,
+    "regret_bps": 282.32258986020116,
+    "symmetric_bps": 26.650704959909596
+  },
+  "statistical_focus_configuration": {
+    "config_id": "logit_full",
+    "horizon_cbr_rows_pub_proxy": 20,
+    "is_winner_or_confirmatory_claim": false,
+    "role": "posthoc_economically_screened_candidate",
+    "screening_rule": "highest fold×corridor-cell-standardized lift among learned configs with mean OOT frequency in [0.8,1.2]/week and positive absolute signal-date point estimates for both symmetric and forward bps metrics",
+    "screening_used_all_reported_OOT_results": true
+  },
+  "status": "exploratory_post_selection_not_a_headline_claim",
+  "tolerance_sensitivity": [
+    {
+      "baseline_hit_rate": 0.1985419198055893,
+      "cell_standardized_baseline_hit_rate": 0.18404809839660438,
+      "cell_standardized_lift": 1.0950962783792486,
+      "lift": 1.015152809010086,
+      "signal_hit_rate": 0.20155038759689922,
+      "tolerance_bps": 0
+    },
+    {
+      "baseline_hit_rate": 0.2648845686512758,
+      "cell_standardized_baseline_hit_rate": 0.24629919966295283,
+      "cell_standardized_lift": 1.1278062541733862,
+      "lift": 1.0486748216106017,
+      "signal_hit_rate": 0.2777777777777778,
+      "tolerance_bps": 25
+    },
+    {
+      "baseline_hit_rate": 0.3302551640340219,
+      "cell_standardized_baseline_hit_rate": 0.3093809732291536,
+      "cell_standardized_lift": 1.0899484179843724,
+      "lift": 1.0210568646576654,
+      "signal_hit_rate": 0.3372093023255814,
+      "tolerance_bps": 50
+    },
+    {
+      "baseline_hit_rate": 0.37691373025516406,
+      "cell_standardized_baseline_hit_rate": 0.35527052200616166,
+      "cell_standardized_lift": 1.0473512442142907,
+      "lift": 0.9872100520294483,
+      "signal_hit_rate": 0.37209302325581395,
+      "tolerance_bps": 75
+    },
+    {
+      "baseline_hit_rate": 0.425273390036452,
+      "cell_standardized_baseline_hit_rate": 0.40277248029149204,
+      "cell_standardized_lift": 1.0521389383714381,
+      "lift": 0.9964710225175343,
+      "signal_hit_rate": 0.42377260981912146,
+      "tolerance_bps": 100
+    }
+  ]
+}

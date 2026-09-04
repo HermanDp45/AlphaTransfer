@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+# Intermediate research runs are kept locally for forensic trace only.
+# The sole canonical quant bundle is results-final-20260904-v2/.
+generated-smoke/
+quant_macro/results/
+quant_macro/results-smoke/
+quant_macro/results[0-9]*-smoke/
+quant_macro/results-final-20260904-v1/
