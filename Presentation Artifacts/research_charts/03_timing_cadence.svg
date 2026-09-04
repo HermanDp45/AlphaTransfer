@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Что добавили поверх бейзлайна кейса</title>
+<desc id="desc">Путь от официального курса и базовых индикаторов к расширенному набору источников, структурному рыночному фактору и строгой оценке.</desc>
+<defs>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/></filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8A8A8A"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start" >Что дало прирост: структура рынка, а не “макро-суп”</text>
+<text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#676767" text-anchor="start" >Мы расширили поиск максимально широко, но в финал оставили только доказанно полезное</text>
+<rect x="70" y="195" width="310" height="390" rx="24" fill="#F6F6F6" stroke="#D9D9D9" stroke-width="1.2" />
+<text x="98" y="243" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#171717" text-anchor="start" >Бейзлайн кейса</text>
+<circle cx="105" cy="289" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="123" y="295" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >Курс ЦБ</text>
+<circle cx="105" cy="341" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="123" y="347" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >momentum / returns</text>
+<circle cx="105" cy="393" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="123" y="399" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >percentile level</text>
+<circle cx="105" cy="445" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="123" y="451" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >volatility</text>
+<circle cx="105" cy="497" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="123" y="503" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >random-day baseline</text>
+<rect x="430" y="195" width="335" height="390" rx="24" fill="#F3F7FC" stroke="none" stroke-width="1.2" />
+<text x="458" y="243" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#171717" text-anchor="start" >Расширили данные</text>
+<circle cx="465" cy="289" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="483" y="295" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >31 семейство источников</text>
+<circle cx="465" cy="341" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="483" y="347" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >MOEX / KASE / NBK</text>
+<circle cx="465" cy="393" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="483" y="399" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >нефть и commodities</text>
+<circle cx="465" cy="445" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="483" y="451" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >ставки и risk indices</text>
+<circle cx="465" cy="497" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="483" y="503" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >инфляция и макро РФ/КЗ</text>
+<rect x="815" y="195" width="335" height="390" rx="24" fill="#FFF0EF" stroke="none" stroke-width="1.2" />
+<text x="843" y="243" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#C7231A" text-anchor="start" >Нашли рабочий фактор</text>
+<circle cx="850" cy="289" r="5" fill="#EF3124" stroke="none" stroke-width="0"/>
+<text x="868" y="295" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >CNY/RUB spot–fixing</text>
+<circle cx="850" cy="341" r="5" fill="#EF3124" stroke="none" stroke-width="0"/>
+<text x="868" y="347" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >dislocation</text>
+<circle cx="850" cy="393" r="5" fill="#EF3124" stroke="none" stroke-width="0"/>
+<text x="868" y="399" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >cross-rate mechanism</text>
+<circle cx="850" cy="445" r="5" fill="#EF3124" stroke="none" stroke-width="0"/>
+<text x="868" y="451" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >5/5 коридоров</text>
+<circle cx="850" cy="497" r="5" fill="#EF3124" stroke="none" stroke-width="0"/>
+<text x="868" y="503" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >412/413 KZT-дней</text>
+<rect x="1200" y="195" width="330" height="390" rx="24" fill="#ECF7F0" stroke="none" stroke-width="1.2" />
+<text x="1228" y="243" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1F8A55" text-anchor="start" >Довели до решения</text>
+<circle cx="1235" cy="289" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="1253" y="295" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >purged rolling OOT</text>
+<circle cx="1235" cy="341" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="1253" y="347" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >PIT joins + lag stress</text>
+<circle cx="1235" cy="393" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="1253" y="399" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >calibration</text>
+<circle cx="1235" cy="445" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="1253" y="451" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >3× cost false positive</text>
+<circle cx="1235" cy="497" r="5" fill="#171717" stroke="none" stroke-width="0"/>
+<text x="1253" y="503" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" fill="#171717" text-anchor="start" >cooldown + abstain</text>
+<line x1="390" y1="390" x2="420" y2="390" stroke="#8A8A8A" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="775" y1="390" x2="805" y2="390" stroke="#8A8A8A" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1160" y1="390" x2="1190" y2="390" stroke="#8A8A8A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="625" width="1460" height="95" rx="18" fill="#171717" stroke="none" stroke-width="1" />
+<text x="105" y="682" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#FFFFFF" text-anchor="start" >Lift 1,089×</text>
+<text x="360" y="682" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="600" fill="#BBBBBB" text-anchor="start" >→</text>
+<text x="425" y="682" font-family="Arial, Helvetica, sans-serif" font-size="41" font-weight="700" fill="#7DE2AA" text-anchor="start" >1,435×</text>
+<text x="645" y="682" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF" text-anchor="start" >+31,8% к бейзлайну признаков кейса</text>
+<text x="1240" y="682" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF" text-anchor="start" >Brier −12,8%</text>
+<rect x="70" y="755" width="710" height="80" rx="16" fill="#ECF7F0" stroke="none" stroke-width="1" />
+<text x="100" y="803" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1F8A55" text-anchor="start" >Оставили</text>
+<text x="225" y="803" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" fill="#171717" text-anchor="start" >CNY-dislocation: стабильный OOT-прирост</text>
+<rect x="800" y="755" width="730" height="80" rx="16" fill="#F6F6F6" stroke="none" stroke-width="1" />
+<text x="830" y="803" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#676767" text-anchor="start" >Отсеяли</text>
+<text x="955" y="803" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" fill="#171717" text-anchor="start" >широкие macro/public stacks: качества не добавили</text>
+<text x="1530" y="887" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="end" >37 h=5 model/feature сравнений; множественные проверки учтены Holm correction.</text>
+</svg>

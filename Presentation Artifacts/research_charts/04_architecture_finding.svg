@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Scorecard по критериям кейса</title>
+<desc id="desc">Четыре критерия качества пройдены ретроспективно; cadence и историческое подтверждение времени публикации остаются до production.</desc>
+<defs>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/></filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8A8A8A"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start" >По качеству цель кейса превышена; оставшийся разрыв — операционный</text>
+<text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#676767" text-anchor="start" >Scorecard строго по формулировкам задания — без подмены offline-метрик клиентской экономикой</text>
+<rect x="70" y="155" width="1460" height="64" rx="16" fill="#171717" stroke="none" stroke-width="1" />
+<text x="95" y="196" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start" >Критерий кейса</text>
+<text x="520" y="196" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start" >Требование</text>
+<text x="850" y="196" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start" >Итог</text>
+<text x="1400" y="196" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Статус</text>
+<rect x="70" y="235" width="1460" height="74" rx="12" fill="#FFFFFF" stroke="none" stroke-width="1" />
+<text x="95" y="281" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start" >Lift над случайным днём</text>
+<text x="520" y="281" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#676767" text-anchor="start" >≥ 1,30×</text>
+<text x="850" y="281" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#171717" text-anchor="start" >1,435× [1,305; 1,574]</text>
+<rect x="1300" y="252" width="200" height="40" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1" />
+<text x="1400" y="279" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle" >PASS</text>
+<rect x="70" y="326" width="1460" height="74" rx="12" fill="#F6F6F6" stroke="none" stroke-width="1" />
+<text x="95" y="372" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start" >Точность сигнала</text>
+<text x="520" y="372" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#676767" text-anchor="start" >Δ hit-rate &gt; 0</text>
+<text x="850" y="372" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#171717" text-anchor="start" >+13,7 п.п. [+9,6; +17,7]</text>
+<rect x="1300" y="343" width="200" height="40" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1" />
+<text x="1400" y="370" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle" >PASS</text>
+<rect x="70" y="417" width="1460" height="74" rx="12" fill="#FFFFFF" stroke="none" stroke-width="1" />
+<text x="95" y="463" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start" >Выгода момента</text>
+<text x="520" y="463" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#676767" text-anchor="start" >Δ reference bps &gt; 0</text>
+<text x="850" y="463" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#171717" text-anchor="start" >+47,7 б.п. [+32,8; +64,0]</text>
+<rect x="1300" y="434" width="200" height="40" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1" />
+<text x="1400" y="461" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle" >PASS</text>
+<rect x="70" y="508" width="1460" height="74" rx="12" fill="#F6F6F6" stroke="none" stroke-width="1" />
+<text x="95" y="554" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start" >Устойчивость</text>
+<text x="520" y="554" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#676767" text-anchor="start" >коридоры + OOT окна</text>
+<text x="850" y="554" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#171717" text-anchor="start" >5/5 · 3/3 года · 15/15 ячеек</text>
+<rect x="1300" y="525" width="200" height="40" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1" />
+<text x="1400" y="552" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle" >PASS</text>
+<rect x="70" y="599" width="1460" height="74" rx="12" fill="#FFFFFF" stroke="none" stroke-width="1" />
+<text x="95" y="645" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start" >Частота коммуникаций</text>
+<text x="520" y="645" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#676767" text-anchor="start" >1–2/нед. в ≥90% недель</text>
+<text x="850" y="645" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#C7231A" text-anchor="start" >66,7–83,3%</text>
+<rect x="1300" y="616" width="200" height="40" rx="20" fill="#FFF0EF" stroke="none" stroke-width="1" />
+<text x="1400" y="643" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#C7231A" text-anchor="middle" >ДОРАБОТАТЬ</text>
+<rect x="70" y="690" width="1460" height="74" rx="12" fill="#F6F6F6" stroke="none" stroke-width="1" />
+<text x="95" y="736" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start" >Point-in-time готовность</text>
+<text x="520" y="736" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#676767" text-anchor="start" >данные доступны на T</text>
+<text x="850" y="736" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#B56A00" text-anchor="start" >PIT-логика OK; source SLA не frozen</text>
+<rect x="1300" y="707" width="200" height="40" rx="20" fill="#FFF7E8" stroke="none" stroke-width="1" />
+<text x="1400" y="734" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#B56A00" text-anchor="middle" >ПОДТВЕРДИТЬ</text>
+<rect x="70" y="800" width="1460" height="56" rx="14" fill="#ECF7F0" stroke="none" stroke-width="1" />
+<text x="95" y="837" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start" >Финальный вывод: исследовательский quality gate пройден; следующий шаг — frozen shadow/confirmatory run.</text>
+<text x="1530" y="890" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="end" >Статусы относятся к retrospective research; production GO не заявляется.</text>
+</svg>
