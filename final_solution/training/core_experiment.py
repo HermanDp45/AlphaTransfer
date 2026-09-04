@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Independent, offline ML/statistical audit for AlphaTransfer.
+"""Core offline models, features and walk-forward protocol for AlphaTransfer.
 
-The script intentionally does not fetch data and does not import project code.  It
-uses only the tracked snapshots so that the review remains independent from the
-implementation under review.
+The module never fetches data: training consumes only frozen snapshots supplied
+by the final solution's data layer.
 """
 
 from __future__ import annotations
@@ -1755,7 +1754,7 @@ def main() -> int:
     repo_root = args.repo_root.resolve()
     output_dir = args.output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
-    cbr_path = repo_root / "data/cbr_daily.csv"
+    cbr_path = repo_root / "final_solution/data/cbr_daily.csv"
     oxr_path = repo_root / "data/open_exchange_rates/rub_cis_daily.csv"
     panel_base = build_panel(cbr_path)
 
@@ -1930,7 +1929,7 @@ def main() -> int:
         output_dir / "statistical_tests.json",
     ]
     script_path = Path(__file__).resolve()
-    requirements_path = repo_root / "review_artifacts" / "quant_macro" / "requirements.txt"
+    requirements_path = repo_root / "final_solution" / "requirements-ml.txt"
     write_json(
         output_dir / "manifest.json",
         {

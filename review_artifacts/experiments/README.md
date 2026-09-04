@@ -5,8 +5,9 @@
 > threshold rule, calibration и post-selection статистика **не являются
 > текущим каноническим экспериментом**. Для решений используйте
 > [`../quant_macro/QUANT_RESEARCH_REPORT_2026-09-04.md`](../quant_macro/QUANT_RESEARCH_REPORT_2026-09-04.md),
-> [`../quant_macro/quant_feature_ablation.py`](../quant_macro/quant_feature_ablation.py)
-> и завершённый `results-final-20260904-v2/`. Числа ниже нельзя смешивать с
+> [`../../final_solution/training/train_and_evaluate.py`](../../final_solution/training/train_and_evaluate.py)
+> и завершённый [`../../final_solution/model_bundle/`](../../final_solution/model_bundle/).
+> Числа ниже нельзя смешивать с
 > новым h=5 protocol или выдавать за production-ready результат.
 
 Статус результатов: **exploratory / post-selection**. Это воспроизводимый
@@ -197,7 +198,8 @@ source на одних и тех же датах. До дальнейшего м
   CBR/NBK/MOEX: Q&A NOW и отдельная CLOSING endpoint sensitivity на MOEX-row clock.
 - `source_profile.csv`, `source_down3_crosscheck.csv` -- риск смены источника.
 - `manifest.json` -- data hashes и полный машинно-читаемый протокол.
-- `clean_five_corridor_experiment.py` -- офлайн-перезапуск всего набора.
+- `../../final_solution/training/core_experiment.py` -- актуальное ядро
+  офлайн-моделей и временных сплитов.
 
 ## Воспроизведение
 
@@ -205,18 +207,14 @@ source на одних и тех же датах. До дальнейшего м
 
 ```bash
 python3.11 -m venv .venv-review
-.venv-review/bin/python -m pip install -r review_artifacts/experiments/requirements.txt
-.venv-review/bin/python review_artifacts/experiments/clean_five_corridor_experiment.py \
-  --repo-root . \
-  --output-dir review_artifacts/experiments \
-  --bootstrap-reps 20000 \
-  --null-reps 10000
+.venv-review/bin/python -m pip install -r final_solution/requirements-ml.txt
+.venv-review/bin/python final_solution/main.py \
+  --rebuild final --bootstrap-reps 10000 --verify-full-bundle
 ```
 
-После установки зависимостей сам эксперимент работает только на tracked-файлах
-и не требует сети. Быстрый smoke-test можно сделать с `--bootstrap-reps 200
---null-reps 200` и отдельным output-dir; статистические p-value такого smoke-run
-не использовать.
+После установки зависимостей эксперимент работает только на frozen-файлах и не
+требует сети. Быстрый wiring-check можно сделать с `--rebuild smoke
+--bootstrap-reps 200`; статистические интервалы такого smoke-run не использовать.
 
 ## Ограничения и следующий честный тест
 

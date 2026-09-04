@@ -19,11 +19,9 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import importlib.util
 import json
 import math
 import platform
-import sys
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Any, Iterable
@@ -33,6 +31,11 @@ import pandas as pd
 import sklearn
 from sklearn.metrics import average_precision_score, log_loss, roc_auc_score
 from sklearn.linear_model import LogisticRegression
+
+try:
+    from . import core_experiment as core_experiment
+except ImportError:  # Direct script execution: python final_solution/training/...
+    import core_experiment
 
 
 SEED = 20_260_903
@@ -82,22 +85,25 @@ def parse_args() -> argparse.Namespace:
     script = Path(__file__).resolve()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo-root", type=Path, default=script.parents[2])
-    parser.add_argument("--data-dir", type=Path, default=script.parent / "normalized")
-    parser.add_argument("--output-dir", type=Path, default=script.parent / "results")
+    parser.add_argument(
+        "--data-dir",
+        type=Path,
+        default=script.parents[1] / "data" / "normalized",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=script.parents[1] / "work" / "model_final_10000_self_contained",
+    )
     parser.add_argument("--bootstrap-reps", type=int, default=10_000)
     parser.add_argument("--run-tier", choices=("smoke", "final"), default="final")
     return parser.parse_args()
 
 
 def load_core(repo_root: Path):
-    path = repo_root / "review_artifacts" / "experiments" / "clean_five_corridor_experiment.py"
-    spec = importlib.util.spec_from_file_location("clean_five_corridor_experiment", path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f"cannot load {path}")
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[spec.name] = module
-    spec.loader.exec_module(module)
-    return module
+    """Return the colocated core module; keep the argument for API compatibility."""
+    del repo_root
+    return core_experiment
 
 
 def sha256(path: Path) -> str:
@@ -450,7 +456,7 @@ def asof_join(
 
 
 def build_feature_panel(repo_root: Path, data_dir: Path, core: Any, profile: AvailabilityProfile) -> pd.DataFrame:
-    panel = core.build_panel(repo_root / "data" / "cbr_daily.csv")
+    panel = core.build_panel(repo_root / "final_solution" / "data" / "cbr_daily.csv")
     sources: list[tuple[str, pd.DataFrame, int | None]] = []
 
     for file_name, prefix, max_age in (
@@ -2650,13 +2656,13 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     code_paths = [
         Path(__file__).resolve(),
-        repo_root / "review_artifacts" / "experiments" / "clean_five_corridor_experiment.py",
-        repo_root / "review_artifacts" / "quant_macro" / "fetch_open_data.py",
-        repo_root / "review_artifacts" / "quant_macro" / "test_quant_macro.py",
-        repo_root / "review_artifacts" / "quant_macro" / "requirements.txt",
+        repo_root / "final_solution" / "training" / "core_experiment.py",
+        repo_root / "final_solution" / "data_pipeline" / "fetch_open_data.py",
+        repo_root / "final_solution" / "tests" / "test_training.py",
+        repo_root / "final_solution" / "requirements-ml.txt",
     ]
     input_paths = [
-        repo_root / "data" / "cbr_daily.csv",
+        repo_root / "final_solution" / "data" / "cbr_daily.csv",
         data_dir.parent / "data_manifest.json",
         *sorted(data_dir.glob("*.csv")),
     ]

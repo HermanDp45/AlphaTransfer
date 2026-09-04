@@ -9,8 +9,8 @@ default_as_of = "2025-12-16"
 corridors = ["AMD", "KGS", "KZT", "TJS", "UZS"]
 
 [paths]
-canonical_run_dir = "review_artifacts/quant_macro/results-final-20260904-v2"
-data_manifest = "review_artifacts/quant_macro/data_manifest.json"
+canonical_run_dir = "final_solution/model_bundle"
+data_manifest = "final_solution/data/data_manifest.json"
 input_lock = "final_solution/inputs.lock.json"
 demo_candidates = "final_solution/data/demo_candidates_2025-12-16.csv"
 default_client_context = "final_solution/examples/client_context.demo.json"
@@ -37,4 +37,3 @@ require_alpha_quote = true
 require_production_data_rights = true
 require_publication_timestamps = true
 require_per_signal_explanation = true
-

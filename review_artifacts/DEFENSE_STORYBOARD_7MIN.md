@@ -73,7 +73,7 @@ publication time; h=5 — пять CBR proxy rows».
 2. Quality–cadence frontier: при lift ≥1.3 weekly fulfillment лишь 0.76–0.84;
    при fulfillment ≥0.90 lift около 1.10–1.15.
 
-Готовый график: [`quant_macro/cadence_quality_frontier.svg`](quant_macro/cadence_quality_frontier.svg).
+Готовый график: [`../final_solution/research/artifacts/cadence_quality_frontier.svg`](../final_solution/research/artifacts/cadence_quality_frontier.svg).
 
 Вывод: все 5 коридоров проходят retrospective quality intervals, но 5/5
 проваливают cadence gate. Мы не force-fill тихие недели.

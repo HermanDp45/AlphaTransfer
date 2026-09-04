@@ -34,15 +34,29 @@ python3.11 final_solution/main.py --rebuild final --verify-full-bundle
 python3.11 final_solution/main.py --rebuild smoke --bootstrap-reps 100
 ```
 
-В `main` отсутствовал обязательный `data/cbr_daily.csv`, поэтому переносимая frozen-копия включена в `final_solution/data/` и защищена SHA-256 lock-файлом. Пересборка проходит в `final_solution/work/` и не меняет старые данные репозитория.
+Весь исполняемый контур находится внутри `final_solution`: обучение и оценка — в `training/`, сбор данных — в `data_pipeline/`, frozen-входы — в `data/`, эталонный результат — в `model_bundle/`. Пересборка пишет только в `final_solution/work/`; код и данные во время запуска не копируются.
 
 Произвольная историческая дата поддерживается с полным prediction-файлом:
 
 ```bash
 python3 final_solution/main.py \
   --as-of 2025-12-10 \
-  --predictions review_artifacts/quant_macro/results-final-20260904-v2/development_h5_predictions.csv
+  --predictions final_solution/model_bundle/development_h5_predictions.csv
 ```
+
+Полный prediction-файл велик и может отсутствовать в облегчённой копии репозитория. В этом случае сначала выполните `--rebuild final` или используйте включённый demo-as-of.
+
+## Структура
+
+- `main.py`, `alphatransfer_final/` — единый продуктовый entry point;
+- `training/train_and_evaluate.py` — полный walk-forward training/evaluation;
+- `training/core_experiment.py` — модели, признаки и временные сплиты;
+- `training/verify_bundle.py` — строгая проверка provenance и артефактов;
+- `data_pipeline/fetch_open_data.py` — воспроизводимый сбор открытых данных;
+- `data/` — frozen raw/normalized snapshots и manifest;
+- `model_bundle/` — зафиксированный эталонный ML-run.
+- `research/` — дополнительные cadence/mechanism и legacy-аудиты, не входящие
+  в основной production-like путь.
 
 ## Важно
 

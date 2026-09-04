@@ -3,10 +3,10 @@
 Дата: **2026-09-04**. Статус: **final retrospective exploratory**.
 Production и prospective promotion: **0 моделей**.
 
-Канонический результат — каталог
-[`results-final-20260904-v2/`](results-final-20260904-v2/) с
+Канонический результат перенесён в каталог
+[`../../final_solution/model_bundle/`](../../final_solution/model_bundle/) с
 `10 000` bootstrap repetitions и `_SUCCESS.status=complete`. SHA-256 manifest:
-`920c090b4202fdb656bfad783b20a17be6bae526aac2f634ad795b2953609cdb`.
+`24a2ce0d0b76f895a3ef83d41ce20c3b21f7895206d2198e79ded2b2647e5361`.
 Проверены 5 code, 34 input и 35 output hashes, exact output whitelist и
 153 715 prediction rows: 141 765 development, 3 120 diagnostic-2026 и 8 830
 post-hoc policy rows. `available_date > decision_date` и отрицательных source

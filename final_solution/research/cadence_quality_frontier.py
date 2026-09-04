@@ -11,7 +11,6 @@ not a model-selection or confirmatory artifact.
 from __future__ import annotations
 
 import argparse
-import importlib.util
 import math
 import sys
 from dataclasses import dataclass
@@ -43,19 +42,17 @@ def parse_args() -> argparse.Namespace:
     script = Path(__file__).resolve()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo-root", type=Path, default=script.parents[2])
-    parser.add_argument("--data-dir", type=Path, default=script.parent / "normalized")
-    parser.add_argument("--output", type=Path, default=script.parent / "cadence_quality_frontier.csv")
+    parser.add_argument(
+        "--data-dir",
+        type=Path,
+        default=script.parents[1] / "data" / "normalized",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=script.parent / "artifacts" / "cadence_quality_frontier.csv",
+    )
     return parser.parse_args()
-
-
-def load_module(name: str, path: Path):
-    spec = importlib.util.spec_from_file_location(name, path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f"cannot load {path}")
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[name] = module
-    spec.loader.exec_module(module)
-    return module
 
 
 def rolling_select(
@@ -82,14 +79,10 @@ def rolling_select(
 
 
 def prepare_folds(repo_root: Path, data_dir: Path):
-    core = load_module(
-        "cadence_frontier_core",
-        repo_root / "review_artifacts" / "experiments" / "clean_five_corridor_experiment.py",
-    )
-    quant = load_module(
-        "cadence_frontier_quant",
-        repo_root / "review_artifacts" / "quant_macro" / "quant_feature_ablation.py",
-    )
+    sys.path.insert(0, str(repo_root))
+    from final_solution.training import core_experiment as core
+    from final_solution.training import train_and_evaluate as quant
+
     core.FEATURE_GROUPS.update(quant.feature_groups(core))
     experiment = next(item for item in quant.experiment_specs(core) if item.config_id == CONFIG_ID)
     panel = quant.build_feature_panel(repo_root, data_dir, core, quant.PROFILES["primary"])

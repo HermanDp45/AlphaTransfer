@@ -5,7 +5,7 @@
 Полный новый evidence layer находится в
 [`quant_macro/QUANT_RESEARCH_REPORT_2026-09-04.md`](quant_macro/QUANT_RESEARCH_REPORT_2026-09-04.md)
 и completed run
-[`quant_macro/results-final-20260904-v2/`](quant_macro/results-final-20260904-v2/).
+[`../final_solution/model_bundle/`](../final_solution/model_bundle/).
 Он **заменяет** числовой model-selection вывод legacy-разделов ниже, но не
 стирает их: они нужны как история обнаружения ошибок.
 
@@ -91,7 +91,7 @@ Merge-base: `0c3f0d2f722d7c84a5b29d74014254679388f3e6`.
 - `features.csv` воспроизводится из `observations.csv`.
 - Полный backtest воспроизводит события/решения; отличия JSON — только floating
   epsilon до `2.22e-16`.
-- Независимый fixed-event recheck: `review_artifacts/independent_recheck.py`.
+- Независимый fixed-event recheck: `final_solution/research/legacy_evaluator_audit.py`.
 - Независимый пяти-коридорный clean experiment: см.
   `review_artifacts/experiments/` после генерации.
 
@@ -275,20 +275,16 @@ python3.11 -m venv .venv-review
 
 PYTHONPATH=src .venv-review/bin/python -m unittest discover -s tests -v
 
-.venv-review/bin/python review_artifacts/independent_recheck.py \
+.venv-review/bin/python final_solution/research/legacy_evaluator_audit.py \
   --bootstrap-replicates 5000 \
   --check-known-v0 \
   --output-dir review_artifacts/generated
 
-.venv-review/bin/python \
-  review_artifacts/experiments/clean_five_corridor_experiment.py \
-  --repo-root . \
-  --output-dir review_artifacts/experiments \
-  --bootstrap-reps 20000 \
-  --null-reps 10000
+.venv-review/bin/python final_solution/main.py \
+  --rebuild final --bootstrap-reps 10000 --verify-full-bundle
 ```
 
-`independent_recheck.py` использует только stdlib, фиксированный seed и пишет
+`legacy_evaluator_audit.py` использует только stdlib, фиксированный seed и пишет
 machine-readable JSON/CSV плюс краткую Markdown-сводку. Block bootstrap и
 circular shifts являются диагностикой сохранённых событий, а не correction за
 post-selection.

@@ -32,7 +32,8 @@ class PipelineTest(unittest.TestCase):
     def test_locked_inputs_are_unchanged(self) -> None:
         """The fast path must reject silently changed research inputs."""
         observed = verify_lock(REPO_ROOT, self.config.path("input_lock"))
-        self.assertEqual(len(observed), 13)
+        locked = load_json(self.config.path("input_lock"))["files"]
+        self.assertEqual(set(observed), set(locked))
 
     def test_selected_candidate_metrics_match_audited_values(self) -> None:
         """Headline metrics must be read from the audited selected row."""

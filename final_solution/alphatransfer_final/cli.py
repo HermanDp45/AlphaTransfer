@@ -6,7 +6,6 @@ import argparse
 from datetime import date
 import json
 from pathlib import Path
-import shutil
 import subprocess
 import sys
 
@@ -47,78 +46,31 @@ def _run(command: list[str], cwd: Path) -> None:
         )
 
 
-def _prepare_rebuild_root(repo_root: Path) -> Path:
-    """Stage immutable inputs without modifying the repository data tree."""
-    source_quant = repo_root / "review_artifacts" / "quant_macro"
-    source_experiments = repo_root / "review_artifacts" / "experiments"
-    target_root = repo_root / "final_solution" / "work" / "rebuild_root"
-    target_quant = target_root / "review_artifacts" / "quant_macro"
-    target_experiments = target_root / "review_artifacts" / "experiments"
-    target_data = target_root / "data"
-    target_quant.mkdir(parents=True, exist_ok=True)
-    target_experiments.mkdir(parents=True, exist_ok=True)
-    target_data.mkdir(parents=True, exist_ok=True)
-
-    for name in (
-        "data_manifest.json",
-        "fetch_open_data.py",
-        "quant_feature_ablation.py",
-        "requirements.txt",
-        "test_quant_macro.py",
-        "verify_final_bundle.py",
-    ):
-        shutil.copy2(source_quant / name, target_quant / name)
-    shutil.copy2(
-        source_experiments / "clean_five_corridor_experiment.py",
-        target_experiments / "clean_five_corridor_experiment.py",
-    )
-    shutil.copy2(
-        repo_root / "final_solution" / "data" / "cbr_daily.csv",
-        target_data / "cbr_daily.csv",
-    )
-    shutil.copytree(
-        source_quant / "normalized",
-        target_quant / "normalized",
-        dirs_exist_ok=True,
-    )
-    shutil.copytree(
-        source_quant / "raw",
-        target_quant / "raw",
-        dirs_exist_ok=True,
-    )
-    return target_root
-
-
 def _rebuild(
     repo_root: Path,
     tier: str,
     repetitions: int,
-) -> tuple[Path, Path]:
+) -> Path:
     if tier == "final" and repetitions < 10_000:
         raise ValueError("final rebuild requires at least 10,000 bootstrap repetitions")
-    rebuild_root = _prepare_rebuild_root(repo_root)
-    run_dir = repo_root / "final_solution" / "work" / f"model_{tier}_{repetitions}"
+    solution_root = repo_root / "final_solution"
+    run_dir = solution_root / "work" / f"model_{tier}_{repetitions}"
     success = run_dir / "_SUCCESS.json"
     if success.is_file():
-        return run_dir, rebuild_root
+        return run_dir
     if run_dir.exists() and any(run_dir.iterdir()):
         raise RuntimeError(
             f"Incomplete rebuild directory is not empty: {run_dir}. "
             "Move it aside and retry; the pipeline never deletes artifacts automatically."
         )
-    script = (
-        rebuild_root
-        / "review_artifacts"
-        / "quant_macro"
-        / "quant_feature_ablation.py"
-    )
-    data_dir = rebuild_root / "review_artifacts" / "quant_macro" / "normalized"
+    script = solution_root / "training" / "train_and_evaluate.py"
+    data_dir = solution_root / "data" / "normalized"
     _run(
         [
             sys.executable,
             str(script),
             "--repo-root",
-            str(rebuild_root),
+            str(repo_root),
             "--data-dir",
             str(data_dir),
             "--output-dir",
@@ -128,13 +80,13 @@ def _rebuild(
             "--run-tier",
             tier,
         ],
-        cwd=rebuild_root,
+        cwd=repo_root,
     )
-    return run_dir, rebuild_root
+    return run_dir
 
 
 def _strict_verify(repo_root: Path, run_dir: Path) -> None:
-    verifier = repo_root / "review_artifacts" / "quant_macro" / "verify_final_bundle.py"
+    verifier = repo_root / "final_solution" / "training" / "verify_bundle.py"
     _run(
         [
             sys.executable,
@@ -155,11 +107,10 @@ def main(argv: list[str] | None = None) -> int:
     config = PipelineConfig.load(args.config.resolve(), repo_root)
 
     canonical = config.path("canonical_run_dir")
-    verification_root = repo_root
     if args.rebuild == "none":
         run_dir = canonical
     else:
-        run_dir, verification_root = _rebuild(
+        run_dir = _rebuild(
             repo_root,
             args.rebuild,
             args.bootstrap_reps,
@@ -167,9 +118,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.verify_full_bundle:
         if args.rebuild == "smoke":
             raise ValueError("strict final-bundle verification is unavailable for smoke runs")
-        if args.rebuild == "none":
-            verification_root = _prepare_rebuild_root(repo_root)
-        _strict_verify(verification_root, run_dir)
+        _strict_verify(repo_root, run_dir)
 
     predictions = args.predictions
     if predictions is None and args.rebuild != "none":

@@ -1,5 +1,9 @@
 # AlphaTransfer ML review — навигация
 
+> **Структура обновлена 2026-09-04.** Исполняемый training/evaluation-контур,
+> frozen-данные и канонический bundle перенесены в [`../final_solution/`](../final_solution/).
+> Эта папка теперь хранит отчёты и исторический audit trail, а не рабочий код.
+
 ## Канонический пакет 2026-09-04
 
 Итоговый verdict: **NO-GO на production/client pilot; GO на deterministic
@@ -34,27 +38,23 @@ Brier лучше base на 12.846%, но один дополнительный �
 700 строк metadata/history, но ни одного доступного `WAPRICE` в бесплатном ISS.
 
 Канонический machine-readable run:
-[`quant_macro/results-final-20260904-v2/`](quant_macro/results-final-20260904-v2/).
+[`../final_solution/model_bundle/`](../final_solution/model_bundle/).
 Он имеет `_SUCCESS=complete`, `run_tier=final`, 10 000 bootstrap iterations,
 совпавшие 5 code / 34 input / 35 output hashes и пустые prospective/production
 tracks. `results-final-20260904-v1/` прерван и запрещён к использованию.
-Независимая fail-closed проверка bundle:
-[`quant_macro/verify_final_bundle.py`](quant_macro/verify_final_bundle.py).
+Fail-closed проверка bundle:
+[`../final_solution/training/verify_bundle.py`](../final_solution/training/verify_bundle.py).
 
 Быстрая проверка нового контура:
 
 ```bash
-UV_CACHE_DIR=.pycache/uv-cache uv run --offline --no-project \
-  --with-requirements review_artifacts/quant_macro/requirements.txt \
-  python review_artifacts/quant_macro/test_quant_macro.py
+PYTHONDONTWRITEBYTECODE=1 python3.11 -m unittest discover \
+  -s final_solution/tests -v
 
-.venv/bin/python review_artifacts/quant_macro/verify_final_bundle.py
+.venv/bin/python final_solution/training/verify_bundle.py
 
-UV_CACHE_DIR=.pycache/uv-cache uv run --offline --no-project \
-  --with-requirements review_artifacts/quant_macro/requirements.txt \
-  python review_artifacts/quant_macro/quant_feature_ablation.py \
-  --output-dir review_artifacts/quant_macro/results-final-20260904-v2-rerun \
-  --bootstrap-reps 10000 --run-tier final
+.venv/bin/python final_solution/main.py \
+  --rebuild final --bootstrap-reps 10000 --verify-full-bundle
 ```
 
 ## Legacy snapshot 2026-09-03 — сохранён для audit trail
@@ -88,15 +88,15 @@ UNTOUCHED TEST**.
 
 ## Машинно-воспроизводимые артефакты
 
-- [`independent_recheck.py`](independent_recheck.py) — stdlib-аудит сохранённых
+- [`../final_solution/research/legacy_evaluator_audit.py`](../final_solution/research/legacy_evaluator_audit.py) — stdlib-аудит сохранённых
   KZT-событий без переобучения модели.
 - [`generated/audit_summary.json`](generated/audit_summary.json) — полный
   machine-readable результат fixed-event audit.
 - [`generated/corrected_event_metrics.csv`](generated/corrected_event_metrics.csv)
   и [`generated/delta_sensitivity_metrics.csv`](generated/delta_sensitivity_metrics.csv)
   — метрики по horizons и sensitivity к `δ`.
-- [`experiments/clean_five_corridor_experiment.py`](experiments/clean_five_corridor_experiment.py)
-  — независимый offline pipeline на пяти CBR-коридорах.
+- [`../final_solution/training/core_experiment.py`](../final_solution/training/core_experiment.py)
+  — offline-модели, признаки и временные сплиты на пяти CBR-коридорах.
 - [`experiments/manifest.json`](experiments/manifest.json) — seed, протокол,
   версии и SHA-256 входов.
 - [`experiments/aggregate_metrics.csv`](experiments/aggregate_metrics.csv),
@@ -128,18 +128,18 @@ python3.11 -m venv .venv-review
 
 PYTHONPATH=src .venv-review/bin/python -m unittest discover -s tests -v
 
-.venv-review/bin/python review_artifacts/independent_recheck.py \
+.venv-review/bin/python final_solution/research/legacy_evaluator_audit.py \
   --bootstrap-replicates 5000 \
   --check-known-v0 \
   --output-dir review_artifacts/generated
 
 .venv-review/bin/python -m py_compile \
-  review_artifacts/independent_recheck.py \
-  review_artifacts/experiments/clean_five_corridor_experiment.py
+  final_solution/research/legacy_evaluator_audit.py \
+  final_solution/training/core_experiment.py
 ```
 
 Полный five-corridor rerun и pinned dependencies описаны в
 [`experiments/README.md`](experiments/README.md). Все экспериментальные расчёты
 используют только tracked public snapshots; внешний контекст в отчёте ссылается
-на открытые первичные источники. Файлы продуктовой ветки этим ревью не
-изменялись.
+на открытые первичные источники. Рабочая реализация после ревью собрана в
+`final_solution/`.

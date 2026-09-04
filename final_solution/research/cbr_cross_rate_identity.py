@@ -37,7 +37,11 @@ def parse_args() -> argparse.Namespace:
     script = Path(__file__).resolve()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo-root", type=Path, default=script.parents[2])
-    parser.add_argument("--output-dir", type=Path, default=script.parent / "mechanism_audit")
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=script.parent / "artifacts" / "mechanism_audit",
+    )
     return parser.parse_args()
 
 

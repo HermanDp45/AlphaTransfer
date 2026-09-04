@@ -28,10 +28,15 @@ PRIMARY_CLOSING_DELTA_BPS = 35.0
 
 
 def parse_args() -> argparse.Namespace:
+    script = Path(__file__).resolve()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--features", type=Path, default=Path("data/kzt_v0/features.csv"))
     parser.add_argument("--backtest", type=Path, default=Path("data/kzt_v0/backtest.json"))
-    parser.add_argument("--output-dir", type=Path, default=Path("review_artifacts/generated"))
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=script.parent / "artifacts" / "legacy_evaluator_audit",
+    )
     parser.add_argument("--bootstrap-replicates", type=int, default=5_000)
     parser.add_argument("--block-size", type=int, default=20)
     parser.add_argument("--seed", type=int, default=20_260_903)

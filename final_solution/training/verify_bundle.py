@@ -19,7 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--run-dir",
         type=Path,
-        default=script.parent / "results-final-20260904-v2",
+        default=script.parents[1] / "model_bundle",
     )
     return parser.parse_args()
 
@@ -133,10 +133,10 @@ def main() -> int:
     verify_hashes(repo_root, manifest["inputs"], "input", failures)
     verify_hashes(run_dir, manifest["outputs"], "output", failures)
 
-    quant_dir = repo_root / "review_artifacts" / "quant_macro"
-    data_manifest = load_json(quant_dir / "data_manifest.json")
+    data_dir = repo_root / "final_solution" / "data"
+    data_manifest = load_json(data_dir / "data_manifest.json")
     for relative_path, metadata in data_manifest["artifacts"].items():
-        path = quant_dir / relative_path
+        path = data_dir / relative_path
         if not path.is_file():
             failures.append(f"data artifact: missing {relative_path}")
             continue

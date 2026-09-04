@@ -3,8 +3,9 @@
 Дата среза: **2026-09-04**. Период загрузки основного research bundle:
 2020-01-01—2026-09-03. Полный машинный provenance, URL запросов, SHA-256,
 freshness checks, версии библиотек и 76 локальных артефактов находятся в
-[`data_manifest.json`](data_manifest.json). Загрузчик —
-[`fetch_open_data.py`](fetch_open_data.py).
+[`../../final_solution/data/data_manifest.json`](../../final_solution/data/data_manifest.json).
+Загрузчик —
+[`../../final_solution/data_pipeline/fetch_open_data.py`](../../final_solution/data_pipeline/fetch_open_data.py).
 
 ## Решение в одном абзаце
 

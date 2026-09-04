@@ -223,7 +223,7 @@ def parse_args() -> argparse.Namespace:
     script = Path(__file__).resolve()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo-root", type=Path, default=script.parents[2])
-    parser.add_argument("--output-dir", type=Path, default=script.parent)
+    parser.add_argument("--output-dir", type=Path, default=script.parents[1] / "data")
     parser.add_argument("--workers", type=int, default=6)
     return parser.parse_args()
 
@@ -811,24 +811,50 @@ def validate_units(frame: pd.DataFrame, source_name: str) -> None:
         raise ValueError(f"{source_name}: inconsistent normalized units for {symbols}")
 
 
-def extract_local_official_fx(repo_root: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Any]]:
+def extract_local_official_fx(
+    repo_root: Path,
+    normalized_dir: Path,
+) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Any]]:
     path = repo_root / "data" / "kzt_v0" / "observations.csv"
-    frame = pd.read_csv(path, parse_dates=["effective_date", "available_at"])
-    observed = frame[(frame["field"] == "close") & frame["is_observation"].eq(1)].copy()
-    cbr = observed[observed["source"].eq("CBR")][
-        ["effective_date", "available_at", "symbol", "normalized_value", "normalized_unit"]
-    ]
-    nbk = observed[observed["source"].eq("NBK")][
-        ["effective_date", "available_at", "symbol", "normalized_value", "normalized_unit"]
-    ]
+    if path.is_file():
+        frame = pd.read_csv(path, parse_dates=["effective_date", "available_at"])
+        observed = frame[(frame["field"] == "close") & frame["is_observation"].eq(1)].copy()
+        cbr = observed[observed["source"].eq("CBR")][
+            ["effective_date", "available_at", "symbol", "normalized_value", "normalized_unit"]
+        ]
+        nbk = observed[observed["source"].eq("NBK")][
+            ["effective_date", "available_at", "symbol", "normalized_value", "normalized_unit"]
+        ]
+        input_paths = [path]
+        source_mode = "project_observations"
+    else:
+        snapshot_paths = [
+            normalized_dir / "project_cbr_fx_snapshot.csv",
+            normalized_dir / "project_nbk_fx_snapshot.csv",
+        ]
+        missing = [snapshot for snapshot in snapshot_paths if not snapshot.is_file()]
+        if missing:
+            raise FileNotFoundError(
+                "Official FX input is unavailable. Missing frozen snapshots: "
+                + ", ".join(str(snapshot) for snapshot in missing)
+            )
+        cbr, nbk = (
+            pd.read_csv(snapshot, parse_dates=["effective_date", "available_at"])
+            for snapshot in snapshot_paths
+        )
+        input_paths = snapshot_paths
+        source_mode = "frozen_final_solution_snapshots"
     validate_units(cbr, "CBR")
     validate_units(nbk, "NBK")
     cbr, cbr_repairs = remove_boundary_copy(cbr, "CBR")
     nbk, nbk_repairs = remove_boundary_copy(nbk, "NBK")
     metadata = {
         "source_id": "project_official_fx_snapshot",
-        "input_path": str(path.relative_to(repo_root)),
-        "input_sha256": sha256_file(path),
+        "source_mode": source_mode,
+        "input_paths": [str(source.relative_to(repo_root)) for source in input_paths],
+        "input_sha256": {
+            str(source.relative_to(repo_root)): sha256_file(source) for source in input_paths
+        },
         "warning": "available_at in the branch snapshot is not independently proven; experiment lags values",
         "integrity_repairs": [*cbr_repairs, *nbk_repairs],
     }
@@ -1249,7 +1275,10 @@ def main() -> int:
         }
     )
 
-    cbr_fx, nbk_fx, local_metadata = extract_local_official_fx(args.repo_root.resolve())
+    cbr_fx, nbk_fx, local_metadata = extract_local_official_fx(
+        args.repo_root.resolve(),
+        normalized_dir,
+    )
     write_frame(normalized_dir / "project_cbr_fx_snapshot.csv", cbr_fx)
     write_frame(normalized_dir / "project_nbk_fx_snapshot.csv", nbk_fx)
     local_metadata.update(
