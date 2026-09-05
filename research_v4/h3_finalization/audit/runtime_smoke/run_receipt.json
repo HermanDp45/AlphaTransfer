@@ -1,0 +1,20 @@
+{
+  "bundle_sha256": "50cdd004e0ce6110ca9bb191aedf042e61264eb2f3a4ea1d68fcfd8f80ba9d3f",
+  "source_sha256": {
+    "cbr": "5678ec14d07b63a46e33e407cacb3c7e966cff45a89bf64607cb80b0aae55b10",
+    "moex_cny_close": "3057fcee8436b5fe8ff6b6b346a07913d88ad8f890c18e8cca8f3fe6f6cf5039",
+    "moex_cny_fixing": "d14b596218b670f8cb6112ebc939a0deefc5591ec287350778583b6de5b05433",
+    "oxr": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "halyk": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "treasury_t10yie": "a35f627e810aa12f579d1d3fc2b872e4cd8b2d0ae6ea3ce98cb758ef357a7429",
+    "treasury_t5yifr": "6d5a5528039eacb7eeedd87c0f0721d11dbb868aede8c6328e0546b291d3c1b1"
+  },
+  "state_input_sha256": "5f0e4a7256407fce64fda56d18369d2f7e03bfa5261819501f3542e66f22f138",
+  "predictions_sha256": "5abc924f796f687b55b940f7de11b0d1526f36806895dd3b733ae4a5a43676df",
+  "next_state_sha256": "d52eaad42be187d19830bc9db68fede9d833e9bcdf5b152179b6931823af1420",
+  "state_binding_sha256": "adeff8431cbd9b81b5b2bba2d2175f0077ded95bfe6abc1dc8c03d21a93cdeba",
+  "rows": 1,
+  "run_as_of": "2026-09-05",
+  "mode": "historical_smoke",
+  "research_imports_required": false
+}

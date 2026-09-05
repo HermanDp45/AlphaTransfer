@@ -1,0 +1,96 @@
+{
+  "spec": {
+    "name": "hgb_120m_c3_d0_compact",
+    "months": 120,
+    "cal": 3,
+    "decay": 0,
+    "features": "compact",
+    "augment": false,
+    "adapt": true,
+    "depth": 2
+  },
+  "features": [
+    "ret1",
+    "ret5",
+    "ret20",
+    "pr20",
+    "pr60",
+    "pr252",
+    "vol20",
+    "moex_cny_close_minus_fixing_same_session",
+    "halyk_rub_sell_official_basis",
+    "halyk_rub_personal_legal_gap",
+    "treasury_t10yie_stale_level",
+    "treasury_t5yifr_stale_level"
+  ],
+  "train_rows": 12305,
+  "fit_rows": 12305,
+  "train_min": "2014-10-01 00:00:00",
+  "train_max": "2024-09-21 00:00:00",
+  "latest_train_label": "2024-09-28 00:00:00",
+  "validation_min": "2024-10-01 00:00:00",
+  "validation_max": "2024-12-24 00:00:00",
+  "latest_validation_label": "2024-12-29 00:00:00",
+  "test_rows": 242,
+  "residual_weight": 1.0,
+  "weight_ess": 12305.0,
+  "checkpoint_sha256": "fceca1aad389c391fbb8fa1c25afada32ff697ff67b5bdbf9a8c4ec466e61687",
+  "policies": {
+    "legacy": {
+      "name": "legacy",
+      "threshold": {
+        "KZT": 0.19345200227319048
+      },
+      "cooldown": 3,
+      "initial_state": {
+        "KZT": {
+          "last": 3707,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    },
+    "cadence90_cd3": {
+      "name": "cadence90_cd3",
+      "threshold": {
+        "KZT": 0.10797281821992656
+      },
+      "cooldown": 3,
+      "initial_state": {
+        "KZT": {
+          "last": 3707,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    },
+    "cadence90_cd2": {
+      "name": "cadence90_cd2",
+      "threshold": {
+        "KZT": 0.19457381145533784
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3707,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    },
+    "cadence85_cd2": {
+      "name": "cadence85_cd2",
+      "threshold": {
+        "KZT": 0.19457381145533784
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3707,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "rank80",
+  "threshold": {
+    "KZT": 0.6000000000000001
+  },
+  "cooldown": 2,
+  "initial_state": {
+    "KZT": {
+      "last": 4117,
+      "week": "2026-08-31/2026-09-06",
+      "count": 1
+    }
+  },
+  "calibration_diagnostics": [
+    {
+      "corridor": "KZT",
+      "target": 0.8,
+      "chosen": {
+        "q": 0.6000000000000001,
+        "threshold": 0.6000000000000001,
+        "coverage": 0.8076923076923077,
+        "lift": 1.668192219679634,
+        "forward_delta_bps": 65.10121990121299,
+        "feasible": true
+      },
+      "candidates": [
+        {
+          "q": 0.0,
+          "threshold": 0.0,
+          "coverage": 0.9807692307692307,
+          "lift": 0.9782608695652174,
+          "forward_delta_bps": -0.24568115245401495,
+          "feasible": true
+        },
+        {
+          "q": 0.05,
+          "threshold": 0.05,
+          "coverage": 0.9615384615384616,
+          "lift": 1.0565217391304347,
+          "forward_delta_bps": 3.1374280042517384,
+          "feasible": true
+        },
+        {
+          "q": 0.1,
+          "threshold": 0.1,
+          "coverage": 0.9615384615384616,
+          "lift": 1.0364611997798567,
+          "forward_delta_bps": 13.49267857978396,
+          "feasible": true
+        },
+        {
+          "q": 0.15000000000000002,
+          "threshold": 0.15000000000000002,
+          "coverage": 0.9615384615384616,
+          "lift": 1.063382269904009,
+          "forward_delta_bps": 21.244029727756566,
+          "feasible": true
+        },
+        {
+          "q": 0.2,
+          "threshold": 0.2,
+          "coverage": 0.9615384615384616,
+          "lift": 1.1121281464530892,
+          "forward_delta_bps": 25.923918237682354,
+          "feasible": true
+        },
+        {
+          "q": 0.25,
+          "threshold": 0.25,
+          "coverage": 0.9615384615384616,
+          "lift": 1.1421856639247943,
+          "forward_delta_bps": 29.700089427695293,
+          "feasible": true
+        },
+        {
+          "q": 0.30000000000000004,
+          "threshold": 0.30000000000000004,
+          "coverage": 0.9615384615384616,
+          "lift": 1.1904470300061236,
+          "forward_delta_bps": 38.022643969283095,
+          "feasible": true
+        },
+        {
+          "q": 0.35000000000000003,
+          "threshold": 0.35000000000000003,
+          "coverage": 0.9230769230769231,
+          "lift": 1.3983375959079283,
+          "forward_delta_bps": 45.2485782608116,
+          "feasible": true
+        },
+        {
+          "q": 0.4,
+          "threshold": 0.4,
+          "coverage": 0.8846153846153846,
+          "lift": 1.5035117056856186,
+          "forward_delta_bps": 55.977959431678464,
+          "feasible": true
+        },
+        {
+          "q": 0.45,
+          "threshold": 0.45,
+          "coverage": 0.8653846153846154,
+          "lift": 1.5336605890603083,
+          "forward_delta_bps": 63.47850178376221,
+          "feasible": true
+        },
+        {
+          "q": 0.5,
+          "threshold": 0.5,
+          "coverage": 0.8846153846153846,
+          "lift": 1.602102637205987,
+          "forward_delta_bps": 70.61390518288027,
+          "feasible": true
+        },
+        {
+          "q": 0.55,
+          "threshold": 0.55,
+          "coverage": 0.8846153846153846,
+          "lift": 1.6454027084818246,
+          "forward_delta_bps": 69.10523484081232,
+          "feasible": true
+        },
+        {
+          "q": 0.6000000000000001,
+          "threshold": 0.6000000000000001,
+          "coverage": 0.8076923076923077,
+          "lift": 1.668192219679634,
+          "forward_delta_bps": 65.10121990121299,
+          "feasible": true
+        },
+        {
+          "q": 0.65,
+          "threshold": 0.65,
+          "coverage": 0.7884615384615384,
+          "lift": 1.8126598465473145,
+          "forward_delta_bps": 79.90233682987162,
+          "feasible": false
+        },
+        {
+          "q": 0.7000000000000001,
+          "threshold": 0.7000000000000001,
+          "coverage": 0.7884615384615384,
+          "lift": 1.940550133096717,
+          "forward_delta_bps": 91.71958919350001,
+          "feasible": false
+        },
+        {
+          "q": 0.75,
+          "threshold": 0.75,
+          "coverage": 0.7115384615384616,
+          "lift": 1.9809782608695652,
+          "forward_delta_bps": 102.83619358475757,
+          "feasible": false
+        },
+        {
+          "q": 0.8,
+          "threshold": 0.8,
+          "coverage": 0.6346153846153846,
+          "lift": 2.0317725752508355,
+          "forward_delta_bps": 109.80052001256536,
+          "feasible": false
+        }
+      ]
+    }
+  ]
+}

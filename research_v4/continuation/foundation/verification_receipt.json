@@ -1,0 +1,563 @@
+{
+  "source_inputs_unchanged": {
+    "research_v4/foundation/benchmark.py": true,
+    "research_v4/foundation/assess.py": true,
+    "research_v3/models/panel_extended.pkl": true,
+    "research_v3/models/panel_v2.pkl": true,
+    "research_v3/models/data/cbr_extended.csv": true,
+    "final_solution/training/core_experiment.py": true
+  },
+  "cache_checks": [
+    {
+      "variant": "chronos2_small_ft",
+      "year": 2023,
+      "overlap_date_groups": 985,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_small_ft",
+      "year": 2024,
+      "overlap_date_groups": 990,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_small_ft",
+      "year": 2025,
+      "overlap_date_groups": 989,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_small_ft",
+      "year": 2026,
+      "overlap_date_groups": 903,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft",
+      "year": 2023,
+      "overlap_date_groups": 985,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft",
+      "year": 2024,
+      "overlap_date_groups": 990,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft",
+      "year": 2025,
+      "overlap_date_groups": 989,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft",
+      "year": 2026,
+      "overlap_date_groups": 903,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft_kzt",
+      "year": 2023,
+      "overlap_date_groups": 985,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft_kzt",
+      "year": 2024,
+      "overlap_date_groups": 990,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft_kzt",
+      "year": 2025,
+      "overlap_date_groups": 989,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_ft_kzt",
+      "year": 2026,
+      "overlap_date_groups": 903,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": true
+    },
+    {
+      "variant": "chronos2_synth_zs",
+      "year": 2023,
+      "overlap_date_groups": 1641,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": "synthetic zero-shot; publisher-only-synthetic claim"
+    },
+    {
+      "variant": "chronos2_synth_zs",
+      "year": 2024,
+      "overlap_date_groups": 1641,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": "synthetic zero-shot; publisher-only-synthetic claim"
+    },
+    {
+      "variant": "chronos2_synth_zs",
+      "year": 2025,
+      "overlap_date_groups": 1641,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": "synthetic zero-shot; publisher-only-synthetic claim"
+    },
+    {
+      "variant": "chronos2_synth_zs",
+      "year": 2026,
+      "overlap_date_groups": 1641,
+      "prior_quantiles_bitwise_preserved": true,
+      "cache_sha256_match": true,
+      "backbone_weights_sha256_match": true,
+      "backbone_before_calibration": "synthetic zero-shot; publisher-only-synthetic claim"
+    }
+  ],
+  "head_checks": [
+    {
+      "config_id": "base_control_head2y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "base_control_head10y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "base_control_head2y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "base_control_head10y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "base_control_head2y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "base_control_head10y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "base_control_head2y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "base_control_head10y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head2y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head2y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head2y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head2y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head2y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head2y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head2y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head2y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head2y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head2y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head2y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head2y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head2y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2023,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head2y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2024,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head2y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2025,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head2y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2026,
+      "saved_head_raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "within_test_cooldown_pass": true,
+      "saved_head_sha256_match": true
+    }
+  ],
+  "group_isolation": {
+    "actual_single_vs_mixed_past_future_context_quantile_max_abs_diff": 4.76837158203125e-07,
+    "tolerance": 5e-06,
+    "cross_learning": false,
+    "passed": true
+  },
+  "future_perturbation": {
+    "actual_future_log_levels_add10_prediction_max_abs_diff": 0.0,
+    "passed": true,
+    "scope": "input causality with fixed weights; not cross-fitting of historical neural weights"
+  },
+  "independent_target_recomputations": 100,
+  "all_head_split_label_maturity_checks_pass": true,
+  "head_count": 40,
+  "code_sha256": "d37e6f73e90afd12378ed8c805d9bc583de8b6f9c2c067b6f0784a340fa1983d",
+  "protocol_sha256": "ea3d0ce2976de0d6b35d3febd680c684b706671687581c1628055bc5c26b1542",
+  "reproduction": [
+    {
+      "new_config": "base_control_head2y",
+      "old_config": "baseline_reproduction",
+      "rows": 4415,
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "new_config": "chronos2_small_ft_head2y",
+      "old_config": "chronos2_small_ft_hgb_aug",
+      "rows": 4415,
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "new_config": "chronos2_synth_ft_head2y",
+      "old_config": "chronos2_synth_ft_hgb_aug",
+      "rows": 4415,
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "new_config": "chronos2_synth_ft_kzt_head2y",
+      "old_config": "chronos2_synth_ft_kzt_hgb_aug",
+      "rows": 4415,
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "new_config": "chronos2_synth_zs_head2y",
+      "old_config": "chronos2_synth_zs_hgb_aug",
+      "rows": 4415,
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    }
+  ],
+  "march_jan_replay": [
+    {
+      "config_id": "base_control_head2y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "base_control_head10y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head2y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_small_ft_head10y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head2y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_head10y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head2y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head2y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "chronos2_synth_zs_head10y",
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "passed": true
+    }
+  ]
+}

@@ -25,6 +25,9 @@ from typing import Any
 API_ROOT = "https://openexchangerates.org/api"
 EARLIEST_DATE = date(1999, 1, 1)
 QUOTES = ("AMD", "AZN", "BYN", "KGS", "KZT", "MDL", "TJS", "TMT", "UZS")
+BYN_START_DATE = date(2016, 7, 1)
+BYR_PER_BYN = 10_000.0
+OXR_TMT_START_DATE = date(2011, 1, 1)
 DEFAULT_DB = Path("data/open_exchange_rates/rub_cis.sqlite3")
 DEFAULT_CSV = Path("data/open_exchange_rates/rub_cis_daily.csv")
 
@@ -45,6 +48,11 @@ def parse_args() -> argparse.Namespace:
         )
     )
     parser.add_argument("--end", type=date.fromisoformat, required=True)
+    parser.add_argument(
+        "--start",
+        type=date.fromisoformat,
+        help="Download this exact inclusive range instead of extending the full history.",
+    )
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
     parser.add_argument("--csv", type=Path, default=DEFAULT_CSV)
     parser.add_argument("--workers", type=int, default=6)
@@ -134,9 +142,20 @@ def connect_db(path: Path) -> sqlite3.Connection:
 
 def existing_complete_dates(connection: sqlite3.Connection) -> set[date]:
     rows = connection.execute(
-        "SELECT rate_date FROM rates GROUP BY rate_date HAVING COUNT(*) = ?", (len(QUOTES),)
+        """
+        SELECT rate_date, COUNT(*), SUM(CASE WHEN quote = 'TMT' THEN 1 ELSE 0 END)
+        FROM rates
+        GROUP BY rate_date
+        """
     )
-    return {date.fromisoformat(row[0]) for row in rows}
+    result = set()
+    for rate_date, quote_count, tmt_count in rows:
+        parsed_date = date.fromisoformat(rate_date)
+        expected_count = len(QUOTES) if parsed_date >= OXR_TMT_START_DATE else len(QUOTES) - 1
+        expected_tmt_count = 1 if parsed_date >= OXR_TMT_START_DATE else 0
+        if quote_count == expected_count and tmt_count == expected_tmt_count:
+            result.add(parsed_date)
+    return result
 
 
 def contiguous_days(end: date, existing: set[date]) -> int:
@@ -192,6 +211,21 @@ def reserve_requests(
     connection.commit()
 
 
+def total_requests_reserved(connection: sqlite3.Connection) -> int:
+    current = connection.execute(
+        "SELECT COALESCE(SUM(requests_reserved), 0) FROM account_monthly_usage"
+    ).fetchone()[0]
+    legacy_table_exists = connection.execute(
+        "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'monthly_usage'"
+    ).fetchone()
+    if not legacy_table_exists:
+        return int(current)
+    legacy = connection.execute(
+        "SELECT COALESCE(SUM(requests_reserved), 0) FROM monthly_usage"
+    ).fetchone()[0]
+    return int(current) + int(legacy)
+
+
 def newest_target_dates(end: date, total_days: int) -> list[date]:
     available_days = (end - EARLIEST_DATE).days + 1
     count = min(total_days, available_days)
@@ -216,15 +250,26 @@ def rows_from_payload(day: date, payload: dict[str, Any]) -> list[tuple[Any, ...
         raise ValueError(f"{day}: expected USD source base, got {payload.get('base')!r}")
 
     rates = payload["rates"]
-    missing = sorted({"RUB", *QUOTES} - rates.keys())
+    required_quotes = set(QUOTES) - {"BYN"}
+    if day < OXR_TMT_START_DATE:
+        required_quotes.remove("TMT")
+    missing = {"RUB", *required_quotes} - rates.keys()
+    has_belarus_rate = "BYN" in rates or (day < BYN_START_DATE and "BYR" in rates)
+    if not has_belarus_rate:
+        missing.add("BYN")
     if missing:
-        raise ValueError(f"{day}: missing currencies: {', '.join(missing)}")
+        raise ValueError(f"{day}: missing currencies: {', '.join(sorted(missing))}")
 
     rub_per_usd = float(rates["RUB"])
     published_at = datetime.fromtimestamp(int(payload["timestamp"]), tz=timezone.utc).isoformat()
     result = []
     for quote in QUOTES:
-        quote_per_usd = float(rates[quote])
+        if quote == "TMT" and quote not in rates and day < OXR_TMT_START_DATE:
+            continue
+        if quote == "BYN" and quote not in rates:
+            quote_per_usd = float(rates["BYR"]) / BYR_PER_BYN
+        else:
+            quote_per_usd = float(rates[quote])
         quote_per_rub = quote_per_usd / rub_per_usd
         result.append(
             (
@@ -264,6 +309,7 @@ def export_csv(connection: sqlite3.Connection, output: Path) -> None:
         "pair",
         "base",
         "quote",
+        "source_quote",
         "quote_per_rub",
         "rub_per_quote",
         "rub_per_usd",
@@ -273,7 +319,12 @@ def export_csv(connection: sqlite3.Connection, output: Path) -> None:
     )
     rows = connection.execute(
         """
-        SELECT rate_date, pair, base, quote, quote_per_rub, rub_per_quote,
+        SELECT rate_date, pair, base, quote,
+               CASE
+                   WHEN quote = 'BYN' AND rate_date < '2016-06-30' THEN 'BYR'
+                   ELSE quote
+               END AS source_quote,
+               quote_per_rub, rub_per_quote,
                rub_per_usd, quote_per_usd, published_at_utc, source
         FROM rates
         ORDER BY rate_date, quote
@@ -294,6 +345,9 @@ def main() -> int:
         return 2
     if args.end < EARLIEST_DATE:
         print(f"--end must not be earlier than {EARLIEST_DATE}", file=sys.stderr)
+        return 2
+    if args.start is not None and (args.start < EARLIEST_DATE or args.start > args.end):
+        print(f"--start must be between {EARLIEST_DATE} and --end", file=sys.stderr)
         return 2
     if args.workers < 1:
         print("--workers must be positive", file=sys.stderr)
@@ -331,21 +385,40 @@ def main() -> int:
         )
 
     existing = existing_complete_dates(connection)
-    already_contiguous = contiguous_days(args.end, existing)
-    already_reserved_span = max(already_contiguous, covered_span_days(args.end, existing))
-    targets = newest_target_dates(args.end, already_reserved_span + allowance)
-    missing = [day for day in targets if day not in existing]
+    if args.start is not None:
+        target_days = (args.end - args.start).days + 1
+        targets = newest_target_dates(args.end, target_days)
+        missing = [day for day in targets if day not in existing]
+        if len(missing) > allowance:
+            connection.close()
+            print(
+                f"Exact range needs {len(missing)} requests, but only {allowance} are allowed.",
+                file=sys.stderr,
+            )
+            return 2
+        newly_reserved = len(missing)
+        target_label = "Exact range"
+    else:
+        already_contiguous = contiguous_days(args.end, existing)
+        already_reserved_span = max(
+            already_contiguous,
+            covered_span_days(args.end, existing),
+            total_requests_reserved(connection),
+        )
+        targets = newest_target_dates(args.end, already_reserved_span + allowance)
+        missing = [day for day in targets if day not in existing]
+        newly_reserved = max(len(targets) - already_reserved_span, 0)
+        target_label = "Newest contiguous range target"
 
     if targets:
         print(
-            f"Newest contiguous range target: {targets[-1]}..{targets[0]} "
+            f"{target_label}: {targets[-1]}..{targets[0]} "
             f"({len(targets)} days); new requests: {len(missing)}"
         )
     else:
         print("No dates are available to export yet.")
     if local_reserved:
         print(f"Locally reserved this UTC month: {local_reserved} requests")
-    newly_reserved = max(len(targets) - already_reserved_span, 0)
     reserve_requests(connection, account_fingerprint, utc_month, newly_reserved)
 
     failures: list[tuple[date, str]] = []
@@ -373,6 +446,7 @@ def main() -> int:
     print(f"CSV: {args.csv}")
     print(f"Contiguous coverage: {final_start}..{args.end} ({final_contiguous} days)")
     print(f"Pairs: {', '.join(f'RUB/{quote}' for quote in QUOTES)}")
+    print(f"RUB/TMT source coverage starts on {OXR_TMT_START_DATE}")
     if failures:
         print(f"Failed dates: {len(failures)}; rerun the same command to resume.", file=sys.stderr)
         return 1

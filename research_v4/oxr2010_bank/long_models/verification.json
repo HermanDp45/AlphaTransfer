@@ -1,0 +1,1255 @@
+{
+  "status": "PASS",
+  "fits": 135,
+  "model_view_replays": 285,
+  "checks": [
+    {
+      "checkpoint": "output/fusion_2010_120m_2023-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_120m_2024-01-01.pkl",
+      "rows": 972,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_120m_2025-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_120m_2026-01-01.pkl",
+      "rows": 624,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_120m_2026-03-01.pkl",
+      "rows": 488,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_180m_2023-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_180m_2024-01-01.pkl",
+      "rows": 972,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_180m_2025-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_180m_2026-01-01.pkl",
+      "rows": 624,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2010_180m_2026-03-01.pkl",
+      "rows": 488,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2018_120m_2023-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2018_120m_2024-01-01.pkl",
+      "rows": 972,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2018_120m_2025-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2018_120m_2026-01-01.pkl",
+      "rows": 624,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_2018_120m_2026-03-01.pkl",
+      "rows": 488,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_premium_2010_120m_2023-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_premium_2010_120m_2024-01-01.pkl",
+      "rows": 972,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_premium_2010_120m_2025-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_premium_2010_120m_2026-01-01.pkl",
+      "rows": 624,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/fusion_premium_2010_120m_2026-03-01.pkl",
+      "rows": 488,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_local_120m_2023-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_local_120m_2024-01-01.pkl",
+      "rows": 486,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_local_120m_2025-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_local_120m_2026-01-01.pkl",
+      "rows": 312,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_local_120m_2026-03-01.pkl",
+      "rows": 244,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_shrink_120m_2023-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_shrink_120m_2024-01-01.pkl",
+      "rows": 486,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_shrink_120m_2025-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_shrink_120m_2026-01-01.pkl",
+      "rows": 312,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/halyk_shrink_120m_2026-03-01.pkl",
+      "rows": 244,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_local_120m_2023-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_local_120m_2024-01-01.pkl",
+      "rows": 243,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_local_120m_2025-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_local_120m_2026-01-01.pkl",
+      "rows": 156,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_local_120m_2026-03-01.pkl",
+      "rows": 122,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2010_120m_2023-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2010_120m_2024-01-01.pkl",
+      "rows": 486,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2010_120m_2025-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2010_120m_2026-01-01.pkl",
+      "rows": 312,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2010_120m_2026-03-01.pkl",
+      "rows": 244,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2018_120m_2023-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2018_120m_2024-01-01.pkl",
+      "rows": 486,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2018_120m_2025-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2018_120m_2026-01-01.pkl",
+      "rows": 312,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_oxr_2018_120m_2026-03-01.pkl",
+      "rows": 244,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_shrink_120m_2023-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_shrink_120m_2024-01-01.pkl",
+      "rows": 243,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_shrink_120m_2025-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_shrink_120m_2026-01-01.pkl",
+      "rows": 156,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/kzt_shrink_120m_2026-03-01.pkl",
+      "rows": 122,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_120m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_120m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_120m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_120m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_120m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_180m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_180m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_180m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_180m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2010_180m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_120m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_120m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_120m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_120m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_120m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_180m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_180m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_180m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_180m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_basis_2018_180m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_coverage_2010_120m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_coverage_2010_120m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_coverage_2010_120m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_coverage_2010_120m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_coverage_2010_120m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_full_2010_120m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_full_2010_120m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_full_2010_120m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_full_2010_120m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/oxr_full_2010_120m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_120m_2023-01-01.pkl",
+      "rows": 1210,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_120m_2024-01-01.pkl",
+      "rows": 1215,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_120m_2025-01-01.pkl",
+      "rows": 1210,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_120m_2026-01-01.pkl",
+      "rows": 780,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_120m_2026-03-01.pkl",
+      "rows": 610,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_180m_2023-01-01.pkl",
+      "rows": 1210,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_180m_2024-01-01.pkl",
+      "rows": 1215,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_180m_2025-01-01.pkl",
+      "rows": 1210,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_180m_2026-01-01.pkl",
+      "rows": 780,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "output/v3_180m_2026-03-01.pkl",
+      "rows": 610,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_fusion_2010_120m_2023-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_fusion_2010_120m_2024-01-01.pkl",
+      "rows": 972,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_fusion_2010_120m_2025-01-01.pkl",
+      "rows": 968,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_fusion_2010_120m_2026-01-01.pkl",
+      "rows": 624,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_fusion_2010_120m_2026-03-01.pkl",
+      "rows": 488,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_halyk_shrink_120m_2023-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_halyk_shrink_120m_2024-01-01.pkl",
+      "rows": 486,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_halyk_shrink_120m_2025-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_halyk_shrink_120m_2026-01-01.pkl",
+      "rows": 312,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_halyk_shrink_120m_2026-03-01.pkl",
+      "rows": 244,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2010_120m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2010_120m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2010_120m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2010_120m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2010_120m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2018_120m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2018_120m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2018_120m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2018_120m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_basis_2018_120m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_full_2010_120m_2023-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_full_2010_120m_2024-01-01.pkl",
+      "rows": 2430,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_full_2010_120m_2025-01-01.pkl",
+      "rows": 2420,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_full_2010_120m_2026-01-01.pkl",
+      "rows": 1560,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_oxr_full_2010_120m_2026-03-01.pkl",
+      "rows": 1220,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_v3_120m_2023-01-01.pkl",
+      "rows": 1210,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_v3_120m_2024-01-01.pkl",
+      "rows": 1215,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_v3_120m_2025-01-01.pkl",
+      "rows": 1210,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_v3_120m_2026-01-01.pkl",
+      "rows": 780,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "treasury/output/treasury_v3_120m_2026-03-01.pkl",
+      "rows": 610,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_halyk_local_120m_2023-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_halyk_local_120m_2024-01-01.pkl",
+      "rows": 486,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_halyk_local_120m_2025-01-01.pkl",
+      "rows": 484,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_halyk_local_120m_2026-01-01.pkl",
+      "rows": 312,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_halyk_local_120m_2026-03-01.pkl",
+      "rows": 244,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_local_120m_2023-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_local_120m_2024-01-01.pkl",
+      "rows": 243,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_local_120m_2025-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_local_120m_2026-01-01.pkl",
+      "rows": 156,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_local_120m_2026-03-01.pkl",
+      "rows": 122,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_shrink_120m_2023-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_shrink_120m_2024-01-01.pkl",
+      "rows": 243,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_shrink_120m_2025-01-01.pkl",
+      "rows": 242,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_shrink_120m_2026-01-01.pkl",
+      "rows": 156,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    },
+    {
+      "checkpoint": "bank_controls/output/treasury_kzt_shrink_120m_2026-03-01.pkl",
+      "rows": 122,
+      "train_maturity": true,
+      "calibration_maturity": true,
+      "input_fingerprint": true,
+      "checkpoint_and_predictions_sha": true,
+      "replay": true
+    }
+  ],
+  "baseline_parity": [
+    {
+      "config_id": "v3_120m",
+      "rows": 4415,
+      "max_probability_error": 0.0,
+      "candidate_mismatches": 0
+    },
+    {
+      "config_id": "kzt_local_120m",
+      "rows": 883,
+      "max_probability_error": 0.0,
+      "candidate_mismatches": 0
+    },
+    {
+      "config_id": "kzt_shrink_120m",
+      "rows": 883,
+      "max_probability_error": 0.0,
+      "candidate_mismatches": 0
+    },
+    {
+      "config_id": "halyk_shrink_120m",
+      "rows": 883,
+      "max_probability_error": 0.0,
+      "candidate_mismatches": 0
+    }
+  ],
+  "delay_repair": "all normal probabilities and candidate decisions unchanged; exact pre-cutoff source state retained",
+  "runtime": {
+    "python": "3.11.15",
+    "pandas": "3.0.5",
+    "numpy": "2.4.6",
+    "sklearn": "1.9.0"
+  }
+}

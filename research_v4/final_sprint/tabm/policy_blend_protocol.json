@@ -1,0 +1,31 @@
+{
+  "created_unix": 1788614753.901425,
+  "hgb": "hgb_60m_c12_d0_bank_treasury_aug",
+  "weights": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "weight_selection": "Only matched purged prior-year calibration Brier; calibrated component probabilities; no further recalibration",
+  "policies": {
+    "legacy": null,
+    "cadence90_cd3": [
+      0.9,
+      3
+    ],
+    "cadence90_cd2": [
+      0.9,
+      2
+    ],
+    "cadence85_cd2": [
+      0.85,
+      2
+    ]
+  },
+  "stress": "Fixed selected weights. HGB normal for TabM OXR-delay; HGB bank-delay for TabM both-delay.",
+  "status": "Requested after initial neural results; 2026 is retrospective, never called untouched holdout",
+  "code_sha256": "8312d5c5d2573b9f13533c25ed36078db2d8cd04c8276dfe2c45bfa80e81b3f2",
+  "common_sha256": "ce17041a10cccb12de75df75031bceb236bd711f919ac7678a5a39f279ef7946"
+}

@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "leaderboard_all_rows_independent_metrics",
+      "passed": true,
+      "metric_rows": 1608,
+      "maximum_numeric_error": 1.4210854715202004e-14,
+      "errors": []
+    },
+    {
+      "check": "all_external_CatBoost_registry_and_actual_policy_masks",
+      "passed": true,
+      "policy_records": 72,
+      "errors": []
+    },
+    {
+      "check": "selection_discloses_retrospective_2026",
+      "passed": true
+    },
+    {
+      "check": "registry_expected_diagnostics_and_user_authorized_2025_2026_gates",
+      "passed": true,
+      "model_policy_rows": 292,
+      "fresh_bank_override": true,
+      "errors": []
+    },
+    {
+      "check": "normal_primary_champion_ranking_order",
+      "passed": true
+    },
+    {
+      "check": "champion_registry_identity",
+      "passed": true
+    },
+    {
+      "check": "all_selected_absolute_four_week_intervals_independent",
+      "passed": true,
+      "maximum_numeric_error": 7.105427357601002e-15,
+      "errors": []
+    },
+    {
+      "check": "root_inputs_not_changed_during_audit",
+      "passed": true
+    }
+  ],
+  "root_input_hashes": {
+    "policy_predictions.csv.gz": "c1c7b9bdbe7f11d53a5f4f54b333575efbb8f618f534aa55ce9f9efd6fa69bbd",
+    "leaderboard.csv": "101850d8bae10f9e9933b853658eb6b8ed4bfd1ef8f105e428a3a665d6d53448",
+    "ranking.csv": "2993bc99b08d465e35f912c4d4f9cc10ca88025ea364974a851248f2c51850ac",
+    "selection.json": "afbb4ceb582cf7ffd7da761a47c75ddbfca9477287190545d4247c3bae6ebf80",
+    "external_policy_registry.json": "df6f94514448195ed0a098a349e38c17f401b77acfb60aa9a20080d828a36637",
+    "selected_predictions.csv.gz": "8f32c8cdb872be5d869fc114927ec992f21734e2e7ca6cca893ba9cedc2932fd",
+    "selected_intervals.json": "09c7e8f60871de33c9e66b8266de791e3351ff3e0984fe51cedf32994b29e13b",
+    "protocol.json": "79c12532f3d1fd6e69b828d420ffb4d247d7324519f6ed01da504d881270b8b4",
+    "evaluate.py": "7fb47303449a4e247d35570aa985051ec4006981163f4e10f7222f92326a8e73",
+    "common.py": "ce17041a10cccb12de75df75031bceb236bd711f919ac7678a5a39f279ef7946"
+  },
+  "champion_at_audit": {
+    "config_id": "tabm_periodic_kzt_120m_s2_kztcal",
+    "policy": "cadence85_cd2",
+    "passed": true,
+    "passed_2026": true,
+    "passed_2025": true,
+    "min_lift": 1.192982456140351,
+    "min_coverage": 0.8484848484848485,
+    "min_utility_bps": 43.152652429712305,
+    "normal_lift": 1.505263157894737,
+    "normal_coverage": 0.8787878787878788,
+    "normal_utility_bps": 66.21511623261752,
+    "normal_2025_lift": 1.5125,
+    "min_2025_lift": 0.6932291666666667,
+    "min_2025_coverage": 0.8627450980392157,
+    "redundancy": 0,
+    "policy_complexity": 1
+  },
+  "tree_fits": 0,
+  "limitations": "Conditional fixed-prediction intervals; does not repeat retrospective selection over the188-or-later family. Positive relative reference-rate advantage is not executable net profit.",
+  "verifier_sha256": "c73fa1690fffeb609b340a98a4738876099e4c2811f693dbeada1064735eb4b5"
+}

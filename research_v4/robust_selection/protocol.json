@@ -1,0 +1,17 @@
+{
+  "status": "frozen before new annual evaluation",
+  "years": [2024, 2025, 2026],
+  "train_horizons": [3, 5],
+  "training": "120 months preceding 12 calendar months of calibration; actual label maturity purged at each boundary. Identical annual clock across model types.",
+  "models": ["v3 pooled BASE15 original calibration", "tabm pooled FULL33 seed2 per-corridor calibration", "tabm KZT FULL33 seed2 local calibration"],
+  "strict_control": "v3 original pooled Platt probability >=0.5, cooldown3, maximum2 per corridor-week; preserve historical parity",
+  "policies": ["strict05", "cadence80", "cadence85", "cadence90", "rank80", "rank90", "rank90_shared"],
+  "static_cadence": "Same existing quantile grid q=0,.05,..,.80, fixed prior-year probability threshold, cooldown2; maximize calibration lift subject to chosen coverage; fallback clearly labelled.",
+  "rolling_rank": "Prior 63 same-corridor scores only, empirical percentile including ties at midpoint, no current/future score in reference window. Fixed q from grid0..0.80 step0.05 chosen using prior-year calibration only; max2/calendarweek cooldown2, no quota filling. Last20+ past scores required; 63 panel dates before calibration (including purged training tail), scored by the frozen checkpoint with all outcomes masked, warm validation; complete prior calibration history warms test.",
+  "rank_shared": "One dimensionless rank cutoff across all corridors, chosen in calibration to satisfy minimum corridor coverage, else maximum minimum coverage; tests transfer of the same parameter across corridors.",
+  "metrics": "Hit rate, year/corridor standardized lift/forward delta, regret, Brier/logloss/AUC, signals, observed calendar week counts with silent/partial weeks, per-year/corridor minima. Full naturally mature test cohort per horizon; cross-horizon rescore on common H5-matured cohort separately.",
+  "selection": "Frozen lexicographic rule on 2024-2025 first, then audit frozen winner in 2026. Hard gates in every evaluated year/corridor: coverage>=0.80, lift>=1.30, forward_delta_bps>0; prefer coverage>=0.90 everywhere. If infeasible explicitly say no qualifying model. Among qualified maximize worst-cell lift then worst-cell utility then lower mean Brier. For an operational fallback minimize total normalized gate shortfall then maximize worst-cell lift; never call fallback qualified. Additionally report retrospective all-three-year ranking separately.",
+  "scope": "Separate all5 universal and KZT rankings; KZT-only model cannot claim all5 performance.",
+  "inference": "Retrospective periods already examined in prior research. No untouched holdout claim or universal architecture superiority. Block CIs conditional on fixed scores/policies.",
+  "reporting": "Single union CSV with source_report/protocol/row_type identifiers; prior architecture and reconciliation reports plus new metrics and CI rows, no silent mixing of scopes or horizons. Final recommendation and manifest saved in new isolated research folder; previous checkpoints remain untouched."
+}

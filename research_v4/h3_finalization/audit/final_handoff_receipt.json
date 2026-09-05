@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": 120,
+  "annual_checks": 67,
+  "pipeline_checks": 53,
+  "failures": 0,
+  "stable_at_handoff": true,
+  "scope": "Independent audit, no model training; final package not activated by auditor.",
+  "files_sha256": {
+    "research_v4/h3_finalization/audit/REPORT.md": "f4f4d7e7d65768c0154cb1b1a30534e898ee93d4fde9d9e925b8a774d9b2e1f0",
+    "research_v4/h3_finalization/audit/verify_annual.py": "e4d60ff43ffae3639e591f2c596891228646a0d7b58c73a4b7ed868a0941f432",
+    "research_v4/h3_finalization/audit/verify_pipeline.py": "5405e39312a283a58dc615813012f7c78c06fd068decd1a48d6690b7b636f3b3",
+    "research_v4/h3_finalization/audit/annual_verification.json": "b3ce851d3ec1b5a58e4df4fad8f6cb98031c8f241472b2acd47b5ea6fb32dbb2",
+    "research_v4/h3_finalization/audit/pipeline_verification.json": "72fdc91d3e7d8f5096d828ac7c2e11f8ea21e3aa94761838efafc5b2e1d8833c",
+    "research_v4/h3_finalization/audit/latest_panel.pkl": "bf061d7bc487c55e16e00515587300680e24c0fd0bbbf04326dbc7d4b7152ada",
+    "research_v4/h3_finalization/audit/latest_panel_receipt.json": "1d89d0c02b1037c9fc13cbd84608653eedb90d5792f4f31f41f2052e22f37ba7",
+    "research_v4/h3_finalization/audit/feature_builder_snapshot.py": "375e052e24306d208750f24e96475e3f47ca60122fb53265f4db455fb4efc1f3",
+    "research_v4/h3_finalization/audit/postpatch_builder_parity.json": "07d22a81187bf5b7faa0a31eb3c47d81a429136771911e117b55046f1c80cbca"
+  },
+  "package_bundle_sha256": "50cdd004e0ce6110ca9bb191aedf042e61264eb2f3a4ea1d68fcfd8f80ba9d3f",
+  "package_weights_sha256": "115059716af8cd8207eff84a18da25c3a4e6cfef781e65e766681f4200a4e5e9"
+}

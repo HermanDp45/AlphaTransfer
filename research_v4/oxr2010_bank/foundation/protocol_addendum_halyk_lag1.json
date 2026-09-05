@@ -1,0 +1,23 @@
+{
+  "frozen_at_utc": "2026-09-05T11:03:27.247455+00:00",
+  "before_first_development_fit": true,
+  "reason": "Parent requested explicit comparison with strongest prior Halyk lag1 convention; conservative lag2 remainsprimary.",
+  "added_configurations": [
+    {
+      "name": "synth_kzt_halyk_D1",
+      "OXR": "none",
+      "Halyk_effective_lag_calendar_days": 1,
+      "KZT_local_calibration": true
+    },
+    {
+      "name": "synth_kzt_basis2010_halyk_H1O2",
+      "OXR": "basis2010D2",
+      "Halyk_effective_lag_calendar_days": 1,
+      "KZT_local_calibration": true
+    }
+  ],
+  "selection_change": "none; lag1 controls arediagnostic and noteligible forprimarydevelopmentchoice",
+  "configuration_count": 17,
+  "planned_fits": 85,
+  "source_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021"
+}

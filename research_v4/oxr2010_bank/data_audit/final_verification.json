@@ -1,0 +1,349 @@
+{
+  "status": "PASS",
+  "passed": 25,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "canonical_code_and_engine_protocol_hashes",
+      "passed": true
+    },
+    {
+      "check": "canonical_common_missingness_D24_B1",
+      "passed": true
+    },
+    {
+      "check": "canonical_only_common_features_changed_D24_B1",
+      "passed": true
+    },
+    {
+      "check": "canonical_common_missingness_D24_B2",
+      "passed": true
+    },
+    {
+      "check": "canonical_only_common_features_changed_D24_B2",
+      "passed": true
+    },
+    {
+      "check": "canonical_common_missingness_D48_B1",
+      "passed": true
+    },
+    {
+      "check": "canonical_only_common_features_changed_D48_B1",
+      "passed": true
+    },
+    {
+      "check": "canonical_common_missingness_D48_B2",
+      "passed": true
+    },
+    {
+      "check": "canonical_only_common_features_changed_D48_B2",
+      "passed": true
+    },
+    {
+      "check": "canonical_boundary_exceeds_both_full_warmups",
+      "passed": true,
+      "minimum_source_observations": 74,
+      "minimum_CBR_basis_observations": 54
+    },
+    {
+      "check": "all_35_canonical_training_fingerprints_hashes_and_label_purges",
+      "passed": true,
+      "checkpoints": 35,
+      "errors": []
+    },
+    {
+      "check": "canonical_retraining_all_saved_views_exact",
+      "passed": true,
+      "matched_rows": 50250,
+      "maximum_differences": {
+        "raw_probability": 0.0,
+        "probability": 0.0,
+        "target": 0.0,
+        "forward_bps": 0.0,
+        "candidate_signal": 0.0,
+        "signal": 0.0
+      },
+      "note": "Repeated model/view row evaluations, not independent observations."
+    },
+    {
+      "check": "simultaneous_family_common_targets",
+      "passed": true
+    },
+    {
+      "check": "independent_maxT_development_2023_2025_month",
+      "passed": true,
+      "maximum_numeric_error": 8.881784197001252e-16,
+      "dates": 727,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_development_2023_2025_20",
+      "passed": true,
+      "maximum_numeric_error": 9.71445146547012e-17,
+      "dates": 727,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_development_2023_2025_60",
+      "passed": true,
+      "maximum_numeric_error": 8.881784197001252e-16,
+      "dates": 727,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_january_month",
+      "passed": true,
+      "maximum_numeric_error": 1.3322676295501878e-15,
+      "dates": 156,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_january_20",
+      "passed": true,
+      "maximum_numeric_error": 4.440892098500626e-16,
+      "dates": 156,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_january_60",
+      "passed": true,
+      "maximum_numeric_error": 3.9968028886505635e-15,
+      "dates": 156,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_common_january_month",
+      "passed": true,
+      "maximum_numeric_error": 1.0581813203458523e-16,
+      "dates": 122,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_common_january_20",
+      "passed": true,
+      "maximum_numeric_error": 9.90960785651751e-17,
+      "dates": 122,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_common_january_60",
+      "passed": true,
+      "maximum_numeric_error": 9.90960785651751e-17,
+      "dates": 122,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_common_march_month",
+      "passed": true,
+      "maximum_numeric_error": 9.84455572616838e-17,
+      "dates": 122,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_common_march_20",
+      "passed": true,
+      "maximum_numeric_error": 9.627715291671279e-17,
+      "dates": 122,
+      "comparisons": 26
+    },
+    {
+      "check": "independent_maxT_2026_common_march_60",
+      "passed": true,
+      "maximum_numeric_error": 2.220446049250313e-16,
+      "dates": 122,
+      "comparisons": 26
+    }
+  ],
+  "evidence": {
+    "warmup": [
+      {
+        "delay": 24,
+        "bank_lag": 1,
+        "corridor": "AMD",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 1,
+        "corridor": "KGS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 1,
+        "corridor": "KZT",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 1,
+        "corridor": "TJS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 1,
+        "corridor": "UZS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 2,
+        "corridor": "AMD",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 2,
+        "corridor": "KGS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 2,
+        "corridor": "KZT",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 2,
+        "corridor": "TJS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 24,
+        "bank_lag": 2,
+        "corridor": "UZS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-30",
+        "source_calendar_observations": 75,
+        "prior_inclusive_CBR_basis_observations": 55
+      },
+      {
+        "delay": 48,
+        "bank_lag": 1,
+        "corridor": "AMD",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 1,
+        "corridor": "KGS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 1,
+        "corridor": "KZT",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 1,
+        "corridor": "TJS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 1,
+        "corridor": "UZS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 2,
+        "corridor": "AMD",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 2,
+        "corridor": "KGS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 2,
+        "corridor": "KZT",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 2,
+        "corridor": "TJS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      },
+      {
+        "delay": 48,
+        "bank_lag": 2,
+        "corridor": "UZS",
+        "first_common_date": "2018-09-01",
+        "observed_source_date": "2018-08-29",
+        "source_calendar_observations": 74,
+        "prior_inclusive_CBR_basis_observations": 54
+      }
+    ]
+  },
+  "model_fits": 0,
+  "api_calls": 0,
+  "source_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+  "engine_sha256": "52a32a530a1a840d9d9cc0aeab1010f3d9e76effe89006e73648115ff223ecf2",
+  "canonical_code_sha256": "67585d5e7aaef97e801f80e7e4ff9e3d04ac6a8b1ad980373dc264158398d761",
+  "simultaneous_code_sha256": "8890056ed91121c5569dc8a58db3bf37e1a36d5c73f3485f2533c036c93391dd",
+  "verifier_sha256": "7dc99a572167f34bc7d1e9b708225911c2001aa82e1524cafddc5a6cced51fb3",
+  "scope": "Independent canonical feature fingerprints, preserved early observations, label purge, all35 canonical output parity and 12 direct-index max-statistic bootstrap reconstructions; earlier design and source audits are separate receipts."
+}

@@ -1,0 +1,28 @@
+message_ref,date,segment,direction,rate_kzt_per_rub,manual_relevant,manual_segment_correct,manual_direction_correct,manual_rate_correct,evidence_class,notes
+4baca4f1522c2471,2023-01-05,card_transfer,kzt_to_rub,6.55,1,1,1,1,textual_market_quote,
+dd99340caca71bc8,2022-07-05,card_transfer,kzt_to_rub,8.0,1,1,1,1,textual_market_quote,short reply to a peer card listing; quoted intent not settlement
+15e8d2dbcccaeed8,2022-08-20,card_transfer,kzt_to_rub,7.5,1,1,1,1,textual_market_quote,
+cb98c475ae1f79d6,2022-09-09,card_transfer,kzt_to_rub,7.5,1,1,1,1,textual_market_quote,
+6729b140eded25d1,2023-01-09,card_transfer,kzt_to_rub,6.5,1,1,1,1,textual_market_quote,
+84bca8c20c9f9cfe,2024-07-26,card_transfer,rub_to_kzt,5.3,1,1,1,1,textual_market_quote,
+4e44752e5f3af415,2022-11-19,card_transfer,rub_to_kzt,7.4,1,1,1,1,textual_market_quote,
+d5e308b3d4508f45,2022-07-16,card_transfer,rub_to_kzt,7.5,1,1,1,1,textual_market_quote,
+2c76cd7420a58005,2024-07-26,card_transfer,rub_to_kzt,6.0,1,1,1,1,textual_market_quote,negotiation quote; not settlement
+2a8a91cf064a7534,2022-11-17,card_transfer,rub_to_kzt,7.5,1,1,1,1,textual_market_quote,
+19782f3662cf2dec,2022-10-11,cash,kzt_to_rub,7.05,1,1,1,1,textual_market_quote,
+37852aaa697eeeef,2022-12-16,cash,kzt_to_rub,7.043,1,1,1,1,textual_market_quote,
+64b29d39139a49ec,2022-07-25,cash,rub_to_kzt,7.9,1,1,1,1,textual_market_quote,
+8c107ea413ca0aed,2022-10-12,cash,rub_to_kzt,7.1,1,1,1,1,textual_market_quote,
+b34c9ab91d324d39,2022-10-10,cash,rub_to_kzt,7.5,1,1,1,1,textual_market_quote,
+6772b161958f89ce,2022-10-01,cash,rub_to_kzt,7.5,1,1,1,1,textual_market_quote,
+16f36e693a3db0c4,2022-10-09,cash,rub_to_kzt,7.5,1,1,1,1,textual_market_quote,
+512e347c65632eb9,2022-11-03,crypto,kzt_to_rub,7.45098,1,1,1,1,textual_market_quote,amount ratio from a crypto route report
+05307606bf60f0c7,2023-11-07,crypto,rub_to_kzt,4.98,1,1,1,1,textual_market_quote,
+d729a52d58618435,2022-10-14,crypto,rub_to_kzt,7.23,1,1,1,1,textual_market_quote,
+4f25d9bbb73b5084,2022-11-01,crypto,rub_to_kzt,7.1,1,1,1,1,textual_market_quote,
+09fc29b8c77b1f80,2022-08-01,crypto,rub_to_kzt,7.5,1,1,1,1,textual_market_quote,question citing a current quote; not settlement
+c59c1005cca707ce,2022-10-26,crypto,rub_to_kzt,7.28,1,1,1,1,textual_market_quote,crypto route result retained; card comparison remains in review layer
+60a0991aaa7ebabb,2025-11-23,crypto,rub_to_kzt,6.7,1,1,1,1,textual_market_quote,
+faaaaac8c1238e44,2022-10-09,crypto,rub_to_kzt,7.25,1,1,1,1,textual_market_quote,
+0e3a0b7374f0214d,2022-10-12,crypto,rub_to_kzt,7.59,1,1,1,1,textual_market_quote,
+959371be752a7e91,2022-12-27,crypto,rub_to_kzt,6.5,1,1,1,1,textual_market_quote,

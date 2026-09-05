@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "new_final_fits": 15,
+  "reused_final_neural_fits": 3,
+  "new_neural_inner_fits": 9,
+  "model_year_pairs": 18,
+  "ensemble_year_pairs": 3
+}

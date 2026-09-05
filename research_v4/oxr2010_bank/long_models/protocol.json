@@ -1,0 +1,196 @@
+{
+  "created_unix": 1788606320.151789,
+  "specifications": [
+    {
+      "name": "v3_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "oxr_basis_2018_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2018-06-17",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "oxr_basis_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "v3_180m",
+      "months": 180,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "oxr_basis_2018_180m",
+      "months": 180,
+      "family": "basis",
+      "since": "2018-06-17",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "oxr_basis_2010_180m",
+      "months": 180,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "oxr_full_2010_120m",
+      "months": 120,
+      "family": "full",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "oxr_coverage_2010_120m",
+      "months": 120,
+      "family": "coverage",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "kzt_local_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "kzt_shrink_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "halyk_local_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": false,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "halyk_shrink_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "kzt_oxr_2018_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2018-06-17",
+      "bank": false,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "fusion_2018_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2018-06-17",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "kzt_oxr_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "fusion_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "fusion_premium_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": true
+    },
+    {
+      "name": "fusion_2010_180m",
+      "months": 180,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    }
+  ],
+  "primary_contrasts": [
+    "oxr_basis_2010_120m vs oxr_basis_2018_120m",
+    "fusion_2010_120m vs fusion_2018_120m",
+    "fusion_2010_120m vs halyk_shrink_120m"
+  ],
+  "decision": "CBR frozen reference10:05Moscow; OXR max(day_end,published)+24h; Halyk effective_date+1calendar day",
+  "stress": "fixed model/calibration/threshold and pre-cutoff normal state; extra one day OXR and/or Halyk AFTER cutoff",
+  "selection": "development2023-2025 normal Brier within all-corridor and KZT bank families, controls eligible; frozen before new2026 computation",
+  "test": "Jan/Mar2026 temporal cutoff, previously inspected history, NOT pristine holdout",
+  "source_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+  "code_sha256": "a805c395d787590ba07255c40b7d3b5fab3337dac1bfca7fa91fd10772c7c79c"
+}

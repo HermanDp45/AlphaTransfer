@@ -1,0 +1,26 @@
+{
+  "frozen_at_utc": "2026-09-05T11:03:58.841571+00:00",
+  "selection_unix": 1788606238.841577,
+  "choices": {
+    "all": {
+      "selected": "synth_basis2010_D2",
+      "brier": {
+        "synth_no_oxr": 0.1848616253975139,
+        "synth_basis2010_D2": 0.18472591234844854,
+        "synth_full2010_D2": 0.18642223825640514
+      }
+    },
+    "KZT": {
+      "selected": "synth_kzt_basis2010_D2",
+      "brier": {
+        "synth_kzt_no_oxr": 0.17873649882140866,
+        "synth_kzt_halyk_D2": 0.18401445678904194,
+        "synth_kzt_basis2010_D2": 0.1786345350610157,
+        "synth_kzt_basis2010_halyk_D2": 0.18215744603857764
+      }
+    }
+  },
+  "criterion": "predeclared development Brier only; no2026predictions computed yet",
+  "development_predictions_sha256": "c207e1ece0bb29522c0b5dda41a128c4ed68e85fd702eb9812feed73f9553ee0",
+  "protocol_sha256": "e7e653258393f55338181c75b546b1b6177e48a35797f55db5289922f0cb0263"
+}

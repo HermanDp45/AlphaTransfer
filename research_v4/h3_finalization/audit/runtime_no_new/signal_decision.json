@@ -1,0 +1,43 @@
+{
+  "profile_id": "tabm_kzt_h3_expanding2010",
+  "model_id": "tabm_kzt_h3_expanding2010_20260905",
+  "model_cutoff": "2026-09-05",
+  "train_horizon": 3,
+  "target_contract": "NOW:R[t]<=min(R[t+1:t+3]);R=RUB_per_KZT;h=3_effective_CBR_rows;tau=0",
+  "scenario": "NOW",
+  "corridor": "KZT",
+  "run_as_of": "2026-09-05",
+  "latest_source_feature_date": "2026-09-03",
+  "source_lag_calendar_days": 2,
+  "mode": "operational",
+  "authorized_contact": false,
+  "external_messages_sent": 0,
+  "closing": {
+    "status": "diagnostic_only_failed_annual_annotation_gates",
+    "enabled": false,
+    "reason": "Not evaluated until a new source row is processed",
+    "probability": null,
+    "reason_code": "not_rescored_no_new_sessions"
+  },
+  "source_sha256": {
+    "cbr": "5678ec14d07b63a46e33e407cacb3c7e966cff45a89bf64607cb80b0aae55b10",
+    "moex_cny_close": "3057fcee8436b5fe8ff6b6b346a07913d88ad8f890c18e8cca8f3fe6f6cf5039",
+    "moex_cny_fixing": "d14b596218b670f8cb6112ebc939a0deefc5591ec287350778583b6de5b05433",
+    "oxr": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "halyk": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "treasury_t10yie": "a35f627e810aa12f579d1d3fc2b872e4cd8b2d0ae6ea3ce98cb758ef357a7429",
+    "treasury_t5yifr": "6d5a5528039eacb7eeedd87c0f0721d11dbb868aede8c6328e0546b291d3c1b1"
+  },
+  "state_binding_sha256": "adeff8431cbd9b81b5b2bba2d2175f0077ded95bfe6abc1dc8c03d21a93cdeba",
+  "limitations": [
+    "CBR reference target; executable Alpha quote is not supplied.",
+    "Known-at clocks for CBR/MOEX/Halyk/Treasury follow the documented inherited timing assumptions."
+  ],
+  "status": "no_new_source_sessions",
+  "NOW_contacts": 0,
+  "rows": 0,
+  "candidate_signal": false,
+  "reason_codes": [
+    "already_processed_source_prefix"
+  ]
+}

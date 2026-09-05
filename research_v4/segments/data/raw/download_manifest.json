@@ -1,0 +1,30 @@
+[
+  {
+    "name": "iom_kg_return_2024.pdf",
+    "url": "https://kyrgyzstan.iom.int/sites/g/files/tmzbdl1321/files/documents/2024-11/kg_return-migrant-survey_r3_eng.pdf",
+    "retrieved_at_utc": "2026-09-05T08:13:43.960636+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "iom_kg_return_2023.pdf",
+    "url": "https://kyrgyzstan.iom.int/sites/g/files/tmzbdl1321/files/documents/2024-07/kg_baseline-and-returning-migrant-worker-survey.pdf",
+    "retrieved_at_utc": "2026-09-05T08:13:45.077611+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "wb_rpp_baseline2016.pdf",
+    "url": "https://documents1.worldbank.org/curated/en/552541540823620142/pdf/131455-RPPbaselinesurveyFINAL.pdf",
+    "retrieved_at_utc": "2026-09-05T08:13:45.192370+00:00",
+    "status": 200,
+    "bytes": 1979356,
+    "sha256": "0317097d8771e1d3eeef6b3578a8c614efb766d835f242e053ba8b68a198c659"
+  },
+  {
+    "name": "kg_microdata_access.html",
+    "url": "https://microdata.worldbank.org/catalog/6523/get-microdata",
+    "retrieved_at_utc": "2026-09-05T08:13:46.167834+00:00",
+    "status": 200,
+    "bytes": 31517,
+    "sha256": "d5232f4caae25da3feb7813eeeca8e1a5fe94830cef4ee4909656f0435079e61"
+  }
+]

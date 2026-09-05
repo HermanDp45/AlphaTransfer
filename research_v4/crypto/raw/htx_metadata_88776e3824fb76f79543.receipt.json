@@ -1,0 +1,11 @@
+{
+  "url": "https://api.huobi.pro/v1/common/symbols",
+  "final_url": "https://api.huobi.pro/v1/common/symbols",
+  "retrieved_utc": "2026-09-05T08:19:09.627053+00:00",
+  "status": 200,
+  "bytes": 1450373,
+  "sha256": "5a30630ffb60420e31a2bd4c630256d3ba6bd7cd507d62a0ead94308739fb141",
+  "content_type": "application/json",
+  "raw_path": "raw/htx_metadata_88776e3824fb76f79543.bin",
+  "group": "htx_metadata"
+}

@@ -1,0 +1,13 @@
+{
+  "backbone_fits": 4,
+  "full_steps_per_fit": 900,
+  "total_full_steps": 3600,
+  "device": "cpu",
+  "head_years": 10,
+  "panel_contract": "exact V3 panel_extended",
+  "code_sha256": "165587d1ccbf73750d7b4001ffefb539a34deb972f5ba2bbc5b76c4a8dba79a9",
+  "protocol_sha256": "bf05368cd124bd9096274ff88ae3b3367617b2e25f5d3b4f11fa67459c092036",
+  "base_weights_sha256": "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd",
+  "compared_with": "same-panel chronos2_small_ft_head10y with original300step checkpoints",
+  "test_selection": "none"
+}

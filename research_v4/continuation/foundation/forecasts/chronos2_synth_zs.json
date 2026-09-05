@@ -1,0 +1,22 @@
+{
+  "weights_sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+  "old_cache_sha256": "59785398f404a0e6952f73bdbb4ac5c3ad155e62e8b41deb359c5edb628f13a1",
+  "cbr_sha256": "105db9d5a6148da43cffba75c0d5bc5a8f76a80ad45d8844ae6189ff1223ce9d",
+  "context": 256,
+  "cross_learning": false,
+  "date_start": "2012-01-11 00:00:00",
+  "date_end": "2026-09-01 00:00:00",
+  "dates": 3618,
+  "code_sha256": "d12199f4f236ddaf9593edea2ee17b36f877a5dcf5c651d1433ddd023f5afbf2",
+  "checkpoint": "/private/tmp/alphatransfer-hf/hub/models--autogluon--chronos-2-synth/snapshots/3607918a9fd027d5c465d8213e46b98e2c041cea",
+  "old_cache": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/foundation/forecasts/chronos2_synth_zs.npz",
+  "forecast_device_for_new_rows": "mps",
+  "old_rows_device": "cpu; reused bitwise unchanged",
+  "reused_date_groups": 1641,
+  "new_date_groups": 1977,
+  "seconds": 21.88213566702325,
+  "cache_sha256": "d6ee435185ce2c26009a6135fa89931a00a081e1dec1bbf224bf550080f6c915",
+  "reused_quantiles_bitwise_equal": true,
+  "max_context_date_equals_prediction_date": true,
+  "source_backbone_receipt": null
+}

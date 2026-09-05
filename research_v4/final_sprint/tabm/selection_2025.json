@@ -1,0 +1,43 @@
+{
+  "chosen": {
+    "scope": "kzt",
+    "months": 120,
+    "seed_index": 0
+  },
+  "scores": [
+    {
+      "spec": {
+        "scope": "pooled",
+        "months": 24,
+        "seed_index": 0
+      },
+      "brier": 0.15011933686632206
+    },
+    {
+      "spec": {
+        "scope": "pooled",
+        "months": 60,
+        "seed_index": 0
+      },
+      "brier": 0.15813697800325768
+    },
+    {
+      "spec": {
+        "scope": "pooled",
+        "months": 120,
+        "seed_index": 0
+      },
+      "brier": 0.14936071562282455
+    },
+    {
+      "spec": {
+        "scope": "kzt",
+        "months": 120,
+        "seed_index": 0
+      },
+      "brier": 0.14392059469977803
+    }
+  ],
+  "created_unix": 1788613264.140519,
+  "uses_2026": false
+}

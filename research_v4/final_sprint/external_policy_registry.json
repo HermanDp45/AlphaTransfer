@@ -1,0 +1,1154 @@
+[
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.18818236467216784
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.14959063360225655
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.18103573018319766
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.195818452486763
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.16415038546075902
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.14398334231443685
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.175676191032903
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.175676191032903
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.1743622196782369
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.1571452068906779
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.19345704047137277
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.2433613671825892
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.14621265450205229
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3954,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.13088149536329627
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3954,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.13764057663320864
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.19332668825163188
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.18874272721716792
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.18874272721716792
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.1788177555091513
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.2377586967559096
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.12813021913044237
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3954,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.12104518073748258
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.14178488871896966
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_120m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.14178488871896966
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.150283486106197
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.14361625433362235
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.14361625433362235
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.18575938319450527
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.1458254450652195
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.1432552496785045
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.16493617828864934
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.18495318537530295
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.17746471736038258
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.14771799090637294
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.14771799090637294
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.1920770506148415
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.11840546065635599
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.0096872309262421
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.14651026016040836
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.14651026016040836
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.18938638600686314
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.12423540135084662
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.15357243284114763
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.19254571657869457
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.11370953013496007
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.10196866862266046
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.16329069240150432
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_24m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.16329069240150432
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2006914376870006
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.17059127803124224
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.18724644425990056
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.18724644425990056
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.12247679789482546
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.12152820578001106
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.08262659699172456
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_full",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.1677057517267881
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.19076354722022235
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.17109978715077373
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.1802964230488356
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.2073206630757083
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.13778731876615496
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3954,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.04496835538928396
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.17146512342506293
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.19863721682261773
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.18336134203079593
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.18077880468382224
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.18077880468382224
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.18077880468382224
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.1384882877845785
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3954,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.14051926595165526
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3954,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.1707239066372043
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "catboost_treasury_halyk_60m_stable_matched",
+    "cutoff": "2026-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.19081025565355833
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  }
+]

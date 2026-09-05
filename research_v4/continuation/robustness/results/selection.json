@@ -1,0 +1,11 @@
+{
+  "selected_rule": "minimax_shrink_v3",
+  "criterion": "minimum worst normal/delayed development2023-2025 Brier among fixed robust family",
+  "normal_reference": 0.17632441489206915,
+  "delay_reference": 0.18270478175104507,
+  "strict_no_loss_robust_methods": [],
+  "selection_uses_2026": false,
+  "2026_previously_inspected_in_V4": true,
+  "selection_before_new_2026_computation": true,
+  "protocol_sha256": "5be7f07c9c71f8686d7d1adcf4dbff89fd50438f43297f95f0e5cceab0c041e4"
+}

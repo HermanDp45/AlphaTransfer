@@ -1,0 +1,546 @@
+{
+  "status": "PASS",
+  "verifier_sha256": "7373970738838a15cedfe65d8a6936b53b1ce58a11091124efd04af0601ab404",
+  "seconds": 2.322152458014898,
+  "checks": [
+    {
+      "check": "source_hash_and_timestamp_schema",
+      "status": "PASS",
+      "detail": {
+        "all_input_hashes_match": true,
+        "raw_epoch_iso_agree": true,
+        "timezone_transition_examples": [
+          {
+            "local_day": "2024-02-28",
+            "utc": "2024-02-27 18:00:00+00:00",
+            "local": "2024-02-28 00:00:00+06:00"
+          },
+          {
+            "local_day": "2024-03-04",
+            "utc": "2024-03-03 19:00:00+00:00",
+            "local": "2024-03-04 00:00:00+05:00"
+          }
+        ],
+        "no_ambiguous_day_month_parser": true
+      },
+      "seconds": 0.3017579580191523
+    },
+    {
+      "check": "independent_actual_quote_target_and_maturity",
+      "status": "PASS",
+      "detail": {
+        "independently_enumerated_quotes": 1637,
+        "maturity": [
+          {
+            "cutoff": "2023-01-01",
+            "part": "train",
+            "last_mature_label": "2021-12-31 00:00:00+06:00",
+            "boundary": "2022-01-01 00:00:00+06:00"
+          },
+          {
+            "cutoff": "2023-01-01",
+            "part": "validation",
+            "last_mature_label": "2022-12-31 00:00:00+06:00",
+            "boundary": "2023-01-01 00:00:00+06:00"
+          },
+          {
+            "cutoff": "2024-01-01",
+            "part": "train",
+            "last_mature_label": "2022-12-31 00:00:00+06:00",
+            "boundary": "2023-01-01 00:00:00+06:00"
+          },
+          {
+            "cutoff": "2024-01-01",
+            "part": "validation",
+            "last_mature_label": "2023-12-29 00:00:00+06:00",
+            "boundary": "2024-01-01 00:00:00+06:00"
+          },
+          {
+            "cutoff": "2025-01-01",
+            "part": "train",
+            "last_mature_label": "2023-12-29 00:00:00+06:00",
+            "boundary": "2024-01-01 00:00:00+06:00"
+          },
+          {
+            "cutoff": "2025-01-01",
+            "part": "validation",
+            "last_mature_label": "2024-12-31 00:00:00+05:00",
+            "boundary": "2025-01-01 00:00:00+05:00"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "part": "train",
+            "last_mature_label": "2024-12-31 00:00:00+05:00",
+            "boundary": "2025-01-01 00:00:00+05:00"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "part": "validation",
+            "last_mature_label": "2025-12-31 00:00:00+05:00",
+            "boundary": "2026-01-01 00:00:00+05:00"
+          },
+          {
+            "cutoff": "2026-03-01",
+            "part": "train",
+            "last_mature_label": "2025-02-28 00:00:00+05:00",
+            "boundary": "2025-03-01 00:00:00+05:00"
+          },
+          {
+            "cutoff": "2026-03-01",
+            "part": "validation",
+            "last_mature_label": "2026-02-28 00:00:00+05:00",
+            "boundary": "2026-03-01 00:00:00+05:00"
+          }
+        ],
+        "orientation_fixture": "q=5.0 followed by mean5.1 -> target1, cost increases for RUB buyer; q=5.0 followed by4.9 -> target0"
+      },
+      "seconds": 0.16028449998702854
+    },
+    {
+      "check": "known_at_and_raw_future_prefix",
+      "status": "PASS",
+      "detail": {
+        "all_source_known_at_before_decision": true,
+        "max_asof_age_days": 7,
+        "raw_future_value_multiplier": 100,
+        "past_feature_prefix_exact": true,
+        "future_label_columns_excluded_from_features": true
+      },
+      "seconds": 0.10519733402179554
+    },
+    {
+      "check": "checkpoint_and_past_only_baselines",
+      "status": "PASS",
+      "detail": [
+        {
+          "arm": "persistence",
+          "cutoff": "2023-01-01",
+          "rows": 242,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "prior_mean",
+          "cutoff": "2023-01-01",
+          "rows": 242,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "bank_history",
+          "cutoff": "2023-01-01",
+          "rows": 242,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "cbr_history",
+          "cutoff": "2023-01-01",
+          "rows": 242,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "bank_cbr",
+          "cutoff": "2023-01-01",
+          "rows": 242,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "bank_cbr_oxr",
+          "cutoff": "2023-01-01",
+          "rows": 242,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "persistence",
+          "cutoff": "2024-01-01",
+          "rows": 240,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "prior_mean",
+          "cutoff": "2024-01-01",
+          "rows": 240,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "bank_history",
+          "cutoff": "2024-01-01",
+          "rows": 240,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 5.684341886080802e-14
+        },
+        {
+          "arm": "cbr_history",
+          "cutoff": "2024-01-01",
+          "rows": 240,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 1.4210854715202004e-14
+        },
+        {
+          "arm": "bank_cbr",
+          "cutoff": "2024-01-01",
+          "rows": 240,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "bank_cbr_oxr",
+          "cutoff": "2024-01-01",
+          "rows": 240,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "persistence",
+          "cutoff": "2025-01-01",
+          "rows": 226,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "prior_mean",
+          "cutoff": "2025-01-01",
+          "rows": 226,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "bank_history",
+          "cutoff": "2025-01-01",
+          "rows": 226,
+          "probability_max_error": 8.326672684688674e-17,
+          "change_bps_max_error": 1.4210854715202004e-14
+        },
+        {
+          "arm": "cbr_history",
+          "cutoff": "2025-01-01",
+          "rows": 226,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 1.4210854715202004e-14
+        },
+        {
+          "arm": "bank_cbr",
+          "cutoff": "2025-01-01",
+          "rows": 226,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "bank_cbr_oxr",
+          "cutoff": "2025-01-01",
+          "rows": 226,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "persistence",
+          "cutoff": "2026-01-01",
+          "rows": 167,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "prior_mean",
+          "cutoff": "2026-01-01",
+          "rows": 167,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "bank_history",
+          "cutoff": "2026-01-01",
+          "rows": 167,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 7.105427357601002e-15
+        },
+        {
+          "arm": "cbr_history",
+          "cutoff": "2026-01-01",
+          "rows": 167,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 3.552713678800501e-15
+        },
+        {
+          "arm": "bank_cbr",
+          "cutoff": "2026-01-01",
+          "rows": 167,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "bank_cbr_oxr",
+          "cutoff": "2026-01-01",
+          "rows": 167,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 2.842170943040401e-14
+        },
+        {
+          "arm": "persistence",
+          "cutoff": "2026-03-01",
+          "rows": 120,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "prior_mean",
+          "cutoff": "2026-03-01",
+          "rows": 120,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 0.0
+        },
+        {
+          "arm": "bank_history",
+          "cutoff": "2026-03-01",
+          "rows": 120,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 7.105427357601002e-15
+        },
+        {
+          "arm": "cbr_history",
+          "cutoff": "2026-03-01",
+          "rows": 120,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 3.552713678800501e-15
+        },
+        {
+          "arm": "bank_cbr",
+          "cutoff": "2026-03-01",
+          "rows": 120,
+          "probability_max_error": 0.0,
+          "change_bps_max_error": 1.4210854715202004e-14
+        },
+        {
+          "arm": "bank_cbr_oxr",
+          "cutoff": "2026-03-01",
+          "rows": 120,
+          "probability_max_error": 5.551115123125783e-17,
+          "change_bps_max_error": 1.4210854715202004e-14
+        }
+      ],
+      "seconds": 0.22368870896752924
+    },
+    {
+      "check": "future_fit_invariance",
+      "status": "PASS",
+      "detail": [
+        {
+          "cutoff": "2026-01-01",
+          "all_arms_exact_prediction_identity": [
+            "persistence",
+            "prior_mean",
+            "bank_history",
+            "cbr_history",
+            "bank_cbr",
+            "bank_cbr_oxr"
+          ],
+          "future_features_x100_and_unmatured_labels_poisoned": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "all_arms_exact_prediction_identity": [
+            "persistence",
+            "prior_mean",
+            "bank_history",
+            "cbr_history",
+            "bank_cbr",
+            "bank_cbr_oxr"
+          ],
+          "future_features_x100_and_unmatured_labels_poisoned": true
+        }
+      ],
+      "seconds": 0.3805806250311434
+    },
+    {
+      "check": "OXR2010_2018_separate_fit_identity",
+      "status": "PASS",
+      "detail": {
+        "features_exact": true,
+        "separate_fits_prediction_identity_cutoffs": [
+          "2023-01-01",
+          "2024-01-01",
+          "2025-01-01",
+          "2026-01-01",
+          "2026-03-01"
+        ],
+        "earlier_source_history_creates_no_bank_labels": true
+      },
+      "seconds": 0.3802504580235109
+    },
+    {
+      "check": "paired_cohorts_and_NOW_target",
+      "status": "PASS",
+      "detail": {
+        "primary_and_now_exact_date_quote_keys": true,
+        "January_March_common_dates": 118,
+        "NOW_target_independent_decimal_minimum_check": true,
+        "NOW_checkpoints_past_prevalence_and_future_poison_pass": true,
+        "NOW2010_2018_fitted_predictions_exact": true,
+        "parity": [
+          {
+            "arm": "persistence",
+            "cutoff": "2023-01-01",
+            "rows": 242
+          },
+          {
+            "arm": "prior_mean",
+            "cutoff": "2023-01-01",
+            "rows": 242
+          },
+          {
+            "arm": "bank_history",
+            "cutoff": "2023-01-01",
+            "rows": 242
+          },
+          {
+            "arm": "cbr_history",
+            "cutoff": "2023-01-01",
+            "rows": 242
+          },
+          {
+            "arm": "bank_cbr",
+            "cutoff": "2023-01-01",
+            "rows": 242
+          },
+          {
+            "arm": "bank_cbr_oxr",
+            "cutoff": "2023-01-01",
+            "rows": 242
+          },
+          {
+            "arm": "persistence",
+            "cutoff": "2024-01-01",
+            "rows": 240
+          },
+          {
+            "arm": "prior_mean",
+            "cutoff": "2024-01-01",
+            "rows": 240
+          },
+          {
+            "arm": "bank_history",
+            "cutoff": "2024-01-01",
+            "rows": 240
+          },
+          {
+            "arm": "cbr_history",
+            "cutoff": "2024-01-01",
+            "rows": 240
+          },
+          {
+            "arm": "bank_cbr",
+            "cutoff": "2024-01-01",
+            "rows": 240
+          },
+          {
+            "arm": "bank_cbr_oxr",
+            "cutoff": "2024-01-01",
+            "rows": 240
+          },
+          {
+            "arm": "persistence",
+            "cutoff": "2025-01-01",
+            "rows": 226
+          },
+          {
+            "arm": "prior_mean",
+            "cutoff": "2025-01-01",
+            "rows": 226
+          },
+          {
+            "arm": "bank_history",
+            "cutoff": "2025-01-01",
+            "rows": 226
+          },
+          {
+            "arm": "cbr_history",
+            "cutoff": "2025-01-01",
+            "rows": 226
+          },
+          {
+            "arm": "bank_cbr",
+            "cutoff": "2025-01-01",
+            "rows": 226
+          },
+          {
+            "arm": "bank_cbr_oxr",
+            "cutoff": "2025-01-01",
+            "rows": 226
+          },
+          {
+            "arm": "persistence",
+            "cutoff": "2026-01-01",
+            "rows": 167
+          },
+          {
+            "arm": "prior_mean",
+            "cutoff": "2026-01-01",
+            "rows": 167
+          },
+          {
+            "arm": "bank_history",
+            "cutoff": "2026-01-01",
+            "rows": 167
+          },
+          {
+            "arm": "cbr_history",
+            "cutoff": "2026-01-01",
+            "rows": 167
+          },
+          {
+            "arm": "bank_cbr",
+            "cutoff": "2026-01-01",
+            "rows": 167
+          },
+          {
+            "arm": "bank_cbr_oxr",
+            "cutoff": "2026-01-01",
+            "rows": 167
+          },
+          {
+            "arm": "persistence",
+            "cutoff": "2026-03-01",
+            "rows": 120
+          },
+          {
+            "arm": "prior_mean",
+            "cutoff": "2026-03-01",
+            "rows": 120
+          },
+          {
+            "arm": "bank_history",
+            "cutoff": "2026-03-01",
+            "rows": 120
+          },
+          {
+            "arm": "cbr_history",
+            "cutoff": "2026-03-01",
+            "rows": 120
+          },
+          {
+            "arm": "bank_cbr",
+            "cutoff": "2026-03-01",
+            "rows": 120
+          },
+          {
+            "arm": "bank_cbr_oxr",
+            "cutoff": "2026-03-01",
+            "rows": 120
+          }
+        ]
+      },
+      "seconds": 0.6167450830107555
+    }
+  ],
+  "limitations_not_verified": [
+    "historical publication timestamps",
+    "quote executability at decision time",
+    "customer RUB-sell side",
+    "causal customer or bank gains"
+  ]
+}

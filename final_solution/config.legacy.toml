@@ -1,0 +1,39 @@
+[solution]
+id = "alphatransfer_reference_v1"
+selected_config = "hgb_plus_cnyrub_basis"
+selected_model = "hist_gradient_boosting"
+primary_horizon = 5
+development_years = [2023, 2024, 2025]
+diagnostic_year = 2026
+default_as_of = "2025-12-16"
+corridors = ["AMD", "KGS", "KZT", "TJS", "UZS"]
+
+[paths]
+canonical_run_dir = "final_solution/model_bundle"
+data_manifest = "final_solution/data/data_manifest.json"
+input_lock = "final_solution/inputs.lock.json"
+demo_candidates = "final_solution/data/demo_candidates_2025-12-16.csv"
+default_client_context = "final_solution/examples/client_context.demo.json"
+
+[policy]
+batch_time_msk = "10:05"
+delivery_window_local_start = "10:00"
+delivery_window_local_end = "19:00"
+signal_ttl_hours = 6
+max_marketing_contacts_7d = 2
+max_quote_move_bps = 20.0
+portfolio_cooldown_sessions = 3
+
+[gates]
+minimum_lift = 1.30
+minimum_lift_ci95_low = 1.00
+minimum_forward_advantage_bps = 0.0
+minimum_weekly_coverage = 0.90
+minimum_brier_improvement = 0.005
+minimum_improved_years = 3
+minimum_improved_cells = 8
+require_prospective_shadow = true
+require_alpha_quote = true
+require_production_data_rights = true
+require_publication_timestamps = true
+require_per_signal_explanation = true

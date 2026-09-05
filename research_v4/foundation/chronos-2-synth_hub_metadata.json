@@ -1,0 +1,52 @@
+{
+  "id": "autogluon/chronos-2-synth",
+  "sha": "3607918a9fd027d5c465d8213e46b98e2c041cea",
+  "created_at": "2025-11-24 21:20:25+00:00",
+  "last_modified": "2025-12-03 11:57:19+00:00",
+  "card": {
+    "library_name": "chronos-forecasting",
+    "license": "apache-2.0",
+    "pipeline_tag": "time-series-forecasting",
+    "tags": [
+      "time series",
+      "forecasting",
+      "foundation models",
+      "pretrained models",
+      "safetensors"
+    ],
+    "model_id": "chronos-2-synth",
+    "paper": [
+      "https://arxiv.org/abs/2510.15821"
+    ]
+  },
+  "files": [
+    {
+      "name": ".gitattributes",
+      "size": 1519,
+      "blob_id": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "lfs": null
+    },
+    {
+      "name": "README.md",
+      "size": 1265,
+      "blob_id": "f70e2f9c0cad65b49a2edb39a395cbaf3963954c",
+      "lfs": null
+    },
+    {
+      "name": "config.json",
+      "size": 971,
+      "blob_id": "c9073d0648f6e17bb6b7d6d109726128881b1654",
+      "lfs": null
+    },
+    {
+      "name": "model.safetensors",
+      "size": 475963368,
+      "blob_id": "793dea016608305577b02dd700e45ddc77cbb436",
+      "lfs": {
+        "size": 475963368,
+        "sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+        "pointer_size": 134
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+policy,unique_market_dates,synthetic_contacts
+group_aware,167,4301
+group_expected_budget,167,4301
+group_unconstrained_expected_budget,166,2236
+group_unconstrained_exploratory,167,4301
+random_expected_budget,450,2261
+universal,157,3840
+universal_expected_budget,156,1806
+v3_readiness,168,2824
+weekly_expected_budget,92,2235

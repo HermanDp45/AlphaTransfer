@@ -1,0 +1,11 @@
+{
+  "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1d/BTCUSDT-1d-2025-01.zip.CHECKSUM",
+  "final_url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1d/BTCUSDT-1d-2025-01.zip.CHECKSUM",
+  "retrieved_utc": "2026-09-05T08:19:45.459443+00:00",
+  "status": 200,
+  "bytes": 88,
+  "sha256": "05d0a547d855337e21458aac72e9586949f164dd8e7b5c9390832c70cf1f8b9c",
+  "content_type": "application/zip",
+  "raw_path": "raw/binance_checksum_d1a356e4b757507d8e75.bin",
+  "group": "binance_checksum"
+}

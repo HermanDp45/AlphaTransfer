@@ -1,0 +1,44 @@
+[
+  {
+    "name": "cbr",
+    "path": "data/cbr.csv",
+    "source": "research_v4/h3_finalization/audit/latest_cbr.csv",
+    "sha256": "5678ec14d07b63a46e33e407cacb3c7e966cff45a89bf64607cb80b0aae55b10"
+  },
+  {
+    "name": "moex_cny_close",
+    "path": "data/moex_cny_close.csv",
+    "source": "final_solution/data/normalized/moex_cnyrub_tom.csv",
+    "sha256": "3057fcee8436b5fe8ff6b6b346a07913d88ad8f890c18e8cca8f3fe6f6cf5039"
+  },
+  {
+    "name": "moex_cny_fixing",
+    "path": "data/moex_cny_fixing.csv",
+    "source": "final_solution/data/normalized/moex_cny_fixing.csv",
+    "sha256": "d14b596218b670f8cb6112ebc939a0deefc5591ec287350778583b6de5b05433"
+  },
+  {
+    "name": "oxr",
+    "path": "data/oxr.csv",
+    "source": "research_v4/oxr2010_bank/input_oxr_snapshot.csv",
+    "sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021"
+  },
+  {
+    "name": "halyk",
+    "path": "data/halyk.csv",
+    "source": "research_v4/liquidity/halyk_sell_daily.csv",
+    "sha256": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563"
+  },
+  {
+    "name": "treasury_t10yie",
+    "path": "data/treasury_t10yie.csv",
+    "source": "research_v3/external_data/normalized/treasury_t10yie.csv",
+    "sha256": "a35f627e810aa12f579d1d3fc2b872e4cd8b2d0ae6ea3ce98cb758ef357a7429"
+  },
+  {
+    "name": "treasury_t5yifr",
+    "path": "data/treasury_t5yifr.csv",
+    "source": "research_v3/external_data/normalized/treasury_t5yifr.csv",
+    "sha256": "6d5a5528039eacb7eeedd87c0f0721d11dbb868aede8c6328e0546b291d3c1b1"
+  }
+]

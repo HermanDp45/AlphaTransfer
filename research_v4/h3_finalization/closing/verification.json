@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "actual_hgb_fits": 4,
+  "train_horizon": 3,
+  "serialization": "sklearn-only",
+  "all_checkpoint_replay_exact": true,
+  "raw_predictions_sha256": "49bf512a38d8c39db1f9c4ea45190cdd103cea0b86bbb1247c15c0dfe04288d9",
+  "latest_panel_sha256": "bf061d7bc487c55e16e00515587300680e24c0fd0bbbf04326dbc7d4b7152ada",
+  "code_sha256": "338bad442c0456b127b616e55baef78afbfab47e1f897b92d6e0822847eb892d"
+}

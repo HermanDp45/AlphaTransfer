@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-09-05T10:01:51.483184+00:00",
+  "choice": "Chronos2 Small, selected solely by measured compute budget BEFORE reading new annual or2026 summary metrics. Synth MPS20steps11.09s predicts33minutes; Small CPU20steps2.934s predicts8.8minutes for4x900steps.",
+  "years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "steps": 900,
+  "comparison": "900 full fine-tuning steps from original Small weights versus original300-step checkpoints, same10y training, context256, lr1e-5 linear schedule, seed20260905+year, AdamW, batch20, all5 currencies; exactly matched10y HGB heads/prior12m calibration/purge5.",
+  "linear_schedule_disclosure": "900-step schedule decays over900 steps and is not a continuation of the300-step checkpoint. Budget includes schedule length; no convergence or pure-step causal claim.",
+  "checkpoint_300": "existing frozen V4 annual Small checkpoints; no modifications",
+  "stage_status": "2023-25 inspected retrospective development;2026 already-inspected retrospective diagnostic; no step or model selection from new scores",
+  "test_selection": "none; all four annual folds, all corridors and KZT separately, report900vs300 regardless of outcome",
+  "primary": "paired Brier plus original candidate policy metrics on identical dates;10000 paired whole-month blocks with cell baseline recomputation",
+  "in_sample_head_features": "fixed backbone fitted on early head-training observations; these are in-sample fitted neural features and not ten years of cross-fitted forecasts",
+  "forecast_device": "CPU for fixed900-step variant; compare current continuation300 output and disclose MPS early-row rounding below0.0048bps; old CPU common rows preserved",
+  "estimated_seconds": 600,
+  "head_panel_contract": "Exact immutable V3 panel_extended.pkl base features, without restoring V2 warm-up; compare900vs300 on identical exact-extended panel contract."
+}

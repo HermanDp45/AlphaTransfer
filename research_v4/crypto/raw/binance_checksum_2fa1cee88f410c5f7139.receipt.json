@@ -1,0 +1,11 @@
+{
+  "url": "https://data.binance.vision/data/spot/monthly/klines/USDTKZT/1d/USDTKZT-1d-2026-05.zip.CHECKSUM",
+  "final_url": "https://data.binance.vision/data/spot/monthly/klines/USDTKZT/1d/USDTKZT-1d-2026-05.zip.CHECKSUM",
+  "retrieved_utc": "2026-09-05T08:19:47.469334+00:00",
+  "status": 200,
+  "bytes": 88,
+  "sha256": "d034107b1339793b84c559c9338ceae28fd1884477266a334b588f15ecb1ea8f",
+  "content_type": "application/zip",
+  "raw_path": "raw/binance_checksum_2fa1cee88f410c5f7139.bin",
+  "group": "binance_checksum"
+}

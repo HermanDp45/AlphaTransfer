@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "bootstrap_repetitions": 10000,
+  "seed": 20260905,
+  "interval": "paired percentile95%, jointly resample all currencies within date blocks and calendar-year strata;20/60date blocks sensitivity",
+  "policy_baseline": "reestimated inside every month-bootstrap resample for each year/corridor",
+  "multiplicity": "unadjusted descriptive intervals; primary3 contrasts preregistered in protocol; historical data and prior2026 insights reused",
+  "summary_rows": 312,
+  "paired_rows": 252
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "rule": "v3_long_globalcal",
+    "rows": 883,
+    "max_probability_error": 1.1102230246251565e-16,
+    "max_raw_error": 9.71445146547012e-17,
+    "candidate_mismatches": 0
+  },
+  {
+    "rule": "v3_long_localcal",
+    "rows": 883,
+    "max_probability_error": 9.71445146547012e-17,
+    "max_raw_error": 9.71445146547012e-17,
+    "candidate_mismatches": 0
+  },
+  {
+    "rule": "halyk_l1",
+    "rows": 883,
+    "max_probability_error": 1.1102230246251565e-16,
+    "max_raw_error": 9.71445146547012e-17,
+    "candidate_mismatches": 0
+  },
+  {
+    "rule": "halyk_l2_retrained",
+    "rows": 883,
+    "max_probability_error": 9.71445146547012e-17,
+    "max_raw_error": 9.71445146547012e-17,
+    "candidate_mismatches": 0
+  }
+]

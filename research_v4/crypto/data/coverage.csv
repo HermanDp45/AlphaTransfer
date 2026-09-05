@@ -1,0 +1,11 @@
+provider,symbol,rows,first_date,last_date,zero_volume_rows,duplicate_dates,calendar_days_absent
+binance,USDTRUB,1498,2019-12-25,2024-01-30,0,0,0
+binance,BTCRUB,1521,2019-12-02,2024-01-30,0,0,0
+binance,BTCUSDT,3303,2017-08-17,2026-09-01,0,0,0
+binance,USDCUSDT,2653,2018-12-15,2026-09-01,0,0,165
+binance,USDTKZT,121,2026-05-04,2026-09-01,0,0,0
+exmo_me,USDT_RUB,3241,2017-09-06,2026-07-24,0,0,3
+exmo_me,USDT_KZT,2254,2020-01-14,2026-07-17,0,0,123
+exmo_me,BTC_RUB,3482,2017-01-01,2026-07-14,0,0,0
+exmo_me,BTC_USDT,3242,2017-09-06,2026-08-24,0,0,33
+exmo_me,USDT_USD,3180,2017-10-26,2026-07-13,0,0,3

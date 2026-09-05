@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "config_id": "small_basis2010_D2_canonical",
+      "cutoff": "2023-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "small_basis2010_D2_canonical",
+      "cutoff": "2024-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "small_basis2010_D2_canonical",
+      "cutoff": "2025-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "small_basis2010_D2_canonical",
+      "cutoff": "2026-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "small_basis2010_D2_canonical",
+      "cutoff": "2026-03-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_basis2010_D2_canonical",
+      "cutoff": "2023-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_basis2010_D2_canonical",
+      "cutoff": "2024-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_basis2010_D2_canonical",
+      "cutoff": "2025-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_basis2010_D2_canonical",
+      "cutoff": "2026-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_basis2010_D2_canonical",
+      "cutoff": "2026-03-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2_canonical",
+      "cutoff": "2023-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2_canonical",
+      "cutoff": "2024-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2_canonical",
+      "cutoff": "2025-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2_canonical",
+      "cutoff": "2026-01-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2_canonical",
+      "cutoff": "2026-03-01",
+      "probability_max_abs_diff": 0.0,
+      "raw_probability_max_abs_diff": 0.0,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "matches_previously_verified_original_exactly": true
+    }
+  ]
+}

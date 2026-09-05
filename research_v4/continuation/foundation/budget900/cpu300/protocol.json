@@ -1,0 +1,7 @@
+{
+  "frozen_at_utc": "2026-09-05T10:12:28.163082+00:00",
+  "purpose": "Numerical nuisance control, not model selection: reforecast existing immutable300-step Small weights entirely onCPU, because900 usesCPU while primary extended300 cache combines oldCPU and earlyMPS. Same exact V3extended panel10y head; four fixed annual folds.",
+  "selection": "none; all four folds; report both original300 and CPU300 comparisons",
+  "no_neural_refit": true,
+  "parent_protocol_sha256": "bf05368cd124bd9096274ff88ae3b3367617b2e25f5d3b4f11fa67459c092036"
+}

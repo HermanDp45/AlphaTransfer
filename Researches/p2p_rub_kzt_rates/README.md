@@ -27,17 +27,25 @@ PYTHONDONTWRITEBYTECODE=1 python3 AlphaTransfer/Researches/p2p_rub_kzt_rates/ext
 ```bash
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest -v \
   AlphaTransfer/Researches/p2p_rub_kzt_rates/test_extract_p2p_rates.py
+
+python3 AlphaTransfer/Researches/p2p_rub_kzt_rates/verify_outputs.py \
+  --output AlphaTransfer/Researches/p2p_rub_kzt_rates/output \
+  --manual-validation AlphaTransfer/Researches/p2p_rub_kzt_rates/MANUAL_VALIDATION.csv
 ```
 
 ## Артефакты
 
-- `rate_observations.csv` — принятые и review-наблюдения без авторов и сырого текста;
+- `confirmed_rate_observations.csv` — 27 вручную проверенных автоматически принятых котировок;
+- `rate_observations.csv` — полная audit-воронка accepted/review/rejected без авторов и сырого текста;
 - `daily_rates.csv` — полный календарь в long-формате;
 - `daily_rates_wide.csv` — основные effective-ряды в широком формате;
 - `daily_card_transfer_rates.csv` — фокусный карточный сегмент;
+- `daily_cash_rates.csv` и `daily_crypto_rates.csv` — отдельные наличный и crypto-сегменты;
 - `review_sample.csv` — детерминированная стратифицированная выборка обезличенных фрагментов;
 - `quality_report.json` — паспорт источников, воронка, покрытие и проверки;
 - `run_manifest.json` — параметры и SHA-256 входов/выходов.
+- `MANUAL_VALIDATION.csv` — результат ручной проверки всех 27 принятых строк по обезличенным ссылочным ключам.
+- `ANALYTICAL_REPORT.md` — выводы, покрытие, ограничения и рекомендации по использованию.
 
 ## Ограничения
 

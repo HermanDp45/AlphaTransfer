@@ -1,0 +1,11 @@
+{
+  "url": "https://data.binance.vision/data/spot/monthly/klines/USDTRUB/1d/USDTRUB-1d-2024-01.zip.CHECKSUM",
+  "final_url": "https://data.binance.vision/data/spot/monthly/klines/USDTRUB/1d/USDTRUB-1d-2024-01.zip.CHECKSUM",
+  "retrieved_utc": "2026-09-05T08:19:43.865121+00:00",
+  "status": 200,
+  "bytes": 88,
+  "sha256": "b11051b603db40cf6110916fc59ea958d5ef62b4209ddd57a897f05d123ab2fb",
+  "content_type": "application/zip",
+  "raw_path": "raw/binance_checksum_edff74f49294521ec306.bin",
+  "group": "binance_checksum"
+}

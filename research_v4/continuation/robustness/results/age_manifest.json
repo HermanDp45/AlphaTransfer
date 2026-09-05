@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "status_detail": "bounded followup added after primary2026 results inspected; no2026test labels select age threshold",
+  "code_sha256": "87b007bab5074f2a32306b5ca3082cc12205cd5639eafddf6c6b53c34b53f17d",
+  "protocol_sha256": "f1cc41b55cb5d1f63e01c05a718f95dbe7177a8f3dce3dcfdf63c329a04bbfa4",
+  "predictions_sha256": "388dd510da2a7dc6244f857dccabfc9ae74eb1f79bd2ab4a6a050d504e4d8dd4",
+  "input_base_manifest_sha256": "f17ce41ca4a2aa150928fa92cd3f0abc73f375ecd13f5a558945999f03bb1d87",
+  "age_observation_columns": [
+    "halyk_personal_rub_observation_date",
+    "halyk_legal_rub_observation_date",
+    "halyk_personal_usd_observation_date"
+  ],
+  "normal_delayed_flag_used_by_gate": false,
+  "original_selection_unchanged": {
+    "selected_rule": "minimax_shrink_v3",
+    "criterion": "minimum worst normal/delayed development2023-2025 Brier among fixed robust family",
+    "normal_reference": 0.17632441489206915,
+    "delay_reference": 0.18270478175104507,
+    "strict_no_loss_robust_methods": [],
+    "selection_uses_2026": false,
+    "2026_previously_inspected_in_V4": true,
+    "selection_before_new_2026_computation": true,
+    "protocol_sha256": "5be7f07c9c71f8686d7d1adcf4dbff89fd50438f43297f95f0e5cceab0c041e4"
+  }
+}

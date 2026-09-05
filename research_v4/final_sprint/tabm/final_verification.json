@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "neural_fits": 18,
+  "temporary_inner_fits": 18,
+  "ensemble_count": 2,
+  "policy_groups": 832,
+  "primary_mode": "normal; maximally fresh bank data per latest user instruction",
+  "retrospective_2026": true,
+  "verification_sha256": "16c39c8108cf41b85a3354dd42a0d250272a262320767050917783a5595238c7",
+  "report_sha256": "892a88eb1c853d29b757d48552db945144ba690a600570cf08f46fd6c4ff1cc4",
+  "ensemble_registry_sha256": "3cdd4be0ecb4bf1dc38cf7e45286a16fceb3246c7037d0832c0b760d50977f86",
+  "policy_predictions_sha256": "68ce12e47e542f836c4e928437353f8781ab39efd67ff294ff4beecf2e828064",
+  "policy_calibration_sha256": "da1bd2fee69730f0ab5dbcc8d25b628c3198da1a531c236f7211e44fee25481b",
+  "protocols": {
+    "protocol.json": "f366ec75efe4ae9cdf7020d194ce62fbfc7774ea0647b90f5aba292689a01a4e",
+    "augmentation_protocol.json": "d8b7575ac955492bacb33a370a4c12a1b4c9c336c50f92ebca88c293d318f8d9",
+    "no_age_protocol.json": "5336d641a5d05cc8da04d42e83ae9cc004614ee9e94ac843b0f477325161da9c",
+    "seeds_2025_protocol.json": "d4606a7e1dba8913056f9484c1577d30cc2e93460c95e3ab0e75074573eadce3",
+    "policy_blend_protocol.json": "dc168d389744f9c46b664a21df032954351db6a222335a8151df3d6e20001847"
+  }
+}

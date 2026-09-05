@@ -1,0 +1,8 @@
+{
+  "global_candidate": "oxr_basis_2018_120m",
+  "bank_candidate": "halyk_shrink_120m",
+  "selection_unix": 1788606343.9055731,
+  "uses_2026": false,
+  "development_sha256": "691925d7c32bde69b2f21d1627fd3b9aaf902dfe921ff7f84ac1b5ccdea850ee",
+  "protocol_sha256": "d8021f8c4745629944cbf619939d15de1987cbb3bf70de325861916ab6cabace"
+}

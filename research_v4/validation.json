@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-09-05T09:06:54.066830+00:00",
+  "segment_unittest": {
+    "command": "python -m unittest discover -s research_v4/segments -p test_segments.py -v",
+    "tests_run": 7,
+    "failures": 0,
+    "errors": 0,
+    "test_source_sha256": "e399aa0df251a38c2db09bc28100dba3c89de8e75cb5baf06378e893f84d98ce"
+  },
+  "market_independent_verification": "market_verification.json",
+  "foundation_verification": "foundation/verification_receipt.json",
+  "crypto_verification": "crypto/output/verification.json",
+  "source_independent_XLS_audit": "liquidity/source_audit.json",
+  "visual_review": {
+    "files": [
+      "figures/01_kzt_ablation.png",
+      "figures/02_segment_tradeoff.png"
+    ],
+    "inspected": true,
+    "brier_shown_as_points_to_avoid_truncated_bar_exaggeration": true
+  },
+  "original_V3": "all406sealed files intact, verified without writes byverify_market.py",
+  "research_only": true
+}

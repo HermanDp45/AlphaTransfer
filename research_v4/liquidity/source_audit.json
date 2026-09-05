@@ -1,0 +1,18 @@
+{
+  "KASE_duplicate_date_instrument_cells": 224,
+  "exactly_one_chosen_per_duplicate_cell": true,
+  "XLS_independent_export_url": "https://kase.kz/api/indicators/usd-kzt-tom/archive-xls?start_date=2020-01-01&end_date=2026-09-01",
+  "XLS_sha256": "bedfb54ce2d8d82c8ad6bd957a5481c79be4db19cbe454bd717a33138d791005",
+  "XLS_matched_active_values": 1538,
+  "XLS_exact_to_1e_8": 1538,
+  "XLS_max_absolute_difference": 0.0,
+  "XLS_mean_absolute_difference": 0.0,
+  "nonmatching_values_are_retained_for_audit": true,
+  "chosen_incomplete_session_cases": {
+    "2020-03-31": 272,
+    "2020-08-21": 439
+  },
+  "history_days_with_records": 1637,
+  "raw_session_rows": 13476,
+  "calendar_requests": 2436
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files": 14,
+  "manifest_sha256": "ad524334c04fa91debac4132ecdcc6a63f114329067e5526c5758cf3f963f999",
+  "NOW": 40,
+  "CLOSING_annotations": 21,
+  "contact_parity": "exact",
+  "probability_tolerance": 1.3e-07
+}

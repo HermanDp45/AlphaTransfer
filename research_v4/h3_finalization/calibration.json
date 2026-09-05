@@ -1,0 +1,44 @@
+[
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.3705434169410549,
+    "slope": 1.3296664827835165
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.18618713131347717,
+    "slope": 0.8785256122170625
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.13115241649320544,
+    "slope": 1.006741446481103
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.325455400026192,
+    "slope": 1.3114500397514643
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.1255361956152217,
+    "slope": 0.7170262874959951
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.11193364190560093,
+    "slope": 1.080867859402257
+  }
+]

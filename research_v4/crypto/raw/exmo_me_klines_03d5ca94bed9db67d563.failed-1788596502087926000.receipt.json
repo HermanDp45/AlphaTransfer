@@ -1,0 +1,11 @@
+{
+  "url": "https://api.exmo.me/v1.1/candles_history?symbol=BTC_RUB&resolution=D&from=1735689600&to=1767225599",
+  "final_url": "https://api.exmo.me/v1.1/candles_history?symbol=BTC_RUB&resolution=D&from=1735689600&to=1767225599",
+  "retrieved_utc": "2026-09-05T08:19:04.773000+00:00",
+  "status": 200,
+  "bytes": 81,
+  "sha256": "e8e0ed5aeb233c4e1a3ed6eee1fcd41702ee7693bfe4a24a0f91c9928bb2e0dc",
+  "content_type": "application/json; charset=utf-8",
+  "raw_path": "raw/exmo_me_klines_03d5ca94bed9db67d563.failed-1788596502087926000.bin",
+  "group": "exmo_me_klines"
+}

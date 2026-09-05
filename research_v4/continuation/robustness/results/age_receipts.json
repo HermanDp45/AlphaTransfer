@@ -1,0 +1,167 @@
+[
+  {
+    "cutoff": "2023-01-01",
+    "params": {
+      "age_fallback_v3": {
+        "age_cutoff": 3,
+        "threshold": {
+          "KZT": 0.23874086028238872
+        },
+        "initial_state": {
+          "KZT": 3211
+        },
+        "worst_validation_brier": 0.1769780358125696,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.0057471264367814,
+        "validation_weighted_error": 0.5826446280991735
+      },
+      "age_fallback_minimax": {
+        "age_cutoff": 3,
+        "threshold": {
+          "KZT": 0.23874086028238872
+        },
+        "initial_state": {
+          "KZT": 3211
+        },
+        "worst_validation_brier": 0.1763364729499834,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.0057471264367814,
+        "validation_weighted_error": 0.5826446280991735
+      }
+    },
+    "base_checkpoint": "results/checkpoints/freeze_2023-01-01.pkl",
+    "base_checkpoint_sha256": "3d43512196a42e6601c5e96361187a966a721a599237a21cd61d6921c316cfc8"
+  },
+  {
+    "cutoff": "2024-01-01",
+    "params": {
+      "age_fallback_v3": {
+        "age_cutoff": 2,
+        "threshold": {
+          "KZT": 0.2690777098557793
+        },
+        "initial_state": {
+          "KZT": 3459
+        },
+        "worst_validation_brier": 0.20114923348530242,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.0258620689655171,
+        "validation_weighted_error": 0.48760330578512395
+      },
+      "age_fallback_minimax": {
+        "age_cutoff": 2,
+        "threshold": {
+          "KZT": 0.2690777098557793
+        },
+        "initial_state": {
+          "KZT": 3459
+        },
+        "worst_validation_brier": 0.20114923348530242,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.0258620689655171,
+        "validation_weighted_error": 0.48760330578512395
+      }
+    },
+    "base_checkpoint": "results/checkpoints/freeze_2024-01-01.pkl",
+    "base_checkpoint_sha256": "b3d94f0bfdec2e36715879da8f84aa7dd350152d8f80aea3bbfe6afab05c99c6"
+  },
+  {
+    "cutoff": "2025-01-01",
+    "params": {
+      "age_fallback_v3": {
+        "age_cutoff": 3,
+        "threshold": {
+          "KZT": 0.18407890409515165
+        },
+        "initial_state": {
+          "KZT": 3707
+        },
+        "worst_validation_brier": 0.1832419833235158,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.0799999999999998,
+        "validation_weighted_error": 0.5720164609053497
+      },
+      "age_fallback_minimax": {
+        "age_cutoff": 3,
+        "threshold": {
+          "KZT": 0.18407890409515165
+        },
+        "initial_state": {
+          "KZT": 3707
+        },
+        "worst_validation_brier": 0.1817815381970002,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.0799999999999998,
+        "validation_weighted_error": 0.5720164609053497
+      }
+    },
+    "base_checkpoint": "results/checkpoints/freeze_2025-01-01.pkl",
+    "base_checkpoint_sha256": "5e84e84d823b70b923187c23caef48d4bf3061889b920b683a4a9c36779990ed"
+  },
+  {
+    "cutoff": "2026-01-01",
+    "params": {
+      "age_fallback_v3": {
+        "age_cutoff": 3,
+        "threshold": {
+          "KZT": 0.13919600606812021
+        },
+        "initial_state": {
+          "KZT": 3953
+        },
+        "worst_validation_brier": 0.15120659917886714,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.022922636103152,
+        "validation_weighted_error": 0.5661157024793388
+      },
+      "age_fallback_minimax": {
+        "age_cutoff": 3,
+        "threshold": {
+          "KZT": 0.13919600606812021
+        },
+        "initial_state": {
+          "KZT": 3953
+        },
+        "worst_validation_brier": 0.15093332641053012,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.022922636103152,
+        "validation_weighted_error": 0.5661157024793388
+      }
+    },
+    "base_checkpoint": "results/checkpoints/freeze_2026-01-01.pkl",
+    "base_checkpoint_sha256": "d55be7c24a78efff6f3a031399afa43c016571dde6371a1ab483bed7fbfdc24e"
+  },
+  {
+    "cutoff": "2026-03-01",
+    "params": {
+      "age_fallback_v3": {
+        "age_cutoff": 2,
+        "threshold": {
+          "KZT": 0.14918382061237412
+        },
+        "initial_state": {
+          "KZT": 3986
+        },
+        "worst_validation_brier": 0.1622271535698627,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.019607843137255,
+        "validation_weighted_error": 0.5666666666666667
+      },
+      "age_fallback_minimax": {
+        "age_cutoff": 2,
+        "threshold": {
+          "KZT": 0.14918382061237412
+        },
+        "initial_state": {
+          "KZT": 3986
+        },
+        "worst_validation_brier": 0.16225195819714952,
+        "criterion": "minimax past validation Brier over fixed age cutoffs2/3, normal/delayed views",
+        "validation_candidate_frequency": 1.019607843137255,
+        "validation_weighted_error": 0.5666666666666667
+      }
+    },
+    "base_checkpoint": "results/checkpoints/freeze_2026-03-01.pkl",
+    "base_checkpoint_sha256": "7dce837b402c87c9be8cbeaac03748dae497db846b6adbdb1ef95552df058ac6"
+  }
+]

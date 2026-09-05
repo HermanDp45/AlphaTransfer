@@ -1,0 +1,43 @@
+{
+  "chosen": {
+    "config_id": "tabm_kzt_fullhistory",
+    "policy": "rank80",
+    "qualified": true,
+    "preferred90": false,
+    "gate_shortfall": 0.0,
+    "min_coverage": 0.803921568627451,
+    "min_lift": 1.4411276948590384,
+    "min_utility": 40.25448417433135,
+    "brier": 0.17867864242627352,
+    "rank": 1
+  },
+  "best_per_history": {
+    "tabm_kzt_120m": {
+      "config_id": "tabm_kzt_120m",
+      "policy": "rank80",
+      "qualified": false,
+      "preferred90": false,
+      "gate_shortfall": 0.016601971825852404,
+      "min_coverage": 0.8627450980392157,
+      "min_lift": 1.2352523098791757,
+      "min_utility": 36.47286866156814,
+      "brier": 0.17962263279766724,
+      "rank": 2
+    },
+    "tabm_kzt_fullhistory": {
+      "config_id": "tabm_kzt_fullhistory",
+      "policy": "rank80",
+      "qualified": true,
+      "preferred90": false,
+      "gate_shortfall": 0.0,
+      "min_coverage": 0.803921568627451,
+      "min_lift": 1.4411276948590384,
+      "min_utility": 40.25448417433135,
+      "brier": 0.17867864242627352,
+      "rank": 1
+    }
+  },
+  "qualification": "qualified",
+  "period": "2024-2026_retrospective",
+  "no_H5_substitution": true
+}

@@ -1,0 +1,323 @@
+{
+  "prediction_contracts": [
+    {
+      "file": "chronos2_small_ft_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "c26b4b4e7e2a3bc5861a764941fc804a2f24dd2a15fbe32277c9dea6bde3156b"
+    },
+    {
+      "file": "chronos2_small_ft_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "4986837701b1ae1e189382bdf7d5534ef51019b7333d18d66467594f20692c77"
+    },
+    {
+      "file": "chronos2_small_ft_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "340ef2a5ff6d3439aec539afed56507e8b1adc67b613f646a3094702f0397b14"
+    },
+    {
+      "file": "chronos2_small_ft_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "888b8940b533b0d2b194373feec4d0d7da37677e0cb9579f9d27d1393a667b1f"
+    },
+    {
+      "file": "chronos2_small_ft_hgb_aug_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "96bb3e296cda63eda173793106cddcb03c0ed83e2db804c54d2a7537c6e740e9"
+    },
+    {
+      "file": "chronos2_small_ft_hgb_aug_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "c1845eba52ece13f829a2a2f31605c166ad98a3cdb43af1af5ffa9960b795ca2"
+    },
+    {
+      "file": "chronos2_small_ft_hgb_aug_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "0590b6800c5ea5b903a706fac5ca30304790d1baec92eeebab8b41f7b16c638f"
+    },
+    {
+      "file": "chronos2_small_ft_hgb_aug_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "15738e536a6450b86ee3d95d68ab8499b3c4832ee344a4e50c8165415f806ce6"
+    },
+    {
+      "file": "chronos2_small_zs_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "26cd218705a5bc7cada5db4e6f43ffddbfe3704896c634e1d0364ba8feeb72f9"
+    },
+    {
+      "file": "chronos2_small_zs_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "e2c26b843a5a71534bb070367750c3ec85ccb6026d079ff8bf19127fbea88b95"
+    },
+    {
+      "file": "chronos2_small_zs_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "1cfbe986e1d2a5cb6ce8c5ce43749e11fb910f101df35ab94b58de3b0c2f2f55"
+    },
+    {
+      "file": "chronos2_small_zs_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "a487c2b5bad354e7cd865d2c5fe9971023e096c00ca57954a9d391165735e792"
+    },
+    {
+      "file": "chronos2_small_zs_hgb_aug_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "216b463bf52aea4fe97b4951160e3e00589193165902561e2bb05334ec0dd1c6"
+    },
+    {
+      "file": "chronos2_small_zs_hgb_aug_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "1145de070c31180377e506e1a8761c14a78697a3565c82aff804f7fca9c0ad03"
+    },
+    {
+      "file": "chronos2_small_zs_hgb_aug_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "69e1902810049d980c5f81ddc8b9390b168156d35c446afc63bba8b4aa7b0c33"
+    },
+    {
+      "file": "chronos2_small_zs_hgb_aug_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "e95add79f385dd24744d468f77e74bbc4544fba2ca220eee66f5bda2c6d67700"
+    },
+    {
+      "file": "chronos2_synth_ft_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "ae2eb7a2eba247fcff23f1894dbac1dfaa96196a640596b827e0913398c0d02a"
+    },
+    {
+      "file": "chronos2_synth_ft_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "c37af42a824bbd51f697320db53231259e1dd07cf7b09de4770807c10554fa97"
+    },
+    {
+      "file": "chronos2_synth_ft_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "b01c704471e91a7a687df6d7ce2944d1331380c17839182c579fac6ee86a6fb8"
+    },
+    {
+      "file": "chronos2_synth_ft_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "d0ad7a38773842c8b9acb173a11acf66c189abcce71677214105b4b710dcb5bd"
+    },
+    {
+      "file": "chronos2_synth_ft_hgb_aug_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "a016e51da2bd3b0a0dffda81ad12c22f091dbfad29f7f6a859f6025bbd2879d9"
+    },
+    {
+      "file": "chronos2_synth_ft_hgb_aug_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "d029ab01806fc7466e2172b05b2fdf76866226e172afc0e3da006b2894f56794"
+    },
+    {
+      "file": "chronos2_synth_ft_hgb_aug_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "ae2a40a043d9045b129d8ec779811042eab8b195d9a797ac93b79499f44136d6"
+    },
+    {
+      "file": "chronos2_synth_ft_hgb_aug_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "a402aaafc832cd1df31e7a5d70ad2de65364125ccde34034cfafb104e405e053"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "5318f67258252aa4479acc0e1570bedd446d43be55cfbb4a24241aade9f0dd78"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "6f86ef563b8dab3a3b1fbbe574245aeaa1c27f225702c292c94ca2a227c46d3a"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "612bb179e92aa9345b4f0eeb25cc80f585ade0f8da33e8e72592defef0726249"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "d78e4bed1d6e1aadc54c93897f5e603e54f9e32b9627ecc373d7b133f65deb67"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_hgb_aug_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "34e0a9302246be7ee72bf99906d3aae893dcdfee0faea0ac6bf458a6a9871a63"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_hgb_aug_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "705eb964b71444c0503cb3ab7f5343594b51508bc7e8873b435f35966b44fc0f"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_hgb_aug_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "af7d547cf7df510a5529fb5d6399b22a35e93c4909ef350c0e4ff4cabc82f82f"
+    },
+    {
+      "file": "chronos2_synth_ft_kzt_hgb_aug_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "b74bc03abe2576bacfc4210af6cab0f6ba4a0631765dc84529e14a1f95b670b8"
+    },
+    {
+      "file": "chronos2_synth_zs_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "e13403b0c42d809ced4a72afd59261f8be0729437d0fa33c0a5a7e63a7ba7968"
+    },
+    {
+      "file": "chronos2_synth_zs_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "9abc6940de1d41d7ebd9148da63a72aa0dbdcd851fcfe81a13bb9541adf18f5c"
+    },
+    {
+      "file": "chronos2_synth_zs_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "bce5ea54ee992bd59ae64e9b1799ec2db91d174bb9cb91af12fcef31e89b154f"
+    },
+    {
+      "file": "chronos2_synth_zs_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "e1a9a47cb648dcf5b683564ecf7720ff0f01701fc9f3db5cce081177382f0517"
+    },
+    {
+      "file": "chronos2_synth_zs_hgb_aug_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "48ec9a96b92420545ed6ff94fad5dadc5cc8e4666cb6025c7bfe832f99802fcf"
+    },
+    {
+      "file": "chronos2_synth_zs_hgb_aug_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "52624c47e69d48289c695c720334432057d51552555a0d51590fcc2e5c9cad55"
+    },
+    {
+      "file": "chronos2_synth_zs_hgb_aug_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "22df25adc13b0fcccb1cc46ca1e9e1cbdede3b67f348533037166ecb5888b92d"
+    },
+    {
+      "file": "chronos2_synth_zs_hgb_aug_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "70904a9f40d17629cc8586b4e599e2575316b4322d1d5e702b8606f52cc79458"
+    },
+    {
+      "file": "historical_path_2023_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2023,
+      "sha256": "a74a23606c3fe6af8355f5752492105c139e7b85c4f417ec1d37c292bc84549e"
+    },
+    {
+      "file": "historical_path_2024_predictions.csv.gz",
+      "rows": 1215,
+      "year": 2024,
+      "sha256": "434a3a43ef88c822d8200b2d9d6110d26519877e5713937883f42ccb203d3ce7"
+    },
+    {
+      "file": "historical_path_2025_predictions.csv.gz",
+      "rows": 1210,
+      "year": 2025,
+      "sha256": "2bba5680f84881cbc5ab5bc2a62597b37ba24acc148229375a7d22db6f151b88"
+    },
+    {
+      "file": "historical_path_2026_predictions.csv.gz",
+      "rows": 780,
+      "year": 2026,
+      "sha256": "b104203ac66d6c7c594c0483b206a0930d083b38bcbf9ad5cd377c311ef69173"
+    }
+  ],
+  "training_receipts": [
+    {
+      "checkpoint": "checkpoints/chronos2_small/2023",
+      "changed_fraction": 0.9246992907439885
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_small/2024",
+      "changed_fraction": 0.9291400163467387
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_small/2025",
+      "changed_fraction": 0.926582043846375
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_small/2026",
+      "changed_fraction": 0.9242950254136229
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth/2023",
+      "changed_fraction": 0.8143997547003221
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth/2024",
+      "changed_fraction": 0.815495699792567
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth/2025",
+      "changed_fraction": 0.8177222747625332
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth/2026",
+      "changed_fraction": 0.8146810233495925
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth_kzt/2023",
+      "changed_fraction": 0.6893330156934241
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth_kzt/2024",
+      "changed_fraction": 0.690092366247668
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth_kzt/2025",
+      "changed_fraction": 0.6921762520274674
+    },
+    {
+      "checkpoint": "checkpoints/chronos2_synth_kzt/2026",
+      "changed_fraction": 0.6901706948642514
+    }
+  ],
+  "single_vs_batch_max_abs_lograte": 4.76837158203125e-07,
+  "other_group_perturbation_max_abs_lograte": 4.76837158203125e-07,
+  "cutoff": "2023-02-01",
+  "status": "passed",
+  "code_sha256": "14a99f1516cd43b182418dd6e27d110969fac443e7315b3a6a273428c008c453"
+}

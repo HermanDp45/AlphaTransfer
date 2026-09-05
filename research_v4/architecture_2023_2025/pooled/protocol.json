@@ -1,0 +1,109 @@
+{
+  "created_unix": 1788618810.809401,
+  "matrix": {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "architectures": [
+      "tabm",
+      "hgb"
+    ],
+    "feature_sets": {
+      "base15": [
+        "ret1",
+        "ret3",
+        "ret5",
+        "ret10",
+        "ret20",
+        "ret60",
+        "pr20",
+        "pr60",
+        "pr120",
+        "pr252",
+        "vol5",
+        "vol20",
+        "vol60",
+        "volratio",
+        "moex_cny_close_minus_fixing_same_session"
+      ],
+      "full33": [
+        "ret1",
+        "ret3",
+        "ret5",
+        "ret10",
+        "ret20",
+        "ret60",
+        "pr20",
+        "pr60",
+        "pr120",
+        "pr252",
+        "vol5",
+        "vol20",
+        "vol60",
+        "volratio",
+        "moex_cny_close_minus_fixing_same_session",
+        "oxr_log_basis",
+        "oxr_basis_chg1",
+        "oxr_basis_chg5",
+        "oxr_basis_z20",
+        "oxr_available",
+        "oxr_age_days",
+        "halyk_rub_sell_official_basis",
+        "halyk_rub_personal_legal_gap",
+        "halyk_personal_rub_ret1",
+        "halyk_personal_rub_ret5",
+        "halyk_personal_usd_ret1",
+        "halyk_personal_usd_ret5",
+        "treasury_t10yie_stale_level",
+        "treasury_t10yie_stale_chg5",
+        "treasury_t10yie_stale_chg20",
+        "treasury_t5yifr_stale_level",
+        "treasury_t5yifr_stale_chg5",
+        "treasury_t5yifr_stale_chg20"
+      ]
+    },
+    "training_scope": "all five corridors pooled"
+  },
+  "neural_seed": 20261105,
+  "neural_refit_seed": 20261106,
+  "hgb_config": {
+    "max_iter": 120,
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "min_samples_leaf": 40,
+    "l2_regularization": 2,
+    "early_stopping": false,
+    "random_state": 20261105
+  },
+  "neural_architecture": {
+    "n_blocks": 2,
+    "d_block": 128,
+    "dropout": 0.1,
+    "k": 16
+  },
+  "numerical_embeddings": {
+    "d_embedding": 16,
+    "n_frequencies": 16,
+    "frequency_init_scale": 0.01,
+    "activation": true,
+    "lite": false
+  },
+  "neural_optimizer": {
+    "lr": 0.002,
+    "weight_decay": 0.0003
+  },
+  "neural_training": "Existing immutable Neural class: max100epochs; last63training dates for inner validation; actual-maturity purge; patience15; full outer refit at chosen epochs.",
+  "outer_split": "120months train ending before12months calibration; annual Jan1 cutoff; actual label maturity strictly before next split; test last5observations purged. No2026 fitting, selection, or evaluation.",
+  "preprocessing": "Per-year/feature-set train-only median imputation plus quantile-to-normal and all-feature missing indicators. Shared fitted preprocessor from the corresponding TabM. HGB receives the exact same float32 numeric inputs, then five corridor one-hot columns; TabM receives same numeric inputs and same corridor categories.",
+  "outputs": "Raw probabilities only, validation/history/test; history outcomes not matured at cutoff masked. Parent applies identical per-corridor calibration and policies to both architectures.",
+  "interpretation": "Matched fixed configurations, not a universal architecture ranking or a matched HPO budget. TabM epoch selection versus fixed120HGB trees is explicitly part of fixed recipes.",
+  "inputs": {
+    "research_v4/final_sprint/views.pkl": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+    "research_v4/final_sprint/tabm/features.json": "3b145dda15c2f2a96339483f2df73360d843f6b75a32d9ebb9c301807ffa92d8",
+    "research_v4/final_sprint/tabm/experiment.py": "71c26568b65d776cd41c3b3f872a39930fee509402d314725853552ca3d86591",
+    "research_v3/models/experiment.py": "fea2ef9f8c32ec61534a032925fa193e7f2a6532427443127d2a2cc017e32b5b"
+  },
+  "code_sha256": "b8dd3c8c087983f90e89cab7d8b35d54d0d009e417d99babf0600bb63245e970"
+}

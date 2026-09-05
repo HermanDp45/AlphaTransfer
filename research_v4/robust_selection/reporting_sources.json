@@ -1,0 +1,189 @@
+{
+  "rows": 3638,
+  "columns": [
+    "source_report",
+    "experiment_protocol",
+    "row_type",
+    "config_id",
+    "train_horizon",
+    "evaluation_horizon",
+    "policy",
+    "evaluation_scope",
+    "cohort",
+    "period",
+    "rows",
+    "dates",
+    "signals",
+    "hits",
+    "base_hit",
+    "hit_rate",
+    "lift",
+    "forward_delta_bps",
+    "forward_signal_bps",
+    "regret_bps",
+    "brier",
+    "raw_brier",
+    "auc",
+    "log_loss",
+    "week_cells",
+    "weeks_with_1_2",
+    "week_coverage",
+    "mean_cell_week_coverage",
+    "signals_per_corridor_week",
+    "silent_weeks",
+    "max_week_signals",
+    "max_silent_week_run",
+    "min_year_corridor_coverage",
+    "year",
+    "corridor",
+    "qualified",
+    "preferred90",
+    "gate_shortfall",
+    "min_cell_coverage",
+    "min_cell_lift",
+    "min_cell_forward_delta_bps",
+    "mean_brier",
+    "cells",
+    "passed_cells",
+    "rank",
+    "baseline",
+    "candidate",
+    "delta_brier",
+    "ci_low",
+    "ci_high",
+    "blocks",
+    "improved_years",
+    "lift_delta",
+    "lift_ci_low",
+    "lift_ci_high",
+    "forward_delta_bps_delta",
+    "forward_delta_bps_ci_low",
+    "forward_delta_bps_ci_high",
+    "inference",
+    "finite_bootstrap_draws",
+    "bootstrap_draws",
+    "scope",
+    "contrast",
+    "years",
+    "weekly_mean",
+    "weeks_1_2",
+    "h",
+    "model",
+    "cutoff",
+    "mode",
+    "weeks",
+    "signals_per_week",
+    "type",
+    "horizon",
+    "execution_delay",
+    "quarter",
+    "corridors",
+    "contacts",
+    "raw_base_hit",
+    "lift_standardized",
+    "mean_all_observed_week_coverage",
+    "mean_legacy_full_week_coverage",
+    "method",
+    "evaluate_horizon",
+    "interpretation",
+    "lift_unstandardized",
+    "forward_delta_unstandardized_bps"
+  ],
+  "sources": [
+    {
+      "path": "research_v4/robust_selection/summary.csv",
+      "rows": 70,
+      "sha256": "e2caaa4fb261a0a186f13dbea46ed02ffea97af1dc250ea15bb442dcd15e4054"
+    },
+    {
+      "path": "research_v4/robust_selection/by_year.csv",
+      "rows": 210,
+      "sha256": "e336147b4de3c30154f0ffa861c3c5b5d1d31a69d0f4cb36ea3fb4092211cb03"
+    },
+    {
+      "path": "research_v4/robust_selection/by_year_corridor.csv",
+      "rows": 462,
+      "sha256": "acb6548267ec2a6d5bf993fcdbe76baf31c98a2f0b9a50acc248aa0c5de4f671"
+    },
+    {
+      "path": "research_v4/robust_selection/cross_horizon.csv",
+      "rows": 420,
+      "sha256": "55585bc679a710778482d6cca9a20f50647964b00a63cb61d4a9c91324ed69fc"
+    },
+    {
+      "path": "research_v4/robust_selection/selection_ranking.csv",
+      "rows": 140,
+      "sha256": "3f92aec5eeaf391a08d9b11809c0a9599ea47e8d1d3420274a14c575620e150b"
+    },
+    {
+      "path": "research_v4/robust_selection/paired_intervals.csv",
+      "rows": 8,
+      "sha256": "29ced628c2c99840223fd4dd248a69e57cccb33a284979d7603db123e96a0ad6"
+    },
+    {
+      "path": "research_v4/robust_selection/selected_utility_intervals.csv",
+      "rows": 8,
+      "sha256": "2bc94df4dc958663183199954b6e7d98058b4f1cd53fb1e0117d89142b8b0156"
+    },
+    {
+      "path": "research_v4/robust_selection/retrospective_paired_intervals.csv",
+      "rows": 3,
+      "sha256": "f2650ec4461375ad3fff53c722bff4c1d8332e73a9b23772e5458461e789355e"
+    },
+    {
+      "path": "research_v4/architecture_2023_2025/summary.csv",
+      "rows": 53,
+      "sha256": "f7e5bdc9e4bf88467483a10a6199904a13b6eeb0e34e1c934cf67d6412bd8c98"
+    },
+    {
+      "path": "research_v4/architecture_2023_2025/by_year.csv",
+      "rows": 159,
+      "sha256": "5ec067e64231f961ef6a7a6ca4490256b026089024941efc5efdcb239c078e77"
+    },
+    {
+      "path": "research_v4/architecture_2023_2025/paired_intervals.csv",
+      "rows": 20,
+      "sha256": "456be41dd92bfeeeb6af53bd601f51cfb4afb4ec8d243dab5b96071547094994"
+    },
+    {
+      "path": "analysis_notes/v3_lift_reconciliation/bridge.csv",
+      "rows": 12,
+      "sha256": "c45dc762b4e0425ce9fcb728f41e9170032b7d966866891ed46df656a415ccf7"
+    },
+    {
+      "path": "analysis_notes/v3_lift_reconciliation/trained_horizons_2026.csv",
+      "rows": 8,
+      "sha256": "09f4806df507057a34f67ebce6dea98b978d1c37405fbeabf972051ec1fe6094"
+    },
+    {
+      "path": "research_v4/final_sprint/leaderboard.csv",
+      "rows": 1608,
+      "sha256": "101850d8bae10f9e9933b853658eb6b8ed4bfd1ef8f105e428a3a665d6d53448"
+    },
+    {
+      "path": "research_v4/final_sprint/horizon_execution_sensitivity.csv",
+      "rows": 16,
+      "sha256": "9021bfa04893cc03ba131be321c03ccbfd8e777702901b0327a99a4e2ecdd2f3"
+    },
+    {
+      "path": "research_v4/final_sprint/quarter_sensitivity.csv",
+      "rows": 6,
+      "sha256": "3cc64087a888860409f66dfb6ab2df3b077e2d1a80f325523568106a56a3e0ac"
+    },
+    {
+      "path": "research_v4/robust_selection/v3/original_metrics.csv",
+      "rows": 144,
+      "sha256": "68a6e0b8ff4235290db80e35626557898aee21672a6be617713c6f30f6d4d096"
+    },
+    {
+      "path": "research_v4/robust_selection/v3/colleague_h3_reproduction.csv",
+      "rows": 3,
+      "sha256": "10fe2ddb79c9821c1fa821bcf2e42b9980760df4395e1585ae923124cedb6ae3"
+    },
+    {
+      "path": "research_v4/robust_selection/v3/matched_horizon_rescore.csv",
+      "rows": 288,
+      "sha256": "cec473823c65dafbd87ffafb9a648cbfc0ddd39e72ea2a228bc22c68db4554a1"
+    }
+  ]
+}

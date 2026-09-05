@@ -1,0 +1,910 @@
+{
+  "status": "PASS",
+  "models_reconstructed": 85,
+  "configurations": 17,
+  "new_neural_fits": 0,
+  "new_neural_forecasts": 0,
+  "source_input_hashes_unchanged": {
+    "research_v4/oxr2010_bank/input_oxr_snapshot.csv": true,
+    "research_v3/models/panel_extended.pkl": true,
+    "research_v3/models/data/cbr_extended.csv": true,
+    "research_v4/liquidity/halyk_sell_daily.csv": true,
+    "research_v4/continuation/oxr/experiment.py": true,
+    "research_v4/liquidity/experiment.py": true,
+    "research_v4/continuation/foundation/run_heads.py": true,
+    "final_solution/training/core_experiment.py": true
+  },
+  "forecast_and_backbone_checks": {
+    "chronos2_small_ft_2023.npz": {
+      "cache_sha256": "a528ce51d5126e2aa69c9c31cdb27593ac72f55bd365b5f115c310416090af5f",
+      "weights_sha256": "16cdc1fb3bcddb9ea107f46d0d5ba5049ae9e677a0b099d0ee72cb1cd704336a",
+      "weights_path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/foundation/checkpoints/chronos2_small/2023/finetuned-ckpt/model.safetensors",
+      "passed": true
+    },
+    "chronos2_small_ft_2024.npz": {
+      "cache_sha256": "7d2d9e013afcba804206d61d44fe0cdbd56bb01e014885ba7e61282addd1b457",
+      "weights_sha256": "200d52f16c1caa8ec0b6a88ee91015e42bc105a7fc3cfca7b57964586fcbd387",
+      "weights_path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/foundation/checkpoints/chronos2_small/2024/finetuned-ckpt/model.safetensors",
+      "passed": true
+    },
+    "chronos2_small_ft_2025.npz": {
+      "cache_sha256": "a8dc6223acb6910c2eb2bfc33dcc204a39b295e2f51d8fd158a5cb989f81f2fe",
+      "weights_sha256": "8e48bb2ba5cc6a771731111151c9f5720ed9f0e58ca28c3c11e860e7335ec7a9",
+      "weights_path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/foundation/checkpoints/chronos2_small/2025/finetuned-ckpt/model.safetensors",
+      "passed": true
+    },
+    "chronos2_small_ft_2026.npz": {
+      "cache_sha256": "950b30348265f3b7356f99349f2620ea5a9de54def3759b65be60420537cd79f",
+      "weights_sha256": "81319aea80b2cbf27cb1708f45992ebe38f827f6ada6e5f4255ce422ea3b22f3",
+      "weights_path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/foundation/checkpoints/chronos2_small/2026/finetuned-ckpt/model.safetensors",
+      "passed": true
+    },
+    "chronos2_synth_zs.npz": {
+      "cache_sha256": "d6ee435185ce2c26009a6135fa89931a00a081e1dec1bbf224bf550080f6c915",
+      "weights_sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+      "weights_path": "/private/tmp/alphatransfer-hf/hub/models--autogluon--chronos-2-synth/snapshots/3607918a9fd027d5c465d8213e46b98e2c041cea/model.safetensors",
+      "passed": true
+    }
+  },
+  "saved_head_and_policy_checks": [
+    {
+      "config_id": "small_basis2010_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_basis2010_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_basis2010_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_basis2010_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_basis2010_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_availability2010_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_availability2010_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 1.1102230246251565e-16,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_availability2010_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_availability2010_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_availability2010_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 1.1102230246251565e-16,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D3",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D3",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 1.1102230246251565e-16,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D3",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D3",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2010_D3",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2018_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2018_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 1.1102230246251565e-16,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2018_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2018_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_basis2018_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D3",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D3",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 1.1102230246251565e-16,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D3",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D3",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_full2010_D3",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.020562075079397e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D3",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D3",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D3",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D3",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_D3",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_basis2010_halyk_H1O2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D1",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D1",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D1",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D1",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.020562075079397e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D1",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D2",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D2",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D2",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D2",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D2",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D3",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D3",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D3",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D3",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_halyk_D3",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_no_oxr",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_no_oxr",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 1.1102230246251565e-16,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_no_oxr",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_no_oxr",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_kzt_no_oxr",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2023-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 8.326672684688674e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2024-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 1.1102230246251565e-16,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2025-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2026-01-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2026-03-01",
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "probability_max_abs_diff": 9.71445146547012e-17,
+      "candidate_signal_mismatches": 0,
+      "portfolio_signal_mismatches": 0,
+      "head_hash_and_label_maturity_pass": true
+    }
+  ],
+  "prior_model_reproduction_checks": [
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2023-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2024-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2025-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2026-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "synth_no_oxr",
+      "cutoff": "2026-03-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2023-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2024-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2025-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2026-01-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "config_id": "small_no_oxr",
+      "cutoff": "2026-03-01",
+      "max_probability_diff": 0.0,
+      "signal_mismatches": 0,
+      "passed": true
+    }
+  ],
+  "all_same_date_outcome_comparisons": true,
+  "train_and_calibration_maturity_proved": true,
+  "development_selection_verified_before2026_predictions": true,
+  "future_perturbations": {
+    "OXR_actual_pipeline_unchanged_before_cutoff": true,
+    "OXR_future_canary_changes": true,
+    "Halyk_actual_pipeline_unchanged_before_cutoff": true,
+    "Halyk_future_canary_changes": true,
+    "cutoff": "2024-07-01 00:00:00"
+  },
+  "paired_block_bootstrap_repetitions": 10000,
+  "source_snapshot_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+  "protocol_sha256": "e7e653258393f55338181c75b546b1b6177e48a35797f55db5289922f0cb0263",
+  "pretest_halyk_lag1_addendum_sha256": "ac6025e54feffb2aa06fcc03d89be216f06d510294a63e90c2932c21c77e97eb",
+  "code_sha256": "638d34f8ee771bd95bee17f9a5bd95a21cea19febf93bfa2fdf5557b796bdcdd",
+  "experiment_code_sha256": "02ecf5707fd9730ebb59363cd9971e7629239ac3fc3a9a73e641885819333897",
+  "limitations": [
+    "2026 already inspected retrospective test",
+    "Halyk sell-side chart not customer all-in execution quote",
+    "Small earlyhead forecasts in-sample w.r.t frozen neural fit",
+    "calendar-month bootstrap conditional on fitted models and historical hypothesis search notadjusted"
+  ]
+}

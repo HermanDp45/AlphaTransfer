@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "additional_fits": 6,
+  "total_fits": 18,
+  "models": 9,
+  "output_sha256": "8280a0c58d42f665ae834912f0d436f35d4e7fe64eb1caf87eafe830a6e497ad",
+  "combined_sha256": "b6c62f9c84dfed0507cef43d23a17cf3dd8c446b29fa7d72aaa0ec65bb2c3cf9",
+  "original_prediction_unchanged_sha256": "a4ffc62633f50ea42a29da0f1e096266b14ed05969c5cd99c755655cd71e7336"
+}

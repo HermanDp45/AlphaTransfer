@@ -1,0 +1,9 @@
+config_id,train_horizon,evaluation_scope,policy,year,inference,forward_delta_bps_ci_low,forward_delta_bps_ci_high,finite_bootstrap_draws,bootstrap_draws
+tabm_pooled,3,all5,rank80,2024,descriptive_post_selection,21.417346514689466,70.55445435868396,10000,10000
+tabm_pooled,3,all5,rank80,2025,descriptive_post_selection,26.187370839870436,73.19340609060495,10000,10000
+tabm_pooled,3,all5,rank80,2026,descriptive_post_selection,25.025609273974904,62.072182111641254,10000,10000
+tabm_pooled,3,all5,rank80,all,descriptive_post_selection,32.12339606168475,59.28998456809325,10000,10000
+tabm_kzt,5,KZT,rank90,2024,descriptive_post_selection,36.24690587856013,92.81982206861312,10000,10000
+tabm_kzt,5,KZT,rank90,2025,descriptive_post_selection,-1.5269992079293726,24.833112175063988,10000,10000
+tabm_kzt,5,KZT,rank90,2026,descriptive_post_selection,17.714130397429695,45.23035051064858,10000,10000
+tabm_kzt,5,KZT,rank90,all,descriptive_post_selection,22.70771344506559,43.82841468715668,10000,10000

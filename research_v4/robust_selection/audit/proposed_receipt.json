@@ -1,0 +1,29 @@
+{
+  "status": "protocol_review_complete; implementation audit pending",
+  "scope": "read-only requirements and frozen H5→H3 provenance; no fits",
+  "source_sha256": {
+    "global_task.md": "83b2138cb4394836951542ef5ce34cc0ede6b3ff546224931be4553b142da53d",
+    "Q&A для команд — сводка 20260903.md": "c0e7ae4fd85856d210d04aac35ac7f6820ea907f9c9a2127024aa5e9d2010c5f",
+    "Вопросы и ответы.md": "f3dfba33f614f55a4b94173a5746774745880a4b4b73461e7f4a7f42f9bc7f72",
+    "research_v4/robust_selection/protocol.json": "387eed0c3a33c0f14ccd9146705afeb69500c3f1e6f7255aa2cc25090e361b2d",
+    "research_v4/architecture_2023_2025/predictions.csv.gz": "e865e69ef2a12e54f9cf03349297e5fdba219a1663a496f5f27ee1f772cefcb2",
+    "research_v3/models/basis_train_120m_h3_predictions.csv.gz": "2a016f9f1214da7a4e5dcdc51132ed92512879a2e6ad1a9f757f990dacc0d26f"
+  },
+  "original_frozen_policy": {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "corridor": "KZT",
+    "rows": 727,
+    "signals": 60,
+    "H5_hits": 34,
+    "H5_lift": 2.0452879907852766,
+    "H5_forward_delta_bps": 94.11258636064228,
+    "H3_rescored_hits": 39,
+    "H3_rescored_lift": 1.9219386369807228,
+    "H3_rescored_forward_delta_bps": 81.91052019873133,
+    "H3_probability_score": null
+  }
+}

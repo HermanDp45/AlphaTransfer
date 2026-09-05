@@ -1,0 +1,19 @@
+{
+  "created_unix": 1788613461.130841,
+  "spec": {
+    "name": "attribution_hgb_60m_c12_duplicate_normal",
+    "months": 60,
+    "cal": 12,
+    "decay": 0,
+    "features": "bank_treasury",
+    "augment": false,
+    "adapt": true,
+    "depth": 2
+  },
+  "fits": 2,
+  "purpose": "Attribution only, excluded from candidate selection: isolate delayed-feature augmentation from sample duplication/effective regularization.",
+  "implementation": "Duplicate only the normal training frame; preserve original calibration, history, actual normal and actual banklag2 test views.",
+  "disclosure": "Requested after identifying original augmentation champion; no new model/policy selection.",
+  "hgb_sha256": "e501c169d9564582eb2cf970cf4c96272becf5904e2127c60b9b7e0eab35326f",
+  "code_sha256": "e158b664e3811b52f8779bb99b10de33190855f07b9b6a1479737dff12040962"
+}

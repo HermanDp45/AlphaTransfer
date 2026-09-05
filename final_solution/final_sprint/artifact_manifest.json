@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "files": {
+    "README.md": {
+      "sha256": "4d33d430e76fe1168c72e5b608c4715f123a0110214348a8f9d3615965cd41d0",
+      "bytes": 2337
+    },
+    "closing_annotation.json": {
+      "sha256": "2ecd96c64c92a7434ae6a3a3e77357f7d73f746e818f3785301b29dd67a40c28",
+      "bytes": 6739
+    },
+    "example_features.csv": {
+      "sha256": "63fb4c0088c673d11b430e38a71f0670863f66df7463b51a4cd230fe4675c0b7",
+      "bytes": 99678
+    },
+    "model/closing.pkl": {
+      "sha256": "12eae128d58d7d96b85d11a73e06e709c2d0cbafbdc10aa88772277f69353114",
+      "bytes": 133702
+    },
+    "model/tabm_periodic_kzt_120m_s2/model.json": {
+      "sha256": "7f85166763a8a3e9ae6f60776860e8b108939afc4e724551d2555e9bb0871a8f",
+      "bytes": 1704
+    },
+    "model/tabm_periodic_kzt_120m_s2/preprocess.joblib": {
+      "sha256": "5d9f59ff6c70e7a3542c7d65f9cd412733eee5c8abff30d5f005a2fc6012811b",
+      "bytes": 36865
+    },
+    "model/tabm_periodic_kzt_120m_s2/weights.pt": {
+      "sha256": "8c17f17205f8c13f0a2e54c0508806e40db3f4f3d5501f615a76cd81f6c0e6aa",
+      "bytes": 874364
+    },
+    "model.json": {
+      "sha256": "bf3627da3ab58069e866a56f3a7f3762e68d6b40719c78c2a20aa427c950b7ad",
+      "bytes": 4347
+    },
+    "output/predictions.csv": {
+      "sha256": "0afb3c0139212206cc52a534c8bffa962e53200b67358625a08703046a44eeae",
+      "bytes": 36039
+    },
+    "predict.py": {
+      "sha256": "7b03a73682f50c831021aa1ad54f72f1d95828be514fe5ced0d283ac29c7fc6d",
+      "bytes": 5958
+    },
+    "requirements.txt": {
+      "sha256": "02657d9432a182c2fc572bf2d114e4c738958b445cf14a608157b29add74773a",
+      "bytes": 101
+    },
+    "selected_intervals.json": {
+      "sha256": "09c7e8f60871de33c9e66b8266de791e3351ff3e0984fe51cedf32994b29e13b",
+      "bytes": 19577
+    },
+    "selected_predictions.csv.gz": {
+      "sha256": "8f32c8cdb872be5d869fc114927ec992f21734e2e7ca6cca893ba9cedc2932fd",
+      "bytes": 79432
+    },
+    "selection.json": {
+      "sha256": "afbb4ceb582cf7ffd7da761a47c75ddbfca9477287190545d4247c3bae6ebf80",
+      "bytes": 914
+    }
+  },
+  "selection_sha256": "afbb4ceb582cf7ffd7da761a47c75ddbfca9477287190545d4247c3bae6ebf80"
+}

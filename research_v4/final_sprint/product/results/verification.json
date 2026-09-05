@@ -1,0 +1,395 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "source_sha",
+      "status": "PASS",
+      "details": {
+        "immutable_model_source_hashes": 6,
+        "prediction_and_history_hashes": true
+      },
+      "seconds": 0.03640237502986565
+    },
+    {
+      "check": "independent_labels_maturity",
+      "status": "PASS",
+      "details": {
+        "independent_endpoint_and_fifth_session_labels": true,
+        "different_NOW_CLOSING_fixtures": true,
+        "unmatured_history_outcomes_all_blank": true,
+        "maturity": [
+          {
+            "cutoff": "2025-01-01",
+            "arm": "closing_treasury_shrink120m",
+            "part": "train",
+            "last_label": "2023-12-30 00:00:00"
+          },
+          {
+            "cutoff": "2025-01-01",
+            "arm": "closing_treasury_shrink120m",
+            "part": "validation",
+            "last_label": "2024-12-29 00:00:00"
+          },
+          {
+            "cutoff": "2025-01-01",
+            "arm": "closing_treasury_halyk_shrink120m",
+            "part": "train",
+            "last_label": "2023-12-30 00:00:00"
+          },
+          {
+            "cutoff": "2025-01-01",
+            "arm": "closing_treasury_halyk_shrink120m",
+            "part": "validation",
+            "last_label": "2024-12-29 00:00:00"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "arm": "closing_treasury_shrink120m",
+            "part": "train",
+            "last_label": "2024-12-29 00:00:00"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "arm": "closing_treasury_shrink120m",
+            "part": "validation",
+            "last_label": "2025-12-31 00:00:00"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "arm": "closing_treasury_halyk_shrink120m",
+            "part": "train",
+            "last_label": "2024-12-29 00:00:00"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "arm": "closing_treasury_halyk_shrink120m",
+            "part": "validation",
+            "last_label": "2025-12-31 00:00:00"
+          }
+        ]
+      },
+      "seconds": 0.3326561249559745
+    },
+    {
+      "check": "manual_checkpoint_and_history_parity",
+      "status": "PASS",
+      "details": [
+        {
+          "model_id": "closing_treasury_shrink120m",
+          "cutoff": "2025-01-01",
+          "mode": "normal",
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16
+        },
+        {
+          "model_id": "closing_treasury_shrink120m",
+          "cutoff": "2025-01-01",
+          "mode": "bank_delayed",
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16
+        },
+        {
+          "model_id": "closing_treasury_halyk_shrink120m",
+          "cutoff": "2025-01-01",
+          "mode": "normal",
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16
+        },
+        {
+          "model_id": "closing_treasury_halyk_shrink120m",
+          "cutoff": "2025-01-01",
+          "mode": "bank_delayed",
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16
+        },
+        {
+          "model_id": "closing_treasury_shrink120m",
+          "cutoff": "2026-01-01",
+          "mode": "normal",
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16
+        },
+        {
+          "model_id": "closing_treasury_shrink120m",
+          "cutoff": "2026-01-01",
+          "mode": "bank_delayed",
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16
+        },
+        {
+          "model_id": "closing_treasury_halyk_shrink120m",
+          "cutoff": "2026-01-01",
+          "mode": "normal",
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16
+        },
+        {
+          "model_id": "closing_treasury_halyk_shrink120m",
+          "cutoff": "2026-01-01",
+          "mode": "bank_delayed",
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16
+        }
+      ],
+      "seconds": 0.27484845800790936
+    },
+    {
+      "check": "future_fit_invariance",
+      "status": "PASS",
+      "details": [
+        {
+          "model_id": "closing_treasury_shrink120m",
+          "cutoff": "2025-01-01",
+          "future_feature_x100_and_unmatured_label_flip_exact_fit_identity": true
+        },
+        {
+          "model_id": "closing_treasury_halyk_shrink120m",
+          "cutoff": "2025-01-01",
+          "future_feature_x100_and_unmatured_label_flip_exact_fit_identity": true
+        },
+        {
+          "model_id": "closing_treasury_shrink120m",
+          "cutoff": "2026-01-01",
+          "future_feature_x100_and_unmatured_label_flip_exact_fit_identity": true
+        },
+        {
+          "model_id": "closing_treasury_halyk_shrink120m",
+          "cutoff": "2026-01-01",
+          "future_feature_x100_and_unmatured_label_flip_exact_fit_identity": true
+        }
+      ],
+      "seconds": 1.7519971249857917
+    },
+    {
+      "check": "raw_source_prefix_invariance",
+      "status": "PASS",
+      "details": {
+        "Halyk_Treasury_future_values_x100": true,
+        "lag1_lag2_past_features_and_fact_gates_exact": true
+      },
+      "seconds": 0.9810711659956723
+    },
+    {
+      "check": "joint_typed_metrics_and_causality",
+      "status": "PASS",
+      "details": {
+        "separate_truth_and_denominators_verified": true,
+        "dual_tags_not_new_contacts": true,
+        "checks": [
+          {
+            "cutoff": "2025-01-01",
+            "mode": "bank_delayed",
+            "variant": "NOW_confirmed_closing",
+            "rows": 242,
+            "signals": 61,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "bank_delayed",
+            "variant": "NOW_only",
+            "rows": 242,
+            "signals": 61,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "bank_delayed",
+            "variant": "dual_annotations",
+            "rows": 242,
+            "signals": 61,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "bank_delayed",
+            "variant": "joint",
+            "rows": 242,
+            "signals": 66,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "bank_delayed",
+            "variant": "joint_both_fact_gates",
+            "rows": 242,
+            "signals": 61,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "bank_delayed",
+            "variant": "joint_closing_fact_gate",
+            "rows": 242,
+            "signals": 62,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "normal",
+            "variant": "NOW_confirmed_closing",
+            "rows": 242,
+            "signals": 60,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "normal",
+            "variant": "NOW_only",
+            "rows": 242,
+            "signals": 60,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "normal",
+            "variant": "dual_annotations",
+            "rows": 242,
+            "signals": 60,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "normal",
+            "variant": "joint",
+            "rows": 242,
+            "signals": 66,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "normal",
+            "variant": "joint_both_fact_gates",
+            "rows": 242,
+            "signals": 62,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2025-01-01",
+            "mode": "normal",
+            "variant": "joint_closing_fact_gate",
+            "rows": 242,
+            "signals": 62,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "bank_delayed",
+            "variant": "NOW_confirmed_closing",
+            "rows": 156,
+            "signals": 39,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "bank_delayed",
+            "variant": "NOW_only",
+            "rows": 156,
+            "signals": 39,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "bank_delayed",
+            "variant": "dual_annotations",
+            "rows": 156,
+            "signals": 39,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "bank_delayed",
+            "variant": "joint",
+            "rows": 156,
+            "signals": 42,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "bank_delayed",
+            "variant": "joint_both_fact_gates",
+            "rows": 156,
+            "signals": 39,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "bank_delayed",
+            "variant": "joint_closing_fact_gate",
+            "rows": 156,
+            "signals": 41,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "normal",
+            "variant": "NOW_confirmed_closing",
+            "rows": 156,
+            "signals": 40,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "normal",
+            "variant": "NOW_only",
+            "rows": 156,
+            "signals": 40,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "normal",
+            "variant": "dual_annotations",
+            "rows": 156,
+            "signals": 40,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "normal",
+            "variant": "joint",
+            "rows": 156,
+            "signals": 42,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "normal",
+            "variant": "joint_both_fact_gates",
+            "rows": 156,
+            "signals": 41,
+            "future_outcome_and_prefix_invariant": true
+          },
+          {
+            "cutoff": "2026-01-01",
+            "mode": "normal",
+            "variant": "joint_closing_fact_gate",
+            "rows": 156,
+            "signals": 41,
+            "future_outcome_and_prefix_invariant": true
+          }
+        ]
+      },
+      "seconds": 0.334469125024043
+    },
+    {
+      "check": "scenario_adapter_suite",
+      "status": "PASS",
+      "details": {
+        "tests": 11,
+        "status": "PASS",
+        "stdout": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.000s\n\nOK\n"
+      },
+      "seconds": 0.0005081669660285115
+    }
+  ],
+  "joint_directory": "results/joint",
+  "verifier_sha256": "32364cd5093a185b871ea75b541098625b611bfe63ddc1f5c763c81cf85e9818",
+  "seconds": 4.974410417024046,
+  "not_proven": [
+    "prospective performance",
+    "scenario joint robustness across all years",
+    "historical publication timing",
+    "bank execution savings"
+  ]
+}

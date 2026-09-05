@@ -1,0 +1,28 @@
+{
+  "rows": 14805,
+  "seconds": 39.06560645799618,
+  "context": 256,
+  "cross_learning": false,
+  "task_group": "five currencies at one identical cutoff",
+  "grid": [
+    0.01,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "cache_sha256": "80ecc0e3f6e0d97826c8ffb43de3840123ddef57beaceef53614251bdce1874b",
+  "weights_sha256": "4595fd36d1e7b27cfb9e39fcafda40d3dc9d0dcdf3fb03bbd7e2626903ada076",
+  "code_sha256": "165587d1ccbf73750d7b4001ffefb539a34deb972f5ba2bbc5b76c4a8dba79a9",
+  "raw_cbr_sha256": "105db9d5a6148da43cffba75c0d5bc5a8f76a80ad45d8844ae6189ff1223ce9d",
+  "date_first": "2013-01-10 00:00:00",
+  "date_last": "2024-12-29 00:00:00"
+}

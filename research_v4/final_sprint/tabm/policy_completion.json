@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "rows": 165568,
+  "config_cutoff_pairs": 52,
+  "neural_weight_zero_count": 2,
+  "intervals": 264,
+  "code_sha256": "8312d5c5d2573b9f13533c25ed36078db2d8cd04c8276dfe2c45bfa80e81b3f2",
+  "policies_sha256": "9f6d53c69cf76d65a29fc351c1bc8e8aa5ac5681a5ef6ebe2700772ab7718542"
+}

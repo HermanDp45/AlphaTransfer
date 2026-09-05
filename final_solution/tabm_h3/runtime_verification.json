@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "code_stable": true,
+  "checks": {
+    "unit_tests": {
+      "passed": 15,
+      "failed": 0
+    },
+    "source_feature_parity": {
+      "historical_KZT_rows": 4116,
+      "features": 33,
+      "maximum_absolute_difference": 0.0,
+      "latest_panel_prefix_unchanged": true
+    },
+    "native_inference_thread_parity": {
+      "threads": [
+        1,
+        2
+      ],
+      "maximum_raw_difference": 0.0,
+      "CSV_roundtrip_float32_max_difference": 0.0,
+      "CSV_decimal_float64_max_difference": 2.955398559212341e-08
+    },
+    "full_source_main_entrypoint": {
+      "status": "PASS",
+      "run_as_of": "2026-09-05",
+      "feature_date": "2026-09-03",
+      "chronology": "in_calibration_snapshot",
+      "probability": 0.5879177026927693,
+      "rank_score": 0.6190476190476191,
+      "threshold": 0.6000000000000001,
+      "candidate_signal": true,
+      "closing_annotation_active": false,
+      "closing_diagnostic_condition": true,
+      "external_messages_sent": 0
+    },
+    "legacy_entrypoint": "PASS after original locked requirements restored",
+    "research_v3_explicit_entrypoint": "PASS --help",
+    "idempotent_no_new_source_sessions": "PASS",
+    "runtime_imports_research_modules": false,
+    "causal_policy_batch_incremental_identity": "PASS"
+  },
+  "code_sha256": {
+    "final_solution/tabm_h3/features.py": "d770696a2d2f167fdfbc58ce839aaa7831c1051a8969e714fd9394458adc96a8",
+    "final_solution/tabm_h3/model.py": "0edfa54fa6295634094faf7567c6c3f9c14393d87b9d7e9b532e4e75968766e1",
+    "final_solution/tabm_h3/policy.py": "4968c1c0e970bb5bb055cd1915b86284b91adeb708237d1ea39b225f2cd26b80",
+    "final_solution/tabm_h3/closing.py": "d6e5956bef144692a2037b7512f86b3910d1b46ff0b04b4c3f29c3a57a7d4d6b",
+    "final_solution/tabm_h3/predict.py": "acfd7a1320dcf97b6008210b2e9508927404e89927182af31cd89852023fcbd1",
+    "final_solution/tabm_h3/tests/test_runtime.py": "e08e5b53b2eea908cec0c7de60e9a007d1f3d5e35fb0c648cf66176e3b70f707",
+    "final_solution/tabm_h3/CONTRACT.md": "a3782acf542747164c4acf568823a9e6929a36027324748239bd1b7b8587f478",
+    "final_solution/main.py": "0690cb862095d6e372657a8b3f23ae0045d94cb379bc8436ba92261fae465979",
+    "final_solution/config.legacy.toml": "ed3b0e18ddb4abdaa77ea361a20d1dd2f3042dbb7898c83fa6968333d14cb02c"
+  },
+  "bundle_sha256": "50cdd004e0ce6110ca9bb191aedf042e61264eb2f3a4ea1d68fcfd8f80ba9d3f",
+  "config_toml_matches_legacy_copy": true,
+  "notes": [
+    "Runtime does not train, fetch data, or write bundled model/source/state inputs.",
+    "CLOSING H3 remains disabled because its2025 annual annotation lift misses1.3.",
+    "Historical smoke is not an OOT or execution claim."
+  ]
+}

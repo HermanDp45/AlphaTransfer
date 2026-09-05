@@ -1,0 +1,48 @@
+{
+  "seed": 20261105,
+  "refit_seed": 20261106,
+  "selected_epochs": 25,
+  "inner_best_brier": 0.22965343554468512,
+  "inner_train_max": "2022-09-20 00:00:00",
+  "inner_label_max": "2022-09-27 00:00:00",
+  "inner_validation_min": "2022-09-28 00:00:00",
+  "inner_validation_max": "2022-12-24 00:00:00",
+  "train_rows": 2461,
+  "train_min": "2013-01-10 00:00:00",
+  "train_max": "2022-12-24 00:00:00",
+  "architecture": {
+    "n_blocks": 2,
+    "d_block": 128,
+    "dropout": 0.1,
+    "k": 16
+  },
+  "numerical_embeddings": {
+    "d_embedding": 16,
+    "n_frequencies": 16,
+    "frequency_init_scale": 0.01,
+    "activation": true,
+    "lite": false
+  },
+  "features": [
+    "ret1",
+    "ret3",
+    "ret5",
+    "ret10",
+    "ret20",
+    "ret60",
+    "pr20",
+    "pr60",
+    "pr120",
+    "pr252",
+    "vol5",
+    "vol20",
+    "vol60",
+    "volratio",
+    "moex_cny_close_minus_fixing_same_session"
+  ],
+  "missing_indicators": true,
+  "parameters": 114848,
+  "fit_seconds": 5.869786625029519,
+  "weights_sha256": "99f809b047b818138376af5cdfd89a342f161e9aa663eb2faf850d898685ffb9",
+  "preprocessor_sha256": "0d09af99dfdf5349f2f91a499398e5b8d1b5dd58f8d1ec5cd586320f576154d0"
+}

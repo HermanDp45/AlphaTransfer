@@ -1,0 +1,22 @@
+{
+  "timestamp_unix": 1788602073.005475,
+  "specs": [
+    {
+      "name": "oxr_basis_120m_since2020",
+      "months": 120,
+      "family": "basis",
+      "delay": 24,
+      "since": "2020-01-01"
+    },
+    {
+      "name": "oxr_basis_120m_since2022",
+      "months": 120,
+      "family": "basis",
+      "delay": 24,
+      "since": "2022-01-01"
+    }
+  ],
+  "status": "exploratory_followup_after_initial_2026_readout",
+  "purpose": "Hold feature family constant while removing source2018-2019 or2018-2021. No change to primary selection.",
+  "test_selection": "none"
+}

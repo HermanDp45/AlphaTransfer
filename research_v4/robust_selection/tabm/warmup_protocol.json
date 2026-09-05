@@ -1,0 +1,9 @@
+{
+  "created_unix": 1788620800.2283578,
+  "request": "63 latest PANEL dates strictly before prior-year calibration start, INCLUDING purged training tail; same checkpoint. Corrected per independent audit.",
+  "labels": "All outcome columns masked. Most rows are in-sample training dates; final H dates are outside purged training. Used only to initialize past score ranks, not a separate validation set.",
+  "output": "warmup.csv.gz, split=warmup, same schema as main raw_predictions.csv.gz",
+  "supersedes": "warmup_purged_train_raw_predictions.csv.gz is retained only as a discarded diagnostic; parent must use warmup.csv.gz.",
+  "source_sha256": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+  "code_sha256": "17e55924dbf0fd925489e951e77129b26fc1e681fe43ff9427fd69ff764884e2"
+}

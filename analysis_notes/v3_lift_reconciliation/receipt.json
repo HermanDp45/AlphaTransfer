@@ -1,0 +1,10 @@
+{
+  "new_fits": 0,
+  "purpose": "Reconcile comparator scope and horizon training vs payoff sensitivity",
+  "inputs_sha256": {
+    "AlphaTransfer/research_v3/REPORT.md": "bc9bad7604a74a9b18b4b5a424419dff4222c4215e281626e8704506994c6d4f",
+    "AlphaTransfer/research_v3/models/decision_uncertainty.py": "06e15a6b722b8874f28598e0af2d3b2f5f4f6f7e77f9d2d618fd71d485efca7c",
+    "AlphaTransfer/research_v3/models/decision_policy_intervals.csv": "72f309ef690b2acb7f04c84b63f59f5af042effd0acd3b330605c543e52b5e9e",
+    "AlphaTransfer/research_v4/final_sprint/horizon_execution_sensitivity.csv": "9021bfa04893cc03ba131be321c03ccbfd8e777702901b0327a99a4e2ecdd2f3"
+  }
+}

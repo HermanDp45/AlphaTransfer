@@ -1,0 +1,11 @@
+{
+  "url": "https://data-api.binance.vision/api/v3/depth?symbol=USDTKZT&limit=5",
+  "final_url": "https://data-api.binance.vision/api/v3/depth?symbol=USDTKZT&limit=5",
+  "retrieved_utc": "2026-09-05T08:33:45.649187+00:00",
+  "status": 200,
+  "bytes": 360,
+  "sha256": "fe9435f3b3b5260bf673aed4ae7f02f7696f76398210994534c2c5332ec79fae",
+  "content_type": "application/json;charset=UTF-8",
+  "raw_path": "raw/binance_current_orderbook_908637102850b722f255.bin",
+  "group": "binance_current_orderbook"
+}

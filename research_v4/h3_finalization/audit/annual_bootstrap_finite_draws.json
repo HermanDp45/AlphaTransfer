@@ -1,0 +1,163 @@
+[
+  {
+    "policy": "strict05",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.004946329991003392,
+        "high": 0.0036286732402234464
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.06958726460269894,
+        "high": 0.2965633524539612
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -3.196261334700176,
+        "high": 16.876855937250003
+      }
+    }
+  },
+  {
+    "policy": "cadence80",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.004946329991003392,
+        "high": 0.0036286732402234464
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.08877319351335775,
+        "high": 0.10217883870553746
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -11.99309209751198,
+        "high": 3.4614667249211277
+      }
+    }
+  },
+  {
+    "policy": "cadence85",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.004946329991003392,
+        "high": 0.0036286732402234464
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.09143808870812509,
+        "high": 0.18886919364439808
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -3.4858442048644234,
+        "high": 11.038137348958555
+      }
+    }
+  },
+  {
+    "policy": "cadence90",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.004946329991003392,
+        "high": 0.0036286732402234464
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.12791516935673725,
+        "high": 0.1748011644909353
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -10.707833042454457,
+        "high": 7.577490525805025
+      }
+    }
+  },
+  {
+    "policy": "rank80",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.004946329991003392,
+        "high": 0.0036286732402234464
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.08847308614811362,
+        "high": 0.17249888156921925
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -1.4165912460949983,
+        "high": 13.199747338704304
+      }
+    }
+  },
+  {
+    "policy": "rank90",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.004946329991003392,
+        "high": 0.0036286732402234464
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.12766179592360377,
+        "high": 0.09918643468310988
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -3.2986068203047707,
+        "high": 11.105646585144301
+      }
+    }
+  },
+  {
+    "policy": "rank90_shared",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.004946329991003392,
+        "high": 0.0036286732402234464
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.12766179592360377,
+        "high": 0.09918643468310988
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -3.2986068203047707,
+        "high": 11.105646585144301
+      }
+    }
+  }
+]

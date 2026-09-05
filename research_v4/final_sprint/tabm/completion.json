@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "neural_fits": 10,
+  "inner_epoch_selection_fits": 10,
+  "test_prediction_rows": 32120,
+  "calibration_history_rows": 20087,
+  "protocol_sha256": "f366ec75efe4ae9cdf7020d194ce62fbfc7774ea0647b90f5aba292689a01a4e",
+  "selection_sha256": "ee342476d222ec67536c7ec6780de6220b04ed3c0e9b718201807dbdf4b17c64",
+  "code_sha256": "71c26568b65d776cd41c3b3f872a39930fee509402d314725853552ca3d86591"
+}

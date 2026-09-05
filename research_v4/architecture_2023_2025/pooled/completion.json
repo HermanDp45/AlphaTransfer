@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "neural_fits": 6,
+  "hgb_fits": 6,
+  "temporary_inner_neural_fits": 6,
+  "rows": 43920,
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "raw_prediction_sha256": "599a1006fae7503ee6f6b6c94d447764f74be1807f421fe5683bf398cd566b25",
+  "code_sha256": "b8dd3c8c087983f90e89cab7d8b35d54d0d009e417d99babf0600bb63245e970",
+  "protocol_sha256": "d95ddb3075003079f2c6d284c3ac1ed1686d5941dcafab474e8490b283a55ffc"
+}

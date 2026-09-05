@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "scope": "Independent read-only audit of matched pooled fixed configurations; observations available at run time. No claims of universal architecture superiority.",
+  "reviewed_code_sha256": "b8dd3c8c087983f90e89cab7d8b35d54d0d009e417d99babf0600bb63245e970",
+  "reviewed_protocol_sha256": "d95ddb3075003079f2c6d284c3ac1ed1686d5941dcafab474e8490b283a55ffc",
+  "completed_model_pairs_reviewed": 6,
+  "checks": [
+    {
+      "name": "source_and_protocol_hashes",
+      "status": "PASS",
+      "files": 5
+    },
+    {
+      "name": "independent_actual_maturity",
+      "status": "PASS",
+      "year": 2023,
+      "train_rows": 12315,
+      "train_latest_actual_label": "2021-12-31 00:00:00",
+      "validation_rows": 1210,
+      "validation_latest_actual_label": "2022-12-31 00:00:00",
+      "test_rows": 1210,
+      "test_latest_actual_label": "2023-12-30 00:00:00",
+      "inner_validation_start": "2021-09-25 00:00:00"
+    },
+    {
+      "name": "independent_actual_maturity",
+      "status": "PASS",
+      "year": 2024,
+      "train_rows": 12305,
+      "train_latest_actual_label": "2022-12-31 00:00:00",
+      "validation_rows": 1210,
+      "validation_latest_actual_label": "2023-12-30 00:00:00",
+      "test_rows": 1215,
+      "test_latest_actual_label": "2024-12-29 00:00:00",
+      "inner_validation_start": "2022-09-28 00:00:00"
+    },
+    {
+      "name": "independent_actual_maturity",
+      "status": "PASS",
+      "year": 2025,
+      "train_rows": 12310,
+      "train_latest_actual_label": "2023-12-30 00:00:00",
+      "validation_rows": 1215,
+      "validation_latest_actual_label": "2024-12-29 00:00:00",
+      "test_rows": 1210,
+      "test_latest_actual_label": "2025-12-31 00:00:00",
+      "inner_validation_start": "2023-09-27 00:00:00"
+    },
+    {
+      "name": "completed_fit_checkpoint_preprocessing_raw_parity",
+      "status": "PASS",
+      "year": 2023,
+      "feature_set": "base15",
+      "fitted_preprocessor_matches_independent_train_only_fit": true,
+      "numeric_inputs_and_missing_indicators_exact_float32": true,
+      "categorical_one_hot_matches_TabM_builtin_exactly": true,
+      "same_date_corridor_outcomes_across_architectures": true,
+      "encoded_train_sha_match": true,
+      "recomputed_prediction_rows": 7310,
+      "maximum_probability_error": 9.71445146547012e-17,
+      "masked_history_rows_per_architecture": 25,
+      "selected_epochs": 6,
+      "receipt_sha256": "d8349ddd6629b632dfe0e2f14a408a0f6781b73e5625d5bb1f49105f693e1b0f"
+    },
+    {
+      "name": "completed_fit_checkpoint_preprocessing_raw_parity",
+      "status": "PASS",
+      "year": 2024,
+      "feature_set": "base15",
+      "fitted_preprocessor_matches_independent_train_only_fit": true,
+      "numeric_inputs_and_missing_indicators_exact_float32": true,
+      "categorical_one_hot_matches_TabM_builtin_exactly": true,
+      "same_date_corridor_outcomes_across_architectures": true,
+      "encoded_train_sha_match": true,
+      "recomputed_prediction_rows": 7320,
+      "maximum_probability_error": 9.71445146547012e-17,
+      "masked_history_rows_per_architecture": 25,
+      "selected_epochs": 4,
+      "receipt_sha256": "e06f82b87b731ead5ca35ed71823032598bf359e5eaa12102d2f68bd78a35c8f"
+    },
+    {
+      "name": "completed_fit_checkpoint_preprocessing_raw_parity",
+      "status": "PASS",
+      "year": 2025,
+      "feature_set": "base15",
+      "fitted_preprocessor_matches_independent_train_only_fit": true,
+      "numeric_inputs_and_missing_indicators_exact_float32": true,
+      "categorical_one_hot_matches_TabM_builtin_exactly": true,
+      "same_date_corridor_outcomes_across_architectures": true,
+      "encoded_train_sha_match": true,
+      "recomputed_prediction_rows": 7330,
+      "maximum_probability_error": 1.1102230246251565e-16,
+      "masked_history_rows_per_architecture": 25,
+      "selected_epochs": 20,
+      "receipt_sha256": "e4b5cc998a4531ebb5cfad94c137967c85a0f70824465e4474da8822643b4e73"
+    },
+    {
+      "name": "completed_fit_checkpoint_preprocessing_raw_parity",
+      "status": "PASS",
+      "year": 2023,
+      "feature_set": "full33",
+      "fitted_preprocessor_matches_independent_train_only_fit": true,
+      "numeric_inputs_and_missing_indicators_exact_float32": true,
+      "categorical_one_hot_matches_TabM_builtin_exactly": true,
+      "same_date_corridor_outcomes_across_architectures": true,
+      "encoded_train_sha_match": true,
+      "recomputed_prediction_rows": 7310,
+      "maximum_probability_error": 1.1102230246251565e-16,
+      "masked_history_rows_per_architecture": 25,
+      "selected_epochs": 15,
+      "receipt_sha256": "7a09ae6c8954363f43a52b974b145127bdec0e6741d96fef6f885f370c2bb96c"
+    },
+    {
+      "name": "completed_fit_checkpoint_preprocessing_raw_parity",
+      "status": "PASS",
+      "year": 2024,
+      "feature_set": "full33",
+      "fitted_preprocessor_matches_independent_train_only_fit": true,
+      "numeric_inputs_and_missing_indicators_exact_float32": true,
+      "categorical_one_hot_matches_TabM_builtin_exactly": true,
+      "same_date_corridor_outcomes_across_architectures": true,
+      "encoded_train_sha_match": true,
+      "recomputed_prediction_rows": 7320,
+      "maximum_probability_error": 9.71445146547012e-17,
+      "masked_history_rows_per_architecture": 25,
+      "selected_epochs": 4,
+      "receipt_sha256": "42ff1e72cdc7b4058a3a7fb55e2b606beab2c88df260ee08c1d89e96cf16554a"
+    },
+    {
+      "name": "completed_fit_checkpoint_preprocessing_raw_parity",
+      "status": "PASS",
+      "year": 2025,
+      "feature_set": "full33",
+      "fitted_preprocessor_matches_independent_train_only_fit": true,
+      "numeric_inputs_and_missing_indicators_exact_float32": true,
+      "categorical_one_hot_matches_TabM_builtin_exactly": true,
+      "same_date_corridor_outcomes_across_architectures": true,
+      "encoded_train_sha_match": true,
+      "recomputed_prediction_rows": 7330,
+      "maximum_probability_error": 1.1102230246251565e-16,
+      "masked_history_rows_per_architecture": 25,
+      "selected_epochs": 18,
+      "receipt_sha256": "91dbfe33bb78b8e8aa833d675e127918e98bf3f769f121b3dfbebd386e6b32cd"
+    }
+  ],
+  "caveats": [
+    {
+      "severity": "interpretation",
+      "finding": "Same external preprocessing and feature information do not mean identical inductive bias: TabM has learned numerical embeddings and an ensemble head (its corridor encoding is exactly the same one-hot), inner epoch selection; HGB has fixed120trees and one-hot corridor. This is a fair fixed-recipe comparison, not matched HPO or general architecture ranking."
+    },
+    {
+      "severity": "resume_guard",
+      "finding": "Existing TabM model.json triggers load without verifying current features/seed/training fingerprint. New checkpoint directory and present metadata match this run; if code or inputs change, clear cache or validate full input/config hashes before resume."
+    },
+    {
+      "severity": "statistical_units",
+      "finding": "Five corridor observations on the same market date are correlated; pooled-row confidence intervals would overstate independent sample size. Use paired date/month blocks and keep per-corridor calibration/policy identical."
+    },
+    {
+      "severity": "scope",
+      "finding": "No2026 outcomes are exported or evaluated, but the fixed recipes/features were inherited from previous retrospective research. Treat 2023–2025 as a retrospective comparison, not a preregistered pristine holdout."
+    }
+  ]
+}

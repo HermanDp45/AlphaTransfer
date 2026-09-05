@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-09-05T10:27:09.186163+00:00",
+  "prior_v4_manifest_sha256": "427e7bf89d3defdfbc30cc822ef113c3c97c3719ebc3844ba3c685752d012f5c",
+  "prior_v4_files": 3414,
+  "prior_v4_scientific_artifacts_unchanged": true,
+  "parent_navigation_documents_updated": [
+    "README.md",
+    "REPORT.md"
+  ],
+  "original_navigation_backups_exact": true,
+  "v3_files_unchanged": 406,
+  "frozen_final_solution_inputs": 13,
+  "normalized_artifacts_unchanged": 76,
+  "scientific_receipts_sha256": {
+    "oxr/audit/verification.json": "c3dbe347fad9245309fed928939c7e225660d52c4345120a5aeaef93a4227ca1",
+    "foundation/final_verification.json": "b272658cd12a66f8b53c6031162b25f9548e1e361fadd869d9648e59ac39e035",
+    "robustness/results/verification.json": "addc89d97748676395c5a4cd75639c9fe3455a7c039c41de31b9619131fde481"
+  },
+  "oxr_independent_checks": 124,
+  "foundation_status": "PASS",
+  "robustness_check_groups": 7,
+  "local_markdown_links": 49,
+  "figure_visual_inspection": "OXR history_depth.png checked: zero reference, paired month intervals, no clipped labels; no selection-adjusted claim",
+  "scope": "Research reproducibility and source/cutoff checks, not proof of market superiority or customer savings"
+}

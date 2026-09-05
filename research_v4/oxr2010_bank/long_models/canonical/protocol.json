@@ -1,0 +1,89 @@
+{
+  "created_unix": 1788607645.592226,
+  "reason": "Independent audit found rolling.std roundoff on identical common observations can change training bins; this numerical attribution control was added after readout without hyperparameter selection",
+  "specifications": [
+    {
+      "name": "canonical_oxr_basis_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false,
+      "treasury": false
+    },
+    {
+      "name": "canonical_oxr_basis_2010_180m",
+      "months": 180,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false,
+      "treasury": false
+    },
+    {
+      "name": "canonical_kzt_oxr_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": true,
+      "local": true,
+      "premium": false,
+      "treasury": false
+    },
+    {
+      "name": "canonical_fusion_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false,
+      "treasury": false
+    },
+    {
+      "name": "canonical_treasury_oxr_basis_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false,
+      "treasury": true
+    },
+    {
+      "name": "canonical_treasury_oxr_full_2010_120m",
+      "months": 120,
+      "family": "full",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false,
+      "treasury": true
+    },
+    {
+      "name": "canonical_treasury_fusion_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false,
+      "treasury": true
+    }
+  ],
+  "common_start": "2018-09-01",
+  "canonical": "Copy OXR RET/BASIS/COVER on common post-warmup rows from unchanged2018 panel to2010 panel; preserve every pre2018-09-01 value",
+  "targets": "unchanged CBRNOW h5",
+  "uses_2026_for_tuning": false,
+  "code_sha256": "67585d5e7aaef97e801f80e7e4ff9e3d04ac6a8b1ad980373dc264158398d761",
+  "engine_sha256": "52a32a530a1a840d9d9cc0aeab1010f3d9e76effe89006e73648115ff223ecf2"
+}

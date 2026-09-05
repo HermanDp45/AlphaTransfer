@@ -1,0 +1,11 @@
+{
+  "url": "https://api-adapter.backend.currency.com/api/v2/exchangeInfo",
+  "final_url": "https://api-adapter.backend.currency.com/api/v2/exchangeInfo",
+  "retrieved_utc": "2026-09-05T08:19:10.592857+00:00",
+  "status": 0,
+  "bytes": 98,
+  "sha256": "7058d44ba18182e62922bbf9675510a35d53f4ccc525a3f75486677deac3703b",
+  "content_type": "error",
+  "raw_path": "raw/currency_com_metadata_19b159e5bcb61665d122.bin",
+  "group": "currency_com_metadata"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "neural_fits": 6,
+  "temporary_inner_neural_fits": 6,
+  "hgb_fits": 6,
+  "raw_rows": 43920,
+  "model_pairs": 6,
+  "guarded_pairs": [
+    {
+      "year": 2023,
+      "feature_set": "base15",
+      "checkpoint_and_setup": "PASS",
+      "rows": 12315
+    },
+    {
+      "year": 2023,
+      "feature_set": "full33",
+      "checkpoint_and_setup": "PASS",
+      "rows": 12315
+    },
+    {
+      "year": 2024,
+      "feature_set": "base15",
+      "checkpoint_and_setup": "PASS",
+      "rows": 12305
+    },
+    {
+      "year": 2024,
+      "feature_set": "full33",
+      "checkpoint_and_setup": "PASS",
+      "rows": 12305
+    },
+    {
+      "year": 2025,
+      "feature_set": "base15",
+      "checkpoint_and_setup": "PASS",
+      "rows": 12310
+    },
+    {
+      "year": 2025,
+      "feature_set": "full33",
+      "checkpoint_and_setup": "PASS",
+      "rows": 12310
+    }
+  ],
+  "independent_check_blocks": 10,
+  "independent_review_sha256": "0158eedf74f01a5d26158e66ee942c4e4dc1e9520f1659adb1eaf8da5339443a",
+  "raw_predictions_sha256": "599a1006fae7503ee6f6b6c94d447764f74be1807f421fe5683bf398cd566b25",
+  "protocol_sha256": "d95ddb3075003079f2c6d284c3ac1ed1686d5941dcafab474e8490b283a55ffc",
+  "experiment_code_sha256": "b8dd3c8c087983f90e89cab7d8b35d54d0d009e417d99babf0600bb63245e970",
+  "report_sha256": "58774e377841ad149a4859b0eb5b82b690f8894cc8145322d2c4622e32764cf7",
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "scope": "Raw matched fixed configurations; identical parent-owned per-corridor calibration/policy pending"
+}

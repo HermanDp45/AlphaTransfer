@@ -1,0 +1,936 @@
+{
+  "status": "PASS",
+  "runtime_seconds": 12.254971167014446,
+  "verifier_sha256": "9df15109fff310675e9280ef37dd0cf0050758d46076e6a8cc7bfded8e56626e",
+  "checks": [
+    {
+      "check": "old_seals_immutable",
+      "status": "PASS",
+      "detail": {
+        "sealed_old_artifact_files": 3820,
+        "by_package": {
+          "research_v3": 406,
+          "research_v4": 3414
+        },
+        "old_manifests_and_sources_unchanged": true,
+        "old_v4_manifest": "research_v4/continuation/previous_v4_manifest.json",
+        "old_root_documents_verified_at_backups": [
+          "research_v4/continuation/prior_reports/README.md",
+          "research_v4/continuation/prior_reports/REPORT.md"
+        ],
+        "all_other_old_files_verified_live": true
+      },
+      "seconds": 3.2482652500038967
+    },
+    {
+      "check": "standardized_metric_contract",
+      "status": "PASS",
+      "detail": {
+        "unequal_year_prevalence_fixture": {
+          "candidate_count": 2,
+          "candidate_quality": 0.5,
+          "candidate_lift": 1.6,
+          "candidate_lift_standardized": 1.6,
+          "candidate_lift_unstandardized": 2.5,
+          "forward_delta_bps": 12.5,
+          "forward_bps_absolute": 40.0,
+          "forward_bps_per_candidate": 40.0,
+          "regret_bps_per_candidate": 0.0
+        },
+        "old_v3_long_standardized_lift_match": true,
+        "old_v3_long_forward_delta_match": true
+      },
+      "seconds": 0.09236345801036805
+    },
+    {
+      "check": "manual_checkpoint_and_candidate_reconstruction",
+      "status": "PASS",
+      "detail": [
+        {
+          "cutoff": "2023-01-01",
+          "rule": "feature_dropout",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "feature_dropout",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "halyk_l1",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "halyk_l1",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "lag_augmentation",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 9.71445146547012e-17,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "lag_augmentation",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 9.71445146547012e-17,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "lag_ensemble",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "lag_ensemble",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2023-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "feature_dropout",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "feature_dropout",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "halyk_l1",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "halyk_l1",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "lag_augmentation",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "lag_augmentation",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "lag_ensemble",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 2.220446049250313e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "lag_ensemble",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 2.220446049250313e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 2.220446049250313e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 2.220446049250313e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 2.220446049250313e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 0,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2024-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 1,
+          "rows": 243,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "feature_dropout",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "feature_dropout",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "halyk_l1",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "halyk_l1",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "lag_augmentation",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "lag_augmentation",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "lag_ensemble",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "lag_ensemble",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 0,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2025-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 1,
+          "rows": 242,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "feature_dropout",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "feature_dropout",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "halyk_l1",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "halyk_l1",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "lag_augmentation",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "lag_augmentation",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "lag_ensemble",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "lag_ensemble",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "v3_long_globalcal",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 0,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-01-01",
+          "rule": "v3_long_localcal",
+          "delay": 1,
+          "rows": 156,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "feature_dropout",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "feature_dropout",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "halyk_l1",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "halyk_l1",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "halyk_l2_retrained",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "lag_augmentation",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "lag_augmentation",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "lag_ensemble",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "lag_ensemble",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "minimax_shrink_v3",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 1.6653345369377348e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "v3_long_globalcal",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "v3_long_globalcal",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 1.1102230246251565e-16,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "v3_long_localcal",
+          "delay": 0,
+          "rows": 122,
+          "manual_probability_max_error": 8.326672684688674e-17,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "rule": "v3_long_localcal",
+          "delay": 1,
+          "rows": 122,
+          "manual_probability_max_error": 8.326672684688674e-17,
+          "candidate_exact_match": true,
+          "explicit_cutoff_history_state_exact_match": true
+        }
+      ],
+      "seconds": 1.0938702080165967
+    },
+    {
+      "check": "independent_label_maturity_and_old_parity",
+      "status": "PASS",
+      "detail": {
+        "maturity": [
+          {
+            "cutoff": "2023-01-01",
+            "part": "train",
+            "rows": 12315,
+            "max_independently_computed_label_date": "2021-12-31",
+            "boundary": "2022-01-01"
+          },
+          {
+            "cutoff": "2023-01-01",
+            "part": "calibration",
+            "rows": 1210,
+            "max_independently_computed_label_date": "2022-12-31",
+            "boundary": "2023-01-01"
+          },
+          {
+            "cutoff": "2024-01-01",
+            "part": "train",
+            "rows": 12305,
+            "max_independently_computed_label_date": "2022-12-31",
+            "boundary": "2023-01-01"
+          },
+          {
+            "cutoff": "2024-01-01",
+            "part": "calibration",
+            "rows": 1210,
+            "max_independently_computed_label_date": "2023-12-30",
+            "boundary": "2024-01-01"
+          },
+          {
+            "cutoff": "2025-01-01",
+            "part": "train",
+            "rows": 12310,
+            "max_independently_computed_label_date": "2023-12-30",
+            "boundary": "2024-01-01"
+          },
+          {
+            "cutoff": "2025-01-01",
+            "part": "calibration",
+            "rows": 1215,
+            "max_independently_computed_label_date": "2024-12-29",
+            "boundary": "2025-01-01"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "part": "train",
+            "rows": 12315,
+            "max_independently_computed_label_date": "2024-12-29",
+            "boundary": "2025-01-01"
+          },
+          {
+            "cutoff": "2026-01-01",
+            "part": "calibration",
+            "rows": 1210,
+            "max_independently_computed_label_date": "2025-12-31",
+            "boundary": "2026-01-01"
+          },
+          {
+            "cutoff": "2026-03-01",
+            "part": "train",
+            "rows": 12320,
+            "max_independently_computed_label_date": "2025-02-28",
+            "boundary": "2025-03-01"
+          },
+          {
+            "cutoff": "2026-03-01",
+            "part": "calibration",
+            "rows": 1200,
+            "max_independently_computed_label_date": "2026-02-28",
+            "boundary": "2026-03-01"
+          }
+        ],
+        "annual_old_parity": [
+          {
+            "rule": "v3_long_globalcal",
+            "rows": 883,
+            "max_probability_error": 0.0,
+            "max_raw_error": 0.0,
+            "candidate_mismatches": 0
+          },
+          {
+            "rule": "v3_long_localcal",
+            "rows": 883,
+            "max_probability_error": 0.0,
+            "max_raw_error": 0.0,
+            "candidate_mismatches": 0
+          },
+          {
+            "rule": "halyk_l1",
+            "rows": 883,
+            "max_probability_error": 0.0,
+            "max_raw_error": 0.0,
+            "candidate_mismatches": 0
+          },
+          {
+            "rule": "halyk_l2_retrained",
+            "rows": 883,
+            "max_probability_error": 0.0,
+            "max_raw_error": 0.0,
+            "candidate_mismatches": 0
+          }
+        ],
+        "January_March_common_dates": 120
+      },
+      "seconds": 0.35974279197398573
+    },
+    {
+      "check": "future_labels_and_features_cannot_change_fit",
+      "status": "PASS",
+      "detail": [
+        {
+          "cutoff": "2026-01-01",
+          "future_feature_multiplier": 100,
+          "unmatured_and_future_targets_flipped": true,
+          "all_fit_probabilities_max_error": 0.0,
+          "thresholds_and_history_states_unchanged": true,
+          "age_threshold_and_history_fit_unchanged": true
+        },
+        {
+          "cutoff": "2026-03-01",
+          "future_feature_multiplier": 100,
+          "unmatured_and_future_targets_flipped": true,
+          "all_fit_probabilities_max_error": 0.0,
+          "thresholds_and_history_states_unchanged": true,
+          "age_threshold_and_history_fit_unchanged": true
+        }
+      ],
+      "seconds": 4.437607332947664
+    },
+    {
+      "check": "raw_halyk_future_prefix_lag3",
+      "status": "PASS",
+      "detail": {
+        "lag_views": [
+          1,
+          2,
+          3
+        ],
+        "cutoff": "2026-03-01",
+        "changed_raw_rows": {
+          "halyk_sell_daily.csv": 763
+        },
+        "all_past_features_and_age_metadata_exactly_unchanged": true
+      },
+      "seconds": 1.3129492499865592
+    },
+    {
+      "check": "observable_age_and_policy_causality",
+      "status": "PASS",
+      "detail": {
+        "age_gate_uses_visible_observation_dates_only": true,
+        "missing_feed_causes_fallback": true,
+        "fresh_probability_is_exact_original": true,
+        "future_test_rows_do_not_change_prefix_candidates": true,
+        "test_outcomes_do_not_change_probabilities_or_candidates": true
+      },
+      "seconds": 0.5058398339897394
+    }
+  ],
+  "not_proven": "Actual historical publication timestamps, prospective model performance, customer uplift."
+}

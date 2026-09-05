@@ -1,0 +1,11 @@
+{
+  "url": "https://api.exmo.me/v1.1/candles_history?symbol=BTC_USDT&resolution=D&from=1672531200&to=1704067199",
+  "final_url": "https://api.exmo.me/v1.1/candles_history?symbol=BTC_USDT&resolution=D&from=1672531200&to=1704067199",
+  "retrieved_utc": "2026-09-05T08:19:05.245135+00:00",
+  "status": 200,
+  "bytes": 31301,
+  "sha256": "8a66e61927a0bf27e408450400917d09adeb4980781834001d61e3b4a362a7ba",
+  "content_type": "application/json; charset=utf-8",
+  "raw_path": "raw/exmo_me_klines_9ea362772ed7ace7e114.bin",
+  "group": "exmo_me_klines"
+}

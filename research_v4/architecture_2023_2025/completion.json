@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "matched_contrasts": 18,
+  "system_contrasts": 2,
+  "policies_per_matched_model": 3,
+  "calibration": "sameper-corridorPlatt-rule",
+  "aggregation": "year\u00d7corridorstandardized",
+  "bootstrap": "pairedcalendar-month10kyearstrata;conditionalonfixedmodels;retrospective"
+}

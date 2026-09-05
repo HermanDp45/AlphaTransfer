@@ -1,0 +1,11 @@
+{
+  "url": "https://data.binance.vision/data/spot/monthly/klines/USDTKZT/1d/USDTKZT-1d-2025-01.zip",
+  "final_url": "https://data.binance.vision/data/spot/monthly/klines/USDTKZT/1d/USDTKZT-1d-2025-01.zip",
+  "retrieved_utc": "2026-09-05T08:19:45.857284+00:00",
+  "status": 404,
+  "bytes": 329,
+  "sha256": "fd18dfc928c72dbee71d91f6489012ceaf427936470a8960cdc4af0f2ef3c8e6",
+  "content_type": "application/xml",
+  "raw_path": "raw/binance_archive_21e558badb53210c5ed6.bin",
+  "group": "binance_archive"
+}

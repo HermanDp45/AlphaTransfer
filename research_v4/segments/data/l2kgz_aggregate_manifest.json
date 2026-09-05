@@ -1,0 +1,25 @@
+{
+  "reference_id": "KGZ_2021-2025_L2KGZ_v02_M",
+  "doi": "https://doi.org/10.48529/swmc-aq82",
+  "catalog": "https://microdata.worldbank.org/catalog/6523",
+  "download": "https://microdata.worldbank.org/catalog/6523/download/329993",
+  "sha256": "94708c35092c33c77907c3652ab68db237d57176d4ef34c7f441597d518d6400",
+  "zip_bytes": 7673631,
+  "household_month_rows": 62235,
+  "individual_month_rows": 324050,
+  "observed_migrant_months": 8257,
+  "observed_migrants": 1490,
+  "wave_months": 42,
+  "raw_microdata_redistributed": false,
+  "weighting": "popw is population weight; popw/hhsize derived household weight, then average across observed waves for migrant bands. No official longitudinal migrant weight is provided: weighted bands are descriptive, not design-consistent population estimates.",
+  "known_at": "Current v02 archive released after many observation dates; pre2024 subset is not a point-in-time available release. Used as scenario evidence only, not a historic bank covariate.",
+  "limitations": [
+    "One yes/no per migrant-month cannot identify within-month transfer frequency.",
+    "Questions refer to sending to Kyrgyz recipient household, not Alfa app users.",
+    "Missing migrant questions are unobserved, not no transfer.",
+    "Panel persistence conditions on continued observation and >=6/12 observed months; attrition and migrant composition affect results.",
+    "Month assigned by modal calendar month of survey round; April2024 gap is excluded from consecutive transitions.",
+    "No household or member IDs or raw rows exported.",
+    "No PSU/strata design variance estimated; weighting not formal population CI."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://api.binance.kz/api/v3/klines?symbol=USDTKZT&interval=1d&limit=3",
+  "final_url": "https://api.binance.kz/api/v3/klines?symbol=USDTKZT&interval=1d&limit=3",
+  "retrieved_utc": "2026-09-05T08:19:07.925624+00:00",
+  "status": 567,
+  "bytes": 7352,
+  "sha256": "f80542aad2450203dd28c4451aabe0e651ed492d97c10dd9240fca457bad562d",
+  "content_type": "text/html; charset=UTF-8",
+  "raw_path": "raw/binance_kz_blocked_e832f78cc62e752d65b7.bin",
+  "group": "binance_kz_blocked"
+}

@@ -1,0 +1,305 @@
+{
+  "status": "PASS",
+  "passed": 67,
+  "checks": [
+    {
+      "name": "H3_KZT_only",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_old_120m_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_old_120m_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_old_120m_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_old_120m_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_old_120m_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_old_120m_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "exact_old_120m_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_120m_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_120m_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_120m_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_120m_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_120m_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_120m_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_120m_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_fullhistory_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_fullhistory_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_fullhistory_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_fullhistory_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_fullhistory_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_fullhistory_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "policy_replay_tabm_kzt_fullhistory_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibrated_probability_and_rank_replay",
+      "status": "PASS",
+      "rows": 9058,
+      "max_probability_error": 0.0,
+      "max_rank_error": 0.0
+    },
+    {
+      "name": "independent_summary.csv",
+      "status": "PASS",
+      "rows": 14,
+      "errors": []
+    },
+    {
+      "name": "independent_by_year.csv",
+      "status": "PASS",
+      "rows": 42,
+      "errors": []
+    },
+    {
+      "name": "full_history_promotion_ranking",
+      "status": "PASS",
+      "candidates": 14,
+      "winner": [
+        "tabm_kzt_fullhistory",
+        "rank80"
+      ]
+    },
+    {
+      "name": "all_same_policy_month_intervals",
+      "status": "PASS",
+      "comparisons": 7
+    }
+  ],
+  "source_sha256": {
+    "protocol.json": "2670207cffcbc1c23f2f279f98a7d65efdaea3dbd2eaa10b5aedb4d6d75d5735",
+    "evaluate.py": "351dfd27ea72a0072773f0a422d47c1d9be30e9db8931a3270d0e75552963fdd",
+    "predictions.csv.gz": "3205340a3e0345121408cdd7031add2ed2b9cfa1ab68faad412dcaef45b3c195",
+    "summary.csv": "71e45ea1d04263ccf8c7b42c59de06a2880e0e0506a04a16f1a2ab1fe2802fba",
+    "by_year.csv": "4692c255fed5109000420c1b5524b49320fd03ff9f57a1569e6817b5ba806a54",
+    "ranking.csv": "b1732a09a54a3f867c827501a0ce60609d403035c69d517cfd8c164ed9a42570",
+    "selection.json": "61869b6bd29e207d6b5d0ef67caddbabf1d6c506df35a3366964df4e9e004ac8",
+    "policies.json": "3566655f68b23ed5298681b57432e7dffebead4f9438511c1b2269117de5347e",
+    "calibration.json": "357327e5ffe81629b65d0f383d4c7d550e19f803cbb28d8e1dfc433860959afd",
+    "paired_intervals.csv": "c004be25e5cee97bc3cfb583e5de4468dfd9ba3e4ca7ce325d135c3cda8cb30a",
+    "long_history/raw_predictions.csv.gz": "1156e4185854e017904394e7e7b8af8e7a31916eff34732d2b6aefd09d3da577",
+    "long_history/warmup.csv.gz": "6f8e03def0b8d1ca98b480a291bec458da6556ef7ac8d4bd0e3d3fa872bb9c0b",
+    "long_history/experiment.py": "c983322f6a9b851831347e7bf753a03f3bdf97efdc3d385477cdb1f9aadf85b0",
+    "long_history/receipts.json": "5f24e8fddc955b7fb6264e3612ad088c6fd32f0f6cae17eade46f5517a49a9a0"
+  },
+  "audit_sha256": "e4d60ff43ffae3639e591f2c596891228646a0d7b58c73a4b7ed868a0941f432",
+  "scope": "Independent annual raw-output calibration/rank/policy replay, old120m exact parity, metric aggregation and retrospective history ranking; no model fitting."
+}

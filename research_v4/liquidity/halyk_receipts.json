@@ -1,0 +1,90 @@
+{
+  "retrieved_at_utc": "2026-09-05T08:25:54.452253+00:00",
+  "source": "https://halykbank.kz/en/exchange-rates",
+  "rows": [
+    {
+      "url": "https://halykbank.kz/api/exchangerates/rub/01.01.2020-01.09.2026",
+      "file": "raw/halyk_personal_rub.json",
+      "sha256": "627fd52efe1dfc92fe89b12d31f5c6f77c3c5ccaa38160dfebdcc94ea1f89884",
+      "raw_rows": 2358,
+      "unique_days": 1637,
+      "min": "2020-01-05",
+      "max": "2026-09-01",
+      "conflicting_duplicate_dates_excluded": 39,
+      "price_side": "bank sell",
+      "timestamp_interpretation": "stored midnight Asia/Almaty effective chart date; UTC offset follows IANA historical zone; not verified publication timestamp",
+      "availability": "effective chart date +1calendar day; +2 sensitivity",
+      "rights": "public download, commercial model/redistribution rights not inferred"
+    },
+    {
+      "url": "https://halykbank.kz/api/exchangerates/usd/01.01.2020-01.09.2026",
+      "file": "raw/halyk_personal_usd.json",
+      "sha256": "19f6d8ba95ff95802ab8aa144c314e8edd95648e6b9e42730632c1d10056c9da",
+      "raw_rows": 2358,
+      "unique_days": 1639,
+      "min": "2020-01-05",
+      "max": "2026-09-01",
+      "conflicting_duplicate_dates_excluded": 37,
+      "price_side": "bank sell",
+      "timestamp_interpretation": "stored midnight Asia/Almaty effective chart date; UTC offset follows IANA historical zone; not verified publication timestamp",
+      "availability": "effective chart date +1calendar day; +2 sensitivity",
+      "rights": "public download, commercial model/redistribution rights not inferred"
+    },
+    {
+      "url": "https://halykbank.kz/api/exchangerates/eur/01.01.2020-01.09.2026",
+      "file": "raw/halyk_personal_eur.json",
+      "sha256": "4faabcfa3c82f00b44ae529e82fac29c100de25def2a76fee6928fd4638819b1",
+      "raw_rows": 2358,
+      "unique_days": 1610,
+      "min": "2020-01-05",
+      "max": "2026-09-01",
+      "conflicting_duplicate_dates_excluded": 66,
+      "price_side": "bank sell",
+      "timestamp_interpretation": "stored midnight Asia/Almaty effective chart date; UTC offset follows IANA historical zone; not verified publication timestamp",
+      "availability": "effective chart date +1calendar day; +2 sensitivity",
+      "rights": "public download, commercial model/redistribution rights not inferred"
+    },
+    {
+      "url": "https://halykbank.kz/api/exchangerates_legal/rub/01.01.2020-01.09.2026",
+      "file": "raw/halyk_legal_rub.json",
+      "sha256": "7e6b1ad7b24c324f3b1445b3bbe4d66345a3ce0e9149c62a8beea1d2d714efa5",
+      "raw_rows": 1661,
+      "unique_days": 1661,
+      "min": "2020-01-05",
+      "max": "2026-09-01",
+      "conflicting_duplicate_dates_excluded": 0,
+      "price_side": "bank sell",
+      "timestamp_interpretation": "stored midnight Asia/Almaty effective chart date; UTC offset follows IANA historical zone; not verified publication timestamp",
+      "availability": "effective chart date +1calendar day; +2 sensitivity",
+      "rights": "public download, commercial model/redistribution rights not inferred"
+    },
+    {
+      "url": "https://halykbank.kz/api/exchangerates_legal/usd/01.01.2020-01.09.2026",
+      "file": "raw/halyk_legal_usd.json",
+      "sha256": "c715a9e87184ba572824f3858cd6718ce1f551d35f6cd5500e0db1025c35ca63",
+      "raw_rows": 1661,
+      "unique_days": 1661,
+      "min": "2020-01-05",
+      "max": "2026-09-01",
+      "conflicting_duplicate_dates_excluded": 0,
+      "price_side": "bank sell",
+      "timestamp_interpretation": "stored midnight Asia/Almaty effective chart date; UTC offset follows IANA historical zone; not verified publication timestamp",
+      "availability": "effective chart date +1calendar day; +2 sensitivity",
+      "rights": "public download, commercial model/redistribution rights not inferred"
+    },
+    {
+      "url": "https://halykbank.kz/api/exchangerates_legal/eur/01.01.2020-01.09.2026",
+      "file": "raw/halyk_legal_eur.json",
+      "sha256": "abf59de6181769da9ee6cc005ad47a449a812ac57cd8a532755382033f7386f4",
+      "raw_rows": 1661,
+      "unique_days": 1661,
+      "min": "2020-01-05",
+      "max": "2026-09-01",
+      "conflicting_duplicate_dates_excluded": 0,
+      "price_side": "bank sell",
+      "timestamp_interpretation": "stored midnight Asia/Almaty effective chart date; UTC offset follows IANA historical zone; not verified publication timestamp",
+      "availability": "effective chart date +1calendar day; +2 sensitivity",
+      "rights": "public download, commercial model/redistribution rights not inferred"
+    }
+  ]
+}

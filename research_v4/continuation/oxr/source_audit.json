@@ -1,0 +1,154 @@
+{
+  "audit_kind": "read_only_existing_local_snapshot_and_public_documentation",
+  "audit_date_utc": "2026-09-05T09:51:50.626823+00:00",
+  "status": "source and implementation checks passed; PIT buffer and historical-vintage limitations explicit",
+  "authenticated_api_calls": 0,
+  "api_quota_consumed": 0,
+  "OXR_APP_ID_present": false,
+  "early_history_scope": "User confirmed no earlier history; no further search or download. Ablation on existing 2018-2026 data can inform, but cannot quantify, extension to 2010-2018.",
+  "snapshot": {
+    "path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/data/open_exchange_rates/rub_cis_daily.csv",
+    "sha256": "d30d226fbaa0b2d89a2e7eacf011b90af93eb60150572ec66c2fb1ff26a25db2",
+    "rows": 27000,
+    "dates": 3000,
+    "date_min": "2018-06-17",
+    "date_max": "2026-09-02",
+    "quotes": [
+      "AMD",
+      "AZN",
+      "BYN",
+      "KGS",
+      "KZT",
+      "MDL",
+      "TJS",
+      "TMT",
+      "UZS"
+    ],
+    "baseline_target_quotes": [
+      "AMD",
+      "KGS",
+      "KZT",
+      "TJS",
+      "UZS"
+    ],
+    "daily_missing_dates": 0,
+    "duplicate_date_quote_cells": 0,
+    "null_count": 0,
+    "nonpositive_rate_count": 0
+  },
+  "sqlite_crosscheck": {
+    "read_only": true,
+    "rates_only_queried": true,
+    "rows": 27000,
+    "same_text_fields": true,
+    "max_numeric_absolute_difference": 2.842170943040401e-14,
+    "interpretation": "CSV floating-point formatting/reading noise; same exported rate table. No account-usage table contents inspected."
+  },
+  "derivation": {
+    "raw_api_base": "USD",
+    "quote_per_rub": "quote_per_usd / rub_per_usd",
+    "rub_per_quote": "rub_per_usd / quote_per_usd",
+    "instrument": "blended reference USD cross; no executable bank buy/sell or exchange transaction fields in this snapshot",
+    "inverse_identity_maxabs": 1.942890293094024e-14,
+    "usd_legs_identity_max_relative": 1.9317880628477724e-14
+  },
+  "timestamp_audit": {
+    "source_field": "API payload timestamp -> datetime.fromtimestamp(..., timezone.utc).isoformat()",
+    "downloader_path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/scripts/download_oxr_cis.py",
+    "downloader_sha256": "48f44fe96d63f7f31353d63213acfff50987d0be943db4ba09efa6df00bda08c",
+    "date_matches_utc_publication_date_all": true,
+    "dates_with_multiple_publication_times": 0,
+    "time_min_utc": "23:59:00",
+    "time_max_utc": "23:59:59",
+    "top_publication_times_date_counts": {
+      "23:59:59": 1724,
+      "23:59:58": 462,
+      "23:59:57": 59,
+      "23:59:54": 56,
+      "23:59:56": 55
+    },
+    "fetched_at_preserved": false,
+    "raw_json_vintages_preserved": false,
+    "publication_timestamp_is_not_retrieval_timestamp": true
+  },
+  "pit_recommendation": {
+    "decision_local": "10:05 Europe/Moscow",
+    "decision_utc": "07:05 UTC for 2018-2026",
+    "eod_available_floor": "max(published_at_utc, UTC date + 1 calendar day at 00:00)",
+    "primary_known_at": "eod_available_floor + 24h",
+    "primary_earliest_decision_day": "source UTC date + 2 calendar days",
+    "primary_min_seconds_after_publication_at_decision": 111901,
+    "stress_known_at": "eod_available_floor + 48h (source date +3 earliest decision day)",
+    "optional_strong_stress": "eod_available_floor +96h (source date +5 earliest decision day)",
+    "calendar_not_target_rows": true,
+    "asof_direction": "backward, known_at <= decision_at; no future backfill",
+    "interpretation": "Conservative operational publication buffer, not evidence of unrevised historical vintages or guaranteed availability during outages."
+  },
+  "raw_source_periods_exclusive_end": {
+    "2023-01-01..2026-01-01": {
+      "rows_all_9_quotes": 9864,
+      "calendar_days": 1096
+    },
+    "2023-01-01..2026-03-01": {
+      "rows_all_9_quotes": 10395,
+      "calendar_days": 1155
+    },
+    "2026-01-01..2026-03-01": {
+      "rows_all_9_quotes": 531,
+      "calendar_days": 59
+    },
+    "2026-03-01..2026-09-03": {
+      "rows_all_9_quotes": 1674,
+      "calendar_days": 186
+    }
+  },
+  "benchmark_requirements": [
+    "Use exactly matched target date/corridor rows for each comparison; report official-target proxy and horizon.",
+    "A January/March 2026 cutoff must purge every training or calibration label whose future target window extends beyond the cutoff.",
+    "Freeze preprocessing, calibration, feature choice, thresholds and model fit to allowed training/validation history for each checkpoint.",
+    "Already reviewed 2023-2026 outcomes remain retrospective/exploratory, including 2026 post-cutoff diagnostics.",
+    "2010-2018 OXR is unavailable locally; long model has missing OXR before 2018-06-17 and must retain honest missingness.",
+    "Compute trailing daily OXR returns/volatility before backward as-of; preserve initial warmup NaNs and explicit source staleness.",
+    "Basis uses rub_per_quote / CBR rubles_per_one_quote_unit with the CBR value available at that decision; beware CBR nominal units.",
+    "Do not infer proprietary source independence, bid/ask savings, or future extension lift from this reference-rate cross."
+  ],
+  "official_sources": [
+    {
+      "url": "https://docs.openexchangerates.org/reference/historical-json",
+      "checked": "2026-09-05",
+      "supports": "UTC end-of-day snapshot semantics, timestamp publication definition, current UTC day partial-file exception"
+    },
+    {
+      "url": "https://openexchangerates.org/faq",
+      "checked": "2026-09-05",
+      "supports": "Previous UTC-day historical file available after midnight; blended reference rates; undisclosed underlying sources; no service guarantee"
+    },
+    {
+      "url": "https://docs.openexchangerates.org/reference/time-series-json",
+      "checked": "2026-09-05",
+      "supports": "Time-series each returned day consumes a request; no such endpoint called"
+    },
+    {
+      "url": "https://openexchangerates.org/license",
+      "checked": "2026-09-05",
+      "supports": "Legacy license replaced by current terms; source should not be labelled open-licensed merely because a local CSV exists"
+    }
+  ],
+  "open_items": [
+    {
+      "severity": "research limitation",
+      "item": "No fetched_at/raw historical vintages to establish revision-free point-in-time values; report as documented publication-lag retrospective ablation."
+    }
+  ],
+  "implementation_audit": {
+    "path": "audit/REPORT.md",
+    "verification_receipt": "audit/verification.json",
+    "passed": 124,
+    "failed": 0,
+    "checkpoints": 95,
+    "baseline_development_rows_each": 3635,
+    "baseline_january2026_rows_each": 780,
+    "baseline_max_probability_difference": 0,
+    "open_implementation_findings": 0
+  }
+}

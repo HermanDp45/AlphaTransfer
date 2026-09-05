@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reason": "Delayed feature rolling state now preserves normal pre-cutoff history; native source returns unchanged",
+  "fit_engine_snapshot_sha256": "a805c395d787590ba07255c40b7d3b5fab3337dac1bfca7fa91fd10772c7c79c",
+  "current_engine_sha256": "52a32a530a1a840d9d9cc0aeab1010f3d9e76effe89006e73648115ff223ecf2",
+  "code_sha256": "ee513f454b62f8d179064f70cffdb08c13b37412166106fffbf50905d9232258",
+  "original_selection_development": "before_onset_repair/development_predictions.csv.gz",
+  "normal_predictions_unchanged": true,
+  "selection_unchanged": true,
+  "refits": 0
+}

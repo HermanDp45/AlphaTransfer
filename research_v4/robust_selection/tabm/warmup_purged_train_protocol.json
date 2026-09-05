@@ -1,0 +1,8 @@
+{
+  "created_unix": 1788620606.771968,
+  "request": "63 latest unique dates of actual purged training sample before prior-year calibration start; same checkpoint.",
+  "labels": "All outcome columns masked. Probabilities are in-sample training-date predictions used only to initialize past score ranks, not a separate validation set.",
+  "output": "warmup_raw_predictions.csv.gz, split=warmup, same schema as main raw_predictions.csv.gz",
+  "source_sha256": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+  "code_sha256": "a250f2373e6caa5125f0ddbc2dd9bc76ac01378d06e8edbbcbb3748c1595dc33"
+}

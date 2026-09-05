@@ -1,0 +1,37 @@
+{
+  "frozen_at_utc": "2026-09-05T11:29:05.127478+00:00",
+  "status": "post-audit numerical attribution after original test readout; not independent new validation",
+  "arms": [
+    "synth_basis2010_D2",
+    "small_basis2010_D2",
+    "synth_kzt_basis2010_halyk_H1O2"
+  ],
+  "cutoffs": [
+    "2023-01-01",
+    "2024-01-01",
+    "2025-01-01",
+    "2026-01-01",
+    "2026-03-01"
+  ],
+  "models": 15,
+  "common_feature_rule": "For dates>=2018-09-01 replace all numerical OXR features with exact same-snapshot since2018-06-17 view; preserve every earlier feature value from2010 view. No other feature or label changes.",
+  "common_columns": [
+    "oxr_ret1",
+    "oxr_ret5",
+    "oxr_ret20",
+    "oxr_vol20",
+    "oxr_log_basis",
+    "oxr_basis_chg1",
+    "oxr_basis_chg5",
+    "oxr_basis_z20",
+    "oxr_available",
+    "oxr_age_days"
+  ],
+  "new_hyperparameters": false,
+  "new_selection": false,
+  "original_selection_preserved": true,
+  "source": "same frozen root input_oxr_snapshot.csv for both views",
+  "head": "same fixed10year HGB and forecast cache, prior12month calibration and matured labels, explicitJan/Mar history replay",
+  "original_protocol_sha256": "e7e653258393f55338181c75b546b1b6177e48a35797f55db5289922f0cb0263",
+  "code_sha256": "c0f80b96cb303d7952bbc3eb065f34a44539cb6623c0288a3024f68a12c4c68d"
+}

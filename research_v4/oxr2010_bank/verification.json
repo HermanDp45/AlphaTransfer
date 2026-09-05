@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-09-05T11:36:00.675845+00:00",
+  "prior_v4_files_preserved": 4211,
+  "original_navigation_copies_exact": true,
+  "v3_files_preserved": 406,
+  "final_solution_locked_files_unchanged": 13,
+  "normalized_artifacts_unchanged": 76,
+  "new_oxr_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+  "scientific_receipts": {
+    "data_audit/source_audit.json": "5efe249715a9baeb783ecdec03c51df39985315b3939adeffc0b1331a7dff27a",
+    "data_audit/design_verification.json": "81d742fd8f1190c99f294bd0862273d132551768b39dfea78133bc292ad5df96",
+    "data_audit/final_verification.json": "5a1ac4167c487c5ba45adbb07f2e84baed42bf99469f287aa3d89db08765d32d",
+    "long_models/verification.json": "9d9147eb052827e22318ffe73af7780cdf5ab4865748e96eb5abe358c831c3f9",
+    "long_models/canonical/verification.json": "589ce345b875f8de4d49e06bb1d4c423981d8dc875836b1e05e87ac47954dd12",
+    "long_models/inference_receipt.json": "580d5856781a6d98652e0da6512de37df1b61ca585552d5817bc2b9646b8bef9",
+    "long_models/simultaneous_receipt.json": "08eeec76265273f8a17e25aa5511b3c2b4db2453b95a99cc9ca17aa329e6e386",
+    "foundation/verification.json": "12102b127f8148073a11d45df1ccea302f78946826229aa0c344f64be5f7ad77",
+    "foundation/final_verification.json": "ed0727d138a7d3a3d6f625ec7c2472cd396965083c26a91d98838c70eef9ee44",
+    "bank_target/results/verification.json": "11da5133537b1dd83c96528fae0ed9f48897f4a612749a5c6d1aa6647613e59f"
+  },
+  "long_hgb_fits": 170,
+  "original_model_view_replays": 285,
+  "canonical_predictions_same_as_original": {
+    "matched_rows": 50250,
+    "max_probability_difference": 0.0,
+    "candidate_mismatches": 0,
+    "normal_max_probability_difference": 0.0
+  },
+  "bank_package_files": 120,
+  "local_report_links": 93,
+  "figure_inspection": "results.png rendered and visually inspected; labels/zero lines visible, ordinary vs simultaneous intervals distinguished",
+  "interpretation": "Reproducibility/source/timing verification; no claim of confirmed execution uplift or pristine holdout"
+}

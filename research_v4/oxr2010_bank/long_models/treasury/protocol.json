@@ -1,0 +1,71 @@
+{
+  "created_unix": 1788606395.508255,
+  "specifications": [
+    {
+      "name": "treasury_v3_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "treasury_oxr_basis_2018_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2018-06-17",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "treasury_oxr_basis_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "treasury_oxr_full_2010_120m",
+      "months": 120,
+      "family": "full",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": false,
+      "premium": false
+    },
+    {
+      "name": "treasury_halyk_shrink_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "treasury_fusion_2010_120m",
+      "months": 120,
+      "family": "basis",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    }
+  ],
+  "reason": "V3 long120+Treasury lag7 was strongest prior macro Brier branch; matched controls fixed before addendum results",
+  "source_coverage": "Frozen Treasury features begin2020, never backfill before2020",
+  "selection_uses_2026": false,
+  "source_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+  "code_sha256": "f6bd80a94999a6ac7f72180ae277a8b5be85ff2dc2023e4b34119becc45ab805",
+  "engine_sha256": "a805c395d787590ba07255c40b7d3b5fab3337dac1bfca7fa91fd10772c7c79c"
+}

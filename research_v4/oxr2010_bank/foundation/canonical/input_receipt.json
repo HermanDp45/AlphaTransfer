@@ -1,0 +1,16 @@
+{
+  "snapshot_min_date": "2010-01-01",
+  "snapshot_max_date": "2026-09-04",
+  "snapshot_rows": 54454,
+  "input_sha256": {
+    "research_v4/oxr2010_bank/input_oxr_snapshot.csv": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "research_v3/models/panel_extended.pkl": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6",
+    "research_v3/models/data/cbr_extended.csv": "105db9d5a6148da43cffba75c0d5bc5a8f76a80ad45d8844ae6189ff1223ce9d",
+    "research_v4/liquidity/halyk_sell_daily.csv": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "research_v4/continuation/oxr/experiment.py": "d98c009be6d119929a63bd70f0f771df05157551e8b445770c6b6e0318c8487f",
+    "research_v4/liquidity/experiment.py": "d2cf11610daf4aff209abaf7bb97705d5e5a1f7bcc45b351009f580dde467dfa",
+    "research_v4/continuation/foundation/run_heads.py": "d12199f4f236ddaf9593edea2ee17b36f877a5dcf5c651d1433ddd023f5afbf2",
+    "final_solution/training/core_experiment.py": "263d967454a42df671de5143b5c3d6b4086a4b45c3609f9cf242134a52856b90"
+  },
+  "code_sha256": "02ecf5707fd9730ebb59363cd9971e7629239ac3fc3a9a73e641885819333897"
+}

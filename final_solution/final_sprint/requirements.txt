@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+scipy
+catboost==1.2.10
+torch
+tabm
+rtdl-num-embeddings
+joblib
+threadpoolctl

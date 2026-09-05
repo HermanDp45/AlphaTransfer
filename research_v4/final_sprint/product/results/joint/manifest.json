@@ -1,0 +1,61 @@
+{
+  "now_selection": {
+    "status": "complete",
+    "selection_uses_2026": true,
+    "claim": "Retrospective selected model; block intervals conditional on fixed predictions, not selection-adjusted.",
+    "fresh_bank_override": true,
+    "source_delay_is_selection_gate": false,
+    "champion": {
+      "config_id": "tabm_periodic_kzt_120m_s2_kztcal",
+      "policy": "cadence85_cd2",
+      "passed": true,
+      "passed_2026": true,
+      "passed_2025": true,
+      "min_lift": 1.192982456140351,
+      "min_coverage": 0.8484848484848485,
+      "min_utility_bps": 43.152652429712305,
+      "normal_lift": 1.505263157894737,
+      "normal_coverage": 0.8787878787878788,
+      "normal_utility_bps": 66.21511623261752,
+      "normal_2025_lift": 1.5125,
+      "min_2025_lift": 0.6932291666666667,
+      "min_2025_coverage": 0.8627450980392157,
+      "redundancy": 0,
+      "policy_complexity": 1
+    },
+    "model_policy_count": 292,
+    "fits_hgb_annual": 64,
+    "fits_hgb_monthly": 54
+  },
+  "now_input_sha256": {
+    "research_v4/final_sprint/selection.json": "afbb4ceb582cf7ffd7da761a47c75ddbfca9477287190545d4247c3bae6ebf80",
+    "research_v4/final_sprint/selected_predictions.csv.gz": "8f32c8cdb872be5d869fc114927ec992f21734e2e7ca6cca893ba9cedc2932fd",
+    "research_v4/final_sprint/selected_history.csv.gz": "17131626f288269710884bc92c59edaabd429c8beb7976b50b0a045340cabdac"
+  },
+  "preserved_input_snapshots": {
+    "research_v4/final_sprint/selection.json": {
+      "path": "results/joint/input_snapshot/0_selection.json",
+      "sha256": "afbb4ceb582cf7ffd7da761a47c75ddbfca9477287190545d4247c3bae6ebf80"
+    },
+    "research_v4/final_sprint/selected_predictions.csv.gz": {
+      "path": "results/joint/input_snapshot/1_selected_predictions.csv.gz",
+      "sha256": "8f32c8cdb872be5d869fc114927ec992f21734e2e7ca6cca893ba9cedc2932fd"
+    },
+    "research_v4/final_sprint/selected_history.csv.gz": {
+      "path": "results/joint/input_snapshot/2_selected_history.csv.gz",
+      "sha256": "17131626f288269710884bc92c59edaabd429c8beb7976b50b0a045340cabdac"
+    }
+  },
+  "now_history_sources": [
+    "research_v4/final_sprint/selected_history.csv.gz"
+  ],
+  "code_sha256": "2460af4133a31d58a941b0b7488c476a16ba5e79aa3e9038a37e30ceb1cc5867",
+  "protocol_sha256": "57237c5b016444c45f3359cda92d6206b9adf7f8e9ab6d920929136813ae3689",
+  "semantic_routing_addendum_sha256": "6501e9d820577030b65a6b09928eb11fa6c49383cb4cd0a422e6ff5b0b9be396",
+  "closing_predictions_sha256": "5ea8e5b793eb4bd8ce99b75bc9273384e3723c80a880130ba966ef4449a7fea1",
+  "closing_history_sha256": "67f642ff2c5305538d24931439175fce16d2f47089c5b7ab2f605d98073f8c9e",
+  "prediction_sha256": "a11cb0e56cbd2b904c03fa424472390ca0f006227d0c5af2232276d70b23ed84",
+  "selection_uses_2026": true,
+  "joint_test_threshold_search": false,
+  "metric_contract": "separate NOW and CLOSING hits/lift; only cadence and reference forward utility pooled"
+}

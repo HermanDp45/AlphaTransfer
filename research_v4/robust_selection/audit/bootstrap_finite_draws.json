@@ -1,0 +1,210 @@
+[
+  {
+    "candidate": "tabm_pooled::rank80",
+    "horizon": 3,
+    "scope": "all5",
+    "year": "2024",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.009199333639846515,
+        "high": 0.01374515944058754
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.2294532296370945,
+        "high": 0.32682221587442817
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -10.1591930356659,
+        "high": 22.096099843566098
+      }
+    }
+  },
+  {
+    "candidate": "tabm_pooled::rank80",
+    "horizon": 3,
+    "scope": "all5",
+    "year": "2025",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.005487428275781355,
+        "high": 0.0035986519325047085
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.821651194776797,
+        "high": 0.3550950279045045
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -77.19946282638094,
+        "high": -3.4991312496616684
+      }
+    }
+  },
+  {
+    "candidate": "tabm_pooled::rank80",
+    "horizon": 3,
+    "scope": "all5",
+    "year": "2026",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.02247605544204305,
+        "high": -0.006138536640637553
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.717682809652016,
+        "high": 0.028203296802745838
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -59.514637910255594,
+        "high": -10.130619645570619
+      }
+    }
+  },
+  {
+    "candidate": "tabm_pooled::rank80",
+    "horizon": 3,
+    "scope": "all5",
+    "year": "all",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.008111700179011135,
+        "high": 0.001892872485997311
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.3507001784564533,
+        "high": 0.09456869232596904
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -30.868306417832216,
+        "high": -0.04132943842147083
+      }
+    }
+  },
+  {
+    "candidate": "tabm_pooled::cadence85",
+    "horizon": 3,
+    "scope": "KZT",
+    "year": "2024",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.015371682059977484,
+        "high": 0.00952990058647859
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.15608118677141877,
+        "high": 0.7816529967535204
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 2.9052807515801176,
+        "high": 76.46953400409213
+      }
+    }
+  },
+  {
+    "candidate": "tabm_pooled::cadence85",
+    "horizon": 3,
+    "scope": "KZT",
+    "year": "2025",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.020034262555829546,
+        "high": -0.0003102562587117768
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.6246854162918558,
+        "high": 0.6122968203875258
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -53.297542386227256,
+        "high": 18.484189109629902
+      }
+    }
+  },
+  {
+    "candidate": "tabm_pooled::cadence85",
+    "horizon": 3,
+    "scope": "KZT",
+    "year": "2026",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.028776129179522863,
+        "high": -0.017126295114601283
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.832520325203252,
+        "high": 0.14584382026242504
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -71.72866789081108,
+        "high": 8.568419803884748
+      }
+    }
+  },
+  {
+    "candidate": "tabm_pooled::cadence85",
+    "horizon": 3,
+    "scope": "KZT",
+    "year": "all",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.01678193971059884,
+        "high": -0.004363156978594886
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.23602818799001413,
+        "high": 0.3296905852099145
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -16.889725246223602,
+        "high": 30.154513007003416
+      }
+    }
+  }
+]

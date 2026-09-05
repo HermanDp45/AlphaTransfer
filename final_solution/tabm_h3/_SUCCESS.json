@@ -1,0 +1,9 @@
+{
+  "status": "active_H3_profile",
+  "manifest_sha256": "28308d15516cf7eeec4f50569833d5569a85f09c0ceaf12e7cadd72892fe1af5",
+  "independent_checks": 120,
+  "unit_tests": 15,
+  "history_start": "2010-01-01",
+  "primary_horizon": 3,
+  "closing_active": false
+}

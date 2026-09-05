@@ -1,0 +1,9 @@
+{
+  "cbr": "research_v4/h3_finalization/audit/latest_cbr.csv",
+  "moex_cny_close": "final_solution/data/normalized/moex_cnyrub_tom.csv",
+  "moex_cny_fixing": "final_solution/data/normalized/moex_cny_fixing.csv",
+  "oxr": "research_v4/oxr2010_bank/input_oxr_snapshot.csv",
+  "halyk": "research_v4/liquidity/halyk_sell_daily.csv",
+  "treasury_t10yie": "research_v3/external_data/normalized/treasury_t10yie.csv",
+  "treasury_t5yifr": "research_v3/external_data/normalized/treasury_t5yifr.csv"
+}

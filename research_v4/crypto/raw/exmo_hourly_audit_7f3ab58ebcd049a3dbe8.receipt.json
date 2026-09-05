@@ -1,0 +1,11 @@
+{
+  "url": "https://api.exmo.me/v1.1/candles_history?symbol=USDT_RUB&resolution=60&from=1646784000&to=1646870399",
+  "final_url": "https://api.exmo.me/v1.1/candles_history?symbol=USDT_RUB&resolution=60&from=1646784000&to=1646870399",
+  "retrieved_utc": "2026-09-05T08:33:31.958518+00:00",
+  "status": 200,
+  "bytes": 2329,
+  "sha256": "29a5d9b14e30f112ff9b7e5654e00006de18ad7d9d17945804f6a41ad0a2b88c",
+  "content_type": "application/json; charset=utf-8",
+  "raw_path": "raw/exmo_hourly_audit_7f3ab58ebcd049a3dbe8.bin",
+  "group": "exmo_hourly_audit"
+}

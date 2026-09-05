@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <link rel="shortcut icon" href="/blog/public/images/favicon.ico" type="image/x-icon">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v21.7 (Yoast SEO v21.7) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Делистинг торговых пар на EXMO.me - EXMO.me Info Hub</title>
+	<meta name="description" content="12 января из листинга биржи будут удалены некоторые торговые пары. Проверьте список, чтобы успеть вывести активы или обменять их.">
+	<link rel="canonical" href="/blog/uvedomleniya/delisting-trading-pairs-on-exmo-me-2/">
+<meta property="og:locale:alternate" content="en_GB">	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Делистинг торговых пар на EXMO.me">
+	<meta property="og:description" content="12 января из листинга биржи будут удалены некоторые торговые пары. Проверьте список, чтобы успеть вывести активы или обменять их.">
+	<meta property="og:url" content="/blog/uvedomleniya/delisting-trading-pairs-on-exmo-me-2/">
+	<meta property="og:site_name" content="EXMO.me Info Hub">
+	<meta property="article:modified_time" content="2026-01-07T12:24:18+00:00">
+	<meta property="og:image" content="/blog/wp-content/uploads/2026/01/1032x540-21.png">
+	<meta property="og:image:width" content="1032">
+	<meta property="og:image:height" content="540">
+	<meta property="og:image:type" content="image/png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:label1" content="Est. reading time">
+	<meta name="twitter:data1" content="1 minute">
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="dns-prefetch" href="/blog/static.addtoany.com">
+<link rel="dns-prefetch" href="/blog/">
+<link rel="dns-prefetch" href="/blog/fonts.googleapis.com">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/blog\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🫱🏻‍🫲🏿","🫱🏻​🫲🏿")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/blog/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="wpml-legacy-horizontal-list-0-css" href="/blog/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=1" type="text/css" media="all">
+<link crossorigin="anonymous" rel="stylesheet" id="font_roboto-css" href="https://fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C500%3B1%2C400%3B1%2C500&#038;display=swap" type="text/css" media="all">
+<link rel="stylesheet" id="index_style-css" href="/blog/public/css/index-me.css?ver=6" type="text/css" media="all">
+<link rel="stylesheet" id="addtoany-css" href="/blog/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16" type="text/css" media="all">
+<script type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
+	Share: "Share",
+	Save: "Save",
+	Subscribe: "Subscribe",
+	Email: "Email",
+	Bookmark: "Bookmark",
+	ShowAll: "Show all",
+	ShowLess: "Show less",
+	FindServices: "Find service(s)",
+	FindAnyServiceToAddTo: "Instantly find any service to add to",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Bookmark in your browser",
+	BookmarkInstructions: "Press Ctrl+D or ⌘+D to bookmark this page",
+	AddToYourFavorites: "Add to your favorites",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;",
+	ThanksForSharing: "Thanks for sharing!",
+	ThanksForFollowing: "Thanks for following!"
+};
+/* ]]> */
+</script>
+<script type="text/javascript" async src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="text/javascript" src="/blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" async src="/blog/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/blog/xmlrpc.php?rsd">
+
+<link rel="shortlink" href="/blog/?p=15811">
+<meta name="generator" content="WPML ver:4.6.13 stt:45;">
+<!-- There is no amphtml version available for this URL. --><link rel="icon" href="/blog/wp-content/uploads/2020/08/cropped-180-32x32.png" sizes="32x32">
+<link rel="icon" href="/blog/wp-content/uploads/2020/08/cropped-180-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/blog/wp-content/uploads/2020/08/cropped-180-180x180.png">
+<meta name="msapplication-TileImage" content="/blog/wp-content/uploads/2020/08/cropped-180-270x270.png">
+
+			<!-- Google Tag Manager -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHES0FGP8Z"></script>
+		<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-ZHES0FGP8Z');</script>
+		<!-- End Google Tag Manager -->
+
+		<!-- Yandex.Metrika counter -->
+		<script type="text/javascript">
+			(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+				m[i].l=1*new Date();
+				for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+				k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+			ym(92844770, "init", {
+				clickmap:true,
+				trackLinks:true,
+				accurateTrackBounce:true,
+				webvisor:true
+			});
+		</script>
+		<noscript><div><img src="https://mc.yandex.ru/watch/92844770" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+		<!-- /Yandex.Metrika counter -->
+	
+			<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-culture="ru" data-cbid="26f80d27-9081-41b2-8950-16c1b41161d1" type="text/javascript" async></script>
+	
+	
+	<script>window.baseEndpoint = ""</script>
+</head>
+
+
+<body class="" data-post-id="15811">
+
+
+<div class="svg-icons" style="display:none">
+	<svg id="clock-icon" viewbox="0 0 16 16" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.99968 3.99967V7.99968L10.6663 9.33301M14.6663 7.99968C14.6663 11.6816 11.6816 14.6663 7.99968 14.6663C4.31778 14.6663 1.33301 11.6816 1.33301 7.99968C1.33301 4.31778 4.31778 1.33301 7.99968 1.33301C11.6816 1.33301 14.6663 4.31778 14.6663 7.99968Z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+	<svg id="views-icon" viewbox="0 0 16 16" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M1.61341 8.47513C1.52262 8.33137 1.47723 8.25949 1.45182 8.14862C1.43273 8.06534 1.43273 7.93401 1.45182 7.85073C1.47723 7.73986 1.52262 7.66798 1.61341 7.52422C2.36369 6.33623 4.59693 3.33301 8.00027 3.33301C11.4036 3.33301 13.6369 6.33623 14.3871 7.52422C14.4779 7.66798 14.5233 7.73986 14.5487 7.85073C14.5678 7.93401 14.5678 8.06534 14.5487 8.14862C14.5233 8.25949 14.4779 8.33137 14.3871 8.47513C13.6369 9.66311 11.4036 12.6663 8.00027 12.6663C4.59693 12.6663 2.36369 9.66311 1.61341 8.47513Z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+		<path d="M8.00027 9.99967C9.10484 9.99967 10.0003 9.10424 10.0003 7.99967C10.0003 6.8951 9.10484 5.99967 8.00027 5.99967C6.8957 5.99967 6.00027 6.8951 6.00027 7.99967C6.00027 9.10424 6.8957 9.99967 8.00027 9.99967Z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+	</svg>
+	<svg id="likes-icon" viewbox="0 0 16 16" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M7.99511 3.42388C6.66221 1.8656 4.43951 1.44643 2.76947 2.87334C1.09944 4.30026 0.86432 6.68599 2.17581 8.3736C3.26622 9.77674 6.56619 12.7361 7.64774 13.6939C7.76874 13.801 7.82925 13.8546 7.89982 13.8757C7.96141 13.8941 8.02881 13.8941 8.0904 13.8757C8.16097 13.8546 8.22147 13.801 8.34248 13.6939C9.42403 12.7361 12.724 9.77674 13.8144 8.3736C15.1259 6.68599 14.9195 4.28525 13.2207 2.87334C11.522 1.46144 9.32801 1.8656 7.99511 3.42388Z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+	</svg>
+	<svg id="likes-filled-icon" viewbox="0 0 16.667206 14.8623" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="m 8.3281285,1.7799408 c -1.667,-1.94800003 -4.446,-2.47200003 -6.532,-0.688 -2.08799997,1.783 -2.38199997,4.765 -0.743,6.875 1.363,1.754 5.488,5.4530002 6.84,6.6500002 0.152,0.134 0.227,0.201 0.315,0.228 a 0.42,0.42 0 0 0 0.239,0 c 0.088,-0.027 0.164,-0.094 0.315,-0.228 1.3520005,-1.197 5.4770005,-4.8960002 6.8400005,-6.6500002 1.64,-2.11 1.381,-5.11 -0.742,-6.875 -2.124,-1.76500003 -4.8660005,-1.26000003 -6.5320005,0.688 z"></path>
+		<path clip-rule="evenodd" d="m 8.3281285,1.7799408 c -1.667,-1.94800003 -4.446,-2.47200003 -6.532,-0.688 -2.08799997,1.783 -2.38199997,4.765 -0.743,6.875 1.363,1.754 5.488,5.4530002 6.84,6.6500002 0.152,0.134 0.227,0.201 0.315,0.228 a 0.42,0.42 0 0 0 0.239,0 c 0.088,-0.027 0.164,-0.094 0.315,-0.228 1.3520005,-1.197 5.4770005,-4.8960002 6.8400005,-6.6500002 1.64,-2.11 1.381,-5.11 -0.742,-6.875 -2.124,-1.76500003 -4.8660005,-1.26000003 -6.5320005,0.688 z"></path>
+	</svg>
+</div>
+
+<div class="wrapper ">
+    <div class="wrapper__align">
+        <header class="header-custom">
+                        <div class="header-custom__block">
+                <div class="header-custom__box">
+                    <a href="https://exmo.me/" class="header-custom__logo">
+													<img src="/blog/wp-content/uploads/2022/04/logo_me-1.svg">
+						                    </a>
+                    <nav class="header-custom__nav">
+                        <ul id="menu-%d1%85%d1%8d%d0%b4%d0%b5%d1%80-%d0%bc%d0%b5%d0%bd%d1%8e-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9" class="">
+<li id="menu-item-1687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1687"><a href="https://exmo.me/trade">Торги</a></li>
+<li id="menu-item-1688" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1688"><a href="https://exmo.me/simple_trade">Быстрый обмен</a></li>
+<li id="menu-item-367" class="menu-item menu-item-type-post_type_archive menu-item-object-news menu-item-367"><a href="/blog/news/">Новости</a></li>
+<li id="menu-item-368" class="menu-item menu-item-type-post_type_archive menu-item-object-articles menu-item-368"><a href="/blog/articles/">Статьи</a></li>
+<li id="menu-item-369" class="menu-item menu-item-type-post_type_archive menu-item-object-faq menu-item-369"><a href="/blog/faq/">FAQ</a></li>
+</ul>                    </nav>
+                </div>
+                                    <a class="header-custom__login" href="https://exmo.me/login">Вход</a>
+                                                    <a class="header-custom__signup" href="https://exmo.me/register">Регистрация</a>
+                                <div class="header-custom__holder">
+                                        <div class="menu-opener">
+                        <span class="menu-opener__line line-1"></span>
+                        <span class="menu-opener__line line-2"></span>
+                    </div>
+                </div>
+            </div>
+				            <div class="search-section">
+	                <form id="search_form" class="search-section__form">
+	                    <div class="search-section__box">
+	                        <button class="search-section__btn">
+	                            <img class="svg skip-lazy" width="24" height="24" src="/blog/public/images/search-ico.svg">
+	                        </button>
+	                        <input class="search-section__field" type="search" name="s" autocomplete="off" placeholder="Поиск по сайту">
+	                        <input type="hidden" name="lang" value="ru" form="search_form">
+	                        <div class="search-section__close">
+	                            <img class="svg skip-lazy" src="/blog/public/images/close.svg">
+	                        </div>
+	                    </div>
+	                </form>
+	                <div class="preload hide" id="search_preloader">
+	                    <img class="svg skip-lazy" src="/blog/public/images/preload.svg">
+	                </div>
+	                <ul class="search-section__result">
+
+	                </ul>
+	                <div class="search-section__no-result" style="display: none;">
+	                    По вашему запросу результатов не найдено.	                </div>
+	            </div>
+	                </header>
+
+    <div class="news-inner">
+        <div class="news-inner__top no-image">
+            <div class="news-inner__box">
+                <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a class="ajax-link" itemprop="item" href="/blog/">
+                            <span itemprop="name">
+                                Главная                            </span>
+                        </a>
+                        <meta itemprop="position" content="1">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a class="ajax-link" itemprop="item" href="/blog/news/">
+                            <span itemprop="name">
+                                Новости                            </span>
+                        </a>
+                        <meta itemprop="position" content="2">
+                    </li>
+					                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a class="ajax-link" itemprop="item" href="/blog/news/uvedomleniya/">
+                                <span itemprop="name">
+                                    Уведомления                                </span>
+                            </a>
+                            <meta itemprop="position" content="3">
+                        </li>
+					                    <li>
+                        <div class="ajax-link">
+                            <span>
+                                Делистинг торговых пар на EXMO.me                            </span>
+                        </div>
+                    </li>
+                </ol>
+                <div class="news-inner__top-info">
+                    <a class="back" href="/blog/news/">
+                        <img class="svg skip-lazy" src="/blog/public/images/back-arrow.svg">
+						Назад к Новости                    </a>
+                    <h1 class="news-inner__title">
+						Делистинг торговых пар на EXMO.me                    </h1>
+                    <div class="news-inner__text">
+						<p>12 января из листинга биржи будут удалены некоторые торговые пары. Проверьте список, чтобы успеть вывести активы или обменять их.</p>
+                    </div>
+	                <div class="news-custom__bottom">
+		                <ul class="news-custom__feats">
+											                <li>
+					                <a href="/blog/news/uvedomleniya/">
+										Уведомления					                </a>
+				                </li>
+																											                <li><a href="/blog/author/exmo-me/" title="Posts by EXMO.me" rel="author">EXMO.me</a></li>
+																		                <li>
+				                <a>
+									05-01-2026				                </a>
+			                </li>
+		                </ul>
+					</div>
+                </div>
+            </div>
+        </div>
+		        <div class="news-inner__content no-image">
+                            <img src="/blog/wp-content/uploads/2026/01/1032x540-21.png" width="1032" height="540" class="news-inner__content-img" alt="">
+                        <p>В рамках регулярного обновления торговых пар, анализа ликвидности и качества торгов EXMO.me сообщает о предстоящем делистинге ряда торговых пар, торговля по которым будет прекращена 12 января 2026 года. Данное решение направлено на повышение эффективности торгов и концентрацию ликвидности в наиболее востребованных инструментах.</p>
+<h3><strong>Пары, которые будут удалены:</strong></h3>
+<ul>
+<li>QTUM/ETH</li>
+<li>XRP/ETH</li>
+<li>BCH/ETH</li>
+<li>BCH/RUB</li>
+<li>DASH/RUB</li>
+<li>DOGE/RUB</li>
+<li>ETC/RUB</li>
+<li>LTC/RUB</li>
+<li>TRX/RUB</li>
+<li>WAVES/RUB</li>
+<li>ZRX/ETH</li>
+</ul>
+<h3><strong>Важно:</strong></h3>
+<p><strong>12 января 2026 года</strong> указанные торговые пары будут удалены с платформы. В день делистинга все активные ордера по этим парам будут автоматически отменены.</p>
+<p>❗️Рекомендуем <strong>заранее отменить открытые ордера</strong> и при необходимости перевести средства в другие доступные торговые пары, чтобы избежать неудобств.</p>
+<p><em>Если у вас возникнут вопросы, служба поддержки EXMO.me всегда готова помочь.</em></p>
+<p>Спасибо, что торгуете на EXMO.me.</p>
+<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_24 addtoany_list" data-a2a-url="/blog/ru/uvedomleniya/delisting-trading-pairs-on-exmo-me-2/" data-a2a-title="Делистинг торговых пар на EXMO.me">
+<a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=%2Fblog%2Fuvedomleniya%2Fdelisting-trading-pairs-on-exmo-me-2%2F&amp;linkname=%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BF%D0%B0%D1%80%20%D0%BD%D0%B0%20EXMO.me" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=%2Fblog%2Fuvedomleniya%2Fdelisting-trading-pairs-on-exmo-me-2%2F&amp;linkname=%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BF%D0%B0%D1%80%20%D0%BD%D0%B0%20EXMO.me" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_telegram" href="https://www.addtoany.com/add_to/telegram?linkurl=%2Fblog%2Fuvedomleniya%2Fdelisting-trading-pairs-on-exmo-me-2%2F&amp;linkname=%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BF%D0%B0%D1%80%20%D0%BD%D0%B0%20EXMO.me" title="Telegram" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_copy_link" href="https://www.addtoany.com/add_to/copy_link?linkurl=%2Fblog%2Fuvedomleniya%2Fdelisting-trading-pairs-on-exmo-me-2%2F&amp;linkname=%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%B3%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BF%D0%B0%D1%80%20%D0%BD%D0%B0%20EXMO.me" title="Copy Link" rel="nofollow noopener" target="_blank"></a>
+</div></div>        </div>
+        <div class="news-inner__add">
+                            <div class="news-inner__tags">
+                    <ul class="news-columns__tags">
+                                                    <li>
+                                <a href="/blog/tag/delisting/">
+                                    Делистинг                                </a>
+                            </li>
+                                            </ul>
+                </div>
+                        <div id="sharing">
+				            </div>
+        </div>
+		
+		                <div class="similar-news">
+                    <div class="similar-news-title">Похожие новости</div>
+                    <ul class="similar-news__list">
+						                            <li>
+                                <a href="/blog/uvedomleniya/delisting-om-and-upcoming-migration-to-mantra/">
+									Делистинг OM и предстоящая миграция в MANTRA                                </a>
+                            </li>
+						                            <li>
+                                <a href="/blog/uvedomleniya/delisting-trading-pairs-on-exmo-me/">
+									Делистинг торговых пар на EXMO.me 1 декабря                                </a>
+                            </li>
+						                            <li>
+                                <a href="/blog/uvedomleniya/ai16z-token-migration-to-elizaos-what-you-need-to-know/">
+									Миграция токена AI16Z в ELIZAOS: что нужно знать пользователям EXMO.me                                </a>
+                            </li>
+						                    </ul>
+                </div>
+			    </div>
+</div>
+<footer id="footer" class="footer-custom">
+    <div class="footer-custom__holder">
+        <div class="footer-custom__list">
+	        <div class="footer-custom__list-item">
+		        <nav class="footer-custom__nav footer-custom__nav--double">
+			        <div class="footer-custom__title">
+						Продукты			        </div>
+					<div><ul>
+<li class="page_item page-item-15920"><a href="/blog/p2p-service-usage-policy/">Политика использования P2P-сервиса</a></li>
+<li class="page_item page-item-15314"><a href="/blog/legal-documents/">Юридические документы</a></li>
+<li class="page_item page-item-9752"><a href="/blog/earn-service-agreement_exmome/">Соглашение EXMO.me об Услуге Earn</a></li>
+<li class="page_item page-item-7380"><a href="/blog/otc/">EXMO Prime</a></li>
+<li class="page_item page-item-5687"><a href="/blog/achievements/">Достижения</a></li>
+<li class="page_item page-item-4476"><a href="/blog/bug-bounty-program/">Программа Bug Bounty</a></li>
+<li class="page_item page-item-3424"><a href="/blog/exmo-listing-policy/">Политика листинга ЕХМО</a></li>
+<li class="page_item page-item-2404"><a href="/blog/services-and-costs/">Сервисы и стоимость</a></li>
+<li class="page_item page-item-815"><a href="/blog/cookie-policy/">Политика использования cookie-файлов</a></li>
+<li class="page_item page-item-813"><a href="/blog/cross-chain-recovery-policy/">Политика восстановления перекрестных Пополнений счетов</a></li>
+<li class="page_item page-item-811"><a href="/blog/refund-policy/">Политика возврата</a></li>
+<li class="page_item page-item-341"><a href="/blog/about-us/">О нас</a></li>
+<li class="page_item page-item-345"><a href="/blog/contacts/">Контакты</a></li>
+<li class="page_item page-item-352"><a href="/blog/">EXMO Info Hub</a></li>
+<li class="page_item page-item-356"><a href="/blog/user-agreement/">Пользовательское соглашение</a></li>
+<li class="page_item page-item-14026"><a href="/blog/partnership-agreement/">ПАРТНЁРСКОЕ СОГЛАШЕНИЕ</a></li>
+<li class="page_item page-item-827"><a href="/blog/aml-ctf-kyc-policy/">Политика по предотвращению легализации доходов, добытых преступным путем, финансирования терроризма и Политика “Знай своего клиента”</a></li>
+<li class="page_item page-item-358"><a href="/blog/privacy-policy/">Политика конфиденциальности</a></li>
+</ul></div>
+		        </nav>
+		        <nav class="footer-custom__nav">
+			        <div class="footer-custom__title">
+						Функции			        </div>
+					<ul id="menu-footer-menu-2-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9" class="">
+<li id="menu-item-3499" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3499"><a href="https://exmo.me/ru/api/">API</a></li>
+<li id="menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a href="https://exmo.me/premium">EXMO Premium</a></li>
+<li id="menu-item-1737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1737"><a href="https://exmo.me/referal_program">Реферальная программа</a></li>
+<li id="menu-item-9379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9379"><a href="/blog/exmo-prime">EXMO Prime</a></li>
+<li id="menu-item-9381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9381"><a href="https://exmocoin.exmo.me/ru/?v=1">EXMO Coin</a></li>
+<li id="menu-item-9382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9382"><a href="/blog/product/exmo-gift-card">Подарочная карта EXMO</a></li>
+</ul>		        </nav>
+		        <nav class="footer-custom__nav">
+			        <div class="footer-custom__title">
+						Ресурсы			        </div>
+					<ul id="menu-footer-menu-5-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9" class="">
+<li id="menu-item-9384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9384"><a href="/blog/faq/">База знаний</a></li>
+<li id="menu-item-9385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9385"><a href="https://exmo.me/profile/support">Написать в поддержку</a></li>
+<li id="menu-item-9386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9386"><a href="https://exmo.me/commissions">Комиссии и лимиты</a></li>
+<li id="menu-item-9387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9387"><a href="/blog/articles/">Статьи</a></li>
+</ul>		        </nav>
+		        <nav class="footer-custom__nav">
+			        <div class="footer-custom__title">
+						Компания			        </div>
+					<ul id="menu-footer-menu-3-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9" class="">
+<li id="menu-item-7198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7198"><a href="/blog/about-us/">О нас</a></li>
+<li id="menu-item-1686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1686"><a href="/blog/news/">Новости</a></li>
+<li id="menu-item-9388" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9388"><a href="/blog/contacts/">Контакты</a></li>
+</ul>		        </nav>
+                                    <nav class="footer-custom__nav">
+                        <div class="footer-custom__title">
+                            Документы                        </div>
+                        <ul id="menu-footer-menu-4-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9" class="">
+<li id="menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-388"><a href="/blog/user-agreement/">Пользовательское соглашение</a></li>
+<li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390"><a rel="privacy-policy" href="/blog/privacy-policy/">Политика конфиденциальности</a></li>
+<li id="menu-item-830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-830"><a href="/blog/aml-ctf-kyc-policy/">Политика AML/CTF и KYC</a></li>
+<li id="menu-item-2455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2455"><a href="/blog/services-and-costs/">Сервисы и стоимость</a></li>
+<li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a href="/blog/cookie-policy/">Политика использования cookie-файлов</a></li>
+<li id="menu-item-823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-823"><a href="/blog/cross-chain-recovery-policy/">Политика cross-chain</a></li>
+<li id="menu-item-824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-824"><a href="/blog/refund-policy/">Политика возврата</a></li>
+</ul>                    </nav>
+                	        </div>
+
+	                </div>
+	    <div class="footer-custom__links">
+		    <!--<div class="footer-custom__links-stat">
+			    <div class="footer-custom__links-stat-item">
+				    Traders Online
+				    <div>16892</div>
+			    </div>
+			    <div class="footer-custom__links-stat-item">
+				    24h Volume
+				    <div>1443 BTC</div>
+			    </div>
+		    </div>-->
+					    <!--<ul class="footer-custom__pay-list">
+			    <li>
+				    <img width="55" height="20" src="images/pay-1.png">
+			    </li>
+			    <li>
+				    <img width="46" height="23" src="images/pay-2.png">
+			    </li>
+			    <li>
+				    <img width="31" height="24" src="images/pay-3.png">
+			    </li>
+			    <li>
+				    <img width="45" height="15" src="images/pay-4.png">
+			    </li>
+		    </ul>-->
+		    <ul class="footer-custom__social">
+				                                    <li>
+                        <a target="_blank" href="https://vk.com/exmo_me_rbk">
+                            <img class="svg skip-lazy" src="/blog/public/images/vk.svg">
+                        </a>
+                    </li>
+                								    <li>
+					    <a target="_blank" href="https://www.youtube.com/channel/UCVj_rwnR1p-7Da15L8MwRNQ">
+						    <img class="svg skip-lazy" src="/blog/public/images/yt.svg">
+					    </a>
+				    </li>
+																				    <li>
+					    <a target="_blank" href="https://t.me/exmo_me_official">
+						    <img class="svg skip-lazy" src="/blog/public/images/telega.svg">
+					    </a>
+				    </li>
+														    </ul>
+	    </div>
+        <div class="footer-custom__bottom">
+            <div class="footer-custom__bottom-box">
+                            </div>
+        </div>
+    </div>
+    <div class="arrow-up">
+        <div class="arrow-up__ico">
+            <img class="svg skip-lazy" width="18" height="18" src="/blog/public/images/arrow-up.svg">
+        </div>
+    </div>
+</footer>
+
+</div>
+
+        <span class="ssp-id" style="display:none">15811</span>
+		<script type="text/javascript" src="/blog/wp-content/plugins/simply-static-pro/assets/ssp-wpml-geo.js?ver=1.6.0" id="ssp-wpml-geo-js"></script>
+<script type="text/javascript" src="/blog/public/js/app.min.js?ver=2" id="app_js-js"></script>
+<script type="text/javascript" id="custom_js-js-extra">
+/* <![CDATA[ */
+var wpAjax = {"url":"\/blog\/wp-admin\/admin-ajax.php","read_more":"Открыть","hide":"Скрыть"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/blog/public/js/custom.js?ver=3" id="custom_js-js"></script>
+<script src="/blog/static/js/track-analytics.js"></script>
+</body>
+
+</html>

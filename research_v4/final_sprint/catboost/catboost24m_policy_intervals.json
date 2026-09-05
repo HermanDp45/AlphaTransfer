@@ -1,0 +1,65 @@
+{
+  "method": "Independent fixed-prediction four-calendar-week cluster bootstrap;10000replicates;not selection-adjusted.",
+  "results": [
+    {
+      "config_id": "catboost_treasury_halyk_24m_stable",
+      "policy": "cadence85_cd2",
+      "year": 2025,
+      "mode": "bank_delayed",
+      "blocks": 13,
+      "lift_ci95": [
+        1.2802054605626036,
+        2.233289538518192
+      ],
+      "forward_delta_bps_ci95": [
+        27.54102028480994,
+        61.67720002687183
+      ]
+    },
+    {
+      "config_id": "catboost_treasury_halyk_24m_stable",
+      "policy": "cadence85_cd2",
+      "year": 2025,
+      "mode": "normal",
+      "blocks": 13,
+      "lift_ci95": [
+        1.1574074074074072,
+        2.2467946884646794
+      ],
+      "forward_delta_bps_ci95": [
+        31.108537404068276,
+        72.05210480717044
+      ]
+    },
+    {
+      "config_id": "catboost_treasury_halyk_24m_stable",
+      "policy": "cadence85_cd2",
+      "year": 2026,
+      "mode": "bank_delayed",
+      "blocks": 9,
+      "lift_ci95": [
+        1.1238667375916915,
+        1.9554257481706465
+      ],
+      "forward_delta_bps_ci95": [
+        17.42793035896219,
+        67.01261019329505
+      ]
+    },
+    {
+      "config_id": "catboost_treasury_halyk_24m_stable",
+      "policy": "cadence85_cd2",
+      "year": 2026,
+      "mode": "normal",
+      "blocks": 9,
+      "lift_ci95": [
+        1.142857142857143,
+        2.0032520325203254
+      ],
+      "forward_delta_bps_ci95": [
+        30.230304356529775,
+        54.19657196263913
+      ]
+    }
+  ]
+}

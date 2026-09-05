@@ -1,0 +1,109 @@
+{
+  "profile_id": "tabm_kzt_h3_expanding2010",
+  "model_id": "tabm_kzt_h3_expanding2010_20260905",
+  "model_cutoff": "2026-09-05",
+  "train_horizon": 3,
+  "target_contract": "NOW:R[t]<=min(R[t+1:t+3]);R=RUB_per_KZT;h=3_effective_CBR_rows;tau=0",
+  "scenario": "NOW",
+  "corridor": "KZT",
+  "run_as_of": "2026-09-05",
+  "latest_source_feature_date": "2026-09-03",
+  "source_lag_calendar_days": 2,
+  "mode": "historical_smoke",
+  "authorized_contact": false,
+  "external_messages_sent": 0,
+  "closing": {
+    "status": "diagnostic_only_failed_annual_annotation_gates",
+    "enabled": false,
+    "scenario": "CLOSING",
+    "train_horizon": 3,
+    "target_contract": "CLOSING:R[t+3]>R[t];R=RUB_per_KZT;h=3_effective_CBR_rows;tau=0",
+    "model_sha256": "4510eef0f8bbbb30e32ccb1cc33f09455cb411bbe505731272c914eb938826fb",
+    "threshold": 0.5,
+    "extra_contacts": 0,
+    "own_probability": true,
+    "annual_metrics": [
+      {
+        "year": 2024,
+        "train_horizon": 3,
+        "model": "closing_hgb_kzt_fullhistory",
+        "policy": "NOW_H3_rank80_AND_closing_p05_AND_ret1positive",
+        "now_signals": 52,
+        "closing_annotations": 15,
+        "hit_rate": 0.6666666666666666,
+        "base_hit": 0.49795918367346936,
+        "lift": 1.3387978142076502,
+        "endpoint_delta_bps": 80.47329154516942,
+        "extra_contacts": 0
+      },
+      {
+        "year": 2025,
+        "train_horizon": 3,
+        "model": "closing_hgb_kzt_fullhistory",
+        "policy": "NOW_H3_rank80_AND_closing_p05_AND_ret1positive",
+        "now_signals": 63,
+        "closing_annotations": 24,
+        "hit_rate": 0.5416666666666666,
+        "base_hit": 0.430327868852459,
+        "lift": 1.2587301587301587,
+        "endpoint_delta_bps": 43.15792198713743,
+        "extra_contacts": 0
+      },
+      {
+        "year": 2026,
+        "train_horizon": 3,
+        "model": "closing_hgb_kzt_fullhistory",
+        "policy": "NOW_H3_rank80_AND_closing_p05_AND_ret1positive",
+        "now_signals": 36,
+        "closing_annotations": 22,
+        "hit_rate": 0.8181818181818182,
+        "base_hit": 0.6012658227848101,
+        "lift": 1.3607655502392346,
+        "endpoint_delta_bps": 132.37953110857555,
+        "extra_contacts": 0
+      }
+    ],
+    "probability": 0.8832486376911212,
+    "diagnostic_condition": true,
+    "annotation_active": false
+  },
+  "source_sha256": {
+    "cbr": "5678ec14d07b63a46e33e407cacb3c7e966cff45a89bf64607cb80b0aae55b10",
+    "moex_cny_close": "3057fcee8436b5fe8ff6b6b346a07913d88ad8f890c18e8cca8f3fe6f6cf5039",
+    "moex_cny_fixing": "d14b596218b670f8cb6112ebc939a0deefc5591ec287350778583b6de5b05433",
+    "oxr": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "halyk": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "treasury_t10yie": "a35f627e810aa12f579d1d3fc2b872e4cd8b2d0ae6ea3ce98cb758ef357a7429",
+    "treasury_t5yifr": "6d5a5528039eacb7eeedd87c0f0721d11dbb868aede8c6328e0546b291d3c1b1"
+  },
+  "state_binding_sha256": "adeff8431cbd9b81b5b2bba2d2175f0077ded95bfe6abc1dc8c03d21a93cdeba",
+  "limitations": [
+    "CBR reference target; executable Alpha quote is not supplied.",
+    "Known-at clocks for CBR/MOEX/Halyk/Treasury follow the documented inherited timing assumptions."
+  ],
+  "status": "historical_snapshot_smoke",
+  "rows": 1,
+  "NOW_contacts": 1,
+  "feature_date": "2026-09-03",
+  "feature_known_at": "2026-09-03 07:05:00+00:00",
+  "chronology": "in_calibration_snapshot",
+  "candidate_signal": true,
+  "probability": 0.5879177026927693,
+  "raw_probability": 0.488858163356781,
+  "rank_score": 0.6190476190476191,
+  "prior_score_count": 63,
+  "threshold": 0.6000000000000001,
+  "reason_codes": [
+    "NOW_H3_model_policy_pass"
+  ],
+  "model_verdict": "Модельный сигнал: выгодно сейчас",
+  "factual_context": {
+    "rub_per_kzt_reference": 0.189762,
+    "observed_ret1": 0.011186800745916381,
+    "historical_rank60": 0.9916666666666667
+  },
+  "probability_is_h3": true,
+  "is_oot_claim": false,
+  "preview_text": "Опубликованный справочный курс на 2026-09-03: 0.189762 RUB за 1 KZT. Актуальная котировка перевода рассчитывается отдельно.",
+  "annotations": []
+}

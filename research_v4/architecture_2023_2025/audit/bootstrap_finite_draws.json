@@ -1,0 +1,522 @@
+[
+  {
+    "baseline": "kzt_hgb_base15",
+    "candidate": "kzt_tabm_base15_s2",
+    "policy": "legacy",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -8.828166350037886e-05,
+        "high": 0.011684007922461798
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.2868133365438435,
+        "high": 0.12450428529873314
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -8.911248866697413,
+        "high": 11.998618269240183
+      }
+    }
+  },
+  {
+    "baseline": "kzt_hgb_base15",
+    "candidate": "kzt_tabm_base15_s2",
+    "policy": "cadence85_cd2",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -8.828166350037886e-05,
+        "high": 0.011684007922461798
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.05244053245443804,
+        "high": 0.24110365182306778
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 8.4391040774442,
+        "high": 28.429579561058443
+      }
+    }
+  },
+  {
+    "baseline": "kzt_hgb_base15",
+    "candidate": "kzt_tabm_base15_s2",
+    "policy": "fixed_threshold_0.50",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -8.828166350037886e-05,
+        "high": 0.011684007922461798
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.5584996199896538,
+        "high": 0.3140231303030268
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -46.687604373182175,
+        "high": 7.051392959063743
+      }
+    }
+  },
+  {
+    "baseline": "kzt_hgb_full33",
+    "candidate": "kzt_tabm_full33_s2",
+    "policy": "legacy",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.001517944720158683,
+        "high": 0.010523651017530396
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.3280699518165676,
+        "high": 0.25616915303135357
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -21.397204423102266,
+        "high": 13.893375788729346
+      }
+    }
+  },
+  {
+    "baseline": "kzt_hgb_full33",
+    "candidate": "kzt_tabm_full33_s2",
+    "policy": "cadence85_cd2",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.001517944720158683,
+        "high": 0.010523651017530396
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.2259229084845372,
+        "high": 0.16110397636210858
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -12.008327049943496,
+        "high": 11.149634062338865
+      }
+    }
+  },
+  {
+    "baseline": "kzt_hgb_full33",
+    "candidate": "kzt_tabm_full33_s2",
+    "policy": "fixed_threshold_0.50",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.001517944720158683,
+        "high": 0.010523651017530396
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.7008683755414721,
+        "high": 0.9279971635338713
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -42.27044751762183,
+        "high": 84.77283135960577
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_base15",
+    "candidate": "pooled_tabm_base15_s2",
+    "policy": "legacy",
+    "scope": "all5",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.00014687146953791774,
+        "high": 0.007664231661258894
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.1678664911202116,
+        "high": 0.015430690909153754
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -11.943668980845505,
+        "high": 4.044508963759973
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_base15",
+    "candidate": "pooled_tabm_base15_s2",
+    "policy": "legacy",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 8.223983563197808e-05,
+        "high": 0.011047648095778349
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.3986826660544306,
+        "high": -0.015055061926082308
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -13.542759266383388,
+        "high": 9.949527156469015
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_base15",
+    "candidate": "pooled_tabm_base15_s2",
+    "policy": "cadence85_cd2",
+    "scope": "all5",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.00014687146953791774,
+        "high": 0.007664231661258894
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.009339846461414752,
+        "high": 0.14942020010877902
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 2.769945397466409,
+        "high": 16.510897075209414
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_base15",
+    "candidate": "pooled_tabm_base15_s2",
+    "policy": "cadence85_cd2",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 8.223983563197808e-05,
+        "high": 0.011047648095778349
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.18490624778132647,
+        "high": 0.18744458926204863
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -5.903665098350695,
+        "high": 11.753073663266365
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_base15",
+    "candidate": "pooled_tabm_base15_s2",
+    "policy": "fixed_threshold_0.50",
+    "scope": "all5",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.00014687146953791774,
+        "high": 0.007664231661258894
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.18111725536300036,
+        "high": 0.19531600802464258
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -32.895002882683,
+        "high": 8.380190450968527
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_base15",
+    "candidate": "pooled_tabm_base15_s2",
+    "policy": "fixed_threshold_0.50",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 8.223983563197808e-05,
+        "high": 0.011047648095778349
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.6206612295601561,
+        "high": 0.20335801961016645
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -71.73421032761466,
+        "high": 3.5648140405473248
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_full33",
+    "candidate": "pooled_tabm_full33_s2",
+    "policy": "legacy",
+    "scope": "all5",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 0.004231447219040729,
+        "high": 0.01862915885600388
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.22453247333740034,
+        "high": 0.04367593224101915
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -19.64957433648344,
+        "high": 8.577170232107317
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_full33",
+    "candidate": "pooled_tabm_full33_s2",
+    "policy": "legacy",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 0.009241495952023088,
+        "high": 0.028249173256612994
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.268957136828177,
+        "high": 0.3361794725522241
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -31.0434658853643,
+        "high": 18.83944369129322
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_full33",
+    "candidate": "pooled_tabm_full33_s2",
+    "policy": "cadence85_cd2",
+    "scope": "all5",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 0.004231447219040729,
+        "high": 0.01862915885600388
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.2470378446248751,
+        "high": 0.044686860404625245
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -19.990088471023665,
+        "high": 4.728572678429362
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_full33",
+    "candidate": "pooled_tabm_full33_s2",
+    "policy": "cadence85_cd2",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 0.009241495952023088,
+        "high": 0.028249173256612994
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.4299363585062526,
+        "high": 0.004491791510066219
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -30.67848025735543,
+        "high": 8.628933449209452
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_full33",
+    "candidate": "pooled_tabm_full33_s2",
+    "policy": "fixed_threshold_0.50",
+    "scope": "all5",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 0.004231447219040729,
+        "high": 0.01862915885600388
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.43085605599458804,
+        "high": 0.032299469387273745
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -42.39800899863556,
+        "high": -0.37368499337515354
+      }
+    }
+  },
+  {
+    "baseline": "pooled_hgb_full33",
+    "candidate": "pooled_tabm_full33_s2",
+    "policy": "fixed_threshold_0.50",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 0.009241495952023088,
+        "high": 0.028249173256612994
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -1.5138038605421629,
+        "high": -0.2369215515369092
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -143.8270319846911,
+        "high": -33.65475742370416
+      }
+    }
+  },
+  {
+    "baseline": "historical_basis_train_120m",
+    "candidate": "kzt_tabm_full33_s2",
+    "policy": "legacy vs cadence85_cd2",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.008831728204142185,
+        "high": 0.012172454213843527
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.12334150164210224,
+        "high": 0.3170624104002278
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": 15.198918991873008,
+        "high": 48.02713290251592
+      }
+    }
+  },
+  {
+    "baseline": "historical_basis_train_120m",
+    "candidate": "kzt_tabm_full33_s2",
+    "policy": "fixed_threshold_0.50 vs cadence85_cd2",
+    "scope": "KZT",
+    "metrics": {
+      "brier": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.008831728204142185,
+        "high": 0.012172454213843527
+      },
+      "lift": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -0.7902414096171784,
+        "high": -0.15142740077572145
+      },
+      "forward_delta_bps": {
+        "nonfinite": 0,
+        "finite": 10000,
+        "low": -56.22227200859227,
+        "high": -9.366089405918848
+      }
+    }
+  }
+]

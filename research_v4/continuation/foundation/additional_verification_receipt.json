@@ -1,0 +1,340 @@
+{
+  "head_checks": [
+    {
+      "contract": "extended_contract",
+      "config_id": "base_control_head10y",
+      "year": 2023,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "base_control_head10y",
+      "year": 2024,
+      "raw_probability_max_abs_diff": 8.326672684688674e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "base_control_head10y",
+      "year": 2025,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "base_control_head10y",
+      "year": 2026,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2023,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2024,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2025,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_small_ft_head10y",
+      "year": 2026,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2023,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2024,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2025,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_head10y",
+      "year": 2026,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2023,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2024,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2025,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "year": 2026,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2023,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2024,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2025,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "extended_contract",
+      "config_id": "chronos2_synth_zs_head10y",
+      "year": 2026,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "budget900",
+      "config_id": "chronos2_small_ft900_head10y",
+      "year": 2023,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "budget900",
+      "config_id": "chronos2_small_ft900_head10y",
+      "year": 2024,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "budget900",
+      "config_id": "chronos2_small_ft900_head10y",
+      "year": 2025,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "budget900",
+      "config_id": "chronos2_small_ft900_head10y",
+      "year": 2026,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "cpu300",
+      "config_id": "chronos2_small_ft_cpu300_head10y",
+      "year": 2023,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "cpu300",
+      "config_id": "chronos2_small_ft_cpu300_head10y",
+      "year": 2024,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "cpu300",
+      "config_id": "chronos2_small_ft_cpu300_head10y",
+      "year": 2025,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    },
+    {
+      "contract": "cpu300",
+      "config_id": "chronos2_small_ft_cpu300_head10y",
+      "year": 2026,
+      "raw_probability_max_abs_diff": 9.71445146547012e-17,
+      "weights_hashes_pass": true,
+      "head_maturity_checks_pass": true
+    }
+  ],
+  "additional_head_count": 28,
+  "march_checks": [
+    {
+      "contract": "march",
+      "config_id": "base_control_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "base_control_head2y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_small_ft_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_small_ft_head2y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_synth_ft_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_synth_ft_head2y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_synth_ft_kzt_head2y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_synth_zs_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "march",
+      "config_id": "chronos2_synth_zs_head2y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "extended_contract/march",
+      "config_id": "base_control_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "extended_contract/march",
+      "config_id": "chronos2_small_ft_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "extended_contract/march",
+      "config_id": "chronos2_synth_ft_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "extended_contract/march",
+      "config_id": "chronos2_synth_ft_kzt_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    },
+    {
+      "contract": "extended_contract/march",
+      "config_id": "chronos2_synth_zs_head10y",
+      "saved_probability_max_abs_diff": 9.71445146547012e-17,
+      "full_cooldown_replay_signal_mismatches": 0,
+      "passed": true
+    }
+  ],
+  "march_saved_models_reconstructed": 15,
+  "actual900step_backbone_checkpoints": 4,
+  "full_parameter_update_and_precalibration_dates_pass": true,
+  "code_sha256": "4b2346d992456066809a976e002aad0cc34cbea4116d5ff8fbac24c51f4398e7"
+}

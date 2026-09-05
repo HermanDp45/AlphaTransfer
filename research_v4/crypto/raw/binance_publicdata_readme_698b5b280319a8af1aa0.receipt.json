@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/README.md",
+  "final_url": "https://raw.githubusercontent.com/binance/binance-public-data/master/README.md",
+  "retrieved_utc": "2026-09-05T08:19:06.298579+00:00",
+  "status": 200,
+  "bytes": 5144,
+  "sha256": "085ab91377aa9325d44f4c7ad27cce4ab381e158403e1d7df2bad39d1a66f7c6",
+  "content_type": "text/plain; charset=utf-8",
+  "raw_path": "raw/binance_publicdata_readme_698b5b280319a8af1aa0.bin",
+  "group": "binance_publicdata_readme"
+}

@@ -1,0 +1,27 @@
+{
+  "python": "3.11.15",
+  "device": "cpu",
+  "threads": 2,
+  "packages": {
+    "torch": "2.14.0",
+    "chronos-forecasting": "2.3.1",
+    "transformers": "5.16.1",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  },
+  "code_sha256": "3ba644d383af8d92d27edda562c4b542a62f1d1179b5db23048692042f8cb0ca",
+  "panel_sha256": "51b5ebe8ea2eecd9ed58ef72bb6d9c36b6d7e6f532a07e2970fbab887c4f895e",
+  "raw_cbr_sha256": "105db9d5a6148da43cffba75c0d5bc5a8f76a80ad45d8844ae6189ff1223ce9d",
+  "horizon": 5,
+  "context": 256,
+  "full_finetune_steps": 300,
+  "event_adapter": "2-year training; preceding full year calibration and policy; purge5",
+  "years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "status": "retrospective development2023-25; inspected diagnostic2026"
+}

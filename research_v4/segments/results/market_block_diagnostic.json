@@ -1,0 +1,15 @@
+{
+  "method": "paired circular 8-calendar-week blocks; all synthetic rows and corridors retained within week; conditional fixed-policy descriptive interval, no refit",
+  "replicates": 1000,
+  "unique_development_market_dates_with_contacts": 455,
+  "group_minus_universal_h5_quality_pp": [
+    -11.854706121586082,
+    -5.826807471199846,
+    0.21864882000328748
+  ],
+  "group_minus_universal_expected_budget_h5_quality_pp": [
+    -11.533026445753771,
+    -5.43879011942702,
+    0.6939935273916705
+  ]
+}

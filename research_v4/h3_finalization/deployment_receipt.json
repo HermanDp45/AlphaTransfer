@@ -1,0 +1,39 @@
+{
+  "status": "active_main_profile_verified",
+  "profile": "tabm_kzt_h3_expanding2010",
+  "model_cutoff": "2026-09-05",
+  "history_start": "2010-01-01",
+  "train_rows": 3869,
+  "calibration_rows": 243,
+  "latest_feature_date": "2026-09-03",
+  "policy": {
+    "name": "rank80",
+    "kind": "rank",
+    "threshold": 0.6000000000000001,
+    "window": 63,
+    "min_history": 20,
+    "cooldown_sessions": 2,
+    "max_contacts_per_week": 2
+  },
+  "calibration": {
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.40305065122377715,
+    "slope": 1.069816000978849
+  },
+  "state_history_scores": 63,
+  "calibration_history_replay_rows": 246,
+  "rank_and_candidate_replay": "exact",
+  "raw_replay_max_error": 2.955398559212341e-08,
+  "calibrated_replay_max_error": 2.6480581172272366e-08,
+  "bundle_sha256": "50cdd004e0ce6110ca9bb191aedf042e61264eb2f3a4ea1d68fcfd8f80ba9d3f",
+  "weights_sha256": "115059716af8cd8207eff84a18da25c3a4e6cfef781e65e766681f4200a4e5e9",
+  "scope": "KZT,H3",
+  "historical_smoke_is_not_OOT": true,
+  "main_entrypoint": "final_solution/main.py",
+  "unit_tests_passed": 15,
+  "from_packaged_sources_e2e": "PASS",
+  "legacy_entrypoint_smoke": "PASS",
+  "closing_active": false,
+  "closing_reason": "2025 annotation lift1.25873 below1.3",
+  "independent_audit_passed": 120
+}

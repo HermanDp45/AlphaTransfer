@@ -1,0 +1,58 @@
+{
+  "legacy": {
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.13972030655425657
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  "cadence90_cd3": {
+    "name": "cadence90_cd3",
+    "threshold": {
+      "KZT": 0.13900454918916275
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  "cadence90_cd2": {
+    "name": "cadence90_cd2",
+    "threshold": {
+      "KZT": 0.1827429454034278
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  },
+  "cadence85_cd2": {
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.1827429454034278
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    }
+  }
+}

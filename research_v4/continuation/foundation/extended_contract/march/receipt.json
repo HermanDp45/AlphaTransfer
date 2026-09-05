@@ -1,0 +1,10 @@
+{
+  "same_test_dates_for_jan_vs_march": true,
+  "distinct_dates": 122,
+  "test_first": "2026-03-03 00:00:00",
+  "test_last": "2026-08-25 00:00:00",
+  "six_calendar_months_complete": false,
+  "code_sha256": "bdc25c7518e625e481bdcc73d5d6141fbc979724a7c28ebbff2d8f4b16df8cf4",
+  "protocol_sha256": "1fa72910af8d84a26924b97b613fba2bd307204072a1aa5055f5b1c896b7fdf5",
+  "all5_jan_replays_pass": true
+}

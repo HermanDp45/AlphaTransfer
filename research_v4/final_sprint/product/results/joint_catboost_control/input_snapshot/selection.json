@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "selection_uses_2026": true,
+  "claim": "Retrospective selected model; block intervals conditional on fixed predictions, not selection-adjusted.",
+  "champion": {
+    "config_id": "catboost_treasury_halyk_24m_stable",
+    "policy": "cadence85_cd2",
+    "passed": true,
+    "min_lift": 1.4335839598997495,
+    "min_coverage": 0.9393939393939394,
+    "min_utility_bps": 42.456675194603704,
+    "normal_lift": 1.4368421052631581,
+    "normal_coverage": 0.9393939393939394,
+    "normal_utility_bps": 42.456675194603704,
+    "min_2025_lift": 1.6805555555555554,
+    "min_2025_coverage": 0.8627450980392157
+  },
+  "model_policy_count": 268,
+  "fits_hgb_annual": 64,
+  "fits_hgb_monthly": 54
+}

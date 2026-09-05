@@ -1,0 +1,22 @@
+[
+  {
+    "name": "iom_kg_return_2024.pdf",
+    "url": "https://kyrgyzstan.iom.int/sites/g/files/tmzbdl1321/files/documents/2024-11/kg_return-migrant-survey_r3_eng.pdf",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "name": "iom_kg_return_2023.pdf",
+    "url": "https://kyrgyzstan.iom.int/sites/g/files/tmzbdl1321/files/documents/2024-07/kg_baseline-and-returning-migrant-worker-survey.pdf",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "name": "wb_rpp_baseline2016.pdf",
+    "url": "https://documents1.worldbank.org/curated/en/552541540823620142/pdf/131455-RPPbaselinesurveyFINAL.pdf",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "name": "kg_microdata_access.html",
+    "url": "https://microdata.worldbank.org/catalog/6523/get-microdata",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  }
+]

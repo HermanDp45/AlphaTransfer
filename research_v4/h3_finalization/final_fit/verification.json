@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "replay": [
+    {
+      "split": "validation",
+      "rows": 243,
+      "maximum_raw_difference": 0.0
+    },
+    {
+      "split": "history",
+      "rows": 246,
+      "maximum_raw_difference": 0.0
+    },
+    {
+      "split": "warmup",
+      "rows": 63,
+      "maximum_raw_difference": 0.0
+    },
+    {
+      "split": "tail",
+      "rows": 3,
+      "maximum_raw_difference": 0.0
+    }
+  ],
+  "train_only_preprocessing_exact": true,
+  "train_labels_strictly_before_calibration": true,
+  "calibration_labels_strictly_before_cutoff": true,
+  "panel_sha256": "bf061d7bc487c55e16e00515587300680e24c0fd0bbbf04326dbc7d4b7152ada",
+  "weights_sha256": "115059716af8cd8207eff84a18da25c3a4e6cfef781e65e766681f4200a4e5e9",
+  "raw_predictions_sha256": "8c3edd4d610e4c9b4250c9f0992d26186cdab548c67fa9508f7c9d8a9c101928"
+}

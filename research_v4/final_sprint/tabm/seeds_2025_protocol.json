@@ -1,0 +1,8 @@
+{
+  "created_unix": 1788614496.173544,
+  "status": "Requested after2026 readout to complete matched2025 seed consistency. Retrospective, not untouched validation.",
+  "fits": 2,
+  "configuration": "KZT120m seed1/2, same architecture/hyperparameters as existing2026 fits. No tuning. Existing seed0 architecture originally selected on2025.",
+  "ensemble": "Equal raw probability weights1/3 for seed0/1/2, both2025 and2026; calibrator and policy fitted only on preceding year.",
+  "code_sha256": "f73d6eaa0f1d79ed039b48695a61e6dd7380ce36e08e7516b6b4dbf92c9397cb"
+}

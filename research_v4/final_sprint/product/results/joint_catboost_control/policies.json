@@ -1,0 +1,154 @@
+[
+  {
+    "cutoff": "2025-01-01",
+    "now_config": "catboost_treasury_halyk_24m_stable",
+    "policy": "cadence85_cd2",
+    "thresholds": {
+      "NOW": 0.1920770506148415,
+      "CLOSING": 0.503175874424182
+    },
+    "past_baseline_rates": {
+      "NOW": 0.2674897119341564,
+      "CLOSING": 0.5390946502057613
+    },
+    "cooldown": 2,
+    "initial_states": {
+      "NOW_only": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "joint": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "joint_closing_fact_gate": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "joint_both_fact_gates": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "NOW_confirmed_closing": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "dual_annotations": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "closing_policy": {
+      "name": "cadence85_cd2",
+      "threshold": {
+        "KZT": 0.503175874424182
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3707,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    },
+    "now_policy": {
+      "name": "cadence85_cd2",
+      "threshold": {
+        "KZT": 0.1920770506148415
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3706,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    },
+    "history_start": "2024-01-10",
+    "history_end": "2024-12-29"
+  },
+  {
+    "cutoff": "2026-01-01",
+    "now_config": "catboost_treasury_halyk_24m_stable",
+    "policy": "cadence85_cd2",
+    "thresholds": {
+      "NOW": 0.14651026016040836,
+      "CLOSING": 0.435610593225747
+    },
+    "past_baseline_rates": {
+      "NOW": 0.19834710743801653,
+      "CLOSING": 0.4256198347107438
+    },
+    "cooldown": 2,
+    "initial_states": {
+      "NOW_only": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      },
+      "joint": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      },
+      "joint_closing_fact_gate": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      },
+      "joint_both_fact_gates": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      },
+      "NOW_confirmed_closing": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      },
+      "dual_annotations": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "closing_policy": {
+      "name": "cadence85_cd2",
+      "threshold": {
+        "KZT": 0.435610593225747
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3953,
+          "week": "2025-12-29/2026-01-04",
+          "count": 1
+        }
+      }
+    },
+    "now_policy": {
+      "name": "cadence85_cd2",
+      "threshold": {
+        "KZT": 0.14651026016040836
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3953,
+          "week": "2025-12-29/2026-01-04",
+          "count": 1
+        }
+      }
+    },
+    "history_start": "2025-01-10",
+    "history_end": "2025-12-31"
+  }
+]

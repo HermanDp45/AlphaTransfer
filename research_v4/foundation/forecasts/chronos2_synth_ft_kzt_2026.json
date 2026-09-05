@@ -1,0 +1,23 @@
+{
+  "rows": 4515,
+  "seconds": 40.978382832952775,
+  "context": 256,
+  "cross_learning": false,
+  "task_group": "five currencies at one identical cutoff",
+  "grid": [
+    0.01,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "cache_sha256": "ec12e6a4a94f551a2465d4c04e6368fe37d1fedf276e9bbd3a91c2940ec46a0a"
+}

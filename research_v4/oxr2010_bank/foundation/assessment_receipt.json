@@ -1,0 +1,13 @@
+{
+  "configurations": 17,
+  "fits": 85,
+  "all_keys_and_outcomes_match_v3": true,
+  "bootstrap_repetitions": 10000,
+  "bootstrap": "year-stratified paired calendar-month blocks; allcorridors shared; cell baselines recomputed",
+  "sources_sha256": {
+    "development_predictions.csv.gz": "c207e1ece0bb29522c0b5dda41a128c4ed68e85fd702eb9812feed73f9553ee0",
+    "test_predictions.csv.gz": "b72358dcb6969b91900fce0ccdb27148fa75b0d16df86fdbf8e8656a32c47532"
+  },
+  "code_sha256": "03c03270f41521d5ce869a33e10155cdb72ebaff417dcc7a0f3c87a476036450",
+  "selection_sha256": "69a53f9a6174308ae74be9c0bd9f9b55e4ba2cf3cbb54b02470f4b76760c6593"
+}

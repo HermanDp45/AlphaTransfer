@@ -1,0 +1,11 @@
+{
+  "url": "https://api.exmo.me/v1.1/candles_history?symbol=USDT_KZT&resolution=D&from=1704067200&to=1735689599",
+  "final_url": "https://api.exmo.me/v1.1/candles_history?symbol=USDT_KZT&resolution=D&from=1704067200&to=1735689599",
+  "retrieved_utc": "2026-09-05T08:19:03.943181+00:00",
+  "status": 200,
+  "bytes": 29499,
+  "sha256": "634ee820fa17e34e98b79dad5682e8762cd95a2c9acbba47aa27f7e30dc1ebaf",
+  "content_type": "application/json; charset=utf-8",
+  "raw_path": "raw/exmo_me_klines_5d41bb26fed0fa60dc33.bin",
+  "group": "exmo_me_klines"
+}

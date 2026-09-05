@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "code_sha256": "9fa1348523680c712499d166264b5c4f307feffb904fc8306729345e88adfb1b",
+  "protocol_sha256": "7bd6f621a4b5ef1d2f2e5eedfacd0d8fbf0656397b0640dd2cbf3001e569c981",
+  "inputs_sha256": {
+    "research_v4/liquidity/raw/halyk_personal_rub.json": "627fd52efe1dfc92fe89b12d31f5c6f77c3c5ccaa38160dfebdcc94ea1f89884",
+    "research_v4/liquidity/halyk_sell_daily.csv": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "research_v3/models/panel_extended.pkl": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6",
+    "research_v4/oxr2010_bank/input_oxr_snapshot.csv": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021"
+  },
+  "seconds": 1.6305531249963678,
+  "rows": 1637,
+  "source_start_identity": true,
+  "target": "next5 actual BANK SELL RUB quote mean; KZT per RUB, lower favors buying RUB",
+  "availability": "archive effective local day+1 proxy; publication timestamps and stale-quote executability unverified",
+  "supervised_training_history": "2020 onward only; OXR2010 cannot synthesize bank labels",
+  "2026_status": "retrospective, previously inspected market history"
+}

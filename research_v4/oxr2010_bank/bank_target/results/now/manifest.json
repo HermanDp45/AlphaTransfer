@@ -1,0 +1,11 @@
+{
+  "code_sha256": "dbdfe36ef084530549cd0f7997344d572c584b1032fe684490271261ede92ec9",
+  "primary_code_sha256": "9fa1348523680c712499d166264b5c4f307feffb904fc8306729345e88adfb1b",
+  "addendum_sha256": "eae9ba17b1c10729be5bcb4020626c7cf29543a68bc11a7181ad32e972ef342f",
+  "source_manifest_sha256": "ebb4157c048da59ef24adde0ecfe681aef102fdcf479216abbcd7dc5ed4e96c8",
+  "predictions_sha256": "87cce2d2cb2356152a0bd7c6c745e801ddc9a922a3cb6ca94caf525a05bdc01f",
+  "seconds": 0.8970976659911685,
+  "target": "q_anchor <= minimum next five actual BANK SELL RUB quotes; equality succeeds",
+  "post_primary_readout_followup": true,
+  "no2026_selection": true
+}

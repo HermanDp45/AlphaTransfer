@@ -1,0 +1,45 @@
+{
+  "created_unix": 1788613727.5210528,
+  "status": "Post-readout robustness addendum after observing sensitivity to delayed sources. Exploratory; no untouched holdout claim.",
+  "fits": 4,
+  "cutoffs": [
+    "2025-01-01",
+    "2026-01-01"
+  ],
+  "specification": "KZT-only120m seed0, identical architecture/optimizer/epoch-selection rule. Two fixed augmentation strategies, no HPO.",
+  "strategies": {
+    "bankaug": [
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        2
+      ]
+    ],
+    "allaug": [
+      [
+        24,
+        1
+      ],
+      [
+        48,
+        1
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        48,
+        2
+      ]
+    ]
+  },
+  "training": "Replicate each matured training example for equally weighted causal source-availability views; same label. Inner epoch selection also uses equally weighted source views; full refit uses selected epoch. Train-only median/quantile preprocessing includes augmented examples.",
+  "calibration": "Normal prior-year validation and normal pre-cutoff history, unchanged policy rules.",
+  "numerics": "No extra winsorization or fit on future/test features.",
+  "code_sha256": "f4ee8fabf53488bfe5b4295f75026611b80de18032509ab84187de9ec14899c2",
+  "base_code_sha256": "71c26568b65d776cd41c3b3f872a39930fee509402d314725853552ca3d86591"
+}

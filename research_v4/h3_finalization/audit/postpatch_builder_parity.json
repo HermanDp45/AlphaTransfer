@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "prepatch_sha256": "375e052e24306d208750f24e96475e3f47ca60122fb53265f4db455fb4efc1f3",
+  "current_builder_sha256": "d770696a2d2f167fdfbc58ce839aaa7831c1051a8969e714fd9394458adc96a8",
+  "latest_panel_sha256": "bf061d7bc487c55e16e00515587300680e24c0fd0bbbf04326dbc7d4b7152ada",
+  "feature_rows": 4118,
+  "features": 33,
+  "exact": true,
+  "change": "Daily calendar-date input guard only. Original source hash in panel receipt remains intentional provenance."
+}

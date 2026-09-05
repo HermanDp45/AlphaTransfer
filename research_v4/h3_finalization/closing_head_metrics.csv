@@ -1,0 +1,4 @@
+year,train_horizon,model,rows,brier,prior_constant_brier,calibration
+2024,3,closing_hgb_kzt_fullhistory,245,0.23594224092111574,0.25849755113010003,prior_year_monotone_platt
+2025,3,closing_hgb_kzt_fullhistory,244,0.23117471274532053,0.2497197888857786,prior_year_monotone_platt
+2026,3,closing_hgb_kzt_fullhistory,158,0.2069484262050123,0.26896501723029403,prior_year_monotone_platt

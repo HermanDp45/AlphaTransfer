@@ -1,0 +1,9 @@
+symbol,date,hourly_rows,nonzero_volume_hours,distinct_hourly_closes,open_daily_minus_hourly,close_daily_minus_hourly,high_daily_minus_hourly,low_daily_minus_hourly,volume_daily_minus_hourly
+USDT_KZT,2025-01-15,24,24,24,0.0,0.0,0.0,0.0,1.1368683772161603e-13
+USDT_RUB,2020-03-16,24,24,24,0.0,0.0,0.0,0.0,0.0
+USDT_RUB,2025-01-15,24,24,20,0.0,0.0,0.0,0.0,-1.4551915228366852e-11
+USDT_KZT,2023-06-24,24,24,24,0.0,0.0,0.0,0.0,1.8189894035458565e-12
+USDT_RUB,2022-03-09,24,24,24,0.0,0.0,0.0,0.0,0.0
+USDT_KZT,2020-03-16,6,6,6,0.0,0.0,0.0,0.0,7.105427357601002e-15
+USDT_RUB,2023-06-24,24,24,24,0.0,0.0,0.0,0.0,-5.820766091346741e-11
+USDT_KZT,2022-03-09,24,24,24,0.0,0.0,0.0,0.0,0.0

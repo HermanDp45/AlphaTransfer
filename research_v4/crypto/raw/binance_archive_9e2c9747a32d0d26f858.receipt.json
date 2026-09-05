@@ -1,0 +1,11 @@
+{
+  "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1d/BTCUSDT-1d-2025-01.zip",
+  "final_url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1d/BTCUSDT-1d-2025-01.zip",
+  "retrieved_utc": "2026-09-05T08:19:44.805397+00:00",
+  "status": 200,
+  "bytes": 2254,
+  "sha256": "3a3eb1b723d944deb4dbef5ae361bbe39340a17fe987fe22e397ef03dca268d2",
+  "content_type": "application/zip",
+  "raw_path": "raw/binance_archive_9e2c9747a32d0d26f858.bin",
+  "group": "binance_archive"
+}

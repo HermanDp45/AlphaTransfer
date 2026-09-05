@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "sealed_files": 6254,
+  "sealed_bytes": 6572030562,
+  "scientific_validation": "Final sprint and executable profile verified; previous science/lockedinputs preserved",
+  "V3_scientific_inputs_unchanged": true,
+  "navigation_changes": [
+    "research_v4/README.md",
+    "research_v4/REPORT.md",
+    "final_solution/README.md"
+  ],
+  "manifest_sha256": "dbf9f330b778b55c0a5c5b41c6cdcc1ec18cb81acb23969f651d40b0fa7dfec1",
+  "latest_research": "final_sprint/REPORT.md"
+}

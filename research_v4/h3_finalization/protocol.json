@@ -1,0 +1,11 @@
+{
+ "model":"User explicitly selected TabM KZT H3, frozen FULL33 seed2; no substitution with H5 or pooled model",
+ "history_comparison":"120m existing vs expanding since2010-01-01, annual2024/25/26, identical12m mature calibration and test cohorts",
+ "policies":["strict05","cadence80","cadence85","cadence90","rank80","rank90","rank90_shared"],
+ "policy_implementation":"Frozen robust_selection causal policies, grid and previous63-score rank; same-checkpoint warmup63paneldates beforecalibration; no test labels tune thresholds",
+ "selection":"Apply same robustness rule as robust_selection restricted to H3 KZT: every year coverage>=.8, lift>=1.3, utility>0; prefer .9coverage; maximize worstyearlift then worstyearutility then lowerBrier. Ifnonequalified, minimum normalized gate shortfall and explicit fallback. Longerhistory only selected if wins this predeclared rule, else retain120m. Policies chosen separately within eachhistory; report same-policy contrasts to attribute gains. No date-specific mixture chosen retrospectively.",
+ "partial":"Partial adoption means retaining existinghistory while adopting better causal policy, or adoptinglonghistory with explicit per-year tradeoffs; never splice historical best-year predictions.",
+ "final_fit":"As-of2026-09-05, same selectedhistory policy and12m calibration recipe. All available mature data used in train or calibration, no in-sample calibration. Latest rawpanel date may precedeasof; freshness shown. Final fittedmodel has no future out-of-sample evaluation; historical metrics belong to annual recipe.",
+ "deployment":"Integrate self-contained TabM H3 package, exact33features, selectedcausaltrigger, state persistence and feature provenance into final_solution. Preserve independent CLOSING semantics and horizon, not mislabeledH3. No external notifications. Enable main default newprofile with explicit legacy path.",
+ "status":"Retrospective research, no untouchedholdout or provenall-yearqualityclaim"
+}

@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "train_horizon": 3,
+      "year": 2024,
+      "rows": 1225,
+      "status": "PASS",
+      "maximum_errors": {
+        "target": 0.0,
+        "forward_bps": 5.684341886080802e-14,
+        "symmetric_bps": 2.842170943040401e-14,
+        "regret_bps": 1.1368683772161603e-13,
+        "raw_probability": 9.71445146547012e-17,
+        "probability": 1.1102230246251565e-16
+      },
+      "signal_mismatches": {
+        "candidate_signal": 0,
+        "signal": 0
+      }
+    },
+    {
+      "train_horizon": 3,
+      "year": 2025,
+      "rows": 1220,
+      "status": "PASS",
+      "maximum_errors": {
+        "target": 0.0,
+        "forward_bps": 2.842170943040401e-14,
+        "symmetric_bps": 2.842170943040401e-14,
+        "regret_bps": 5.684341886080802e-14,
+        "raw_probability": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17
+      },
+      "signal_mismatches": {
+        "candidate_signal": 0,
+        "signal": 0
+      }
+    },
+    {
+      "train_horizon": 3,
+      "year": 2026,
+      "rows": 790,
+      "status": "PASS",
+      "maximum_errors": {
+        "target": 0.0,
+        "forward_bps": 2.842170943040401e-14,
+        "symmetric_bps": 2.842170943040401e-14,
+        "regret_bps": 5.684341886080802e-14,
+        "raw_probability": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17
+      },
+      "signal_mismatches": {
+        "candidate_signal": 0,
+        "signal": 0
+      }
+    },
+    {
+      "train_horizon": 5,
+      "year": 2024,
+      "rows": 1215,
+      "status": "PASS",
+      "maximum_errors": {
+        "target": 0.0,
+        "forward_bps": 5.684341886080802e-14,
+        "symmetric_bps": 5.684341886080802e-14,
+        "regret_bps": 2.2737367544323206e-13,
+        "raw_probability": 8.326672684688674e-17,
+        "probability": 1.1102230246251565e-16
+      },
+      "signal_mismatches": {
+        "candidate_signal": 0,
+        "signal": 0
+      }
+    },
+    {
+      "train_horizon": 5,
+      "year": 2025,
+      "rows": 1210,
+      "status": "PASS",
+      "maximum_errors": {
+        "target": 0.0,
+        "forward_bps": 5.684341886080802e-14,
+        "symmetric_bps": 2.842170943040401e-14,
+        "regret_bps": 5.684341886080802e-14,
+        "raw_probability": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17
+      },
+      "signal_mismatches": {
+        "candidate_signal": 0,
+        "signal": 0
+      }
+    },
+    {
+      "train_horizon": 5,
+      "year": 2026,
+      "rows": 780,
+      "status": "PASS",
+      "maximum_errors": {
+        "target": 0.0,
+        "forward_bps": 5.684341886080802e-14,
+        "symmetric_bps": 5.684341886080802e-14,
+        "regret_bps": 5.684341886080802e-14,
+        "raw_probability": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17
+      },
+      "signal_mismatches": {
+        "candidate_signal": 0,
+        "signal": 0
+      }
+    }
+  ]
+}

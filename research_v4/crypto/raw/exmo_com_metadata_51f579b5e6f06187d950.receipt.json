@@ -1,0 +1,11 @@
+{
+  "url": "https://api.exmo.com/v1.1/pair_settings",
+  "final_url": "https://api.exmo.com/v1.1/pair_settings",
+  "retrieved_utc": "2026-09-05T08:19:08.753096+00:00",
+  "status": 200,
+  "bytes": 5266,
+  "sha256": "66fbf789752bbef1b95bd143f0996b1a9a09e950808aebd2d74b5e3896230f3e",
+  "content_type": "application/json",
+  "raw_path": "raw/exmo_com_metadata_51f579b5e6f06187d950.bin",
+  "group": "exmo_com_metadata"
+}

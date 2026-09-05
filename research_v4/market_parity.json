@@ -1,0 +1,1688 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "name": "basis_train_120m__treasury_lag7",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.40001183983340405
+    },
+    {
+      "name": "basis_train_120m__treasury_lag7",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.13670378786265658
+    },
+    {
+      "name": "basis_train_120m__treasury_lag7",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3944563015619007
+    },
+    {
+      "name": "basis_train_120m__treasury_lag7",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.11861286916806268
+    },
+    {
+      "name": "long_with_historical_cny__treasury_lag7",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.39434963158129727
+    },
+    {
+      "name": "long_with_historical_cny__treasury_lag7",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.22078019642277708
+    },
+    {
+      "name": "long_with_historical_cny__treasury_lag7",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3903201509004873
+    },
+    {
+      "name": "long_with_historical_cny__treasury_lag7",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.19923418815701027
+    },
+    {
+      "name": "combo_moex_erub_120m",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.43015197015324935
+    },
+    {
+      "name": "combo_moex_erub_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.28731951336238537
+    },
+    {
+      "name": "combo_moex_erub_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3080989700870161
+    },
+    {
+      "name": "combo_moex_erub_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.38384362621153467
+    },
+    {
+      "name": "combo_moex_erub_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.28731951336238537
+    },
+    {
+      "name": "combo_moex_erub_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3080989700870161
+    },
+    {
+      "name": "combo_treasury_halyk_120m",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5078957205562501
+    },
+    {
+      "name": "combo_treasury_halyk_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3908807800835664
+    },
+    {
+      "name": "combo_treasury_halyk_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3734936488565742
+    },
+    {
+      "name": "combo_treasury_halyk_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.48822010115480113
+    },
+    {
+      "name": "combo_treasury_halyk_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.34756505161416484
+    },
+    {
+      "name": "combo_treasury_halyk_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3292521960332298
+    },
+    {
+      "name": "combo_treasury_moex_120m",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3649048406656252
+    },
+    {
+      "name": "combo_treasury_moex_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.20051977656527828
+    },
+    {
+      "name": "combo_treasury_moex_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.2213983819377506
+    },
+    {
+      "name": "combo_treasury_moex_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3649048406656252
+    },
+    {
+      "name": "combo_treasury_moex_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.19012650146650892
+    },
+    {
+      "name": "combo_treasury_moex_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.2003296884826231
+    },
+    {
+      "name": "combo_treasury_moex_erub_120m",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3790934741464519
+    },
+    {
+      "name": "combo_treasury_moex_erub_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.23200338147124658
+    },
+    {
+      "name": "combo_treasury_moex_erub_120m",
+      "scope": "all",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.2368343004952895
+    },
+    {
+      "name": "combo_treasury_moex_erub_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3469376593667347
+    },
+    {
+      "name": "combo_treasury_moex_erub_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.21438298593483132
+    },
+    {
+      "name": "combo_treasury_moex_erub_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m__treasury_lag7",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.221843824764805
+    },
+    {
+      "name": "halyk_120m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5535787155812808
+    },
+    {
+      "name": "halyk_120m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.40518796642358634
+    },
+    {
+      "name": "halyk_120m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5264220088939976
+    },
+    {
+      "name": "halyk_120m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.35206341386132706
+    },
+    {
+      "name": "halyk_120m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5545738661859752
+    },
+    {
+      "name": "halyk_120m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.395873693507972
+    },
+    {
+      "name": "halyk_120m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5545738661859752
+    },
+    {
+      "name": "halyk_120m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3250798895573008
+    },
+    {
+      "name": "halyk_24m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5654403513311692
+    },
+    {
+      "name": "halyk_24m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5552369442964906
+    },
+    {
+      "name": "halyk_24m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5593904931680707
+    },
+    {
+      "name": "halyk_24m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4786356098781003
+    },
+    {
+      "name": "halyk_24m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.6389062230317902
+    },
+    {
+      "name": "halyk_24m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.6221834901955615
+    },
+    {
+      "name": "halyk_24m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.6365708302852741
+    },
+    {
+      "name": "halyk_24m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.45714484799491606
+    },
+    {
+      "name": "kase_full_120m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4067866808632916
+    },
+    {
+      "name": "kase_full_120m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3357030514005188
+    },
+    {
+      "name": "kase_full_120m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.376479302591633
+    },
+    {
+      "name": "kase_full_120m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3335398123997301
+    },
+    {
+      "name": "kase_full_120m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5134752779275763
+    },
+    {
+      "name": "kase_full_120m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4684798012532819
+    },
+    {
+      "name": "kase_full_120m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.469000306185601
+    },
+    {
+      "name": "kase_full_120m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.43793910837632694
+    },
+    {
+      "name": "kase_full_24m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.42925718296668247
+    },
+    {
+      "name": "kase_full_24m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.42665211968515093
+    },
+    {
+      "name": "kase_full_24m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3628120270829806
+    },
+    {
+      "name": "kase_full_24m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.411199677203936
+    },
+    {
+      "name": "kase_full_24m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.587309052710179
+    },
+    {
+      "name": "kase_full_24m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.585606358893083
+    },
+    {
+      "name": "kase_full_24m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5136111268890423
+    },
+    {
+      "name": "kase_full_24m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5591768856143067
+    },
+    {
+      "name": "kase_halyk_120m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5751804167822315
+    },
+    {
+      "name": "kase_halyk_120m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4440073588926815
+    },
+    {
+      "name": "kase_halyk_120m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5751804167822315
+    },
+    {
+      "name": "kase_halyk_120m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.381141052697521
+    },
+    {
+      "name": "kase_halyk_120m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.43401613142725615
+    },
+    {
+      "name": "kase_halyk_120m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5026981805941872
+    },
+    {
+      "name": "kase_halyk_120m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.43401613142725615
+    },
+    {
+      "name": "kase_halyk_120m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.47501633756639833
+    },
+    {
+      "name": "kase_halyk_24m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5343899400772725
+    },
+    {
+      "name": "kase_halyk_24m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5282236406709896
+    },
+    {
+      "name": "kase_halyk_24m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5203910880488221
+    },
+    {
+      "name": "kase_halyk_24m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4439137874784578
+    },
+    {
+      "name": "kase_halyk_24m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5438176552268938
+    },
+    {
+      "name": "kase_halyk_24m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5319794843339032
+    },
+    {
+      "name": "kase_halyk_24m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5124192658932086
+    },
+    {
+      "name": "kase_halyk_24m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5040976290223202
+    },
+    {
+      "name": "kase_liquidity_120m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.45727333568049366
+    },
+    {
+      "name": "kase_liquidity_120m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.29281850985333435
+    },
+    {
+      "name": "kase_liquidity_120m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.45727333568049366
+    },
+    {
+      "name": "kase_liquidity_120m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.29281850985333435
+    },
+    {
+      "name": "kase_liquidity_120m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5471475041201203
+    },
+    {
+      "name": "kase_liquidity_120m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4597091500537802
+    },
+    {
+      "name": "kase_liquidity_120m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.488512059637734
+    },
+    {
+      "name": "kase_liquidity_120m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.42800831367579983
+    },
+    {
+      "name": "kase_liquidity_24m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.43104617099214493
+    },
+    {
+      "name": "kase_liquidity_24m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.42139161133119085
+    },
+    {
+      "name": "kase_liquidity_24m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.37814064823688026
+    },
+    {
+      "name": "kase_liquidity_24m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3987602168614903
+    },
+    {
+      "name": "kase_liquidity_24m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5397877119681702
+    },
+    {
+      "name": "kase_liquidity_24m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5700228999607253
+    },
+    {
+      "name": "kase_liquidity_24m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.47884179206617417
+    },
+    {
+      "name": "kase_liquidity_24m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5700228999607253
+    },
+    {
+      "name": "kase_prices_120m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3960606992162853
+    },
+    {
+      "name": "kase_prices_120m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3794536298443235
+    },
+    {
+      "name": "kase_prices_120m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.36294899348113996
+    },
+    {
+      "name": "kase_prices_120m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3568567042371331
+    },
+    {
+      "name": "kase_prices_120m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4538183763877722
+    },
+    {
+      "name": "kase_prices_120m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.24640480097351697
+    },
+    {
+      "name": "kase_prices_120m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4538183763877722
+    },
+    {
+      "name": "kase_prices_120m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.1973642143705876
+    },
+    {
+      "name": "kase_prices_24m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3641116235664481
+    },
+    {
+      "name": "kase_prices_24m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.49052093793686163
+    },
+    {
+      "name": "kase_prices_24m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.31927617468984854
+    },
+    {
+      "name": "kase_prices_24m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.49052093793686163
+    },
+    {
+      "name": "kase_prices_24m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.27199547787015493
+    },
+    {
+      "name": "kase_prices_24m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4660136338461166
+    },
+    {
+      "name": "kase_prices_24m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.27199547787015493
+    },
+    {
+      "name": "kase_prices_24m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.41270941726117666
+    },
+    {
+      "name": "moex_liquidity_120m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.42500984403168507
+    },
+    {
+      "name": "moex_liquidity_120m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.2603097313237259
+    },
+    {
+      "name": "moex_liquidity_120m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3587402525683756
+    },
+    {
+      "name": "moex_liquidity_120m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.2603097313237259
+    },
+    {
+      "name": "moex_liquidity_120m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3661543610664551
+    },
+    {
+      "name": "moex_liquidity_120m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.25580367364924306
+    },
+    {
+      "name": "moex_liquidity_120m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3661543610664551
+    },
+    {
+      "name": "moex_liquidity_120m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.2511712162247939
+    },
+    {
+      "name": "moex_liquidity_24m_lag1",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.269945232629206
+    },
+    {
+      "name": "moex_liquidity_24m_lag1",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.46147423187111164
+    },
+    {
+      "name": "moex_liquidity_24m_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.269945232629206
+    },
+    {
+      "name": "moex_liquidity_24m_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.33336053518229436
+    },
+    {
+      "name": "moex_liquidity_24m_lag2",
+      "scope": "all",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3029187840885244
+    },
+    {
+      "name": "moex_liquidity_24m_lag2",
+      "scope": "all",
+      "baseline": "basis_train_120m",
+      "matched_rows": 4415,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4687095692802799
+    },
+    {
+      "name": "moex_liquidity_24m_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.2890325737985651
+    },
+    {
+      "name": "moex_liquidity_24m_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.40652370225497436
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5986500746907367
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.43710401359454676
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.43710401359454676
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__halyk_lag1",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.28850045593939555
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4890233370656533
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3652961527092012
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3652961527092012
+    },
+    {
+      "name": "kzt_only_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__halyk_lag2",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.26284719706102233
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.45534115140826503
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4418639364922254
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4418639364922254
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__kase_prices_lag1",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.28677594870481943
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.46567019664591613
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.321648794385852
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.321648794385852
+    },
+    {
+      "name": "kzt_only_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__kase_prices_lag2",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3596208144644716
+    },
+    {
+      "name": "kzt_only_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4072808061628538
+    },
+    {
+      "name": "kzt_only_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3199790461235846
+    },
+    {
+      "name": "kzt_only_120m",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3199790461235846
+    },
+    {
+      "name": "kzt_only_24m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3992334611111528
+    },
+    {
+      "name": "kzt_only_24m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3875915012813548
+    },
+    {
+      "name": "kzt_only_24m",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_24m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3992334611111528
+    },
+    {
+      "name": "kzt_pooled_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5264220088939976
+    },
+    {
+      "name": "kzt_pooled_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.35206341386132706
+    },
+    {
+      "name": "kzt_pooled_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.35206341386132706
+    },
+    {
+      "name": "kzt_pooled_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5545738661859752
+    },
+    {
+      "name": "kzt_pooled_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3250798895573008
+    },
+    {
+      "name": "kzt_pooled_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3250798895573008
+    },
+    {
+      "name": "kzt_pooled_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.36294899348113996
+    },
+    {
+      "name": "kzt_pooled_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3568567042371331
+    },
+    {
+      "name": "kzt_pooled_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3568567042371331
+    },
+    {
+      "name": "kzt_pooled_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4538183763877722
+    },
+    {
+      "name": "kzt_pooled_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.1973642143705876
+    },
+    {
+      "name": "kzt_pooled_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.1973642143705876
+    },
+    {
+      "name": "kzt_pooled_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.412740154323261
+    },
+    {
+      "name": "kzt_pooled_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.0
+    },
+    {
+      "name": "kzt_pooled_24m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.0
+    },
+    {
+      "name": "kzt_pooled_24m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.412740154323261
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5220597284220941
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.35917815641060985
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.35917815641060985
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__halyk_lag1",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.06569469821101592
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5437032920969938
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.32512705150959875
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.32512705150959875
+    },
+    {
+      "name": "kzt_residual_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__halyk_lag2",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.0665730182686759
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.38745747367497974
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3807050114936111
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3807050114936111
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__kase_prices_lag1",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.08659449552261672
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4379314192422206
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.21550346893996708
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.21550346893996708
+    },
+    {
+      "name": "kzt_residual_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__kase_prices_lag2",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.0736095154956351
+    },
+    {
+      "name": "kzt_residual_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.40639558365285905
+    },
+    {
+      "name": "kzt_residual_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.06097133675630295
+    },
+    {
+      "name": "kzt_residual_120m",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.06097133675630295
+    },
+    {
+      "name": "kzt_residual_24m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.12447488307292609
+    },
+    {
+      "name": "kzt_residual_24m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.42079423633081786
+    },
+    {
+      "name": "kzt_residual_24m",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_24m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.12447488307292609
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5220597284220941
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.35917815641060985
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.35917815641060985
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__halyk_lag1",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.06569469821101592
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.5545738661859752
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3250798895573008
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3250798895573008
+    },
+    {
+      "name": "kzt_residual_shrink_120m__halyk_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__halyk_lag2",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.05062639755488013
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.38745747367497974
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3807050114936111
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.3807050114936111
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag1",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__kase_prices_lag1",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.08659449552261672
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.4379314192422206
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.21550346893996708
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.21550346893996708
+    },
+    {
+      "name": "kzt_residual_shrink_120m__kase_prices_lag2",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m__kase_prices_lag2",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.0736095154956351
+    },
+    {
+      "name": "kzt_residual_shrink_120m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.40204501155945466
+    },
+    {
+      "name": "kzt_residual_shrink_120m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.030694657060784114
+    },
+    {
+      "name": "kzt_residual_shrink_120m",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.030694657060784114
+    },
+    {
+      "name": "kzt_residual_shrink_24m",
+      "scope": "KZT",
+      "baseline": "baseline_reproduction",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.049800791172124825
+    },
+    {
+      "name": "kzt_residual_shrink_24m",
+      "scope": "KZT",
+      "baseline": "basis_train_120m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.412740154323261
+    },
+    {
+      "name": "kzt_residual_shrink_24m",
+      "scope": "KZT",
+      "baseline": "kzt_pooled_24m",
+      "matched_rows": 883,
+      "target_and_payoff_exact": true,
+      "max_raw_probability_delta": 0.049800791172124825
+    }
+  ],
+  "repetitions": 10000,
+  "method": "year-stratified joint calendar-month blocks; random-day baseline recomputed in policy draws; 20/60-row-block sensitivity for Brier",
+  "scope": "retrospective conditional on fixed models; no correction for historical selection"
+}

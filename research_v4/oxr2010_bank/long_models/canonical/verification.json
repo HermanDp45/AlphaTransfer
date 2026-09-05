@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "fits": 35,
+  "common_feature_checks": [
+    {
+      "delay": 24,
+      "bank_lag": 1,
+      "common_rows": 9865,
+      "common_oxr_features_identical": true,
+      "earlier_features_preserved": true
+    },
+    {
+      "delay": 24,
+      "bank_lag": 2,
+      "common_rows": 9865,
+      "common_oxr_features_identical": true,
+      "earlier_features_preserved": true
+    },
+    {
+      "delay": 48,
+      "bank_lag": 1,
+      "common_rows": 9865,
+      "common_oxr_features_identical": true,
+      "earlier_features_preserved": true
+    },
+    {
+      "delay": 48,
+      "bank_lag": 2,
+      "common_rows": 9865,
+      "common_oxr_features_identical": true,
+      "earlier_features_preserved": true
+    }
+  ],
+  "prior_results_unchanged": true,
+  "code_sha256": "67585d5e7aaef97e801f80e7e4ff9e3d04ac6a8b1ad980373dc264158398d761",
+  "source_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+  "classification": "Post-audit numerical attribution; all controls retained, no model selection on2026"
+}

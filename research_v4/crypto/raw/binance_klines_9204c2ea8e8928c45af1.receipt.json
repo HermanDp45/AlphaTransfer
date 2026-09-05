@@ -1,0 +1,11 @@
+{
+  "url": "https://data-api.binance.vision/api/v3/klines?symbol=USDTRUB&interval=1d&startTime=1483228800000&endTime=1788307199999&limit=1000",
+  "final_url": "https://data-api.binance.vision/api/v3/klines?symbol=USDTRUB&interval=1d&startTime=1483228800000&endTime=1788307199999&limit=1000",
+  "retrieved_utc": "2026-09-05T08:18:33.929490+00:00",
+  "status": 200,
+  "bytes": 173029,
+  "sha256": "5a01ace93913533b5c9ce5a00bb9ea321b6075f965c363cc4d6cb6d624656445",
+  "content_type": "application/json;charset=UTF-8",
+  "raw_path": "raw/binance_klines_9204c2ea8e8928c45af1.bin",
+  "group": "binance_klines"
+}

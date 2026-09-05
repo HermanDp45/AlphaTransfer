@@ -1,0 +1,812 @@
+[
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.32313295683769633,
+    "slope": 0.5532181769888773,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.1578136498134162,
+    "slope": 1.7766408817906598,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.036412700592526395,
+    "slope": 0.876220675578354,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.4100078813960025,
+    "slope": 0.5582607002083123,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.701072969021569,
+    "slope": 1.7129321485152267,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.3075281144770994,
+    "slope": 1.082644143410987,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.5958177436961296,
+    "slope": 0.33636267632272904,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.7738020206692858,
+    "slope": 1.5930994035315695,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.47741744306081957,
+    "slope": 0.5215890408581058,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.4221828776494034,
+    "slope": 0.43033352899861094,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.3769868049590976,
+    "slope": 1.2607175240382524,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.35543685821868554,
+    "slope": 0.5437296832656131,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.6682553329412153,
+    "slope": 0.3345003398664366,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.0503275992412795,
+    "slope": 1.3918878648844502,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.15455229021235511,
+    "slope": 0.5775370067452331,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.45245131873959205,
+    "slope": 0.2556737044788705,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.3363656365717802,
+    "slope": 1.1606362938548387,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.5269508877145193,
+    "slope": 0.38740882101853696,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.24508304494114547,
+    "slope": 0.6025857835233724,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.5528722011224216,
+    "slope": 1.0855257771113944,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.4405777358312201,
+    "slope": 0.5730515350196179,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.02200055784058483,
+    "slope": 0.6381931646729148,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.20837384313457374,
+    "slope": 0.9495973221006636,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.4209193793615971,
+    "slope": 1.1415098264600991,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.36936793509798094,
+    "slope": 0.8860051298536888,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.22697413731448782,
+    "slope": 0.5896728107107115,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.841218634242162,
+    "slope": 1.4280793531462077,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.9837889605189999,
+    "slope": 1.653806698194561,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.10502392994017,
+    "slope": 1.6700061322843642,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.0529493747264642,
+    "slope": 1.6935756507256152,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.835126220732534,
+    "slope": 1.4237358217194083,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.26842999865441947,
+    "slope": 1.0242560107789496,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.38183945031345934,
+    "slope": 1.024803893159066,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.2245137705591291,
+    "slope": 0.8175031303849254,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.24766409976896153,
+    "slope": 0.9799053554090518,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.43112429355262233,
+    "slope": 1.2763248172657318,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.32997754245499616,
+    "slope": 0.4767330795595972,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.2774871987808408,
+    "slope": 0.6705505128106812,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.21524752688852655,
+    "slope": 0.7660841384688252,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.09017205531190692,
+    "slope": 0.6023110570861788,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.5441858418151871,
+    "slope": 0.40782706448926787,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.059225751073547,
+    "slope": 1.7219476597962786,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.7028154258267145,
+    "slope": 1.4790005363745422,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.8791803557276525,
+    "slope": 1.6452691492512743,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.092281709746695,
+    "slope": 1.7529430143073934,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.7109181085929381,
+    "slope": 1.4643610151336726,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.4148598418271708,
+    "slope": 1.1246076998583259,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.48993701966004566,
+    "slope": 1.0879480573068532,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.15222476510707106,
+    "slope": 0.8875693029977394,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.3741847178467646,
+    "slope": 1.0630385970644771,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.5269744341740612,
+    "slope": 1.3205635256162582,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.2194227468577484,
+    "slope": 0.44952337917880086,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.19644028819230488,
+    "slope": 0.5957376859893293,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.17307271385001868,
+    "slope": 0.6028281173961085,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.1036859243882463,
+    "slope": 0.4731701762436049,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.35909575196310345,
+    "slope": 0.4453363664867069,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.3067817205970953,
+    "slope": 1.9280428883740657,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.3406205542751557,
+    "slope": 2.076089806621494,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.7195182566405343,
+    "slope": 2.323910338205355,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.4098335229727985,
+    "slope": 2.1450786839948615,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.2087320778319854,
+    "slope": 1.7875247653298876,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.07016052922122133,
+    "slope": 0.8001242723107951,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.18591818847724867,
+    "slope": 0.7308081673951622,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.37612856081840873,
+    "slope": 0.6489321021419446,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.07640183725082195,
+    "slope": 0.7562045578436819,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.16673891464054097,
+    "slope": 0.8922337942525467,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.7232985727876984,
+    "slope": 0.11434035018902206,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.8547420066386168,
+    "slope": 0.13439633981181423,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.7397115405276851,
+    "slope": 0.2903095528386044,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.628080303414246,
+    "slope": 0.1100388738882122,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.8703992997551385,
+    "slope": 0.11376550666484153,
+    "validation_rows": 242,
+    "latest_label": "2022-12-31 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.100691645859639,
+    "slope": 2.091106136759133,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.8422715207102849,
+    "slope": 1.930801317408732,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.7320851814769274,
+    "slope": 2.532705406157893,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.056458235431116,
+    "slope": 2.1054311439294304,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.58364008327968,
+    "slope": 1.6440543558404153,
+    "validation_rows": 242,
+    "latest_label": "2023-12-30 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.11718739085081863,
+    "slope": 0.4603028597614855,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.008073139419432386,
+    "slope": 0.46549333768266005,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.5129608432930628,
+    "slope": 0.4153483752930234,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.10643327650983926,
+    "slope": 0.44781539449883967,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.06980522859100174,
+    "slope": 0.5213172840037745,
+    "validation_rows": 243,
+    "latest_label": "2024-12-29 00:00:00"
+  }
+]

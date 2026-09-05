@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "fits": 2,
+  "unique_train_rows": {
+    "2025-01-01": 6130,
+    "2026-01-01": 6140
+  },
+  "physical_training_rows": "Exactly twice unique_train_rows; equal unit weights in both copies.",
+  "inference": "Actual unchanged normal/banklag2 source views",
+  "candidate_selection_eligible": false,
+  "output_hashes": {
+    "attribution_hgb_60m_c12_duplicate_normal_2026-01-01.csv.gz": "03e9d1f8761a2081d2700775a2aceee82b03268176d1273d1c7cbf9553c9dc0a",
+    "attribution_hgb_60m_c12_duplicate_normal_2025-01-01_calibration.csv.gz": "b02bdc35c9fa75841b82647784ad2345a985e2e148819ed34cb658cd91d2135f",
+    "attribution_hgb_60m_c12_duplicate_normal_2026-01-01_calibration.csv.gz": "b048d9a0b1ff162e0375d6593eff672895fe7fdb254509df2cbfa70909f7e862",
+    "attribution_hgb_60m_c12_duplicate_normal_2025-01-01.csv.gz": "14d2b8734d1308ce7de7c84687d9d4892bd852921ea9461b5a1e4f45f98415ae"
+  }
+}

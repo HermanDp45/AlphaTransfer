@@ -1,0 +1,525 @@
+{
+  "status": "PASS",
+  "audit_at_utc": "2026-09-05T11:04:13.809657+00:00",
+  "api_calls": 0,
+  "credentials_inspected": false,
+  "read_only_inputs": true,
+  "checks": {
+    "expected_new_input_sha256": true,
+    "old_snapshot_intact": true,
+    "no_duplicate_date_quote": true,
+    "no_nulls": true,
+    "all_rates_positive_finite": true,
+    "target_calendar_complete": true,
+    "timestamp_date_matches": true,
+    "same_timestamp_across_quotes": true,
+    "pair_base_identity": true,
+    "target_source_quote_identity": true,
+    "overlap_exact": true,
+    "old_overlap_all_rows_present": true,
+    "primary_Dplus2_available": true
+  },
+  "input": {
+    "path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/oxr2010_bank/input_oxr_snapshot.csv",
+    "sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "live_path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/data/open_exchange_rates/rub_cis_daily.csv",
+    "live_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "new_snapshot_exists": true,
+    "new_snapshot_path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/oxr2010_bank/input_oxr_snapshot.csv",
+    "rows": 54454,
+    "calendar_dates": 6091,
+    "first": "2010-01-01",
+    "last": "2026-09-04",
+    "columns": [
+      "date",
+      "pair",
+      "base",
+      "quote",
+      "source_quote",
+      "quote_per_rub",
+      "rub_per_quote",
+      "rub_per_usd",
+      "quote_per_usd",
+      "published_at_utc",
+      "source"
+    ],
+    "target_rows": 30455
+  },
+  "previous_snapshot": {
+    "path": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/continuation/oxr/input_oxr_snapshot.csv",
+    "sha256": "d30d226fbaa0b2d89a2e7eacf011b90af93eb60150572ec66c2fb1ff26a25db2",
+    "rows": 27000
+  },
+  "partition": {
+    "backextension_before_old_start": 27436,
+    "overlap_rows": 27000,
+    "append_after_old_end": 18,
+    "overlap_numeric_or_timestamp_revised_rows": 0,
+    "interpretation": "Pure back-extension plus two newer days and source_quote schema addition; no detected overlap revisions."
+  },
+  "coverage": [
+    {
+      "quote": "AMD",
+      "target": true,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    },
+    {
+      "quote": "AZN",
+      "target": false,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    },
+    {
+      "quote": "BYN",
+      "target": false,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    },
+    {
+      "quote": "KGS",
+      "target": true,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    },
+    {
+      "quote": "KZT",
+      "target": true,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    },
+    {
+      "quote": "MDL",
+      "target": false,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    },
+    {
+      "quote": "TJS",
+      "target": true,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    },
+    {
+      "quote": "TMT",
+      "target": false,
+      "rows": 5726,
+      "first": "2011-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 365,
+      "first_missing": "2010-01-01",
+      "last_missing": "2010-12-31"
+    },
+    {
+      "quote": "UZS",
+      "target": true,
+      "rows": 6091,
+      "first": "2010-01-01",
+      "last": "2026-09-04",
+      "missing_calendar_days": 0,
+      "first_missing": null,
+      "last_missing": null
+    }
+  ],
+  "overlap": [
+    {
+      "scope": "all9",
+      "column": "quote_per_rub",
+      "overlap_rows": 27000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "all9",
+      "column": "rub_per_quote",
+      "overlap_rows": 27000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "all9",
+      "column": "rub_per_usd",
+      "overlap_rows": 27000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "all9",
+      "column": "quote_per_usd",
+      "overlap_rows": 27000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "all9",
+      "column": "published_at_utc",
+      "overlap_rows": 27000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0,
+      "maximum_relative_difference": 0
+    },
+    {
+      "scope": "targets5",
+      "column": "quote_per_rub",
+      "overlap_rows": 15000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "targets5",
+      "column": "rub_per_quote",
+      "overlap_rows": 15000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "targets5",
+      "column": "rub_per_usd",
+      "overlap_rows": 15000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "targets5",
+      "column": "quote_per_usd",
+      "overlap_rows": 15000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "scope": "targets5",
+      "column": "published_at_utc",
+      "overlap_rows": 15000,
+      "changed_rows": 0,
+      "maximum_absolute_difference": 0,
+      "maximum_relative_difference": 0
+    }
+  ],
+  "flatness": [
+    {
+      "quote": "AMD",
+      "target": true,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.08407224958949097,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "AMD",
+      "target": true,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.18538587848932678,
+      "longest_constant_days": 194,
+      "first": "2020-06-17",
+      "last": "2020-12-27"
+    },
+    {
+      "quote": "AZN",
+      "target": false,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.11756978653530378,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "AZN",
+      "target": false,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.7085385878489326,
+      "longest_constant_days": 924,
+      "first": "2018-06-25",
+      "last": "2021-01-03"
+    },
+    {
+      "quote": "BYN",
+      "target": false,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.09146141215106732,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "BYN",
+      "target": false,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.17717569786535303,
+      "longest_constant_days": 10,
+      "first": "2025-05-01",
+      "last": "2025-05-10"
+    },
+    {
+      "quote": "KGS",
+      "target": true,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.08669950738916256,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "KGS",
+      "target": true,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.35730706075533664,
+      "longest_constant_days": 62,
+      "first": "2018-08-01",
+      "last": "2018-10-01"
+    },
+    {
+      "quote": "KZT",
+      "target": true,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.08998357963875206,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "KZT",
+      "target": true,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.15763546798029557,
+      "longest_constant_days": 10,
+      "first": "2025-05-01",
+      "last": "2025-05-10"
+    },
+    {
+      "quote": "MDL",
+      "target": false,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.08866995073891626,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "MDL",
+      "target": false,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.1343185550082102,
+      "longest_constant_days": 6,
+      "first": "2012-03-28",
+      "last": "2012-04-02"
+    },
+    {
+      "quote": "TJS",
+      "target": true,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.09129720853858785,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "TJS",
+      "target": true,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.23316912972085385,
+      "longest_constant_days": 66,
+      "first": "2015-06-07",
+      "last": "2015-08-11"
+    },
+    {
+      "quote": "TMT",
+      "target": false,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.1056768558951965,
+      "longest_constant_days": 5,
+      "first": "2011-04-21",
+      "last": "2011-04-25"
+    },
+    {
+      "quote": "TMT",
+      "target": false,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.5013100436681223,
+      "longest_constant_days": 54,
+      "first": "2025-06-26",
+      "last": "2025-08-18"
+    },
+    {
+      "quote": "UZS",
+      "target": true,
+      "column": "rub_per_quote",
+      "unchanged_fraction": 0.08669950738916256,
+      "longest_constant_days": 5,
+      "first": "2010-04-01",
+      "last": "2010-04-05"
+    },
+    {
+      "quote": "UZS",
+      "target": true,
+      "column": "quote_per_usd",
+      "unchanged_fraction": 0.21510673234811165,
+      "longest_constant_days": 25,
+      "first": "2014-01-10",
+      "last": "2014-02-03"
+    }
+  ],
+  "numeric": {
+    "inverse_identity_max_absolute_error": 1.942890293094024e-14,
+    "usd_cross_max_relative_error": 1.9317880628477724e-14
+  },
+  "timestamp": {
+    "min_time_utc": "09:24:28",
+    "max_time_utc": "23:59:59",
+    "time_counts_by_dates": {
+      "23:59:59": 2071,
+      "16:00:00": 651,
+      "23:59:58": 509,
+      "17:00:00": 447,
+      "23:01:01": 182,
+      "23:01:02": 181,
+      "23:00:08": 65,
+      "23:59:57": 62,
+      "23:59:54": 59,
+      "23:59:56": 57
+    },
+    "minimum_seconds_publication_to_primary_decision": 108352.0,
+    "rule": "max(raw publication UTC, source date+1 day UTC midnight)+24h primary; +48h stress",
+    "limitation": "Reported publication timestamp, not fetched_at or revision-vintage proof. Flat currency legs can be republished daily."
+  },
+  "redenomination": {
+    "target_corridors_affected": false,
+    "source_quote_groups": [
+      {
+        "quote": "AMD",
+        "source_quote": "AMD",
+        "rows": 6091,
+        "first": "2010-01-01",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "AZN",
+        "source_quote": "AZN",
+        "rows": 6091,
+        "first": "2010-01-01",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "BYN",
+        "source_quote": "BYN",
+        "rows": 3719,
+        "first": "2016-06-30",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "BYN",
+        "source_quote": "BYR",
+        "rows": 2372,
+        "first": "2010-01-01",
+        "last": "2016-06-29"
+      },
+      {
+        "quote": "KGS",
+        "source_quote": "KGS",
+        "rows": 6091,
+        "first": "2010-01-01",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "KZT",
+        "source_quote": "KZT",
+        "rows": 6091,
+        "first": "2010-01-01",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "MDL",
+        "source_quote": "MDL",
+        "rows": 6091,
+        "first": "2010-01-01",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "TJS",
+        "source_quote": "TJS",
+        "rows": 6091,
+        "first": "2010-01-01",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "TMT",
+        "source_quote": "TMT",
+        "rows": 5726,
+        "first": "2011-01-01",
+        "last": "2026-09-04"
+      },
+      {
+        "quote": "UZS",
+        "source_quote": "UZS",
+        "rows": 6091,
+        "first": "2010-01-01",
+        "last": "2026-09-04"
+      }
+    ],
+    "downloader_sha256": "490ebf830fa1976cb31de6dc3ae18533afc775f1a437f32a7103601c346bb065",
+    "normalization_divisor": 10000,
+    "exporter_provenance": "source_quote is inferred by SQL CASE (BYN date<2016-06-30 -> BYR), not a stored raw API field.",
+    "local_code_has_conversion": true,
+    "raw_http_payloads_audited": false,
+    "warning": "BYN values are normalized current-unit history; quote_per_usd is already divided, do not divide again. TMT 2010 is absent, not synthetic."
+  },
+  "old_lock_references": [
+    {
+      "manifest": "final_solution/inputs.lock.json",
+      "oxr_references": []
+    },
+    {
+      "manifest": "research_v3/manifest.json",
+      "oxr_references": []
+    },
+    {
+      "manifest": "research_v4/artifact_manifest.json",
+      "oxr_references": [
+        {
+          "file": "continuation/oxr/input_oxr_snapshot.csv",
+          "expected": "d30d226fbaa0b2d89a2e7eacf011b90af93eb60150572ec66c2fb1ff26a25db2",
+          "actual": "d30d226fbaa0b2d89a2e7eacf011b90af93eb60150572ec66c2fb1ff26a25db2",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "preservation": "No old files restored or rewritten. The live file change is user-authorized; existing frozen OXR snapshot remains exact. Strict old V4 file-set seal is naturally no longer a seal of newly added directories.",
+  "audit_code_sha256": "29f3ef9258682bda7466a16e0025d799ef64fae7e63d88300a0416ac6cd245cb"
+}

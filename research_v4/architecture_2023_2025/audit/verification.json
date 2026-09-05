@@ -1,0 +1,927 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "evaluation_scope",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_historical_baseline_reproduction_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_historical_baseline_reproduction_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_historical_basis_train_120m_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_historical_basis_train_120m_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_hgb_base15_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_hgb_base15_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_hgb_base15_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_hgb_full33_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_hgb_full33_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_hgb_full33_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_base15_s2_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_base15_s2_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_base15_s2_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_ensemble3_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_ensemble3_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_ensemble3_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s0_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s0_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s0_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s1_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s1_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s1_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s2_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s2_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_kzt_tabm_full33_s2_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_hgb_base15_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_hgb_base15_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_hgb_base15_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_hgb_full33_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_hgb_full33_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_hgb_full33_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_tabm_base15_s2_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_tabm_base15_s2_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_tabm_base15_s2_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_tabm_full33_s2_cadence85_cd2",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_tabm_full33_s2_fixed_threshold_0.50",
+      "status": "PASS"
+    },
+    {
+      "name": "common_test_cohort_pooled_tabm_full33_s2_legacy",
+      "status": "PASS"
+    },
+    {
+      "name": "all_summary_aggregate_values",
+      "status": "PASS",
+      "summary_rows": 53,
+      "errors": []
+    },
+    {
+      "name": "annual_week_denominator",
+      "status": "PASS",
+      "correct": 152,
+      "incorrect_continuous": 155
+    },
+    {
+      "name": "all_paired_month_intervals",
+      "status": "PASS",
+      "comparisons": 20,
+      "errors": []
+    },
+    {
+      "name": "frozen_calibrator_and_independent_policy_replay",
+      "status": "PASS",
+      "rows": 58887,
+      "max_probability_error": 0.0,
+      "failures": []
+    },
+    {
+      "name": "binary_source_hash",
+      "status": "PASS"
+    },
+    {
+      "name": "local_matrix",
+      "status": "PASS",
+      "model_year_pairs": 18,
+      "ensemble_year_pairs": 3
+    },
+    {
+      "name": "actual_fifth_future_date",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_2023",
+      "status": "PASS",
+      "train_rows": 2463,
+      "validation_rows": 242,
+      "test_rows": 242,
+      "train_label_max": "2021-12-31 00:00:00",
+      "validation_label_max": "2022-12-31 00:00:00"
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_base15_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_base15_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_base15_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2023_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2023_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_base15_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2023_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_base15_s2_2023",
+      "status": "PASS",
+      "rows": 731,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_hgb_base15_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "matched_preprocessor_kzt_hgb_base15_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_hgb_base15_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2023_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2023_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_hgb_base15_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2023_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_hgb_base15_2023",
+      "status": "PASS",
+      "rows": 731,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s0_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s0_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s0_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2023_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2023_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s0_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2023_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s0_2023",
+      "status": "PASS",
+      "rows": 731,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s1_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s1_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s1_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2023_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2023_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s1_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2023_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s1_2023",
+      "status": "PASS",
+      "rows": 731,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2023_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2023_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s2_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2023_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s2_2023",
+      "status": "PASS",
+      "rows": 731,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_hgb_full33_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "matched_preprocessor_kzt_hgb_full33_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_hgb_full33_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2023_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2023_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_hgb_full33_2023",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2023_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_hgb_full33_2023",
+      "status": "PASS",
+      "rows": 731,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "maturity_2024",
+      "status": "PASS",
+      "train_rows": 2461,
+      "validation_rows": 242,
+      "test_rows": 243,
+      "train_label_max": "2022-12-31 00:00:00",
+      "validation_label_max": "2023-12-30 00:00:00"
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_base15_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_base15_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_base15_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2024_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2024_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_base15_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2024_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_base15_s2_2024",
+      "status": "PASS",
+      "rows": 732,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_hgb_base15_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "matched_preprocessor_kzt_hgb_base15_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_hgb_base15_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2024_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2024_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_hgb_base15_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2024_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_hgb_base15_2024",
+      "status": "PASS",
+      "rows": 732,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s0_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s0_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s0_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2024_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2024_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s0_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2024_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s0_2024",
+      "status": "PASS",
+      "rows": 732,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s1_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s1_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s1_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2024_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2024_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s1_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2024_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s1_2024",
+      "status": "PASS",
+      "rows": 732,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2024_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2024_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s2_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2024_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s2_2024",
+      "status": "PASS",
+      "rows": 732,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_hgb_full33_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "matched_preprocessor_kzt_hgb_full33_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_hgb_full33_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2024_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2024_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_hgb_full33_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2024_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_hgb_full33_2024",
+      "status": "PASS",
+      "rows": 732,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "maturity_2025",
+      "status": "PASS",
+      "train_rows": 2462,
+      "validation_rows": 243,
+      "test_rows": 242,
+      "train_label_max": "2023-12-30 00:00:00",
+      "validation_label_max": "2024-12-29 00:00:00"
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_base15_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_base15_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_base15_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2025_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2025_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_base15_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_base15_s2_2025_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_base15_s2_2025",
+      "status": "PASS",
+      "rows": 733,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_hgb_base15_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "matched_preprocessor_kzt_hgb_base15_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_hgb_base15_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2025_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2025_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_hgb_base15_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_base15_2025_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_hgb_base15_2025",
+      "status": "PASS",
+      "rows": 733,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s0_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s0_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "old2025_reuse_kzt_tabm_full33_s0",
+      "status": "PASS"
+    },
+    {
+      "name": "old2025_raw_reuse_kzt_tabm_full33_s0",
+      "status": "PASS",
+      "max_abs_error": 0.0,
+      "rows": 242
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s0_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2025_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2025_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s0_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s0_2025_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s0_2025",
+      "status": "PASS",
+      "rows": 733,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s1_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s1_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "old2025_reuse_kzt_tabm_full33_s1",
+      "status": "PASS"
+    },
+    {
+      "name": "old2025_raw_reuse_kzt_tabm_full33_s1",
+      "status": "PASS",
+      "max_abs_error": 0.0,
+      "rows": 242
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s1_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2025_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2025_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s1_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s1_2025_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s1_2025",
+      "status": "PASS",
+      "rows": 733,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_tabm_full33_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_metadata_kzt_tabm_full33_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "old2025_reuse_kzt_tabm_full33_s2",
+      "status": "PASS"
+    },
+    {
+      "name": "old2025_raw_reuse_kzt_tabm_full33_s2",
+      "status": "PASS",
+      "max_abs_error": 0.0,
+      "rows": 242
+    },
+    {
+      "name": "train_only_statistics_kzt_tabm_full33_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2025_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2025_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_tabm_full33_s2_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_tabm_full33_s2_2025_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_tabm_full33_s2_2025",
+      "status": "PASS",
+      "rows": 733,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "train_fingerprint_kzt_hgb_full33_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "matched_preprocessor_kzt_hgb_full33_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_statistics_kzt_hgb_full33_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2025_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2025_history",
+      "status": "PASS"
+    },
+    {
+      "name": "immature_mask_kzt_hgb_full33_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "keys_kzt_hgb_full33_2025_test",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_raw_replay_kzt_hgb_full33_2025",
+      "status": "PASS",
+      "rows": 733,
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2023_history",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2023_test",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2023_validation",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2024_history",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2024_test",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2024_validation",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2025_history",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2025_test",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    },
+    {
+      "name": "ensemble_2025_validation",
+      "status": "PASS",
+      "max_abs_error": 0.0
+    }
+  ],
+  "passed": 207,
+  "scope": "Independent read-only audit; no fitting or source mutation.",
+  "input_sha256": {
+    "research_v4/architecture_2023_2025/protocol.json": "131c43c7c4a6a276fc9022b414b393b48e79aca9749f436399c8d29a5d91dfab",
+    "research_v4/architecture_2023_2025/local.py": "4675c1e25ae6843a14c4311b4cf6b54505211e83aabe04f41ffdf0f8b02193d4",
+    "research_v4/architecture_2023_2025/evaluate.py": "25b65eae24bb43358eb402abe4aa9cefa8a7c18236a8db9df50a76c11ccb7665",
+    "research_v4/architecture_2023_2025/summary.csv": "f7e5bdc9e4bf88467483a10a6199904a13b6eeb0e34e1c934cf67d6412bd8c98",
+    "research_v4/architecture_2023_2025/by_year.csv": "5ec067e64231f961ef6a7a6ca4490256b026089024941efc5efdcb239c078e77",
+    "research_v4/architecture_2023_2025/paired_intervals.csv": "456be41dd92bfeeeb6af53bd601f51cfb4afb4ec8d243dab5b96071547094994",
+    "research_v4/architecture_2023_2025/predictions.csv.gz": "e865e69ef2a12e54f9cf03349297e5fdba219a1663a496f5f27ee1f772cefcb2",
+    "research_v4/architecture_2023_2025/local/receipts.json": "d4c757eb4a5f24f27d1cae1623560d6693644ae14de03260fb03226ff2ce03df",
+    "research_v4/architecture_2023_2025/local/raw_predictions.csv.gz": "51b27dd88e99f1af3d198d87040a8fde33567a65e8a9700ea6bd2229c4686a6e",
+    "research_v4/architecture_2023_2025/pooled/protocol.json": "d95ddb3075003079f2c6d284c3ac1ed1686d5941dcafab474e8490b283a55ffc",
+    "research_v4/architecture_2023_2025/pooled/experiment.py": "b8dd3c8c087983f90e89cab7d8b35d54d0d009e417d99babf0600bb63245e970",
+    "research_v4/architecture_2023_2025/pooled/raw_predictions.csv.gz": "599a1006fae7503ee6f6b6c94d447764f74be1807f421fe5683bf398cd566b25"
+  },
+  "audit_sha256": "d00f4a829e4357e76c294534d44eb39a8af443104d26475fa252934b200b3a7c"
+}

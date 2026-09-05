@@ -1,0 +1,1918 @@
+{
+  "status": "PASS",
+  "passed": 467,
+  "checks": [
+    {
+      "name": "matrix",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_kzt_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_kzt_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_kzt_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_kzt_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_kzt_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_kzt_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_kzt_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_kzt_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_kzt_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_kzt_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_kzt_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_kzt_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_kzt_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_kzt_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_kzt_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_kzt_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_kzt_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_kzt_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_kzt_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_kzt_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_kzt_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_kzt_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_kzt_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_kzt_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_kzt_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_kzt_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_kzt_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_kzt_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_kzt_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_pooled_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_pooled_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_pooled_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_pooled_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_pooled_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_pooled_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_pooled_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_pooled_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_pooled_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_pooled_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_pooled_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_pooled_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_pooled_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_pooled_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_pooled_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_pooled_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_pooled_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_pooled_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_pooled_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_pooled_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_pooled_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_pooled_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_pooled_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_pooled_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_pooled_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_pooled_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_pooled_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_pooled_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_pooled_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_pooled_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_tabm_pooled_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_tabm_pooled_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_tabm_pooled_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_tabm_pooled_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_tabm_pooled_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_tabm_pooled_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_tabm_pooled_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_tabm_pooled_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_tabm_pooled_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_v3_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_v3_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_v3_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_v3_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_v3_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_v3_3_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_v3_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_v3_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_v3_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_v3_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_v3_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_v3_3_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_v3_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_v3_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_v3_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_v3_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_v3_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_v3_3_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_3_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_v3_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_v3_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_v3_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_v3_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_v3_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2024_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2024_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2024_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2024_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2024_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2024_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_v3_5_2024",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2024_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_v3_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_v3_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_v3_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_v3_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_v3_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2025_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2025_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2025_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2025_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2025_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2025_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_v3_5_2025",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2025_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "maturity_v3_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_warmup_history_v3_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_rank_reference_v3_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "rank_formula_v3_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "future_poison_prefix_v3_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2026_strict05",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2026_cadence80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2026_cadence85",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2026_cadence90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2026_rank80",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2026_rank90",
+      "status": "PASS"
+    },
+    {
+      "name": "past_calibration_threshold_v3_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "calibration_feasibility_v3_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "shared_parameter_v3_5_2026",
+      "status": "PASS"
+    },
+    {
+      "name": "test_contact_replay_v3_5_2026_rank90_shared",
+      "status": "PASS"
+    },
+    {
+      "name": "all_calibrated_probabilities_and_ranks",
+      "status": "PASS",
+      "rows": 99176,
+      "max_probability_error": 0.0,
+      "max_rank_error": 0.0,
+      "future_poison_groups": 18
+    },
+    {
+      "name": "metrics_summary.csv",
+      "status": "PASS",
+      "rows": 70,
+      "errors": []
+    },
+    {
+      "name": "metrics_by_year.csv",
+      "status": "PASS",
+      "rows": 210,
+      "errors": []
+    },
+    {
+      "name": "metrics_by_year_corridor.csv",
+      "status": "PASS",
+      "rows": 462,
+      "errors": []
+    },
+    {
+      "name": "cross_horizon_common_cohort_proper_scores",
+      "status": "PASS",
+      "rows": 420,
+      "errors": []
+    },
+    {
+      "name": "complete_selector_ranking_development_2024_2025_all5",
+      "status": "PASS",
+      "candidates": 28,
+      "qualified": 2
+    },
+    {
+      "name": "winner_development_2024_2025_all5",
+      "status": "PASS"
+    },
+    {
+      "name": "frozen_2026_audit_all5",
+      "status": "PASS"
+    },
+    {
+      "name": "complete_selector_ranking_development_2024_2025_KZT",
+      "status": "PASS",
+      "candidates": 42,
+      "qualified": 15
+    },
+    {
+      "name": "winner_development_2024_2025_KZT",
+      "status": "PASS"
+    },
+    {
+      "name": "frozen_2026_audit_KZT",
+      "status": "PASS"
+    },
+    {
+      "name": "complete_selector_ranking_retrospective_2024_2026_all5",
+      "status": "PASS",
+      "candidates": 28,
+      "qualified": 0
+    },
+    {
+      "name": "winner_retrospective_2024_2026_all5",
+      "status": "PASS"
+    },
+    {
+      "name": "complete_selector_ranking_retrospective_2024_2026_KZT",
+      "status": "PASS",
+      "candidates": 42,
+      "qualified": 2
+    },
+    {
+      "name": "winner_retrospective_2024_2026_KZT",
+      "status": "PASS"
+    },
+    {
+      "name": "paired_month_bootstrap_intervals",
+      "status": "PASS",
+      "comparisons": 8,
+      "errors": []
+    }
+  ],
+  "source_sha256": {
+    "protocol.json": "5a3ab52353f8a094927a3982a51ef4a56fad27d0a8cdcfd1167c482bf10a416f",
+    "evaluate.py": "0f7f17682ee9195242a8d9f339bb93b1a2ba7e0063455a53f0e8d3f2943926fa",
+    "report.py": "992cef901af3da4b9e43e7dd8d5c1e0148feef2509682074a6dc052d1a1dc14d",
+    "predictions.csv.gz": "36b0929fd585825bc54fa113ae6285a0420d8da6730b7a330f30007d64eb2d7a",
+    "summary.csv": "e2caaa4fb261a0a186f13dbea46ed02ffea97af1dc250ea15bb442dcd15e4054",
+    "by_year.csv": "e336147b4de3c30154f0ffa861c3c5b5d1d31a69d0f4cb36ea3fb4092211cb03",
+    "by_year_corridor.csv": "acb6548267ec2a6d5bf993fcdbe76baf31c98a2f0b9a50acc248aa0c5de4f671",
+    "cross_horizon.csv": "55585bc679a710778482d6cca9a20f50647964b00a63cb61d4a9c91324ed69fc",
+    "policies.json": "ea203d11f7540abad90c5f5e233169239d7e2877da76e8b8806a785af035de10",
+    "calibration.json": "7f54f60cdb3e41102e98b40b9ac4e578405b1d110d07224320b1cee632a5c944",
+    "selection.json": "03c72706136896ef32bd0f6a3d3404ac7a69045e9c9a7b4954c4f3ac5768cacf",
+    "selection_ranking.csv": "3f92aec5eeaf391a08d9b11809c0a9599ea47e8d1d3420274a14c575620e150b",
+    "paired_intervals.csv": "29ced628c2c99840223fd4dd248a69e57cccb33a284979d7603db123e96a0ad6",
+    "tabm/raw_predictions.csv.gz": "a4a50dfe6dcf7b6d77118eb348e5c6ed4163f53623ff002baa66f42f2df17d56",
+    "tabm/warmup.csv.gz": "31ab69b87fe92953564e78aa86f53982e8bbce80aaa3fc8730963b77ff022b43",
+    "v3/raw_predictions.csv.gz": "3c1430f2c4218523e9d934ae1d8471714821c5f06d91ae42803d89cd6427f2fe",
+    "v3/warmup.csv.gz": "bd2ad625e383b8be804d46275260de8bc4ad350eb19a5ef28b21d42213c8034c"
+  },
+  "audit_sha256": "c5e36f8963c38b2b985d9f0cf9690444a55d9a3b73298569620caf79417ef7e3",
+  "scope": "Independent read-only numerical protocol, rank, selection and interval audit; no model fitting.",
+  "editorial_refresh": "Latest report.py read independently after report-only metadata and uncertainty additions. All computed evaluator input/output hashes remain unchanged."
+}

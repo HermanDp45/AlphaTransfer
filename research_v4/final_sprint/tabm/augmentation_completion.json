@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "neural_fits": 4,
+  "temporary_inner_fits": 4,
+  "protocol_sha256": "d8b7575ac955492bacb33a370a4c12a1b4c9c336c50f92ebca88c293d318f8d9",
+  "code_sha256": "f4ee8fabf53488bfe5b4295f75026611b80de18032509ab84187de9ec14899c2",
+  "prediction_rows": 35304,
+  "calibration_history_rows": 22047
+}

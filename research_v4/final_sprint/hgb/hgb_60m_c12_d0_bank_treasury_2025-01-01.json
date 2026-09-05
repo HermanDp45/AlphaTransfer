@@ -1,0 +1,111 @@
+{
+  "spec": {
+    "name": "hgb_60m_c12_d0_bank_treasury",
+    "months": 60,
+    "cal": 12,
+    "decay": 0,
+    "features": "bank_treasury",
+    "augment": false,
+    "adapt": true,
+    "depth": 2
+  },
+  "features": [
+    "ret1",
+    "ret3",
+    "ret5",
+    "ret10",
+    "ret20",
+    "ret60",
+    "pr20",
+    "pr60",
+    "pr120",
+    "pr252",
+    "vol5",
+    "vol20",
+    "vol60",
+    "volratio",
+    "moex_cny_close_minus_fixing_same_session",
+    "halyk_rub_sell_official_basis",
+    "halyk_rub_personal_legal_gap",
+    "halyk_personal_rub_ret1",
+    "halyk_personal_rub_ret5",
+    "halyk_personal_usd_ret1",
+    "halyk_personal_usd_ret5",
+    "treasury_t10yie_stale_level",
+    "treasury_t10yie_stale_chg5",
+    "treasury_t10yie_stale_chg20",
+    "treasury_t5yifr_stale_level",
+    "treasury_t5yifr_stale_chg5",
+    "treasury_t5yifr_stale_chg20"
+  ],
+  "train_rows": 6130,
+  "fit_rows": 6130,
+  "train_min": "2019-01-10 00:00:00",
+  "train_max": "2023-12-23 00:00:00",
+  "latest_train_label": "2023-12-30 00:00:00",
+  "validation_min": "2024-01-10 00:00:00",
+  "validation_max": "2024-12-24 00:00:00",
+  "latest_validation_label": "2024-12-29 00:00:00",
+  "test_rows": 242,
+  "residual_weight": 1.0,
+  "weight_ess": 6130.0,
+  "checkpoint_sha256": "2da7433b1fbdd13447ed9cff63d32aea603cf83b983d22a86c912a44239f49af",
+  "policies": {
+    "legacy": {
+      "name": "legacy",
+      "threshold": {
+        "KZT": 0.18703262983463917
+      },
+      "cooldown": 3,
+      "initial_state": {
+        "KZT": {
+          "last": 3706,
+          "week": "2024-12-23/2024-12-29",
+          "count": 1
+        }
+      }
+    },
+    "cadence90_cd3": {
+      "name": "cadence90_cd3",
+      "threshold": {
+        "KZT": 0.1828455420233538
+      },
+      "cooldown": 3,
+      "initial_state": {
+        "KZT": {
+          "last": 3706,
+          "week": "2024-12-23/2024-12-29",
+          "count": 1
+        }
+      }
+    },
+    "cadence90_cd2": {
+      "name": "cadence90_cd2",
+      "threshold": {
+        "KZT": 0.21777767283635077
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3707,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    },
+    "cadence85_cd2": {
+      "name": "cadence85_cd2",
+      "threshold": {
+        "KZT": 0.21777767283635077
+      },
+      "cooldown": 2,
+      "initial_state": {
+        "KZT": {
+          "last": 3707,
+          "week": "2024-12-23/2024-12-29",
+          "count": 2
+        }
+      }
+    }
+  }
+}

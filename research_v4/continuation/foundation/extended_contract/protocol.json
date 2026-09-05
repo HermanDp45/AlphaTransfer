@@ -1,0 +1,28 @@
+{
+  "frozen_at_utc": "2026-09-05T10:02:54.951484+00:00",
+  "goal": "Remove V2-warmup-preservation difference from10y heads and compare on exact V3long panel contract. This is additional20 head fits, no new neural forecasts or neural refits.",
+  "years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "head_years": 10,
+  "panel": "immutable research_v3/models/panel_extended.pkl; same BASE column order, including full causal feature warm-up from2010",
+  "variants": [
+    "base_control",
+    "chronos2_small_ft",
+    "chronos2_synth_ft",
+    "chronos2_synth_ft_kzt",
+    "chronos2_synth_zs"
+  ],
+  "other_contracts": "identical to ../protocol.json: original fixed checkpoints and extended forecast caches, prior12months calibration, purge5, original candidate policy and carried cooldown, HGB120 depth2 early_stoppingFalse",
+  "comparisons": [
+    "base_control10y must exactly reproduce actual V3long",
+    "10y Chronos augmentation vs actual V3long",
+    "same10y backbone+head vs mixed-panel10y to show warm-up effect"
+  ],
+  "stage_status": "development2023-25, already-inspected retrospective2026; no choices based on2026",
+  "crossfit_disclosure": "early neural head features in-sample w.r.t frozen backbone fit, not cross-fitted",
+  "bootstrap_repetitions": 10000
+}

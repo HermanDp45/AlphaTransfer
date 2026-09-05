@@ -1,65 +1,51 @@
-# AlphaTransfer final solution
+# AlphaTransfer: финальный TabM KZT H3
 
-Обновление V3 (2026-09-05): [полный отчёт и сравнения](../research_v3/REPORT.md), [запуск новых моделей и selective policy](../research_v3/README.md). Старый baseline сохранён; в продуктовый путь добавлены проверяемые факты и optional readiness gate.
+Активный профиль — **TabM KZT, H3, история с2010 года, правило rank80**. Все33признака, preprocessing, веса, калибровка, источники и состояние триггера находятся в `tabm_h3/`. Исполнение не требует исследовательских модулей или сети.
 
-Один entry point превращает проверенный ML-кандидат в полный product decision: проверяет входы, собирает три ключевые метрики, формирует исторический сигнал, применяет TTL/CRM/timezone/quote-гейты и пишет понятный отчёт.
-
-## Быстрый запуск
-
-Из корня репозитория:
+## Запуск
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 python3 final_solution/main.py
+python3.11 -m pip install -r final_solution/requirements-tabm-h3.txt
+python3.11 final_solution/main.py --as-of 2026-09-05 --mode historical_smoke
 ```
 
-Результат появится в `final_solution/output/`:
+Команда строит признаки из семи упакованных источников и пишет `tabm_h3/output/signal_decision.json`, `predictions.csv`, `next_state.json`, `run_receipt.json`. Это явно помеченная историческая демонстрация: модель имеет as-of5сентября, последний доступный справочный курс —3сентября. Демо не является новым out-of-sample тестом и не отправляет сообщения клиентам.
 
-- `EXECUTIVE_SUMMARY.md` — короткий итог;
-- `model_scorecard.json` — качество и гейты;
-- `signal_decision.json` — сигнал, UX-copy и suppression ledger;
-- `key_metrics.csv`, `source_receipt.csv` — плоские артефакты;
-- `run_receipt.json`, `_SUCCESS.json` — воспроизводимость запуска.
-
-Быстрый режим использует зафиксированный final-run и исторический demo-as-of `2025-12-16`. Он не требует сети и сторонних библиотек.
-
-## Полная пересборка ML
-
-Нужен Python 3.11+ с зависимостями из `final_solution/requirements-ml.txt`. Один запуск:
+Для обновлённых источников:
 
 ```bash
-python3.11 final_solution/main.py --rebuild final --verify-full-bundle
+python3.11 final_solution/main.py --as-of YYYY-MM-DD --mode operational \
+  --sources /absolute/path/source_paths.json \
+  --state-in final_solution/tabm_h3/operational_state.json \
+  --state-out /absolute/path/next_state.json
 ```
 
-`final` требует не менее 10 000 block-bootstrap повторов. Для проверки wiring без inferential-выводов:
+JSON источников использует те же ключи, что `source_paths` в `tabm_h3/bundle.json`; абсолютные пути допустимы. Данные должны продолжать полный прежний префикс без пропуска CBR-сессий. Operational mode проверяет доступность даты и не выдаёт предшествующие cutoff строки за новые прогнозы. После успешного запуска передавайте сохранённое состояние следующему запуску.
 
-```bash
-python3.11 final_solution/main.py --rebuild smoke --bootstrap-reps 100
-```
+## Выбранный рецепт
 
-Весь исполняемый контур находится внутри `final_solution`: обучение и оценка — в `training/`, сбор данных — в `data_pipeline/`, frozen-входы — в `data/`, эталонный результат — в `model_bundle/`. Пересборка пишет только в `final_solution/work/`; код и данные во время запуска не копируются.
+| Год теста | Lift | Hit rate | Недель с1–2 сигналами | Выгода к базе, б.п. |
+| --- | --- | --- | --- | --- |
+| 2024 | 1,609 | 53,8% | 80,4% | +57,5 |
+| 2025 | 1,452 | 38,1% | 92,2% | +40,3 |
+| 2026, доступная часть | 1,441 | 61,1% | 84,8% | +73,8 |
 
-Произвольная историческая дата поддерживается с полным prediction-файлом:
+Длинная история закрыла провал прежнего10-летнего H3 в2026, но ухудшила2025. Во всех трёх годах выполнены точечные цели lift≥1,3, coverage≥80%, положительная разность к базовому дню. Доверительные интервалы общего улучшения относительно10-летнего варианта включаютноль; гарантированное превосходство не заявляется.
 
-```bash
-python3 final_solution/main.py \
-  --as-of 2025-12-10 \
-  --predictions final_solution/model_bundle/development_h5_predictions.csv
-```
+Финальные веса используют3869наблюдений:2010-01-01–2025-08-30. Последние243зрелых наблюдения до2026-08-29 использованы отдельно для калибровки и триггера; их исходы известны к2026-09-03. Это использование всей истории с разделением train/calibration, без обучения калибратора на ответах, уже виденных весами. Исторические показатели относятся к ежегодному recipe; новый final checkpoint ещё не имеет будущего теста.
 
-Полный prediction-файл велик и может отсутствовать в облегчённой копии репозитория. В этом случае сначала выполните `--rebuild final` или используйте включённый demo-as-of.
+## Сигналы
 
-## Структура
+NOW_H3 означает прогноз, что текущий RUB/KZT не выше минимума следующих3эффективных CBR-сессий. Rank80 сравнивает текущий score с63предшествующими; квантиль выбирается по прошлой калибровке. Максимум2кандидата за календарную неделю, cooldown2сессии. Состояние защищено привязкой к модели, горизонту, калибровке и правилу.
 
-- `main.py`, `alphatransfer_final/` — единый продуктовый entry point;
-- `training/train_and_evaluate.py` — полный walk-forward training/evaluation;
-- `training/core_experiment.py` — модели, признаки и временные сплиты;
-- `training/verify_bundle.py` — строгая проверка provenance и артефактов;
-- `data_pipeline/fetch_open_data.py` — воспроизводимый сбор открытых данных;
-- `data/` — frozen raw/normalized snapshots и manifest;
-- `model_bundle/` — зафиксированный эталонный ML-run.
-- `research/` — дополнительные cadence/mechanism и legacy-аудиты, не входящие
-  в основной production-like путь.
+Отдельная CLOSING_H3-голова обучена и сохранена, но пока работает в диагностике: её аннотация не прошла lift1,3 в2025. Она не добавляет контактов и не превращается автоматически в утверждение «окно закрывается». Её горизонт и target отличаются отNOW и описаны отдельно в bundle.
 
-## Важно
+## Где смотреть
 
-Pipeline ничего не отправляет наружу. Текущий результат честно имеет статус `SHADOW_ONLY`: lift и proxy-выгода проходят, недельное покрытие и production-гейты — нет. Смысл подхода, определения, тайминг и путь клиента описаны в [APPROACH.md](APPROACH.md).
+- `tabm_h3/bundle.json` — активная конфигурация и выбранная история.
+- `tabm_h3/features.py`, `model.py`, `policy.py`, `predict.py` — самостоятельный исполняемый путь.
+- `tabm_h3/model/`, `data/`, `source_receipt.json`, `training_receipt.json` — веса, данные, происхождение.
+- `../research_v4/h3_finalization/REPORT.md` — подробное сравнение длин истории.
+- `../research_v4/h3_finalization/REPORTING_ALL_METRICS.csv` — единый CSV всех сравнений.
+
+Прежний путь доступен через `python3.11 final_solution/main.py --legacy`; его документация сохранена в `README.legacy.md`. Корневой `config.toml` относится кlegacy-контру; активная H3-конфигурация находится в `tabm_h3/bundle.json`.

@@ -1,0 +1,21 @@
+{
+  "meaningful_tests_passed": 7,
+  "test_command": "python -m unittest discover -s research_v4/segments -p test_segments.py -v",
+  "preview_cli_verified": true,
+  "preview_default": "universal",
+  "preview_simulation": true,
+  "production_eligible": false,
+  "frequent_gain_is_conditional_and_negative_at_low_response": true,
+  "raw_microdata_exported": false,
+  "sealed_v3_modified": false,
+  "final_solution_modified": false,
+  "code_sha256": {
+    "test_segments.py": "e399aa0df251a38c2db09bc28100dba3c89de8e75cb5baf06378e893f84d98ce",
+    "preview.py": "aa03b5872ebd70acab85365f1845eaf08bea65be8d85bb3e4dcd18df0b85a77d",
+    "fetch_sources.py": "e6515fd1586ba2021f9a67e5d054dc0255500a7c768d10329cf55aff0d42101f",
+    "build_report.py": "2038a397cfffb6b21a09d9f2ccb22b925d7540c2793a1a018a6a213259102370",
+    "fetch_microdata.py": "0a72828d128f294b175fd401025c4cf92ed6521923aa00762ce801dac3695a10",
+    "experiment.py": "ec95c71fc8d0cbd2e63622c95e02ebc77660aab104105c974c8535dd9390c4ee",
+    "aggregate_microdata.py": "e341ff6fdc4aae570e0cb16d1d9d21489f231f3a4034c8cea362b1291f67127f"
+  }
+}

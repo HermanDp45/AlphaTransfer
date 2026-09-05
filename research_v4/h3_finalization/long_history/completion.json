@@ -1,0 +1,12 @@
+{
+  "status": "annual_phase_complete",
+  "new_neural_fits": 3,
+  "new_inner_fits": 3,
+  "train_horizon": 3,
+  "rows": 2122,
+  "warmup_rows": 189,
+  "source_sha256": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+  "raw_prediction_sha256": "1156e4185854e017904394e7e7b8af8e7a31916eff34732d2b6aefd09d3da577",
+  "warmup_sha256": "6f8e03def0b8d1ca98b480a291bec458da6556ef7ac8d4bd0e3d3fa872bb9c0b",
+  "awaiting": "Parent-selected final-fit specification"
+}

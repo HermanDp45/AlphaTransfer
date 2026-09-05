@@ -1,0 +1,191 @@
+[
+  {
+    "test_year": 2024,
+    "prior_years": [
+      2023
+    ],
+    "max_prior_score_date": "2023-12-02",
+    "universal": {
+      "frequent": "h1_q0.50_cad3",
+      "monthly": "h1_q0.50_cad3",
+      "occasional": "h1_q0.50_cad3"
+    },
+    "group_aware": {
+      "frequent": "h10_q0.50_cad3",
+      "monthly": "h20_q0.50_cad7",
+      "occasional": "h20_q0.25_cad14"
+    },
+    "group_unconstrained_exploratory": {
+      "frequent": "h10_q0.50_cad3",
+      "monthly": "h3_q0.25_cad3",
+      "occasional": "h20_q0.50_cad7"
+    },
+    "thresholds": {
+      "h1_q0.25": 0.4183795947124125,
+      "h1_q0.5": 0.5301748048268194,
+      "h1_q0.75": 0.6177708275773715,
+      "h3_q0.25": 0.2594198215320961,
+      "h3_q0.5": 0.3226165154646181,
+      "h3_q0.75": 0.38730663593801296,
+      "h5_q0.25": 0.20128403359512725,
+      "h5_q0.5": 0.2464808113213506,
+      "h5_q0.75": 0.3300232232574006,
+      "h10_q0.25": 0.16499436061263434,
+      "h10_q0.5": 0.2069382592393478,
+      "h10_q0.75": 0.2591040306384946,
+      "h20_q0.25": 0.1136868438998354,
+      "h20_q0.5": 0.1265402038774042,
+      "h20_q0.75": 0.1532178462570829
+    },
+    "expected_budget_target": 4.351803751803751,
+    "budget_calibration": {
+      "universal_expected_budget": {
+        "thin": 0.45,
+        "prior_contacts": 4.400288600288601
+      },
+      "group_expected_budget": {
+        "thin": 1.0,
+        "prior_contacts": 4.351803751803751
+      },
+      "group_unconstrained_expected_budget": {
+        "thin": 0.55,
+        "prior_contacts": 4.401154401154401
+      },
+      "random_expected_budget": {
+        "thin": 0.15000000000000002,
+        "prior_contacts": 4.328138528138528
+      },
+      "weekly_expected_budget": {
+        "thin": 0.7000000000000001,
+        "prior_contacts": 4.207503607503607
+      }
+    }
+  },
+  {
+    "test_year": 2025,
+    "prior_years": [
+      2023,
+      2024
+    ],
+    "max_prior_score_date": "2024-12-03",
+    "universal": {
+      "frequent": "h5_q0.50_cad3",
+      "monthly": "h5_q0.50_cad3",
+      "occasional": "h5_q0.50_cad3"
+    },
+    "group_aware": {
+      "frequent": "h3_q0.50_cad3",
+      "monthly": "h20_q0.25_cad7",
+      "occasional": "h3_q0.25_cad14"
+    },
+    "group_unconstrained_exploratory": {
+      "frequent": "h3_q0.50_cad3",
+      "monthly": "h5_q0.25_cad3",
+      "occasional": "h5_q0.50_cad3"
+    },
+    "thresholds": {
+      "h1_q0.25": 0.3935794813201253,
+      "h1_q0.5": 0.5235036817992662,
+      "h1_q0.75": 0.6798059231208227,
+      "h3_q0.25": 0.2646253425884729,
+      "h3_q0.5": 0.356874105988997,
+      "h3_q0.75": 0.5279864832207172,
+      "h5_q0.25": 0.2070355598777903,
+      "h5_q0.5": 0.2878763712254303,
+      "h5_q0.75": 0.4368916446499964,
+      "h10_q0.25": 0.16779033712367059,
+      "h10_q0.5": 0.2309047680136192,
+      "h10_q0.75": 0.3273033442771912,
+      "h20_q0.25": 0.1258035062963905,
+      "h20_q0.5": 0.1698969076999623,
+      "h20_q0.75": 0.2650687027498704
+    },
+    "expected_budget_target": 4.433910533910534,
+    "budget_calibration": {
+      "universal_expected_budget": {
+        "thin": 0.5,
+        "prior_contacts": 4.44949494949495
+      },
+      "group_expected_budget": {
+        "thin": 1.0,
+        "prior_contacts": 4.433910533910534
+      },
+      "group_unconstrained_expected_budget": {
+        "thin": 0.45,
+        "prior_contacts": 4.601587301587301
+      },
+      "random_expected_budget": {
+        "thin": 0.15000000000000002,
+        "prior_contacts": 4.278210678210678
+      },
+      "weekly_expected_budget": {
+        "thin": 0.75,
+        "prior_contacts": 4.557720057720058
+      }
+    }
+  },
+  {
+    "test_year": 2026,
+    "prior_years": [
+      2023,
+      2024,
+      2025
+    ],
+    "max_prior_score_date": "2025-12-03",
+    "universal": {
+      "frequent": "h3_q0.50_cad3",
+      "monthly": "h3_q0.50_cad3",
+      "occasional": "h3_q0.50_cad3"
+    },
+    "group_aware": {
+      "frequent": "h3_q0.50_cad3",
+      "monthly": "h1_q0.25_cad7",
+      "occasional": "h3_q0.25_cad14"
+    },
+    "group_unconstrained_exploratory": {
+      "frequent": "h3_q0.50_cad3",
+      "monthly": "h3_q0.50_cad3",
+      "occasional": "h3_q0.75_cad3"
+    },
+    "thresholds": {
+      "h1_q0.25": 0.33082170236522607,
+      "h1_q0.5": 0.5012797819302377,
+      "h1_q0.75": 0.6785492970033109,
+      "h3_q0.25": 0.21318850461207095,
+      "h3_q0.5": 0.3343054036536304,
+      "h3_q0.75": 0.4865590239687566,
+      "h5_q0.25": 0.17026537616967397,
+      "h5_q0.5": 0.2698484979051067,
+      "h5_q0.75": 0.3979945391952506,
+      "h10_q0.25": 0.15203674441840218,
+      "h10_q0.5": 0.2192981905016364,
+      "h10_q0.75": 0.29932425023538867,
+      "h20_q0.25": 0.11717560797889508,
+      "h20_q0.5": 0.16246976242448274,
+      "h20_q0.75": 0.24515818204080425
+    },
+    "expected_budget_target": 4.800481000481001,
+    "budget_calibration": {
+      "universal_expected_budget": {
+        "thin": 0.55,
+        "prior_contacts": 4.916209716209716
+      },
+      "group_expected_budget": {
+        "thin": 1.0,
+        "prior_contacts": 4.800481000481001
+      },
+      "group_unconstrained_expected_budget": {
+        "thin": 0.65,
+        "prior_contacts": 4.658778258778259
+      },
+      "random_expected_budget": {
+        "thin": 0.15000000000000002,
+        "prior_contacts": 4.2887926887926895
+      },
+      "weekly_expected_budget": {
+        "thin": 0.8,
+        "prior_contacts": 4.8859066859066855
+      }
+    }
+  }
+]

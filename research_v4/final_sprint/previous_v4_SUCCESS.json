@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "sealed_files": 5271,
+  "sealed_bytes": 5935616259,
+  "local_report_links": 37,
+  "scientific_validation": "market verification PASS; separate foundation/crypto checks and segment tests retained",
+  "V3_untouched": true,
+  "manifest_sha256": "d258cb0d77690fc6b47da5f063c196940ee3be0e53213eb5fa03d76d0a79ece4"
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.postman.com/exmo-finance/exmo-finance-s-public-workspace/collection/uhjz2oi/exmo-me-api",
+  "final_url": "https://www.postman.com/exmo-finance/exmo-finance-s-public-workspace/collection/uhjz2oi/exmo-me-api",
+  "retrieved_utc": "2026-09-05T08:19:06.586896+00:00",
+  "status": 200,
+  "bytes": 101126,
+  "sha256": "4e7db2e03a6d0ff3ffab6e91cbc6cf587c4f5d2786edfa873699630b25680e72",
+  "content_type": "text/html",
+  "raw_path": "raw/exmo_api_docs_d331343ed01ceb834425.bin",
+  "group": "exmo_api_docs"
+}

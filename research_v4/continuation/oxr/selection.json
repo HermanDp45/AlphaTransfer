@@ -1,0 +1,11 @@
+{
+  "primary_candidate": "oxr_basis_120m_delay24h",
+  "criterion": "minimum paired-development all-corridor Brier among predefined120m primarydelay OXR families; no2026labels",
+  "scores": {
+    "oxr_basis_120m_delay24h": 0.18434376933434388,
+    "oxr_full_120m_delay24h": 0.185718965159298,
+    "oxr_returns_120m_delay24h": 0.18647453231817493
+  },
+  "development_predictions_sha256": "a9aea125e4e01129df0338e55032e1be892c253fb54a252aa79aee52aab4a686",
+  "selection_unix": 1788601789.7652428
+}

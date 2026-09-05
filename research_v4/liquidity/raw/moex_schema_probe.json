@@ -1,0 +1,15 @@
+{
+"history": {
+	"columns": ["BOARDID", "TRADEDATE", "SHORTNAME", "SECID", "OPEN", "LOW", "HIGH", "CLOSE", "NUMTRADES", "WAPRICE"], 
+	"data": [
+		["CETS", "2023-01-03", "CNYRUB_TOM", "CNYRUB_TOM", 9.9, 9.87, 10.18, 10.11, 17573, 10.0466],
+		["CETS", "2023-01-04", "CNYRUB_TOM", "CNYRUB_TOM", 10.146, 10.117, 10.286, 10.265, 17386, 10.2117],
+		["CETS", "2023-01-05", "CNYRUB_TOM", "CNYRUB_TOM", 10.29, 10.201, 10.424, 10.417, 20917, 10.308]
+	]
+},
+"history.cursor": {
+	"columns": ["INDEX", "TOTAL", "PAGESIZE"], 
+	"data": [
+		[0, 3, 100]
+	]
+}}

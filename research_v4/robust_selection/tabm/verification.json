@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Independent H3/H5 next-observation target, all utilities and actual maturity",
+      "status": "PASS",
+      "corridor_horizon_checks": 10,
+      "h3_h5_label_disagreements": 1278
+    },
+    {
+      "name": "Raw and warmup keys unique",
+      "status": "PASS",
+      "raw_rows": 25392,
+      "warmup_rows": 2268
+    },
+    {
+      "name": "All checkpoints/actual training bounds/inner boundaries and export probabilities replay",
+      "status": "PASS",
+      "models": 12,
+      "split_checks": 48,
+      "maximum_raw_probability_error": 2.978820801136095e-08
+    },
+    {
+      "name": "Warmup covers exactly63 PANEL dates including H-date purged tail, all labels masked",
+      "status": "PASS",
+      "model_cells": 12
+    },
+    {
+      "name": "Six H3 models actually trained; five H5 reuses verified with full labels/features/maturity parity",
+      "status": "PASS",
+      "new_neural_fits": 7,
+      "h5_reuse": 5
+    }
+  ],
+  "model_year_horizon_cells": 12,
+  "raw_predictions_sha256": "a4a50dfe6dcf7b6d77118eb348e5c6ed4163f53623ff002baa66f42f2df17d56",
+  "warmup_sha256": "31ab69b87fe92953564e78aa86f53982e8bbce80aaa3fc8730963b77ff022b43",
+  "source_sha256": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+  "protocol_sha256": "dd530bb81c7f3fda1b581353b495c95b166156ab0595a9fbb4c9bf816be0753d",
+  "warmup_protocol_sha256": "769cb748f0982bb77a99bf44cf6bbc45b9733b1c25f32b3156acd704435bcb98",
+  "code_sha256": "6252bc5d3a27d7226e7abac3d0974b330a6d2be0659d01ecf25e0c246145e8c3"
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=USDTKZT&interval=D&limit=3",
+  "final_url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=USDTKZT&interval=D&limit=3",
+  "retrieved_utc": "2026-09-05T08:19:09.087042+00:00",
+  "status": 200,
+  "bytes": 99,
+  "sha256": "d10deba8956ff762a19f0ee13c32cce0af2f7f20d1f7218430a5deffb89915b7",
+  "content_type": "application/json; charset=utf-8",
+  "raw_path": "raw/bybit_kzt_probe_c8afe7a39babb593090a.bin",
+  "group": "bybit_kzt_probe"
+}

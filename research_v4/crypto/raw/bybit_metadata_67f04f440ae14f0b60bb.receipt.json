@@ -1,0 +1,11 @@
+{
+  "url": "https://api.bybit.com/v5/market/instruments-info?category=spot",
+  "final_url": "https://api.bybit.com/v5/market/instruments-info?category=spot",
+  "retrieved_utc": "2026-09-05T08:19:08.989506+00:00",
+  "status": 200,
+  "bytes": 291637,
+  "sha256": "0e4e6e70a89d9c4c57f2edb5ba40d3d8a5600f25da6b96440207b748e942c942",
+  "content_type": "application/json; charset=utf-8",
+  "raw_path": "raw/bybit_metadata_67f04f440ae14f0b60bb.bin",
+  "group": "bybit_metadata"
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=USDTRUB&interval=D&limit=3",
+  "final_url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=USDTRUB&interval=D&limit=3",
+  "retrieved_utc": "2026-09-05T08:19:09.160164+00:00",
+  "status": 200,
+  "bytes": 99,
+  "sha256": "e307ce84a977f082ea5b3ea6ecf6b7a323984854b955dc9a35142f960a2a2d17",
+  "content_type": "application/json; charset=utf-8",
+  "raw_path": "raw/bybit_rub_probe_ba291a06fe14ccc0f7b4.bin",
+  "group": "bybit_rub_probe"
+}

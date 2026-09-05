@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "annual_tabm_fits": 3,
+  "final_tabm_fits": 1,
+  "inner_neural_fits": 4,
+  "closing_hgb_fits": 4,
+  "horizon": 3,
+  "scope": "KZT only",
+  "final_history": "from2010",
+  "final_cutoff": "2026-09-05",
+  "annual_verification_sha256": "5e555d9af36be55eec79b082d3e297bffdbb86600d727b5836184b960c588cc3",
+  "final_weights_sha256": "115059716af8cd8207eff84a18da25c3a4e6cfef781e65e766681f4200a4e5e9",
+  "latest_panel_sha256": "bf061d7bc487c55e16e00515587300680e24c0fd0bbbf04326dbc7d4b7152ada",
+  "external_artifacts": {
+    "research_v4/h3_finalization/final_fit/verification.json": "23cba888766ac910c13467dc23df49aed104c9e7ae6a75640ca1064823ba22e2",
+    "research_v4/h3_finalization/final_fit/receipt.json": "f9a5a748ddd9f6c02f24f3c24924a16057ecea33e35ae1aa8754670782881e53",
+    "research_v4/h3_finalization/final_fit/raw_predictions.csv.gz": "8c3edd4d610e4c9b4250c9f0992d26186cdab548c67fa9508f7c9d8a9c101928",
+    "research_v4/h3_finalization/final_fit/model/weights.pt": "115059716af8cd8207eff84a18da25c3a4e6cfef781e65e766681f4200a4e5e9",
+    "research_v4/h3_finalization/final_fit/model/preprocess.joblib": "7b02197c81ed835184047e520d1ec55319385c3ea02a39ae88b98b7ef6161df1",
+    "research_v4/h3_finalization/closing/verification.json": "8508c5bf56c796c50d8e7fbcf38e4e41a202c022d75a0a816b4f57ac1685e337",
+    "research_v4/h3_finalization/closing/isolated_runtime_verification.json": "8e8b24df6dccdf045403fd7ab3ad45f93830c86a370b353baa99d28d2b245314",
+    "research_v4/h3_finalization/closing/final/model.joblib": "4510eef0f8bbbb30e32ccb1cc33f09455cb411bbe505731272c914eb938826fb",
+    "research_v4/h3_finalization/closing/raw_predictions.csv.gz": "49bf512a38d8c39db1f9c4ea45190cdd103cea0b86bbb1247c15c0dfe04288d9"
+  },
+  "report_sha256": "d1d2568406a8b4b14bf0eff99c0c5c2604fd4679e4b91e5f36db825a2629c6b2"
+}

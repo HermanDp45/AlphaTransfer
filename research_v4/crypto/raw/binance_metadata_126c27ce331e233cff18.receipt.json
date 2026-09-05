@@ -1,0 +1,11 @@
+{
+  "url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbols=%5B%22USDTRUB%22,%22BTCRUB%22,%22BTCUSDT%22,%22USDTKZT%22,%22USDCUSDT%22%5D",
+  "final_url": "https://data-api.binance.vision/api/v3/exchangeInfo?symbols=%5B%22USDTRUB%22,%22BTCRUB%22,%22BTCUSDT%22,%22USDTKZT%22,%22USDCUSDT%22%5D",
+  "retrieved_utc": "2026-09-05T08:19:07.009784+00:00",
+  "status": 200,
+  "bytes": 25056,
+  "sha256": "4642eeca12f8ac6ab209912325cbbd94e40e89acddd24d240c1aafbad4ce030d",
+  "content_type": "application/json;charset=UTF-8",
+  "raw_path": "raw/binance_metadata_126c27ce331e233cff18.bin",
+  "group": "binance_metadata"
+}

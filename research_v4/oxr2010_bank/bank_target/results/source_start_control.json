@@ -1,0 +1,8 @@
+{
+  "start2010_vs2018_features_exact": true,
+  "bank_rows": 1637,
+  "features": 29,
+  "source2010_start": "2010-01-01",
+  "source2018_start": "2018-06-17",
+  "early_oxr_cannot_create_bank_labels": true
+}

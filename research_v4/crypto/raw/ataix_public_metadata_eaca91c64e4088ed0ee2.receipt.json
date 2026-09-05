@@ -1,0 +1,11 @@
+{
+  "url": "https://api.ataix.kz/api/cmc/v1/overview",
+  "final_url": "https://api.ataix.kz/api/cmc/v1/overview",
+  "retrieved_utc": "2026-09-05T08:19:09.748549+00:00",
+  "status": 502,
+  "bytes": 16,
+  "sha256": "bb2fb7b51f18478e3ccde6376dc39285b20472f0394e7034fd2e0bdf6a5716e2",
+  "content_type": "text/plain; charset=UTF-8",
+  "raw_path": "raw/ataix_public_metadata_eaca91c64e4088ed0ee2.bin",
+  "group": "ataix_public_metadata"
+}

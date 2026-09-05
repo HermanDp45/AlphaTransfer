@@ -1,0 +1,69 @@
+{
+  "created_unix": 1788613130.9327009,
+  "base_specs": [
+    {
+      "scope": "pooled",
+      "months": 24,
+      "seed_index": 0
+    },
+    {
+      "scope": "pooled",
+      "months": 60,
+      "seed_index": 0
+    },
+    {
+      "scope": "pooled",
+      "months": 120,
+      "seed_index": 0
+    },
+    {
+      "scope": "kzt",
+      "months": 120,
+      "seed_index": 0
+    }
+  ],
+  "cutoffs": [
+    "2025-01-01",
+    "2026-01-01"
+  ],
+  "architecture": {
+    "n_blocks": 2,
+    "d_block": 128,
+    "dropout": 0.1,
+    "k": 16
+  },
+  "numerical_embeddings": {
+    "d_embedding": 16,
+    "n_frequencies": 16,
+    "frequency_init_scale": 0.01,
+    "activation": true,
+    "lite": false
+  },
+  "optimizer": {
+    "lr": 0.002,
+    "weight_decay": 0.0003
+  },
+  "batch_size": 256,
+  "max_epochs": 100,
+  "patience": 15,
+  "selection": "Four specifications in 2025, choose lowest KZT Brier of locally calibrated output; two additional seeds of that specification for 2026. No test labels select epochs/calibrator/threshold.",
+  "test_status": "2026 explicitly retrospective; user permits retrospective choice. No untouched holdout claim.",
+  "training": "Prior 24/60/120 months before the 12-month calibration year; actual label_available_date strictly before next split. Inner last63 dates, actual maturity purge, train-only preprocessing, full outer train refit at selected epoch.",
+  "features": "Exact V3 extended BASE, OXR2010 basis+coverage, Halyk six features, Treasury six lag7 features. Add deterministic per-feature missing indicators. Treasury starts2020; no backfill.",
+  "calibration": "Positive Platt only if prior-year Brier improves; pooled and KZT-only calibration of pooled models. Legacy cooldown/frequency threshold is fit on purged prior-year labels. History outcomes not matured at cutoff are masked in export.",
+  "stress": "Fixed weights/calibration/threshold and pre-cutoff normal history. OXR D+2 to D+3 and/or Halyk chartdate+1 to+2 after cutoff; recompute rolling basis from stitched causal history. Treasury lag7 unchanged.",
+  "ensemble": "Equal raw-probability mean of seed0/1/2, separately calibrated on prior year; only selected 2025 specification gets extra seeds.",
+  "source_hashes": {
+    "research_v4/oxr2010_bank/input_oxr_snapshot.csv": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "research_v3/models/panel_extended.pkl": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6",
+    "research_v4/liquidity/halyk_sell_daily.csv": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "research_v3/external_data/feature_panel.parquet": "df37a3079ac1be7f6a1978e4a32f177f32af996d9db6d7180114cef252f486ec",
+    "research_v4/oxr2010_bank/long_models/experiment.py": "52a32a530a1a840d9d9cc0aeab1010f3d9e76effe89006e73648115ff223ecf2"
+  },
+  "code_sha256": "71c26568b65d776cd41c3b3f872a39930fee509402d314725853552ca3d86591",
+  "sources": [
+    "https://github.com/yandex-research/tabm",
+    "https://github.com/yandex-research/rtdl-num-embeddings"
+  ],
+  "smoke": "2 epochs/2445 rows in0.376s; no model-selection metric read before protocol; writable torch-array fix only"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "manifest_sha256": "50e3292d5878abb9796e0c280708afb817661c296ef9eb1d40719ee12c67e887",
+  "files": 189,
+  "reporting_csv_sha256": "43ab0faabb8dc52fe8dac306f3d2cb928eb5eccbc9c7c712945eea4a9c19b4ff",
+  "recommendation": "KZT TabM H5 rank90; retrospective, pointwise80% coverage gates;2025 utilityCI crosses0; no all5 model meetsallcellgates"
+}

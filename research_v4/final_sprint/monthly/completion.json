@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "new_fits": 54,
+  "reused_january_fits": 6,
+  "configs": 3,
+  "state": "Actual contact state per mode/policy retained across all monthly refits; no reset or replay with new model.",
+  "stress": "annualJanuary onset; fixed normal-trained checkpoints evaluated with delayed inference features."
+}

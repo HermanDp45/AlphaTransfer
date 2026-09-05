@@ -1,0 +1,86 @@
+[
+  {
+    "cutoff": "2025-01-01",
+    "mode": "normal",
+    "variant": "NOW_only",
+    "rows": 242,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2025-01-01",
+    "mode": "normal",
+    "variant": "NOW_confirmed_closing",
+    "rows": 242,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2025-01-01",
+    "mode": "normal",
+    "variant": "dual_annotations",
+    "rows": 242,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2025-01-01",
+    "mode": "bank_delayed",
+    "variant": "NOW_only",
+    "rows": 242,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2025-01-01",
+    "mode": "bank_delayed",
+    "variant": "NOW_confirmed_closing",
+    "rows": 242,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2025-01-01",
+    "mode": "bank_delayed",
+    "variant": "dual_annotations",
+    "rows": 242,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2026-01-01",
+    "mode": "normal",
+    "variant": "NOW_only",
+    "rows": 156,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2026-01-01",
+    "mode": "normal",
+    "variant": "NOW_confirmed_closing",
+    "rows": 156,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2026-01-01",
+    "mode": "normal",
+    "variant": "dual_annotations",
+    "rows": 156,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2026-01-01",
+    "mode": "bank_delayed",
+    "variant": "NOW_only",
+    "rows": 156,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2026-01-01",
+    "mode": "bank_delayed",
+    "variant": "NOW_confirmed_closing",
+    "rows": 156,
+    "candidate_mismatches": 0
+  },
+  {
+    "cutoff": "2026-01-01",
+    "mode": "bank_delayed",
+    "variant": "dual_annotations",
+    "rows": 156,
+    "candidate_mismatches": 0
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-09-05T11:22:47.068795+00:00",
+  "public_api_calls_attempted": 2,
+  "purpose": "Bounded correct-side history feasibility; no authenticated requests or bulk collection",
+  "receipts": [
+    {
+      "name": "current",
+      "url": "https://back.halykbank.kz/common/currency-history",
+      "status": 200,
+      "bytes": 3320,
+      "sha256": "ff10c117e00df925eda42e652045eba2c14cdaf20edb515bf8e98c467a7a8d26",
+      "observations": [
+        {
+          "date": "2026-09-04",
+          "personal_rub": {
+            "sell": 5.28,
+            "buy": 4.47
+          },
+          "cards_rub": {
+            "sell": 5.4662,
+            "buy": 5.0662
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "personal_rub": {
+            "sell": 5.28,
+            "buy": 4.47
+          },
+          "cards_rub": {
+            "sell": 5.4739,
+            "buy": 5.0739
+          }
+        }
+      ]
+    },
+    {
+      "name": "requested_2020_date",
+      "url": "https://back.halykbank.kz/common/currency-history?date=2020-01-05",
+      "status": 200,
+      "bytes": 3320,
+      "sha256": "ff10c117e00df925eda42e652045eba2c14cdaf20edb515bf8e98c467a7a8d26",
+      "observations": [
+        {
+          "date": "2026-09-04",
+          "personal_rub": {
+            "sell": 5.28,
+            "buy": 4.47
+          },
+          "cards_rub": {
+            "sell": 5.4662,
+            "buy": 5.0662
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "personal_rub": {
+            "sell": 5.28,
+            "buy": 4.47
+          },
+          "cards_rub": {
+            "sell": 5.4739,
+            "buy": 5.0739
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "config_id": "tabm_periodic_kzt_120m_s2_kztcal",
+  "model_cutoff": "2026-01-01",
+  "policy_name": "cadence85_cd2",
+  "contact_state": {
+    "KZT": {
+      "last": 4055,
+      "week": "2026-06-08/2026-06-14",
+      "count": 0
+    }
+  },
+  "last_processed_session": 4058
+}

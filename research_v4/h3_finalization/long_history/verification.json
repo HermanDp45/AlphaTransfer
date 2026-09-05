@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "annual_models": 3,
+  "new_neural_fits": 3,
+  "train_horizon": 3,
+  "scope": "KZT only",
+  "fixed_2010_train_start": true,
+  "train_only_preprocessing_exact": true,
+  "actual_maturity_pass": true,
+  "h3_target_and_forward_independently_recomputed": true,
+  "baseline_120m_evaluation_keys_outcomes_exact": true,
+  "warmup_includes_purged_tail": true,
+  "replay_groups": 12,
+  "maximum_raw_error": 2.9708862259170132e-08,
+  "source_sha256": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+  "raw_predictions_sha256": "1156e4185854e017904394e7e7b8af8e7a31916eff34732d2b6aefd09d3da577",
+  "warmup_sha256": "6f8e03def0b8d1ca98b480a291bec458da6556ef7ac8d4bd0e3d3fa872bb9c0b",
+  "protocol_sha256": "885dcd90f452d7da25c27ba86dfcc56a30181f180956d03a10bdd5e734eaa7f3",
+  "code_sha256": "763230b345988d5f811891934749155776b9bae7a94136173eb436fb3bfa0a51"
+}

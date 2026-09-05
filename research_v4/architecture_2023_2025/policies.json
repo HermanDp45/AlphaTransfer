@@ -1,0 +1,2450 @@
+[
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.21873245446760234
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.1973831665467525
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": -10000,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.3200324673009534
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.32928061696070016
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2397962234049922
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.17862235615735195
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_base15",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3682,
+        "week": "2024-12-23/2024-12-29",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2234309380523776
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.25278251030140714
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3128,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.320366171310577
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.38230146547320504
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.22040710863294657
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.23753454979768687
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_hgb_full33",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3699,
+        "week": "2024-12-23/2024-12-29",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2240499852567784
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.20976875063314113
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": -10000,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.17999050137911496
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.4142167374064084
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2204206670819374
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.219776111388308
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3680,
+        "week": "2024-12-23/2024-12-29",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2316057007841832
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.26219144134796335
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3042,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2803216854909828
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3457,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.405071824594913
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.22443508500141368
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.202359263698168
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_ensemble3",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.23446174024368185
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.2858388725575585
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3037,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2991893829755919
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.4481782256658149
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.2051723043210518
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.19267367043643002
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s0",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3699,
+        "week": "2024-12-23/2024-12-29",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.229162796952891
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.24186441779843648
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3037,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.30328088785210294
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3457,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.4012130982032233
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.1799761023658833
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.22120436157088225
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s1",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3699,
+        "week": "2024-12-23/2024-12-29",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.21822511753681534
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.2598329168511041
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3147,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.27538547813319336
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3457,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.4105266220091371
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "KZT": 0.23302752139366892
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "KZT": 0.20270755960412382
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "kzt_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.2645304199459822,
+      "KGS": 0.2219976550626225,
+      "KZT": 0.1623210107410602,
+      "TJS": 0.2765378867546693,
+      "UZS": 0.2393546445632629
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.31334025773944313,
+      "KGS": 0.1498958012862296,
+      "KZT": 0.19021057672061273,
+      "TJS": 0.3073955167045239,
+      "UZS": 0.1352218078008269
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 2
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3199,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KGS": {
+        "last": 3199,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3200,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3199,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.32772646936649463,
+      "KGS": 0.33613635875493086,
+      "KZT": 0.3405279869093353,
+      "TJS": 0.30639366042211397,
+      "UZS": 0.3120454140374168
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.3828079410988544,
+      "KGS": 0.3815395823304914,
+      "KZT": 0.36609183098167397,
+      "TJS": 0.26482467057362274,
+      "UZS": 0.3120454140374168
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KGS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "UZS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.30225079686594997,
+      "KGS": 0.32111688919435666,
+      "KZT": 0.2366893898513614,
+      "TJS": 0.3039246250482832,
+      "UZS": 0.27403009011472396
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.2985329373127052,
+      "KGS": 0.32030447138993645,
+      "KZT": 0.2192984520237574,
+      "TJS": 0.3013921857241841,
+      "UZS": 0.2726268377859706
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_base15",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.28845423758034644,
+      "KGS": 0.2658048587174245,
+      "KZT": 0.23328424203490972,
+      "TJS": 0.2896096277092684,
+      "UZS": 0.19613221085489044
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3208,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.273905896967938,
+      "KGS": 0.25907864728107965,
+      "KZT": 0.250058659648816,
+      "TJS": 0.2679914341135362,
+      "UZS": 0.26741941565147154
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3195,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KGS": {
+        "last": 3206,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3207,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": -10000,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.2476228809856541,
+      "KGS": 0.32657564090133206,
+      "KZT": 0.2652229897227499,
+      "TJS": 0.29963368387470546,
+      "UZS": 0.31440704534455555
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.45181543028940246,
+      "KGS": 0.4714792419557107,
+      "KZT": 0.36634362629108197,
+      "TJS": 0.48468177707739535,
+      "UZS": 0.3634264568922744
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "UZS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.2756165861434369,
+      "KGS": 0.22849900882355356,
+      "KZT": 0.21768189453215891,
+      "TJS": 0.28098717032957565,
+      "UZS": 0.21264951699217333
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "UZS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.26104719372585017,
+      "KGS": 0.2997868924065448,
+      "KZT": 0.22499628960965293,
+      "TJS": 0.2776790441209685,
+      "UZS": 0.24287240263845777
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "TJS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_hgb_full33",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.18986142490935456,
+      "KGS": 0.16977438602916262,
+      "KZT": 0.17562803035480742,
+      "TJS": 0.24310121845483246,
+      "UZS": 0.16904701959682525
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.2987373802787038,
+      "KGS": 0.26339518111744775,
+      "KZT": 0.13690278148536447,
+      "TJS": 0.3285412372520364,
+      "UZS": 0.28469877468894605
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3190,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KGS": {
+        "last": 3206,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3207,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3206,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "UZS": {
+        "last": 2989,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.31713140253186617,
+      "KGS": 0.3622966422018406,
+      "KZT": 0.1254323746303827,
+      "TJS": 0.21321094159098083,
+      "UZS": 0.3777332000350686
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3456,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.44076417488297576,
+      "KGS": 0.4479720431978566,
+      "KZT": 0.4165996163752631,
+      "TJS": 0.44825225804263413,
+      "UZS": 0.40870205066517185
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3458,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KGS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "UZS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.2950995226093174,
+      "KGS": 0.3179378836777957,
+      "KZT": 0.2190495491448015,
+      "TJS": 0.2794148132350351,
+      "UZS": 0.22887184769379715
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.2839694717762851,
+      "KGS": 0.3202704732587443,
+      "KZT": 0.2219074270998949,
+      "TJS": 0.29318948225679253,
+      "UZS": 0.2030018703705682
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_base15_s2",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3692,
+        "week": "2024-12-23/2024-12-29",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.2829167564717822,
+      "KGS": 0.2521366391841294,
+      "KZT": 0.21948761415347084,
+      "TJS": 0.3054112218817318,
+      "UZS": 0.25534905003592845
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 2
+      },
+      "KZT": {
+        "last": 3211,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.27995607919561205,
+      "KGS": 0.20016637740349408,
+      "KZT": 0.22501145717951074,
+      "TJS": 0.2050936820350082,
+      "UZS": 0.2528462867160435
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3210,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3209,
+        "week": "2022-12-26/2023-01-01",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2023-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": -10000,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KGS": {
+        "last": -10000,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3207,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "TJS": {
+        "last": -10000,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      },
+      "UZS": {
+        "last": -10000,
+        "week": "2022-12-26/2023-01-01",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.24717701566063993,
+      "KGS": 0.31429469188951226,
+      "KZT": 0.27114564001196767,
+      "TJS": 0.30851092005726033,
+      "UZS": 0.2800977232564415
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3455,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3456,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3457,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3456,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3456,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.3886302658532767,
+      "KGS": 0.4469432925790573,
+      "KZT": 0.39099139655964293,
+      "TJS": 0.45072727624128756,
+      "UZS": 0.4430778899259563
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3450,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KGS": {
+        "last": 3450,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3450,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "UZS": {
+        "last": 3450,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2024-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KGS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "KZT": {
+        "last": 3452,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      },
+      "UZS": {
+        "last": 3451,
+        "week": "2023-12-25/2023-12-31",
+        "count": 0
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "name": "legacy",
+    "threshold": {
+      "AMD": 0.2908232595459817,
+      "KGS": 0.32447224813243064,
+      "KZT": 0.2327811213929996,
+      "TJS": 0.32768071252626885,
+      "UZS": 0.28762137499649704
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "name": "cadence85_cd2",
+    "threshold": {
+      "AMD": 0.25032033638312423,
+      "KGS": 0.31830172936779744,
+      "KZT": 0.20661491357175724,
+      "TJS": 0.30815628387229105,
+      "UZS": 0.2727789371016792
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "AMD": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "TJS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3705,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  },
+  {
+    "config_id": "pooled_tabm_full33_s2",
+    "cutoff": "2025-01-01",
+    "name": "fixed_threshold_0.50",
+    "threshold": {
+      "AMD": 0.5,
+      "KGS": 0.5,
+      "KZT": 0.5,
+      "TJS": 0.5,
+      "UZS": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "AMD": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KGS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "KZT": {
+        "last": 3508,
+        "week": "2024-12-23/2024-12-29",
+        "count": 0
+      },
+      "TJS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      },
+      "UZS": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    }
+  }
+]

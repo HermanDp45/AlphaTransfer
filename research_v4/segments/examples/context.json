@@ -1,0 +1,14 @@
+{
+  "source": "synthetic",
+  "known_at": "2026-08-04",
+  "historical_transfer_count": 12,
+  "expected_transfer_date": "2026-08-07",
+  "available_balance_sufficient": true,
+  "recent_explicit_intent": true,
+  "last_completed_transfer": "2026-07-25",
+  "urgency_declared": false,
+  "allow_fx_notifications": true,
+  "remaining_shared_crm_slots_7d": 1,
+  "frequency_segment": "monthly",
+  "last_market_candidate_at": "2026-07-05"
+}

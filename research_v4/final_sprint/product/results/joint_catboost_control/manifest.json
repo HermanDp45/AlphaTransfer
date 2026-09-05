@@ -1,0 +1,55 @@
+{
+  "now_selection": {
+    "status": "complete",
+    "selection_uses_2026": true,
+    "claim": "Retrospective selected model; block intervals conditional on fixed predictions, not selection-adjusted.",
+    "champion": {
+      "config_id": "catboost_treasury_halyk_24m_stable",
+      "policy": "cadence85_cd2",
+      "passed": true,
+      "min_lift": 1.4335839598997495,
+      "min_coverage": 0.9393939393939394,
+      "min_utility_bps": 42.456675194603704,
+      "normal_lift": 1.4368421052631581,
+      "normal_coverage": 0.9393939393939394,
+      "normal_utility_bps": 42.456675194603704,
+      "min_2025_lift": 1.6805555555555554,
+      "min_2025_coverage": 0.8627450980392157
+    },
+    "model_policy_count": 268,
+    "fits_hgb_annual": 64,
+    "fits_hgb_monthly": 54
+  },
+  "now_input_sha256": {
+    "research_v4/final_sprint/selection.json": "49925f50bac733e0665d6252e82faa0113797abfdc3dda7c6eb440cdb1c39cc9",
+    "research_v4/final_sprint/selected_predictions.csv.gz": "f0f4e507e37bb24856522f0abc8be6f5daf9bc5a95b9e34b9b20ce78a736700a",
+    "research_v4/final_sprint/selected_history.csv.gz": "68b1af7edd202e467c7758b83b5d574f0b3996e5242376f2051488fa53640377"
+  },
+  "now_history_sources": [
+    "research_v4/final_sprint/selected_history.csv.gz"
+  ],
+  "code_sha256": "d888c29d0e807278721770337445985ffc9bf8c0aced7f8f6553a1591876af1f",
+  "protocol_sha256": "57237c5b016444c45f3359cda92d6206b9adf7f8e9ab6d920929136813ae3689",
+  "semantic_routing_addendum_sha256": "6501e9d820577030b65a6b09928eb11fa6c49383cb4cd0a422e6ff5b0b9be396",
+  "closing_predictions_sha256": "5ea8e5b793eb4bd8ce99b75bc9273384e3723c80a880130ba966ef4449a7fea1",
+  "closing_history_sha256": "67f642ff2c5305538d24931439175fce16d2f47089c5b7ab2f605d98073f8c9e",
+  "prediction_sha256": "3540096bf2a1d2ae61ce6a825bba988066c83135ed0189e2b6465146afce1697",
+  "selection_uses_2026": true,
+  "joint_test_threshold_search": false,
+  "metric_contract": "separate NOW and CLOSING hits/lift; only cadence and reference forward utility pooled",
+  "preserved_input_snapshots": {
+    "research_v4/final_sprint/selection.json": {
+      "path": "results/joint_catboost_control/input_snapshot/selection.json",
+      "sha256": "49925f50bac733e0665d6252e82faa0113797abfdc3dda7c6eb440cdb1c39cc9"
+    },
+    "research_v4/final_sprint/selected_predictions.csv.gz": {
+      "path": "results/joint_catboost_control/input_snapshot/selected_predictions.csv.gz",
+      "sha256": "f0f4e507e37bb24856522f0abc8be6f5daf9bc5a95b9e34b9b20ce78a736700a"
+    },
+    "research_v4/final_sprint/selected_history.csv.gz": {
+      "path": "results/joint_catboost_control/input_snapshot/selected_history.csv.gz",
+      "sha256": "68b1af7edd202e467c7758b83b5d574f0b3996e5242376f2051488fa53640377"
+    }
+  },
+  "preserved_engine_snapshot": "results/joint_catboost_control/engine_snapshot.py"
+}

@@ -1,0 +1,31 @@
+{
+  "created_unix": 1788613140.63166,
+  "specifications": [
+    {
+      "name": "catboost_treasury_halyk_24m_stable_matched",
+      "months": 24,
+      "subset": "stable",
+      "depth": 2,
+      "l2_leaf_reg": 20
+    },
+    {
+      "name": "catboost_treasury_halyk_60m_stable_matched",
+      "months": 60,
+      "subset": "stable",
+      "depth": 3,
+      "l2_leaf_reg": 40
+    },
+    {
+      "name": "catboost_treasury_halyk_120m_stable_matched",
+      "months": 120,
+      "subset": "stable",
+      "depth": 4,
+      "l2_leaf_reg": 80
+    }
+  ],
+  "fits": 6,
+  "reason": "Requested matched feature-selection attribution: original full-vs-stable also varied depth/L2. Match every full-model hyperparameter and change only selected numeric columns.",
+  "disclosure": "Added after inspecting initial12fit results; no hyperparameter selection or2026labels used for feature selection.",
+  "experiment_sha256": "d8acef3e50a7c4bb54b11c223273a67075cd65961844ec2260119dfb28ae5516",
+  "code_sha256": "4f77a700f448b167ea6e40671d4a988e112f1309478fb59841e48dddb8b46951"
+}

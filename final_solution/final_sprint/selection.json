@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "selection_uses_2026": true,
+  "claim": "Retrospective selected model; block intervals conditional on fixed predictions, not selection-adjusted.",
+  "fresh_bank_override": true,
+  "source_delay_is_selection_gate": false,
+  "champion": {
+    "config_id": "tabm_periodic_kzt_120m_s2_kztcal",
+    "policy": "cadence85_cd2",
+    "passed": true,
+    "passed_2026": true,
+    "passed_2025": true,
+    "min_lift": 1.192982456140351,
+    "min_coverage": 0.8484848484848485,
+    "min_utility_bps": 43.152652429712305,
+    "normal_lift": 1.505263157894737,
+    "normal_coverage": 0.8787878787878788,
+    "normal_utility_bps": 66.21511623261752,
+    "normal_2025_lift": 1.5125,
+    "min_2025_lift": 0.6932291666666667,
+    "min_2025_coverage": 0.8627450980392157,
+    "redundancy": 0,
+    "policy_complexity": 1
+  },
+  "model_policy_count": 292,
+  "fits_hgb_annual": 64,
+  "fits_hgb_monthly": 54
+}

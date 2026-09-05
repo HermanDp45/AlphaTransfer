@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "previous_v4_navigation_backup_README.md",
+      "passed": true
+    },
+    {
+      "check": "previous_v4_navigation_backup_REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "previous_v4_science_unchanged",
+      "passed": true,
+      "files": 5271,
+      "navigation_changes": [
+        "README.md",
+        "REPORT.md"
+      ]
+    },
+    {
+      "check": "v3_navigation_backup",
+      "passed": true
+    },
+    {
+      "check": "v3_scientific_inputs_unchanged",
+      "passed": true,
+      "files": 406,
+      "navigation_changes": [
+        "final_solution/README.md"
+      ]
+    },
+    {
+      "check": "legacy_final_inputs_unchanged",
+      "passed": true,
+      "files": 13
+    },
+    {
+      "check": "neural_checks",
+      "passed": true,
+      "receipt": "tabm/final_verification.json"
+    },
+    {
+      "check": "catboost_checks",
+      "passed": true,
+      "receipt": "catboost/verification.json"
+    },
+    {
+      "check": "runtime_checks",
+      "passed": true,
+      "receipt": "catboost/runtime_audit/verification.json"
+    },
+    {
+      "check": "evaluator_checks",
+      "passed": true,
+      "receipt": "catboost/root_evaluation_verification.json"
+    },
+    {
+      "check": "neural_sealed_files",
+      "passed": true,
+      "files": 250
+    },
+    {
+      "check": "product_sealed_files",
+      "passed": true,
+      "files": 47
+    },
+    {
+      "check": "report_links",
+      "passed": true,
+      "count": 28,
+      "broken": []
+    },
+    {
+      "check": "packaged_primary_contacts",
+      "passed": true,
+      "NOW": 40
+    },
+    {
+      "check": "packaged_closing_annotations",
+      "passed": true
+    },
+    {
+      "check": "selected_normal_gates",
+      "passed": true
+    }
+  ],
+  "model_fits": 160,
+  "inner_epoch_selection_fits": 18,
+  "model_policy_pairs": 292,
+  "probability_replay_tolerance": 1.3e-07,
+  "contact_parity": "exact",
+  "source_delay_selection_gate": false
+}

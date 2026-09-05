@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "method": "Centered standardized block-bootstrap maximum absolute statistic; simultaneous95% bands around observed paired Brier differences",
+  "replicates": 10000,
+  "scope": "27 normal-view HGB configurations in this new branch; KZT vs same V3long",
+  "limitations": "Approximate fixed-model sampling intervals; does not cover previousV3/V4/neural research, task/metric selection, latency selection or model training uncertainty;2026 previously inspected"
+}

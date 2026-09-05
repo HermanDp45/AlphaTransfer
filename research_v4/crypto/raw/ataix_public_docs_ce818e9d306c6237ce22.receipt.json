@@ -1,0 +1,11 @@
+{
+  "url": "https://stage-api.ataix.kz/api/docs/cmc/",
+  "final_url": "https://stage-api.ataix.kz/api/docs/cmc/",
+  "retrieved_utc": "2026-09-05T08:19:10.271880+00:00",
+  "status": 200,
+  "bytes": 3473,
+  "sha256": "e7f5ff8e38f92431543ac2f73398ab29187fe7f415290e2215ce2e307c88217f",
+  "content_type": "text/html; charset=utf-8",
+  "raw_path": "raw/ataix_public_docs_ce818e9d306c6237ce22.bin",
+  "group": "ataix_public_docs"
+}

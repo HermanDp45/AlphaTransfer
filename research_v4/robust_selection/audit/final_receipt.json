@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks_total": 496,
+  "evaluation_checks": 467,
+  "extra_uncertainty_checks": 11,
+  "source_target_warmup_checks": 18,
+  "report_union_source_checks": "PASS",
+  "union_rows": 3638,
+  "union_columns": 87,
+  "source_tables": 19,
+  "editorial_review": "Latest REPORT.md/report.py read; numerical claims and limitations agree with audited outputs. No prediction/model/selection changes made by auditor.",
+  "sha256": {
+    "REPORT.md": "881101917d85111a699ba6d825a5c7359620de42f3cc294d632901586d4a87a9",
+    "report.py": "992cef901af3da4b9e43e7dd8d5c1e0148feef2509682074a6dc052d1a1dc14d",
+    "REPORTING_ALL_METRICS.csv": "43ab0faabb8dc52fe8dac306f3d2cb928eb5eccbc9c7c712945eea4a9c19b4ff",
+    "reporting_sources.json": "5804406fd5ae0f5d4c99893b0b3f4ea02210637bbf0dae01aa49776d8bc185a2",
+    "recommendation.json": "6cb92a84665db22d866a2dbe043a698678660376e9e54a5ab6bd898073c6449d",
+    "audit/evaluation_verification.json": "3ea0e7fecc0a16823e4650c5bc8ca75f13236d025eaa3a0ba9aaf572f0668e38",
+    "audit/uncertainty_verification.json": "4fae183ca7daf90555239d6882232cc41fe0d7fa04c69d033c57a58f90fd203c",
+    "audit/source_verification.json": "8492a328f1fbe6a4dbf1d07dd12b4cdf747b8eec96e30e50225f2bd735678072"
+  }
+}

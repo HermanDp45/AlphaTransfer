@@ -1,0 +1,47 @@
+[
+  {
+    "new_config": "base_control_head2y",
+    "old_config": "baseline_reproduction",
+    "rows": 4415,
+    "probability_max_abs_diff": 0.0,
+    "raw_probability_max_abs_diff": 0.0,
+    "candidate_signal_mismatches": 0,
+    "passed": true
+  },
+  {
+    "new_config": "chronos2_small_ft_head2y",
+    "old_config": "chronos2_small_ft_hgb_aug",
+    "rows": 4415,
+    "probability_max_abs_diff": 0.0,
+    "raw_probability_max_abs_diff": 0.0,
+    "candidate_signal_mismatches": 0,
+    "passed": true
+  },
+  {
+    "new_config": "chronos2_synth_ft_head2y",
+    "old_config": "chronos2_synth_ft_hgb_aug",
+    "rows": 4415,
+    "probability_max_abs_diff": 0.0,
+    "raw_probability_max_abs_diff": 0.0,
+    "candidate_signal_mismatches": 0,
+    "passed": true
+  },
+  {
+    "new_config": "chronos2_synth_ft_kzt_head2y",
+    "old_config": "chronos2_synth_ft_kzt_hgb_aug",
+    "rows": 4415,
+    "probability_max_abs_diff": 0.0,
+    "raw_probability_max_abs_diff": 0.0,
+    "candidate_signal_mismatches": 0,
+    "passed": true
+  },
+  {
+    "new_config": "chronos2_synth_zs_head2y",
+    "old_config": "chronos2_synth_zs_hgb_aug",
+    "rows": 4415,
+    "probability_max_abs_diff": 0.0,
+    "raw_probability_max_abs_diff": 0.0,
+    "candidate_signal_mismatches": 0,
+    "passed": true
+  }
+]

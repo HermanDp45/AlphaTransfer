@@ -3,3 +3,5 @@
 *.sqlite3-shm
 *.sqlite3-wal
 *development_h5_predictions.csv
+*.safetensors
+*views.pkl

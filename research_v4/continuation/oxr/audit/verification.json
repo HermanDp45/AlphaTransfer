@@ -1,0 +1,753 @@
+{
+  "checks": [
+    {
+      "check": "imports_do_not_mutate_experiment_files",
+      "passed": true
+    },
+    {
+      "check": "extra_history_trials_labelled_post_readout",
+      "passed": true
+    },
+    {
+      "check": "source_snapshot_matches_audited_csv",
+      "passed": true
+    },
+    {
+      "check": "v3_24m_exact_development_parity",
+      "passed": true,
+      "rows": 3635,
+      "maximum_errors": {
+        "probability": 0.0,
+        "target": 0.0,
+        "candidate_signal": 0.0,
+        "signal": 0.0,
+        "forward_bps": 0.0
+      }
+    },
+    {
+      "check": "v3_24m_exact_january_2026_parity",
+      "passed": true,
+      "rows": 780,
+      "maximum_errors": {
+        "probability": 0.0,
+        "target": 0.0,
+        "candidate_signal": 0.0,
+        "signal": 0.0,
+        "forward_bps": 0.0
+      }
+    },
+    {
+      "check": "v3_120m_exact_development_parity",
+      "passed": true,
+      "rows": 3635,
+      "maximum_errors": {
+        "probability": 0.0,
+        "target": 0.0,
+        "candidate_signal": 0.0,
+        "signal": 0.0,
+        "forward_bps": 0.0
+      }
+    },
+    {
+      "check": "v3_120m_exact_january_2026_parity",
+      "passed": true,
+      "rows": 780,
+      "maximum_errors": {
+        "probability": 0.0,
+        "target": 0.0,
+        "candidate_signal": 0.0,
+        "signal": 0.0,
+        "forward_bps": 0.0
+      }
+    },
+    {
+      "check": "all_receipts_hashes_labels_and_target_rows",
+      "passed": true,
+      "checkpoints": 95,
+      "expected_checkpoints": 95,
+      "errors": []
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_basis_120m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_basis_120m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_basis_120m_since2020",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_basis_120m_since2022",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_basis_24m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_basis_24m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_coverage_120m",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_full_120m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_full_120m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_full_120m_since2020",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_full_120m_since2022",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_full_24m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_full_24m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_returns_120m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_returns_120m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_returns_24m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_oxr_returns_24m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_v3_120m",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2023-01-01_v3_24m",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_basis_120m_delay24h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_basis_120m_delay48h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_basis_120m_since2020",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_basis_120m_since2022",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_basis_24m_delay24h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_basis_24m_delay48h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_coverage_120m",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_full_120m_delay24h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_full_120m_delay48h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_full_120m_since2020",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_full_120m_since2022",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_full_24m_delay24h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_full_24m_delay48h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_returns_120m_delay24h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_returns_120m_delay48h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_returns_24m_delay24h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_oxr_returns_24m_delay48h",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_v3_120m",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2024-01-01_v3_24m",
+      "passed": true,
+      "rows": 1215
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_basis_120m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_basis_120m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_basis_120m_since2020",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_basis_120m_since2022",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_basis_24m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_basis_24m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_coverage_120m",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_full_120m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_full_120m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_full_120m_since2020",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_full_120m_since2022",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_full_24m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_full_24m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_returns_120m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_returns_120m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_returns_24m_delay24h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_oxr_returns_24m_delay48h",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_v3_120m",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2025-01-01_v3_24m",
+      "passed": true,
+      "rows": 1210
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_basis_120m_delay24h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_basis_120m_delay48h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_basis_120m_since2020",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_basis_120m_since2022",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_basis_24m_delay24h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_basis_24m_delay48h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_coverage_120m",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_full_120m_delay24h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_full_120m_delay48h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_full_120m_since2020",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_full_120m_since2022",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_full_24m_delay24h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_full_24m_delay48h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_returns_120m_delay24h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_returns_120m_delay48h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_returns_24m_delay24h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_oxr_returns_24m_delay48h",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_v3_120m",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-01-01_v3_24m",
+      "passed": true,
+      "rows": 780
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_basis_120m_delay24h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_basis_120m_delay48h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_basis_120m_since2020",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_basis_120m_since2022",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_basis_24m_delay24h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_basis_24m_delay48h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_coverage_120m",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_full_120m_delay24h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_full_120m_delay48h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_full_120m_since2020",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_full_120m_since2022",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_full_24m_delay24h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_full_24m_delay48h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_returns_120m_delay24h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_returns_120m_delay48h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_returns_24m_delay24h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_oxr_returns_24m_delay48h",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_v3_120m",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "matched_scope_2026-03-01_v3_24m",
+      "passed": true,
+      "rows": 610
+    },
+    {
+      "check": "checkpoint_replay_v3_24m_2023-01-01",
+      "passed": true,
+      "rows": 1210,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_v3_120m_2023-01-01",
+      "passed": true,
+      "rows": 1210,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_basis_120m_delay24h_2023-01-01",
+      "passed": true,
+      "rows": 1210,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_basis_120m_delay24h_2025-01-01",
+      "passed": true,
+      "rows": 1210,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_basis_120m_delay24h_2026-01-01",
+      "passed": true,
+      "rows": 780,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_basis_120m_delay24h_2026-03-01",
+      "passed": true,
+      "rows": 610,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_full_120m_delay48h_2024-01-01",
+      "passed": true,
+      "rows": 1215,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 1.1102230246251565e-16,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_full_120m_since2020_2024-01-01",
+      "passed": true,
+      "rows": 1215,
+      "errors": {
+        "raw": 8.326672684688674e-17,
+        "probability": 1.1102230246251565e-16,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_full_120m_since2022_2024-01-01",
+      "passed": true,
+      "rows": 1215,
+      "errors": {
+        "raw": 8.326672684688674e-17,
+        "probability": 1.1102230246251565e-16,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_basis_120m_since2020_2026-01-01",
+      "passed": true,
+      "rows": 780,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "checkpoint_replay_oxr_basis_120m_since2022_2026-03-01",
+      "passed": true,
+      "rows": 610,
+      "errors": {
+        "raw": 9.71445146547012e-17,
+        "probability": 9.71445146547012e-17,
+        "recalibration": 0.0
+      },
+      "calibrator_status": "fitted",
+      "threshold_exact": true
+    },
+    {
+      "check": "future_source_poison_delay24_2023-01-01",
+      "passed": true,
+      "source_rows_poisoned": 12078,
+      "past_target_rows": 16061
+    },
+    {
+      "check": "future_source_poison_delay24_2026-03-01",
+      "passed": true,
+      "source_rows_poisoned": 1683,
+      "past_target_rows": 19941
+    },
+    {
+      "check": "future_source_poison_delay48_2023-01-01",
+      "passed": true,
+      "source_rows_poisoned": 12087,
+      "past_target_rows": 16061
+    },
+    {
+      "check": "future_source_poison_delay48_2026-03-01",
+      "passed": true,
+      "source_rows_poisoned": 1692,
+      "past_target_rows": 19941
+    },
+    {
+      "check": "future_target_poison_2023-01-01",
+      "passed": true,
+      "train_rows": 12315,
+      "validation_rows": 1210
+    },
+    {
+      "check": "future_target_poison_2026-01-01",
+      "passed": true,
+      "train_rows": 12315,
+      "validation_rows": 1210
+    },
+    {
+      "check": "future_target_poison_2026-03-01",
+      "passed": true,
+      "train_rows": 12320,
+      "validation_rows": 1200
+    },
+    {
+      "check": "selection_uses_development_only_and_matches_snapshot",
+      "passed": true,
+      "primary_candidate": "oxr_basis_120m_delay24h"
+    },
+    {
+      "check": "independent_brier_and_policy_points_all_checkpoints",
+      "passed": true,
+      "checkpoints": 95,
+      "errors": []
+    },
+    {
+      "check": "bootstrap_direct_dataframe_resampling_matches_tensor",
+      "passed": true,
+      "verification_draws": 128,
+      "errors": {
+        "brier_ci_low": 2.4069288229178198e-17,
+        "brier_ci_high": 2.9815559743351372e-18,
+        "lift_ci_low": 2.7755575615628914e-17,
+        "lift_ci_high": 1.8041124150158794e-16,
+        "forward_delta_bps_ci_low": 0.0,
+        "forward_delta_bps_ci_high": 4.6629367034256575e-15
+      }
+    }
+  ],
+  "passed": 124,
+  "failed": 0,
+  "tree_fits": 0,
+  "platt_recalibrations_for_replay": 11,
+  "source_sha256": "d30d226fbaa0b2d89a2e7eacf011b90af93eb60150572ec66c2fb1ff26a25db2",
+  "experiment_sha256": "d98c009be6d119929a63bd70f0f771df05157551e8b445770c6b6e0318c8487f",
+  "assess_sha256": "c341ec30e51a8d8789ab5e8c9b45d271005af78042315ba9ad03521cdce7065f",
+  "verifier_sha256": "ea565280819ac2895b9553e257a561be4903e3954db26ffa45276e17ebf988aa",
+  "pandas_version": "3.0.5"
+}

@@ -1,0 +1,53 @@
+{
+  "as_of": "2026-08-18",
+  "candidates": [
+    {
+      "scenario": "NOW",
+      "target_contract": "NOW:R[t]<=min(R[t+1:t+5]);R=RUB_per_recipient_unit;h=5_effective_CBR_rows;tau=0",
+      "as_of": "2026-08-18",
+      "known_at": "2026-08-18",
+      "corridor": "KZT",
+      "probability": 0.5999073,
+      "threshold": 0.17390609600000007,
+      "past_baseline_rate": 0.19834710743801653,
+      "model_id": "tabm_periodic_kzt_120m_s2_kztcal",
+      "model_cutoff": "2026-01-01",
+      "calibration_end": "2025-12-31",
+      "factual_context": {
+        "known_at": "2026-08-18",
+        "ret1": 0.008044892876591,
+        "pr60": 0.9916666666666668,
+        "rub_per_unit": 0.183211,
+        "recent_low_rank5": 0.9916666666666668,
+        "change_from_recent_low_bps": 422.50716788786224
+      }
+    },
+    {
+      "scenario": "CLOSING",
+      "target_contract": "CLOSING:R[t+5]>R[t];R=RUB_per_recipient_unit;h=5_effective_CBR_rows;tau=0",
+      "as_of": "2026-08-18",
+      "known_at": "2026-08-18",
+      "corridor": "KZT",
+      "probability": 0.5590537997174937,
+      "threshold": 0.435610593225747,
+      "past_baseline_rate": 0.4256198347107438,
+      "model_id": "closing_treasury_halyk_shrink120m",
+      "model_cutoff": "2026-01-01",
+      "calibration_end": "2025-12-31",
+      "factual_context": {
+        "known_at": "2026-08-18",
+        "ret1": 0.008044892876591,
+        "pr60": 0.9916666666666668,
+        "rub_per_unit": 0.183211,
+        "recent_low_rank5": 0.9916666666666668,
+        "change_from_recent_low_bps": 422.50716788786224
+      }
+    }
+  ],
+  "context": {
+    "routing_mode": "dual_annotations"
+  },
+  "state": {
+    "contacts": []
+  }
+}

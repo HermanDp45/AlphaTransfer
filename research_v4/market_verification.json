@@ -1,0 +1,1081 @@
+{
+  "status": "PASS",
+  "seconds": 8.661361832986586,
+  "verifier_sha256": "1b55e2ba843d145f33ad699779f963f1e127e873a9d4025641707f42110f5c43",
+  "checks": [
+    {
+      "check": "receipts_and_raw_source_sha256",
+      "status": "PASS",
+      "detail": {
+        "kazakhstan_models": 24,
+        "kazakhstan_checkpoints": 96,
+        "liquidity_models": 28,
+        "liquidity_checkpoints": 28,
+        "input_hashes": 112,
+        "source_raw_receipts": 2442
+      },
+      "seconds": 1.4153230839874595
+    },
+    {
+      "check": "saved_kzt_checkpoint_recomputation",
+      "status": "PASS",
+      "detail": {
+        "models": [
+          {
+            "model": "kzt_only_120m__halyk_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_only_120m__halyk_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_only_120m__kase_prices_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_only_120m__kase_prices_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_only_120m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_only_24m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_pooled_120m__halyk_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_pooled_120m__halyk_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_pooled_120m__kase_prices_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_pooled_120m__kase_prices_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_pooled_120m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_pooled_24m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_120m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_24m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag1",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag2",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_shrink_120m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          },
+          {
+            "model": "kzt_residual_shrink_24m",
+            "rows": 883,
+            "raw_probability_max_abs_error": 9.71445146547012e-17
+          }
+        ],
+        "continuation_checks": [
+          {
+            "model": "kzt_residual_120m__halyk_lag1",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag1",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 5.551115123125783e-17,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag1",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag1",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag2",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag2",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag2",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__halyk_lag2",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag1",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag1",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag1",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag1",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag2",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag2",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag2",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m__kase_prices_lag2",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_120m",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_24m",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_24m",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_24m",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_24m",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag1",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag1",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 5.551115123125783e-17,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag1",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag1",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag2",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag2",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag2",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__halyk_lag2",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag1",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag1",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag1",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag1",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag2",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag2",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag2",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m__kase_prices_lag2",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          },
+          {
+            "model": "kzt_residual_shrink_120m",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.75
+          },
+          {
+            "model": "kzt_residual_shrink_120m",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_24m",
+            "year": 2023,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_24m",
+            "year": 2024,
+            "rows": 243,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_24m",
+            "year": 2025,
+            "rows": 242,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 0.0,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 0.0
+          },
+          {
+            "model": "kzt_residual_shrink_24m",
+            "year": 2026,
+            "rows": 156,
+            "float64_transformed_input": true,
+            "pooled_base_max_abs_error": 0.0,
+            "zero_tree_max_abs_error": 1.1102230246251565e-16,
+            "manual_newton_reconstruction_max_abs_error": 0.0,
+            "trees": 40,
+            "shrink_weight": 1.0
+          }
+        ],
+        "models_checked": 24,
+        "raw_prediction_rows_recomputed": 21192,
+        "note": "883 actual OOT KZT rows per model; deterministic parity, not 883 independent regimes."
+      },
+      "seconds": 1.9484556670067832
+    },
+    {
+      "check": "future_source_perturbation_prefix_invariance",
+      "status": "PASS",
+      "detail": [
+        {
+          "extended": false,
+          "lag": 1,
+          "cutoff": "2023-06-30",
+          "unchanged_prefix_rows": 4275,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 8499,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 4706,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        },
+        {
+          "extended": false,
+          "lag": 1,
+          "cutoff": "2024-12-31",
+          "unchanged_prefix_rows": 6165,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 5184,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 2485,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        },
+        {
+          "extended": false,
+          "lag": 2,
+          "cutoff": "2023-06-30",
+          "unchanged_prefix_rows": 4275,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 8499,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 4706,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        },
+        {
+          "extended": false,
+          "lag": 2,
+          "cutoff": "2024-12-31",
+          "unchanged_prefix_rows": 6165,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 5184,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 2485,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        },
+        {
+          "extended": true,
+          "lag": 1,
+          "cutoff": "2023-06-30",
+          "unchanged_prefix_rows": 16646,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 8499,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 4706,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        },
+        {
+          "extended": true,
+          "lag": 1,
+          "cutoff": "2024-12-31",
+          "unchanged_prefix_rows": 18536,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 5184,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 2485,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        },
+        {
+          "extended": true,
+          "lag": 2,
+          "cutoff": "2023-06-30",
+          "unchanged_prefix_rows": 16646,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 8499,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 4706,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        },
+        {
+          "extended": true,
+          "lag": 2,
+          "cutoff": "2024-12-31",
+          "unchanged_prefix_rows": 18536,
+          "columns_compared": 443,
+          "perturbations": {
+            "kase_spot_daily.csv": {
+              "future_rows_changed": 5184,
+              "numeric_columns": [
+                "num_sess",
+                "low",
+                "low_trend",
+                "high",
+                "high_trend",
+                "last",
+                "last_trend",
+                "deals",
+                "average",
+                "average_trend",
+                "volume",
+                "volume_trend",
+                "bid",
+                "offer"
+              ]
+            },
+            "halyk_sell_daily.csv": {
+              "future_rows_changed": 2485,
+              "numeric_columns": [
+                "value"
+              ]
+            }
+          },
+          "exact_prefix_invariant": true
+        }
+      ],
+      "seconds": 3.3700915410299785
+    },
+    {
+      "check": "historical_preview_future_outcome_invariance",
+      "status": "PASS",
+      "detail": [
+        {
+          "model": "kzt_residual_shrink_120m__kase_prices_lag1",
+          "policy": "legacy",
+          "as_of": "2025-07-08",
+          "outcome_columns_poisoned": [
+            "target",
+            "forward_bps",
+            "symmetric_bps",
+            "regret_bps"
+          ],
+          "future_rows_poisoned": 276,
+          "byte_equivalent_json": true,
+          "no_send": true
+        },
+        {
+          "model": "kzt_residual_shrink_120m__kase_prices_lag1",
+          "policy": "selective",
+          "as_of": "2025-07-08",
+          "outcome_columns_poisoned": [
+            "target",
+            "forward_bps",
+            "symmetric_bps",
+            "regret_bps"
+          ],
+          "future_rows_poisoned": 276,
+          "byte_equivalent_json": true,
+          "no_send": true
+        },
+        {
+          "model": "combo_treasury_halyk_120m",
+          "policy": "legacy",
+          "as_of": "2025-07-08",
+          "outcome_columns_poisoned": [
+            "target",
+            "forward_bps",
+            "symmetric_bps",
+            "regret_bps"
+          ],
+          "future_rows_poisoned": 1380,
+          "byte_equivalent_json": true,
+          "no_send": true
+        },
+        {
+          "model": "combo_treasury_halyk_120m",
+          "policy": "selective",
+          "as_of": "2025-07-08",
+          "outcome_columns_poisoned": [
+            "target",
+            "forward_bps",
+            "symmetric_bps",
+            "regret_bps"
+          ],
+          "future_rows_poisoned": 1380,
+          "byte_equivalent_json": true,
+          "no_send": true
+        }
+      ],
+      "seconds": 0.24373187497258186
+    },
+    {
+      "check": "sealed_v3_verifier_read_only",
+      "status": "PASS",
+      "detail": {
+        "executed": "research_v3/verify.py via runpy as __main__",
+        "write_intercepted": "Only _SUCCESS.json write captured in memory; sealed files and success artifact unchanged",
+        "result": {
+          "status": "PASS",
+          "sealed_files": 406,
+          "checks": [
+            {
+              "check": "frozen_input_lock_and_normalized_sources",
+              "locked_files": 13,
+              "normalized_artifacts": 76,
+              "status": "PASS"
+            },
+            {
+              "check": "model_prediction_receipts",
+              "count": 55,
+              "status": "PASS"
+            },
+            {
+              "check": "independent_v2_prediction_parity",
+              "rows": 4415,
+              "max_abs_error": 0.0,
+              "status": "PASS"
+            },
+            {
+              "check": "comparison_ledger",
+              "rows": 166,
+              "status": "PASS"
+            },
+            {
+              "check": "validation_commands",
+              "count": 5,
+              "status": "PASS"
+            },
+            {
+              "check": "simulation_and_production_boundaries",
+              "status": "PASS"
+            }
+          ],
+          "manifest_sha256": "aa70a2b7d84fb5faaf80e24076a0c7d50eaf67fdfabbdf88debd51b7d2085a6a"
+        },
+        "success_file_unchanged": true
+      },
+      "seconds": 1.6751605839817785
+    }
+  ],
+  "scope": "Independent deterministic/temporal verification; not source publication-time proof, production promotion or market significance."
+}

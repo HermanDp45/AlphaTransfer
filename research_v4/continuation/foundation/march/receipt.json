@@ -1,0 +1,11 @@
+{
+  "same_test_dates_for_jan_vs_march": true,
+  "jan_replay_matches_original_for_all10_heads": true,
+  "test_first": "2026-03-03 00:00:00",
+  "test_last": "2026-08-25 00:00:00",
+  "distinct_dates": 122,
+  "protocol_sha256": "ea3d0ce2976de0d6b35d3febd680c684b706671687581c1628055bc5c26b1542",
+  "code_sha256": "21d296d9c326ae53099159c919fdf155288008a966062a8d48873c0ed5da8304",
+  "six_calendar_months_complete": false,
+  "interpretation": "March-August interval truncated at last mature public CBR label; six full months are unavailable."
+}

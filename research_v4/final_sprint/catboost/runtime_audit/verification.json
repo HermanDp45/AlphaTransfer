@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "full_selected_profile_replay",
+      "passed": true,
+      "rows": 156,
+      "maximum_probability_errors": {
+        "raw_probability": 2.869949344841416e-08,
+        "probability": 8.552812846840396e-08
+      },
+      "actions_exact": true,
+      "note": "Tolerance covers original float32 inference/calibration versus decimal CSV and float64 exported calibration arithmetic."
+    },
+    {
+      "check": "three_chunks_match_full_profile_contacts_and_annotations",
+      "passed": true,
+      "maximum_probability_errors": {
+        "raw_probability": 1.1920928955078125e-07,
+        "probability": 1.0108198034153304e-07,
+        "closing_probability": 0.0
+      },
+      "actions_and_final_state_exact": true
+    },
+    {
+      "check": "outcomes_absent_from_both_model_feature_lists",
+      "passed": true
+    },
+    {
+      "check": "outcome_columns_cannot_change_predictions_or_contacts",
+      "passed": true
+    },
+    {
+      "check": "missing_middle_sessions_rejected",
+      "passed": true,
+      "rejection": "Feature input omits or reorders decision sessions"
+    },
+    {
+      "check": "missing_first_session_without_state_rejected",
+      "passed": true,
+      "rejection": "Provide full historical prefix or --state-in for incremental execution"
+    },
+    {
+      "check": "overlap_including_previously_processed_nonsignal_rejected",
+      "passed": true,
+      "rejection": "Input overlaps or skips previously processed state"
+    },
+    {
+      "check": "skipped_incremental_session_rejected",
+      "passed": true,
+      "rejection": "Input overlaps or skips previously processed state"
+    },
+    {
+      "check": "wrong_model_state_rejected",
+      "passed": true,
+      "rejection": "State belongs to another model or policy"
+    },
+    {
+      "check": "packaged_component_hashes_model/tabm_periodic_kzt_120m_s2",
+      "passed": true
+    },
+    {
+      "check": "calibration_contract_matches_selected_KZT_calibrator",
+      "passed": true
+    },
+    {
+      "check": "profile_files_unchanged_by_audit",
+      "passed": true
+    }
+  ],
+  "config_id": "tabm_periodic_kzt_120m_s2_kztcal",
+  "profile_hashes": {
+    "model.json": "bf3627da3ab58069e866a56f3a7f3762e68d6b40719c78c2a20aa427c950b7ad",
+    "example_features.csv": "63fb4c0088c673d11b430e38a71f0670863f66df7463b51a4cd230fe4675c0b7",
+    "selected_predictions.csv.gz": "8f32c8cdb872be5d869fc114927ec992f21734e2e7ca6cca893ba9cedc2932fd",
+    "requirements.txt": "02657d9432a182c2fc572bf2d114e4c738958b445cf14a608157b29add74773a",
+    "predict.py": "7b03a73682f50c831021aa1ad54f72f1d95828be514fe5ced0d283ac29c7fc6d",
+    "README.md": "4d33d430e76fe1168c72e5b608c4715f123a0110214348a8f9d3615965cd41d0",
+    "closing_annotation.json": "2ecd96c64c92a7434ae6a3a3e77357f7d73f746e818f3785301b29dd67a40c28",
+    "selection.json": "afbb4ceb582cf7ffd7da761a47c75ddbfca9477287190545d4247c3bae6ebf80",
+    "selected_intervals.json": "09c7e8f60871de33c9e66b8266de791e3351ff3e0984fe51cedf32994b29e13b",
+    "model/closing.pkl": "12eae128d58d7d96b85d11a73e06e709c2d0cbafbdc10aa88772277f69353114",
+    "model/tabm_periodic_kzt_120m_s2/model.json": "7f85166763a8a3e9ae6f60776860e8b108939afc4e724551d2555e9bb0871a8f",
+    "model/tabm_periodic_kzt_120m_s2/weights.pt": "8c17f17205f8c13f0a2e54c0508806e40db3f4f3d5501f615a76cd81f6c0e6aa",
+    "model/tabm_periodic_kzt_120m_s2/preprocess.joblib": "5d9f59ff6c70e7a3542c7d65f9cd412733eee5c8abff30d5f005a2fc6012811b"
+  },
+  "tree_fits": 0,
+  "neural_fits": 0,
+  "external_messages": 0,
+  "verifier_sha256": "aed939731fbfed3c82b4cd132c670efa53f9f27829a1da62a4ef8053778c53aa",
+  "scope": "Executable historical profile on frozen feature rows. This does not supply real-time PIT features or authorize contacts."
+}

@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "nature": "Retrospective robust-source stress; not pristine holdout or causal user gain",
+  "horizon": 5,
+  "rules": [
+    "v3_long_globalcal",
+    "v3_long_localcal",
+    "halyk_l1",
+    "halyk_l2_retrained",
+    "lag_augmentation",
+    "feature_dropout",
+    "lag_ensemble",
+    "minimax_shrink_v3"
+  ],
+  "robust_family": [
+    "lag_augmentation",
+    "feature_dropout",
+    "lag_ensemble",
+    "minimax_shrink_v3"
+  ],
+  "code_sha256": "0ae5c0f5ce66812c4c88445b84878212730a61eccb1406bf0641afb32237a4e3",
+  "protocol_sha256": "5be7f07c9c71f8686d7d1adcf4dbff89fd50438f43297f95f0e5cceab0c041e4",
+  "input_sha256": {
+    "research_v3/manifest.json": "aa70a2b7d84fb5faaf80e24076a0c7d50eaf67fdfabbdf88debd51b7d2085a6a",
+    "research_v4/continuation/previous_v4_manifest.json": "427e7bf89d3defdfbc30cc822ef113c3c97c3719ebc3844ba3c685752d012f5c",
+    "research_v3/models/panel_extended.pkl": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6",
+    "research_v4/liquidity/halyk_sell_daily.csv": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "research_v4/liquidity/kase_spot_daily.csv": "2458d5e31004fc749a7388007514530a4a519db777ee6f81f27a0ec8210938a3",
+    "research_v4/kazakhstan/experiment.py": "5f6f687c96f592d26be3ef2406e1845dd1c71c5e0980ac4ec4527084847bdd69",
+    "research_v4/liquidity/experiment.py": "d2cf11610daf4aff209abaf7bb97705d5e5a1f7bcc45b351009f580dde467dfa",
+    "final_solution/training/core_experiment.py": "263d967454a42df671de5143b5c3d6b4086a4b45c3609f9cf242134a52856b90"
+  },
+  "runtime_seconds": 10.88013833295554,
+  "selection": {
+    "selected_rule": "minimax_shrink_v3",
+    "criterion": "minimum worst normal/delayed development2023-2025 Brier among fixed robust family",
+    "normal_reference": 0.17632441489206915,
+    "delay_reference": 0.18270478175104507,
+    "strict_no_loss_robust_methods": [],
+    "selection_uses_2026": false,
+    "2026_previously_inspected_in_V4": true,
+    "selection_before_new_2026_computation": true,
+    "protocol_sha256": "5be7f07c9c71f8686d7d1adcf4dbff89fd50438f43297f95f0e5cceab0c041e4"
+  },
+  "final_source_date": "2026-09-01",
+  "last_mature_h5_target_date": "2026-08-25",
+  "delayed_deployment": "one extra calendar day of Halyk delay starts at cutoff; no test recalibration; history remains normal",
+  "training_lag_augmentation": "one deterministic date-hash view per row; no duplicated market dates/corridors",
+  "calibration_views": "robust Platt uses two possible views per existing KZT validation date; not independent sample augmentation"
+}

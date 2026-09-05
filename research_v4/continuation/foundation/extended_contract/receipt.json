@@ -1,0 +1,8 @@
+{
+  "head_count": 20,
+  "panel": "exact immutable panel_extended.pkl",
+  "panel_sha256": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6",
+  "code_sha256": "1e14c568a819e6cea8a39b3cad248e899c0479dd77451d93bea2df4713162c33",
+  "protocol_sha256": "471835a9c01ceca3b0a4d30c5f4880be1df5d5a6dbfafea0082dffa6b56b745b",
+  "forecast_arrays": "read-only ../forecasts; identical arrays to matched-window experiment"
+}

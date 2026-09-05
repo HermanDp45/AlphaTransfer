@@ -1,0 +1,12 @@
+{
+  "fixed_at": "2026-09-05T15:56:26.490524",
+  "configs": [
+    "60m_c3",
+    "120m_c3",
+    "120m_c3_aug"
+  ],
+  "dates": "monthly2025Jan-Dec;2026Jan-Aug",
+  "state": "carry actual emissions acrossrefits",
+  "selection": "same2026 retrospectiveprotocol",
+  "reason": "User requestedrecentadaptation;monthlymodels previouslyonlytestedwithoutbestbankfeatures"
+}

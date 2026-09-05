@@ -1,0 +1,10 @@
+{
+  "model": "chronos2_synth",
+  "device": "mps:0",
+  "steps": 20,
+  "seconds": 12.960788458003663,
+  "train_start": "2012-01-11 00:00:00",
+  "train_end": "2021-12-31 00:00:00",
+  "test_metrics_computed": false,
+  "role": "runtime only; checkpoint never used for reported predictions"
+}

@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "passed": 11,
+  "checks": [
+    {
+      "type": "single_utility",
+      "candidate": "tabm_pooled",
+      "horizon": 3,
+      "scope": "all5",
+      "year": "2024",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": 21.417346514689466,
+      "high": 70.55445435868396
+    },
+    {
+      "type": "single_utility",
+      "candidate": "tabm_pooled",
+      "horizon": 3,
+      "scope": "all5",
+      "year": "2025",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": 26.187370839870436,
+      "high": 73.19340609060495
+    },
+    {
+      "type": "single_utility",
+      "candidate": "tabm_pooled",
+      "horizon": 3,
+      "scope": "all5",
+      "year": "2026",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": 25.0256092739749,
+      "high": 62.07218211164124
+    },
+    {
+      "type": "single_utility",
+      "candidate": "tabm_pooled",
+      "horizon": 3,
+      "scope": "all5",
+      "year": "all",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": 32.12339606168476,
+      "high": 59.28998456809325
+    },
+    {
+      "type": "single_utility",
+      "candidate": "tabm_kzt",
+      "horizon": 5,
+      "scope": "KZT",
+      "year": "2024",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": 36.24690587856011,
+      "high": 92.81982206861312
+    },
+    {
+      "type": "single_utility",
+      "candidate": "tabm_kzt",
+      "horizon": 5,
+      "scope": "KZT",
+      "year": "2025",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": -1.5269992079293726,
+      "high": 24.833112175063988
+    },
+    {
+      "type": "single_utility",
+      "candidate": "tabm_kzt",
+      "horizon": 5,
+      "scope": "KZT",
+      "year": "2026",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": 17.714130397429706,
+      "high": 45.230350510648584
+    },
+    {
+      "type": "single_utility",
+      "candidate": "tabm_kzt",
+      "horizon": 5,
+      "scope": "KZT",
+      "year": "all",
+      "status": "PASS",
+      "nonfinite": 0,
+      "finite": 10000,
+      "low": 22.70771344506558,
+      "high": 43.82841468715668
+    },
+    {
+      "type": "paired",
+      "candidate": "tabm_pooled::rank80",
+      "baseline": "v3::strict05",
+      "horizon": 3,
+      "scope": "all5",
+      "status": "PASS",
+      "metrics": {
+        "brier": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -0.008111700179011135,
+          "high": 0.001892872485997311
+        },
+        "lift": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -0.3507001784564533,
+          "high": 0.09456869232596904
+        },
+        "forward_delta_bps": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -30.868306417832216,
+          "high": -0.04132943842147083
+        }
+      }
+    },
+    {
+      "type": "paired",
+      "candidate": "tabm_kzt::rank90",
+      "baseline": "v3::strict05",
+      "horizon": 5,
+      "scope": "KZT",
+      "status": "PASS",
+      "metrics": {
+        "brier": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -0.027637584976802486,
+          "high": -0.009265780029032557
+        },
+        "lift": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -0.773866871747571,
+          "high": -0.15609670544979973
+        },
+        "forward_delta_bps": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -84.19534642695182,
+          "high": -28.24204231328589
+        }
+      }
+    },
+    {
+      "type": "paired",
+      "candidate": "tabm_kzt::rank90",
+      "baseline": "tabm_kzt::cadence85",
+      "horizon": 5,
+      "scope": "KZT",
+      "status": "PASS",
+      "metrics": {
+        "brier": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "lift": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -0.37535789377352896,
+          "high": 0.07840344508882571
+        },
+        "forward_delta_bps": {
+          "nonfinite": 0,
+          "finite": 10000,
+          "low": -44.322509195587386,
+          "high": -14.825142831677827
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "predictions.csv.gz": "36b0929fd585825bc54fa113ae6285a0420d8da6730b7a330f30007d64eb2d7a",
+    "uncertainty.py": "71fd23fcd80dd136986b8f95de826f68ecdb3aa1e19bd01ca5799be4193e759a",
+    "selected_utility_intervals.csv": "2bc94df4dc958663183199954b6e7d98058b4f1cd53fb1e0117d89142b8b0156",
+    "retrospective_paired_intervals.csv": "f2650ec4461375ad3fff53c722bff4c1d8332e73a9b23772e5458461e789355e"
+  },
+  "audit_sha256": "908931024de3427ab414146e3dd0ff9634fe3b90308d83df5d6ce0a1151b6591",
+  "interpretation": "Conditional descriptive intervals after retrospective selection. These are not selection-adjusted or independent confirmation."
+}

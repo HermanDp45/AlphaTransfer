@@ -1,0 +1,21 @@
+{
+  "scenario": "CLOSING",
+  "target_contract": "CLOSING:R[t+5]>R[t];R=RUB_per_recipient_unit;h=5_effective_CBR_rows;tau=0",
+  "source_inputs_sha256": {
+    "research_v3/models/panel_extended.pkl": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6",
+    "research_v3/external_data/feature_panel.parquet": "df37a3079ac1be7f6a1978e4a32f177f32af996d9db6d7180114cef252f486ec",
+    "research_v4/liquidity/halyk_sell_daily.csv": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "research_v4/liquidity/experiment.py": "d2cf11610daf4aff209abaf7bb97705d5e5a1f7bcc45b351009f580dde467dfa",
+    "research_v4/kazakhstan/experiment.py": "5f6f687c96f592d26be3ef2406e1845dd1c71c5e0980ac4ec4527084847bdd69",
+    "final_solution/training/core_experiment.py": "263d967454a42df671de5143b5c3d6b4086a4b45c3609f9cf242134a52856b90"
+  },
+  "code_sha256": "18acf70ad34d0d66ef8a94615a5eec9b536cdbb16a0f4a42415245d668b73e79",
+  "protocol_sha256": "031efe24a9ee62f50f7de40dcab02d2e2eab56b694c9405e53405021d1c9d1b0",
+  "prediction_sha256": "5ea8e5b793eb4bd8ce99b75bc9273384e3723c80a880130ba966ef4449a7fea1",
+  "history_sha256": "67f642ff2c5305538d24931439175fce16d2f47089c5b7ab2f605d98073f8c9e",
+  "fits": 4,
+  "seconds": 3.088087624986656,
+  "now_target_preserved_separately": true,
+  "shared_policy_not_claimed": "Root combines scenarios under one cap with per-scenario metrics; standalone policy is diagnostic",
+  "bank_delay": "frozen L1 checkpoint applied L2 after cutoff; unchanged normal prior state"
+}

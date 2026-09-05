@@ -1,0 +1,6152 @@
+[
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "name": "strict05",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": []
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "name": "cadence80",
+    "threshold": {
+      "KZT": 0.5220356039058957
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.65,
+          "threshold": 0.5220356039058957,
+          "coverage": 0.803921568627451,
+          "lift": 1.6612765957446805,
+          "forward_delta_bps": 71.80407324947926,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0462245470329049,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08324896463237894,
+            "coverage": 1.0,
+            "lift": 1.0979999999999996,
+            "forward_delta_bps": 8.232651828468217,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.11129510990855414,
+            "coverage": 1.0,
+            "lift": 1.0501265822784807,
+            "forward_delta_bps": 12.036561158927398,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.13149640928208756,
+            "coverage": 1.0,
+            "lift": 1.1407792207792204,
+            "forward_delta_bps": 13.497518883758143,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.16249851480024766,
+            "coverage": 1.0,
+            "lift": 1.106133333333333,
+            "forward_delta_bps": 15.81524612538139,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.20166867060512916,
+            "coverage": 1.0,
+            "lift": 1.1711999999999996,
+            "forward_delta_bps": 16.142525928726382,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.21608862717956387,
+            "coverage": 0.9803921568627451,
+            "lift": 1.0997183098591545,
+            "forward_delta_bps": 19.882885905551763,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.25021662195295064,
+            "coverage": 0.9803921568627451,
+            "lift": 1.16695652173913,
+            "forward_delta_bps": 28.396252533663002,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.282365546113273,
+            "coverage": 0.9215686274509803,
+            "lift": 1.276307692307692,
+            "forward_delta_bps": 38.872421203532944,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.32425759337707094,
+            "coverage": 0.9215686274509803,
+            "lift": 1.4167741935483866,
+            "forward_delta_bps": 48.20833395927347,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.3974878411029275,
+            "coverage": 0.9019607843137255,
+            "lift": 1.423333333333333,
+            "forward_delta_bps": 52.85065150003878,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.4302269516832635,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5838596491228065,
+            "forward_delta_bps": 63.40430424845785,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.47416595751479645,
+            "coverage": 0.8627450980392157,
+            "lift": 1.6573584905660372,
+            "forward_delta_bps": 70.56927771857674,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.5220356039058957,
+            "coverage": 0.803921568627451,
+            "lift": 1.6612765957446805,
+            "forward_delta_bps": 71.80407324947926,
+            "feasible": true
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.5684355112944295,
+            "coverage": 0.7254901960784313,
+            "lift": 1.7590697674418603,
+            "forward_delta_bps": 72.86342195449915,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.5992171141314087,
+            "coverage": 0.6470588235294118,
+            "lift": 1.689230769230769,
+            "forward_delta_bps": 72.96056394339044,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.6434497861952163,
+            "coverage": 0.5098039215686274,
+            "lift": 1.7745454545454544,
+            "forward_delta_bps": 76.18065592110489,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "name": "cadence85",
+    "threshold": {
+      "KZT": 0.47416595751479645
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.85,
+        "chosen": {
+          "q": 0.6000000000000001,
+          "threshold": 0.47416595751479645,
+          "coverage": 0.8627450980392157,
+          "lift": 1.6573584905660372,
+          "forward_delta_bps": 70.56927771857674,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0462245470329049,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08324896463237894,
+            "coverage": 1.0,
+            "lift": 1.0979999999999996,
+            "forward_delta_bps": 8.232651828468217,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.11129510990855414,
+            "coverage": 1.0,
+            "lift": 1.0501265822784807,
+            "forward_delta_bps": 12.036561158927398,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.13149640928208756,
+            "coverage": 1.0,
+            "lift": 1.1407792207792204,
+            "forward_delta_bps": 13.497518883758143,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.16249851480024766,
+            "coverage": 1.0,
+            "lift": 1.106133333333333,
+            "forward_delta_bps": 15.81524612538139,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.20166867060512916,
+            "coverage": 1.0,
+            "lift": 1.1711999999999996,
+            "forward_delta_bps": 16.142525928726382,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.21608862717956387,
+            "coverage": 0.9803921568627451,
+            "lift": 1.0997183098591545,
+            "forward_delta_bps": 19.882885905551763,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.25021662195295064,
+            "coverage": 0.9803921568627451,
+            "lift": 1.16695652173913,
+            "forward_delta_bps": 28.396252533663002,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.282365546113273,
+            "coverage": 0.9215686274509803,
+            "lift": 1.276307692307692,
+            "forward_delta_bps": 38.872421203532944,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.32425759337707094,
+            "coverage": 0.9215686274509803,
+            "lift": 1.4167741935483866,
+            "forward_delta_bps": 48.20833395927347,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.3974878411029275,
+            "coverage": 0.9019607843137255,
+            "lift": 1.423333333333333,
+            "forward_delta_bps": 52.85065150003878,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.4302269516832635,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5838596491228065,
+            "forward_delta_bps": 63.40430424845785,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.47416595751479645,
+            "coverage": 0.8627450980392157,
+            "lift": 1.6573584905660372,
+            "forward_delta_bps": 70.56927771857674,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.5220356039058957,
+            "coverage": 0.803921568627451,
+            "lift": 1.6612765957446805,
+            "forward_delta_bps": 71.80407324947926,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.5684355112944295,
+            "coverage": 0.7254901960784313,
+            "lift": 1.7590697674418603,
+            "forward_delta_bps": 72.86342195449915,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.5992171141314087,
+            "coverage": 0.6470588235294118,
+            "lift": 1.689230769230769,
+            "forward_delta_bps": 72.96056394339044,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.6434497861952163,
+            "coverage": 0.5098039215686274,
+            "lift": 1.7745454545454544,
+            "forward_delta_bps": 76.18065592110489,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "name": "cadence90",
+    "threshold": {
+      "KZT": 0.3974878411029275
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.5,
+          "threshold": 0.3974878411029275,
+          "coverage": 0.9019607843137255,
+          "lift": 1.423333333333333,
+          "forward_delta_bps": 52.85065150003878,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0462245470329049,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08324896463237894,
+            "coverage": 1.0,
+            "lift": 1.0979999999999996,
+            "forward_delta_bps": 8.232651828468217,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.11129510990855414,
+            "coverage": 1.0,
+            "lift": 1.0501265822784807,
+            "forward_delta_bps": 12.036561158927398,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.13149640928208756,
+            "coverage": 1.0,
+            "lift": 1.1407792207792204,
+            "forward_delta_bps": 13.497518883758143,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.16249851480024766,
+            "coverage": 1.0,
+            "lift": 1.106133333333333,
+            "forward_delta_bps": 15.81524612538139,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.20166867060512916,
+            "coverage": 1.0,
+            "lift": 1.1711999999999996,
+            "forward_delta_bps": 16.142525928726382,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.21608862717956387,
+            "coverage": 0.9803921568627451,
+            "lift": 1.0997183098591545,
+            "forward_delta_bps": 19.882885905551763,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.25021662195295064,
+            "coverage": 0.9803921568627451,
+            "lift": 1.16695652173913,
+            "forward_delta_bps": 28.396252533663002,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.282365546113273,
+            "coverage": 0.9215686274509803,
+            "lift": 1.276307692307692,
+            "forward_delta_bps": 38.872421203532944,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.32425759337707094,
+            "coverage": 0.9215686274509803,
+            "lift": 1.4167741935483866,
+            "forward_delta_bps": 48.20833395927347,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.3974878411029275,
+            "coverage": 0.9019607843137255,
+            "lift": 1.423333333333333,
+            "forward_delta_bps": 52.85065150003878,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.4302269516832635,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5838596491228065,
+            "forward_delta_bps": 63.40430424845785,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.47416595751479645,
+            "coverage": 0.8627450980392157,
+            "lift": 1.6573584905660372,
+            "forward_delta_bps": 70.56927771857674,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.5220356039058957,
+            "coverage": 0.803921568627451,
+            "lift": 1.6612765957446805,
+            "forward_delta_bps": 71.80407324947926,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.5684355112944295,
+            "coverage": 0.7254901960784313,
+            "lift": 1.7590697674418603,
+            "forward_delta_bps": 72.86342195449915,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.5992171141314087,
+            "coverage": 0.6470588235294118,
+            "lift": 1.689230769230769,
+            "forward_delta_bps": 72.96056394339044,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.6434497861952163,
+            "coverage": 0.5098039215686274,
+            "lift": 1.7745454545454544,
+            "forward_delta_bps": 76.18065592110489,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "name": "rank80",
+    "threshold": {
+      "KZT": 0.55
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3457,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.55,
+          "threshold": 0.55,
+          "coverage": 0.8823529411764706,
+          "lift": 1.581481481481481,
+          "forward_delta_bps": 62.78324839814137,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1118987341772149,
+            "forward_delta_bps": 11.504787107860286,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.032307692307692,
+            "forward_delta_bps": 8.019189585832873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9803921568627451,
+            "lift": 1.15578947368421,
+            "forward_delta_bps": 20.998264507844716,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0695890410958901,
+            "forward_delta_bps": 24.379149429330646,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9607843137254902,
+            "lift": 1.2032876712328764,
+            "forward_delta_bps": 31.17696910553698,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3216666666666663,
+            "forward_delta_bps": 34.513226675679256,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.327647058823529,
+            "forward_delta_bps": 33.0220243076892,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3474626865671637,
+            "forward_delta_bps": 40.64724369794815,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4167741935483866,
+            "forward_delta_bps": 47.706684911989925,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9411764705882353,
+            "lift": 1.4888135593220335,
+            "forward_delta_bps": 56.22623776678189,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8823529411764706,
+            "lift": 1.581481481481481,
+            "forward_delta_bps": 62.78324839814137,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.7647058823529411,
+            "lift": 1.6093617021276592,
+            "forward_delta_bps": 61.945836233043735,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7254901960784313,
+            "lift": 1.7190909090909088,
+            "forward_delta_bps": 74.12382264229062,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.6666666666666666,
+            "lift": 1.7517948717948715,
+            "forward_delta_bps": 66.40748789032257,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.5490196078431373,
+            "lift": 1.4954838709677416,
+            "forward_delta_bps": 67.76966008087442,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.49019607843137253,
+            "lift": 1.5685714285714285,
+            "forward_delta_bps": 73.18911526615942,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "name": "rank90",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.5,
+          "threshold": 0.5,
+          "coverage": 0.9411764705882353,
+          "lift": 1.4888135593220335,
+          "forward_delta_bps": 56.22623776678189,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1118987341772149,
+            "forward_delta_bps": 11.504787107860286,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.032307692307692,
+            "forward_delta_bps": 8.019189585832873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9803921568627451,
+            "lift": 1.15578947368421,
+            "forward_delta_bps": 20.998264507844716,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0695890410958901,
+            "forward_delta_bps": 24.379149429330646,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9607843137254902,
+            "lift": 1.2032876712328764,
+            "forward_delta_bps": 31.17696910553698,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3216666666666663,
+            "forward_delta_bps": 34.513226675679256,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.327647058823529,
+            "forward_delta_bps": 33.0220243076892,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3474626865671637,
+            "forward_delta_bps": 40.64724369794815,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4167741935483866,
+            "forward_delta_bps": 47.706684911989925,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9411764705882353,
+            "lift": 1.4888135593220335,
+            "forward_delta_bps": 56.22623776678189,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8823529411764706,
+            "lift": 1.581481481481481,
+            "forward_delta_bps": 62.78324839814137,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.7647058823529411,
+            "lift": 1.6093617021276592,
+            "forward_delta_bps": 61.945836233043735,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7254901960784313,
+            "lift": 1.7190909090909088,
+            "forward_delta_bps": 74.12382264229062,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.6666666666666666,
+            "lift": 1.7517948717948715,
+            "forward_delta_bps": 66.40748789032257,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.5490196078431373,
+            "lift": 1.4954838709677416,
+            "forward_delta_bps": 67.76966008087442,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.49019607843137253,
+            "lift": 1.5685714285714285,
+            "forward_delta_bps": 73.18911526615942,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2024,
+    "name": "rank90_shared",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "shared",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.5,
+          "threshold": 0.5,
+          "coverage": 0.9411764705882353,
+          "lift": 1.4888135593220335,
+          "forward_delta_bps": 56.22623776678189,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1118987341772149,
+            "forward_delta_bps": 11.504787107860286,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.032307692307692,
+            "forward_delta_bps": 8.019189585832873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9803921568627451,
+            "lift": 1.15578947368421,
+            "forward_delta_bps": 20.998264507844716,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0695890410958901,
+            "forward_delta_bps": 24.379149429330646,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9607843137254902,
+            "lift": 1.2032876712328764,
+            "forward_delta_bps": 31.17696910553698,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3216666666666663,
+            "forward_delta_bps": 34.513226675679256,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.327647058823529,
+            "forward_delta_bps": 33.0220243076892,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3474626865671637,
+            "forward_delta_bps": 40.64724369794815,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4167741935483866,
+            "forward_delta_bps": 47.706684911989925,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9411764705882353,
+            "lift": 1.4888135593220335,
+            "forward_delta_bps": 56.22623776678189,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8823529411764706,
+            "lift": 1.581481481481481,
+            "forward_delta_bps": 62.78324839814137,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.7647058823529411,
+            "lift": 1.6093617021276592,
+            "forward_delta_bps": 61.945836233043735,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7254901960784313,
+            "lift": 1.7190909090909088,
+            "forward_delta_bps": 74.12382264229062,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.6666666666666666,
+            "lift": 1.7517948717948715,
+            "forward_delta_bps": 66.40748789032257,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.5490196078431373,
+            "lift": 1.4954838709677416,
+            "forward_delta_bps": 67.76966008087442,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.49019607843137253,
+            "lift": 1.5685714285714285,
+            "forward_delta_bps": 73.18911526615942,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "name": "strict05",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": []
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "name": "cadence80",
+    "threshold": {
+      "KZT": 0.37296064887234975
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.6000000000000001,
+          "threshold": 0.37296064887234975,
+          "coverage": 0.803921568627451,
+          "lift": 1.6912103083294976,
+          "forward_delta_bps": 58.156281319684076,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.028447653182898682,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.07407142668069949,
+            "coverage": 1.0,
+            "lift": 0.874479476502082,
+            "forward_delta_bps": -1.2090305199521214,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.10443980335980911,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9576297686053781,
+            "forward_delta_bps": 0.036567197746734885,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.12806465881996415,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9828305519897301,
+            "forward_delta_bps": 5.446541803432464,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.14015759848077763,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9162601626016258,
+            "forward_delta_bps": 5.976535872465297,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.1592530284396593,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0789295392953928,
+            "forward_delta_bps": 27.437810160976348,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.17750446887785598,
+            "coverage": 0.9411764705882353,
+            "lift": 1.2624527653727236,
+            "forward_delta_bps": 37.84783114023801,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.20767168234190672,
+            "coverage": 0.9019607843137255,
+            "lift": 1.4270112850382233,
+            "forward_delta_bps": 42.1068177817152,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.23256720024600372,
+            "coverage": 0.8823529411764706,
+            "lift": 1.4227642276422756,
+            "forward_delta_bps": 44.907185577476746,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.2637267112138062,
+            "coverage": 0.9019607843137255,
+            "lift": 1.5176151761517607,
+            "forward_delta_bps": 47.88717017930421,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.2951396038140553,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5698635799917318,
+            "forward_delta_bps": 54.44242609034319,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.33473633653326973,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5454163162321275,
+            "forward_delta_bps": 55.86352198213471,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.37296064887234975,
+            "coverage": 0.803921568627451,
+            "lift": 1.6912103083294976,
+            "forward_delta_bps": 58.156281319684076,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.42072763710376354,
+            "coverage": 0.7647058823529411,
+            "lift": 1.7926829268292679,
+            "forward_delta_bps": 70.925404871038,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.44542962767103406,
+            "coverage": 0.7450980392156863,
+            "lift": 1.9254742547425476,
+            "forward_delta_bps": 74.73292503640333,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.47508222477416695,
+            "coverage": 0.6862745098039216,
+            "lift": 1.8386491557223268,
+            "forward_delta_bps": 70.3223094503036,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.5197614666374232,
+            "coverage": 0.6274509803921569,
+            "lift": 1.9607469512195121,
+            "forward_delta_bps": 86.06378855537984,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "name": "cadence85",
+    "threshold": {
+      "KZT": 0.2951396038140553
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.85,
+        "chosen": {
+          "q": 0.5,
+          "threshold": 0.2951396038140553,
+          "coverage": 0.8627450980392157,
+          "lift": 1.5698635799917318,
+          "forward_delta_bps": 54.44242609034319,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.028447653182898682,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.07407142668069949,
+            "coverage": 1.0,
+            "lift": 0.874479476502082,
+            "forward_delta_bps": -1.2090305199521214,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.10443980335980911,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9576297686053781,
+            "forward_delta_bps": 0.036567197746734885,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.12806465881996415,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9828305519897301,
+            "forward_delta_bps": 5.446541803432464,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.14015759848077763,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9162601626016258,
+            "forward_delta_bps": 5.976535872465297,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.1592530284396593,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0789295392953928,
+            "forward_delta_bps": 27.437810160976348,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.17750446887785598,
+            "coverage": 0.9411764705882353,
+            "lift": 1.2624527653727236,
+            "forward_delta_bps": 37.84783114023801,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.20767168234190672,
+            "coverage": 0.9019607843137255,
+            "lift": 1.4270112850382233,
+            "forward_delta_bps": 42.1068177817152,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.23256720024600372,
+            "coverage": 0.8823529411764706,
+            "lift": 1.4227642276422756,
+            "forward_delta_bps": 44.907185577476746,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.2637267112138062,
+            "coverage": 0.9019607843137255,
+            "lift": 1.5176151761517607,
+            "forward_delta_bps": 47.88717017930421,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.2951396038140553,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5698635799917318,
+            "forward_delta_bps": 54.44242609034319,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.33473633653326973,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5454163162321275,
+            "forward_delta_bps": 55.86352198213471,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.37296064887234975,
+            "coverage": 0.803921568627451,
+            "lift": 1.6912103083294976,
+            "forward_delta_bps": 58.156281319684076,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.42072763710376354,
+            "coverage": 0.7647058823529411,
+            "lift": 1.7926829268292679,
+            "forward_delta_bps": 70.925404871038,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.44542962767103406,
+            "coverage": 0.7450980392156863,
+            "lift": 1.9254742547425476,
+            "forward_delta_bps": 74.73292503640333,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.47508222477416695,
+            "coverage": 0.6862745098039216,
+            "lift": 1.8386491557223268,
+            "forward_delta_bps": 70.3223094503036,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.5197614666374232,
+            "coverage": 0.6274509803921569,
+            "lift": 1.9607469512195121,
+            "forward_delta_bps": 86.06378855537984,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "name": "cadence90",
+    "threshold": {
+      "KZT": 0.2637267112138062
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.45,
+          "threshold": 0.2637267112138062,
+          "coverage": 0.9019607843137255,
+          "lift": 1.5176151761517607,
+          "forward_delta_bps": 47.88717017930421,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.028447653182898682,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.07407142668069949,
+            "coverage": 1.0,
+            "lift": 0.874479476502082,
+            "forward_delta_bps": -1.2090305199521214,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.10443980335980911,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9576297686053781,
+            "forward_delta_bps": 0.036567197746734885,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.12806465881996415,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9828305519897301,
+            "forward_delta_bps": 5.446541803432464,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.14015759848077763,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9162601626016258,
+            "forward_delta_bps": 5.976535872465297,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.1592530284396593,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0789295392953928,
+            "forward_delta_bps": 27.437810160976348,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.17750446887785598,
+            "coverage": 0.9411764705882353,
+            "lift": 1.2624527653727236,
+            "forward_delta_bps": 37.84783114023801,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.20767168234190672,
+            "coverage": 0.9019607843137255,
+            "lift": 1.4270112850382233,
+            "forward_delta_bps": 42.1068177817152,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.23256720024600372,
+            "coverage": 0.8823529411764706,
+            "lift": 1.4227642276422756,
+            "forward_delta_bps": 44.907185577476746,
+            "feasible": false
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.2637267112138062,
+            "coverage": 0.9019607843137255,
+            "lift": 1.5176151761517607,
+            "forward_delta_bps": 47.88717017930421,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.2951396038140553,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5698635799917318,
+            "forward_delta_bps": 54.44242609034319,
+            "feasible": false
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.33473633653326973,
+            "coverage": 0.8627450980392157,
+            "lift": 1.5454163162321275,
+            "forward_delta_bps": 55.86352198213471,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.37296064887234975,
+            "coverage": 0.803921568627451,
+            "lift": 1.6912103083294976,
+            "forward_delta_bps": 58.156281319684076,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.42072763710376354,
+            "coverage": 0.7647058823529411,
+            "lift": 1.7926829268292679,
+            "forward_delta_bps": 70.925404871038,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.44542962767103406,
+            "coverage": 0.7450980392156863,
+            "lift": 1.9254742547425476,
+            "forward_delta_bps": 74.73292503640333,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.47508222477416695,
+            "coverage": 0.6862745098039216,
+            "lift": 1.8386491557223268,
+            "forward_delta_bps": 70.3223094503036,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.5197614666374232,
+            "coverage": 0.6274509803921569,
+            "lift": 1.9607469512195121,
+            "forward_delta_bps": 86.06378855537984,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "name": "rank80",
+    "threshold": {
+      "KZT": 0.55
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.55,
+          "threshold": 0.55,
+          "coverage": 0.8627450980392157,
+          "lift": 1.600609756097561,
+          "forward_delta_bps": 57.30032971951199,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9042041078305517,
+            "forward_delta_bps": 0.8778313849308962,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9560975609756096,
+            "forward_delta_bps": 6.160747865417164,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9411764705882353,
+            "lift": 1.1097560975609753,
+            "forward_delta_bps": 30.716453684593535,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.8823529411764706,
+            "lift": 1.2040407717510009,
+            "forward_delta_bps": 34.85059059337946,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.8823529411764706,
+            "lift": 1.403362897265336,
+            "forward_delta_bps": 44.31713810591694,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.8627450980392157,
+            "lift": 1.4472179878048779,
+            "forward_delta_bps": 44.1026542869702,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.8627450980392157,
+            "lift": 1.4457120377655384,
+            "forward_delta_bps": 46.41085106573582,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.8627450980392157,
+            "lift": 1.3943089430894304,
+            "forward_delta_bps": 47.58251041441445,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8627450980392157,
+            "lift": 1.600609756097561,
+            "forward_delta_bps": 57.30032971951199,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.575388026607538,
+            "forward_delta_bps": 58.117850219429286,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7450980392156863,
+            "lift": 1.7799688635184228,
+            "forward_delta_bps": 65.98973311532468,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7058823529411765,
+            "lift": 1.821832242712671,
+            "forward_delta_bps": 72.16934849862353,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6470588235294118,
+            "lift": 1.7428861788617889,
+            "forward_delta_bps": 69.1743256175409,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.6078431372549019,
+            "lift": 1.8673780487804876,
+            "forward_delta_bps": 78.58028462703645,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "name": "rank90",
+    "threshold": {
+      "KZT": 0.25
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.25,
+          "threshold": 0.25,
+          "coverage": 0.9411764705882353,
+          "lift": 1.1097560975609753,
+          "forward_delta_bps": 30.716453684593535,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9042041078305517,
+            "forward_delta_bps": 0.8778313849308962,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9560975609756096,
+            "forward_delta_bps": 6.160747865417164,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9411764705882353,
+            "lift": 1.1097560975609753,
+            "forward_delta_bps": 30.716453684593535,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.8823529411764706,
+            "lift": 1.2040407717510009,
+            "forward_delta_bps": 34.85059059337946,
+            "feasible": false
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.8823529411764706,
+            "lift": 1.403362897265336,
+            "forward_delta_bps": 44.31713810591694,
+            "feasible": false
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.8627450980392157,
+            "lift": 1.4472179878048779,
+            "forward_delta_bps": 44.1026542869702,
+            "feasible": false
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.8627450980392157,
+            "lift": 1.4457120377655384,
+            "forward_delta_bps": 46.41085106573582,
+            "feasible": false
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.8627450980392157,
+            "lift": 1.3943089430894304,
+            "forward_delta_bps": 47.58251041441445,
+            "feasible": false
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8627450980392157,
+            "lift": 1.600609756097561,
+            "forward_delta_bps": 57.30032971951199,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.575388026607538,
+            "forward_delta_bps": 58.117850219429286,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7450980392156863,
+            "lift": 1.7799688635184228,
+            "forward_delta_bps": 65.98973311532468,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7058823529411765,
+            "lift": 1.821832242712671,
+            "forward_delta_bps": 72.16934849862353,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6470588235294118,
+            "lift": 1.7428861788617889,
+            "forward_delta_bps": 69.1743256175409,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.6078431372549019,
+            "lift": 1.8673780487804876,
+            "forward_delta_bps": 78.58028462703645,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2025,
+    "name": "rank90_shared",
+    "threshold": {
+      "KZT": 0.25
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "shared",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.25,
+          "threshold": 0.25,
+          "coverage": 0.9411764705882353,
+          "lift": 1.1097560975609753,
+          "forward_delta_bps": 30.716453684593535,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9042041078305517,
+            "forward_delta_bps": 0.8778313849308962,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9560975609756096,
+            "forward_delta_bps": 6.160747865417164,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9411764705882353,
+            "lift": 1.1097560975609753,
+            "forward_delta_bps": 30.716453684593535,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.8823529411764706,
+            "lift": 1.2040407717510009,
+            "forward_delta_bps": 34.85059059337946,
+            "feasible": false
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.8823529411764706,
+            "lift": 1.403362897265336,
+            "forward_delta_bps": 44.31713810591694,
+            "feasible": false
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.8627450980392157,
+            "lift": 1.4472179878048779,
+            "forward_delta_bps": 44.1026542869702,
+            "feasible": false
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.8627450980392157,
+            "lift": 1.4457120377655384,
+            "forward_delta_bps": 46.41085106573582,
+            "feasible": false
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.8627450980392157,
+            "lift": 1.3943089430894304,
+            "forward_delta_bps": 47.58251041441445,
+            "feasible": false
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8627450980392157,
+            "lift": 1.600609756097561,
+            "forward_delta_bps": 57.30032971951199,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.575388026607538,
+            "forward_delta_bps": 58.117850219429286,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7450980392156863,
+            "lift": 1.7799688635184228,
+            "forward_delta_bps": 65.98973311532468,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7058823529411765,
+            "lift": 1.821832242712671,
+            "forward_delta_bps": 72.16934849862353,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6470588235294118,
+            "lift": 1.7428861788617889,
+            "forward_delta_bps": 69.1743256175409,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.6078431372549019,
+            "lift": 1.8673780487804876,
+            "forward_delta_bps": 78.58028462703645,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "name": "strict05",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": []
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "name": "cadence80",
+    "threshold": {
+      "KZT": 0.27317092400831255
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.65,
+          "threshold": 0.27317092400831255,
+          "coverage": 0.8235294117647058,
+          "lift": 1.7650462962962958,
+          "forward_delta_bps": 63.031868481543746,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.014841731095209353,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05581033323070561,
+            "coverage": 1.0,
+            "lift": 1.0484375000000001,
+            "forward_delta_bps": 3.1863728596006653,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.07069731842884412,
+            "coverage": 1.0,
+            "lift": 1.2219551282051282,
+            "forward_delta_bps": 13.168996928405873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.08717419792530096,
+            "coverage": 1.0,
+            "lift": 1.3042763157894737,
+            "forward_delta_bps": 30.477711211107266,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.0992072764451313,
+            "coverage": 1.0,
+            "lift": 1.3767361111111112,
+            "forward_delta_bps": 36.54539880138575,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.11557255930022545,
+            "coverage": 1.0,
+            "lift": 1.4826388888888888,
+            "forward_delta_bps": 41.26032693245783,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.12811126461237637,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6339285714285712,
+            "forward_delta_bps": 47.38869537754654,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.1373079696127957,
+            "coverage": 0.9803921568627451,
+            "lift": 1.547101449275362,
+            "forward_delta_bps": 48.42657541851894,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.1539519329107228,
+            "coverage": 0.9803921568627451,
+            "lift": 1.547101449275362,
+            "forward_delta_bps": 49.738224035424636,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.17960965519003347,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6174242424242422,
+            "forward_delta_bps": 47.462977983483675,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.19302921354335056,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5372983870967738,
+            "forward_delta_bps": 46.877536852633014,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.2093290885332995,
+            "coverage": 0.9019607843137255,
+            "lift": 1.7447033898305082,
+            "forward_delta_bps": 57.36467980661335,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.23828808507872762,
+            "coverage": 0.8823529411764706,
+            "lift": 1.739035087719298,
+            "forward_delta_bps": 60.14404347791928,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.27317092400831255,
+            "coverage": 0.8235294117647058,
+            "lift": 1.7650462962962958,
+            "forward_delta_bps": 63.031868481543746,
+            "feasible": true
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.32134986186550135,
+            "coverage": 0.7450980392156863,
+            "lift": 2.022959183673469,
+            "forward_delta_bps": 65.70446254887909,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.3755536763732275,
+            "coverage": 0.6470588235294118,
+            "lift": 2.150641025641025,
+            "forward_delta_bps": 85.51431784063918,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.46022857164106495,
+            "coverage": 0.6078431372549019,
+            "lift": 2.242647058823529,
+            "forward_delta_bps": 82.86339808134016,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "name": "cadence85",
+    "threshold": {
+      "KZT": 0.2093290885332995
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.85,
+        "chosen": {
+          "q": 0.55,
+          "threshold": 0.2093290885332995,
+          "coverage": 0.9019607843137255,
+          "lift": 1.7447033898305082,
+          "forward_delta_bps": 57.36467980661335,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.014841731095209353,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05581033323070561,
+            "coverage": 1.0,
+            "lift": 1.0484375000000001,
+            "forward_delta_bps": 3.1863728596006653,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.07069731842884412,
+            "coverage": 1.0,
+            "lift": 1.2219551282051282,
+            "forward_delta_bps": 13.168996928405873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.08717419792530096,
+            "coverage": 1.0,
+            "lift": 1.3042763157894737,
+            "forward_delta_bps": 30.477711211107266,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.0992072764451313,
+            "coverage": 1.0,
+            "lift": 1.3767361111111112,
+            "forward_delta_bps": 36.54539880138575,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.11557255930022545,
+            "coverage": 1.0,
+            "lift": 1.4826388888888888,
+            "forward_delta_bps": 41.26032693245783,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.12811126461237637,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6339285714285712,
+            "forward_delta_bps": 47.38869537754654,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.1373079696127957,
+            "coverage": 0.9803921568627451,
+            "lift": 1.547101449275362,
+            "forward_delta_bps": 48.42657541851894,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.1539519329107228,
+            "coverage": 0.9803921568627451,
+            "lift": 1.547101449275362,
+            "forward_delta_bps": 49.738224035424636,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.17960965519003347,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6174242424242422,
+            "forward_delta_bps": 47.462977983483675,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.19302921354335056,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5372983870967738,
+            "forward_delta_bps": 46.877536852633014,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.2093290885332995,
+            "coverage": 0.9019607843137255,
+            "lift": 1.7447033898305082,
+            "forward_delta_bps": 57.36467980661335,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.23828808507872762,
+            "coverage": 0.8823529411764706,
+            "lift": 1.739035087719298,
+            "forward_delta_bps": 60.14404347791928,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.27317092400831255,
+            "coverage": 0.8235294117647058,
+            "lift": 1.7650462962962958,
+            "forward_delta_bps": 63.031868481543746,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.32134986186550135,
+            "coverage": 0.7450980392156863,
+            "lift": 2.022959183673469,
+            "forward_delta_bps": 65.70446254887909,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.3755536763732275,
+            "coverage": 0.6470588235294118,
+            "lift": 2.150641025641025,
+            "forward_delta_bps": 85.51431784063918,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.46022857164106495,
+            "coverage": 0.6078431372549019,
+            "lift": 2.242647058823529,
+            "forward_delta_bps": 82.86339808134016,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "name": "cadence90",
+    "threshold": {
+      "KZT": 0.2093290885332995
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.55,
+          "threshold": 0.2093290885332995,
+          "coverage": 0.9019607843137255,
+          "lift": 1.7447033898305082,
+          "forward_delta_bps": 57.36467980661335,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.014841731095209353,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05581033323070561,
+            "coverage": 1.0,
+            "lift": 1.0484375000000001,
+            "forward_delta_bps": 3.1863728596006653,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.07069731842884412,
+            "coverage": 1.0,
+            "lift": 1.2219551282051282,
+            "forward_delta_bps": 13.168996928405873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.08717419792530096,
+            "coverage": 1.0,
+            "lift": 1.3042763157894737,
+            "forward_delta_bps": 30.477711211107266,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.0992072764451313,
+            "coverage": 1.0,
+            "lift": 1.3767361111111112,
+            "forward_delta_bps": 36.54539880138575,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.11557255930022545,
+            "coverage": 1.0,
+            "lift": 1.4826388888888888,
+            "forward_delta_bps": 41.26032693245783,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.12811126461237637,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6339285714285712,
+            "forward_delta_bps": 47.38869537754654,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.1373079696127957,
+            "coverage": 0.9803921568627451,
+            "lift": 1.547101449275362,
+            "forward_delta_bps": 48.42657541851894,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.1539519329107228,
+            "coverage": 0.9803921568627451,
+            "lift": 1.547101449275362,
+            "forward_delta_bps": 49.738224035424636,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.17960965519003347,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6174242424242422,
+            "forward_delta_bps": 47.462977983483675,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.19302921354335056,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5372983870967738,
+            "forward_delta_bps": 46.877536852633014,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.2093290885332995,
+            "coverage": 0.9019607843137255,
+            "lift": 1.7447033898305082,
+            "forward_delta_bps": 57.36467980661335,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.23828808507872762,
+            "coverage": 0.8823529411764706,
+            "lift": 1.739035087719298,
+            "forward_delta_bps": 60.14404347791928,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.27317092400831255,
+            "coverage": 0.8235294117647058,
+            "lift": 1.7650462962962958,
+            "forward_delta_bps": 63.031868481543746,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.32134986186550135,
+            "coverage": 0.7450980392156863,
+            "lift": 2.022959183673469,
+            "forward_delta_bps": 65.70446254887909,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.3755536763732275,
+            "coverage": 0.6470588235294118,
+            "lift": 2.150641025641025,
+            "forward_delta_bps": 85.51431784063918,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.46022857164106495,
+            "coverage": 0.6078431372549019,
+            "lift": 2.242647058823529,
+            "forward_delta_bps": 82.86339808134016,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "name": "rank80",
+    "threshold": {
+      "KZT": 0.45
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.45,
+          "threshold": 0.45,
+          "coverage": 0.9803921568627451,
+          "lift": 1.8484848484848484,
+          "forward_delta_bps": 55.57319631354882,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.19140625,
+            "forward_delta_bps": 12.00142517556448,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 1.0,
+            "lift": 1.2039473684210527,
+            "forward_delta_bps": 15.150717903985223,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.22,
+            "forward_delta_bps": 30.732867214677142,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4826388888888888,
+            "forward_delta_bps": 40.52103353221089,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.5794642857142855,
+            "forward_delta_bps": 42.54528754871584,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6259191176470587,
+            "forward_delta_bps": 47.79300997259306,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.8484848484848484,
+            "forward_delta_bps": 55.57319631354882,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9607843137254902,
+            "lift": 1.7832661290322576,
+            "forward_delta_bps": 56.12696439230228,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5775862068965514,
+            "forward_delta_bps": 59.82620224854045,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.7700892857142854,
+            "forward_delta_bps": 59.78959437107243,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.803921568627451,
+            "lift": 1.8329326923076918,
+            "forward_delta_bps": 65.284027002545,
+            "feasible": true
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7254901960784313,
+            "lift": 2.2874999999999996,
+            "forward_delta_bps": 77.80965619688779,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6666666666666666,
+            "lift": 2.150641025641025,
+            "forward_delta_bps": 78.10155031683627,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5686274509803921,
+            "lift": 2.3106060606060606,
+            "forward_delta_bps": 93.79274706124109,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "name": "rank90",
+    "threshold": {
+      "KZT": 0.45
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.45,
+          "threshold": 0.45,
+          "coverage": 0.9803921568627451,
+          "lift": 1.8484848484848484,
+          "forward_delta_bps": 55.57319631354882,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.19140625,
+            "forward_delta_bps": 12.00142517556448,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 1.0,
+            "lift": 1.2039473684210527,
+            "forward_delta_bps": 15.150717903985223,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.22,
+            "forward_delta_bps": 30.732867214677142,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4826388888888888,
+            "forward_delta_bps": 40.52103353221089,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.5794642857142855,
+            "forward_delta_bps": 42.54528754871584,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6259191176470587,
+            "forward_delta_bps": 47.79300997259306,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.8484848484848484,
+            "forward_delta_bps": 55.57319631354882,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9607843137254902,
+            "lift": 1.7832661290322576,
+            "forward_delta_bps": 56.12696439230228,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5775862068965514,
+            "forward_delta_bps": 59.82620224854045,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.7700892857142854,
+            "forward_delta_bps": 59.78959437107243,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.803921568627451,
+            "lift": 1.8329326923076918,
+            "forward_delta_bps": 65.284027002545,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7254901960784313,
+            "lift": 2.2874999999999996,
+            "forward_delta_bps": 77.80965619688779,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6666666666666666,
+            "lift": 2.150641025641025,
+            "forward_delta_bps": 78.10155031683627,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5686274509803921,
+            "lift": 2.3106060606060606,
+            "forward_delta_bps": 93.79274706124109,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_120m",
+    "year": 2026,
+    "name": "rank90_shared",
+    "threshold": {
+      "KZT": 0.45
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3952,
+        "week": "2025-12-29/2026-01-04",
+        "count": 0
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "shared",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.45,
+          "threshold": 0.45,
+          "coverage": 0.9803921568627451,
+          "lift": 1.8484848484848484,
+          "forward_delta_bps": 55.57319631354882,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.19140625,
+            "forward_delta_bps": 12.00142517556448,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 1.0,
+            "lift": 1.2039473684210527,
+            "forward_delta_bps": 15.150717903985223,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.22,
+            "forward_delta_bps": 30.732867214677142,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4826388888888888,
+            "forward_delta_bps": 40.52103353221089,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.5794642857142855,
+            "forward_delta_bps": 42.54528754871584,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6259191176470587,
+            "forward_delta_bps": 47.79300997259306,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.8484848484848484,
+            "forward_delta_bps": 55.57319631354882,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9607843137254902,
+            "lift": 1.7832661290322576,
+            "forward_delta_bps": 56.12696439230228,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5775862068965514,
+            "forward_delta_bps": 59.82620224854045,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.7700892857142854,
+            "forward_delta_bps": 59.78959437107243,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.803921568627451,
+            "lift": 1.8329326923076918,
+            "forward_delta_bps": 65.284027002545,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7254901960784313,
+            "lift": 2.2874999999999996,
+            "forward_delta_bps": 77.80965619688779,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6666666666666666,
+            "lift": 2.150641025641025,
+            "forward_delta_bps": 78.10155031683627,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5686274509803921,
+            "lift": 2.3106060606060606,
+            "forward_delta_bps": 93.79274706124109,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "name": "strict05",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": []
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "name": "cadence80",
+    "threshold": {
+      "KZT": 0.49451216035349027
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.65,
+          "threshold": 0.49451216035349027,
+          "coverage": 0.803921568627451,
+          "lift": 1.6930612244897956,
+          "forward_delta_bps": 73.64374899641024,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.048286717333569165,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08790051638758989,
+            "coverage": 1.0,
+            "lift": 1.024197530864197,
+            "forward_delta_bps": 4.10037016059461,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.11306784263926117,
+            "coverage": 1.0,
+            "lift": 1.0810126582278476,
+            "forward_delta_bps": 8.890033647914155,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.133107785274846,
+            "coverage": 1.0,
+            "lift": 1.2199999999999995,
+            "forward_delta_bps": 14.072874940567475,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.1564031875324025,
+            "coverage": 1.0,
+            "lift": 1.106133333333333,
+            "forward_delta_bps": 16.271522271987426,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.19328559577595725,
+            "coverage": 1.0,
+            "lift": 1.1210810810810807,
+            "forward_delta_bps": 19.68289516735423,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.2341450612266429,
+            "coverage": 0.9803921568627451,
+            "lift": 1.1522222222222218,
+            "forward_delta_bps": 19.47018395011224,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.2882278352824036,
+            "coverage": 0.9803921568627451,
+            "lift": 1.2376811594202894,
+            "forward_delta_bps": 24.316891325139146,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.32483734842876016,
+            "coverage": 0.9803921568627451,
+            "lift": 1.201791044776119,
+            "forward_delta_bps": 25.947205509943444,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.3753057645468032,
+            "coverage": 0.9411764705882353,
+            "lift": 1.4106249999999996,
+            "forward_delta_bps": 52.23389477942541,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.4280592680441607,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5859999999999996,
+            "forward_delta_bps": 69.11189059240395,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.45420357753913626,
+            "coverage": 0.9019607843137255,
+            "lift": 1.541052631578947,
+            "forward_delta_bps": 63.7967940551381,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.47563762512271357,
+            "coverage": 0.8627450980392157,
+            "lift": 1.6266666666666663,
+            "forward_delta_bps": 70.0291278509952,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.49451216035349027,
+            "coverage": 0.803921568627451,
+            "lift": 1.6930612244897956,
+            "forward_delta_bps": 73.64374899641024,
+            "feasible": true
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.5391550136444135,
+            "coverage": 0.7450980392156863,
+            "lift": 1.7351111111111108,
+            "forward_delta_bps": 76.6886215628234,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.5712645504330356,
+            "coverage": 0.6078431372549019,
+            "lift": 1.7336842105263155,
+            "forward_delta_bps": 79.64417371232243,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.62094984252882,
+            "coverage": 0.49019607843137253,
+            "lift": 1.6775,
+            "forward_delta_bps": 84.1228625800556,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "name": "cadence85",
+    "threshold": {
+      "KZT": 0.47563762512271357
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.85,
+        "chosen": {
+          "q": 0.6000000000000001,
+          "threshold": 0.47563762512271357,
+          "coverage": 0.8627450980392157,
+          "lift": 1.6266666666666663,
+          "forward_delta_bps": 70.0291278509952,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.048286717333569165,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08790051638758989,
+            "coverage": 1.0,
+            "lift": 1.024197530864197,
+            "forward_delta_bps": 4.10037016059461,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.11306784263926117,
+            "coverage": 1.0,
+            "lift": 1.0810126582278476,
+            "forward_delta_bps": 8.890033647914155,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.133107785274846,
+            "coverage": 1.0,
+            "lift": 1.2199999999999995,
+            "forward_delta_bps": 14.072874940567475,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.1564031875324025,
+            "coverage": 1.0,
+            "lift": 1.106133333333333,
+            "forward_delta_bps": 16.271522271987426,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.19328559577595725,
+            "coverage": 1.0,
+            "lift": 1.1210810810810807,
+            "forward_delta_bps": 19.68289516735423,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.2341450612266429,
+            "coverage": 0.9803921568627451,
+            "lift": 1.1522222222222218,
+            "forward_delta_bps": 19.47018395011224,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.2882278352824036,
+            "coverage": 0.9803921568627451,
+            "lift": 1.2376811594202894,
+            "forward_delta_bps": 24.316891325139146,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.32483734842876016,
+            "coverage": 0.9803921568627451,
+            "lift": 1.201791044776119,
+            "forward_delta_bps": 25.947205509943444,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.3753057645468032,
+            "coverage": 0.9411764705882353,
+            "lift": 1.4106249999999996,
+            "forward_delta_bps": 52.23389477942541,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.4280592680441607,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5859999999999996,
+            "forward_delta_bps": 69.11189059240395,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.45420357753913626,
+            "coverage": 0.9019607843137255,
+            "lift": 1.541052631578947,
+            "forward_delta_bps": 63.7967940551381,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.47563762512271357,
+            "coverage": 0.8627450980392157,
+            "lift": 1.6266666666666663,
+            "forward_delta_bps": 70.0291278509952,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.49451216035349027,
+            "coverage": 0.803921568627451,
+            "lift": 1.6930612244897956,
+            "forward_delta_bps": 73.64374899641024,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.5391550136444135,
+            "coverage": 0.7450980392156863,
+            "lift": 1.7351111111111108,
+            "forward_delta_bps": 76.6886215628234,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.5712645504330356,
+            "coverage": 0.6078431372549019,
+            "lift": 1.7336842105263155,
+            "forward_delta_bps": 79.64417371232243,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.62094984252882,
+            "coverage": 0.49019607843137253,
+            "lift": 1.6775,
+            "forward_delta_bps": 84.1228625800556,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "name": "cadence90",
+    "threshold": {
+      "KZT": 0.4280592680441607
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.5,
+          "threshold": 0.4280592680441607,
+          "coverage": 0.9215686274509803,
+          "lift": 1.5859999999999996,
+          "forward_delta_bps": 69.11189059240395,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.048286717333569165,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08790051638758989,
+            "coverage": 1.0,
+            "lift": 1.024197530864197,
+            "forward_delta_bps": 4.10037016059461,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.11306784263926117,
+            "coverage": 1.0,
+            "lift": 1.0810126582278476,
+            "forward_delta_bps": 8.890033647914155,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.133107785274846,
+            "coverage": 1.0,
+            "lift": 1.2199999999999995,
+            "forward_delta_bps": 14.072874940567475,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.1564031875324025,
+            "coverage": 1.0,
+            "lift": 1.106133333333333,
+            "forward_delta_bps": 16.271522271987426,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.19328559577595725,
+            "coverage": 1.0,
+            "lift": 1.1210810810810807,
+            "forward_delta_bps": 19.68289516735423,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.2341450612266429,
+            "coverage": 0.9803921568627451,
+            "lift": 1.1522222222222218,
+            "forward_delta_bps": 19.47018395011224,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.2882278352824036,
+            "coverage": 0.9803921568627451,
+            "lift": 1.2376811594202894,
+            "forward_delta_bps": 24.316891325139146,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.32483734842876016,
+            "coverage": 0.9803921568627451,
+            "lift": 1.201791044776119,
+            "forward_delta_bps": 25.947205509943444,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.3753057645468032,
+            "coverage": 0.9411764705882353,
+            "lift": 1.4106249999999996,
+            "forward_delta_bps": 52.23389477942541,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.4280592680441607,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5859999999999996,
+            "forward_delta_bps": 69.11189059240395,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.45420357753913626,
+            "coverage": 0.9019607843137255,
+            "lift": 1.541052631578947,
+            "forward_delta_bps": 63.7967940551381,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.47563762512271357,
+            "coverage": 0.8627450980392157,
+            "lift": 1.6266666666666663,
+            "forward_delta_bps": 70.0291278509952,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.49451216035349027,
+            "coverage": 0.803921568627451,
+            "lift": 1.6930612244897956,
+            "forward_delta_bps": 73.64374899641024,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.5391550136444135,
+            "coverage": 0.7450980392156863,
+            "lift": 1.7351111111111108,
+            "forward_delta_bps": 76.6886215628234,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.5712645504330356,
+            "coverage": 0.6078431372549019,
+            "lift": 1.7336842105263155,
+            "forward_delta_bps": 79.64417371232243,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.62094984252882,
+            "coverage": 0.49019607843137253,
+            "lift": 1.6775,
+            "forward_delta_bps": 84.1228625800556,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "name": "rank80",
+    "threshold": {
+      "KZT": 0.6000000000000001
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3459,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.6000000000000001,
+          "threshold": 0.6000000000000001,
+          "coverage": 0.8431372549019608,
+          "lift": 1.595384615384615,
+          "forward_delta_bps": 64.74704333107421,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.0543209876543207,
+            "forward_delta_bps": 4.802411511542003,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.0810126582278476,
+            "forward_delta_bps": 9.831061541407001,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.0410666666666664,
+            "forward_delta_bps": 15.992744906414018,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9803921568627451,
+            "lift": 1.236712328767123,
+            "forward_delta_bps": 29.68789247372252,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.2032876712328764,
+            "forward_delta_bps": 29.100926186737816,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3059154929577461,
+            "forward_delta_bps": 38.54158284265367,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9607843137254902,
+            "lift": 1.2897142857142854,
+            "forward_delta_bps": 36.28977103590015,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9607843137254902,
+            "lift": 1.3635294117647054,
+            "forward_delta_bps": 38.74591427321144,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9607843137254902,
+            "lift": 1.4868749999999995,
+            "forward_delta_bps": 48.32760024996034,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9215686274509803,
+            "lift": 1.4474576271186437,
+            "forward_delta_bps": 49.96248889165675,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8823529411764706,
+            "lift": 1.5249999999999997,
+            "forward_delta_bps": 56.74068320460386,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.595384615384615,
+            "forward_delta_bps": 64.74704333107421,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.6862745098039216,
+            "lift": 1.5888372093023253,
+            "forward_delta_bps": 70.72805411715132,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.6666666666666666,
+            "lift": 1.6052631578947367,
+            "forward_delta_bps": 65.91026969839764,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.5882352941176471,
+            "lift": 1.4787878787878788,
+            "forward_delta_bps": 57.88721562715737,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 1.6266666666666665,
+            "forward_delta_bps": 72.97994374850875,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "name": "rank90",
+    "threshold": {
+      "KZT": 0.45
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3457,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.45,
+          "threshold": 0.45,
+          "coverage": 0.9607843137254902,
+          "lift": 1.4868749999999995,
+          "forward_delta_bps": 48.32760024996034,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.0543209876543207,
+            "forward_delta_bps": 4.802411511542003,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.0810126582278476,
+            "forward_delta_bps": 9.831061541407001,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.0410666666666664,
+            "forward_delta_bps": 15.992744906414018,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9803921568627451,
+            "lift": 1.236712328767123,
+            "forward_delta_bps": 29.68789247372252,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.2032876712328764,
+            "forward_delta_bps": 29.100926186737816,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3059154929577461,
+            "forward_delta_bps": 38.54158284265367,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9607843137254902,
+            "lift": 1.2897142857142854,
+            "forward_delta_bps": 36.28977103590015,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9607843137254902,
+            "lift": 1.3635294117647054,
+            "forward_delta_bps": 38.74591427321144,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9607843137254902,
+            "lift": 1.4868749999999995,
+            "forward_delta_bps": 48.32760024996034,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9215686274509803,
+            "lift": 1.4474576271186437,
+            "forward_delta_bps": 49.96248889165675,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8823529411764706,
+            "lift": 1.5249999999999997,
+            "forward_delta_bps": 56.74068320460386,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.595384615384615,
+            "forward_delta_bps": 64.74704333107421,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.6862745098039216,
+            "lift": 1.5888372093023253,
+            "forward_delta_bps": 70.72805411715132,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.6666666666666666,
+            "lift": 1.6052631578947367,
+            "forward_delta_bps": 65.91026969839764,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.5882352941176471,
+            "lift": 1.4787878787878788,
+            "forward_delta_bps": 57.88721562715737,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 1.6266666666666665,
+            "forward_delta_bps": 72.97994374850875,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2024,
+    "name": "rank90_shared",
+    "threshold": {
+      "KZT": 0.45
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3457,
+        "week": "2023-12-25/2023-12-31",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "shared",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.45,
+          "threshold": 0.45,
+          "coverage": 0.9607843137254902,
+          "lift": 1.4868749999999995,
+          "forward_delta_bps": 48.32760024996034,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.041463414634146,
+            "forward_delta_bps": 4.465530339335124,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.0543209876543207,
+            "forward_delta_bps": 4.802411511542003,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.0810126582278476,
+            "forward_delta_bps": 9.831061541407001,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.0410666666666664,
+            "forward_delta_bps": 15.992744906414018,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9803921568627451,
+            "lift": 1.236712328767123,
+            "forward_delta_bps": 29.68789247372252,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.2032876712328764,
+            "forward_delta_bps": 29.100926186737816,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3059154929577461,
+            "forward_delta_bps": 38.54158284265367,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9607843137254902,
+            "lift": 1.2897142857142854,
+            "forward_delta_bps": 36.28977103590015,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9607843137254902,
+            "lift": 1.3635294117647054,
+            "forward_delta_bps": 38.74591427321144,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9607843137254902,
+            "lift": 1.4868749999999995,
+            "forward_delta_bps": 48.32760024996034,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9215686274509803,
+            "lift": 1.4474576271186437,
+            "forward_delta_bps": 49.96248889165675,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.8823529411764706,
+            "lift": 1.5249999999999997,
+            "forward_delta_bps": 56.74068320460386,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8431372549019608,
+            "lift": 1.595384615384615,
+            "forward_delta_bps": 64.74704333107421,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.6862745098039216,
+            "lift": 1.5888372093023253,
+            "forward_delta_bps": 70.72805411715132,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.6666666666666666,
+            "lift": 1.6052631578947367,
+            "forward_delta_bps": 65.91026969839764,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.5882352941176471,
+            "lift": 1.4787878787878788,
+            "forward_delta_bps": 57.88721562715737,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 1.6266666666666665,
+            "forward_delta_bps": 72.97994374850875,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "name": "strict05",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": []
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "name": "cadence80",
+    "threshold": {
+      "KZT": 0.36206599413814194
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3707,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.6000000000000001,
+          "threshold": 0.36206599413814194,
+          "coverage": 0.803921568627451,
+          "lift": 1.770551038843721,
+          "forward_delta_bps": 60.67421401055034,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.027166758746262374,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08406537809756198,
+            "coverage": 1.0,
+            "lift": 0.8483890394459499,
+            "forward_delta_bps": -5.053218055383608,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.12660409758582783,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.14595972035589408,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0088691796008866,
+            "forward_delta_bps": -0.7918937272250363,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.16728237127380402,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9560975609756096,
+            "forward_delta_bps": -0.43391932284961154,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.18251068672349513,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9413631807550952,
+            "forward_delta_bps": 0.8888725195195184,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.19790455500151968,
+            "coverage": 0.9215686274509803,
+            "lift": 1.0243902439024386,
+            "forward_delta_bps": 6.772047719598955,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.2210490595090301,
+            "coverage": 0.9019607843137255,
+            "lift": 1.312823355506282,
+            "forward_delta_bps": 37.61209731510727,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.2584245744453554,
+            "coverage": 0.8823529411764706,
+            "lift": 1.4005335365853657,
+            "forward_delta_bps": 41.40051114066118,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.2851166607222656,
+            "coverage": 0.8823529411764706,
+            "lift": 1.469412235105957,
+            "forward_delta_bps": 48.0117404278083,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.3084819730209025,
+            "coverage": 0.8235294117647058,
+            "lift": 1.49390243902439,
+            "forward_delta_bps": 52.33599631937881,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.3387533805556953,
+            "coverage": 0.803921568627451,
+            "lift": 1.5725288831835684,
+            "forward_delta_bps": 53.3663921218844,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.36206599413814194,
+            "coverage": 0.803921568627451,
+            "lift": 1.770551038843721,
+            "forward_delta_bps": 60.67421401055034,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.3954177347132544,
+            "coverage": 0.7647058823529411,
+            "lift": 1.9918699186991868,
+            "forward_delta_bps": 74.4685917017577,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.41537478136547484,
+            "coverage": 0.7254901960784313,
+            "lift": 1.901330376940133,
+            "forward_delta_bps": 70.43974040155449,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.44788300683853716,
+            "coverage": 0.7058823529411765,
+            "lift": 1.8084082156611043,
+            "forward_delta_bps": 69.84173761661157,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.496050711650607,
+            "coverage": 0.6078431372549019,
+            "lift": 1.810790835181079,
+            "forward_delta_bps": 64.6211585304289,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "name": "cadence85",
+    "threshold": {
+      "KZT": 0.2851166607222656
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.85,
+        "chosen": {
+          "q": 0.45,
+          "threshold": 0.2851166607222656,
+          "coverage": 0.8823529411764706,
+          "lift": 1.469412235105957,
+          "forward_delta_bps": 48.0117404278083,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.027166758746262374,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08406537809756198,
+            "coverage": 1.0,
+            "lift": 0.8483890394459499,
+            "forward_delta_bps": -5.053218055383608,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.12660409758582783,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.14595972035589408,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0088691796008866,
+            "forward_delta_bps": -0.7918937272250363,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.16728237127380402,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9560975609756096,
+            "forward_delta_bps": -0.43391932284961154,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.18251068672349513,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9413631807550952,
+            "forward_delta_bps": 0.8888725195195184,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.19790455500151968,
+            "coverage": 0.9215686274509803,
+            "lift": 1.0243902439024386,
+            "forward_delta_bps": 6.772047719598955,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.2210490595090301,
+            "coverage": 0.9019607843137255,
+            "lift": 1.312823355506282,
+            "forward_delta_bps": 37.61209731510727,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.2584245744453554,
+            "coverage": 0.8823529411764706,
+            "lift": 1.4005335365853657,
+            "forward_delta_bps": 41.40051114066118,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.2851166607222656,
+            "coverage": 0.8823529411764706,
+            "lift": 1.469412235105957,
+            "forward_delta_bps": 48.0117404278083,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.3084819730209025,
+            "coverage": 0.8235294117647058,
+            "lift": 1.49390243902439,
+            "forward_delta_bps": 52.33599631937881,
+            "feasible": false
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.3387533805556953,
+            "coverage": 0.803921568627451,
+            "lift": 1.5725288831835684,
+            "forward_delta_bps": 53.3663921218844,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.36206599413814194,
+            "coverage": 0.803921568627451,
+            "lift": 1.770551038843721,
+            "forward_delta_bps": 60.67421401055034,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.3954177347132544,
+            "coverage": 0.7647058823529411,
+            "lift": 1.9918699186991868,
+            "forward_delta_bps": 74.4685917017577,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.41537478136547484,
+            "coverage": 0.7254901960784313,
+            "lift": 1.901330376940133,
+            "forward_delta_bps": 70.43974040155449,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.44788300683853716,
+            "coverage": 0.7058823529411765,
+            "lift": 1.8084082156611043,
+            "forward_delta_bps": 69.84173761661157,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.496050711650607,
+            "coverage": 0.6078431372549019,
+            "lift": 1.810790835181079,
+            "forward_delta_bps": 64.6211585304289,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "name": "cadence90",
+    "threshold": {
+      "KZT": 0.2210490595090301
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.35000000000000003,
+          "threshold": 0.2210490595090301,
+          "coverage": 0.9019607843137255,
+          "lift": 1.312823355506282,
+          "forward_delta_bps": 37.61209731510727,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.027166758746262374,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.08406537809756198,
+            "coverage": 1.0,
+            "lift": 0.8483890394459499,
+            "forward_delta_bps": -5.053218055383608,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.12660409758582783,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.14595972035589408,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0088691796008866,
+            "forward_delta_bps": -0.7918937272250363,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.16728237127380402,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9560975609756096,
+            "forward_delta_bps": -0.43391932284961154,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.18251068672349513,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9413631807550952,
+            "forward_delta_bps": 0.8888725195195184,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.19790455500151968,
+            "coverage": 0.9215686274509803,
+            "lift": 1.0243902439024386,
+            "forward_delta_bps": 6.772047719598955,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.2210490595090301,
+            "coverage": 0.9019607843137255,
+            "lift": 1.312823355506282,
+            "forward_delta_bps": 37.61209731510727,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.2584245744453554,
+            "coverage": 0.8823529411764706,
+            "lift": 1.4005335365853657,
+            "forward_delta_bps": 41.40051114066118,
+            "feasible": false
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.2851166607222656,
+            "coverage": 0.8823529411764706,
+            "lift": 1.469412235105957,
+            "forward_delta_bps": 48.0117404278083,
+            "feasible": false
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.3084819730209025,
+            "coverage": 0.8235294117647058,
+            "lift": 1.49390243902439,
+            "forward_delta_bps": 52.33599631937881,
+            "feasible": false
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.3387533805556953,
+            "coverage": 0.803921568627451,
+            "lift": 1.5725288831835684,
+            "forward_delta_bps": 53.3663921218844,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.36206599413814194,
+            "coverage": 0.803921568627451,
+            "lift": 1.770551038843721,
+            "forward_delta_bps": 60.67421401055034,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.3954177347132544,
+            "coverage": 0.7647058823529411,
+            "lift": 1.9918699186991868,
+            "forward_delta_bps": 74.4685917017577,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.41537478136547484,
+            "coverage": 0.7254901960784313,
+            "lift": 1.901330376940133,
+            "forward_delta_bps": 70.43974040155449,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.44788300683853716,
+            "coverage": 0.7058823529411765,
+            "lift": 1.8084082156611043,
+            "forward_delta_bps": 69.84173761661157,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.496050711650607,
+            "coverage": 0.6078431372549019,
+            "lift": 1.810790835181079,
+            "forward_delta_bps": 64.6211585304289,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "name": "rank80",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.5,
+          "threshold": 0.5,
+          "coverage": 0.803921568627451,
+          "lift": 1.4676936243046639,
+          "forward_delta_bps": 48.95081837801858,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1577743902439024,
+            "forward_delta_bps": 7.2998572723995165,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0088691796008866,
+            "forward_delta_bps": -1.195149670048842,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9162601626016258,
+            "forward_delta_bps": -0.6915083591157556,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9411764705882353,
+            "lift": 0.9544376693766937,
+            "forward_delta_bps": 1.240733960038012,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9215686274509803,
+            "lift": 1.0243902439024386,
+            "forward_delta_bps": 5.138363081411612,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9019607843137255,
+            "lift": 1.403362897265336,
+            "forward_delta_bps": 32.45228214944574,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9019607843137255,
+            "lift": 1.3330206378986866,
+            "forward_delta_bps": 40.03478048272006,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.8823529411764706,
+            "lift": 1.3753387533875332,
+            "forward_delta_bps": 40.75704213200582,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.803921568627451,
+            "lift": 1.4676936243046639,
+            "forward_delta_bps": 48.95081837801858,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.7843137254901961,
+            "lift": 1.5210643015521055,
+            "forward_delta_bps": 53.932595620681674,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.7843137254901961,
+            "lift": 1.5492321589882558,
+            "forward_delta_bps": 53.71913908306823,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7647058823529411,
+            "lift": 1.7926829268292679,
+            "forward_delta_bps": 57.9070697399719,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7450980392156863,
+            "lift": 1.8334257206208426,
+            "forward_delta_bps": 62.785351349844724,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6666666666666666,
+            "lift": 1.9088753387533877,
+            "forward_delta_bps": 76.23192509186832,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 2.023996852871755,
+            "forward_delta_bps": 79.61248718124472,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "name": "rank90",
+    "threshold": {
+      "KZT": 0.35000000000000003
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.35000000000000003,
+          "threshold": 0.35000000000000003,
+          "coverage": 0.9019607843137255,
+          "lift": 1.403362897265336,
+          "forward_delta_bps": 32.45228214944574,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1577743902439024,
+            "forward_delta_bps": 7.2998572723995165,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0088691796008866,
+            "forward_delta_bps": -1.195149670048842,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9162601626016258,
+            "forward_delta_bps": -0.6915083591157556,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9411764705882353,
+            "lift": 0.9544376693766937,
+            "forward_delta_bps": 1.240733960038012,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9215686274509803,
+            "lift": 1.0243902439024386,
+            "forward_delta_bps": 5.138363081411612,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9019607843137255,
+            "lift": 1.403362897265336,
+            "forward_delta_bps": 32.45228214944574,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9019607843137255,
+            "lift": 1.3330206378986866,
+            "forward_delta_bps": 40.03478048272006,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.8823529411764706,
+            "lift": 1.3753387533875332,
+            "forward_delta_bps": 40.75704213200582,
+            "feasible": false
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.803921568627451,
+            "lift": 1.4676936243046639,
+            "forward_delta_bps": 48.95081837801858,
+            "feasible": false
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.7843137254901961,
+            "lift": 1.5210643015521055,
+            "forward_delta_bps": 53.932595620681674,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.7843137254901961,
+            "lift": 1.5492321589882558,
+            "forward_delta_bps": 53.71913908306823,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7647058823529411,
+            "lift": 1.7926829268292679,
+            "forward_delta_bps": 57.9070697399719,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7450980392156863,
+            "lift": 1.8334257206208426,
+            "forward_delta_bps": 62.785351349844724,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6666666666666666,
+            "lift": 1.9088753387533877,
+            "forward_delta_bps": 76.23192509186832,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 2.023996852871755,
+            "forward_delta_bps": 79.61248718124472,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2025,
+    "name": "rank90_shared",
+    "threshold": {
+      "KZT": 0.35000000000000003
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3706,
+        "week": "2024-12-23/2024-12-29",
+        "count": 2
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "shared",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.35000000000000003,
+          "threshold": 0.35000000000000003,
+          "coverage": 0.9019607843137255,
+          "lift": 1.403362897265336,
+          "forward_delta_bps": 32.45228214944574,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 0.9109161213563354,
+            "forward_delta_bps": -1.1618066553026496,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1577743902439024,
+            "forward_delta_bps": 7.2998572723995165,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 0.9803921568627451,
+            "lift": 0.9833281877122565,
+            "forward_delta_bps": -2.6022289075193936,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 0.9607843137254902,
+            "lift": 1.0088691796008866,
+            "forward_delta_bps": -1.195149670048842,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 0.9607843137254902,
+            "lift": 0.9162601626016258,
+            "forward_delta_bps": -0.6915083591157556,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9411764705882353,
+            "lift": 0.9544376693766937,
+            "forward_delta_bps": 1.240733960038012,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9215686274509803,
+            "lift": 1.0243902439024386,
+            "forward_delta_bps": 5.138363081411612,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9019607843137255,
+            "lift": 1.403362897265336,
+            "forward_delta_bps": 32.45228214944574,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9019607843137255,
+            "lift": 1.3330206378986866,
+            "forward_delta_bps": 40.03478048272006,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.8823529411764706,
+            "lift": 1.3753387533875332,
+            "forward_delta_bps": 40.75704213200582,
+            "feasible": false
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.803921568627451,
+            "lift": 1.4676936243046639,
+            "forward_delta_bps": 48.95081837801858,
+            "feasible": false
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.7843137254901961,
+            "lift": 1.5210643015521055,
+            "forward_delta_bps": 53.932595620681674,
+            "feasible": false
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.7843137254901961,
+            "lift": 1.5492321589882558,
+            "forward_delta_bps": 53.71913908306823,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.7647058823529411,
+            "lift": 1.7926829268292679,
+            "forward_delta_bps": 57.9070697399719,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7450980392156863,
+            "lift": 1.8334257206208426,
+            "forward_delta_bps": 62.785351349844724,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6666666666666666,
+            "lift": 1.9088753387533877,
+            "forward_delta_bps": 76.23192509186832,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 2.023996852871755,
+            "forward_delta_bps": 79.61248718124472,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "name": "strict05",
+    "threshold": {
+      "KZT": 0.5
+    },
+    "cooldown": 3,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": []
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "name": "cadence80",
+    "threshold": {
+      "KZT": 0.27123826493648795
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.65,
+          "threshold": 0.27123826493648795,
+          "coverage": 0.8431372549019608,
+          "lift": 1.732954545454545,
+          "forward_delta_bps": 57.60118180404808,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.01762846893933653,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05175925881643696,
+            "coverage": 1.0,
+            "lift": 1.2547468354430378,
+            "forward_delta_bps": 9.867579830420873,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.07530594413477203,
+            "coverage": 1.0,
+            "lift": 1.2219551282051282,
+            "forward_delta_bps": 13.168996928405873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.09081033762581098,
+            "coverage": 1.0,
+            "lift": 1.254111842105263,
+            "forward_delta_bps": 27.187480604946064,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.10131945525035237,
+            "coverage": 1.0,
+            "lift": 1.2880067567567568,
+            "forward_delta_bps": 29.906781863308197,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.11771118761886457,
+            "coverage": 1.0,
+            "lift": 1.3424295774647885,
+            "forward_delta_bps": 39.90160571950635,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.125704349278559,
+            "coverage": 1.0,
+            "lift": 1.288732394366197,
+            "forward_delta_bps": 36.79313961058471,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.1350748365140096,
+            "coverage": 0.9803921568627451,
+            "lift": 1.5249999999999997,
+            "forward_delta_bps": 45.85910604846511,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.15502129391015163,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5698529411764703,
+            "forward_delta_bps": 50.99857127822001,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.17121435737675095,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5596590909090908,
+            "forward_delta_bps": 51.892399847312205,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.19631978100326286,
+            "coverage": 0.9411764705882353,
+            "lift": 1.548828125,
+            "forward_delta_bps": 47.65812367763702,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.219816691984025,
+            "coverage": 0.9411764705882353,
+            "lift": 1.6602822580645158,
+            "forward_delta_bps": 49.89564333746734,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.24774594732680508,
+            "coverage": 0.9019607843137255,
+            "lift": 1.7090517241379308,
+            "forward_delta_bps": 53.41581038536574,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.27123826493648795,
+            "coverage": 0.8431372549019608,
+            "lift": 1.732954545454545,
+            "forward_delta_bps": 57.60118180404808,
+            "feasible": true
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.32732267989388003,
+            "coverage": 0.7843137254901961,
+            "lift": 1.86734693877551,
+            "forward_delta_bps": 65.04340526171853,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.3942705835765615,
+            "coverage": 0.6666666666666666,
+            "lift": 2.138719512195122,
+            "forward_delta_bps": 80.27160679360509,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.45620053246065445,
+            "coverage": 0.5882352941176471,
+            "lift": 2.4669117647058822,
+            "forward_delta_bps": 92.5381521789409,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "name": "cadence85",
+    "threshold": {
+      "KZT": 0.24774594732680508
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.85,
+        "chosen": {
+          "q": 0.6000000000000001,
+          "threshold": 0.24774594732680508,
+          "coverage": 0.9019607843137255,
+          "lift": 1.7090517241379308,
+          "forward_delta_bps": 53.41581038536574,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.01762846893933653,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05175925881643696,
+            "coverage": 1.0,
+            "lift": 1.2547468354430378,
+            "forward_delta_bps": 9.867579830420873,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.07530594413477203,
+            "coverage": 1.0,
+            "lift": 1.2219551282051282,
+            "forward_delta_bps": 13.168996928405873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.09081033762581098,
+            "coverage": 1.0,
+            "lift": 1.254111842105263,
+            "forward_delta_bps": 27.187480604946064,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.10131945525035237,
+            "coverage": 1.0,
+            "lift": 1.2880067567567568,
+            "forward_delta_bps": 29.906781863308197,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.11771118761886457,
+            "coverage": 1.0,
+            "lift": 1.3424295774647885,
+            "forward_delta_bps": 39.90160571950635,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.125704349278559,
+            "coverage": 1.0,
+            "lift": 1.288732394366197,
+            "forward_delta_bps": 36.79313961058471,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.1350748365140096,
+            "coverage": 0.9803921568627451,
+            "lift": 1.5249999999999997,
+            "forward_delta_bps": 45.85910604846511,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.15502129391015163,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5698529411764703,
+            "forward_delta_bps": 50.99857127822001,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.17121435737675095,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5596590909090908,
+            "forward_delta_bps": 51.892399847312205,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.19631978100326286,
+            "coverage": 0.9411764705882353,
+            "lift": 1.548828125,
+            "forward_delta_bps": 47.65812367763702,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.219816691984025,
+            "coverage": 0.9411764705882353,
+            "lift": 1.6602822580645158,
+            "forward_delta_bps": 49.89564333746734,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.24774594732680508,
+            "coverage": 0.9019607843137255,
+            "lift": 1.7090517241379308,
+            "forward_delta_bps": 53.41581038536574,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.27123826493648795,
+            "coverage": 0.8431372549019608,
+            "lift": 1.732954545454545,
+            "forward_delta_bps": 57.60118180404808,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.32732267989388003,
+            "coverage": 0.7843137254901961,
+            "lift": 1.86734693877551,
+            "forward_delta_bps": 65.04340526171853,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.3942705835765615,
+            "coverage": 0.6666666666666666,
+            "lift": 2.138719512195122,
+            "forward_delta_bps": 80.27160679360509,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.45620053246065445,
+            "coverage": 0.5882352941176471,
+            "lift": 2.4669117647058822,
+            "forward_delta_bps": 92.5381521789409,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "name": "cadence90",
+    "threshold": {
+      "KZT": 0.24774594732680508
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.6000000000000001,
+          "threshold": 0.24774594732680508,
+          "coverage": 0.9019607843137255,
+          "lift": 1.7090517241379308,
+          "forward_delta_bps": 53.41581038536574,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.01762846893933653,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05175925881643696,
+            "coverage": 1.0,
+            "lift": 1.2547468354430378,
+            "forward_delta_bps": 9.867579830420873,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.07530594413477203,
+            "coverage": 1.0,
+            "lift": 1.2219551282051282,
+            "forward_delta_bps": 13.168996928405873,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.09081033762581098,
+            "coverage": 1.0,
+            "lift": 1.254111842105263,
+            "forward_delta_bps": 27.187480604946064,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.10131945525035237,
+            "coverage": 1.0,
+            "lift": 1.2880067567567568,
+            "forward_delta_bps": 29.906781863308197,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.11771118761886457,
+            "coverage": 1.0,
+            "lift": 1.3424295774647885,
+            "forward_delta_bps": 39.90160571950635,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.125704349278559,
+            "coverage": 1.0,
+            "lift": 1.288732394366197,
+            "forward_delta_bps": 36.79313961058471,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.1350748365140096,
+            "coverage": 0.9803921568627451,
+            "lift": 1.5249999999999997,
+            "forward_delta_bps": 45.85910604846511,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.15502129391015163,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5698529411764703,
+            "forward_delta_bps": 50.99857127822001,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.17121435737675095,
+            "coverage": 0.9607843137254902,
+            "lift": 1.5596590909090908,
+            "forward_delta_bps": 51.892399847312205,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.19631978100326286,
+            "coverage": 0.9411764705882353,
+            "lift": 1.548828125,
+            "forward_delta_bps": 47.65812367763702,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.219816691984025,
+            "coverage": 0.9411764705882353,
+            "lift": 1.6602822580645158,
+            "forward_delta_bps": 49.89564333746734,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.24774594732680508,
+            "coverage": 0.9019607843137255,
+            "lift": 1.7090517241379308,
+            "forward_delta_bps": 53.41581038536574,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.27123826493648795,
+            "coverage": 0.8431372549019608,
+            "lift": 1.732954545454545,
+            "forward_delta_bps": 57.60118180404808,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.32732267989388003,
+            "coverage": 0.7843137254901961,
+            "lift": 1.86734693877551,
+            "forward_delta_bps": 65.04340526171853,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.3942705835765615,
+            "coverage": 0.6666666666666666,
+            "lift": 2.138719512195122,
+            "forward_delta_bps": 80.27160679360509,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.45620053246065445,
+            "coverage": 0.5882352941176471,
+            "lift": 2.4669117647058822,
+            "forward_delta_bps": 92.5381521789409,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "name": "rank80",
+    "threshold": {
+      "KZT": 0.65
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.8,
+        "chosen": {
+          "q": 0.65,
+          "threshold": 0.65,
+          "coverage": 0.8235294117647058,
+          "lift": 1.7983490566037732,
+          "forward_delta_bps": 57.3218775494521,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.2378246753246753,
+            "forward_delta_bps": 13.261601796362923,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 1.0,
+            "lift": 1.22,
+            "forward_delta_bps": 16.137994350479328,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.1691666666666667,
+            "forward_delta_bps": 17.692119649958812,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3056506849315068,
+            "forward_delta_bps": 36.527921291864835,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4498239436619715,
+            "forward_delta_bps": 38.83302509088389,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4160714285714284,
+            "forward_delta_bps": 43.03913709725632,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6501865671641789,
+            "forward_delta_bps": 49.99902515158428,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5987903225806448,
+            "forward_delta_bps": 52.5499800947958,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.9215686274509803,
+            "lift": 1.6800847457627115,
+            "forward_delta_bps": 58.381930906224426,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8823529411764706,
+            "lift": 1.739035087719298,
+            "forward_delta_bps": 60.591065449501954,
+            "feasible": true
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.8235294117647058,
+            "lift": 1.7983490566037732,
+            "forward_delta_bps": 57.3218775494521,
+            "feasible": true
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7254901960784313,
+            "lift": 2.1548913043478257,
+            "forward_delta_bps": 70.25117082648572,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6470588235294118,
+            "lift": 2.3075657894736836,
+            "forward_delta_bps": 91.32621579185238,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 2.3828125,
+            "forward_delta_bps": 98.52926070868953,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "name": "rank90",
+    "threshold": {
+      "KZT": 0.55
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "KZT",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.55,
+          "threshold": 0.55,
+          "coverage": 0.9215686274509803,
+          "lift": 1.6800847457627115,
+          "forward_delta_bps": 58.381930906224426,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.2378246753246753,
+            "forward_delta_bps": 13.261601796362923,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 1.0,
+            "lift": 1.22,
+            "forward_delta_bps": 16.137994350479328,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.1691666666666667,
+            "forward_delta_bps": 17.692119649958812,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3056506849315068,
+            "forward_delta_bps": 36.527921291864835,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4498239436619715,
+            "forward_delta_bps": 38.83302509088389,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4160714285714284,
+            "forward_delta_bps": 43.03913709725632,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6501865671641789,
+            "forward_delta_bps": 49.99902515158428,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5987903225806448,
+            "forward_delta_bps": 52.5499800947958,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.9215686274509803,
+            "lift": 1.6800847457627115,
+            "forward_delta_bps": 58.381930906224426,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8823529411764706,
+            "lift": 1.739035087719298,
+            "forward_delta_bps": 60.591065449501954,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.8235294117647058,
+            "lift": 1.7983490566037732,
+            "forward_delta_bps": 57.3218775494521,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7254901960784313,
+            "lift": 2.1548913043478257,
+            "forward_delta_bps": 70.25117082648572,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6470588235294118,
+            "lift": 2.3075657894736836,
+            "forward_delta_bps": 91.32621579185238,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 2.3828125,
+            "forward_delta_bps": 98.52926070868953,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config_id": "tabm_kzt_fullhistory",
+    "year": 2026,
+    "name": "rank90_shared",
+    "threshold": {
+      "KZT": 0.55
+    },
+    "cooldown": 2,
+    "initial_state": {
+      "KZT": {
+        "last": 3953,
+        "week": "2025-12-29/2026-01-04",
+        "count": 1
+      }
+    },
+    "calibration_diagnostics": [
+      {
+        "corridor": "shared",
+        "target": 0.9,
+        "chosen": {
+          "q": 0.55,
+          "threshold": 0.55,
+          "coverage": 0.9215686274509803,
+          "lift": 1.6800847457627115,
+          "forward_delta_bps": 58.381930906224426,
+          "feasible": true
+        },
+        "candidates": [
+          {
+            "q": 0.0,
+            "threshold": 0.0,
+            "coverage": 1.0,
+            "lift": 1.069359756097561,
+            "forward_delta_bps": 6.3497411546135805,
+            "feasible": true
+          },
+          {
+            "q": 0.05,
+            "threshold": 0.05,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.1,
+            "threshold": 0.1,
+            "coverage": 1.0,
+            "lift": 1.1582278481012658,
+            "forward_delta_bps": 11.892669082257282,
+            "feasible": true
+          },
+          {
+            "q": 0.15000000000000002,
+            "threshold": 0.15000000000000002,
+            "coverage": 1.0,
+            "lift": 1.2378246753246753,
+            "forward_delta_bps": 13.261601796362923,
+            "feasible": true
+          },
+          {
+            "q": 0.2,
+            "threshold": 0.2,
+            "coverage": 1.0,
+            "lift": 1.22,
+            "forward_delta_bps": 16.137994350479328,
+            "feasible": true
+          },
+          {
+            "q": 0.25,
+            "threshold": 0.25,
+            "coverage": 0.9803921568627451,
+            "lift": 1.1691666666666667,
+            "forward_delta_bps": 17.692119649958812,
+            "feasible": true
+          },
+          {
+            "q": 0.30000000000000004,
+            "threshold": 0.30000000000000004,
+            "coverage": 0.9803921568627451,
+            "lift": 1.3056506849315068,
+            "forward_delta_bps": 36.527921291864835,
+            "feasible": true
+          },
+          {
+            "q": 0.35000000000000003,
+            "threshold": 0.35000000000000003,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4498239436619715,
+            "forward_delta_bps": 38.83302509088389,
+            "feasible": true
+          },
+          {
+            "q": 0.4,
+            "threshold": 0.4,
+            "coverage": 0.9803921568627451,
+            "lift": 1.4160714285714284,
+            "forward_delta_bps": 43.03913709725632,
+            "feasible": true
+          },
+          {
+            "q": 0.45,
+            "threshold": 0.45,
+            "coverage": 0.9803921568627451,
+            "lift": 1.6501865671641789,
+            "forward_delta_bps": 49.99902515158428,
+            "feasible": true
+          },
+          {
+            "q": 0.5,
+            "threshold": 0.5,
+            "coverage": 0.9215686274509803,
+            "lift": 1.5987903225806448,
+            "forward_delta_bps": 52.5499800947958,
+            "feasible": true
+          },
+          {
+            "q": 0.55,
+            "threshold": 0.55,
+            "coverage": 0.9215686274509803,
+            "lift": 1.6800847457627115,
+            "forward_delta_bps": 58.381930906224426,
+            "feasible": true
+          },
+          {
+            "q": 0.6000000000000001,
+            "threshold": 0.6000000000000001,
+            "coverage": 0.8823529411764706,
+            "lift": 1.739035087719298,
+            "forward_delta_bps": 60.591065449501954,
+            "feasible": false
+          },
+          {
+            "q": 0.65,
+            "threshold": 0.65,
+            "coverage": 0.8235294117647058,
+            "lift": 1.7983490566037732,
+            "forward_delta_bps": 57.3218775494521,
+            "feasible": false
+          },
+          {
+            "q": 0.7000000000000001,
+            "threshold": 0.7000000000000001,
+            "coverage": 0.7254901960784313,
+            "lift": 2.1548913043478257,
+            "forward_delta_bps": 70.25117082648572,
+            "feasible": false
+          },
+          {
+            "q": 0.75,
+            "threshold": 0.75,
+            "coverage": 0.6470588235294118,
+            "lift": 2.3075657894736836,
+            "forward_delta_bps": 91.32621579185238,
+            "feasible": false
+          },
+          {
+            "q": 0.8,
+            "threshold": 0.8,
+            "coverage": 0.5490196078431373,
+            "lift": 2.3828125,
+            "forward_delta_bps": 98.52926070868953,
+            "feasible": false
+          }
+        ]
+      }
+    ]
+  }
+]

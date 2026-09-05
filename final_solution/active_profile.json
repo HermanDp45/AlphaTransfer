@@ -1,0 +1,12 @@
+{
+  "profile": "tabm_kzt_h3_expanding2010",
+  "bundle": "tabm_h3/bundle.json",
+  "entrypoint": "main.py",
+  "primary_horizon": 3,
+  "corridors": [
+    "KZT"
+  ],
+  "training_start": "2010-01-01",
+  "policy": "rank80",
+  "previous_profile_entrypoint": "main.py --legacy"
+}

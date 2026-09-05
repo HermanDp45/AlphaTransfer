@@ -1,0 +1,11 @@
+{
+  "url": "https://api.huobi.pro/market/history/kline?symbol=usdtkzt&period=1day&size=3",
+  "final_url": "https://api.huobi.pro/market/history/kline?symbol=usdtkzt&period=1day&size=3",
+  "retrieved_utc": "2026-09-05T08:19:09.627285+00:00",
+  "status": 200,
+  "bytes": 95,
+  "sha256": "843b8c1ba6de7e526d99a58ada689d51e4d08743d15f18c401a03057e4d5979a",
+  "content_type": "application/json",
+  "raw_path": "raw/htx_kzt_probe_29e4b2287252406395e2.bin",
+  "group": "htx_kzt_probe"
+}

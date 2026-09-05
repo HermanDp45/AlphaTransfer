@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "catboost_models": 18,
+  "hgb_attribution_models": 2,
+  "catboost_version": "1.2.10",
+  "python": "3.11.15",
+  "pandas": "3.0.5",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0",
+  "original_protocol_fit_engine_matches": true,
+  "fits_source_hashes": {
+    "research_v4/oxr2010_bank/input_oxr_snapshot.csv": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "research_v3/models/panel_extended.pkl": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6",
+    "research_v3/external_data/feature_panel.parquet": "df37a3079ac1be7f6a1978e4a32f177f32af996d9db6d7180114cef252f486ec",
+    "research_v4/liquidity/halyk_sell_daily.csv": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "research_v4/oxr2010_bank/long_models/experiment.py": "52a32a530a1a840d9d9cc0aeab1010f3d9e76effe89006e73648115ff223ecf2"
+  },
+  "data_downloads": 0,
+  "environment_install": "CatBoost1.2.10 and wheel dependencies installed into authorized temporaryPython3.11venv.",
+  "history_export": "Both calendar date strings and ISO midnight strings represent timestamps; use pandas.to_datetime(format=\"mixed\") for label_available_date after concatenated history read.",
+  "legacy_prediction_sha256": "a4ffc62633f50ea42a29da0f1e096266b14ed05969c5cd99c755655cd71e7336",
+  "combined_prediction_sha256": "b6c62f9c84dfed0507cef43d23a17cf3dd8c446b29fa7d72aaa0ec65bb2c3cf9",
+  "combined_calibration_sha256": "840dcc85c0dd72882acf04bbc2c5383f38846516221169a1ffd9a8fe467f531a",
+  "combined_history_sha256": "18129182294ab26cf8bec041b4fa6fe2addae64b66dea469b4b5c36b1321b004"
+}

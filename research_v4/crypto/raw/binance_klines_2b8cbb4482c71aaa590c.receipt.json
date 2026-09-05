@@ -1,0 +1,11 @@
+{
+  "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1d&startTime=1483228800000&endTime=1788307199999&limit=1000",
+  "final_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1d&startTime=1483228800000&endTime=1788307199999&limit=1000",
+  "retrieved_utc": "2026-09-05T08:18:42.093609+00:00",
+  "status": 200,
+  "bytes": 180357,
+  "sha256": "651049a55ad2f2d1e5e071f6f13941d38a11f0fdada805c2c6cf346d5b521bc7",
+  "content_type": "application/json;charset=UTF-8",
+  "raw_path": "raw/binance_klines_2b8cbb4482c71aaa590c.bin",
+  "group": "binance_klines"
+}

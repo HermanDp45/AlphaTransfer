@@ -1,0 +1,70 @@
+{
+  "reported_target": {
+    "rows": 727,
+    "contacts": 60,
+    "hits": 39,
+    "hit_rate": 0.65,
+    "lift_standardized": 1.921938637,
+    "forward_delta_bps": 81.91052
+  },
+  "reproductions": [
+    {
+      "method": "threshold_only",
+      "train_horizon": 5,
+      "evaluate_horizon": 3,
+      "years": "2023–2025",
+      "scope": "KZT",
+      "interpretation": "H5 trained probabilities/signals evaluated against H3 outcomes, no H3 refit",
+      "rows": 727,
+      "dates": 727,
+      "contacts": 96,
+      "hits": 62,
+      "hit_rate": 0.6458333333333334,
+      "lift_standardized": 1.8906249999999998,
+      "lift_unstandardized": 1.9164115646258504,
+      "forward_delta_bps": 84.90107566382694,
+      "forward_delta_unstandardized_bps": 85.4186447897634,
+      "mean_all_observed_week_coverage": 0.4003921568627451,
+      "mean_legacy_full_week_coverage": 0.4029195011337869
+    },
+    {
+      "method": "cooldown_replay_test_annual",
+      "train_horizon": 5,
+      "evaluate_horizon": 3,
+      "years": "2023–2025",
+      "scope": "KZT",
+      "interpretation": "H5 trained probabilities/signals evaluated against H3 outcomes, no H3 refit",
+      "rows": 727,
+      "dates": 727,
+      "contacts": 60,
+      "hits": 39,
+      "hit_rate": 0.65,
+      "lift_standardized": 1.9219386369807228,
+      "lift_unstandardized": 1.9287755102040818,
+      "forward_delta_bps": 81.91052019873133,
+      "forward_delta_unstandardized_bps": 81.60126341350457,
+      "mean_all_observed_week_coverage": 0.38745098039215686,
+      "mean_legacy_full_week_coverage": 0.38945578231292516
+    },
+    {
+      "method": "cooldown_replay_test_continuous",
+      "train_horizon": 5,
+      "evaluate_horizon": 3,
+      "years": "2023–2025",
+      "scope": "KZT",
+      "interpretation": "H5 trained probabilities/signals evaluated against H3 outcomes, no H3 refit",
+      "rows": 727,
+      "dates": 727,
+      "contacts": 60,
+      "hits": 39,
+      "hit_rate": 0.65,
+      "lift_standardized": 1.9219386369807228,
+      "lift_unstandardized": 1.9287755102040818,
+      "forward_delta_bps": 81.91052019873133,
+      "forward_delta_unstandardized_bps": 81.60126341350457,
+      "mean_all_observed_week_coverage": 0.38745098039215686,
+      "mean_legacy_full_week_coverage": 0.38945578231292516
+    }
+  ],
+  "interpretation": "Identical frequency is mechanical when the same H5 mask is retained. The horizon of the trained probability remains H5. This is valid sensitivity analysis if labelled as such, not a separately trained H3 model."
+}

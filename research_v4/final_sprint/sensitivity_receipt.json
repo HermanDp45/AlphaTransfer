@@ -1,0 +1,5 @@
+{
+  "status": "complete",
+  "fits": 0,
+  "interpretation": "Same h5 model and causal notifications; other horizons are payoff sensitivity, not separately trained h1/3/10/20 heads. Execution delays countCBRobservations, not wallclockhours; original t+5 deadline is retained; executed-price proxy is CBR, not a bank fill."
+}

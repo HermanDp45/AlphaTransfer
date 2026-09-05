@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "isolated_python": true,
+  "project_import_paths_absent": true,
+  "loaded_type": "sklearn.pipeline.Pipeline",
+  "tail_rows": 3,
+  "maximum_error": 0.0
+}

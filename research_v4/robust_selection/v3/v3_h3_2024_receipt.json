@@ -1,0 +1,125 @@
+{
+  "spec": {
+    "name": "basis_train_120m",
+    "months": 120,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "train_horizon": 3,
+  "year": 2024,
+  "checkpoint_sha256": "7114dae943bf40c4f76bb4fbb378c10937eeefb97ef677c6b4fbb7e748eefba3",
+  "checkpoint": "checkpoints/v3_h3_2024.joblib",
+  "features": [
+    "ret1",
+    "ret3",
+    "ret5",
+    "ret10",
+    "ret20",
+    "ret60",
+    "pr20",
+    "pr60",
+    "pr120",
+    "pr252",
+    "vol5",
+    "vol20",
+    "vol60",
+    "volratio",
+    "moex_cny_close_minus_fixing_same_session"
+  ],
+  "train_feature_target_sha256": "d59912c608109c51e271bdfc3e84be41bdcc20e8eaad33dc8025c1cd1d8d79a6",
+  "original_threshold": {
+    "AMD": 0.34262579789221453,
+    "KGS": 0.432221220860913,
+    "KZT": 0.32882742317765185,
+    "TJS": 0.3512041117050871,
+    "UZS": 0.3580497066386616
+  },
+  "original_history_state": {
+    "candidate": {
+      "AMD": 3458,
+      "KGS": 3458,
+      "KZT": 3459,
+      "TJS": 3458,
+      "UZS": 3458
+    },
+    "portfolio": {
+      "__portfolio__": 3459
+    }
+  },
+  "strict05_history_state": {
+    "candidate": {
+      "AMD": 3451,
+      "KGS": 3451,
+      "KZT": 3459,
+      "TJS": 3451,
+      "UZS": 3451
+    },
+    "portfolio": {
+      "__portfolio__": 3459
+    }
+  },
+  "calibrator": {
+    "method": "prior_year_monotone_platt",
+    "status": "fitted",
+    "intercept": 0.6060009812278723,
+    "slope": 1.4412420511507293,
+    "raw_validation_brier": 0.19594602046636925,
+    "attempted_platt_validation_brier": 0.18583678354377284,
+    "applied_validation_brier": 0.18583678354377284,
+    "calibrated_validation_brier": 0.18583678354377284
+  },
+  "splits": {
+    "train": {
+      "rows": 12315,
+      "date_min": "2013-01-10 00:00:00",
+      "date_max": "2022-12-28 00:00:00",
+      "latest_label_date": "2022-12-31 00:00:00"
+    },
+    "validation": {
+      "rows": 1220,
+      "date_min": "2023-01-10 00:00:00",
+      "date_max": "2023-12-27 00:00:00",
+      "latest_label_date": "2023-12-30 00:00:00"
+    },
+    "history": {
+      "rows": 1235,
+      "date_min": "2023-01-10 00:00:00",
+      "date_max": "2023-12-30 00:00:00",
+      "latest_label_date": "2024-01-12 00:00:00"
+    },
+    "test": {
+      "rows": 1225,
+      "date_min": "2024-01-10 00:00:00",
+      "date_max": "2024-12-26 00:00:00",
+      "latest_label_date": "2024-12-29 00:00:00"
+    }
+  },
+  "model_parameters": {
+    "categorical_features": "from_dtype",
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 2.0,
+    "learning_rate": 0.05,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": 2,
+    "max_features": 1.0,
+    "max_iter": 120,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 40,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 20260903,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "seconds": 0.3569772499613464
+}

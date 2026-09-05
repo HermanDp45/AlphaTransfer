@@ -1,0 +1,33 @@
+{
+  "torch": "2.14.0",
+  "mps_built": true,
+  "mps_available": true,
+  "groups": 32,
+  "currencies_per_group": 5,
+  "context": 256,
+  "batch_size": 40,
+  "models": [
+    {
+      "variant": "chronos2_small_ft",
+      "weights_sha256": "81319aea80b2cbf27cb1708f45992ebe38f827f6ada6e5f4255ce422ea3b22f3",
+      "cpu_seconds": 0.19862891698721796,
+      "mps_seconds": 0.40030562499305233,
+      "max_abs_log_quantile_diff": 4.76837158203125e-07,
+      "mean_abs_log_quantile_diff": 2.4346563876065375e-08,
+      "max_abs_logbps_diff": 0.00476837158203125,
+      "parity_tolerance_log_levels": 5e-05,
+      "parity_pass": true
+    },
+    {
+      "variant": "chronos2_synth_ft",
+      "weights_sha256": "58742a9a674eccb8963f49c3e11ac3ca6e649671d7b0edb65777823034eab3ca",
+      "cpu_seconds": 0.6806959579698741,
+      "mps_seconds": 0.24749483400955796,
+      "max_abs_log_quantile_diff": 4.76837158203125e-07,
+      "mean_abs_log_quantile_diff": 2.3683265126805964e-08,
+      "max_abs_logbps_diff": 0.00476837158203125,
+      "parity_tolerance_log_levels": 5e-05,
+      "parity_pass": true
+    }
+  ]
+}

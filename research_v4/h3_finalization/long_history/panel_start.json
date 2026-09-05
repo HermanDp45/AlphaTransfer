@@ -1,0 +1,9 @@
+{
+  "corridor": "KZT",
+  "first_panel_date": "2010-01-01 00:00:00",
+  "last_panel_date": "2026-09-01 00:00:00",
+  "rows": 4116,
+  "rows_2010": 249,
+  "first_actual_oxr": "2010-01-12 00:00:00",
+  "description": "Initial missing derived/source features retained with train-only imputation and missing flags; no fictitious complete feature history."
+}

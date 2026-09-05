@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-09-05T10:07:58.535626+00:00",
+  "scope": "all five prespecified backbones/base controls,10y heads, exact immutable V3extended base feature panel; same Jan2026 backbone for Jan and Marchcutoffs",
+  "cutoffs": [
+    "2026-01-01",
+    "2026-03-01"
+  ],
+  "parent_protocol_sha256": "ea3d0ce2976de0d6b35d3febd680c684b706671687581c1628055bc5c26b1542",
+  "head_features": "exact extended contract already prespecified; no candidate selection from2026",
+  "calibration": "12months immediately before each cutoff, purged5; replay own full calibration history",
+  "test": "same mature March3-Aug25 dates, incomplete6calendar months; previously inspected retrospective diagnostic"
+}

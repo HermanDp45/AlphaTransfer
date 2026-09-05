@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "models": 100,
+  "original_models": 85,
+  "post_audit_canonical_models": 15,
+  "new_neural_fits": 0,
+  "new_neural_forecasts": 0,
+  "all_original_probability_and_policy_replays_pass": true,
+  "all_canonical_heads_reconstructed_and_predicted_policies_equal_verified_originals": true,
+  "common_OXR_features_exactly_canonical_since2018_09_01": true,
+  "earlier_actual2010_history_preserved": true,
+  "original_selection_unchanged": true,
+  "original_verification_sha256": "12102b127f8148073a11d45df1ccea302f78946826229aa0c344f64be5f7ad77",
+  "canonical_verification_sha256": "5f54c841f3061e955fd32e86302811eb8083ac6a01836c1e6f9c4ec414da1d3f",
+  "canonical_reproduction_sha256": "47427032612c9e91e29d1f0be2d6cec3bf5f0322fc658f86b7758ac5099bf31d",
+  "canonical_post_audit_protocol_sha256": "c17cae349d49cb5becb19ad3c7283819cc9acff605ebd9724172de487bbf1bc2"
+}

@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-09-05T11:20:14.466028+00:00",
+  "public_api_calls": 2,
+  "purpose": "Bounded correct-side history feasibility, no authenticated requests or bulk collection",
+  "receipts": [
+    {
+      "name": "current",
+      "url": "https://back.halykbank.kz/common/currency-history",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "name": "requested_2020_date",
+      "url": "https://back.halykbank.kz/common/currency-history?date=2020-01-05",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}

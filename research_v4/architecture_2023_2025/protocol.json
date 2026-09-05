@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-05T14:31:13.730276+00:00",
+  "purpose": "Correct retrospective2023-2025 architecture comparison; no newwinnersearch",
+  "primary": "KZT-only fixedselectedTabMseed2+h5,120mtrain before12mcalibration. Annualcutoffs2023/2024/2025; maturelabels actualdate strictlybefore nextsplit.",
+  "factorial": [
+    "KZT-only:TabM/HGB × BASE15/full33 ×3years",
+    "Pooled5:TabM/HGB × BASE15/full33 ×3years"
+  ],
+  "seed_sensitivity": "KZTfull33 TabMseeds0/1 plusfixedseed2, andfixedrawaverageensemble; no bestseedselection",
+  "architecture_control": "HGBgets sameoutertrain-fitted median/quantile-to-normal,float32numeric+missingindicators asTabM, andonehotcorridor; noresidualadaptation, noextraKZTweights, nofeatureselection. HGB120depth2lr.05leaf40L22ESfalse;TabMexistingfrozenhyperparameters/innerpast63datesepochselection. Thiscomparesfixedlearnerrecipes,notuniversallyoptimalarchitectures.",
+  "calibration": "IdenticalmonotonePlatt-rule per corridor onprecedingmatured12months; rawandcalibratedpropermetrics reported.",
+  "policies": [
+    "legacy",
+    "cadence85_cd2",
+    "fixed_threshold_0.50 withcooldown3/max2week"
+  ],
+  "policy_rule": "Samealgorithmnotnecessarily samenumericalthreshold;fixed.5shownseparately. No threshold/grid selectionusingtestlabels.",
+  "historical_controls": "SealedV3 pooledBASElegacy/selective; clearlyseparatefrommatchedarchitecturecontrol. All5 andKZT scopeexplicit.",
+  "aggregation": "Cellstandardizedlift andforwardutility;calendarweekcountsinsideyear×corr inclpartialandzeros. Bootstrappairedmonthstratifiedyear10kdraws.",
+  "inference_status": "Allperiodsretrospective;seed2selectedinprevious2026research,2025alsopreviouslyseen. No untouchedholdoutclaim.",
+  "sources_sha256": {
+    "AlphaTransfer/research_v4/final_sprint/views.pkl": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+    "AlphaTransfer/research_v4/final_sprint/tabm/experiment.py": "71c26568b65d776cd41c3b3f872a39930fee509402d314725853552ca3d86591",
+    "AlphaTransfer/research_v4/final_sprint/common.py": "ce17041a10cccb12de75df75031bceb236bd711f919ac7678a5a39f279ef7946"
+  }
+}

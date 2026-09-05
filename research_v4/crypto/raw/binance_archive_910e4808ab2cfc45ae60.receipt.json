@@ -1,0 +1,11 @@
+{
+  "url": "https://data.binance.vision/data/spot/monthly/klines/USDTRUB/1d/USDTRUB-1d-2025-01.zip",
+  "final_url": "https://data.binance.vision/data/spot/monthly/klines/USDTRUB/1d/USDTRUB-1d-2025-01.zip",
+  "retrieved_utc": "2026-09-05T08:19:44.343267+00:00",
+  "status": 404,
+  "bytes": 349,
+  "sha256": "420efa550298b320a74328793d555dd03ae87c2dc6da80f86525e962564a2c3a",
+  "content_type": "application/xml",
+  "raw_path": "raw/binance_archive_910e4808ab2cfc45ae60.bin",
+  "group": "binance_archive"
+}

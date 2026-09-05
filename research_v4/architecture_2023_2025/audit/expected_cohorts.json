@@ -1,0 +1,42 @@
+{
+  "source": "AlphaTransfer/research_v3/models/basis_train_120m_h5_predictions.csv.gz",
+  "source_sha256": "d4484a63a842993089edb317da48e5347418c663f0de66002013b179957a4d3b",
+  "annual_cohorts": [
+    {
+      "year": 2023,
+      "corridor": "KZT",
+      "rows": 242,
+      "start": "2023-01-10",
+      "end": "2023-12-23",
+      "calendar_weeks": 50,
+      "positive_labels": 89,
+      "base_hit": 0.3677685950413223,
+      "mean_forward_bps": 37.923616510572145
+    },
+    {
+      "year": 2024,
+      "corridor": "KZT",
+      "rows": 243,
+      "start": "2024-01-10",
+      "end": "2024-12-24",
+      "calendar_weeks": 51,
+      "positive_labels": 65,
+      "base_hit": 0.2674897119341564,
+      "mean_forward_bps": -1.1666025711732755
+    },
+    {
+      "year": 2025,
+      "corridor": "KZT",
+      "rows": 242,
+      "start": "2025-01-10",
+      "end": "2025-12-24",
+      "calendar_weeks": 51,
+      "positive_labels": 48,
+      "base_hit": 0.19834710743801653,
+      "mean_forward_bps": -28.24629888772011
+    }
+  ],
+  "total_rows": 727,
+  "sum_annual_calendar_weeks": 152,
+  "incorrect_continuous_calendar_weeks": 155
+}

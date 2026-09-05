@@ -1,0 +1,62 @@
+{
+  "status": "research_proposal",
+  "as_of": "2026-08-18",
+  "selected": {
+    "scenario": "NOW",
+    "corridor": "KZT",
+    "target_contract": "NOW:R[t]<=min(R[t+1:t+5]);R=RUB_per_recipient_unit;h=5_effective_CBR_rows;tau=0",
+    "model_id": "tabm_periodic_kzt_120m_s2_kztcal",
+    "probability": 0.5999073,
+    "past_baseline_rate": 0.19834710743801653,
+    "expected_relative_quality": 3.0245326375,
+    "ranking_utility": 2.0245326375,
+    "copy": {
+      "title": "Курс для перевода в KZT",
+      "body": "Официальный курс ЦБ на 2026-08-18: 0.1832 ₽ за единицу валюты. Курс перевода и сумму к получению проверьте в приложении.",
+      "model_verdict_label": "Модельный сигнал: выгодно сейчас",
+      "strong_historical_fact_gate": false,
+      "contains_future_promise": false,
+      "source": "CBR official reference; not bank execution"
+    }
+  },
+  "annotations": [
+    {
+      "scenario": "CLOSING",
+      "corridor": "KZT",
+      "target_contract": "CLOSING:R[t+5]>R[t];R=RUB_per_recipient_unit;h=5_effective_CBR_rows;tau=0",
+      "model_id": "closing_treasury_halyk_shrink120m",
+      "probability": 0.5590537997174937,
+      "past_baseline_rate": 0.4256198347107438,
+      "expected_relative_quality": 1.3135050439964415,
+      "ranking_utility": 0.3135050439964415,
+      "copy": {
+        "title": "Курс для перевода в KZT",
+        "body": "Курс ЦБ на 2026-08-18 вырос на 0.81% с предыдущего наблюдения. Курс перевода и сумму к получению проверьте в приложении.",
+        "model_verdict_label": "Модельный сигнал: окно закрывается",
+        "strong_historical_fact_gate": true,
+        "contains_future_promise": false,
+        "source": "CBR official reference; not bank execution"
+      }
+    }
+  ],
+  "eligible_scenarios": [
+    "NOW",
+    "CLOSING"
+  ],
+  "reasons": [],
+  "next_state": {
+    "contacts": [
+      {
+        "date": "2026-08-18",
+        "corridor": "KZT",
+        "scenario": "NOW",
+        "model_id": "tabm_periodic_kzt_120m_s2_kztcal"
+      }
+    ]
+  },
+  "research_only": true,
+  "authorized_contact": false,
+  "routing_mode": "dual_annotations",
+  "conflict_rule": "Default NOW primary; optional CLOSING secondary confirmation; one shared contact. Other routing modes remain explicit diagnostics.",
+  "metric_contract": "NOW evaluated on every primary contact; CLOSING evaluated separately on annotated subset. Tags are nonexclusive, no extra contacts and no unqualified pooled lift."
+}

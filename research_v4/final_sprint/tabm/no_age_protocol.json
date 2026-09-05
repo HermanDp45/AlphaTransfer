@@ -1,0 +1,11 @@
+{
+  "created_unix": 1788614038.284,
+  "fits": 2,
+  "status": "Post-readout numerical attribution control, exploratory.",
+  "finding": "OXR age nearly constant in normal training (2025 range1.2943..1.3368 days); source-delay mean2.2952 is outside support. Restoring only age to normal fixes2025 delayed Brier0.512112→0.144770 without refit.",
+  "change": "Exclude only oxr_age_days from the numerical predictive features. Keep oxr_available, all economic OXR basis features, Halyk and Treasury. No winsorization tuned on test, no hyperparameter search.",
+  "configuration": "KZT120m seed0; unchanged architecture and temporal epoch selection; cutoffs2025/2026; calibration normal prior year; all fixed-model delay views.",
+  "code_sha256": "e8d5de13210d0b6aa6ea0a4aa12d3988a2a3a721939ebefde897123b85dba6aa",
+  "base_code_sha256": "71c26568b65d776cd41c3b3f872a39930fee509402d314725853552ca3d86591",
+  "diagnostic_sha256": "5859ab51e0aed66ae38650e71b07099deb5726da8000d64cace16ad13a5b8732"
+}

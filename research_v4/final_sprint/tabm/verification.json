@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Frozen source inputs unchanged",
+      "status": "PASS",
+      "files": 5
+    },
+    {
+      "check": "Checkpoint hash and exact numerical prediction replay",
+      "status": "PASS",
+      "models": 18,
+      "test_modes": 72
+    },
+    {
+      "check": "Actual train/calibration/inner-validation label maturity",
+      "status": "PASS",
+      "models": 18
+    },
+    {
+      "check": "Fixed-model delayed source views preserve pre-cutoff inputs and outcomes",
+      "status": "PASS",
+      "modes": 72
+    },
+    {
+      "check": "All common-policy decisions replay exactly; identical calendar dates",
+      "status": "PASS",
+      "groups": 832
+    },
+    {
+      "check": "Exported validation is mature; immature history outcomes masked",
+      "status": "PASS"
+    },
+    {
+      "check": "Blend weights minimize prior-calibration grid Brier, including zero",
+      "status": "PASS",
+      "blends": 26
+    },
+    {
+      "check": "Architecture selected only on2025 before additional seeds",
+      "status": "PASS"
+    }
+  ],
+  "neural_checkpoints": 18,
+  "temporary_epoch_selection_fits": 18,
+  "policy_groups": 832,
+  "finished_unix": 1788614575.409726,
+  "code_sha256": "24f28f093fd1c4ae605302b2215c1ebba856a8b2d7f09e94cff61302cc8a4466",
+  "experiment_sha256": "71c26568b65d776cd41c3b3f872a39930fee509402d314725853552ca3d86591",
+  "protocol_sha256": "f366ec75efe4ae9cdf7020d194ce62fbfc7774ea0647b90f5aba292689a01a4e",
+  "augmentation_protocol_sha256": "d8b7575ac955492bacb33a370a4c12a1b4c9c336c50f92ebca88c293d318f8d9",
+  "no_age_protocol_sha256": "5336d641a5d05cc8da04d42e83ae9cc004614ee9e94ac843b0f477325161da9c",
+  "policy_sha256": "9f6d53c69cf76d65a29fc351c1bc8e8aa5ac5681a5ef6ebe2700772ab7718542"
+}

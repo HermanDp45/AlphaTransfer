@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Any, Iterable, Iterator
 
 
-PIPELINE_VERSION = "1.0.0"
+PIPELINE_VERSION = "1.1.1"
 TARGET_SEGMENTS = ("card_transfer", "cash", "crypto")
 TARGET_DIRECTIONS = ("rub_to_kzt", "kzt_to_rub")
 
@@ -34,8 +34,8 @@ CRYPTO_RE = re.compile(
     r"binance|бинанс|bybit|байбит|trc\s*20|erc\s*20|кошел[её]к|стейблкоин)"
 )
 CASH_RE = re.compile(
-    r"(?iu)(?:налич|\bнал\b|обменник|обменный\s+пункт|личн(?:ая|ой)\s+встреч|"
-    r"встреча|курьер|офис|купюр|кэш\b|cash\b)"
+    r"(?iu)(?:налич|\bнал(?:ом|ик|а)?\b|обменник|обменный\s+пункт|личн(?:ая|ой)\s+встреч|"
+    r"встреча|курьер|офис|купюр|кэш\b|cash\b|из\s+рук\s+в\s+руки)"
 )
 CARD_RE = re.compile(
     r"(?iu)(?:карт|\bсбп\b|безнал|перевод|на\s+сч[её]т|по\s+номеру\s+телефон|"
@@ -51,9 +51,9 @@ NUMBER = r"(?:\d{1,2}(?:[.,]\d{1,4})?)"
 RATE_LABEL_RE = re.compile(
     rf"(?iu)\bкурс\w*(?:\s+(?:рубл\w*|тенг\w*|покупк\w*|продаж\w*|"
     rf"обмен\w*|сейчас|сегодня|будет|равен|составля\w*)){{0,4}}\s*"
-    rf"(?:[:=\-–—]|по)?\s*(?P<value>{NUMBER})(?!\s*%)"
+    rf"(?:[:=\-–—]|по)?\s*(?P<value>{NUMBER})(?![.,]\d|\s*%)"
 )
-PO_RATE_RE = re.compile(rf"(?iu)\bпо\s+(?P<value>{NUMBER})(?!\s*[%кk])")
+PO_RATE_RE = re.compile(rf"(?iu)\bпо\s+(?P<value>{NUMBER})(?![.,]\d|\s*[%кk])")
 RUB_EQUALITY_RE = re.compile(
     rf"(?iu)(?:1\s*)?{RUB_TOKEN}.{{0,28}}?(?:=|это|да(?:ю|ют|м)|за|по)?\s*"
     rf"(?P<value>{NUMBER})\s*{KZT_TOKEN}"
@@ -63,7 +63,11 @@ KZT_EQUALITY_RE = re.compile(
     rf"(?P<value>0[.,]\d{{1,5}})\s*{RUB_TOKEN}"
 )
 BUY_SELL_RE = re.compile(
-    rf"(?iu)(?P<label>покупк\w*|продаж\w*)[^\d]{{0,18}}(?P<value>{NUMBER})(?!\s*%)"
+    rf"(?iu)(?P<label>покупк\w*|продаж\w*)[^\d]{{0,18}}(?P<value>{NUMBER})(?![.,]\d|\s*%)"
+)
+ROUTE_RESULT_RE = re.compile(
+    rf"(?iu)\bкурс\w*\s+(?:в\s+итоге\s+)?(?:получил\w*|вышел)\s*"
+    rf"(?:[:=\-–—]|по)?\s*(?P<value>{NUMBER})(?![.,]\d|\s*%)"
 )
 BARE_RATE_RE = re.compile(rf"^\s*(?P<value>{NUMBER})\s*[.!]?\s*$", re.IGNORECASE)
 
@@ -78,24 +82,106 @@ HANDLE_RE = re.compile(r"(?u)(?<!\w)@[A-Za-z0-9_]{3,}")
 PHONE_RE = re.compile(r"(?u)(?<!\d)(?:\+?\d[\s()\-]*){10,15}(?!\d)")
 LONG_NUMBER_RE = re.compile(r"(?u)(?<!\d)\d{6,}(?!\d)")
 
+NO_PAIR_CURRENCY = rf"(?:(?!{RUB_TOKEN}|{KZT_TOKEN}).)"
 NEED_KZT_RE = re.compile(
-    rf"(?iu)(?:ищу|нужн\w*|куплю|покупаю).{{0,80}}{KZT_TOKEN}|"
+    rf"(?iu)(?:ищу|нужн\w*|куплю|покупаю){NO_PAIR_CURRENCY}{{0,80}}{KZT_TOKEN}|"
     rf"{KZT_TOKEN}\s+(?:нужн\w*|куплю|покупаю)"
 )
 NEED_RUB_RE = re.compile(
-    rf"(?iu)(?:ищу|нужн\w*|куплю|покупаю).{{0,80}}{RUB_TOKEN}|"
+    rf"(?iu)(?:ищу|нужн\w*|куплю|покупаю){NO_PAIR_CURRENCY}{{0,80}}{RUB_TOKEN}|"
     rf"{RUB_TOKEN}\s+(?:нужн\w*|куплю|покупаю)"
 )
 SELL_RUB_RE = re.compile(
-    rf"(?iu)(?:продам|продаю|отдам|предлагаю|есть).{{0,80}}{RUB_TOKEN}|"
+    rf"(?iu)(?:продам|продаю|отдам|предлагаю){NO_PAIR_CURRENCY}{{0,80}}{RUB_TOKEN}|"
     rf"{RUB_TOKEN}\s+(?:продам|продаю|отдам)"
 )
 SELL_KZT_RE = re.compile(
-    rf"(?iu)(?:продам|продаю|отдам|предлагаю|есть).{{0,80}}{KZT_TOKEN}|"
+    rf"(?iu)(?:продам|продаю|отдам|предлагаю){NO_PAIR_CURRENCY}{{0,80}}{KZT_TOKEN}|"
     rf"{KZT_TOKEN}\s+(?:продам|продаю|отдам)"
 )
-ARROW_RUB_KZT_RE = re.compile(rf"(?iu){RUB_TOKEN}.{{0,18}}(?:→|->|на|в).{{0,18}}{KZT_TOKEN}")
-ARROW_KZT_RUB_RE = re.compile(rf"(?iu){KZT_TOKEN}.{{0,18}}(?:→|->|на|в).{{0,18}}{RUB_TOKEN}")
+POSSESS_RUB_RE = re.compile(
+    rf"(?iu)(?:у\s+меня|есть|имею|на\s+руках|остал\w*){NO_PAIR_CURRENCY}{{0,45}}{RUB_TOKEN}"
+)
+POSSESS_KZT_RE = re.compile(
+    rf"(?iu)(?:у\s+меня|есть|имею|на\s+руках|остал\w*){NO_PAIR_CURRENCY}{{0,45}}{KZT_TOKEN}"
+)
+ARROW_RUB_KZT_RE = re.compile(rf"(?iu){RUB_TOKEN}\s*(?:→|->|>|на|в)\s*{KZT_TOKEN}")
+ARROW_KZT_RUB_RE = re.compile(rf"(?iu){KZT_TOKEN}\s*(?:→|->|>|на|в)\s*{RUB_TOKEN}")
+RECIPROCAL_RUB_TO_KZT_RE = re.compile(
+    rf"(?iu)(?:вы|мне).{{0,35}}{KZT_TOKEN}.{{0,80}}(?:я|вам).{{0,35}}{RUB_TOKEN}|"
+    rf"(?:я|вам).{{0,35}}{RUB_TOKEN}.{{0,80}}(?:вы|мне).{{0,35}}{KZT_TOKEN}"
+)
+RECIPROCAL_KZT_TO_RUB_RE = re.compile(
+    rf"(?iu)(?:вы|мне).{{0,35}}{RUB_TOKEN}.{{0,80}}(?:я|вам).{{0,35}}{KZT_TOKEN}|"
+    rf"(?:я|вам).{{0,35}}{KZT_TOKEN}.{{0,80}}(?:вы|мне).{{0,35}}{RUB_TOKEN}"
+)
+EXCHANGE_RUB_KZT_RE = re.compile(
+    rf"(?iu)(?:{RUB_TOKEN}.{{0,80}}(?:поменя|обменя|меня)\w*.{{0,30}}(?:на|в).{{0,20}}{KZT_TOKEN}|"
+    rf"(?:поменя|обменя|меня)\w*.{{0,40}}{RUB_TOKEN}.{{0,40}}(?:на|в).{{0,20}}{KZT_TOKEN})"
+)
+EXCHANGE_KZT_RUB_RE = re.compile(
+    rf"(?iu)(?:{KZT_TOKEN}.{{0,80}}(?:поменя|обменя|меня)\w*.{{0,30}}(?:на|в).{{0,20}}{RUB_TOKEN}|"
+    rf"(?:поменя|обменя|меня)\w*.{{0,40}}{KZT_TOKEN}.{{0,40}}(?:на|в).{{0,20}}{RUB_TOKEN})"
+)
+WHO_NEEDS_RUB_RE = re.compile(
+    rf"(?iu)(?:кому|может\s+кому){NO_PAIR_CURRENCY}{{0,55}}"
+    rf"нужн\w*{NO_PAIR_CURRENCY}{{0,30}}{RUB_TOKEN}"
+)
+WHO_NEEDS_KZT_RE = re.compile(
+    rf"(?iu)(?:кому|может\s+кому){NO_PAIR_CURRENCY}{{0,55}}"
+    rf"нужн\w*{NO_PAIR_CURRENCY}{{0,30}}{KZT_TOKEN}"
+)
+FLOW_KZT_RUB_RE = re.compile(
+    rf"(?iu){KZT_TOKEN}.{{0,80}}(?:преврат\w*|получил\w*|пришл\w*).{{0,60}}{RUB_TOKEN}"
+)
+FLOW_RUB_KZT_RE = re.compile(
+    rf"(?iu){RUB_TOKEN}.{{0,80}}(?:преврат\w*|получил\w*|пришл\w*).{{0,60}}{KZT_TOKEN}"
+)
+KZT_TO_RUSSIAN_CARD_RE = re.compile(
+    rf"(?iu)(?:у\s+меня|есть).{{0,45}}{KZT_TOKEN}.{{0,160}}"
+    r"(?:вывест|получ|перевест).{0,55}(?:российск|карт\w*\s+рф|сбер|тинькофф)"
+)
+
+PEER_EXCHANGE_RE = re.compile(
+    rf"(?iu)(?:(?:#\s*)?(?:меняю|обменяю|поменяю|обменяюсь|поменяюсь|"
+    rf"кто\s+(?:обменяет|поменяет)|(?:могу|готов(?:а)?)\s+(?:обменять|поменять)|"
+    rf"есть\s+человек.{{0,30}}меняет)\b.{{0,220}}"
+    rf"(?:{RUB_TOKEN}.{{0,120}}{KZT_TOKEN}|{KZT_TOKEN}.{{0,120}}{RUB_TOKEN})|"
+    rf"(?:кому|может\s+кому).{{0,70}}(?:нужн|надо).{{0,80}}"
+    rf"(?:{RUB_TOKEN}|{KZT_TOKEN}))"
+)
+PEER_COMPLETED_RE = re.compile(
+    r"(?iu)(?:обменял(?:ся|ась|ись)|поменял(?:ся|ась|ись)|"
+    r"(?:обменял|поменял|менял\w*).{0,45}(?:у|с)\s+(?:человек|знаком|менял)|"
+    r"через\s+(?:человек|знаком)|у\s+менял\w*|с\s+рук|"
+    r"(?:местные|люди|человек|знаком\w*).{0,35}(?:меняю|обменива)|"
+    r"p2p\s*сделк|сделка\s+(?:закрыта|состоялась))"
+)
+CRYPTO_ROUTE_RE = re.compile(
+    r"(?iu)(?:через\s+(?:крипт|usdt|binance|бинанс|bybit|байбит)|курс\s+(?:вышел|получился)|"
+    r"по\s+итогу.{0,80}(?:получил|пришло)|конвертировал.{0,80}(?:usdt|крипт))"
+)
+CRYPTO_RUB_TO_KZT_RE = re.compile(
+    rf"(?iu)(?:покуп\w*.{{0,60}}за\s+{RUB_TOKEN}.{{0,100}}прода\w*.{{0,60}}(?:за|в)\s+{KZT_TOKEN}|"
+    rf"{RUB_TOKEN}.{{0,60}}(?:через\s+крипт|через\s+usdt).{{0,100}}{KZT_TOKEN}|"
+    rf"(?:через\s+(?:крипт|usdt|binance|бинанс|bybit|байбит)).{{0,160}}"
+    rf"(?:отда\w*.{{0,30}})?{RUB_TOKEN}.{{0,220}}{KZT_TOKEN})"
+)
+KZT_RECEIVED_PER_RUB_RE = re.compile(
+    rf"(?iu){KZT_TOKEN}.{{0,70}}(?:пришл\w*|зачисл\w*).{{0,100}}"
+    rf"(?:поделил\w*.{{0,60}})?(?:сумм\w*.{{0,30}})?{RUB_TOKEN}"
+)
+APPROXIMATE_EQUIVALENCE_RE = re.compile(
+    r"(?iu)(?:эквивалент|приблизитель|примерно\s+\d|около\s+\d|ориентировочн)"
+)
+CONTEXT_OVERRIDE_RE = re.compile(
+    r"(?iu)(?:обменник|обменный\s+пункт|банк|приложени|корсч[её]т|банкомат|курс\s+мир)"
+)
+INSTITUTIONAL_REFERENCE_RE = re.compile(
+    r"(?iu)(?:цб\s*(?:кз|рф)?|нацбанк|таблиц\w*\s+курс|бот\s+с\s+курс|"
+    r"продать\s+1\s*rub\s+за\s+kzt|корсч[её]т|kztrub|bcc\s+fx|"
+    r"курс\s+(?:банка|карты|автоконвертац)|в\s+приложени\w*.{0,30}курс)"
+)
 
 
 @dataclass
@@ -115,6 +201,7 @@ class Observation:
     timestamp: str
     day: str
     segment: str
+    market_scope: str
     direction: str
     rate_kzt_per_rub: float
     extraction_method: str
@@ -274,9 +361,35 @@ def classify_segment(text: str) -> str:
 
 
 def infer_direction(text: str) -> str:
+    if CRYPTO_RUB_TO_KZT_RE.search(text):
+        return "rub_to_kzt"
+    if KZT_RECEIVED_PER_RUB_RE.search(text):
+        return "rub_to_kzt"
+    if FLOW_RUB_KZT_RE.search(text):
+        return "rub_to_kzt"
+    if FLOW_KZT_RUB_RE.search(text):
+        return "kzt_to_rub"
+    if KZT_TO_RUSSIAN_CARD_RE.search(text):
+        return "kzt_to_rub"
     if ARROW_RUB_KZT_RE.search(text):
         return "rub_to_kzt"
     if ARROW_KZT_RUB_RE.search(text):
+        return "kzt_to_rub"
+    if RECIPROCAL_RUB_TO_KZT_RE.search(text):
+        return "rub_to_kzt"
+    if RECIPROCAL_KZT_TO_RUB_RE.search(text):
+        return "kzt_to_rub"
+    if WHO_NEEDS_RUB_RE.search(text) and not WHO_NEEDS_KZT_RE.search(text):
+        return "rub_to_kzt"
+    if WHO_NEEDS_KZT_RE.search(text) and not WHO_NEEDS_RUB_RE.search(text):
+        return "kzt_to_rub"
+    if EXCHANGE_RUB_KZT_RE.search(text):
+        return "rub_to_kzt"
+    if EXCHANGE_KZT_RUB_RE.search(text):
+        return "kzt_to_rub"
+    if POSSESS_RUB_RE.search(text) and NEED_KZT_RE.search(text):
+        return "rub_to_kzt"
+    if POSSESS_KZT_RE.search(text) and NEED_RUB_RE.search(text):
         return "kzt_to_rub"
     rub_to_kzt = bool(NEED_KZT_RE.search(text) or SELL_RUB_RE.search(text))
     kzt_to_rub = bool(NEED_RUB_RE.search(text) or SELL_KZT_RE.search(text))
@@ -284,6 +397,41 @@ def infer_direction(text: str) -> str:
         return "rub_to_kzt"
     if kzt_to_rub and not rub_to_kzt:
         return "kzt_to_rub"
+    return "unclassified"
+
+
+def strict_peer_offer(text: str) -> bool:
+    has_pair = bool(RUB_RE.search(text) and KZT_RE.search(text))
+    if not has_pair:
+        return False
+    two_sided = bool(
+        (NEED_KZT_RE.search(text) and (SELL_RUB_RE.search(text) or POSSESS_RUB_RE.search(text)))
+        or (NEED_RUB_RE.search(text) and (SELL_KZT_RE.search(text) or POSSESS_KZT_RE.search(text)))
+    )
+    if re.search(r"(?iu)нужн\w*\s+был", text) and not re.search(
+        r"(?iu)(?:кому|отдам|предлагаю|продам|обменяю|поменяю|пишите\s+в\s+лс)",
+        text,
+    ):
+        two_sided = False
+    return two_sided or bool(PEER_EXCHANGE_RE.search(text))
+
+
+def classify_market_scope(text: str, segment: str) -> str:
+    if strict_peer_offer(text):
+        return "peer_offer"
+    if PEER_COMPLETED_RE.search(text) and RUB_RE.search(text) and KZT_RE.search(text):
+        return "peer_trade_report"
+    if segment == "crypto" and CRYPTO_ROUTE_RE.search(text):
+        return "crypto_route_report"
+    if segment == "cash" and re.search(r"(?iu)(?:обменник|обменный\s+пункт)", text):
+        return "cash_exchange_reference"
+    if INSTITUTIONAL_REFERENCE_RE.search(text):
+        return "institutional_reference"
+    if re.search(
+        r"(?iu)(?:переводил|перевела|получил|пришло|конверт|снял|снимал|поменял|обменял)",
+        text,
+    ):
+        return "bank_or_card_execution"
     return "unclassified"
 
 
@@ -351,6 +499,8 @@ def extract_rate_quotes(text: str, parent_used: bool = False) -> list[tuple[floa
         label = match.group("label").casefold()
         direction = "rub_to_kzt" if label.startswith("покуп") else "kzt_to_rub"
         add(match, "buy_sell_table", direction=direction)
+    for match in ROUTE_RESULT_RE.finditer(text):
+        add(match, "route_result_rate")
     for match in RATE_LABEL_RE.finditer(text):
         add(match, "explicit_rate")
     for match in PO_RATE_RE.finditer(text):
@@ -394,11 +544,13 @@ def confidence_for(
     method: str,
     basis: str,
     segment: str,
+    market_scope: str,
     direction: str,
     has_other_currency: bool,
     deviation: float | None,
 ) -> float:
     base = {
+        "route_result_rate": 0.94,
         "currency_equality": 0.96,
         "inverse_currency_equality": 0.96,
         "amount_ratio": 0.90,
@@ -413,6 +565,14 @@ def confidence_for(
         base -= 0.15
     if segment == "unspecified":
         base -= 0.08
+    if market_scope == "peer_offer":
+        base += 0.05
+    elif market_scope == "peer_trade_report":
+        base += 0.02
+    elif market_scope == "crypto_route_report":
+        base += 0.01
+    else:
+        base -= 0.35
     if direction == "unclassified":
         base -= 0.12
     if has_other_currency and method not in {"currency_equality", "inverse_currency_equality", "amount_ratio"}:
@@ -430,8 +590,9 @@ def confidence_for(
     return min(0.99, max(0.0, base))
 
 
-def quality_label(score: float, segment: str, direction: str) -> tuple[str, str]:
-    if score >= 0.72 and segment in TARGET_SEGMENTS and direction in TARGET_DIRECTIONS:
+def quality_label(score: float, segment: str, market_scope: str, direction: str) -> tuple[str, str]:
+    allowed_scope = market_scope in {"peer_offer", "peer_trade_report", "crypto_route_report"}
+    if score >= 0.72 and segment in TARGET_SEGMENTS and direction in TARGET_DIRECTIONS and allowed_scope:
         status = "accepted"
     elif score >= 0.45:
         status = "review"
@@ -497,34 +658,48 @@ def analyze_source(
         basis = pair_basis(current, combined, parent, source_chat)
         parent_used = basis == "reply_context"
         quotes = extract_rate_quotes(current, parent_used=parent_used)
-        if not quotes and parent_used:
-            ratio = extract_amount_ratio(combined)
-            if ratio is not None and 2.5 <= ratio <= 12.0:
-                quotes = [(ratio, "amount_ratio", None)]
 
         if quotes:
             counters["messages_with_rate_shape"] += 1
             if basis is None:
                 counters["rate_shape_without_pair"] += 1
-            elif not TRANSACTION_RE.search(combined) and not parent_used:
+            elif (
+                not TRANSACTION_RE.search(combined)
+                and not parent_used
+                and not (CRYPTO_RE.search(current) and extract_amount_ratio(current) is not None)
+            ):
                 counters["rate_shape_without_transaction_context"] += 1
             else:
-                segment = classify_segment(combined)
-                inferred_direction = infer_direction(combined)
-                other_currency = bool(OTHER_FIAT_RE.search(combined) or CRYPTO_RE.search(combined))
+                short_contextual_reply = parent_used and (
+                    len(current) <= 48 or bool(BARE_RATE_RE.fullmatch(current.strip()))
+                ) and not CONTEXT_OVERRIDE_RE.search(current)
+                analysis_text = combined if short_contextual_reply else current
+                segment = classify_segment(analysis_text)
+                market_scope = classify_market_scope(analysis_text, segment)
+                inferred_direction = infer_direction(analysis_text)
+                other_currency = bool(OTHER_FIAT_RE.search(analysis_text) or CRYPTO_RE.search(analysis_text))
+                has_route_result = any(method == "route_result_rate" for _, method, _ in quotes)
                 official = official_rates.get(day)
                 for rate, method, direction_override in quotes:
-                    direction = direction_override or inferred_direction
+                    if market_scope == "crypto_route_report" and inferred_direction in TARGET_DIRECTIONS:
+                        direction = inferred_direction
+                    else:
+                        direction = direction_override or inferred_direction
                     deviation = rate / official - 1 if official else None
                     score = confidence_for(
                         method,
                         basis,
                         segment,
+                        market_scope,
                         direction,
                         other_currency,
                         deviation,
                     )
-                    status, label = quality_label(score, segment, direction)
+                    if method == "amount_ratio" and APPROXIMATE_EQUIVALENCE_RE.search(analysis_text):
+                        score = max(0.0, score - 0.35)
+                    if has_route_result and market_scope == "crypto_route_report" and method == "explicit_rate":
+                        score = max(0.0, score - 0.30)
+                    status, label = quality_label(score, segment, market_scope, direction)
                     observations.append(
                         Observation(
                             source_file=source_file,
@@ -534,6 +709,7 @@ def analyze_source(
                             timestamp=timestamp,
                             day=day,
                             segment=segment,
+                            market_scope=market_scope,
                             direction=direction,
                             rate_kzt_per_rub=rate,
                             extraction_method=method,
@@ -543,7 +719,7 @@ def analyze_source(
                             quality_status=status,
                             official_rate_kzt_per_rub=official,
                             deviation_from_official_pct=deviation,
-                            evidence_excerpt=redact_text(raw_text),
+                            evidence_excerpt=redact_text(analysis_text),
                         )
                     )
                     counters[f"observation:{status}"] += 1
@@ -596,23 +772,85 @@ def public_observation_row(observation: Observation) -> dict[str, Any]:
     return row
 
 
+def deduplicate_observations(observations: list[Observation]) -> list[Observation]:
+    """Оставляет лучшую интерпретацию одной котировки одного сообщения."""
+    method_priority = {
+        "route_result_rate": 8,
+        "amount_ratio": 7,
+        "currency_equality": 6,
+        "inverse_currency_equality": 6,
+        "explicit_rate": 5,
+        "buy_sell_table": 4,
+        "po_rate": 3,
+        "bare_reply": 2,
+    }
+    best: dict[tuple[str, str, float, str, str], Observation] = {}
+    for observation in observations:
+        key = (
+            observation.source_file,
+            observation.message_ref,
+            round(observation.rate_kzt_per_rub, 8),
+            observation.segment,
+            observation.direction,
+        )
+        current = best.get(key)
+        rank = (observation.confidence_score, method_priority[observation.extraction_method])
+        current_rank = (
+            (current.confidence_score, method_priority[current.extraction_method])
+            if current is not None
+            else (-1.0, -1)
+        )
+        if rank > current_rank:
+            best[key] = observation
+    return list(best.values())
+
+
 def aggregate_daily(
     observations: list[Observation],
     first_day: str,
     last_day: str,
     official_rates: dict[str, float],
 ) -> list[dict[str, Any]]:
-    author_cells: dict[tuple[str, str, str, str], list[Observation]] = defaultdict(list)
+    method_priority = {
+        "route_result_rate": 8,
+        "amount_ratio": 7,
+        "currency_equality": 6,
+        "inverse_currency_equality": 6,
+        "explicit_rate": 5,
+        "buy_sell_table": 4,
+        "po_rate": 3,
+        "bare_reply": 2,
+    }
+    message_cells: dict[tuple[str, str, str, str], list[Observation]] = defaultdict(list)
     for observation in observations:
         if observation.quality_status != "accepted":
             continue
+        key = (observation.message_ref, observation.segment, observation.direction, observation.participant_key)
+        message_cells[key].append(observation)
+
+    primary_messages: list[Observation] = []
+    for items in message_cells.values():
+        primary_messages.append(
+            max(
+                items,
+                key=lambda item: (
+                    method_priority[item.extraction_method],
+                    item.confidence_score,
+                    -items.index(item),
+                ),
+            )
+        )
+
+    author_cells: dict[tuple[str, str, str, str], list[Observation]] = defaultdict(list)
+    for observation in primary_messages:
         key = (observation.day, observation.segment, observation.direction, observation.participant_key)
         author_cells[key].append(observation)
 
     daily_cells: dict[tuple[str, str, str], list[tuple[float, set[str]]]] = defaultdict(list)
     for (day, segment, direction, _participant), items in author_cells.items():
-        rate = statistics.median(item.rate_kzt_per_rub for item in items)
-        sources = {item.source_file for item in items}
+        selected = max(items, key=lambda item: item.timestamp)
+        rate = selected.rate_kzt_per_rub
+        sources = {selected.source_file}
         daily_cells[(day, segment, direction)].append((rate, sources))
 
     start = date.fromisoformat(first_day)
@@ -810,6 +1048,7 @@ def run(args: argparse.Namespace) -> None:
         source_counters[input_path.name] = counters
 
     source_metadata.sort(key=lambda item: item["source_file"])
+    all_observations = deduplicate_observations(all_observations)
     all_observations.sort(
         key=lambda item: (item.timestamp, item.source_file, item.message_ref, item.rate_kzt_per_rub)
     )
@@ -819,12 +1058,18 @@ def run(args: argparse.Namespace) -> None:
     wide_rows = make_wide_rows(daily_rows)
 
     observation_fields = [
-        "source_file", "source_chat", "message_ref", "timestamp", "day", "segment", "direction",
+        "source_file", "source_chat", "message_ref", "timestamp", "day", "segment", "market_scope", "direction",
         "rate_kzt_per_rub", "extraction_method", "pair_basis", "confidence_score", "confidence",
         "quality_status", "official_rate_kzt_per_rub", "deviation_from_official_pct",
     ]
     observation_path = args.output / "rate_observations.csv"
     write_csv(observation_path, (public_observation_row(item) for item in all_observations), observation_fields)
+    confirmed_path = args.output / "confirmed_rate_observations.csv"
+    write_csv(
+        confirmed_path,
+        (public_observation_row(item) for item in all_observations if item.quality_status == "accepted"),
+        observation_fields,
+    )
 
     daily_fields = [
         "date", "segment", "direction", "is_observed", "observed_rate_kzt_per_rub", "observed_p25",
@@ -837,6 +1082,10 @@ def run(args: argparse.Namespace) -> None:
 
     card_path = args.output / "daily_card_transfer_rates.csv"
     write_csv(card_path, (row for row in daily_rows if row["segment"] == "card_transfer"), daily_fields)
+    cash_path = args.output / "daily_cash_rates.csv"
+    write_csv(cash_path, (row for row in daily_rows if row["segment"] == "cash"), daily_fields)
+    crypto_path = args.output / "daily_crypto_rates.csv"
+    write_csv(crypto_path, (row for row in daily_rows if row["segment"] == "crypto"), daily_fields)
 
     wide_fields = ["date"]
     for segment in TARGET_SEGMENTS:
@@ -863,7 +1112,17 @@ def run(args: argparse.Namespace) -> None:
     quality_path = args.output / "quality_report.json"
     quality_path.write_text(json.dumps(quality_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    outputs = [observation_path, daily_path, card_path, wide_path, review_path, quality_path]
+    outputs = [
+        observation_path,
+        confirmed_path,
+        daily_path,
+        card_path,
+        cash_path,
+        crypto_path,
+        wide_path,
+        review_path,
+        quality_path,
+    ]
     manifest = {
         "pipeline_version": PIPELINE_VERSION,
         "generated_at": datetime.now().astimezone().isoformat(),

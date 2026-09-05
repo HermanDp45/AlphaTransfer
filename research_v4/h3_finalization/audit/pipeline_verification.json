@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "passed": 53,
+  "checks": [
+    {
+      "name": "panel_input_sha_locked",
+      "status": "PASS"
+    },
+    {
+      "name": "source_receipt_input_sha_locked",
+      "status": "PASS"
+    },
+    {
+      "name": "original_builder_snapshot",
+      "status": "PASS"
+    },
+    {
+      "name": "latest_standalone_features_exact",
+      "status": "PASS",
+      "rows": 4118,
+      "features": 33,
+      "latest": "2026-09-03 00:00:00"
+    },
+    {
+      "name": "source_copy_cbr",
+      "status": "PASS"
+    },
+    {
+      "name": "source_copy_moex_cny_close",
+      "status": "PASS"
+    },
+    {
+      "name": "source_copy_moex_cny_fixing",
+      "status": "PASS"
+    },
+    {
+      "name": "source_copy_oxr",
+      "status": "PASS"
+    },
+    {
+      "name": "source_copy_halyk",
+      "status": "PASS"
+    },
+    {
+      "name": "source_copy_treasury_t10yie",
+      "status": "PASS"
+    },
+    {
+      "name": "source_copy_treasury_t5yifr",
+      "status": "PASS"
+    },
+    {
+      "name": "package_H3_KZT_full33_contract",
+      "status": "PASS"
+    },
+    {
+      "name": "model_copy_weights.pt",
+      "status": "PASS"
+    },
+    {
+      "name": "model_copy_preprocess.joblib",
+      "status": "PASS"
+    },
+    {
+      "name": "model_copy_model.json",
+      "status": "PASS"
+    },
+    {
+      "name": "independent_H3_labels",
+      "status": "PASS"
+    },
+    {
+      "name": "final_maturity_splits",
+      "status": "PASS",
+      "train_end": "2025-08-30 00:00:00",
+      "train_label_max": "2025-09-04 00:00:00",
+      "cal_end": "2026-08-29 00:00:00",
+      "cal_label_max": "2026-09-03 00:00:00"
+    },
+    {
+      "name": "receipt_train_rows",
+      "status": "PASS"
+    },
+    {
+      "name": "receipt_validation_rows",
+      "status": "PASS"
+    },
+    {
+      "name": "receipt_history_rows",
+      "status": "PASS"
+    },
+    {
+      "name": "receipt_warmup_dates",
+      "status": "PASS"
+    },
+    {
+      "name": "raw_file_lock",
+      "status": "PASS"
+    },
+    {
+      "name": "no_fake_final_test",
+      "status": "PASS"
+    },
+    {
+      "name": "raw_cohort_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "raw_cohort_history",
+      "status": "PASS"
+    },
+    {
+      "name": "raw_cohort_warmup",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_outcomes_warmup",
+      "status": "PASS"
+    },
+    {
+      "name": "raw_cohort_tail",
+      "status": "PASS"
+    },
+    {
+      "name": "masked_outcomes_tail",
+      "status": "PASS"
+    },
+    {
+      "name": "history_immature_masked",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_medians_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "train_only_quantiles_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "inner_maturity_boundary",
+      "status": "PASS"
+    },
+    {
+      "name": "inner_epoch_selection_and_outer_refit",
+      "status": "PASS"
+    },
+    {
+      "name": "checkpoint_replay_history",
+      "status": "PASS",
+      "rows": 246,
+      "max_csv_decimal_error": 2.955398559212341e-08
+    },
+    {
+      "name": "checkpoint_replay_warmup",
+      "status": "PASS",
+      "rows": 63,
+      "max_csv_decimal_error": 2.501373286278863e-08
+    },
+    {
+      "name": "checkpoint_replay_validation",
+      "status": "PASS",
+      "rows": 243,
+      "max_csv_decimal_error": 2.955398559212341e-08
+    },
+    {
+      "name": "platt_prior_validation_optimum",
+      "status": "PASS",
+      "maximum_gradient": 1.920285485342415e-06,
+      "raw_brier": 0.17819518416774024,
+      "calibrated_brier": 0.1729888456716456
+    },
+    {
+      "name": "final_prior_calibration_rank80_threshold",
+      "status": "PASS",
+      "candidates": 17,
+      "selected": {
+        "threshold": 0.6000000000000001,
+        "coverage": 0.8076923076923077,
+        "lift": 1.668192219679634,
+        "utility": 65.10121990121299
+      }
+    },
+    {
+      "name": "runtime_rank_and_contact_exact",
+      "status": "PASS",
+      "rows": 246,
+      "contacts": 58
+    },
+    {
+      "name": "persisted_states_are_runtime_binary_probabilities",
+      "status": "PASS"
+    },
+    {
+      "name": "state_batch_incremental_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "future_score_poison_prefix_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "outcomes_excluded_from_predictor",
+      "status": "PASS"
+    },
+    {
+      "name": "state_overlap_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "state_calibration_binding_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "intraday_asof_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "runtime_historical_smoke_labels",
+      "status": "PASS"
+    },
+    {
+      "name": "operational_precutoff_replay_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "completed_state_no_duplicate_contact",
+      "status": "PASS"
+    },
+    {
+      "name": "H5_closing_not_carried",
+      "status": "PASS"
+    },
+    {
+      "name": "standalone_no_research_imports",
+      "status": "PASS"
+    },
+    {
+      "name": "current_annual_evidence_stable",
+      "status": "PASS"
+    }
+  ],
+  "maximum_raw_csv_decimal_error": 2.955398559212341e-08,
+  "source_sha256": {
+    "final_solution/tabm_h3/bundle.json": "50cdd004e0ce6110ca9bb191aedf042e61264eb2f3a4ea1d68fcfd8f80ba9d3f",
+    "final_solution/tabm_h3/features.py": "d770696a2d2f167fdfbc58ce839aaa7831c1051a8969e714fd9394458adc96a8",
+    "final_solution/tabm_h3/model.py": "0edfa54fa6295634094faf7567c6c3f9c14393d87b9d7e9b532e4e75968766e1",
+    "final_solution/tabm_h3/policy.py": "4968c1c0e970bb5bb055cd1915b86284b91adeb708237d1ea39b225f2cd26b80",
+    "final_solution/tabm_h3/predict.py": "acfd7a1320dcf97b6008210b2e9508927404e89927182af31cd89852023fcbd1",
+    "final_solution/tabm_h3/closing.py": "d6e5956bef144692a2037b7512f86b3910d1b46ff0b04b4c3f29c3a57a7d4d6b",
+    "final_solution/tabm_h3/model/closing_h3.joblib": "4510eef0f8bbbb30e32ccb1cc33f09455cb411bbe505731272c914eb938826fb",
+    "final_solution/tabm_h3/initial_state.json": "5f0e4a7256407fce64fda56d18369d2f7e03bfa5261819501f3542e66f22f138",
+    "final_solution/tabm_h3/operational_state.json": "d52eaad42be187d19830bc9db68fede9d833e9bcdf5b152179b6931823af1420",
+    "final_solution/tabm_h3/source_receipt.json": "87fe81ad8e302d5742c43c0e75535d05ecb5418a4f8e5abf8719c158d32ac261",
+    "final_solution/tabm_h3/training_receipt.json": "f9a5a748ddd9f6c02f24f3c24924a16057ecea33e35ae1aa8754670782881e53",
+    "final_solution/tabm_h3/policy_calibration_receipt.json": "77f423d923e200d6056a98519639e8c78de10039f373dfac9ab65ff667c78a3f",
+    "research_v4/h3_finalization/final_fit/receipt.json": "f9a5a748ddd9f6c02f24f3c24924a16057ecea33e35ae1aa8754670782881e53",
+    "research_v4/h3_finalization/final_fit/protocol.json": "b41b05c330a4faf87565822994a516fccb6b50bca48111c4e636f9e06a64cec0",
+    "research_v4/h3_finalization/final_fit/raw_predictions.csv.gz": "8c3edd4d610e4c9b4250c9f0992d26186cdab548c67fa9508f7c9d8a9c101928",
+    "research_v4/h3_finalization/final_fit/model/model.json": "e58dbdc40e94a083856fb4de2c2056c53ee11fbb1fb69d2fa7d6e60e05b96e69",
+    "research_v4/h3_finalization/final_fit/model/inner_epochs.csv": "e57e12583307ab84e8862a7e95f1e55a5c3e1c22a26302636ecd28cc0005be5e",
+    "research_v4/h3_finalization/final_fit/model/refit_epochs.csv": "027805e8925c25b1d277d9ab6c30e774f5543829c1153af8d106bf57dbc9ad8f"
+  },
+  "audit_sha256": "5405e39312a283a58dc615813012f7c78c06fd068decd1a48d6690b7b636f3b3",
+  "scope": "Independent final H3 source/feature/maturity/epoch/preprocessor/checkpoint/calibration/policy/state checks. No training fits. Final checkpoint smoke is not a historical OOT evaluation."
+}

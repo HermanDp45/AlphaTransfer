@@ -1,0 +1,11 @@
+{
+  "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCRUB&interval=1d&startTime=1661644800000&endTime=1788307199999&limit=1000",
+  "final_url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCRUB&interval=1d&startTime=1661644800000&endTime=1788307199999&limit=1000",
+  "retrieved_utc": "2026-09-05T08:18:40.030073+00:00",
+  "status": 200,
+  "bytes": 94716,
+  "sha256": "747ca857aa8692d87159da1f942e07d40f8b249e23cfccf6aa0f9f3577bdb7fb",
+  "content_type": "application/json;charset=UTF-8",
+  "raw_path": "raw/binance_klines_09408055fe42101aa785.bin",
+  "group": "binance_klines"
+}

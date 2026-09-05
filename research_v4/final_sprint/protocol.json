@@ -1,0 +1,346 @@
+{
+  "status": "fixed_before_new_fits",
+  "primary": "KZT NOW h5,2026Jan13-Aug25,156dates/33calendarweeks including partial boundaries and zeros",
+  "selection": "Explicit user-authorized retrospective2026 model selection;2025 consistency and banklag2 stress gates. Not a pristine holdout. Fixed prior-calibration threshold per policy; no test-week quota or outcome access at inference.",
+  "requirements": {
+    "lift": 1.3,
+    "calendar_week_share_1_to_2": 0.85,
+    "forward_delta_bps": 0
+  },
+  "ranking": "Candidates satisfying primary three gates AND same gates under banklag2 ranked by minimum normal/delayed lift, then minimum forward advantage, then2025lift; if none, show Pareto frontier without declaring full success. Brier is secondary diagnostic.",
+  "scope": "KZT bank PoC primary; other corridors remain separateV3 reference; no pooledcadence claim",
+  "hgb_specs": [
+    {
+      "name": "hgb_12m_c12_d0_bank_treasury",
+      "months": 12,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_12m_c3_d0_bank_treasury",
+      "months": 12,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_24m_c12_d0_bank_treasury",
+      "months": 24,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_24m_c3_d0_bank_treasury",
+      "months": 24,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_36m_c12_d0_bank_treasury",
+      "months": 36,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_36m_c3_d0_bank_treasury",
+      "months": 36,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_60m_c12_d0_bank_treasury",
+      "months": 60,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_60m_c3_d0_bank_treasury",
+      "months": 60,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d0_bank_treasury",
+      "months": 120,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d0_bank_treasury",
+      "months": 120,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d1_bank_treasury",
+      "months": 120,
+      "cal": 12,
+      "decay": 1,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d3_bank_treasury",
+      "months": 120,
+      "cal": 12,
+      "decay": 3,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d6_bank_treasury",
+      "months": 120,
+      "cal": 12,
+      "decay": 6,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d12_bank_treasury",
+      "months": 120,
+      "cal": 12,
+      "decay": 12,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d1_bank_treasury",
+      "months": 120,
+      "cal": 3,
+      "decay": 1,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d3_bank_treasury",
+      "months": 120,
+      "cal": 3,
+      "decay": 3,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d6_bank_treasury",
+      "months": 120,
+      "cal": 3,
+      "decay": 6,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d12_bank_treasury",
+      "months": 120,
+      "cal": 3,
+      "decay": 12,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d0_bank_treasury_oxr",
+      "months": 120,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury_oxr",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_60m_c12_d0_bank_treasury_aug",
+      "months": 60,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": true,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d0_bank_treasury_aug",
+      "months": 120,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": true,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d0_compact",
+      "months": 120,
+      "cal": 12,
+      "decay": 0,
+      "features": "compact",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d0_bank_only",
+      "months": 120,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_only",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d0_bank_treasury_pooled",
+      "months": 120,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": false,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c12_d0_bank_treasury_stump",
+      "months": 120,
+      "cal": 12,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 1
+    },
+    {
+      "name": "hgb_120m_c3_d0_bank_treasury_oxr",
+      "months": 120,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury_oxr",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_60m_c3_d0_bank_treasury_aug",
+      "months": 60,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": true,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d0_bank_treasury_aug",
+      "months": 120,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": true,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d0_compact",
+      "months": 120,
+      "cal": 3,
+      "decay": 0,
+      "features": "compact",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d0_bank_only",
+      "months": 120,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_only",
+      "augment": false,
+      "adapt": true,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d0_bank_treasury_pooled",
+      "months": 120,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": false,
+      "depth": 2
+    },
+    {
+      "name": "hgb_120m_c3_d0_bank_treasury_stump",
+      "months": 120,
+      "cal": 3,
+      "decay": 0,
+      "features": "bank_treasury",
+      "augment": false,
+      "adapt": true,
+      "depth": 1
+    }
+  ],
+  "policies": [
+    "legacy",
+    "cadence90_cd3",
+    "cadence90_cd2",
+    "cadence85_cd2"
+  ],
+  "other_families": [
+    "CatBoost stablefeatures12fits",
+    "TabM numericalembeddings multiyear",
+    "CLOSING endpoint h5 separate labels"
+  ],
+  "previous_manifest_sha256": "d258cb0d77690fc6b47da5f063c196940ee3be0e53213eb5fa03d76d0a79ece4"
+}

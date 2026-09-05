@@ -1,0 +1,9 @@
+{
+  "heads": 4,
+  "new_neural_fits": 0,
+  "source_weights": "immutable original300-step annual Small checkpoints",
+  "all_forecasts_device": "cpu",
+  "panel_contract": "exact V3extended",
+  "code_sha256": "20f1de0d5699b9fb0ac74359e0f49899fca097e71ab3ffe9cd00e902ea2c5963",
+  "protocol_sha256": "790c1d002727f78fa5a8270f25a5490a56e85ca6a42c410c880f4c3ab8de82bf"
+}

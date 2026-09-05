@@ -1,0 +1,12 @@
+{
+  "nature": "Read-only analysis of sealed results; no new training or model selection",
+  "scope": "KZT candidate signals, h5 CBR target",
+  "weekly_mean": "Sum of candidate signals divided by calendar W-SUN weeks spanning first to last test date within each fold, including zero weeks and partial boundary weeks;152 development weeks,33 January-test weeks",
+  "alternative_frequency": "per_span_week uses7*signals divided by sum of within-year calendar-day spans; supplied to reconcile earlier metrics",
+  "input_sha256": {
+    "research_v4/oxr2010_bank/long_models/all_predictions.csv.gz": "52b00df92710070f8ff8e521622270303fabc283cf595a21ede4f9e8cc3d848c",
+    "research_v4/oxr2010_bank/long_models/treasury/all_predictions.csv.gz": "e7fe1039095c6fcf1fde23b1a393d1305136ce4db36d002255b2a1e23be81af7",
+    "research_v3/behavior/results/pooled_policy_summary.csv": "58fda4569736d2eb108a541e4e81e935e198ed21a5e39b323b354bfee975bad5",
+    "product_artifacts/V4_SEGMENTATION_EVIDENCE.md": "67a7801f262c0f49e40b26ce1bd143197669ff62ab26e50a78248d3c93980168"
+  }
+}

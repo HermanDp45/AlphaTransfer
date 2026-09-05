@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "files": 981,
+  "bytes": 636240409,
+  "manifest_sha256": "521219374fa46dd3d7e67f5228ad2731a9e6590213365d26640780b34343bd88",
+  "selected": "tabm_periodic_kzt_120m_s2_kztcal",
+  "policy": "cadence85_cd2"
+}

@@ -1,0 +1,7 @@
+{
+  "primary_contrast": "bank_cbr_oxr minus bank_cbr",
+  "all_arms_reported": true,
+  "no_2026_selection": true,
+  "protocol_sha256": "7bd6f621a4b5ef1d2f2e5eedfacd0d8fbf0656397b0640dd2cbf3001e569c981",
+  "frozen_before_new_2026_fit": true
+}

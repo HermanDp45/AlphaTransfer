@@ -1,0 +1,40 @@
+{
+  "created_unix": 1788606664.528775,
+  "specifications": [
+    {
+      "name": "treasury_kzt_local_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": false,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "treasury_kzt_shrink_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": false,
+      "adapt": true,
+      "local": true,
+      "premium": false
+    },
+    {
+      "name": "treasury_halyk_local_120m",
+      "months": 120,
+      "family": "none",
+      "since": "2010-01-01",
+      "bank": true,
+      "adapt": false,
+      "local": true,
+      "premium": false
+    }
+  ],
+  "reason": "Post-readout attribution only: control Treasury effect, bank effect and local residual adaptation separately for previously fitted Treasury+Halyk candidate; no tuning",
+  "selection": "No new candidate selection; all controls retained; 2026 already inspected",
+  "source_sha256": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+  "code_sha256": "0d02f2ea85978838539438baac485e829f911d132ce91fa84c1e62404c4cf741",
+  "engine_sha256": "52a32a530a1a840d9d9cc0aeab1010f3d9e76effe89006e73648115ff223ecf2"
+}

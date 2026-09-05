@@ -1,0 +1,9 @@
+{
+  "download": "https://microdata.worldbank.org/catalog/6523/download/329993",
+  "retrieved_date": "2026-09-05",
+  "bytes": 7673631,
+  "sha256": "94708c35092c33c77907c3652ab68db237d57176d4ef34c7f441597d518d6400",
+  "local_raw_location": "/private/tmp/at-kg-microdata.zip",
+  "raw_redistribution": false,
+  "access": "Official research terms form accepted; no login required."
+}

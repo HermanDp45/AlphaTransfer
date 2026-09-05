@@ -1,0 +1,125 @@
+{
+  "spec": {
+    "name": "basis_train_120m",
+    "months": 120,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "train_horizon": 5,
+  "year": 2026,
+  "checkpoint_sha256": "9e7475205dc3ab93a16eccc503e84142ef32e513b1b07a47ffbad5a15ec64ff9",
+  "checkpoint": "checkpoints/v3_h5_2026.joblib",
+  "features": [
+    "ret1",
+    "ret3",
+    "ret5",
+    "ret10",
+    "ret20",
+    "ret60",
+    "pr20",
+    "pr60",
+    "pr120",
+    "pr252",
+    "vol5",
+    "vol20",
+    "vol60",
+    "volratio",
+    "moex_cny_close_minus_fixing_same_session"
+  ],
+  "train_feature_target_sha256": "4e10d9c905496e7065ecf74a364c1e80d84517cac20a94f2015d7acd1ed94a53",
+  "original_threshold": {
+    "AMD": 0.1816102136182577,
+    "KGS": 0.18102294452349077,
+    "KZT": 0.19328385686737448,
+    "TJS": 0.1809901487200495,
+    "UZS": 0.19991349569899589
+  },
+  "original_history_state": {
+    "candidate": {
+      "AMD": 3953,
+      "KGS": 3953,
+      "KZT": 3954,
+      "TJS": 3953,
+      "UZS": 3953
+    },
+    "portfolio": {
+      "__portfolio__": 3950
+    }
+  },
+  "strict05_history_state": {
+    "candidate": {
+      "AMD": 3952,
+      "KGS": 3952,
+      "KZT": 3940,
+      "TJS": 3952,
+      "UZS": 3952
+    },
+    "portfolio": {
+      "__portfolio__": 3952
+    }
+  },
+  "calibrator": {
+    "method": "prior_year_monotone_platt",
+    "status": "fitted",
+    "intercept": -0.1997138557499653,
+    "slope": 0.9284836624530909,
+    "raw_validation_brier": 0.15750333848135187,
+    "attempted_platt_validation_brier": 0.15677200211037498,
+    "applied_validation_brier": 0.15677200211037498,
+    "calibrated_validation_brier": 0.15677200211037498
+  },
+  "splits": {
+    "train": {
+      "rows": 12315,
+      "date_min": "2015-01-01 00:00:00",
+      "date_max": "2024-12-24 00:00:00",
+      "latest_label_date": "2024-12-29 00:00:00"
+    },
+    "validation": {
+      "rows": 1210,
+      "date_min": "2025-01-10 00:00:00",
+      "date_max": "2025-12-24 00:00:00",
+      "latest_label_date": "2025-12-31 00:00:00"
+    },
+    "history": {
+      "rows": 1235,
+      "date_min": "2025-01-10 00:00:00",
+      "date_max": "2025-12-31 00:00:00",
+      "latest_label_date": "2026-01-17 00:00:00"
+    },
+    "test": {
+      "rows": 780,
+      "date_min": "2026-01-13 00:00:00",
+      "date_max": "2026-08-25 00:00:00",
+      "latest_label_date": "2026-09-01 00:00:00"
+    }
+  },
+  "model_parameters": {
+    "categorical_features": "from_dtype",
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 2.0,
+    "learning_rate": 0.05,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": 2,
+    "max_features": 1.0,
+    "max_iter": 120,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 40,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 20260903,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "seconds": 0.29725537495687604
+}

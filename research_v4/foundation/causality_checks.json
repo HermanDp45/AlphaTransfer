@@ -1,0 +1,15 @@
+{
+  "single_vs_batch_max_abs_lograte": 4.76837158203125e-07,
+  "other_group_perturbation_max_abs_lograte": 4.76837158203125e-07,
+  "cutoff": "2023-02-01",
+  "batch_cross_learning": false,
+  "within_group": [
+    "AMD",
+    "KGS",
+    "KZT",
+    "TJS",
+    "UZS"
+  ],
+  "status": "passed",
+  "note": "floating-point tolerances; independent task groups verified on actual pretrained pipeline"
+}

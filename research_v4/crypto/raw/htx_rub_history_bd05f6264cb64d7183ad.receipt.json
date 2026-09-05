@@ -1,0 +1,11 @@
+{
+  "url": "https://api.huobi.pro/market/history/kline?symbol=usdtrub&period=1day&size=2000",
+  "final_url": "https://api.huobi.pro/market/history/kline?symbol=usdtrub&period=1day&size=2000",
+  "retrieved_utc": "2026-09-05T08:33:42.600373+00:00",
+  "status": 200,
+  "bytes": 95,
+  "sha256": "62e99ecf9c2db1069fb11dbf32353ee9a708a2c863bdda9dd3759b0be90705f4",
+  "content_type": "application/json",
+  "raw_path": "raw/htx_rub_history_bd05f6264cb64d7183ad.bin",
+  "group": "htx_rub_history"
+}

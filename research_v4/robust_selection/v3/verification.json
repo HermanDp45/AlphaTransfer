@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "immutable_input_hashes",
+      "status": "PASS",
+      "files": 5
+    },
+    {
+      "check": "fold_independent_audit",
+      "status": "PASS",
+      "train_horizon": 3,
+      "year": 2024,
+      "max_raw_checkpoint_error": 9.71445146547012e-17,
+      "max_manual_platt_error": 1.1102230246251565e-16,
+      "max_direct_utility_error": 0.0,
+      "actual_label_maturity": true,
+      "future_features_and_unmatured_train_labels_refit_invariant": true,
+      "strict05_independent_candidate_and_portfolio_replay": true,
+      "outcome_poison_scheduler_invariant": true,
+      "warmup_63_panel_dates_including_purged_tail_same_checkpoint_all_outcomes_masked": true
+    },
+    {
+      "check": "fold_independent_audit",
+      "status": "PASS",
+      "train_horizon": 3,
+      "year": 2025,
+      "max_raw_checkpoint_error": 9.71445146547012e-17,
+      "max_manual_platt_error": 9.71445146547012e-17,
+      "max_direct_utility_error": 0.0,
+      "actual_label_maturity": true,
+      "future_features_and_unmatured_train_labels_refit_invariant": true,
+      "strict05_independent_candidate_and_portfolio_replay": true,
+      "outcome_poison_scheduler_invariant": true,
+      "warmup_63_panel_dates_including_purged_tail_same_checkpoint_all_outcomes_masked": true
+    },
+    {
+      "check": "fold_independent_audit",
+      "status": "PASS",
+      "train_horizon": 3,
+      "year": 2026,
+      "max_raw_checkpoint_error": 9.71445146547012e-17,
+      "max_manual_platt_error": 9.71445146547012e-17,
+      "max_direct_utility_error": 0.0,
+      "actual_label_maturity": true,
+      "future_features_and_unmatured_train_labels_refit_invariant": true,
+      "strict05_independent_candidate_and_portfolio_replay": true,
+      "outcome_poison_scheduler_invariant": true,
+      "warmup_63_panel_dates_including_purged_tail_same_checkpoint_all_outcomes_masked": true
+    },
+    {
+      "check": "fold_independent_audit",
+      "status": "PASS",
+      "train_horizon": 5,
+      "year": 2024,
+      "max_raw_checkpoint_error": 9.71445146547012e-17,
+      "max_manual_platt_error": 1.1102230246251565e-16,
+      "max_direct_utility_error": 4.490630090003833e-12,
+      "actual_label_maturity": true,
+      "future_features_and_unmatured_train_labels_refit_invariant": true,
+      "strict05_independent_candidate_and_portfolio_replay": true,
+      "outcome_poison_scheduler_invariant": true,
+      "warmup_63_panel_dates_including_purged_tail_same_checkpoint_all_outcomes_masked": true
+    },
+    {
+      "check": "fold_independent_audit",
+      "status": "PASS",
+      "train_horizon": 5,
+      "year": 2025,
+      "max_raw_checkpoint_error": 9.71445146547012e-17,
+      "max_manual_platt_error": 9.71445146547012e-17,
+      "max_direct_utility_error": 4.490630090003833e-12,
+      "actual_label_maturity": true,
+      "future_features_and_unmatured_train_labels_refit_invariant": true,
+      "strict05_independent_candidate_and_portfolio_replay": true,
+      "outcome_poison_scheduler_invariant": true,
+      "warmup_63_panel_dates_including_purged_tail_same_checkpoint_all_outcomes_masked": true
+    },
+    {
+      "check": "fold_independent_audit",
+      "status": "PASS",
+      "train_horizon": 5,
+      "year": 2026,
+      "max_raw_checkpoint_error": 9.71445146547012e-17,
+      "max_manual_platt_error": 9.71445146547012e-17,
+      "max_direct_utility_error": 4.490630090003833e-12,
+      "actual_label_maturity": true,
+      "future_features_and_unmatured_train_labels_refit_invariant": true,
+      "strict05_independent_candidate_and_portfolio_replay": true,
+      "outcome_poison_scheduler_invariant": true,
+      "warmup_63_panel_dates_including_purged_tail_same_checkpoint_all_outcomes_masked": true
+    }
+  ],
+  "historical_h3_and_h5_parity": "PASS",
+  "fits_recomputed_for_future_invariance": 6
+}

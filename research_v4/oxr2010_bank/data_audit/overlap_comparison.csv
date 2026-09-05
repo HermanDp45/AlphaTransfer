@@ -1,0 +1,11 @@
+scope,column,overlap_rows,changed_rows,maximum_absolute_difference,maximum_relative_difference
+all9,quote_per_rub,27000,0,0.0,0.0
+all9,rub_per_quote,27000,0,0.0,0.0
+all9,rub_per_usd,27000,0,0.0,0.0
+all9,quote_per_usd,27000,0,0.0,0.0
+all9,published_at_utc,27000,0,0.0,0.0
+targets5,quote_per_rub,15000,0,0.0,0.0
+targets5,rub_per_quote,15000,0,0.0,0.0
+targets5,rub_per_usd,15000,0,0.0,0.0
+targets5,quote_per_usd,15000,0,0.0,0.0
+targets5,published_at_utc,15000,0,0.0,0.0

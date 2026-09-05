@@ -1,0 +1,388 @@
+{
+  "status": "PASS",
+  "passed": 78,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "catboost_treasury_halyk_120m_stable_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_full_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_full_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_full_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_full_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_full_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_full_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_full_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_full_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_full_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_full_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_full_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_full_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_full_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_full_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_full_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_full_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_full_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_full_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_matched_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_matched_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_matched_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_matched_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_matched_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_matched_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_matched_2025-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_matched_2025-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_matched_2025-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_matched_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_matched_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_60m_stable_matched_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_matched_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_matched_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_120m_stable_matched_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_matched_2026-01-01_train_selection_hash_purge",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_matched_2026-01-01_calibration_and_threshold_replay",
+      "passed": true
+    },
+    {
+      "check": "catboost_treasury_halyk_24m_stable_matched_2026-01-01_all_view_prediction_replay",
+      "passed": true,
+      "maximum_probability_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "CatBoost18models_verified",
+      "passed": true
+    },
+    {
+      "check": "history_keeps_unmatured_dates_hides_labels",
+      "passed": true,
+      "unmatured_history_rows": 90
+    },
+    {
+      "check": "calibration_all_labels_mature",
+      "passed": true
+    },
+    {
+      "check": "root_all_existing_annual_monthly_checkpoint_maturities",
+      "passed": true,
+      "checkpoints": 118,
+      "errors": []
+    },
+    {
+      "check": "root_2025_augmentation_same_labels_and_mature_times",
+      "passed": true
+    },
+    {
+      "check": "root_2025_legacy_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_2025_cadence90_cd3_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_2025_cadence90_cd2_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_2025_cadence85_cd2_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_2025_champion_prediction_masks_and_causality",
+      "passed": true,
+      "errors": [],
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "root_2026_augmentation_same_labels_and_mature_times",
+      "passed": true
+    },
+    {
+      "check": "root_2026_legacy_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_2026_cadence90_cd3_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_2026_cadence90_cd2_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_2026_cadence85_cd2_past_only_policy_fit",
+      "passed": true
+    },
+    {
+      "check": "root_champion2026_normal_objective_and_units",
+      "passed": true,
+      "rows": 156,
+      "dates": 156,
+      "signals": 34,
+      "weeks": 33,
+      "weeks_1_2": 0.9393939393939394,
+      "signals_per_week": 1.0303030303030303,
+      "silent_weeks": 2,
+      "brier": 0.22298006449830718,
+      "base_hit": 0.36538461538461536,
+      "hit_rate": 0.5294117647058824,
+      "lift": 1.4489164086687307,
+      "forward_delta_bps": 31.74211973948354,
+      "forward_signal_bps": 68.90669603120266,
+      "note": "Forward delta is relative to all eligible-date mean, not net executable P&L."
+    },
+    {
+      "check": "root_champion2026_bank_delayed_objective_and_units",
+      "passed": true,
+      "rows": 156,
+      "dates": 156,
+      "signals": 34,
+      "weeks": 33,
+      "weeks_1_2": 0.9090909090909091,
+      "signals_per_week": 1.0303030303030303,
+      "silent_weeks": 3,
+      "brier": 0.22805701352375116,
+      "base_hit": 0.36538461538461536,
+      "hit_rate": 0.5,
+      "lift": 1.368421052631579,
+      "forward_delta_bps": 30.585353713885013,
+      "forward_signal_bps": 67.74993000560413,
+      "note": "Forward delta is relative to all eligible-date mean, not net executable P&L."
+    },
+    {
+      "check": "root_2026_champion_prediction_masks_and_causality",
+      "passed": true,
+      "errors": [],
+      "maximum_probability_error": 9.71445146547012e-17
+    },
+    {
+      "check": "monthly_hgb_120m_c3_d0_bank_treasury_2025.csv_monthly_actual_state_replay",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "check": "monthly_hgb_60m_c3_d0_bank_treasury_2026.csv_monthly_actual_state_replay",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "check": "monthly_hgb_120m_c3_d0_bank_treasury_aug_2026.csv_monthly_actual_state_replay",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "check": "monthly_hgb_120m_c3_d0_bank_treasury_2026.csv_monthly_actual_state_replay",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "check": "monthly_hgb_60m_c3_d0_bank_treasury_2025.csv_monthly_actual_state_replay",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "check": "monthly_hgb_120m_c3_d0_bank_treasury_aug_2025.csv_monthly_actual_state_replay",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "tree_fits": 0,
+  "api_calls": 0,
+  "verification_code_sha256": "1e6725d9c1e309ec5dd410e109a861ab2f0e1b17135ee0cea00fae530399a474",
+  "root_code_sha256": {
+    "common.py": "ce17041a10cccb12de75df75031bceb236bd711f919ac7678a5a39f279ef7946",
+    "hgb.py": "e501c169d9564582eb2cf970cf4c96272becf5904e2127c60b9b7e0eab35326f",
+    "monthly.py": "dd3c99a144a53301007d492046d19dccdf31809dbf20dc425a24f9b0612371e6",
+    "protocol.json": "79c12532f3d1fd6e69b828d420ffb4d247d7324519f6ed01da504d881270b8b4"
+  },
+  "limitations": "Retrospective model/policy selection2026 explicitly authorized; no untouched confirmation or execution-profit claim. Duplicate-normal attribution is a separate requested control."
+}

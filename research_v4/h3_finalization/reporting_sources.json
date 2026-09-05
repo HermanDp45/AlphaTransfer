@@ -1,0 +1,38 @@
+{
+  "prior_union": "research_v4/robust_selection/REPORTING_ALL_METRICS.csv",
+  "prior_sha256": "43ab0faabb8dc52fe8dac306f3d2cb928eb5eccbc9c7c712945eea4a9c19b4ff",
+  "prior_rows": 3638,
+  "added_sources": [
+    {
+      "path": "research_v4/h3_finalization/by_year.csv",
+      "rows": 42,
+      "sha256": "4692c255fed5109000420c1b5524b49320fd03ff9f57a1569e6817b5ba806a54"
+    },
+    {
+      "path": "research_v4/h3_finalization/summary.csv",
+      "rows": 14,
+      "sha256": "71e45ea1d04263ccf8c7b42c59de06a2880e0e0506a04a16f1a2ab1fe2802fba"
+    },
+    {
+      "path": "research_v4/h3_finalization/ranking.csv",
+      "rows": 14,
+      "sha256": "b1732a09a54a3f867c827501a0ce60609d403035c69d517cfd8c164ed9a42570"
+    },
+    {
+      "path": "research_v4/h3_finalization/paired_intervals.csv",
+      "rows": 7,
+      "sha256": "c004be25e5cee97bc3cfb583e5de4468dfd9ba3e4ca7ce325d135c3cda8cb30a"
+    },
+    {
+      "path": "research_v4/h3_finalization/closing_by_year.csv",
+      "rows": 3,
+      "sha256": "df077f0932842185be5d3d528ae93a71b6228ca9416a2530590e95ef90cd5b57"
+    },
+    {
+      "path": "research_v4/h3_finalization/closing_head_metrics.csv",
+      "rows": 3,
+      "sha256": "c12fd347c18920d88c97e5297dbf2aa0dcdef20f96a45e757b5f4689fddee920"
+    }
+  ],
+  "total_rows": 3721
+}

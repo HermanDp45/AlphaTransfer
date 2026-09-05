@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "fits": 12,
+  "output_rows": 4776,
+  "history_and_calibration_rows": 5880,
+  "code_sha256": "d8acef3e50a7c4bb54b11c223273a67075cd65961844ec2260119dfb28ae5516",
+  "fit_engine_sha256": "f5fb7981118c4ba8c81616a8c14f950a923c5bec7351c811edbac8687ff38e58",
+  "prediction_sha256": "a4ffc62633f50ea42a29da0f1e096266b14ed05969c5cd99c755655cd71e7336",
+  "history_sha256": "9fc0e61ecd466129e7a98d8f66debd6bfa70dc47767d7a0097b05c1bcc752dd8",
+  "assessment_resume": "Initial paired equality rejected ns-vs-us date dtype despite equal date keys; reloaded both frozen CSVs at same resolution. No model or prediction changed."
+}

@@ -1,0 +1,7 @@
+{
+  "authority": "Usermessage: ignore additional bank data delay of one day; Alpha always has freshest quotes.",
+  "primary": "Normal2026:lift>=1.3,calendarweeks1–2>=85%,forwardadvantage>0.",
+  "consistency": "Normal2025 samepointgates;2026-onlyfrontier alsodisclosed so consistencytradeoff visible.",
+  "ranking": "Amongeligible,normal2026lift desc,normalforwardadvantage desc,normal2025lift desc;exacttieprefersnonredundantmodel andlegacy policy.",
+  "delay": "BankandOXRdelaysremain diagnostic; noautomatic disqualification. Normalhistoricalbanklag1availabilityassumption retained, not replaced withunobservedAlphaquotes."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "fits": 6,
+  "rows": 21160,
+  "source_files_unchanged": true,
+  "code_sha256": "34a48ca72e3783efe190943b56ad347831267e4eb1aa3a9d7ff81f87c5751eef",
+  "protocol_sha256": "314c631bfba686ceaa4bf8156f9fd4f08ea07181cb81ef21091e19e432680e54",
+  "predictions_sha256": "3c1430f2c4218523e9d934ae1d8471714821c5f06d91ae42803d89cd6427f2fe"
+}

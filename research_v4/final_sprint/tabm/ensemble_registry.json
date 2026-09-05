@@ -1,0 +1,60 @@
+[
+  {
+    "config_id": "tabm_periodic_kzt_120m_sensemble3",
+    "cutoff": "2025-01-01",
+    "components": [
+      {
+        "model": "tabm_periodic_kzt_120m_s0_2025-01-01",
+        "raw_weight": 0.3333333333333333,
+        "weights_sha256": "5a5d782116bd987705f056919289be8ca07508e72d2d77d922c85277306759de",
+        "preprocessor_sha256": "efabc5be8e7d4c8b1f0a41717d2c7b9e2be8097dbc7a3ee0fb0042ad84d6d307",
+        "raw_predictions_sha256": "0ae7c2f793c26af989d83d8645563cf88b1da8f5e9e20056a0850d8620d8dd0b"
+      },
+      {
+        "model": "tabm_periodic_kzt_120m_s1_2025-01-01",
+        "raw_weight": 0.3333333333333333,
+        "weights_sha256": "6beef00de7f4d0d0ab4654253fae7be95e14042c219a504306e753e0229376ab",
+        "preprocessor_sha256": "cefda0955f539ad6be1cf931dbe21e2e55d9b81f095252523310337696ff1406",
+        "raw_predictions_sha256": "aa653ea826517ea48cfec124bfc7a15c48e44ad5cb4c65c7bbb0e7d79540e8e8"
+      },
+      {
+        "model": "tabm_periodic_kzt_120m_s2_2025-01-01",
+        "raw_weight": 0.3333333333333333,
+        "weights_sha256": "34d0b98dcc1b805c688dc069aba80816628a03659e51ac09023add556d733389",
+        "preprocessor_sha256": "9a989189d851309535e550f5bf06356ab979785f8af21d8b0295086568e374e6",
+        "raw_predictions_sha256": "0e95073fc923c115e07e7f39edc1bba8e00bd390cf65ba1829ba6f621462563c"
+      }
+    ],
+    "aggregation": "mean raw probability, then prior-year Platt and prior-year notification policy",
+    "test_fitted_weights": false
+  },
+  {
+    "config_id": "tabm_periodic_kzt_120m_sensemble3",
+    "cutoff": "2026-01-01",
+    "components": [
+      {
+        "model": "tabm_periodic_kzt_120m_s0_2026-01-01",
+        "raw_weight": 0.3333333333333333,
+        "weights_sha256": "395a40c90a88045811d00a9957f84f877c16a9b2e812dba508ee0288f384d673",
+        "preprocessor_sha256": "3dfdf03f691b999285e924a3df356f1e08859b215f3c2b53a7123c5fb171a40b",
+        "raw_predictions_sha256": "f39663c3151e7997f402831459b98909d200d0265da91ecb6915d2210cef43e0"
+      },
+      {
+        "model": "tabm_periodic_kzt_120m_s1_2026-01-01",
+        "raw_weight": 0.3333333333333333,
+        "weights_sha256": "4e4448fe881df0e4ffc0f54ad27ad3a437e7fbb6801934fa033b8e43606c7c28",
+        "preprocessor_sha256": "e2f36996e198402a270315fd8f320ee003d9e201e6d602c72985927112ff9880",
+        "raw_predictions_sha256": "1d7f55367a718cefeb017d3e7d34b22b5da544ac00a4939ce5ad39c92093ed57"
+      },
+      {
+        "model": "tabm_periodic_kzt_120m_s2_2026-01-01",
+        "raw_weight": 0.3333333333333333,
+        "weights_sha256": "8c17f17205f8c13f0a2e54c0508806e40db3f4f3d5501f615a76cd81f6c0e6aa",
+        "preprocessor_sha256": "5d9f59ff6c70e7a3542c7d65f9cd412733eee5c8abff30d5f005a2fc6012811b",
+        "raw_predictions_sha256": "8c38fc2aca8d3a9ab17255a5ae4c64accc16002cfc83d29684943c8fb1fde8e7"
+      }
+    ],
+    "aggregation": "mean raw probability, then prior-year Platt and prior-year notification policy",
+    "test_fitted_weights": false
+  }
+]

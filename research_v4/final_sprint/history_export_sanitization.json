@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "files": 119,
+  "formerly_visible_immature_outcomes_masked": 620,
+  "reason": "Inference history was always consumed only for probabilities/contactstate. Exported outcome columns are now masked explicitly to prevent downstream accidental use. No model, testprediction, calibrationfit or contactmask changed."
+}

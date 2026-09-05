@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AlphaTransfer research two-head scenario preview",
+  "type": "object",
+  "required": ["status", "research_only"],
+  "properties": {
+    "status": {"enum": ["research_proposal", "suppressed", "rejected", "unavailable"]},
+    "research_only": {"const": true},
+    "authorized_contact": {"const": false},
+    "as_of": {"type": "string", "format": "date"},
+    "routing_mode": {"enum": ["dual_annotations", "relative_quality", "now_confirmed_closing"]},
+    "selected": {"oneOf": [{"$ref": "#/$defs/signal"}, {"type": "null"}]},
+    "annotations": {"type": "array", "maxItems": 1, "items": {"allOf": [{"$ref": "#/$defs/signal"}, {"properties": {"scenario": {"const": "CLOSING"}}}]}},
+    "reasons": {"type": "array", "items": {"type": "string"}},
+    "next_state": {"type": "object", "properties": {"contacts": {"type": "array"}}, "required": ["contacts"]}
+  },
+  "allOf": [{"if": {"properties": {"status": {"const": "research_proposal"}, "routing_mode": {"const": "dual_annotations"}}, "required": ["status", "routing_mode"]}, "then": {"required": ["selected", "annotations", "authorized_contact"], "properties": {"selected": {"allOf": [{"$ref": "#/$defs/signal"}, {"properties": {"scenario": {"const": "NOW"}}}]}}}}],
+  "$defs": {
+    "signal": {
+      "type": "object",
+      "required": ["scenario", "target_contract", "corridor", "model_id", "probability", "past_baseline_rate", "copy"],
+      "properties": {
+        "scenario": {"enum": ["NOW", "CLOSING"]},
+        "target_contract": {"type": "string"},
+        "corridor": {"type": "string"},
+        "model_id": {"type": "string"},
+        "probability": {"type": "number", "minimum": 0, "maximum": 1},
+        "past_baseline_rate": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "copy": {"type": "object", "required": ["title", "body", "contains_future_promise"], "properties": {"contains_future_promise": {"const": false}}}
+      },
+      "allOf": [
+        {"if": {"properties": {"scenario": {"const": "NOW"}}}, "then": {"properties": {"target_contract": {"const": "NOW:R[t]<=min(R[t+1:t+5]);R=RUB_per_recipient_unit;h=5_effective_CBR_rows;tau=0"}}}},
+        {"if": {"properties": {"scenario": {"const": "CLOSING"}}}, "then": {"properties": {"target_contract": {"const": "CLOSING:R[t+5]>R[t];R=RUB_per_recipient_unit;h=5_effective_CBR_rows;tau=0"}}}}
+      ]
+    }
+  }
+}

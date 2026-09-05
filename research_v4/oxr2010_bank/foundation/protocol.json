@@ -1,0 +1,182 @@
+{
+  "frozen_at_utc": "2026-09-05T11:01:34.556315+00:00",
+  "specifications": [
+    {
+      "name": "synth_no_oxr",
+      "model": "synth_zs",
+      "family": "none",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "synth_basis2018_D2",
+      "model": "synth_zs",
+      "family": "basis",
+      "since": "2018-06-17",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "synth_basis2010_D2",
+      "model": "synth_zs",
+      "family": "basis",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "synth_full2010_D2",
+      "model": "synth_zs",
+      "family": "full",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "synth_basis2010_D3",
+      "model": "synth_zs",
+      "family": "basis",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 48,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "synth_full2010_D3",
+      "model": "synth_zs",
+      "family": "full",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 48,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "synth_availability2010_D2",
+      "model": "synth_zs",
+      "family": "coverage",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "synth_kzt_no_oxr",
+      "model": "synth_zs",
+      "family": "none",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": true,
+      "head_months": 120
+    },
+    {
+      "name": "synth_kzt_halyk_D2",
+      "model": "synth_zs",
+      "family": "none",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 2,
+      "local_kzt_calibration": true,
+      "head_months": 120
+    },
+    {
+      "name": "synth_kzt_basis2010_D2",
+      "model": "synth_zs",
+      "family": "basis",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": true,
+      "head_months": 120
+    },
+    {
+      "name": "synth_kzt_basis2010_halyk_D2",
+      "model": "synth_zs",
+      "family": "basis",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 2,
+      "local_kzt_calibration": true,
+      "head_months": 120
+    },
+    {
+      "name": "synth_kzt_basis2010_halyk_D3",
+      "model": "synth_zs",
+      "family": "basis",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 48,
+      "bank_lag_calendar_days": 3,
+      "local_kzt_calibration": true,
+      "head_months": 120
+    },
+    {
+      "name": "synth_kzt_halyk_D3",
+      "model": "synth_zs",
+      "family": "none",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 3,
+      "local_kzt_calibration": true,
+      "head_months": 120
+    },
+    {
+      "name": "small_no_oxr",
+      "model": "small_ft",
+      "family": "none",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    },
+    {
+      "name": "small_basis2010_D2",
+      "model": "small_ft",
+      "family": "basis",
+      "since": "2010-01-01",
+      "delay_hours_after_completed_day": 24,
+      "bank_lag_calendar_days": 0,
+      "local_kzt_calibration": false,
+      "head_months": 120
+    }
+  ],
+  "primary_model": "Chronos2 Synth zero-shot, chosen before this extension using prior development results; Small300 is prespecified negative-control challenger only",
+  "head": "exact immutable V3 panel_extended BASE +14 unchanged marginal forecast features +declared external features; HGB120 depth2 lr.05 l2=2 minleaf40 seed20260903 early_stoppingFalse",
+  "source_snapshot": "/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v4/oxr2010_bank/input_oxr_snapshot.csv",
+  "source_version_control": "basis2010 vsbasis2018 both derive from this same new full snapshot; no comparison with old2018 source revision",
+  "timing": "OXR available=max(published_at_utc,observed_date+1day UTC)+24h primary or48h stress, decision10:05MSK,staleness<=7days; Halyk effective_date+2calendar days primary,+3stress",
+  "splits": "10year head training before previous12months calibration; last5effective CBR rows per corridor purged train/calibration; actual future label dates verified; test2023,2024,2025 development; Jan2026 andMar2026 explicit retrospective frozen fits",
+  "backbones": "NO new neural training or inference; immutable previous quantile caches and checkpoints only. Small yearly checkpoint ends before prior calibration year; sameJan2026 neural weights also inMarch2026",
+  "target": "original NOW path-survival current RUB/unit<=min next5CBRobservations; preserve equal-positive labels and originalforward/cell policy outcomes",
+  "in_sample_feature_disclosure": "early supervised-head forecast features generated by fixed backbone trained on those early dates, not ten years cross-fitted. Synth zero-shot publisherclaims synthetic-only; release late2025 makes pre2026 tests retrospective",
+  "local_kzt": "pooled five-currency HGB training, prior KZT-only calibrator and thresholds, KZT-only test and history replay. No neural or KZT residual tuning. Bank-only versus OXR-only versus fusion and neither form explicit 2x2 control",
+  "development_selection": "minimum pooled development Brier among synth_no_oxr,synth_basis2010_D2,synth_full2010_D2; independent KZT minimum among synth_kzt_no_oxr,synth_kzt_halyk_D2,synth_kzt_basis2010_D2,synth_kzt_basis2010_halyk_D2. Write selection.json BEFORE computing new2026 predictions. Every configuration is still reported.",
+  "2026_status": "already inspected retrospective temporal test, not pristine holdout; no choices from new2026 outcomes",
+  "uncertainty": "10000 paired calendar-month blocks stratified byyear, shared acrosscurrencies; recompute cell(year,corridor) random-day means and signals; exploratory conditional intervals not corrected for historical hypothesis search",
+  "metrics": [
+    "Brier",
+    "logloss",
+    "AUC",
+    "ECE10",
+    "signals",
+    "hit_rate",
+    "cell_adjusted_lift",
+    "forward_delta_bps",
+    "symmetric_delta_bps",
+    "regret_bps",
+    "cadence"
+  ],
+  "bank_interpretation": "Halyk BANK SELLS RUB historicalchart; not executable customerRUB->KZT netreceipt. No claim of real banking savings."
+}

@@ -1,0 +1,10 @@
+{
+  "model": "chronos2_small",
+  "device": "cpu",
+  "steps": 20,
+  "seconds": 3.4796647499897517,
+  "train_start": "2012-01-11 00:00:00",
+  "train_end": "2021-12-31 00:00:00",
+  "test_metrics_computed": false,
+  "role": "runtime only; checkpoint never used for reported predictions"
+}

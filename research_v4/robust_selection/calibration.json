@@ -1,0 +1,326 @@
+[
+  {
+    "config_id": "tabm_kzt",
+    "train_horizon": 3,
+    "year": 2024,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.3705434169410549,
+    "slope": 1.3296664827835165
+  },
+  {
+    "config_id": "tabm_kzt",
+    "train_horizon": 3,
+    "year": 2025,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.18618713131347717,
+    "slope": 0.8785256122170625
+  },
+  {
+    "config_id": "tabm_kzt",
+    "train_horizon": 3,
+    "year": 2026,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.13115241649320544,
+    "slope": 1.006741446481103
+  },
+  {
+    "config_id": "tabm_kzt",
+    "train_horizon": 5,
+    "year": 2024,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.552872202041577,
+    "slope": 1.0855257780650553
+  },
+  {
+    "config_id": "tabm_kzt",
+    "train_horizon": 5,
+    "year": 2025,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.4405777301809818,
+    "slope": 0.5730515406793558
+  },
+  {
+    "config_id": "tabm_kzt",
+    "train_horizon": 5,
+    "year": 2026,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.1877634777227325,
+    "slope": 0.7619461751219495
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2024,
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.4085643794199565,
+    "slope": 1.7602564505257645
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2024,
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.3789768072358615,
+    "slope": 1.816805598991317
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2024,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.7463941068323778,
+    "slope": 2.127775249662924
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2024,
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.5031195922447198,
+    "slope": 1.9423338614738137
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2024,
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.2767133071253383,
+    "slope": 1.6620017947013317
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2025,
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.02079654184181504,
+    "slope": 0.6461778964056152
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2025,
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.02643771325473414,
+    "slope": 0.6162239840209203
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2025,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.30853410347894944,
+    "slope": 0.5678238733343008
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2025,
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.0050833409666121735,
+    "slope": 0.651836924169684
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2025,
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.0475443836065272,
+    "slope": 0.6714444407148579
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2026,
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.23863084538004758,
+    "slope": 0.9012005944720786
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2026,
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.3674587168125761,
+    "slope": 0.9545244306907712
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2026,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.2838819507020717,
+    "slope": 0.8386195589085234
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2026,
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.08692930361400492,
+    "slope": 0.8519505173997856
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 3,
+    "year": 2026,
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.09139950784110645,
+    "slope": 0.9886528631366797
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2024,
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.1006916490036946,
+    "slope": 2.0911061376786964
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2024,
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.8422715352342567,
+    "slope": 1.9308013272692435
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2024,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.732085162018669,
+    "slope": 2.5327053907894794
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2024,
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 2.056458231893724,
+    "slope": 2.105431143618442
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2024,
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 1.5836401052813993,
+    "slope": 1.6440543728356254
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2025,
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.11718738414239564,
+    "slope": 0.4603028652637876
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2025,
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.008073143737089263,
+    "slope": 0.4654933413285771
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2025,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.5129608314526629,
+    "slope": 0.4153483852747496
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2025,
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.10643327803378952,
+    "slope": 0.4478153918777209
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2025,
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.0698052325967248,
+    "slope": 0.5213172814832151
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2026,
+    "corridor": "AMD",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.18269926773018125,
+    "slope": 1.058617467775827
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2026,
+    "corridor": "KGS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.3557555021348826,
+    "slope": 0.9903048253562141
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2026,
+    "corridor": "KZT",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.0869273657490546,
+    "slope": 1.2049276369654147
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2026,
+    "corridor": "TJS",
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.16054354388003034,
+    "slope": 0.9775929465523724
+  },
+  {
+    "config_id": "tabm_pooled",
+    "train_horizon": 5,
+    "year": 2026,
+    "corridor": "UZS",
+    "method": "prior_year_monotone_platt",
+    "intercept": -0.10965665378464144,
+    "slope": 1.203555599201019
+  }
+]

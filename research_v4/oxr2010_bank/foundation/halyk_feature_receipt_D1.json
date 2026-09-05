@@ -1,0 +1,159 @@
+{
+  "lag_calendar_days": 1,
+  "KASE_duplicate_conflict_cells": 4,
+  "KASE_duplicate_resolution": "complete active price+volume+deals first, valid range second, latest numbered session as tie-break; never sum",
+  "sources": [
+    {
+      "source": "RUBKZT_TOM",
+      "raw_days": 1229,
+      "active_days": 1208,
+      "min": "2020-01-24",
+      "max": "2026-09-01",
+      "nonpositive_omitted": 21,
+      "crossed_daily_bid_offer_share": 0.9495524816924329
+    },
+    {
+      "source": "USDKZT_TOM",
+      "raw_days": 1637,
+      "active_days": 1637,
+      "min": "2020-01-05",
+      "max": "2026-09-01",
+      "nonpositive_omitted": 0,
+      "crossed_daily_bid_offer_share": 0.8625534514355528
+    },
+    {
+      "source": "CNYKZT_TOM",
+      "raw_days": 1388,
+      "active_days": 1338,
+      "min": "2020-01-06",
+      "max": "2026-09-01",
+      "nonpositive_omitted": 50,
+      "crossed_daily_bid_offer_share": 0.850864553314121
+    }
+  ],
+  "bank_price_direction": "BANK SELLS RUB; not customer RUB->KZT all-in quote",
+  "feature_groups": {
+    "kase_prices": [
+      "kase_rubkzt_tom_ret1",
+      "kase_rubkzt_tom_ret5",
+      "kase_rubkzt_tom_close_vs_vwap",
+      "kase_usdkzt_tom_ret1",
+      "kase_usdkzt_tom_ret5",
+      "kase_usdkzt_tom_close_vs_vwap",
+      "kase_rub_market_official_basis"
+    ],
+    "kase_liquidity": [
+      "kase_rubkzt_tom_range",
+      "kase_rubkzt_tom_log_volume",
+      "kase_rubkzt_tom_volume_ratio20",
+      "kase_rubkzt_tom_trades_ratio20",
+      "kase_rubkzt_tom_log_illiquidity20",
+      "kase_usdkzt_tom_range",
+      "kase_usdkzt_tom_log_volume",
+      "kase_usdkzt_tom_volume_ratio20",
+      "kase_usdkzt_tom_trades_ratio20",
+      "kase_usdkzt_tom_log_illiquidity20"
+    ],
+    "kase_full": [
+      "kase_rubkzt_tom_ret1",
+      "kase_rubkzt_tom_ret5",
+      "kase_rubkzt_tom_close_vs_vwap",
+      "kase_usdkzt_tom_ret1",
+      "kase_usdkzt_tom_ret5",
+      "kase_usdkzt_tom_close_vs_vwap",
+      "kase_rub_market_official_basis",
+      "kase_rubkzt_tom_range",
+      "kase_rubkzt_tom_log_volume",
+      "kase_rubkzt_tom_volume_ratio20",
+      "kase_rubkzt_tom_trades_ratio20",
+      "kase_rubkzt_tom_log_illiquidity20",
+      "kase_usdkzt_tom_range",
+      "kase_usdkzt_tom_log_volume",
+      "kase_usdkzt_tom_volume_ratio20",
+      "kase_usdkzt_tom_trades_ratio20",
+      "kase_usdkzt_tom_log_illiquidity20"
+    ],
+    "halyk": [
+      "halyk_rub_sell_official_basis",
+      "halyk_rub_personal_legal_gap",
+      "halyk_personal_rub_ret1",
+      "halyk_personal_rub_ret5",
+      "halyk_personal_usd_ret1",
+      "halyk_personal_usd_ret5"
+    ],
+    "moex_liquidity": [
+      "moex_cnyrub_range",
+      "moex_cnyrub_trades_ratio20",
+      "moex_cnyrub_log_trades",
+      "moex_rusfar_cny_minus_rub"
+    ],
+    "kase_halyk": [
+      "kase_rubkzt_tom_ret1",
+      "kase_rubkzt_tom_ret5",
+      "kase_rubkzt_tom_close_vs_vwap",
+      "kase_usdkzt_tom_ret1",
+      "kase_usdkzt_tom_ret5",
+      "kase_usdkzt_tom_close_vs_vwap",
+      "kase_rub_market_official_basis",
+      "kase_rubkzt_tom_range",
+      "kase_rubkzt_tom_log_volume",
+      "kase_rubkzt_tom_volume_ratio20",
+      "kase_rubkzt_tom_trades_ratio20",
+      "kase_rubkzt_tom_log_illiquidity20",
+      "kase_usdkzt_tom_range",
+      "kase_usdkzt_tom_log_volume",
+      "kase_usdkzt_tom_volume_ratio20",
+      "kase_usdkzt_tom_trades_ratio20",
+      "kase_usdkzt_tom_log_illiquidity20",
+      "halyk_rub_sell_official_basis",
+      "halyk_rub_personal_legal_gap",
+      "halyk_personal_rub_ret1",
+      "halyk_personal_rub_ret5",
+      "halyk_personal_usd_ret1",
+      "halyk_personal_usd_ret5",
+      "halyk_rub_sell_market_gap"
+    ]
+  },
+  "development_nonmissing": {
+    "halyk_personal_rub_ret5": 1.0,
+    "kase_rubkzt_tom_volume_ratio20": 1.0,
+    "kase_rubkzt_tom_ret1": 1.0,
+    "kase_rubkzt_tom_ret5": 1.0,
+    "kase_rubkzt_tom_range": 1.0,
+    "kase_rubkzt_tom_log_volume": 1.0,
+    "kase_rubkzt_tom_log_illiquidity20": 1.0,
+    "halyk_personal_usd_ret1": 1.0,
+    "halyk_rub_personal_legal_gap": 0.9582210242587601,
+    "kase_rub_market_official_basis": 1.0,
+    "moex_cnyrub_range": 1.0,
+    "kase_usdkzt_tom_log_illiquidity20": 1.0,
+    "moex_cnyrub_log_trades": 1.0,
+    "kase_usdkzt_tom_ret1": 1.0,
+    "halyk_rub_sell_official_basis": 1.0,
+    "halyk_personal_rub_ret1": 1.0,
+    "kase_rubkzt_tom_close_vs_vwap": 1.0,
+    "moex_cnyrub_trades_ratio20": 1.0,
+    "kase_rubkzt_tom_trades_ratio20": 1.0,
+    "kase_usdkzt_tom_trades_ratio20": 1.0,
+    "halyk_rub_sell_market_gap": 0.9595687331536388,
+    "kase_usdkzt_tom_volume_ratio20": 1.0,
+    "halyk_personal_usd_ret5": 1.0,
+    "kase_usdkzt_tom_ret5": 1.0,
+    "kase_usdkzt_tom_log_volume": 1.0,
+    "moex_rusfar_cny_minus_rub": 0.9865229110512129,
+    "kase_usdkzt_tom_close_vs_vwap": 1.0,
+    "kase_usdkzt_tom_range": 1.0
+  },
+  "inputs_sha256": {
+    "research_v4/liquidity/kase_spot_daily.csv": "2458d5e31004fc749a7388007514530a4a519db777ee6f81f27a0ec8210938a3",
+    "research_v4/liquidity/halyk_sell_daily.csv": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "research_v4/liquidity/experiment.py": "d2cf11610daf4aff209abaf7bb97705d5e5a1f7bcc45b351009f580dde467dfa",
+    "research_v3/models/panel_extended.pkl": "f1b2a1f95f713bc971c0ed680f8c216175da18332d779e68550ca3ce7ccfd2b6"
+  },
+  "source_timing": {
+    "KASE": "trade date + 1 calendar days",
+    "Halyk": "chart effective date + 1 calendar days",
+    "MOEX_additions": "V3 available_date lag1",
+    "incumbent_CNY_basis": "unchanged V3 same-session basis with original lag1; not stressed by new-source lag test"
+  }
+}

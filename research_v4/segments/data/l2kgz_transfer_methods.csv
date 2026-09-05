@@ -1,0 +1,13 @@
+period,method,migrant_months,weighted_share
+pre2024_observations_released_later,Brought by self,4,0.004119571214184766
+pre2024_observations_released_later,Foreign bank,642,0.24023915667315673
+pre2024_observations_released_later,Kyrgyzstan based bank,1485,0.544144449536694
+pre2024_observations_released_later,"Official transfer service (moneylink, western union etc.)",456,0.1753363607905582
+pre2024_observations_released_later,Sent with others,29,0.011393788152808268
+pre2024_observations_released_later,Unofficial havala system,72,0.02476667363259804
+full2021_2025,Brought by self,4,0.0030035116986706534
+full2021_2025,Foreign bank,920,0.24320404293504652
+full2021_2025,Kyrgyzstan based bank,2078,0.5449772331153203
+full2021_2025,"Official transfer service (moneylink, western union etc.)",665,0.18131405743890874
+full2021_2025,Sent with others,33,0.009258802978340572
+full2021_2025,Unofficial havala system,73,0.018242351833713095

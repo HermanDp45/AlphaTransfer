@@ -1,0 +1,121 @@
+[
+  {
+    "name": "v3_24m",
+    "months": 24,
+    "family": "none",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "v3_120m",
+    "months": 120,
+    "family": "none",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_returns_24m_delay24h",
+    "months": 24,
+    "family": "returns",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_returns_24m_delay48h",
+    "months": 24,
+    "family": "returns",
+    "delay": 48,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_basis_24m_delay24h",
+    "months": 24,
+    "family": "basis",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_basis_24m_delay48h",
+    "months": 24,
+    "family": "basis",
+    "delay": 48,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_full_24m_delay24h",
+    "months": 24,
+    "family": "full",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_full_24m_delay48h",
+    "months": 24,
+    "family": "full",
+    "delay": 48,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_returns_120m_delay24h",
+    "months": 120,
+    "family": "returns",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_returns_120m_delay48h",
+    "months": 120,
+    "family": "returns",
+    "delay": 48,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_basis_120m_delay24h",
+    "months": 120,
+    "family": "basis",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_basis_120m_delay48h",
+    "months": 120,
+    "family": "basis",
+    "delay": 48,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_full_120m_delay24h",
+    "months": 120,
+    "family": "full",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_full_120m_delay48h",
+    "months": 120,
+    "family": "full",
+    "delay": 48,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_coverage_120m",
+    "months": 120,
+    "family": "coverage",
+    "delay": 24,
+    "since": "2018-06-17"
+  },
+  {
+    "name": "oxr_full_120m_since2020",
+    "months": 120,
+    "family": "full",
+    "delay": 24,
+    "since": "2020-01-01"
+  },
+  {
+    "name": "oxr_full_120m_since2022",
+    "months": 120,
+    "family": "full",
+    "delay": 24,
+    "since": "2022-01-01"
+  }
+]

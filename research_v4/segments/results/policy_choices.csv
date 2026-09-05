@@ -1,0 +1,10 @@
+test_year,segment,universal,group_aware,unconstrained
+2024,frequent,h1_q0.50_cad3,h10_q0.50_cad3,h10_q0.50_cad3
+2024,monthly,h1_q0.50_cad3,h20_q0.50_cad7,h3_q0.25_cad3
+2024,occasional,h1_q0.50_cad3,h20_q0.25_cad14,h20_q0.50_cad7
+2025,frequent,h5_q0.50_cad3,h3_q0.50_cad3,h3_q0.50_cad3
+2025,monthly,h5_q0.50_cad3,h20_q0.25_cad7,h5_q0.25_cad3
+2025,occasional,h5_q0.50_cad3,h3_q0.25_cad14,h5_q0.50_cad3
+2026,frequent,h3_q0.50_cad3,h3_q0.50_cad3,h3_q0.50_cad3
+2026,monthly,h3_q0.50_cad3,h1_q0.25_cad7,h3_q0.50_cad3
+2026,occasional,h3_q0.50_cad3,h3_q0.25_cad14,h3_q0.75_cad3

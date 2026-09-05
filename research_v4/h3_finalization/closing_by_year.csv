@@ -1,0 +1,4 @@
+year,train_horizon,model,policy,now_signals,closing_annotations,hit_rate,base_hit,lift,endpoint_delta_bps,extra_contacts
+2024,3,closing_hgb_kzt_fullhistory,NOW_H3_rank80_AND_closing_p05_AND_ret1positive,52,15,0.6666666666666666,0.49795918367346936,1.3387978142076502,80.47329154516942,0
+2025,3,closing_hgb_kzt_fullhistory,NOW_H3_rank80_AND_closing_p05_AND_ret1positive,63,24,0.5416666666666666,0.430327868852459,1.2587301587301587,43.15792198713743,0
+2026,3,closing_hgb_kzt_fullhistory,NOW_H3_rank80_AND_closing_p05_AND_ret1positive,36,22,0.8181818181818182,0.6012658227848101,1.3607655502392346,132.37953110857555,0
