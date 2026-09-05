@@ -1,7 +1,54 @@
-.pycache/
+# Python environments and caches
+.venv/
+venv/
+env/
+**/__pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Runtime and experiment scratch space
+**/output/
+**/output-*/
+**/work/
+**/checkpoints/
+*.log
+*.tmp
+*.temp
 *.sqlite3-shm
 *.sqlite3-wal
-*development_h5_predictions.csv
+
+# Generated model binaries and serialized intermediate panels
+*.pt
+*.pth
+*.ckpt
 *.safetensors
-*views.pkl
+*.cbm
+*.joblib
+*.pkl
+*.npz
+*.sqlite3
+
+# Large generated prediction tables
+*development_h5_predictions.csv
+**/*predictions*.csv
+**/*predictions*.csv.gz
+**/all_predictions.csv.gz
+research_v3/behavior/results/client_policy_results.csv
+
+# The compact active production bundle is intentionally versioned.
+!final_solution/tabm_h3/model/weights.pt
+!final_solution/tabm_h3/model/preprocess.joblib
+!final_solution/tabm_h3/model/closing_h3.joblib
