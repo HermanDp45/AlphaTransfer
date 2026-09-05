@@ -1,0 +1,8 @@
+{
+  "rows": 4415,
+  "maximum_probability_error": 0.0,
+  "candidate_mask_exact": true,
+  "bootstrap_reps": 10000,
+  "configurations": 39,
+  "status": "PASS"
+}

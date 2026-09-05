@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="440" viewBox="0 0 920 440">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#223047;font-size:13px}</style>
+<text x="70" y="27" font-size="19" font-weight="bold">Synthetic readiness: contacts vs official-rate timing proxy</text>
+<text x="70" y="47" fill="#667">2023–2025, balanced segments; assumed response 0.35; not causal uplift</text>
+<line x1="70" y1="370.0" x2="850" y2="370.0" stroke="#e6e8ed"/><text x="25" y="374.0">-100</text>
+<line x1="70" y1="327.14285714285717" x2="850" y2="327.14285714285717" stroke="#e6e8ed"/><text x="25" y="331.14285714285717">0</text>
+<line x1="70" y1="284.2857142857143" x2="850" y2="284.2857142857143" stroke="#e6e8ed"/><text x="25" y="288.2857142857143">100</text>
+<line x1="70" y1="241.42857142857144" x2="850" y2="241.42857142857144" stroke="#e6e8ed"/><text x="25" y="245.42857142857144">200</text>
+<line x1="70" y1="198.57142857142858" x2="850" y2="198.57142857142858" stroke="#e6e8ed"/><text x="25" y="202.57142857142858">300</text>
+<line x1="70" y1="155.71428571428572" x2="850" y2="155.71428571428572" stroke="#e6e8ed"/><text x="25" y="159.71428571428572">400</text>
+<line x1="70" y1="112.85714285714289" x2="850" y2="112.85714285714289" stroke="#e6e8ed"/><text x="25" y="116.85714285714289">500</text>
+<line x1="70" y1="70.0" x2="850" y2="70.0" stroke="#e6e8ed"/><text x="25" y="74.0">600</text>
+<text x="62.0" y="392">0</text>
+<text x="203.8181818181818" y="392">10</text>
+<text x="345.6363636363636" y="392">20</text>
+<text x="487.45454545454544" y="392">30</text>
+<text x="629.2727272727273" y="392">40</text>
+<text x="771.0909090909091" y="392">50</text>
+<circle cx="216.31434343434344" cy="258.6744749495183" r="7" fill="#668eae"/><text x="226.31434343434344" y="272.6744749495183" font-weight="bold">frequency_gate</text>
+<circle cx="696.8363636363637" cy="153.6078450126241" r="7" fill="#1f3d69"/><text x="706.8363636363637" y="142.6078450126241" font-weight="bold">market_only</text>
+<circle cx="167.8020202020202" cy="333.1358048657929" r="7" fill="#9b9b9b"/><text x="177.8020202020202" y="350.1358048657929" font-weight="bold">matched_calendar</text>
+<circle cx="167.8020202020202" cy="290.41674875197737" r="7" fill="#aa78a6"/><text x="177.8020202020202" y="290.41674875197737" font-weight="bold">matched_random_market</text>
+<circle cx="167.8020202020202" cy="184.23057928826054" r="7" fill="#d51e37"/><text x="177.8020202020202" y="174.23057928826054" font-weight="bold">user_aware</text>
+<circle cx="788.5454545454545" cy="347.4034256216079" r="7" fill="#708967"/><text x="798.5454545454545" y="363.4034256216079" font-weight="bold">weekly_fixed</text>
+<text x="350" y="428">Contacts per client-period</text>
+<text transform="translate(16 340) rotate(-90)">Gross timing proxy RUB per client-period</text>
+</svg>

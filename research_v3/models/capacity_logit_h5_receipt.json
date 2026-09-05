@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "capacity_logit",
+    "months": 24,
+    "features": "basis",
+    "model": "logit",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "142d07a90d42edaa440d8e88322a2fc8ac7f09d842b9513dd10c7a6a697d9765",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

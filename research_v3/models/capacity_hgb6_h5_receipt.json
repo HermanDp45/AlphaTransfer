@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "capacity_hgb6",
+    "months": 24,
+    "features": "basis",
+    "model": "hgb6",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "cc95219382eb55a0d517a7e1703c5593498c08f8948078519006aa9377471dcd",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

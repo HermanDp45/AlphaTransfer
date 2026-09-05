@@ -1,0 +1,22 @@
+{
+  "repetitions": 10000,
+  "seed": 20260905,
+  "method": "joint year-stratified calendar-month resampling; cell exposure baselines recomputed per draw",
+  "pairing": "identical block weights across policies, allowing different signal counts and dates",
+  "fixed_threshold_initial_state": "empty at first available 2023 decision; carried over observed prediction dates",
+  "sensitivity": "Drop first 20 matured test dates of each outer year without reselecting signals",
+  "exposure": "matured-label dates only; not full operational calendar",
+  "limitations": [
+    "thresholds inspected after historical outcomes; no selection-corrected confirmation",
+    "unlabelled year-end prediction dates and pre-2023 state unavailable",
+    "random-day baseline and policy outcomes are official reference, not executable customer savings",
+    "candidate-count change is part of policy tradeoff; not matched-count architecture comparison",
+    "intervals use finite nonempty draws; sparse events cannot establish reliable precision",
+    "20 signal dates / 6 signal months is a descriptive warning threshold, not a universal statistical theorem"
+  ],
+  "code_sha256": "06e15a6b722b8874f28598e0af2d3b2f5f4f6f7e77f9d2d618fd71d485efca7c",
+  "output_sha256": {
+    "decision_policy_intervals.csv": "72f309ef690b2acb7f04c84b63f59f5af042effd0acd3b330605c543e52b5e9e",
+    "decision_policy_paired_deltas.csv": "aa076a60a2cf899fb6775c0baec7df8520fab28d1b61912ef4e75b8267a8c4fa"
+  }
+}

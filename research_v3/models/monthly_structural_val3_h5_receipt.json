@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "monthly_structural_val3",
+    "months": 24,
+    "features": "structural",
+    "model": "hgb3",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 3,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "dynamic",
+  "horizon": 5,
+  "predictions_sha256": "b668f3ac31c29cd8263d22046924f815f312b0e28e410b30df0474c68ed563c5",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

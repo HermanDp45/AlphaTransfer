@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "sealed_files": 406,
+  "checks": [
+    {
+      "check": "frozen_input_lock_and_normalized_sources",
+      "locked_files": 13,
+      "normalized_artifacts": 76,
+      "status": "PASS"
+    },
+    {
+      "check": "model_prediction_receipts",
+      "count": 55,
+      "status": "PASS"
+    },
+    {
+      "check": "independent_v2_prediction_parity",
+      "rows": 4415,
+      "max_abs_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_ledger",
+      "rows": 166,
+      "status": "PASS"
+    },
+    {
+      "check": "validation_commands",
+      "count": 5,
+      "status": "PASS"
+    },
+    {
+      "check": "simulation_and_production_boundaries",
+      "status": "PASS"
+    }
+  ],
+  "manifest_sha256": "aa70a2b7d84fb5faaf80e24076a0c7d50eaf67fdfabbdf88debd51b7d2085a6a"
+}

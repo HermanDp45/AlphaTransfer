@@ -1,0 +1,40 @@
+{
+  "retrieved_at_utc": "2026-09-04T20:46:53.381990+00:00",
+  "snapshot_warning": "Latest history; effective dates, not timestamped vintages. V2 rows preserved exactly.",
+  "sources": [
+    {
+      "url": "https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01%2F01%2F2010&date_req2=31%2F12%2F2019&VAL_NM_RQ=R01060",
+      "file": "research_v3/models/data/cbr_AMD_2010_2019.xml",
+      "sha256": "66b450a1f4991c7007784a593246191495f4ea6cd08015825a77c5654b8cc265",
+      "rows": 2474
+    },
+    {
+      "url": "https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01%2F01%2F2010&date_req2=31%2F12%2F2019&VAL_NM_RQ=R01335",
+      "file": "research_v3/models/data/cbr_KZT_2010_2019.xml",
+      "sha256": "4baea82355112fc42032713c1f64aafad73aadff3fb1c94aca09f542744e7a03",
+      "rows": 2475
+    },
+    {
+      "url": "https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01%2F01%2F2010&date_req2=31%2F12%2F2019&VAL_NM_RQ=R01370",
+      "file": "research_v3/models/data/cbr_KGS_2010_2019.xml",
+      "sha256": "668b3f2acb7181081850e6efcd3cc2bd3a8b94cda44dd85612679b6fd79294de",
+      "rows": 2474
+    },
+    {
+      "url": "https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01%2F01%2F2010&date_req2=31%2F12%2F2019&VAL_NM_RQ=R01670",
+      "file": "research_v3/models/data/cbr_TJS_2010_2019.xml",
+      "sha256": "072cbe87af3e1cf1e57f961fa5997907b95966d10899574510e646535a7e6d2e",
+      "rows": 2474
+    },
+    {
+      "url": "https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01%2F01%2F2010&date_req2=31%2F12%2F2019&VAL_NM_RQ=R01717",
+      "file": "research_v3/models/data/cbr_UZS_2010_2019.xml",
+      "sha256": "a84b21da315eafc93dc596efef97eea482bffa26beee74b4a04f8dd97a060ae6",
+      "rows": 2474
+    }
+  ],
+  "frozen_v2_sha256": "6132fe4d80c879b7b5ff137107c6b52ed17906c7931f73ac720fed72e915b64e",
+  "rows": 20576,
+  "start": "2010-01-01",
+  "end": "2026-09-01"
+}

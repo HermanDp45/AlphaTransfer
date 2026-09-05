@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "long_with_historical_cny",
+    "months": 120,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": true
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 10,
+  "predictions_sha256": "b1c2304fb9f63f4f173080461aece7ea02ccc0a8956e561b0e3a44c5dfe60d8b",
+  "rows": 4315,
+  "python": "3.14.7",
+  "status": "complete"
+}

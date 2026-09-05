@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "ran_at_utc": "2026-09-04T21:19:36.157999+00:00",
+  "commands": [
+    {
+      "command": [
+        "/private/tmp/alphatransfer-ml.Ci5ycv/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "final_solution/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_cold_start_needs_explicit_intent_and_confirmed_money (test_behavior.BehaviorPreviewTest.test_cold_start_needs_explicit_intent_and_confirmed_money) ... ok\ntest_future_history_and_observation_are_rejected_but_future_plan_allowed (test_behavior.BehaviorPreviewTest.test_future_history_and_observation_are_rejected_but_future_plan_allowed) ... ok\ntest_json_strings_cannot_be_coerced_to_true (test_behavior.BehaviorPreviewTest.test_json_strings_cannot_be_coerced_to_true) ... ok\ntest_missing_data_never_fabricates_eligibility (test_behavior.BehaviorPreviewTest.test_missing_data_never_fabricates_eligibility) ... ok\ntest_simulation_never_promotes_and_is_explicit (test_behavior.BehaviorPreviewTest.test_simulation_never_promotes_and_is_explicit) ... ok\ntest_snapshot_cannot_contain_data_observed_after_it (test_behavior.BehaviorPreviewTest.test_snapshot_cannot_contain_data_observed_after_it) ... ok\ntest_urgency_consent_and_budget_each_override_readiness (test_behavior.BehaviorPreviewTest.test_urgency_consent_and_budget_each_override_readiness) ... ok\ntest_future_rows_cannot_change_the_message (test_facts.FactsTest.test_future_rows_cannot_change_the_message) ... ok\ntest_high_price_is_never_described_as_historical_low (test_facts.FactsTest.test_high_price_is_never_described_as_historical_low) ... ok\ntest_low_level_requires_a_full_history_window (test_facts.FactsTest.test_low_level_requires_a_full_history_window) ... ok\ntest_end_to_end_outputs_have_valid_success_hashes (test_pipeline.PipelineTest.test_end_to_end_outputs_have_valid_success_hashes)\nOne invocation must create the complete machine-readable package. ... ok\ntest_locked_inputs_are_unchanged (test_pipeline.PipelineTest.test_locked_inputs_are_unchanged)\nThe fast path must reject silently changed research inputs. ... ok\ntest_product_decision_never_promotes_research_preview (test_pipeline.PipelineTest.test_product_decision_never_promotes_research_preview)\nA strong offline signal must still be suppressed without production gates. ... ok\ntest_selected_candidate_metrics_match_audited_values (test_pipeline.PipelineTest.test_selected_candidate_metrics_match_audited_values)\nHeadline metrics must be read from the audited selected row. ... ok\ntest_selection_is_personalized_before_shared_contact_budget (test_pipeline.PipelineTest.test_selection_is_personalized_before_shared_contact_budget)\nA client must be ranked only across corridors relevant to that client. ... ok\ntest_unknown_demo_date_fails_instead_of_faking_abstention (test_pipeline.PipelineTest.test_unknown_demo_date_fails_instead_of_faking_abstention)\nA date absent from the tiny demo snapshot must require full predictions. ... ok\ntest_cadence_diagnostics_keep_zero_signal_weeks (test_training.AdaptiveCadenceTest.test_cadence_diagnostics_keep_zero_signal_weeks) ... ok\ntest_candidate_stream_is_per_corridor_before_portfolio_budget (test_training.AdaptiveCadenceTest.test_candidate_stream_is_per_corridor_before_portfolio_budget) ... ok\ntest_cooldown_separates_signals_by_four_sessions (test_training.AdaptiveCadenceTest.test_cooldown_separates_signals_by_four_sessions) ... ok\ntest_exact_score_ties_are_neutral_and_independent_of_row_order (test_training.AdaptiveCadenceTest.test_exact_score_ties_are_neutral_and_independent_of_row_order) ... ok\ntest_final_market_portfolio_is_subset_of_corridor_policy_signals (test_training.AdaptiveCadenceTest.test_final_market_portfolio_is_subset_of_corridor_policy_signals) ... ok\ntest_portfolio_policy_selects_at_most_one_corridor_per_date (test_training.AdaptiveCadenceTest.test_portfolio_policy_selects_at_most_one_corridor_per_date) ... ok\ntest_score_enters_reference_only_after_its_decision (test_training.AdaptiveCadenceTest.test_score_enters_reference_only_after_its_decision) ... ok\ntest_threshold_does_not_use_unresolved_validation_tail_labels (test_training.AdaptiveCadenceTest.test_threshold_does_not_use_unresolved_validation_tail_labels) ... ok\ntest_threshold_uses_purged_validation_loss_inside_candidate_cadence_band (test_training.AdaptiveCadenceTest.test_threshold_uses_purged_validation_loss_inside_candidate_cadence_band) ... ok\ntest_asof_join_never_uses_future_source (test_training.AvailabilityTest.test_asof_join_never_uses_future_source) ... ok\ntest_primary_real_panel_has_no_negative_source_age (test_training.AvailabilityTest.test_primary_real_panel_has_no_negative_source_age) ... ok\ntest_all_artifact_hashes_and_pipeline_hash_match_manifest (test_training.DataIntegrityTest.test_all_artifact_hashes_and_pipeline_hash_match_manifest) ... ok\ntest_boundary_copy_is_removed (test_training.DataIntegrityTest.test_boundary_copy_is_removed) ... ok\ntest_every_frequency_source_passes_declared_freshness (test_training.DataIntegrityTest.test_every_frequency_source_passes_declared_freshness) ... ok\ntest_real_nbk_boundary_corruption_is_absent (test_training.DataIntegrityTest.test_real_nbk_boundary_corruption_is_absent) ... ok\ntest_diagnostic_track_gets_policy_uncertainty_without_promotion_eligibility (test_training.SelectionTest.test_diagnostic_track_gets_policy_uncertainty_without_promotion_eligibility) ... ok\ntest_failed_candidate_is_diagnostic_only (test_training.SelectionTest.test_failed_candidate_is_diagnostic_only) ... ok\ntest_policy_audit_without_candidates_is_machine_readable (test_training.SelectionTest.test_policy_audit_without_candidates_is_machine_readable) ... ok\ntest_prospective_selection_requires_two_passing_corridors (test_training.SelectionTest.test_prospective_selection_requires_two_passing_corridors) ... ok\ntest_consistent_negative_loss_delta_is_detected (test_training.StatisticalTest.test_consistent_negative_loss_delta_is_detected) ... ok\ntest_materiality_threshold_can_only_remove_positive_targets (test_training.StatisticalTest.test_materiality_threshold_can_only_remove_positive_targets) ... ok\ntest_platt_rejects_rank_inverting_calibration (test_training.StatisticalTest.test_platt_rejects_rank_inverting_calibration) ... ok\ntest_platt_single_class_fallback_is_explicit (test_training.StatisticalTest.test_platt_single_class_fallback_is_explicit) ... ok\ntest_explicit_empty_corridors_never_broadens_audience (test_v3_preview.PreviewV3Test.test_explicit_empty_corridors_never_broadens_audience) ... ok\ntest_future_behavior_surfaces_in_delivery_suppression (test_v3_preview.PreviewV3Test.test_future_behavior_surfaces_in_delivery_suppression) ... ok\ntest_historical_candidate_has_supported_copy (test_v3_preview.PreviewV3Test.test_historical_candidate_has_supported_copy) ... ok\ntest_invalid_probability_is_rejected_by_python_api (test_v3_preview.PreviewV3Test.test_invalid_probability_is_rejected_by_python_api) ... ok\n\n----------------------------------------------------------------------\nRan 43 tests in 2.609s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/private/tmp/alphatransfer-ml.Ci5ycv/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research_v3/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_failed_annual_fit_restores_shared_model_and_split_functions (test_temporal.TemporalContractTest.test_failed_annual_fit_restores_shared_model_and_split_functions) ... ok\ntest_h5_annual_oot_set_is_frozen_across_training_windows (test_temporal.TemporalContractTest.test_h5_annual_oot_set_is_frozen_across_training_windows) ... ok\ntest_historical_features_do_not_depend_on_future_raw_rows (test_temporal.TemporalContractTest.test_historical_features_do_not_depend_on_future_raw_rows) ... ok\ntest_train_and_calibration_labels_mature_before_next_boundary (test_temporal.TemporalContractTest.test_train_and_calibration_labels_mature_before_next_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.461s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/private/tmp/alphatransfer-ml.Ci5ycv/venv/bin/python",
+        "final_solution/main.py",
+        "--output-dir",
+        "final_solution/output-v3-factual"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"deployment_status\": \"shadow_only\",\n  \"eligible_to_send\": false,\n  \"headline_metrics\": {\n    \"cell_standardized_lift\": {\n      \"ci95\": [\n        1.3053960209386588,\n        1.5737432079880909\n      ],\n      \"gate_passed\": true,\n      \"value\": 1.4351906688933171\n    },\n    \"forward_official_reference_advantage_bps\": {\n      \"ci95\": [\n        32.76710613534377,\n        64.01889172177404\n      ],\n      \"gate_passed\": true,\n      \"value\": 47.68564601517411,\n      \"warning\": \"Historical official-reference proxy, not realized customer saving.\"\n    },\n    \"weekly_coverage_1_to_2_candidates\": {\n      \"gate_passed\": false,\n      \"mean_candidates_per_corridor_week\": 0.8864039126568523,\n      \"required\": 0.9,\n      \"value\": 0.6666666666666666\n    }\n  },\n  \"output_dir\": \"/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/final_solution/output-v3-factual\",\n  \"status\": \"complete\",\n  \"suppressed_reasons\": [\n    \"research_gate_failed:weekly_coverage\",\n    \"prospective_shadow_not_completed\",\n    \"production_market_data_rights_not_verified\",\n    \"publication_timestamps_not_verified\",\n    \"per_signal_model_explanation_not_available\",\n    \"production_source_lineage_not_reproducible\",\n    \"model_not_production_promoted\",\n    \"alpha_executable_quote_not_provided\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/private/tmp/alphatransfer-ml.Ci5ycv/venv/bin/python",
+        "final_solution/main.py",
+        "--research-v3",
+        "--model",
+        "basis_train_120m",
+        "--policy",
+        "selective",
+        "--threshold",
+        "0.50",
+        "--as-of",
+        "2025-12-11",
+        "--client-context",
+        "research_v3/examples/behavior.synthetic.json",
+        "--output-dir",
+        "research_v3/preview_output/selective"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"RESEARCH_PREVIEW_ONLY\",\n  \"output\": \"/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v3/preview_output/selective/decision.json\",\n  \"selected_corridor\": \"KZT\",\n  \"eligible_to_send\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/private/tmp/alphatransfer-ml.Ci5ycv/venv/bin/python",
+        "final_solution/main.py",
+        "--research-v3",
+        "--policy",
+        "selective",
+        "--threshold",
+        "1.0",
+        "--as-of",
+        "2025-12-16",
+        "--output-dir",
+        "research_v3/preview_output/abstain"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"RESEARCH_PREVIEW_ONLY\",\n  \"output\": \"/Users/proskurin-dmi/Documents/ai product hack/AlphaTransfer/research_v3/preview_output/abstain/decision.json\",\n  \"selected_corridor\": null,\n  \"eligible_to_send\": false\n}\n",
+      "stderr": ""
+    }
+  ],
+  "assertions": {
+    "selective_has_candidate": true,
+    "selective_is_simulation": true,
+    "synthetic_never_sends": true,
+    "abstention_is_explicit": true
+  }
+}

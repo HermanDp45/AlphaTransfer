@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "baseline_reproduction",
+    "months": 24,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "7ff5cddccec0dc7c00cc75d5f81f9ca126fff4c54fbd8a28676749535d4e4374",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

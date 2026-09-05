@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "basis_train_120m",
+    "months": 120,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 1,
+  "predictions_sha256": "6829e806e17988ce3c4c33a241613e0494d5b6d178699f6d17e653cea0585eae",
+  "rows": 4495,
+  "python": "3.14.7",
+  "status": "complete"
+}

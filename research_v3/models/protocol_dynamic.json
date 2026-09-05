@@ -1,0 +1,50 @@
+{
+  "specs": [
+    {
+      "name": "monthly_train24_val3",
+      "months": 24,
+      "features": "basis",
+      "model": "hgb2",
+      "extended": false,
+      "half_life_months": 0,
+      "validation_months": 3,
+      "historic_cny": false
+    },
+    {
+      "name": "monthly_train24_val1",
+      "months": 24,
+      "features": "basis",
+      "model": "hgb2",
+      "extended": false,
+      "half_life_months": 0,
+      "validation_months": 1,
+      "historic_cny": false
+    },
+    {
+      "name": "monthly_train60_val3",
+      "months": 60,
+      "features": "basis",
+      "model": "hgb2",
+      "extended": true,
+      "half_life_months": 0,
+      "validation_months": 3,
+      "historic_cny": false
+    },
+    {
+      "name": "monthly_structural_val3",
+      "months": 24,
+      "features": "structural",
+      "model": "hgb3",
+      "extended": false,
+      "half_life_months": 0,
+      "validation_months": 3,
+      "historic_cny": false
+    }
+  ],
+  "evaluation": "retrospective exploratory; 2023-25 development, inspected 2026 diagnostic",
+  "seed": 20260903,
+  "python": "3.14.7",
+  "horizon": 5,
+  "source_data": "V2 snapshots plus isolated CBR 2010-2019 extension; market basis only available from 2020",
+  "selection": "no test calibration; no random time-series cross-validation; no model promotion on diagnostic year"
+}

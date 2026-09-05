@@ -1,0 +1,10 @@
+source_family,access_result,experiment_result,production_rights_status,reason_or_limit
+FRED inflation T10YIE T5YIFR,public CSV downloaded,full 2023-2025 plus diagnostic 2026 ablation executed,counterfactual research only,Series citation-required notice differs from FRED service-wide ML restrictions
+US Treasury inflation replica,first-party XML downloaded,exact values and model parity with FRED verified,first-party government data track,Reconstructed directly without FRED input values
+FRED VIXCLS,public CSV downloaded,exact data parity with direct CBOE VIX verified,counterfactual research only,No separate redundant VIXCLS model credited as novel information
+CBOE volatility indexes,public CSV downloaded,full 2023-2025 plus diagnostic 2026 ablation executed,conditional research and rights review,Public download does not establish commercial redistribution rights
+FRED ICE credit spreads,public CSV downloaded with 3-year history limit,matched train2024 validation2025 diagnostic2026 ablation executed,counterfactual research only,Actual history starts2023-09-05; unavailable for original 2023 full-training comparison
+GPR latest daily and monthly,authors files downloaded,full 2023-2025 plus diagnostic 2026 ablation executed,CC BY with attribution,Weekly/monthly release and revision caveat retained
+GPR vintage archive,official listing downloaded,not replayed in models,authors open archive,689 listed files; no claim that latest snapshot is point-in-time
+Bloomberg historical market feed,no authorized export in supplied artifacts,no training or quality uplift measured,requires appropriate client access and agreement,Public product documentation is not a historical quote dataset
+MOEX CNY historical extension,public ISS downloaded,provided to root long-training ablation,conditional market-data rights,Spot starts2013-04-15; fixing starts2019-08-01 in queried history

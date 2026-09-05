@@ -1,0 +1,4 @@
+fred_series,primary_series,n,mean_absolute_difference,max_absolute_difference,equal_share
+fred_t10yie,treasury_t10yie,1920,0.0,0.0,1.0
+fred_t5yifr,treasury_t5yifr,1920,0.0,0.0,1.0
+fred_vixcls,cboe_vix,2212,0.0,0.0,1.0

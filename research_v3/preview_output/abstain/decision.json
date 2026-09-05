@@ -1,0 +1,188 @@
+{
+  "schema_version": 3,
+  "status": "RESEARCH_PREVIEW_ONLY",
+  "as_of": "2025-12-16",
+  "model": "baseline_reproduction",
+  "horizon_effective_cbr_rows": 5,
+  "policy": {
+    "name": "selective",
+    "threshold": 1.0,
+    "cooldown_effective_rows": 3,
+    "frequency_is_a_cap_not_a_minimum": true,
+    "selection_is_retrospective_exploratory": true
+  },
+  "source_predictions_sha256": "7ff5cddccec0dc7c00cc75d5f81f9ca126fff4c54fbd8a28676749535d4e4374",
+  "candidates": [
+    {
+      "date": "2025-12-16",
+      "corridor": "AMD",
+      "probability": 0.4379931711437101,
+      "session": 1468,
+      "legacy_candidate": true,
+      "candidate": false,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-16",
+        "decision_date": "2025-12-16",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.208146,
+        "window_observations": 60,
+        "window_start": "2025-09-23",
+        "percentile_midrank": 0.325,
+        "lower_quintile": false,
+        "change_since_previous_observation_pct": -0.33326629700922705,
+        "previous_observation_date": "2025-12-13"
+      },
+      "copy": {
+        "scenario": "OBSERVED_FALL",
+        "title": "Курс армянского драма изменился",
+        "body": "Курс ЦБ на 2025-12-16 снизился на 0.33% с 2025-12-13. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "corridor": "KGS",
+      "probability": 0.4379931711437101,
+      "session": 1468,
+      "legacy_candidate": true,
+      "candidate": false,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-16",
+        "decision_date": "2025-12-16",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.908513,
+        "window_observations": 60,
+        "window_start": "2025-09-23",
+        "percentile_midrank": 0.30833333333333335,
+        "lower_quintile": false,
+        "change_since_previous_observation_pct": -0.3513155412431024,
+        "previous_observation_date": "2025-12-13"
+      },
+      "copy": {
+        "scenario": "OBSERVED_FALL",
+        "title": "Курс кыргызского сома изменился",
+        "body": "Курс ЦБ на 2025-12-16 снизился на 0.35% с 2025-12-13. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "corridor": "KZT",
+      "probability": 0.354509695419565,
+      "session": 1468,
+      "legacy_candidate": true,
+      "candidate": false,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-16",
+        "decision_date": "2025-12-16",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.152091,
+        "window_observations": 60,
+        "window_start": "2025-09-23",
+        "percentile_midrank": 0.525,
+        "lower_quintile": false,
+        "change_since_previous_observation_pct": -0.8015914427341508,
+        "previous_observation_date": "2025-12-13"
+      },
+      "copy": {
+        "scenario": "OBSERVED_FALL",
+        "title": "Курс казахстанского тенге изменился",
+        "body": "Курс ЦБ на 2025-12-16 снизился на 0.80% с 2025-12-13. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "corridor": "TJS",
+      "probability": 0.4379931711437101,
+      "session": 1468,
+      "legacy_candidate": true,
+      "candidate": false,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-16",
+        "decision_date": "2025-12-16",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 8.60104,
+        "window_observations": 60,
+        "window_start": "2025-09-23",
+        "percentile_midrank": 0.3416666666666667,
+        "lower_quintile": false,
+        "change_since_previous_observation_pct": -0.3512772031290745,
+        "previous_observation_date": "2025-12-13"
+      },
+      "copy": {
+        "scenario": "OBSERVED_FALL",
+        "title": "Курс таджикского сомони изменился",
+        "body": "Курс ЦБ на 2025-12-16 снизился на 0.35% с 2025-12-13. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "corridor": "UZS",
+      "probability": 0.38690541519924265,
+      "session": 1468,
+      "legacy_candidate": true,
+      "candidate": false,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-16",
+        "decision_date": "2025-12-16",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.0065672,
+        "window_observations": 60,
+        "window_start": "2025-09-23",
+        "percentile_midrank": 0.19166666666666668,
+        "lower_quintile": true,
+        "change_since_previous_observation_pct": -0.7670037292458742,
+        "previous_observation_date": "2025-12-13"
+      },
+      "copy": {
+        "scenario": "HISTORICAL_LOW_REFERENCE",
+        "title": "Курс узбекского сума: историческое сравнение",
+        "body": "Курс ЦБ на 2025-12-16 — среди 20% самых низких за последние 60 значений. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    }
+  ],
+  "selected": null,
+  "behavior": {
+    "status": "disabled",
+    "source": null,
+    "simulation": false,
+    "preview_ready": null,
+    "production_eligible": false,
+    "suppression_reasons": [
+      "behavior_context_absent"
+    ],
+    "fx_probability_modified": false,
+    "causal_uplift_estimated": false,
+    "effect_claim": "Not estimated; synthetic scenarios do not identify business uplift.",
+    "next_gates": [
+      "market_quality",
+      "TTL",
+      "timezone",
+      "live_quote",
+      "shared_CRM",
+      "production_promotion"
+    ]
+  },
+  "eligible_to_send": false,
+  "external_message_sent": false,
+  "suppression_reasons": [
+    "historical_research_preview",
+    "no_executable_alpha_quote",
+    "prospective_validation_pending",
+    "source_rights_and_publication_clocks_require_verification",
+    "no_market_candidate"
+  ],
+  "metric_contract": {
+    "forecast": "NOW hit probability, Brier/log-loss on paired dates",
+    "policy": "hit lift, reference bps, risk and contact frequency jointly",
+    "client": "simulation separately; causal value requires randomized bank data"
+  }
+}

@@ -1,0 +1,4007 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xml:base="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom"> 
+<title type="text">DailyTreasuryRealYieldCurveRateData</title>
+<id>https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml-item?data=daily_treasury_real_yield_curve</id>
+  <updated>2026-09-04T15:49:54Z</updated>
+  <link rel="self" title="DailyTreasuryRealYieldCurveRateData" href="DailyTreasuryRealYieldCurveRateData"/>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.76</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.75</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.74</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.84</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.91</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.73</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.71</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.71</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.81</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.89</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.79</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.78</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.77</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.88</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.96</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.83</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.83</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.83</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.02</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.78</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.79</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.79</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.90</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.80</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.80</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.91</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.99</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.81</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.82</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.01</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.72</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.73</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.76</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.89</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.62</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.64</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.69</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.85</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.95</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.71</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.73</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.77</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.03</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.78</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.78</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.80</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.03</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.76</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.80</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.95</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.78</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.79</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.81</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.03</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.76</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.80</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.03</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.82</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.85</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.99</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.83</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.85</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.88</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.02</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.11</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.80</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.85</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.00</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.10</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.78</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.85</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.00</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.10</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.71</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.74</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.78</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.03</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.80</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.04</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-01-31T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.67</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.70</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.73</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.89</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.99</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.63</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.65</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.68</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.82</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.91</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.82</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.02</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.87</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.88</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.90</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.01</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.79</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.85</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.98</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.06</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-07T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.83</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.86</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.00</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.08</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.84</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.87</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.91</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.04</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.86</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.89</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.92</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.86</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.89</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.98</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.02</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.13</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.20</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-14T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.91</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.94</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.97</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.18</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.87</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.90</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.94</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.07</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.91</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.93</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.97</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.88</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.91</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.95</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-21T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.91</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.94</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.98</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.11</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.18</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.96</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.98</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.02</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.12</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.19</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.94</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.96</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.11</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.93</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.97</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-27T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.94</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.96</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-28T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.88</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.91</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.94</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-02-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.86</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.88</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.92</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.02</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.82</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.87</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.98</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.79</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.83</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.88</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.98</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.74</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.81</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.91</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.74</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.81</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.91</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-07T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.73</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.81</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.01</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.72</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.76</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.81</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.01</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.76</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.79</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.83</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.02</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.83</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.86</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.98</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.82</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.85</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.89</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.01</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.08</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-14T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.92</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.94</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.96</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.97</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.03</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.12</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.19</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.93</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.96</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.18</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.85</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.90</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.96</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-21T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.83</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.87</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.14</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.79</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.83</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.87</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.01</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.10</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.82</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.86</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.92</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.14</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.84</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.88</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.92</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-27T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.81</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.84</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.88</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.00</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-03-28T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.83</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.85</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.88</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.99</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.07</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.93</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.98</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.91</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.11</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.19</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.91</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.12</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.20</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.88</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.92</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.97</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.93</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.97</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.02</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.14</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.96</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.04</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.15</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.93</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.96</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.18</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.12</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.13</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.15</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.23</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.29</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.13</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.14</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.16</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.25</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.31</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.07</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.08</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.11</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.21</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.27</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.13</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.16</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.20</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.30</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.37</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.17</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.20</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.24</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.34</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.40</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.15</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.17</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.20</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.30</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.36</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.24</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.24</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.24</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.32</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.38</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.22</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.21</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.21</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.29</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.36</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.21</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.21</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.21</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.30</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.36</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.19</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.19</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.20</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.30</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.38</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.22</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.23</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.24</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.34</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.41</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.27</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.27</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.28</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.36</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.42</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.24</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.24</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.24</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.32</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.38</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.22</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.22</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.22</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.30</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.36</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-04-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.29</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.29</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.28</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.35</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.41</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.25</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.25</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.25</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.33</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.38</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.20</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.20</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.21</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.30</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.37</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.13</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.14</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.15</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.24</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.31</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.14</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.14</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.14</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.29</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-07T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.16</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.16</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.15</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.28</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.19</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.18</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.17</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.24</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.31</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.13</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.13</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.13</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.20</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.26</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.18</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.17</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.16</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.23</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.29</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.17</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.16</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.15</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.29</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-14T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.14</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.13</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.12</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.20</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.26</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.06</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.06</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.05</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.13</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.19</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.10</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.08</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.07</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.14</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.20</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.12</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.11</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.10</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.17</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.23</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.13</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.12</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.11</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.18</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.24</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-21T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.10</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.09</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.09</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.16</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.14</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.12</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.10</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.16</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.21</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.21</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.19</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.17</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.21</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.26</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.20</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.16</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.14</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.19</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.25</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-28T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.23</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.21</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.20</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.26</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.32</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.27</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.26</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.25</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.31</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.36</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.22</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.20</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.19</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.26</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.32</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-05-31T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.18</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.17</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.16</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.23</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.30</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.11</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.09</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.08</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.15</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.07</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.04</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.02</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.04</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.01</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.07</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.04</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.02</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.07</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.14</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-07T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.18</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.15</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.13</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.19</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.24</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.21</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.18</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.16</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.28</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.16</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.14</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.12</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.17</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.23</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.15</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.12</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.09</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.15</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.21</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.10</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.06</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.03</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-14T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.11</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.06</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.03</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.07</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.14</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.10</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.06</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.07</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.03</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.01</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.10</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.05</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.02</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-21T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.07</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.04</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.02</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.09</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.05</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.03</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.14</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.08</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.04</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.01</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.12</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.08</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.06</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.11</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-27T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.07</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.04</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.03</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-06-28T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.09</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.08</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.08</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.16</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.23</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.15</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.15</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.16</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.25</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.32</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.13</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.13</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.13</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.28</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.10</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.09</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.09</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.17</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.23</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.00</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.00</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.01</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.01</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.01</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.03</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.03</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.04</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.13</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.21</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.02</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.01</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.01</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.18</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.95</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.95</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.95</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.94</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.04</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.93</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.94</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.96</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.89</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.89</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.91</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.01</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.88</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.89</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.90</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.01</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.92</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.90</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.89</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.02</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.98</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.99</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.97</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.96</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.18</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.98</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.97</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.96</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.20</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.99</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.15</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.26</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.00</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.12</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.24</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.93</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.93</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.20</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.92</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.92</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.92</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.91</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.91</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.90</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-07-31T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.84</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.84</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.85</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.01</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.78</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.78</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.79</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.96</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.73</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.74</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.76</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.92</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.04</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.71</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.71</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.71</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.85</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.97</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.78</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-07T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.82</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.83</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.85</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.00</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.85</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.85</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.87</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.02</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.14</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.84</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.84</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.84</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.98</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.10</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.77</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.79</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.06</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.72</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.73</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.76</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.92</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-14T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.74</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.75</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.77</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.92</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.04</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.80</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.80</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.95</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.06</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.80</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.81</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.95</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.06</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.81</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.80</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.79</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.04</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.75</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.75</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.88</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.99</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-21T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.70</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.71</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.72</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.86</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.97</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.76</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.76</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.76</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.91</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.03</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.64</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.66</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.68</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.85</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.97</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.64</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.65</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.67</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.84</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.97</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-27T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.64</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.65</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.68</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.85</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-28T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.64</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.65</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.69</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.86</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.65</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.67</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.71</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.88</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.00</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-08-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.70</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.72</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.76</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.92</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.04</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.70</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.71</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.73</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.89</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.00</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.66</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.67</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.70</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.86</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.67</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.68</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.70</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.85</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.97</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.64</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.66</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.69</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.85</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.61</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.63</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.66</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.82</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.94</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.57</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.59</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.63</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.80</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.92</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.55</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.57</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.61</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.79</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.91</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.54</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.58</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.63</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.81</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.94</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.48</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.52</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.58</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.77</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.90</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.47</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.49</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.54</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.72</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.84</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.47</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.49</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.53</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.72</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.85</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.49</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.52</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.58</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.77</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.90</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.45</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.50</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.56</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.77</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.91</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.46</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.51</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.58</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.79</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.93</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.47</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.52</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.58</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.79</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.93</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.41</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.47</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.55</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.78</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.92</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.46</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.53</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.61</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.83</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.97</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.52</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.56</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.63</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.83</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.96</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-27T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.47</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.52</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.60</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.81</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.95</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-09-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.51</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.56</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.63</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.83</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.96</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.44</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.49</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.55</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.76</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.90</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.45</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.50</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.58</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.79</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.93</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.51</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.57</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.64</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.85</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">1.98</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.67</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.70</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.75</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.92</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.04</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-07T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.69</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.72</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.76</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.06</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.69</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.72</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.77</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.95</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.07</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.70</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.73</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.77</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.94</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.06</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.65</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.70</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.76</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.96</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.08</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.63</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.68</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.75</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.96</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.64</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.69</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.75</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.65</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.69</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.75</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.93</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.05</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.68</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.73</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.79</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.98</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.11</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.65</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.70</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.77</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">1.97</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.09</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-21T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.88</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.07</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.19</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.87</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.82</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.87</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.21</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.70</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.91</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.85</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.96</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.13</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-28T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.80</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.89</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.15</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.23</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.78</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.88</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.98</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.14</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.86</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.95</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-10-31T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.86</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.95</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-01T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.85</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.04</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.18</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.25</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.85</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.94</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.03</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.16</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.84</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.91</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.11</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.81</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.93</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.04</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.18</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.25</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-07T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.87</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.98</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.14</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-08T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.77</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.86</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.95</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.16</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.89</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.08</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.21</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.27</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.88</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.09</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.25</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.32</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-14T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.92</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.01</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.10</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.28</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-15T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.91</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.01</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.10</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.24</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.31</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.87</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.98</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.08</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.23</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.30</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.84</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.95</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.05</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.21</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.28</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.85</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.96</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.06</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.29</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-21T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.88</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.99</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.09</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.24</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.31</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-22T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.87</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.97</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.07</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.22</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.29</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-25T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.82</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.90</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.98</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.12</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.20</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.84</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.93</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.02</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.17</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.24</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-27T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.79</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.89</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.99</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.13</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.21</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-11-29T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.72</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.82</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.92</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.07</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-02T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.84</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.08</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.15</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-03T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.85</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.95</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-04T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.70</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.80</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.90</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.05</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.12</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-05T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.72</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.82</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.92</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.13</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-06T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.72</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.81</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.91</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.06</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.14</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-09T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.74</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.84</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.10</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.18</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-10T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.84</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.93</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.09</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.17</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-11T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.75</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.86</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">1.96</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.14</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.22</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-12T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.79</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.90</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.00</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.19</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.28</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-13T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.85</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.96</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.07</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.24</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.33</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-16T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.87</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">1.97</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.07</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.24</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.32</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-17T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">1.90</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.00</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.09</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.25</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.33</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-18T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.02</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.10</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.18</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.31</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.37</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-19T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.08</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.19</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.28</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.41</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.47</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-20T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.03</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.14</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.23</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.37</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.44</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-23T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.06</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.17</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.27</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.41</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.47</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-24T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.04</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.15</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.24</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.38</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.44</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-26T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.03</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.14</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.23</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.37</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.43</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-27T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.07</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.18</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.28</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.42</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.49</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-30T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.02</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.13</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.24</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.40</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.47</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+<entry>
+<title type="text"></title>
+<updated>2026-09-04T15:49:54Z</updated>
+<author><name /></author>
+<category term="TreasuryDataWarehouseModel.DailyTreasuryRealYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+<content type="application/xml">
+<m:properties>
+<d:NEW_DATE m:type="Edm.DateTime">2024-12-31T00:00:00</d:NEW_DATE>
+<d:TC_5YEAR m:type="Edm.Double">2.00</d:TC_5YEAR>
+<d:TC_7YEAR m:type="Edm.Double">2.13</d:TC_7YEAR>
+<d:TC_10YEAR m:type="Edm.Double">2.24</d:TC_10YEAR>
+<d:TC_20YEAR m:type="Edm.Double">2.41</d:TC_20YEAR>
+<d:TC_30YEAR m:type="Edm.Double">2.48</d:TC_30YEAR>
+</m:properties>
+</content>
+</entry>
+</feed>

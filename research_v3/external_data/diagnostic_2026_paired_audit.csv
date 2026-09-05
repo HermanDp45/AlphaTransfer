@@ -1,0 +1,9 @@
+candidate,baseline,paired_rows,decision_dates,month_blocks,brier_delta,relative_brier_improvement,ci95_low,ci95_high,improved_years,years,improved_cells,cells,bootstrap_reps,interpretation
+hgb_base__fred,hgb_base,780,156,8,-0.01732284618422981,0.07276694051524948,-0.04838746159721469,0.012297538736600598,1,1,5,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_base__cboe,hgb_base,780,156,8,0.0019393655188557075,-0.008146565168740695,-0.0019699088221628303,0.006089537342740571,0,1,0,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_base__gpr,hgb_base,780,156,8,0.02339213465886899,-0.09826180138897918,0.010016077166199013,0.04017049399741568,0,1,0,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__fred,hgb_plus_cnyrub_basis,780,156,8,-0.0004141950544945362,0.002004555663370965,-0.003354468782417539,0.002422061503797089,1,1,3,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__cboe,hgb_plus_cnyrub_basis,780,156,8,0.0040429556847792975,-0.019566456979000665,-0.005305121463792961,0.013514056238929305,0,1,0,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__gpr,hgb_plus_cnyrub_basis,780,156,8,0.02848772410169693,-0.1378703778930789,0.004479791152942608,0.055935664979213276,0,1,0,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__treasury,hgb_plus_cnyrub_basis,780,156,8,-0.00041419505449454073,0.002004555663370987,-0.003259060563839483,0.002469765500361514,1,1,3,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__all_new,hgb_plus_cnyrub_basis,780,156,8,0.01819682253645693,-0.08806610140559348,-0.0013871642150874565,0.04032405432505651,0,1,0,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation

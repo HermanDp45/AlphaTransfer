@@ -1,0 +1,9 @@
+config_id,track,baseline,delta_brier,ci95_low,ci95_high,improved_years,improved_cells,n_blocks
+basis_train_120m__reproduced,development_2023_2025,baseline_reproduction,-0.005766182113287813,-0.011810570965861822,0.00016681899441211054,2,11,36
+basis_train_120m__reproduced,diagnostic_2026,baseline_reproduction,0.0017791586425529725,-0.010647349304341058,0.013984974514293582,0,2,8
+basis_train_120m__treasury_lag7,development_2023_2025,baseline_reproduction,-0.007322005221471915,-0.014350885438383138,-0.0006096777743265263,2,12,36
+basis_train_120m__treasury_lag7,diagnostic_2026,baseline_reproduction,0.002311350898984768,-0.00841062197465639,0.01414626645906368,0,2,8
+long_with_historical_cny__reproduced,development_2023_2025,baseline_reproduction,-0.003136762225188764,-0.008336187324836361,0.0018607633133890078,2,12,36
+long_with_historical_cny__reproduced,diagnostic_2026,baseline_reproduction,0.0026724204351458894,-0.009365951760402468,0.014637365840762546,0,1,8
+long_with_historical_cny__treasury_lag7,development_2023_2025,baseline_reproduction,-0.0034192577592545765,-0.009435547421091029,0.0022652557551471417,3,13,36
+long_with_historical_cny__treasury_lag7,diagnostic_2026,baseline_reproduction,0.002705293479716532,-0.006506002932901158,0.013197400976939904,0,1,8

@@ -1,0 +1,7 @@
+config_id,track,lift_ci95_low,lift_ci95_high,forward_ci95_low,forward_ci95_high,note
+baseline_reproduction,development_2023_2025,1.224161947545526,1.6430953885370512,28.821086324163428,65.80923930304368,"Exploratory, selection not included; fold-corridor baselines held fixed"
+baseline_reproduction,diagnostic_2026,1.0140158439975624,1.7454303755400464,-10.015316893270994,83.7528197844654,"Exploratory, selection not included; fold-corridor baselines held fixed"
+basis_train_120m,development_2023_2025,1.1690922876686345,1.5864694281122176,21.98331181186453,58.90563241542646,"Exploratory, selection not included; fold-corridor baselines held fixed"
+basis_train_120m,diagnostic_2026,0.895516416275908,1.7460650577124868,-18.617567252374567,75.44038972393557,"Exploratory, selection not included; fold-corridor baselines held fixed"
+annual_recent_calibration_3m,development_2023_2025,1.168744269427151,1.5802478705341174,23.133342079322308,62.82961667144973,"Exploratory, selection not included; fold-corridor baselines held fixed"
+annual_recent_calibration_3m,diagnostic_2026,0.9523490352550573,1.7698612342466207,-35.63182638930753,73.8153569720103,"Exploratory, selection not included; fold-corridor baselines held fixed"

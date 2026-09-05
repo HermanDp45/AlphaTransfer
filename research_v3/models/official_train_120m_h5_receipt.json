@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "official_train_120m",
+    "months": 120,
+    "features": "official",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "ce8efa14966b6208aacd66ed826d1257ddd5eb252c76e00dcf124e8014ab45cd",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

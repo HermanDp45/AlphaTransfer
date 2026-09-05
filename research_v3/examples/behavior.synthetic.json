@@ -1,0 +1,12 @@
+{
+  "source": "synthetic",
+  "known_at": "2025-12-11",
+  "historical_transfer_count": 9,
+  "expected_transfer_date": "2025-12-15",
+  "available_balance_sufficient": true,
+  "recent_explicit_intent": true,
+  "last_completed_transfer": "2025-11-15",
+  "urgency_declared": false,
+  "allow_fx_notifications": true,
+  "remaining_shared_crm_slots_7d": 1
+}

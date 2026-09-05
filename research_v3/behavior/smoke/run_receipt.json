@@ -1,0 +1,51 @@
+{
+  "model": "hgb_plus_cnyrub_basis",
+  "scenarios": [
+    {
+      "name": "base",
+      "flexibility_scale": 1.0,
+      "urgent_share": 0.2,
+      "intent_sensitivity": 0.7,
+      "intent_false_positive": 0.03,
+      "balance_sensitivity": 0.9,
+      "balance_false_positive": 0.4,
+      "response": 0.35,
+      "fatigue_per_contact": 0.05,
+      "phase_noise_days": 2.0,
+      "contact_cost_rub": 1.0,
+      "incremental_execution_cost_bps": 0.0
+    },
+    {
+      "name": "no_behavioral_response",
+      "flexibility_scale": 1.0,
+      "urgent_share": 0.2,
+      "intent_sensitivity": 0.7,
+      "intent_false_positive": 0.03,
+      "balance_sensitivity": 0.9,
+      "balance_false_positive": 0.4,
+      "response": 0,
+      "fatigue_per_contact": 0.05,
+      "phase_noise_days": 2.0,
+      "contact_cost_rub": 1.0,
+      "incremental_execution_cost_bps": 0.0
+    }
+  ],
+  "seeds": [
+    4101
+  ],
+  "synthetic_users_per_segment_per_seed": 20,
+  "records": 2880,
+  "source_hashes": {
+    "final_solution/model_bundle/development_h5_predictions.csv": "ad9bbc0b3fd46469a971b14da43c8bb67ff3c16103579dc5a2a5a4f921fb283d",
+    "final_solution/model_bundle/diagnostic_2026_predictions.csv": "a8aa556a046e73564f4c2eb213eb20b8051b706ea70c952d4aadf22e16bfe056",
+    "final_solution/data/cbr_daily.csv": "6132fe4d80c879b7b5ff137107c6b52ed17906c7931f73ac720fed72e915b64e"
+  },
+  "script_sha256": "558061799449a9cbff8a8d3ea5ba5d8968327c3e48baad1d9a8c73aa50981fe3",
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "status": "SCENARIO_RESEARCH_ONLY",
+  "market_status": "retrospective OOT 2023-2025; already inspected diagnostic 2026",
+  "timing": "Same CBR effective-date/publication-proxy convention as frozen model, not executable bank quotes",
+  "causal_uplift": "NOT IDENTIFIED; new count and volume are identically zero by construction"
+}

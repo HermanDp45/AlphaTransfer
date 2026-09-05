@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "long_short_ensemble",
+    "months": 120,
+    "features": "basis",
+    "model": "long_short_ensemble",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "7dc9d4062279dfaf285e12daa5255f2d2fca99af5d4eb18fb7a02bba90fb4c9d",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

@@ -1,0 +1,5 @@
+candidate,baseline,paired_rows,decision_dates,month_blocks,brier_delta,relative_brier_improvement,ci95_low,ci95_high,improved_years,years,improved_cells,cells,bootstrap_reps,interpretation
+hgb_plus_cnyrub_basis__fred_stale,hgb_plus_cnyrub_basis,3635,727,36,-0.0020333453336587046,0.010667200620550798,-0.007360143495938856,0.0028160015681386245,2,3,8,15,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__cboe_stale,hgb_plus_cnyrub_basis,3635,727,36,-0.00031324189548808583,0.0016433087319804337,-0.004877340064266327,0.00439738429887337,1,3,5,15,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__gpr_stale,hgb_plus_cnyrub_basis,3635,727,36,0.010586997216633486,-0.055540798412159004,0.0033429841354745103,0.018440233141643995,0,3,2,15,10000,retrospective exploratory; no multiplicity-adjusted confirmation
+hgb_plus_cnyrub_basis__treasury_stale,hgb_plus_cnyrub_basis,3635,727,36,-0.002033345333658705,0.010667200620550802,-0.007325956938429967,0.0027433547942509375,2,3,8,15,10000,retrospective exploratory; no multiplicity-adjusted confirmation

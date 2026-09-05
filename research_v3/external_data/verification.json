@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "frozen_baseline_reproduced_hgb_base",
+      "rows": 3635,
+      "max_probability_difference": 0.0,
+      "identical_candidate_decisions": true
+    },
+    {
+      "check": "frozen_baseline_reproduced_hgb_plus_cnyrub_basis",
+      "rows": 3635,
+      "max_probability_difference": 0.0,
+      "identical_candidate_decisions": true
+    },
+    {
+      "check": "FRED_Treasury_primary_equivalence",
+      "rows": 4415,
+      "max_probability_difference": 0.0,
+      "identical_candidate_decisions": true
+    },
+    {
+      "check": "FRED_Treasury_stale_equivalence",
+      "rows": 4415,
+      "max_probability_difference": 0.0,
+      "identical_candidate_decisions": true
+    }
+  ],
+  "availability_violations": {
+    "v3_cboe_available_date": 0,
+    "v3_fred_available_date": 0,
+    "v3_treasury_available_date": 0,
+    "v3_credit_available_date": 0,
+    "v3_gpr_daily_available_date": 0,
+    "v3_gpr_monthly_available_date": 0,
+    "v3_cboe_stale_available_date": 0,
+    "v3_fred_stale_available_date": 0,
+    "v3_treasury_stale_available_date": 0,
+    "v3_credit_stale_available_date": 0,
+    "v3_gpr_daily_stale_available_date": 0,
+    "v3_gpr_monthly_stale_available_date": 0
+  },
+  "limitations": "Date lags are conservative proxies; this verifies join mechanics, not immutable source publication timestamps."
+}

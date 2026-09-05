@@ -1,0 +1,12 @@
+[
+  {
+    "source": "basis_train_120m",
+    "rows": 4415,
+    "max_probability_difference": 1.1102230246251565e-16
+  },
+  {
+    "source": "long_with_historical_cny",
+    "rows": 4415,
+    "max_probability_difference": 1.1102230246251565e-16
+  }
+]

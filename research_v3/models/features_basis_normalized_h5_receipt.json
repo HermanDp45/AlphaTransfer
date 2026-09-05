@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "features_basis_normalized",
+    "months": 24,
+    "features": "basis_normalized",
+    "model": "hgb3",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "e5f8580ab58337d89681b558eb8e37ec1370ab9c8c1e483fb6685203327a390a",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

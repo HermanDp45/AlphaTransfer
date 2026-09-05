@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "annual_recent_calibration_3m",
+    "months": 24,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 3,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 3,
+  "predictions_sha256": "7b2fcb5529824092ccfe69df9b0423beaa0a66696501a473df8c15c977da2d08",
+  "rows": 4455,
+  "python": "3.14.7",
+  "status": "complete"
+}

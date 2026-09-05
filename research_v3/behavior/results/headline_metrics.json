@@ -1,0 +1,20 @@
+{
+  "status": "SCENARIO_RESEARCH_ONLY",
+  "period": "2023-2025 previously inspected OOT",
+  "population": "equal thirds frequency segments",
+  "contact_reduction_pct": 84.39751969163734,
+  "gross_timing_value_retained_pct": 82.35357009532177,
+  "market_only_contacts_per_client_period": 44.2,
+  "user_aware_contacts_per_client_period": 6.896296296296296,
+  "market_only_relevance_pct": 13.031674208144798,
+  "user_aware_relevance_pct": 61.0562119584676,
+  "market_only_gross_rub_per_client_period": 404.9150283038771,
+  "user_aware_gross_rub_per_client_period": 333.4619816607254,
+  "matched_random_market_gross_rub_per_client_period": 85.6942529120529,
+  "matched_calendar_gross_rub_per_client_period": -13.983544686850145,
+  "contact_cost_joint_value_break_even_rub": 1.915441083563438,
+  "fx_model_brier_improvement": 0,
+  "causal_incremental_revenue": null,
+  "empirical_customer_behavior_validation": false,
+  "incremental_volume_rub_by_construction": 0
+}

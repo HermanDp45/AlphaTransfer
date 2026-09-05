@@ -10,6 +10,8 @@ from zoneinfo import ZoneInfo
 
 from .artifacts import load_json, read_csv
 from .config import PipelineConfig
+from .facts import historical_fact, factual_copy
+from .behavior import build_behavior_preview
 
 
 CURRENCY_COPY = {
@@ -145,6 +147,11 @@ def build_product_decision(
     window_end = time.fromisoformat(policy["delivery_window_local_end"])
 
     suppression: list[str] = []
+    behavior_preview = build_behavior_preview(context.get("behavior"), as_of)
+    if behavior_preview.get("preview_ready") is False or behavior_preview["status"] in {"rejected", "unavailable"}:
+        suppression.extend(f"behavior:{reason}" for reason in behavior_preview["suppression_reasons"])
+    if behavior_preview.get("simulation"):
+        suppression.append("behavior:synthetic_context_is_research_only")
     if selected is None:
         suppression.append("no_relevant_portfolio_signal_on_as_of_date")
     if context.get("urgent_transfer"):
@@ -192,18 +199,17 @@ def build_product_decision(
     if selected is not None:
         corridor = selected["corridor"]
         currency_name, country = CURRENCY_COPY[corridor]
-        title = f"Курс {currency_name} в благоприятной зоне"
-        body = (
-            f"Сейчас курс {currency_name} в благоприятной зоне "
-            "по исторической шкале. Если перевод уже планировался, "
-            "проверьте сумму к получению в приложении."
-        )
+        fact = historical_fact(config.repo_root / "final_solution/data/cbr_daily.csv", corridor, as_of)
+        copy = factual_copy(fact, currency_name, country)
+        if not fact["available"]:
+            suppression.append("no_verified_historical_fact_for_copy")
         market_signal = {
             "as_of": as_of.isoformat(),
             "corridor": f"RUB_{corridor}",
             "country": country,
             "score": selected["probability"],
-            "scenario": "NOW_FAVORABLE",
+            "scenario": copy["scenario"],
+            "factual_evidence": fact,
             "data_as_of": {
                 "moex_observation_date": selected.get("moex_observation_date"),
                 "moex_available_date": selected.get("moex_available_date"),
@@ -214,15 +220,16 @@ def build_product_decision(
             "expires_at": expires_at.isoformat(),
             "offline_target": "NOW hit over five effective CBR rows",
             "client_copy_contains_forecast": False,
+            "internal_model_predicts_future_event": True,
             "client_selection_policy": (
                 "highest score among candidate signals in the client's relevant corridors"
             ),
         }
         preview = {
             "label": "UX preview; not an authorized client contact",
-            "push": {"title": title, "body": body},
+            "push": {"title": copy["title"], "body": copy["body"]},
             "disclaimer": (
-                "Индикатор описывает текущий момент и не прогнозирует будущий курс."
+                "Сообщение описывает опубликованные данные. Будущий курс не гарантируется."
             ),
             "tap_action": "Open existing transfer form with saved recipient; recheck Alpha quote.",
             "stale_state": (
@@ -235,6 +242,7 @@ def build_product_decision(
         "mode": "historical_product_preview",
         "as_of": as_of.isoformat(),
         "candidate_source": candidate_source,
+        "behavior_preview": behavior_preview,
         "client_context": {
             "client_id": context.get("client_id"),
             "timezone": context.get("timezone"),

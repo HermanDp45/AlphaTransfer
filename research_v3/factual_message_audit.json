@@ -1,0 +1,9 @@
+{
+  "config_id": "hgb_plus_cnyrub_basis",
+  "period": "2023-2025 development OOT",
+  "n_candidates": 663,
+  "pr60_le_20pct": 201,
+  "pr60_gt_median": 391,
+  "pr60_gt_80pct": 277,
+  "interpretation": "NOW forecast confidence is not a historical-level predicate"
+}

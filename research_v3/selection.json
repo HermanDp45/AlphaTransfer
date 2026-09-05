@@ -1,0 +1,21 @@
+{
+  "schema_version": 3,
+  "frozen_at": "2026-09-05",
+  "status": "research_prospective_protocol_only",
+  "automatic_monitoring_created": false,
+  "primary_horizon_effective_cbr_rows": 5,
+  "source_clock": "CBR effective-date proxy, MOEX previous calendar day; real publication clocks still unverified",
+  "incumbent": "hgb_plus_cnyrub_basis",
+  "comparison_period": "retrospective development 2023-2025",
+  "inspected_diagnostic_period": "2026",
+  "policies_for_future_shadow": [
+    {"model": "baseline_reproduction", "policy": "selective", "threshold": 0.5, "cooldown_effective_rows": 3},
+    {"model": "basis_train_120m", "policy": "selective", "threshold": 0.5, "cooldown_effective_rows": 3}
+  ],
+  "probabilistic_challengers": ["basis_train_120m__treasury_lag7", "blend_plus_cnyrub_basis"],
+  "why_no_single_promoted_winner": "Proper-score improvements do not dominate policy utility; threshold selection is retrospective and 2026 is already inspected.",
+  "cadence": {"market_candidate_minimum_per_week": null, "client_hard_cap": "existing shared CRM budget", "abstention_allowed": true},
+  "new_bank_data_required": ["timestamped executable all-in quotes", "anonymized client histories and observed intent", "randomized no-contact holdout"],
+  "real_customer_effect_identified": false,
+  "production_ready": false
+}

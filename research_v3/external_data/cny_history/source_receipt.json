@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "moex_cnyrub_tom",
+    "authority": "Moscow Exchange (MOEX ISS)",
+    "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/selt/boards/CETS/securities/CNYRUB_TOM.json?from=2010-01-01&till=2019-12-31&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,OPEN,LOW,HIGH,CLOSE,NUMTRADES,WAPRICE",
+    "license_review": "conditional; validate MOEX market-data user agreement before production",
+    "terms_url": "https://www.moex.com/en/datapolicy/",
+    "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+    "availability": "daily close; experiment applies a conservative lag",
+    "quote_units": 1,
+    "normalized_price_unit": "RUB_per_one_base_currency_unit",
+    "rows": 1693,
+    "first_date": "2013-04-15",
+    "last_date": "2019-12-30",
+    "freshness": {
+      "reference_date": "2019-12-31",
+      "observed_last_date": "2019-12-30",
+      "staleness_days": 1,
+      "maximum_staleness_days": 7,
+      "status": "pass"
+    },
+    "active_market_rows": 1676,
+    "active_market_row_rate": 0.9899586532782044,
+    "active_market_freshness": {
+      "reference_date": "2019-12-31",
+      "observed_last_date": "2019-12-30",
+      "staleness_days": 1,
+      "maximum_staleness_days": 14,
+      "status": "pass"
+    },
+    "assembled_raw_sha256": "1dd110ac241c71e4ae3eab1b266a99c541d722dfa4f7ebfe1a2239130a12c05e",
+    "response_headers": {
+      "content-type": "application/json; charset=utf-8"
+    },
+    "normalized_sha256": "5a7e95b7ead049593f227ac806d8c64d13ac9c40e4d6ac2cbb89215698bc4ccd",
+    "retrieved_at_utc": "2026-09-04T20:53:45.126083+00:00"
+  },
+  {
+    "source_id": "moex_cny_fixing",
+    "authority": "Moscow Exchange (MOEX ISS)",
+    "url_template": "https://iss.moex.com/iss/history/engines/currency/markets/index/securities/CNYFIXME.json?from=2010-01-01&till=2019-12-31&start={offset}&iss.meta=off&iss.only=history,history.cursor&history.columns=TRADEDATE,SECID,CLOSE",
+    "license_review": "conditional; validate MOEX market-data user agreement before production",
+    "terms_url": "https://www.moex.com/en/datapolicy/",
+    "quote_parameter_spec_url": "https://www.moex.com/files/4q0ffn3fx8pas77s2dfzm78j4n",
+    "availability": "daily close; experiment applies a conservative lag",
+    "quote_units": null,
+    "normalized_price_unit": null,
+    "rows": 106,
+    "first_date": "2019-08-01",
+    "last_date": "2019-12-30",
+    "freshness": {
+      "reference_date": "2019-12-31",
+      "observed_last_date": "2019-12-30",
+      "staleness_days": 1,
+      "maximum_staleness_days": 7,
+      "status": "pass"
+    },
+    "active_market_rows": 106,
+    "active_market_row_rate": 1.0,
+    "active_market_freshness": {
+      "reference_date": "2019-12-31",
+      "observed_last_date": "2019-12-30",
+      "staleness_days": 1,
+      "maximum_staleness_days": 14,
+      "status": "pass"
+    },
+    "assembled_raw_sha256": "7150f893ac7c18b546f9658316f6a28fb76227f567d4892bbc89d1bd93c379d3",
+    "response_headers": {
+      "content-type": "application/json; charset=utf-8"
+    },
+    "normalized_sha256": "0e67c0acec972da29c67aaaa0404683ecd0fc3eecee763b32c9177384d31834f",
+    "retrieved_at_utc": "2026-09-04T20:53:45.851920+00:00"
+  }
+]

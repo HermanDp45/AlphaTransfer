@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "objective_survival",
+    "months": 24,
+    "features": "basis",
+    "model": "survival",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "46d38edb248f047bde4a77753d4fcd79a10f9559aeaa75b64838a9e8b89b086f",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

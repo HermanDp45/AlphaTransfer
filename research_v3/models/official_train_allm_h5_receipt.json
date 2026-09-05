@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "official_train_allm",
+    "months": 0,
+    "features": "official",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "f31e1f460f21ec784d7dc9a39c71afc35cefe9dd462eef97c9a96afe95c888a6",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

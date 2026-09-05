@@ -1,0 +1,158 @@
+{
+  "status": "complete",
+  "generated_at_utc": "2026-09-04T21:10:50.042998+00:00",
+  "rows": 166,
+  "tracks": [
+    "development_2023_2025",
+    "diagnostic_2026"
+  ],
+  "horizons": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "metric_layer": "corridor_candidate",
+  "synthetic_behavior_excluded": true,
+  "baseline_model": "hgb_plus_cnyrub_basis",
+  "checks": [
+    {
+      "check": "old_baseline_summary_parity",
+      "track": "development_2023_2025",
+      "horizon": 1,
+      "status": "PASS"
+    },
+    {
+      "check": "old_baseline_summary_parity",
+      "track": "development_2023_2025",
+      "horizon": 3,
+      "status": "PASS"
+    },
+    {
+      "check": "old_baseline_summary_parity",
+      "track": "development_2023_2025",
+      "horizon": 5,
+      "status": "PASS"
+    },
+    {
+      "check": "old_baseline_summary_parity",
+      "track": "diagnostic_2026",
+      "horizon": 5,
+      "status": "PASS"
+    },
+    {
+      "check": "old_baseline_summary_parity",
+      "track": "development_2023_2025",
+      "horizon": 10,
+      "status": "PASS"
+    },
+    {
+      "check": "old_baseline_summary_parity",
+      "track": "development_2023_2025",
+      "horizon": 20,
+      "status": "PASS"
+    },
+    {
+      "check": "TabM_scorecard_aggregate_parity",
+      "rows": 12,
+      "status": "PASS"
+    }
+  ],
+  "upstream_finished_parity": {
+    "root_parity": {
+      "rows": 4415,
+      "maximum_probability_error": 0.0,
+      "candidate_mask_exact": true,
+      "bootstrap_reps": 10000,
+      "configurations": 39,
+      "status": "PASS"
+    },
+    "external_verification": {
+      "status": "passed",
+      "checks": [
+        {
+          "check": "frozen_baseline_reproduced_hgb_base",
+          "rows": 3635,
+          "max_probability_difference": 0.0,
+          "identical_candidate_decisions": true
+        },
+        {
+          "check": "frozen_baseline_reproduced_hgb_plus_cnyrub_basis",
+          "rows": 3635,
+          "max_probability_difference": 0.0,
+          "identical_candidate_decisions": true
+        },
+        {
+          "check": "FRED_Treasury_primary_equivalence",
+          "rows": 4415,
+          "max_probability_difference": 0.0,
+          "identical_candidate_decisions": true
+        },
+        {
+          "check": "FRED_Treasury_stale_equivalence",
+          "rows": 4415,
+          "max_probability_difference": 0.0,
+          "identical_candidate_decisions": true
+        }
+      ],
+      "availability_violations": {
+        "v3_cboe_available_date": 0,
+        "v3_fred_available_date": 0,
+        "v3_treasury_available_date": 0,
+        "v3_credit_available_date": 0,
+        "v3_gpr_daily_available_date": 0,
+        "v3_gpr_monthly_available_date": 0,
+        "v3_cboe_stale_available_date": 0,
+        "v3_fred_stale_available_date": 0,
+        "v3_treasury_stale_available_date": 0,
+        "v3_credit_stale_available_date": 0,
+        "v3_gpr_daily_stale_available_date": 0,
+        "v3_gpr_monthly_stale_available_date": 0
+      },
+      "limitations": "Date lags are conservative proxies; this verifies join mechanics, not immutable source publication timestamps."
+    },
+    "tabm_parity": [
+      {
+        "config_id": "hgb_base",
+        "rows": 4415,
+        "max_probability_error": 0.0,
+        "candidate_masks_exact": true,
+        "status": "PASS"
+      },
+      {
+        "config_id": "hgb_plus_cnyrub_basis",
+        "rows": 4415,
+        "max_probability_error": 0.0,
+        "candidate_masks_exact": true,
+        "status": "PASS"
+      }
+    ]
+  },
+  "input_sha256": {
+    "final_solution/model_bundle/development_metrics.csv": "3ac7e06c47917d634359e258abfeaf0f6965cb406830d257a5c6d1ef8124c656",
+    "final_solution/model_bundle/diagnostic_2026_metrics.csv": "492a7985e4d9f1649571a1c9c162daf239d6b8c662036554c0a341d4314cc2c9",
+    "research_v3/models/summary_h1.csv": "a56934706d42a954f4484923373be9567d2b08e39c40c3fefed90733f33165db",
+    "research_v3/models/summary_h3.csv": "76364a8c6b2acbc811ed303274081bd1996c7f8ef4dd5d6e113abec9b9821964",
+    "research_v3/models/summary_h5.csv": "cd1aec3bf105f23031237b709203f04dba553c54b04099e7a13be8569d6d324c",
+    "research_v3/models/summary_h10.csv": "ab04f696a4bb28235f95f4e00f5f4f3f2202a52945b7dd210a68f08d8d70d549",
+    "research_v3/models/summary_h20.csv": "8ef5647b40b08eeafe7f5112aba7f0c4c06a224bc8b6ec4bec13da438f3b2b8f",
+    "research_v3/external_data/development_metrics.csv": "db3c1daa4fa31dd2790da88060b26532a748bacfc59e43ebc15ada48431ce3cb",
+    "research_v3/external_data/development_stale_metrics.csv": "50eacc95ccb9390b9c7e2afbb12ec4a5e20485425594cc9f6bd49e8bade65e41",
+    "research_v3/external_data/diagnostic_2026_metrics.csv": "827cd7f93f16639fef7d868795e8ec0910a37783ce68ce29d2d157abb69e164d",
+    "research_v3/external_data/diagnostic_2026_stale_metrics.csv": "48fad3b1d38d0b677ddc0c6fce7349ce929c4308c0d1037ec1e3b5c46ab2fcbe",
+    "research_v3/external_data/long_combo/development_metrics.csv": "ebe96e340c5ecb53b6d7963268e9e3614d44c687fa8043215276b33547f4b2d3",
+    "research_v3/external_data/long_combo/diagnostic_2026_metrics.csv": "f53ddbd40397af3c45dda89caa6da2e3e649f6b7cf155ffcccbc695926351c03",
+    "research_v3/external_data/credit_matched_2026_metrics.csv": "acbee8c209669e1305a78b071a82ecffac25f06e644792845ea38ce17be11740",
+    "research_v3/tabm/output/aggregate_metrics.csv": "36b8bae61df5fa4a1e68a47109ac00deaca74f54bb8ed2a88c6625055abe489c",
+    "research_v3/tabm/output/scorecard.csv": "61787f2731dfe556b148663e4f74d818d4ab010bcd83dee3f755fbc826c7958d",
+    "research_v3/models/external_combo_vs_incumbent_ci.csv": "855dedb67675de5582e1294dfe33fed907060c07cdfcebcea6adfc0e4875eb4d",
+    "research_v3/external_data/long_combo/development_paired_audit.csv": "db49268e952a29a62062f25e429704132f4153c53ac265daba29cb661a3f0bd6",
+    "research_v3/external_data/long_combo/diagnostic_2026_paired_audit.csv": "0e2a3a5f93dd2ba8b287be614dea9cfd67b2c4b60d2e6f6226f4f1b63b60f542"
+  },
+  "script_sha256": "4fe837a109b83e3bba0679d0bd7c7353646aa6e9129bd94b1040f606b7581483",
+  "output_sha256": {
+    "COMPARISON.csv": "faf77168f91edfc99f3e20906624aa59417f97b9906d59bc0cfce63188ece4c2",
+    "FINAL_COMPARISON.md": "24d69ea965a9a996c17843957c63c59b186037a31ecacf8b78e247b4eb4ed36f"
+  }
+}

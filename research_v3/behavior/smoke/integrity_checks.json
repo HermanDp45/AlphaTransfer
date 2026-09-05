@@ -1,0 +1,14 @@
+{
+  "all_no_delay": true,
+  "all_funded": true,
+  "all_urgent_events_unshifted": true,
+  "rolling_7d_cap_le_2": true,
+  "no_created_transfers": true,
+  "zero_incremental_volume_by_construction": true,
+  "exact_random_market_contact_budget": true,
+  "exact_calendar_contact_budget": true,
+  "input_market_forecasts_never_modified": true,
+  "external_validity_for_bank_clients": false,
+  "causal_business_uplift_identified": false,
+  "null_response_has_zero_timing_value": true
+}

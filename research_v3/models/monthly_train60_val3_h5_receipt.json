@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "monthly_train60_val3",
+    "months": 60,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 0,
+    "validation_months": 3,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "dynamic",
+  "horizon": 5,
+  "predictions_sha256": "a8f27dc041a71c715ce1720429762541ac517cac28427fbdb130765b7a5525ad",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

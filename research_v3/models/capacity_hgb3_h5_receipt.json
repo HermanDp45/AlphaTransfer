@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "capacity_hgb3",
+    "months": 24,
+    "features": "basis",
+    "model": "hgb3",
+    "extended": false,
+    "half_life_months": 0,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "328bec94b81c5a0f0f0fc553672f477ff30b6217863983795d0fb85cdc767fd2",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

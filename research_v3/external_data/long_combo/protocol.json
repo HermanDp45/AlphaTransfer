@@ -1,0 +1,24 @@
+{
+  "status": "posthoc_combination",
+  "train_months": 120,
+  "validation_months": 12,
+  "disable_early_stopping": true,
+  "features": [
+    "treasury_t10yie_stale_level",
+    "treasury_t10yie_stale_chg5",
+    "treasury_t10yie_stale_chg20",
+    "treasury_t5yifr_stale_level",
+    "treasury_t5yifr_stale_chg5",
+    "treasury_t5yifr_stale_chg20"
+  ],
+  "new_macro_feature_coverage_starts": "2020-01-01",
+  "test_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "diagnostic_year": 2026,
+  "production_promotions": 0,
+  "model_harness_sha256": "fea2ef9f8c32ec61534a032925fa193e7f2a6532427443127d2a2cc017e32b5b",
+  "extended_cbr_sha256": "105db9d5a6148da43cffba75c0d5bc5a8f76a80ad45d8844ae6189ff1223ce9d"
+}

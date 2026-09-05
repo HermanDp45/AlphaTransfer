@@ -1,0 +1,19 @@
+{
+  "spec": {
+    "name": "decay_24m",
+    "months": 0,
+    "features": "basis",
+    "model": "hgb2",
+    "extended": true,
+    "half_life_months": 24,
+    "validation_months": 12,
+    "historic_cny": false
+  },
+  "input_code_fingerprint": "58e43a12d8f1fdb71c9a84b94eb2a516151d4f5ecb7b8e1666b693d6e93b690d",
+  "stage": "annual",
+  "horizon": 5,
+  "predictions_sha256": "62ed3e9762b091b82ebb8dffa6b91c838f34967c04e4b01abbb6df731b969a33",
+  "rows": 4415,
+  "python": "3.14.7",
+  "status": "complete"
+}

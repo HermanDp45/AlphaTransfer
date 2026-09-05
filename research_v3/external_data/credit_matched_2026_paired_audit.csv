@@ -1,0 +1,2 @@
+candidate,baseline,paired_rows,decision_dates,month_blocks,brier_delta,relative_brier_improvement,ci95_low,ci95_high,improved_years,years,improved_cells,cells,bootstrap_reps,interpretation
+credit_matched_2026__ice,credit_matched_2026__basis,780,156,8,-0.0005955428094874077,0.0026684666736563954,-0.010281853197156281,0.007544419332471704,1,1,1,5,10000,retrospective exploratory; no multiplicity-adjusted confirmation

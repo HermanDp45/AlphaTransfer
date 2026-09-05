@@ -1,0 +1,218 @@
+{
+  "schema_version": 3,
+  "status": "RESEARCH_PREVIEW_ONLY",
+  "as_of": "2025-12-11",
+  "model": "basis_train_120m",
+  "horizon_effective_cbr_rows": 5,
+  "policy": {
+    "name": "selective",
+    "threshold": 0.5,
+    "cooldown_effective_rows": 3,
+    "frequency_is_a_cap_not_a_minimum": true,
+    "selection_is_retrospective_exploratory": true
+  },
+  "source_predictions_sha256": "d4484a63a842993089edb317da48e5347418c663f0de66002013b179957a4d3b",
+  "candidates": [
+    {
+      "date": "2025-12-11",
+      "corridor": "AMD",
+      "probability": 0.668280218530834,
+      "session": 3939,
+      "legacy_candidate": false,
+      "candidate": true,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-11",
+        "decision_date": "2025-12-11",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.204022,
+        "window_observations": 60,
+        "window_start": "2025-09-18",
+        "percentile_midrank": 0.10833333333333334,
+        "lower_quintile": true,
+        "change_since_previous_observation_pct": 1.3783987915407803,
+        "previous_observation_date": "2025-12-10"
+      },
+      "copy": {
+        "scenario": "HISTORICAL_LOW_REFERENCE",
+        "title": "Курс армянского драма: историческое сравнение",
+        "body": "Курс ЦБ на 2025-12-11 — среди 20% самых низких за последние 60 значений. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "corridor": "KGS",
+      "probability": 0.668280218530834,
+      "session": 3939,
+      "legacy_candidate": false,
+      "candidate": true,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-11",
+        "decision_date": "2025-12-11",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.890792,
+        "window_observations": 60,
+        "window_start": "2025-09-18",
+        "percentile_midrank": 0.10833333333333334,
+        "lower_quintile": true,
+        "change_since_previous_observation_pct": 1.4209073768774783,
+        "previous_observation_date": "2025-12-10"
+      },
+      "copy": {
+        "scenario": "HISTORICAL_LOW_REFERENCE",
+        "title": "Курс кыргызского сома: историческое сравнение",
+        "body": "Курс ЦБ на 2025-12-11 — среди 20% самых низких за последние 60 значений. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "corridor": "KZT",
+      "probability": 0.7244666661480323,
+      "session": 3940,
+      "legacy_candidate": false,
+      "candidate": true,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-11",
+        "decision_date": "2025-12-11",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.151338,
+        "window_observations": 60,
+        "window_start": "2025-09-18",
+        "percentile_midrank": 0.375,
+        "lower_quintile": false,
+        "change_since_previous_observation_pct": 0.15220901606798343,
+        "previous_observation_date": "2025-12-10"
+      },
+      "copy": {
+        "scenario": "OBSERVED_RISE",
+        "title": "Курс казахстанского тенге изменился",
+        "body": "Курс ЦБ на 2025-12-11 вырос на 0.15% с 2025-12-10. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "corridor": "TJS",
+      "probability": 0.6634503771766254,
+      "session": 3939,
+      "legacy_candidate": false,
+      "candidate": true,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-11",
+        "decision_date": "2025-12-11",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 8.43967,
+        "window_observations": 60,
+        "window_start": "2025-09-18",
+        "percentile_midrank": 0.15833333333333333,
+        "lower_quintile": true,
+        "change_since_previous_observation_pct": 1.4077483836006266,
+        "previous_observation_date": "2025-12-10"
+      },
+      "copy": {
+        "scenario": "HISTORICAL_LOW_REFERENCE",
+        "title": "Курс таджикского сомони: историческое сравнение",
+        "body": "Курс ЦБ на 2025-12-11 — среди 20% самых низких за последние 60 значений. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "corridor": "UZS",
+      "probability": 0.6618251053260743,
+      "session": 3939,
+      "legacy_candidate": false,
+      "candidate": true,
+      "factual_evidence": {
+        "available": true,
+        "source": "Bank of Russia official reference; not an executable Alpha quote",
+        "effective_date": "2025-12-11",
+        "decision_date": "2025-12-11",
+        "publication_timestamp_verified": false,
+        "rub_per_unit": 0.00648993,
+        "window_observations": 60,
+        "window_start": "2025-09-18",
+        "percentile_midrank": 0.10833333333333334,
+        "lower_quintile": true,
+        "change_since_previous_observation_pct": 1.310336107299559,
+        "previous_observation_date": "2025-12-10"
+      },
+      "copy": {
+        "scenario": "HISTORICAL_LOW_REFERENCE",
+        "title": "Курс узбекского сума: историческое сравнение",
+        "body": "Курс ЦБ на 2025-12-11 — среди 20% самых низких за последние 60 значений. Курс перевода и сумму к получению проверьте в приложении."
+      }
+    }
+  ],
+  "selected": {
+    "date": "2025-12-11",
+    "corridor": "KZT",
+    "probability": 0.7244666661480323,
+    "session": 3940,
+    "legacy_candidate": false,
+    "candidate": true,
+    "factual_evidence": {
+      "available": true,
+      "source": "Bank of Russia official reference; not an executable Alpha quote",
+      "effective_date": "2025-12-11",
+      "decision_date": "2025-12-11",
+      "publication_timestamp_verified": false,
+      "rub_per_unit": 0.151338,
+      "window_observations": 60,
+      "window_start": "2025-09-18",
+      "percentile_midrank": 0.375,
+      "lower_quintile": false,
+      "change_since_previous_observation_pct": 0.15220901606798343,
+      "previous_observation_date": "2025-12-10"
+    },
+    "copy": {
+      "scenario": "OBSERVED_RISE",
+      "title": "Курс казахстанского тенге изменился",
+      "body": "Курс ЦБ на 2025-12-11 вырос на 0.15% с 2025-12-10. Курс перевода и сумму к получению проверьте в приложении."
+    }
+  },
+  "behavior": {
+    "status": "simulation",
+    "source": "synthetic",
+    "simulation": true,
+    "preview_ready": true,
+    "production_eligible": false,
+    "suppression_reasons": [],
+    "fx_probability_modified": false,
+    "causal_uplift_estimated": false,
+    "effect_claim": "Not estimated; synthetic scenarios do not identify business uplift.",
+    "next_gates": [
+      "market_quality",
+      "TTL",
+      "timezone",
+      "live_quote",
+      "shared_CRM",
+      "production_promotion"
+    ],
+    "research_thresholds": {
+      "minimum_history_events": 3,
+      "forecast_window_days": 7,
+      "post_transfer_suppression_days": 3
+    },
+    "timing_resolution": "calendar_day; intraday availability and freshness require existing product checks"
+  },
+  "eligible_to_send": false,
+  "external_message_sent": false,
+  "suppression_reasons": [
+    "historical_research_preview",
+    "no_executable_alpha_quote",
+    "prospective_validation_pending",
+    "source_rights_and_publication_clocks_require_verification",
+    "behavior:synthetic_context_is_research_only"
+  ],
+  "metric_contract": {
+    "forecast": "NOW hit probability, Brier/log-loss on paired dates",
+    "policy": "hit lift, reference bps, risk and contact frequency jointly",
+    "client": "simulation separately; causal value requires randomized bank data"
+  }
+}

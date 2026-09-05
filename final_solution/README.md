@@ -1,5 +1,7 @@
 # AlphaTransfer final solution
 
+Обновление V3 (2026-09-05): [полный отчёт и сравнения](../research_v3/REPORT.md), [запуск новых моделей и selective policy](../research_v3/README.md). Старый baseline сохранён; в продуктовый путь добавлены проверяемые факты и optional readiness gate.
+
 Один entry point превращает проверенный ML-кандидат в полный product decision: проверяет входы, собирает три ключевые метрики, формирует исторический сигнал, применяет TTL/CRM/timezone/quote-гейты и пишет понятный отчёт.
 
 ## Быстрый запуск
