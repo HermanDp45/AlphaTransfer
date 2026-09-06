@@ -254,15 +254,23 @@ class Canvas:
         )
         self.draw.polygon(points, fill=fill, outline=stroke)
 
+    def arrow(self, xy: tuple[int, int, int, int], fill: str = INK, width: int = 4) -> None:
+        x0, y0, x1, y1 = xy
+        self.line((x0, y0, x1 - 13, y1), fill=fill, width=width)
+        points = [(x1, y1), (x1 - 18, y1 - 11), (x1 - 18, y1 + 11)]
+        encoded = " ".join(f"{px},{py}" for px, py in points)
+        self.svg.append(f'<polygon points="{encoded}" fill="{fill}"/>')
+        self.draw.polygon(points, fill=fill)
+
     def text(self, x: int, y: int, value: object, size: int = 24, *, bold: bool = False,
              fill: str = INK, anchor: str = "la") -> None:
         weight = 700 if bold else 400
-        svg_anchor = {"la": "start", "ma": "middle", "ra": "end"}.get(anchor, "start")
+        svg_anchor = {"la": "start", "ma": "middle", "ra": "end", "mm": "middle"}.get(anchor, "start")
         self.svg.append(
             f'<text x="{x}" y="{y}" font-family="Arial, Helvetica, sans-serif" '
             f'font-size="{size}" font-weight="{weight}" fill="{fill}" text-anchor="{svg_anchor}">{esc(value)}</text>'
         )
-        pil_anchor = anchor if anchor in {"la", "ma", "ra"} else "la"
+        pil_anchor = anchor if anchor in {"la", "ma", "ra", "mm"} else "la"
         self.draw.text((x, y), str(value), font=self.font(size, bold), fill=fill, anchor=pil_anchor)
 
     def save(self, out: Path, name: str) -> None:
@@ -528,6 +536,116 @@ def build_signal_timeline(out: Path) -> None:
     c.save(out, "07_signal_timeline")
 
 
+def build_trigger_map(out: Path) -> None:
+    h3_features = set(read_json(H3_DIR / "bundle.json")["features"])
+    h5_features = set(read_json(ROOT / "final_solution" / "tabm_h5" / "feature_contract.json")["features"])
+    if h3_features != h5_features:
+        raise RuntimeError("H3/H5 feature contracts diverged; trigger map needs review")
+    groups = [
+        (
+            "Уровень и импульс курса",
+            {*(f"ret{n}" for n in (1, 3, 5, 10, 20, 60)), *(f"pr{n}" for n in (20, 60, 120, 252))},
+            "CBR · доходности 1–60 сессий · перцентили 20–252",
+            ("Где сегодняшний RUB/KZT находится", "в недавнем диапазоне и насколько", "устойчиво меняется направление."),
+            PALE_RED,
+            RED,
+        ),
+        (
+            "Волатильность и режим",
+            {*(f"vol{n}" for n in (5, 20, 60)), "volratio"},
+            "CBR · волатильность 5 / 20 / 60 · short/long ratio",
+            ("Отличаем спокойное окно от резкого", "или нетипичного движения: одинаковый", "уровень курса несёт разный риск."),
+            PALE,
+            INK,
+        ),
+        (
+            "Внешний валютный контекст",
+            {
+                "moex_cny_close_minus_fixing_same_session", "oxr_log_basis",
+                "oxr_basis_chg1", "oxr_basis_chg5", "oxr_basis_z20",
+                "oxr_available", "oxr_age_days",
+            },
+            "MOEX CNY · OXR 2010+ · basis, change, z-score, age",
+            ("Ловим расхождение официального курса", "с внешними кросс-курсами и проверяем,", "не устарела ли рыночная опора."),
+            PALE_GREEN,
+            GREEN,
+        ),
+        (
+            "Банк и макрорежим",
+            {
+                "halyk_rub_sell_official_basis", "halyk_rub_personal_legal_gap",
+                "halyk_personal_rub_ret1", "halyk_personal_rub_ret5",
+                "halyk_personal_usd_ret1", "halyk_personal_usd_ret5",
+                *(f"treasury_{symbol}_stale_{suffix}" for symbol in ("t10yie", "t5yifr") for suffix in ("level", "chg5", "chg20")),
+            },
+            "Halyk sell · personal/legal gap · US inflation expectations",
+            ("Добавляем банковскую цену и ликвидность", "в Казахстане, а также глобальный", "инфляционный фон для режима рынка."),
+            "#FFF5E8",
+            AMBER,
+        ),
+    ]
+    covered = set().union(*(features for _, features, *_ in groups))
+    if covered != h3_features:
+        raise RuntimeError(f"trigger map does not cover feature contract: missing={sorted(h3_features-covered)} extra={sorted(covered-h3_features)}")
+
+    c = Canvas("Триггеры AlphaTransfer", "Экономическая карта 33 признаков H3 и H5.")
+    header(c, "На какие изменения реагируют модели", "33 point-in-time признака · одинаковый feature contract H3/H5 · RUB → KZT")
+    for idx, (title, features, source, lines, fill, accent) in enumerate(groups):
+        col, row = idx % 2, idx // 2
+        x0, y0 = 70 + col * 765, 165 + row * 270
+        c.rect((x0, y0, x0 + 730, y0 + 235), fill, radius=24)
+        c.circle(x0 + 45, y0 + 48, 22, accent)
+        c.text(x0 + 45, y0 + 48, len(features), 17, bold=True, fill=WHITE, anchor="mm")
+        c.text(x0 + 82, y0 + 57, title, 27, bold=True, fill=accent)
+        c.text(x0 + 34, y0 + 101, source, 17, fill=MUTED)
+        for line_idx, line in enumerate(lines):
+            c.text(x0 + 34, y0 + 147 + line_idx * 27, line, 20, bold=line_idx == 0)
+    c.rect((70, 725, 1530, 840), INK, radius=20)
+    c.text(105, 772, "Важно", 21, bold=True, fill="#7DE2AA")
+    c.text(200, 772, "Это входы модели, а не четыре жёстких правила.", 22, bold=True, fill=WHITE)
+    c.text(105, 813, "TabM нелинейно объединяет признаки; направление и сила влияния обучаются на train, а пропуски получают отдельные индикаторы.", 19, fill="#D5D5D5")
+    c.text(1530, 882, "Интерпретация экономическая; визуализация не заменяет attribution-анализ конкретного дня.", 16, fill=MUTED, anchor="ra")
+    c.save(out, "08_trigger_map")
+
+
+def build_signal_pipeline(out: Path) -> None:
+    c = Canvas("От триггера до пуша", "Причинная цепочка AlphaTransfer от доступных данных до клиентского сообщения.")
+    header(c, "От рыночного изменения до клиентского сообщения", "Модель выбирает момент; продуктовые правила решают, можно ли и как связаться с клиентом")
+    stages = [
+        ("1", "Данные на сейчас", ("CBR · MOEX · OXR", "Halyk · Treasury", "с явным known-at"), PALE, INK),
+        ("2", "33 признака", ("уровень · импульс", "волатильность · basis", "банк · макрорежим"), PALE_RED, RED),
+        ("3", "TabM", ("P(NOW_H3)", "P(NOW_H5)", "две разные цели"), PALE_GREEN, GREEN),
+        ("4", "Causal policy", ("калибровка на прошлом", "rank среди 63 прошлых", "score + cooldown"), "#FFF5E8", AMBER),
+        ("5", "Delivery gates", ("коридор и намерение", "consent · срочность", "лимит ≤ 2 в неделю"), PALE, INK),
+        ("6", "Пуш или тишина", ("факты о настоящем", "и прошлом курсе", "актуальная цена в app"), PALE_RED, RED),
+    ]
+    box_w, gap, x_start = 220, 25, 55
+    for idx, (number, title, lines, fill, accent) in enumerate(stages):
+        x0 = x_start + idx * (box_w + gap)
+        c.rect((x0, 180, x0 + box_w, 560), fill, radius=22)
+        c.circle(x0 + 35, 218, 20, accent)
+        c.text(x0 + 35, 218, number, 17, bold=True, fill=WHITE, anchor="mm")
+        c.text(x0 + 24, 285, title, 22, bold=True, fill=accent)
+        for line_idx, line in enumerate(lines):
+            c.text(x0 + 24, 350 + line_idx * 39, line, 17, bold=line_idx == 0)
+        if idx < len(stages) - 1:
+            c.arrow((x0 + box_w + 4, 370, x0 + box_w + gap - 5, 370), fill=INK, width=3)
+
+    c.rect((70, 625, 760, 825), PALE, radius=22)
+    c.text(104, 674, "Нет NOW или не пройден delivery gate", 23, bold=True)
+    c.text(104, 718, "Проактивного пуша нет.", 26, bold=True, fill=MUTED)
+    c.text(104, 758, "Шкала курса остаётся доступной при входе в приложение;", 18, fill=MUTED)
+    c.text(104, 790, "политика не создаёт искусственный сигнал в тихую неделю.", 18, fill=MUTED)
+
+    c.rect((800, 625, 1530, 825), PALE_RED, radius=22)
+    c.text(834, 671, "NOW прошёл все gates", 23, bold=True, fill=RED)
+    c.text(834, 713, "«Курс сегодня — среди 15% самых низких", 23, bold=True)
+    c.text(834, 748, "значений за три месяца»", 23, bold=True)
+    c.text(834, 790, "CLOSING_H3 может усилить тот же контакт — без второго пуша.", 18, fill=MUTED)
+    c.text(1530, 882, "Перед показом сумма и курс пересчитываются; финальный текст утверждает комплаенс банка.", 16, fill=MUTED, anchor="ra")
+    c.save(out, "09_signal_pipeline")
+
+
 def snapshot_rows(profiles: tuple[Profile, Profile]) -> list[dict[str, str]]:
     columns = [
         "rows", "dates", "signals", "hits", "base_hit", "hit_rate", "lift",
@@ -594,6 +712,8 @@ def build(out: Path) -> None:
     build_h3_history(out)
     build_closing(out)
     build_signal_timeline(out)
+    build_trigger_map(out)
+    build_signal_pipeline(out)
 
 
 def check() -> None:

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Триггеры AlphaTransfer</title>
+<desc id="desc">Экономическая карта 33 признаков H3 и H5.</desc>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start">На какие изменения реагируют модели</text>
+<text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#676767" text-anchor="start">33 point-in-time признака · одинаковый feature contract H3/H5 · RUB → KZT</text>
+<rect x="70" y="165" width="730" height="235" rx="24" fill="#FFF0EF" stroke="none" stroke-width="1"/>
+<circle cx="115" cy="213" r="22" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
+<text x="115" y="213" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">10</text>
+<text x="152" y="222" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#EF3124" text-anchor="start">Уровень и импульс курса</text>
+<text x="104" y="266" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="start">CBR · доходности 1–60 сессий · перцентили 20–252</text>
+<text x="104" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717" text-anchor="start">Где сегодняшний RUB/KZT находится</text>
+<text x="104" y="339" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">в недавнем диапазоне и насколько</text>
+<text x="104" y="366" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">устойчиво меняется направление.</text>
+<rect x="835" y="165" width="730" height="235" rx="24" fill="#F6F6F6" stroke="none" stroke-width="1"/>
+<circle cx="880" cy="213" r="22" fill="#171717" stroke="#FFFFFF" stroke-width="3"/>
+<text x="880" y="213" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="917" y="222" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#171717" text-anchor="start">Волатильность и режим</text>
+<text x="869" y="266" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="start">CBR · волатильность 5 / 20 / 60 · short/long ratio</text>
+<text x="869" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717" text-anchor="start">Отличаем спокойное окно от резкого</text>
+<text x="869" y="339" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">или нетипичного движения: одинаковый</text>
+<text x="869" y="366" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">уровень курса несёт разный риск.</text>
+<rect x="70" y="435" width="730" height="235" rx="24" fill="#ECF7F0" stroke="none" stroke-width="1"/>
+<circle cx="115" cy="483" r="22" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
+<text x="115" y="483" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="152" y="492" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#1F8A55" text-anchor="start">Внешний валютный контекст</text>
+<text x="104" y="536" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="start">MOEX CNY · OXR 2010+ · basis, change, z-score, age</text>
+<text x="104" y="582" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717" text-anchor="start">Ловим расхождение официального курса</text>
+<text x="104" y="609" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">с внешними кросс-курсами и проверяем,</text>
+<text x="104" y="636" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">не устарела ли рыночная опора.</text>
+<rect x="835" y="435" width="730" height="235" rx="24" fill="#FFF5E8" stroke="none" stroke-width="1"/>
+<circle cx="880" cy="483" r="22" fill="#B56A00" stroke="#FFFFFF" stroke-width="3"/>
+<text x="880" y="483" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">12</text>
+<text x="917" y="492" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#B56A00" text-anchor="start">Банк и макрорежим</text>
+<text x="869" y="536" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="start">Halyk sell · personal/legal gap · US inflation expectations</text>
+<text x="869" y="582" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717" text-anchor="start">Добавляем банковскую цену и ликвидность</text>
+<text x="869" y="609" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">в Казахстане, а также глобальный</text>
+<text x="869" y="636" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">инфляционный фон для режима рынка.</text>
+<rect x="70" y="725" width="1460" height="115" rx="20" fill="#171717" stroke="none" stroke-width="1"/>
+<text x="105" y="772" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#7DE2AA" text-anchor="start">Важно</text>
+<text x="200" y="772" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start">Это входы модели, а не четыре жёстких правила.</text>
+<text x="105" y="813" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#D5D5D5" text-anchor="start">TabM нелинейно объединяет признаки; направление и сила влияния обучаются на train, а пропуски получают отдельные индикаторы.</text>
+<text x="1530" y="882" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="end">Интерпретация экономическая; визуализация не заменяет attribution-анализ конкретного дня.</text>
+</svg>

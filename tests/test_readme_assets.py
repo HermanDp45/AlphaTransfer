@@ -54,8 +54,9 @@ class ReadmeAssetsTest(unittest.TestCase):
 
     def test_generated_assets_are_current(self) -> None:
         assets.check()
-        self.assertTrue((ROOT / "docs/assets/model-metrics/07_signal_timeline.png").is_file())
-        self.assertTrue((ROOT / "docs/assets/model-metrics/07_signal_timeline.svg").is_file())
+        for stem in ("07_signal_timeline", "08_trigger_map", "09_signal_pipeline"):
+            self.assertTrue((ROOT / f"docs/assets/model-metrics/{stem}.png").is_file())
+            self.assertTrue((ROOT / f"docs/assets/model-metrics/{stem}.svg").is_file())
 
     def test_agents_map_covers_current_entrypoints(self) -> None:
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")

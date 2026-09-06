@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">От триггера до пуша</title>
+<desc id="desc">Причинная цепочка AlphaTransfer от доступных данных до клиентского сообщения.</desc>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start">От рыночного изменения до клиентского сообщения</text>
+<text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#676767" text-anchor="start">Модель выбирает момент; продуктовые правила решают, можно ли и как связаться с клиентом</text>
+<rect x="55" y="180" width="220" height="380" rx="22" fill="#F6F6F6" stroke="none" stroke-width="1"/>
+<circle cx="90" cy="218" r="20" fill="#171717" stroke="#FFFFFF" stroke-width="3"/>
+<text x="90" y="218" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="79" y="285" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start">Данные на сейчас</text>
+<text x="79" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171717" text-anchor="start">CBR · MOEX · OXR</text>
+<text x="79" y="389" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">Halyk · Treasury</text>
+<text x="79" y="428" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">с явным known-at</text>
+<line x1="279" y1="370" x2="282" y2="370" stroke="#171717" stroke-width="3"/>
+<polygon points="295,370 277,359 277,381" fill="#171717"/>
+<rect x="300" y="180" width="220" height="380" rx="22" fill="#FFF0EF" stroke="none" stroke-width="1"/>
+<circle cx="335" cy="218" r="20" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
+<text x="335" y="218" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="324" y="285" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#EF3124" text-anchor="start">33 признака</text>
+<text x="324" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171717" text-anchor="start">уровень · импульс</text>
+<text x="324" y="389" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">волатильность · basis</text>
+<text x="324" y="428" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">банк · макрорежим</text>
+<line x1="524" y1="370" x2="527" y2="370" stroke="#171717" stroke-width="3"/>
+<polygon points="540,370 522,359 522,381" fill="#171717"/>
+<rect x="545" y="180" width="220" height="380" rx="22" fill="#ECF7F0" stroke="none" stroke-width="1"/>
+<circle cx="580" cy="218" r="20" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
+<text x="580" y="218" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="569" y="285" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1F8A55" text-anchor="start">TabM</text>
+<text x="569" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171717" text-anchor="start">P(NOW_H3)</text>
+<text x="569" y="389" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">P(NOW_H5)</text>
+<text x="569" y="428" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">две разные цели</text>
+<line x1="769" y1="370" x2="772" y2="370" stroke="#171717" stroke-width="3"/>
+<polygon points="785,370 767,359 767,381" fill="#171717"/>
+<rect x="790" y="180" width="220" height="380" rx="22" fill="#FFF5E8" stroke="none" stroke-width="1"/>
+<circle cx="825" cy="218" r="20" fill="#B56A00" stroke="#FFFFFF" stroke-width="3"/>
+<text x="825" y="218" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="814" y="285" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#B56A00" text-anchor="start">Causal policy</text>
+<text x="814" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171717" text-anchor="start">калибровка на прошлом</text>
+<text x="814" y="389" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">rank среди 63 прошлых</text>
+<text x="814" y="428" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">score + cooldown</text>
+<line x1="1014" y1="370" x2="1017" y2="370" stroke="#171717" stroke-width="3"/>
+<polygon points="1030,370 1012,359 1012,381" fill="#171717"/>
+<rect x="1035" y="180" width="220" height="380" rx="22" fill="#F6F6F6" stroke="none" stroke-width="1"/>
+<circle cx="1070" cy="218" r="20" fill="#171717" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1070" y="218" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="1059" y="285" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start">Delivery gates</text>
+<text x="1059" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171717" text-anchor="start">коридор и намерение</text>
+<text x="1059" y="389" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">consent · срочность</text>
+<text x="1059" y="428" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">лимит ≤ 2 в неделю</text>
+<line x1="1259" y1="370" x2="1262" y2="370" stroke="#171717" stroke-width="3"/>
+<polygon points="1275,370 1257,359 1257,381" fill="#171717"/>
+<rect x="1280" y="180" width="220" height="380" rx="22" fill="#FFF0EF" stroke="none" stroke-width="1"/>
+<circle cx="1315" cy="218" r="20" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1315" y="218" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="1304" y="285" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#EF3124" text-anchor="start">Пуш или тишина</text>
+<text x="1304" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171717" text-anchor="start">факты о настоящем</text>
+<text x="1304" y="389" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">и прошлом курсе</text>
+<text x="1304" y="428" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#171717" text-anchor="start">актуальная цена в app</text>
+<rect x="70" y="625" width="690" height="200" rx="22" fill="#F6F6F6" stroke="none" stroke-width="1"/>
+<text x="104" y="674" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">Нет NOW или не пройден delivery gate</text>
+<text x="104" y="718" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#676767" text-anchor="start">Проактивного пуша нет.</text>
+<text x="104" y="758" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">Шкала курса остаётся доступной при входе в приложение;</text>
+<text x="104" y="790" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">политика не создаёт искусственный сигнал в тихую неделю.</text>
+<rect x="800" y="625" width="730" height="200" rx="22" fill="#FFF0EF" stroke="none" stroke-width="1"/>
+<text x="834" y="671" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#EF3124" text-anchor="start">NOW прошёл все gates</text>
+<text x="834" y="713" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">«Курс сегодня — среди 15% самых низких</text>
+<text x="834" y="748" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">значений за три месяца»</text>
+<text x="834" y="790" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">CLOSING_H3 может усилить тот же контакт — без второго пуша.</text>
+<text x="1530" y="882" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="end">Перед показом сумма и курс пересчитываются; финальный текст утверждает комплаенс банка.</text>
+</svg>
