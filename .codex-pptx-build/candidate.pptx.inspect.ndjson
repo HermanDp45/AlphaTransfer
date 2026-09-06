@@ -1,0 +1,161 @@
+{"kind":"deck","id":"pr/b6q2sc","name":"Deck"}
+{"kind":"layout","layoutId":"e8713845-f6aa-4ae0-b7dc-0e37935e47e9","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3992f021-72f1-4d2c-95e0-40a4bcdb4e79","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/3zy8au","slide":1,"title":"МОДЕЛЬНЫЕ БЕНЧМАРКИ","textShapes":72}
+{"kind":"shape","id":"sh/8nu94bqd","slide":1,"bbox":[0,0,1600,5]}
+{"kind":"shape","id":"sh/7ml8b6ps","slide":1,"bbox":[1558,0,22,22]}
+{"kind":"textbox","id":"sh/mlcr2187","slide":1,"text":"МОДЕЛЬНЫЕ БЕНЧМАРКИ","textPreview":"МОДЕЛЬНЫЕ БЕНЧМАРКИ","textChars":19,"textLines":1,"bbox":[68,38,500,22]}
+{"kind":"textbox","id":"sh/lkjq9w7m","slide":1,"text":"Два горизонта, два режима сигнала","textPreview":"Два горизонта, два режима сигнала","textChars":33,"textLines":1,"bbox":[68,67,1464,58]}
+{"kind":"textbox","id":"sh/kza90rqh","slide":1,"text":"Rolling OOT 2024–2026 · KZT · ежегодное переобучение только на доступной истории","textPreview":"Rolling OOT 2024–2026 · KZT · ежегодное переобучение только на доступной истории","textChars":80,"textLines":1,"bbox":[68,126,1464,34]}
+{"kind":"shape","id":"sh/zy187mpw","slide":1,"bbox":[68,184,714,326]}
+{"kind":"textbox","id":"sh/yxsryh8b","slide":1,"text":"H3 · 3 СЕССИИ","textPreview":"H3 · 3 СЕССИИ","textChars":13,"textLines":1,"bbox":[92,205,106,28]}
+{"kind":"textbox","id":"sh/xwjq5w7q","slide":1,"text":"Регулярный сигнал","textPreview":"Регулярный сигнал","textChars":17,"textLines":1,"bbox":[92,243,640,36]}
+{"kind":"textbox","id":"sh/cva9wrq5","slide":1,"text":"Для пользователей, которые переводят реже и могут выбирать момент","textPreview":"Для пользователей, которые переводят реже и могут выбирать момент","textChars":65,"textLines":1,"bbox":[92,280,650,30]}
+{"kind":"textbox","id":"sh/2dgf654v","slide":1,"text":"1,504×","textPreview":"1,504×","textChars":6,"textLines":1,"bbox":[92,326,175,47]}
+{"kind":"textbox","id":"sh/3epgza5g","slide":1,"text":"lift к случайному дню","textPreview":"lift к случайному дню","textChars":21,"textLines":1,"bbox":[92,369,175,27]}
+{"kind":"textbox","id":"sh/4fyx8fm1","slide":1,"text":"49,0%","textPreview":"49,0%","textChars":5,"textLines":1,"bbox":[318,326,165,47]}
+{"kind":"textbox","id":"sh/p07y10nm","slide":1,"text":"hit rate · base 32,9%","textPreview":"hit rate · base 32,9%","textChars":21,"textLines":1,"bbox":[318,369,165,27]}
+{"kind":"textbox","id":"sh/u9wf2l4z","slide":1,"text":"+54,2 б.п.","textPreview":"+54,2 б.п.","textChars":10,"textLines":1,"bbox":[563,326,175,47]}
+{"kind":"textbox","id":"sh/fa5gvq54","slide":1,"text":"выгода момента","textPreview":"выгода момента","textChars":14,"textLines":1,"bbox":[563,369,175,27]}
+{"kind":"textbox","id":"sh/gbex4vmp","slide":1,"text":"85,9%","textPreview":"85,9%","textChars":5,"textLines":1,"bbox":[92,407,165,47]}
+{"kind":"textbox","id":"sh/hc7yx0na","slide":1,"text":"недель с 1–2 сигналами","textPreview":"недель с 1–2 сигналами","textChars":22,"textLines":1,"bbox":[92,450,165,27]}
+{"kind":"textbox","id":"sh/65wfyl4n","slide":1,"text":"1,12","textPreview":"1,12","textChars":4,"textLines":1,"bbox":[293,407,145,47]}
+{"kind":"textbox","id":"sh/765wrq58","slide":1,"text":"сигнала в неделю","textPreview":"сигнала в неделю","textChars":16,"textLines":1,"bbox":[293,450,145,27]}
+{"kind":"textbox","id":"sh/va1czml0","slide":1,"text":"0,765","textPreview":"0,765","textChars":5,"textLines":1,"bbox":[478,407,105,47]}
+{"kind":"textbox","id":"sh/apsv6hkf","slide":1,"text":"ROC AUC","textPreview":"ROC AUC","textChars":7,"textLines":1,"bbox":[478,450,105,27]}
+{"kind":"textbox","id":"sh/xcju1c36","slide":1,"text":"0,178","textPreview":"0,178","textChars":5,"textLines":1,"bbox":[628,407,105,47]}
+{"kind":"textbox","id":"sh/wbad8r2l","slide":1,"text":"Brier","textPreview":"Brier","textChars":5,"textLines":1,"bbox":[628,450,105,27]}
+{"kind":"textbox","id":"sh/jelc3mlw","slide":1,"text":"УСТОЙЧИВОСТЬ ПО ГОДАМ · LIFT / ВЫГОДА","textPreview":"УСТОЙЧИВОСТЬ ПО ГОДАМ · LIFT / ВЫГОДА","textChars":37,"textLines":1,"bbox":[92,466,370,18]}
+{"kind":"shape","id":"sh/idcvahkr","slide":1,"bbox":[92,488,202,48]}
+{"kind":"textbox","id":"sh/5g3u5w32","slide":1,"text":"2024","textPreview":"2024","textChars":4,"textLines":1,"bbox":[104,496,45,16]}
+{"kind":"textbox","id":"sh/kfudcr2h","slide":1,"text":"1,609×","textPreview":"1,609×","textChars":6,"textLines":1,"bbox":[154,495,72,18]}
+{"kind":"textbox","id":"sh/zihcr2ls","slide":1,"text":"+57,5 б.п.","textPreview":"+57,5 б.п.","textChars":10,"textLines":1,"bbox":[154,514,85,14]}
+{"kind":"shape","id":"sh/eh8byxk7","slide":1,"bbox":[324,488,202,48]}
+{"kind":"textbox","id":"sh/4n69s3i5","slide":1,"text":"2025","textPreview":"2025","textChars":4,"textLines":1,"bbox":[336,496,45,16]}
+{"kind":"textbox","id":"sh/pofa18jq","slide":1,"text":"1,452×","textPreview":"1,452×","textChars":6,"textLines":1,"bbox":[386,495,72,18]}
+{"kind":"textbox","id":"sh/2l4rqt0z","slide":1,"text":"+40,3 б.п.","textPreview":"+40,3 б.п.","textChars":10,"textLines":1,"bbox":[386,514,85,14]}
+{"kind":"shape","id":"sh/3mxszy1k","slide":1,"bbox":[556,488,202,48]}
+{"kind":"textbox","id":"sh/gzm9oji9","slide":1,"text":"2026","textPreview":"2026","textChars":4,"textLines":1,"bbox":[568,496,45,16]}
+{"kind":"textbox","id":"sh/hkvaxoje","slide":1,"text":"1,441×","textPreview":"1,441×","textChars":6,"textLines":1,"bbox":[618,495,72,18]}
+{"kind":"textbox","id":"sh/ux4rm903","slide":1,"text":"+73,8 б.п.","textPreview":"+73,8 б.п.","textChars":10,"textLines":1,"bbox":[618,514,85,14]}
+{"kind":"shape","id":"sh/fydsve1o","slide":1,"bbox":[818,184,714,326]}
+{"kind":"textbox","id":"sh/0vq90nid","slide":1,"text":"H5 · 5 СЕССИЙ","textPreview":"H5 · 5 СЕССИЙ","textChars":13,"textLines":1,"bbox":[842,205,106,28]}
+{"kind":"textbox","id":"sh/1gza9sjy","slide":1,"text":"Редкий, более избирательный сигнал","textPreview":"Редкий, более избирательный сигнал","textChars":34,"textLines":1,"bbox":[842,243,640,36]}
+{"kind":"textbox","id":"sh/xo7y5gvy","slide":1,"text":"Для пользователей, которым нужно меньше уведомлений и более длинное окно","textPreview":"Для пользователей, которым нужно меньше уведомлений и более длинное окно","textChars":72,"textLines":1,"bbox":[842,280,650,30]}
+{"kind":"textbox","id":"sh/wnyxcbud","slide":1,"text":"1,986×","textPreview":"1,986×","textChars":6,"textLines":1,"bbox":[842,326,175,47]}
+{"kind":"textbox","id":"sh/bmpg36ds","slide":1,"text":"lift к случайному дню","textPreview":"lift к случайному дню","textChars":21,"textLines":1,"bbox":[842,369,175,27]}
+{"kind":"textbox","id":"sh/algfa1cn","slide":1,"text":"52,8%","textPreview":"52,8%","textChars":5,"textLines":1,"bbox":[1068,326,165,47]}
+{"kind":"textbox","id":"sh/lsry90va","slide":1,"text":"hit rate · base 26,5%","textPreview":"hit rate · base 26,5%","textChars":21,"textLines":1,"bbox":[1068,369,165,27]}
+{"kind":"textbox","id":"sh/krixgvup","slide":1,"text":"+95,6 б.п.","textPreview":"+95,6 б.п.","textChars":10,"textLines":1,"bbox":[1313,326,175,47]}
+{"kind":"textbox","id":"sh/jq9g7qd4","slide":1,"text":"выгода момента","textPreview":"выгода момента","textChars":14,"textLines":1,"bbox":[1313,369,175,27]}
+{"kind":"textbox","id":"sh/yp0felcj","slide":1,"text":"56,3%","textPreview":"56,3%","textChars":5,"textLines":1,"bbox":[842,407,165,47]}
+{"kind":"textbox","id":"sh/tgryd0v6","slide":1,"text":"недель с 1–2 сигналами","textPreview":"недель с 1–2 сигналами","textChars":22,"textLines":1,"bbox":[842,450,165,27]}
+{"kind":"textbox","id":"sh/8fixkvul","slide":1,"text":"0,66","textPreview":"0,66","textChars":4,"textLines":1,"bbox":[1043,407,145,47]}
+{"kind":"textbox","id":"sh/q1cvexs3","slide":1,"text":"сигнала в неделю","textPreview":"сигнала в неделю","textChars":16,"textLines":1,"bbox":[1043,450,145,27]}
+{"kind":"textbox","id":"sh/r2lc72to","slide":1,"text":"0,737","textPreview":"0,737","textChars":5,"textLines":1,"bbox":[1228,407,105,47]}
+{"kind":"textbox","id":"sh/s3udg7a9","slide":1,"text":"ROC AUC","textPreview":"ROC AUC","textChars":7,"textLines":1,"bbox":[1228,450,105,27]}
+{"kind":"textbox","id":"sh/d43u9cbu","slide":1,"text":"0,170","textPreview":"0,170","textChars":5,"textLines":1,"bbox":[1378,407,105,47]}
+{"kind":"textbox","id":"sh/e5cvihsf","slide":1,"text":"Brier","textPreview":"Brier","textChars":5,"textLines":1,"bbox":[1378,450,105,27]}
+{"kind":"textbox","id":"sh/fq5cb2tk","slide":1,"text":"УСТОЙЧИВОСТЬ ПО ГОДАМ · LIFT / ВЫГОДА","textPreview":"УСТОЙЧИВОСТЬ ПО ГОДАМ · LIFT / ВЫГОДА","textChars":37,"textLines":1,"bbox":[842,466,370,18]}
+{"kind":"shape","id":"sh/0redk7a5","slide":1,"bbox":[842,488,202,48]}
+{"kind":"textbox","id":"sh/1snudcbq","slide":1,"text":"2024","textPreview":"2024","textChars":4,"textLines":1,"bbox":[854,496,45,16]}
+{"kind":"textbox","id":"sh/2twvmhsb","slide":1,"text":"2,063×","textPreview":"2,063×","textChars":6,"textLines":1,"bbox":[904,495,72,18]}
+{"kind":"textbox","id":"sh/nu5wfmtw","slide":1,"text":"+96,6 б.п.","textPreview":"+96,6 б.п.","textChars":10,"textLines":1,"bbox":[904,514,85,14]}
+{"kind":"shape","id":"sh/jypc3m94","slide":1,"bbox":[1074,488,202,48]}
+{"kind":"textbox","id":"sh/yxgbah8j","slide":1,"text":"2025","textPreview":"2025","textChars":4,"textLines":1,"bbox":[1086,496,45,16]}
+{"kind":"textbox","id":"sh/l07u5wru","slide":1,"text":"2,241×","textPreview":"2,241×","textChars":6,"textLines":1,"bbox":[1136,495,72,18]}
+{"kind":"textbox","id":"sh/kzytcrqp","slide":1,"text":"+74,8 б.п.","textPreview":"+74,8 б.п.","textChars":10,"textLines":1,"bbox":[1136,514,85,14]}
+{"kind":"shape","id":"sh/bu5czm9s","slide":1,"bbox":[1306,488,202,48]}
+{"kind":"textbox","id":"sh/atwb6h87","slide":1,"text":"2026","textPreview":"2026","textChars":4,"textLines":1,"bbox":[1318,496,45,16]}
+{"kind":"textbox","id":"sh/xwnu1cry","slide":1,"text":"1,711×","textPreview":"1,711×","textChars":6,"textLines":1,"bbox":[1368,495,72,18]}
+{"kind":"textbox","id":"sh/wvet87qd","slide":1,"text":"+125,7 б.п.","textPreview":"+125,7 б.п.","textChars":11,"textLines":1,"bbox":[1368,514,85,14]}
+{"kind":"shape","id":"sh/n65cv29w","slide":1,"bbox":[68,553,1464,224]}
+{"kind":"textbox","id":"sh/25cb2x8b","slide":1,"text":"CLOSING H3","textPreview":"CLOSING H3","textChars":10,"textLines":1,"bbox":[92,577,118,28]}
+{"kind":"textbox","id":"sh/sba9w369","slide":1,"text":"Уточняет сообщение: «окно может закрыться»","textPreview":"Уточняет сообщение: «окно может закрыться»","textChars":42,"textLines":1,"bbox":[92,616,525,34]}
+{"kind":"textbox","id":"sh/dcjq587u","slide":1,"text":"Дополнительный слой усиливает часть сигналов H3 и не создаёт новых уведомлений","textPreview":"Дополнительный слой усиливает часть сигналов H3 и не создаёт новых уведомлений","textChars":78,"textLines":1,"bbox":[92,654,525,42]}
+{"kind":"textbox","id":"sh/q9sruto3","slide":1,"text":"61 из 151","textPreview":"61 из 151","textChars":9,"textLines":1,"bbox":[665,606,170,47]}
+{"kind":"textbox","id":"sh/ra183ypo","slide":1,"text":"усиленный H3-сигнал","textPreview":"усиленный H3-сигнал","textChars":19,"textLines":1,"bbox":[665,649,170,27]}
+{"kind":"textbox","id":"sh/0zu90n65","slide":1,"text":"67,2%","textPreview":"67,2%","textChars":5,"textLines":1,"bbox":[870,606,175,47]}
+{"kind":"textbox","id":"sh/103a987q","slide":1,"text":"hit rate · base 49,8%","textPreview":"hit rate · base 49,8%","textChars":21,"textLines":1,"bbox":[870,649,175,27]}
+{"kind":"textbox","id":"sh/exsrydoz","slide":1,"text":"1,351×","textPreview":"1,351×","textChars":6,"textLines":1,"bbox":[1080,606,135,47]}
+{"kind":"textbox","id":"sh/fyl87ipk","slide":1,"text":"lift","textPreview":"lift","textChars":4,"textLines":1,"bbox":[1080,649,135,27]}
+{"kind":"textbox","id":"sh/g3q9oj61","slide":1,"text":"+87,1 б.п.","textPreview":"+87,1 б.п.","textChars":10,"textLines":1,"bbox":[1260,606,200,47]}
+{"kind":"textbox","id":"sh/h4zqxo7m","slide":1,"text":"изменение к концу окна","textPreview":"изменение к концу окна","textChars":22,"textLines":1,"bbox":[1260,649,200,27]}
+{"kind":"shape","id":"sh/l8f65kne","slide":1,"bbox":[665,696,770,0]}
+{"kind":"textbox","id":"sh/kn65wfmt","slide":1,"text":"Brier 0,227 · ROC AUC 0,676 · дополнительных контактов 0","textPreview":"Brier 0,227 · ROC AUC 0,676 · дополнительных контактов 0","textChars":56,"textLines":1,"bbox":[665,712,720,24]}
+{"kind":"textbox","id":"sh/jmdo3a58","slide":1,"text":"Показатели относятся к rolling OOT. Финальный refit ещё не имеет будущего confirmatory-теста.","textPreview":"Показатели относятся к rolling OOT. Финальный refit ещё не имеет будущего confirmatory-теста.","textChars":93,"textLines":1,"bbox":[92,730,525,30]}
+{"kind":"shape","id":"sh/yl4nu54n","slide":1,"bbox":[68,846,1464,0]}
+{"kind":"shape","id":"sh/xkv610n2","slide":1,"bbox":[1290,841,10,10]}
+{"kind":"textbox","id":"sh/wjm5sfmh","slide":1,"text":"AlphaTransfer","textPreview":"AlphaTransfer","textChars":13,"textLines":1,"bbox":[68,860,220,20]}
+{"kind":"textbox","id":"sh/bidoza5w","slide":1,"text":"1 / 2","textPreview":"1 / 2","textChars":5,"textLines":1,"bbox":[1450,860,82,20]}
+{"kind":"notes","id":"nt/3zy8au","slide":1,"text":"Источники чисел: docs/assets/model-metrics/metrics_snapshot.csv и README.md. Показатели рассчитаны на rolling OOT 2024–2026. H3 и H5 имеют разные целевые события и разные base hit rate."}
+{"kind":"slide","id":"sl/85mncq","slide":2,"title":"СИГНАЛЬНЫЙ СЛОЙ","textShapes":43}
+{"kind":"shape","id":"sh/y9cni54r","slide":2,"bbox":[0,0,1600,5]}
+{"kind":"shape","id":"sh/lw36d03i","slide":2,"bbox":[1558,0,22,22]}
+{"kind":"textbox","id":"sh/kvu5kfmx","slide":2,"text":"СИГНАЛЬНЫЙ СЛОЙ","textPreview":"СИГНАЛЬНЫЙ СЛОЙ","textChars":15,"textLines":1,"bbox":[68,38,500,22]}
+{"kind":"textbox","id":"sh/7ylofalo","slide":2,"text":"Триггеры, которые учитывает модель","textPreview":"Триггеры, которые учитывает модель","textChars":34,"textLines":1,"bbox":[68,67,1464,58]}
+{"kind":"textbox","id":"sh/6xcnm543","slide":2,"text":"Пять источников дают 33 измеримых признака. Каждый признак известен к моменту принятия решения.","textPreview":"Пять источников дают 33 измеримых признака. Каждый признак известен к моменту принятия решения.","textChars":95,"textLines":1,"bbox":[68,126,1464,34]}
+{"kind":"shape","id":"sh/t0n6hk3e","slide":2,"bbox":[68,198,278,304]}
+{"kind":"textbox","id":"sh/8zu5ofm9","slide":2,"text":"ЦБ РФ","textPreview":"ЦБ РФ","textChars":5,"textLines":1,"bbox":[86,218,66,28]}
+{"kind":"textbox","id":"sh/n2143ql4","slide":2,"text":"RUB/KZT у локального минимума","textPreview":"RUB/KZT у локального минимума","textChars":29,"textLines":1,"bbox":[86,260,242,58]}
+{"kind":"textbox","id":"sh/m1snal4z","slide":2,"text":"Модель оценивает положение курса за месяц, квартал, полгода и год, а также изменения за 1–60 сессий.","textPreview":"Модель оценивает положение курса за месяц, квартал, полгода и год, а также изменения за 1–60 сессий.","textChars":100,"textLines":1,"bbox":[86,328,242,88]}
+{"kind":"shape","id":"sh/sb6xcf2x","slide":2,"bbox":[86,436,242,0]}
+{"kind":"textbox","id":"sh/tcfy5k32","slide":2,"text":"ret 1/3/5/10/20/60 · percentile 20/60/120/252","textPreview":"ret 1/3/5/10/20/60 · percentile 20/60/120/252","textChars":45,"textLines":1,"bbox":[86,454,242,36]}
+{"kind":"shape","id":"sh/694fa5kr","slide":2,"bbox":[364,198,278,304]}
+{"kind":"textbox","id":"sh/7axw3alc","slide":2,"text":"MOEX","textPreview":"MOEX","textChars":4,"textLines":1,"bbox":[382,218,68,28]}
+{"kind":"textbox","id":"sh/gf6xgf2t","slide":2,"text":"CNY/RUB меняется после фиксинга","textPreview":"CNY/RUB меняется после фиксинга","textChars":31,"textLines":1,"bbox":[382,260,242,58]}
+{"kind":"textbox","id":"sh/hgfy9k3e","slide":2,"text":"Цена закрытия CNY/RUB сравнивается с фиксингом той же сессии. Расхождение отражает более свежее движение рубля.","textPreview":"Цена закрытия CNY/RUB сравнивается с фиксингом той же сессии. Расхождение отражает более свежее движение рубля.","textChars":111,"textLines":1,"bbox":[382,328,242,88]}
+{"kind":"shape","id":"sh/udofe5kn","slide":2,"bbox":[382,436,242,0]}
+{"kind":"textbox","id":"sh/fexg7al8","slide":2,"text":"CNY/RUB close − fixing","textPreview":"CNY/RUB close − fixing","textChars":22,"textLines":1,"bbox":[382,454,242,36]}
+{"kind":"shape","id":"sh/wjmx4v2p","slide":2,"bbox":[660,198,278,304]}
+{"kind":"textbox","id":"sh/xkvex03a","slide":2,"text":"OXR","textPreview":"OXR","textChars":3,"textLines":1,"bbox":[678,218,58,28]}
+{"kind":"textbox","id":"sh/x0nu1cvy","slide":2,"text":"Внешний RUB/KZT расходится с ЦБ","textPreview":"Внешний RUB/KZT расходится с ЦБ","textChars":31,"textLines":1,"bbox":[678,260,242,58]}
+{"kind":"textbox","id":"sh/czed87ed","slide":2,"text":"Внешний кросс-курс сравнивается с официальным. Модель учитывает величину, изменение, аномальность и свежесть расхождения.","textPreview":"Внешний кросс-курс сравнивается с официальным. Модель учитывает величину, изменение, аномальность и свежесть расхождения.","textChars":121,"textLines":1,"bbox":[678,328,242,88]}
+{"kind":"shape","id":"sh/by5czmds","slide":2,"bbox":[678,436,242,0]}
+{"kind":"textbox","id":"sh/qdcv6hw7","slide":2,"text":"basis · Δ1 · Δ5 · z-score 20 · age · available","textPreview":"basis · Δ1 · Δ5 · z-score 20 · age · available","textChars":46,"textLines":1,"bbox":[678,454,242,36]}
+{"kind":"shape","id":"sh/l4ne5wvu","slide":2,"bbox":[956,198,278,304]}
+{"kind":"textbox","id":"sh/k3edcre9","slide":2,"text":"HALYK","textPreview":"HALYK","textChars":5,"textLines":1,"bbox":[974,218,72,28]}
+{"kind":"textbox","id":"sh/z25c3md4","slide":2,"text":"Halyk переоценивает RUB/KZT","textPreview":"Halyk переоценивает RUB/KZT","textChars":27,"textLines":1,"bbox":[974,260,242,58]}
+{"kind":"textbox","id":"sh/y1wvahwj","slide":2,"text":"Банковская цена сопоставляется с курсом ЦБ. Отдельно учитываются разница условий и изменения RUB и USD за 1 и 5 сессий.","textPreview":"Банковская цена сопоставляется с курсом ЦБ. Отдельно учитываются разница условий и изменения RUB и USD за 1 и 5 сессий.","textChars":119,"textLines":1,"bbox":[974,328,242,88]}
+{"kind":"shape","id":"sh/987e9wv6","slide":2,"bbox":[974,436,242,0]}
+{"kind":"textbox","id":"sh/87ydgrul","slide":2,"text":"basis · personal/legal gap · RUB/USD ret 1/5","textPreview":"basis · personal/legal gap · RUB/USD ret 1/5","textChars":44,"textLines":1,"bbox":[974,454,242,36]}
+{"kind":"shape","id":"sh/6d8ratc3","slide":2,"bbox":[1252,198,278,304]}
+{"kind":"textbox","id":"sh/rehs3yto","slide":2,"text":"TREASURY","textPreview":"TREASURY","textChars":8,"textLines":1,"bbox":[1270,218,96,28]}
+{"kind":"textbox","id":"sh/sfa9c3u9","slide":2,"text":"Меняются ожидания по инфляции в США","textPreview":"Меняются ожидания по инфляции в США","textChars":35,"textLines":1,"bbox":[1270,260,242,58]}
+{"kind":"textbox","id":"sh/tgja58be","slide":2,"text":"Рыночные инфляционные ожидания задают глобальный режим доллара и помогают различать одинаковые локальные движения.","textPreview":"Рыночные инфляционные ожидания задают глобальный режим доллара и помогают различать одинаковые локальные движения.","textChars":114,"textLines":1,"bbox":[1270,328,242,88]}
+{"kind":"shape","id":"sh/ehsbedcz","slide":2,"bbox":[1270,436,242,0]}
+{"kind":"textbox","id":"sh/fi1s7itk","slide":2,"text":"T10YIE · T5YIFR · изменения","textPreview":"T10YIE · T5YIFR · изменения","textChars":27,"textLines":1,"bbox":[1270,454,242,36]}
+{"kind":"shape","id":"sh/gjatgnu5","slide":2,"bbox":[68,527,1464,0]}
+{"kind":"textbox","id":"sh/14ja98bq","slide":2,"text":"Задержка публикации, возраст и пропуски входят в данные. Модель не получает будущие значения.","textPreview":"Задержка публикации, возраст и пропуски входят в данные. Модель не получает будущие значения.","textChars":93,"textLines":1,"bbox":[68,539,1464,24]}
+{"kind":"shape","id":"sh/25sbidcb","slide":2,"bbox":[68,590,252,120]}
+{"kind":"textbox","id":"sh/361sbitw","slide":2,"text":"ШАГ 01","textPreview":"ШАГ 01","textChars":6,"textLines":1,"bbox":[84,604,72,28]}
+{"kind":"textbox","id":"sh/bqx0zeho","slide":2,"text":"Пять источников","textPreview":"Пять источников","textChars":15,"textLines":1,"bbox":[84,641,220,28]}
+{"kind":"textbox","id":"sh/qpoj6tg3","slide":2,"text":"ЦБ, MOEX, OXR, Halyk, Treasury","textPreview":"ЦБ, MOEX, OXR, Halyk, Treasury","textChars":30,"textLines":1,"bbox":[84,672,220,28]}
+{"kind":"shape","id":"sh/dsfi1ozu","slide":2,"bbox":[364,590,214,120]}
+{"kind":"textbox","id":"sh/cr618jy9","slide":2,"text":"ШАГ 02","textPreview":"ШАГ 02","textChars":6,"textLines":1,"bbox":[380,604,72,28]}
+{"kind":"textbox","id":"sh/zex03yhk","slide":2,"text":"33 признака","textPreview":"33 признака","textChars":11,"textLines":1,"bbox":[380,641,182,28]}
+{"kind":"textbox","id":"sh/ydojatgf","slide":2,"text":"уровни, изменения, расхождения","textPreview":"уровни, изменения, расхождения","textChars":30,"textLines":1,"bbox":[380,672,182,28]}
+{"kind":"shape","id":"sh/lgz258zq","slide":2,"bbox":[622,590,214,120]}
+{"kind":"textbox","id":"sh/0f61c3y5","slide":2,"text":"ШАГ 03","textPreview":"ШАГ 03","textChars":6,"textLines":1,"bbox":[638,604,72,28]}
+{"kind":"textbox","id":"sh/fid07uhg","slide":2,"text":"TabM H3 / H5","textPreview":"TabM H3 / H5","textChars":12,"textLines":1,"bbox":[638,641,182,28]}
+{"kind":"textbox","id":"sh/ex4jy90v","slide":2,"text":"вероятность события через 3 или 5 сессий","textPreview":"вероятность события через 3 или 5 сессий","textChars":40,"textLines":1,"bbox":[638,672,182,28]}
+{"kind":"shape","id":"sh/43ix8vyt","slide":2,"bbox":[880,590,280,120]}
+{"kind":"textbox","id":"sh/5ory10fe","slide":2,"text":"ШАГ 04","textPreview":"ШАГ 04","textChars":6,"textLines":1,"bbox":[896,604,72,28]}
+{"kind":"textbox","id":"sh/i10f65gn","slide":2,"text":"Порог и частота","textPreview":"Порог и частота","textChars":15,"textLines":1,"bbox":[896,641,248,28]}
+{"kind":"textbox","id":"sh/j29gzqx8","slide":2,"text":"сравнение с 63 прошлыми оценками","textPreview":"сравнение с 63 прошлыми оценками","textChars":32,"textLines":1,"bbox":[896,672,248,28]}
+{"kind":"shape","id":"sh/wzix4vyh","slide":2,"bbox":[1204,590,328,120]}
+{"kind":"textbox","id":"sh/h0ryx0f2","slide":2,"text":"ШАГ 05","textPreview":"ШАГ 05","textChars":6,"textLines":1,"bbox":[1220,604,72,28]}
+{"kind":"textbox","id":"sh/uxgf2lgr","slide":2,"text":"Пуш с фактом","textPreview":"Пуш с фактом","textChars":12,"textLines":1,"bbox":[1220,641,296,28]}
+{"kind":"textbox","id":"sh/vy9gvqxc","slide":2,"text":"или тишина, если прогноз недостаточно силён","textPreview":"или тишина, если прогноз недостаточно силён","textChars":43,"textLines":1,"bbox":[1220,672,296,28]}
+{"kind":"shape","id":"sh/gv2hgfe1","slide":2,"bbox":[320,650,44,0]}
+{"kind":"shape","id":"sh/1wvy9kfm","slide":2,"bbox":[578,650,44,0]}
+{"kind":"shape","id":"sh/pcrytk7q","slide":2,"bbox":[836,650,44,0]}
+{"kind":"shape","id":"sh/obix0f65","slide":2,"bbox":[1160,650,44,0]}
+{"kind":"shape","id":"sh/napgrapk","slide":2,"bbox":[68,730,1464,74]}
+{"kind":"textbox","id":"sh/29gfy5oz","slide":2,"text":"Что увидит клиент","textPreview":"Что увидит клиент","textChars":17,"textLines":1,"bbox":[90,748,200,22]}
+{"kind":"textbox","id":"sh/187ypk7e","slide":2,"text":"Проверяемый факт о положении курса в историческом диапазоне. Для части H3-сигналов CLOSING добавляет: «окно может закрыться».","textPreview":"Проверяемый факт о положении курса в историческом диапазоне. Для части H3-сигналов CLOSING добавляет: «окно может закрыться».","textChars":125,"textLines":1,"bbox":[285,743,1215,34]}
+{"kind":"shape","id":"sh/0nyxwf6t","slide":2,"bbox":[68,846,1464,0]}
+{"kind":"shape","id":"sh/fmpgnapo","slide":2,"bbox":[1290,841,10,10]}
+{"kind":"textbox","id":"sh/elgfu5o3","slide":2,"text":"AlphaTransfer","textPreview":"AlphaTransfer","textChars":13,"textLines":1,"bbox":[68,860,220,20]}
+{"kind":"textbox","id":"sh/dk7yl07i","slide":2,"text":"2 / 2","textPreview":"2 / 2","textChars":5,"textLines":1,"bbox":[1450,860,82,20]}
+{"kind":"notes","id":"nt/85mncq","slide":2,"text":"Состав признаков и ограничения доступности описаны в docs/MODEL_METRICS.md. Клиентская формулировка строится из проверяемых наблюдений, а не из предположений о внутренней причине прогноза TabM."}
