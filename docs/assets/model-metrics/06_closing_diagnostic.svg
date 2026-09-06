@@ -4,42 +4,58 @@
 <rect width="1600" height="900" fill="#FFFFFF"/>
 <text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start">Второй слой показывает, когда окно может закрыться</text>
 <text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#676767" text-anchor="start">Усиливает часть NOW-сигналов и не увеличивает число контактов</text>
-<rect x="70" y="165" width="1460" height="595" rx="24" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
-<rect x="90" y="205" width="1420" height="65" rx="12" fill="#171717" stroke="none" stroke-width="1"/>
-<text x="105" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Год</text>
-<text x="305" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">NOW сигналов</text>
-<text x="560" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">CLOSING</text>
-<text x="810" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Hit rate</text>
-<text x="1040" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Lift</text>
-<text x="1280" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Endpoint delta</text>
-<rect x="90" y="285" width="1420" height="80" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1"/>
-<text x="105" y="330" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">2024</text>
-<text x="305" y="330" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">52</text>
-<text x="560" y="330" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">15</text>
-<text x="810" y="330" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">66,7%</text>
-<text x="1040" y="330" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">1,339×</text>
-<text x="1280" y="330" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">+80,5 б.п.</text>
-<rect x="1390" y="301" width="90" height="41" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1"/>
-<text x="1435" y="328" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F8A55" text-anchor="middle">PASS</text>
-<rect x="90" y="410" width="1420" height="80" rx="10" fill="#F6F6F6" stroke="none" stroke-width="1"/>
-<text x="105" y="455" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">2025</text>
-<text x="305" y="455" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">63</text>
-<text x="560" y="455" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">24</text>
-<text x="810" y="455" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">54,2%</text>
-<text x="1040" y="455" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#EF3124" text-anchor="start">1,259×</text>
-<text x="1280" y="455" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">+43,2 б.п.</text>
-<rect x="1390" y="426" width="90" height="41" rx="20" fill="#FFF0EF" stroke="none" stroke-width="1"/>
-<text x="1435" y="453" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#EF3124" text-anchor="middle">HOLD</text>
-<rect x="90" y="535" width="1420" height="80" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1"/>
-<text x="105" y="580" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">2026</text>
-<text x="305" y="580" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">36</text>
-<text x="560" y="580" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">22</text>
-<text x="810" y="580" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">81,8%</text>
-<text x="1040" y="580" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">1,361×</text>
-<text x="1280" y="580" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">+132,4 б.п.</text>
-<rect x="1390" y="551" width="90" height="41" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1"/>
-<text x="1435" y="578" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F8A55" text-anchor="middle">PASS</text>
-<rect x="90" y="690" width="1420" height="55" rx="14" fill="#ECF7F0" stroke="none" stroke-width="1"/>
-<text x="115" y="726" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1F8A55" text-anchor="start">61 из 151 NOW-сигнала получили усиление; направление подтвердилось в 67% случаев.</text>
-<text x="1530" y="875" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="end">В 2025 эффект слабее; годовой профиль прозрачно сохранён в техническом отчёте.</text>
+<rect x="70" y="160" width="220" height="125" rx="18" fill="#EEF4FD" stroke="none" stroke-width="1"/>
+<text x="92" y="215" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#3567B7" text-anchor="start">61 / 151</text>
+<text x="92" y="255" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">усиленных NOW</text>
+<rect x="315" y="160" width="220" height="125" rx="18" fill="#EEF4FD" stroke="none" stroke-width="1"/>
+<text x="337" y="215" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#3567B7" text-anchor="start">67,2%</text>
+<text x="337" y="255" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">hit rate</text>
+<rect x="560" y="160" width="220" height="125" rx="18" fill="#EEF4FD" stroke="none" stroke-width="1"/>
+<text x="582" y="215" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#3567B7" text-anchor="start">1,351×</text>
+<text x="582" y="255" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">lift</text>
+<rect x="805" y="160" width="220" height="125" rx="18" fill="#EEF4FD" stroke="none" stroke-width="1"/>
+<text x="827" y="215" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#3567B7" text-anchor="start">+87,1 б.п.</text>
+<text x="827" y="255" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">endpoint delta</text>
+<rect x="1050" y="160" width="220" height="125" rx="18" fill="#F6F6F6" stroke="none" stroke-width="1"/>
+<text x="1072" y="215" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717" text-anchor="start">0,2271</text>
+<text x="1072" y="255" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">Brier · все даты</text>
+<rect x="1295" y="160" width="220" height="125" rx="18" fill="#F6F6F6" stroke="none" stroke-width="1"/>
+<text x="1317" y="215" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#171717" text-anchor="start">0,676</text>
+<text x="1317" y="255" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">AUC · все даты</text>
+<rect x="70" y="325" width="1460" height="475" rx="24" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+<rect x="90" y="350" width="1420" height="65" rx="12" fill="#171717" stroke="none" stroke-width="1"/>
+<text x="105" y="391" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Год</text>
+<text x="305" y="391" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">NOW сигналов</text>
+<text x="560" y="391" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">CLOSING</text>
+<text x="810" y="391" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Hit rate</text>
+<text x="1040" y="391" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Lift</text>
+<text x="1280" y="391" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">Endpoint delta</text>
+<rect x="90" y="432" width="1420" height="76" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="105" y="475" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">2024</text>
+<text x="305" y="475" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">52</text>
+<text x="560" y="475" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">15</text>
+<text x="810" y="475" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">66,7%</text>
+<text x="1040" y="475" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">1,339×</text>
+<text x="1280" y="475" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">+80,5 б.п.</text>
+<rect x="1390" y="446" width="90" height="41" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1"/>
+<text x="1435" y="473" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F8A55" text-anchor="middle">PASS</text>
+<rect x="90" y="542" width="1420" height="76" rx="10" fill="#F6F6F6" stroke="none" stroke-width="1"/>
+<text x="105" y="585" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">2025</text>
+<text x="305" y="585" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">63</text>
+<text x="560" y="585" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">24</text>
+<text x="810" y="585" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">54,2%</text>
+<text x="1040" y="585" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#EF3124" text-anchor="start">1,259×</text>
+<text x="1280" y="585" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">+43,2 б.п.</text>
+<rect x="1390" y="556" width="90" height="41" rx="20" fill="#FFF0EF" stroke="none" stroke-width="1"/>
+<text x="1435" y="583" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#EF3124" text-anchor="middle">HOLD</text>
+<rect x="90" y="652" width="1420" height="76" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="105" y="695" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">2026</text>
+<text x="305" y="695" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">36</text>
+<text x="560" y="695" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">22</text>
+<text x="810" y="695" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">81,8%</text>
+<text x="1040" y="695" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#171717" text-anchor="start">1,361×</text>
+<text x="1280" y="695" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#171717" text-anchor="start">+132,4 б.п.</text>
+<rect x="1390" y="666" width="90" height="41" rx="20" fill="#ECF7F0" stroke="none" stroke-width="1"/>
+<text x="1435" y="693" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F8A55" text-anchor="middle">PASS</text>
+<text x="1530" y="860" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="end">Lift и endpoint считаются на 61 аннотации; Brier/AUC — на всех 647 OOT-днях. В 2025 годовой lift ниже 1,30×.</text>
 </svg>

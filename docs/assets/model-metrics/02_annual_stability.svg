@@ -9,21 +9,21 @@
 <line x1="200" y1="596" x2="750" y2="596" stroke="#1F8A55" stroke-width="2" stroke-dasharray="10 8"/>
 <text x="750" y="586" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="end">цель 1,30×</text>
 <text x="275" y="720" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#676767" text-anchor="middle">2024</text>
-<circle cx="257" cy="356" r="11" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
-<text x="257" y="334" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="middle">1,609×</text>
+<circle cx="257" cy="356" r="11" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
+<text x="257" y="334" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#3567B7" text-anchor="middle">1,609×</text>
 <circle cx="293" cy="2" r="11" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
 <text x="293" y="-20" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle">2,063×</text>
 <text x="465" y="720" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#676767" text-anchor="middle">2025</text>
-<circle cx="447" cy="478" r="11" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
-<text x="447" y="456" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="middle">1,452×</text>
+<circle cx="447" cy="478" r="11" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
+<text x="447" y="456" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#3567B7" text-anchor="middle">1,452×</text>
 <circle cx="483" cy="-136" r="11" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
 <text x="483" y="-158" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle">2,241×</text>
 <text x="655" y="720" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#676767" text-anchor="middle">2026</text>
-<circle cx="637" cy="486" r="11" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
-<text x="637" y="464" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="middle">1,441×</text>
+<circle cx="637" cy="486" r="11" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
+<text x="637" y="464" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#3567B7" text-anchor="middle">1,441×</text>
 <circle cx="673" cy="276" r="11" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
 <text x="673" y="254" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle">1,711×</text>
-<text x="105" y="795" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#EF3124" text-anchor="start">● H3 · регулярный</text>
+<text x="105" y="795" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#3567B7" text-anchor="start">● H3 · регулярный</text>
 <text x="425" y="795" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1F8A55" text-anchor="start">● H5 · редкий</text>
 <rect x="835" y="165" width="730" height="595" rx="24" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
 <text x="870" y="215" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#171717" text-anchor="start">Сигналов в неделю</text>
@@ -32,21 +32,21 @@
 <line x1="965" y1="515" x2="1515" y2="515" stroke="#B56A00" stroke-width="2" stroke-dasharray="10 8"/>
 <text x="1515" y="505" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#B56A00" text-anchor="end">H5 guard 0,85</text>
 <text x="1040" y="720" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#676767" text-anchor="middle">2024</text>
-<circle cx="1022" cy="455" r="11" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
-<text x="1022" y="433" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="middle">1,02</text>
+<circle cx="1022" cy="455" r="11" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1022" y="433" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#3567B7" text-anchor="middle">1,02</text>
 <circle cx="1058" cy="615" r="11" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
 <text x="1058" y="593" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle">0,57</text>
 <text x="1230" y="720" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#676767" text-anchor="middle">2025</text>
-<circle cx="1212" cy="378" r="11" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
-<text x="1212" y="356" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="middle">1,24</text>
+<circle cx="1212" cy="378" r="11" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1212" y="356" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#3567B7" text-anchor="middle">1,24</text>
 <circle cx="1248" cy="566" r="11" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
 <text x="1248" y="544" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle">0,71</text>
 <text x="1420" y="720" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#676767" text-anchor="middle">2026</text>
-<circle cx="1402" cy="430" r="11" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
-<text x="1402" y="408" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="middle">1,09</text>
+<circle cx="1402" cy="430" r="11" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1402" y="408" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#3567B7" text-anchor="middle">1,09</text>
 <circle cx="1438" cy="558" r="11" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
 <text x="1438" y="536" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="middle">0,73</text>
-<text x="870" y="795" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#EF3124" text-anchor="start">● H3 · регулярный</text>
+<text x="870" y="795" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#3567B7" text-anchor="start">● H3 · регулярный</text>
 <text x="1190" y="795" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1F8A55" text-anchor="start">● H5 · редкий</text>
 <text x="1530" y="882" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="end">2026 — доступная часть года; результаты ретроспективные и post-selection.</text>
 </svg>

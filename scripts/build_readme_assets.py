@@ -33,11 +33,13 @@ H5_BASELINE_DIR = ROOT / "research_v4" / "robust_selection"
 W, H = 1600, 900
 RED = "#EF3124"
 RED_DARK = "#C7231A"
+BLUE = "#3567B7"
 INK = "#171717"
 MUTED = "#676767"
 LINE = "#D9D9D9"
 PALE = "#F6F6F6"
 PALE_RED = "#FFF0EF"
+PALE_BLUE = "#EEF4FD"
 PALE_GREEN = "#ECF7F0"
 GREEN = "#1F8A55"
 AMBER = "#B56A00"
@@ -163,7 +165,7 @@ def validate_and_load() -> tuple[Profile, Profile]:
 
     return (
         Profile(
-            "h3", "H3 · полная история", "tabm_kzt_fullhistory", 3, "rank80",
+            "h3", "H3 · регулярный сигнал", "tabm_kzt_fullhistory", 3, "rank80",
             "final_solution/tabm_h3/evaluation", h3_agg, h3_annual,
         ),
         Profile(
@@ -290,11 +292,11 @@ def build_scorecard(out: Path, profiles: tuple[Profile, Profile]) -> None:
     for i, profile in enumerate(profiles):
         row = profile.aggregate
         x0 = 70 + i * 765
-        fill = PALE_RED if profile.model == "h3" else PALE_GREEN
-        accent = RED if profile.model == "h3" else GREEN
+        fill = PALE_BLUE if profile.model == "h3" else PALE_GREEN
+        accent = BLUE if profile.model == "h3" else GREEN
         c.rect((x0, 165, x0 + 730, 700), fill, radius=26)
         c.text(x0 + 38, 218, profile.label, 27, bold=True, fill=accent)
-        policy_label = "регулярный режим" if profile.model == "h3" else "0,6–0,7 сигнала / неделю"
+        policy_label = "для пользователей с редкими переводами" if profile.model == "h3" else "0,6–0,7 сигнала / неделю"
         c.text(x0 + 38, 268, f"Горизонт {profile.horizon} сессии · {policy_label}", 20, fill=MUTED)
         c.text(x0 + 38, 340, f"{fmt(f(row, 'lift'), 3)}×", 74, bold=True, fill=accent)
         c.text(x0 + 38, 428, "lift к случайному дню", 22, bold=True)
@@ -312,7 +314,7 @@ def build_scorecard(out: Path, profiles: tuple[Profile, Profile]) -> None:
         c.line((x0 + 38, 470, x0 + 692, 470), fill="#DCCFCD" if i == 0 else "#CCDED3")
     c.rect((70, 735, 1530, 835), INK, radius=20)
     c.text(105, 787, "H3", 25, bold=True, fill=WHITE)
-    c.text(165, 787, "регулярный сигнал, короткий горизонт", 23, fill=WHITE)
+    c.text(165, 787, "регулярный сигнал для редких переводов", 23, fill=WHITE)
     c.text(650, 787, "H5", 25, bold=True, fill="#7DE2AA")
     c.text(710, 787, "реже, избирательнее, горизонт шире", 23, fill=WHITE)
     c.text(1488, 787, "151 + 89 ретроспективных сигналов", 19, fill="#BBBBBB", anchor="ra")
@@ -343,12 +345,12 @@ def build_stability(out: Path, profiles: tuple[Profile, Profile]) -> None:
             for pidx, profile in enumerate(profiles):
                 value = f(profile.annual[idx], metric)
                 yy = int(plot_bottom - (value - lo) / (hi - lo) * (plot_bottom - plot_top))
-                color = RED if profile.model == "h3" else GREEN
+                color = BLUE if profile.model == "h3" else GREEN
                 offset = -18 if pidx == 0 else 18
                 c.circle(xx + offset, yy, 11, color)
                 label = f"{fmt(value, 3)}×" if metric == "lift" else fmt(value, 2)
                 c.text(xx + offset, yy - 22, label, 16, bold=True, fill=color, anchor="ma")
-        c.text(x0 + 35, 795, "● H3 · регулярный", 18, bold=True, fill=RED)
+        c.text(x0 + 35, 795, "● H3 · регулярный", 18, bold=True, fill=BLUE)
         c.text(x0 + 355, 795, "● H5 · редкий", 18, bold=True, fill=GREEN)
     c.text(1530, 882, "2026 — доступная часть года; результаты ретроспективные и post-selection.", 16, fill=MUTED, anchor="ra")
     c.save(out, "02_annual_stability")
@@ -385,7 +387,7 @@ def build_frontier(out: Path) -> None:
     for model, policy, coverage, lift, selected in candidates:
         xx = int(left + (coverage-xmin)/(xmax-xmin)*(right-left))
         yy = int(bottom - (lift-ymin)/(ymax-ymin)*(bottom-top))
-        color = RED if model == "H3" else GREEN
+        color = BLUE if model == "H3" else GREEN
         is_final = selected and policy in {"rank80", "редкий режим"}
         c.circle(xx, yy, 13 if is_final else 8, color if is_final else "#8F8F8F")
         if is_final or policy == "strict05":
@@ -402,8 +404,8 @@ def build_utility(out: Path, profiles: tuple[Profile, Profile]) -> None:
     header(c, "Сигнал должен давать выгоду, а не только попадать в класс", "Forward delta — преимущество к среднему дню; regret — упущенная выгода до лучшей точки окна")
     for i, profile in enumerate(profiles):
         x0 = 70 + i * 765
-        c.rect((x0, 165, x0 + 730, 790), PALE_RED if i == 0 else PALE_GREEN, radius=24)
-        color = RED if i == 0 else GREEN
+        c.rect((x0, 165, x0 + 730, 790), PALE_BLUE if i == 0 else PALE_GREEN, radius=24)
+        color = BLUE if i == 0 else GREEN
         c.text(x0 + 35, 220, profile.label, 27, bold=True, fill=color)
         scale = 145.0
         for j, row in enumerate(profile.annual):
@@ -435,15 +437,15 @@ def build_h3_history(out: Path) -> None:
         long = one(rows, config_id="tabm_kzt_fullhistory", policy="rank80", year=year)
         c.text(x0, 230, year, 27, bold=True)
         c.text(x0, 292, "120 месяцев", 18, fill=MUTED)
-        c.text(x0 + 235, 292, "с 2010", 18, bold=True, fill=RED)
+        c.text(x0 + 235, 292, "с 2010", 18, bold=True, fill=BLUE)
         c.text(x0, 365, f"{fmt(f(short, 'lift'), 3)}×", 42, bold=True)
-        c.text(x0 + 235, 365, f"{fmt(f(long, 'lift'), 3)}×", 42, bold=True, fill=RED)
+        c.text(x0 + 235, 365, f"{fmt(f(long, 'lift'), 3)}×", 42, bold=True, fill=BLUE)
         c.text(x0, 410, "lift", 17, fill=MUTED)
         c.text(x0, 495, pct(f(short, "week_coverage")), 31, bold=True)
-        c.text(x0 + 235, 495, pct(f(long, "week_coverage")), 31, bold=True, fill=RED)
+        c.text(x0 + 235, 495, pct(f(long, "week_coverage")), 31, bold=True, fill=BLUE)
         c.text(x0, 535, "coverage", 17, fill=MUTED)
         c.text(x0, 620, f"+{fmt(f(short, 'forward_delta_bps'), 1)}", 31, bold=True)
-        c.text(x0 + 235, 620, f"+{fmt(f(long, 'forward_delta_bps'), 1)}", 31, bold=True, fill=RED)
+        c.text(x0 + 235, 620, f"+{fmt(f(long, 'forward_delta_bps'), 1)}", 31, bold=True, fill=BLUE)
         c.text(x0, 660, "forward delta, б.п.", 17, fill=MUTED)
         if i < 2:
             c.line((x0 + 425, 220, x0 + 425, 700), fill=LINE)
@@ -455,31 +457,57 @@ def build_h3_history(out: Path) -> None:
 
 def build_closing(out: Path) -> None:
     rows = read_csv(H3_DIR / "evaluation" / "closing_by_year.csv")
+    predictions = read_csv(ROOT / "research_v4" / "h3_finalization" / "closing_predictions.csv.gz")
+    annotations = [row for row in predictions if row["closing_annotation"].lower() == "true"]
+    now_signals = sum(row["candidate_signal"].lower() == "true" for row in predictions)
+    y = [float(row["closing_target"]) for row in predictions]
+    probability = [float(row["closing_probability"]) for row in predictions]
+    positives = [score for target, score in zip(y, probability) if target == 1.0]
+    negatives = [score for target, score in zip(y, probability) if target == 0.0]
+    auc = sum((p > n) + 0.5 * (p == n) for p in positives for n in negatives) / (len(positives) * len(negatives))
+    brier = sum((target - score) ** 2 for target, score in zip(y, probability)) / len(y)
+    hit_rate = sum(float(row["closing_target"]) for row in annotations) / len(annotations)
+    base_hit = sum(y) / len(y)
+    lift = hit_rate / base_hit
+    endpoint = sum(float(row["closing_endpoint_bps"]) for row in annotations) / len(annotations)
+    if (len(annotations), now_signals) != (61, 151):
+        raise RuntimeError("CLOSING aggregate cohort changed; review public metrics")
     c = Canvas("Сигнал закрытия окна", "Годовые метрики дополнительной аннотации поверх сигнала выгодного момента.")
     header(c, "Второй слой показывает, когда окно может закрыться", "Усиливает часть NOW-сигналов и не увеличивает число контактов")
-    c.rect((70, 165, 1530, 760), WHITE, stroke=LINE, radius=24)
+    aggregate = [
+        (f"{len(annotations)} / {now_signals}", "усиленных NOW"),
+        (pct(hit_rate), "hit rate"),
+        (f"{fmt(lift, 3)}×", "lift"),
+        (f"+{fmt(endpoint, 1)} б.п.", "endpoint delta"),
+        (fmt(brier, 4), "Brier · все даты"),
+        (fmt(auc, 3), "AUC · все даты"),
+    ]
+    for idx, (value, label) in enumerate(aggregate):
+        x0 = 70 + idx * 245
+        c.rect((x0, 160, x0 + 220, 285), PALE_BLUE if idx < 4 else PALE, radius=18)
+        c.text(x0 + 22, 215, value, 29, bold=True, fill=BLUE if idx < 4 else INK)
+        c.text(x0 + 22, 255, label, 16, fill=MUTED)
+    c.rect((70, 325, 1530, 800), WHITE, stroke=LINE, radius=24)
     headers = ["Год", "NOW сигналов", "CLOSING", "Hit rate", "Lift", "Endpoint delta"]
     xs = [105, 305, 560, 810, 1040, 1280]
-    c.rect((90, 205, 1510, 270), INK, radius=12)
+    c.rect((90, 350, 1510, 415), INK, radius=12)
     for x, value in zip(xs, headers):
-        c.text(x, 246, value, 18, bold=True, fill=WHITE)
+        c.text(x, 391, value, 18, bold=True, fill=WHITE)
     for idx, row in enumerate(rows):
-        y = 330 + idx * 125
+        row_y = 475 + idx * 110
         passed = f(row, "lift") >= 1.3
         fill = WHITE if idx % 2 == 0 else PALE
-        c.rect((90, y - 45, 1510, y + 35), fill, radius=10)
+        c.rect((90, row_y - 43, 1510, row_y + 33), fill, radius=10)
         values = [
             row["year"], row["now_signals"], row["closing_annotations"],
             pct(f(row, "hit_rate")), f"{fmt(f(row, 'lift'), 3)}×",
             f"+{fmt(f(row, 'endpoint_delta_bps'), 1)} б.п.",
         ]
         for x, value in zip(xs, values):
-            c.text(x, y, value, 23, bold=x in {xs[0], xs[4]}, fill=INK if passed or x != xs[4] else RED)
-        c.rect((1390, y - 29, 1480, y + 12), PALE_GREEN if passed else PALE_RED, radius=20)
-        c.text(1435, y - 2, "PASS" if passed else "HOLD", 14, bold=True, fill=GREEN if passed else RED, anchor="ma")
-    c.rect((90, 690, 1510, 745), PALE_GREEN, radius=14)
-    c.text(115, 726, "61 из 151 NOW-сигнала получили усиление; направление подтвердилось в 67% случаев.", 20, bold=True, fill=GREEN)
-    c.text(1530, 875, "В 2025 эффект слабее; годовой профиль прозрачно сохранён в техническом отчёте.", 16, fill=MUTED, anchor="ra")
+            c.text(x, row_y, value, 23, bold=x in {xs[0], xs[4]}, fill=INK if passed or x != xs[4] else RED)
+        c.rect((1390, row_y - 29, 1480, row_y + 12), PALE_GREEN if passed else PALE_RED, radius=20)
+        c.text(1435, row_y - 2, "PASS" if passed else "HOLD", 14, bold=True, fill=GREEN if passed else RED, anchor="ma")
+    c.text(1530, 860, "Lift и endpoint считаются на 61 аннотации; Brier/AUC — на всех 647 OOT-днях. В 2025 годовой lift ниже 1,30×.", 16, fill=MUTED, anchor="ra")
     c.save(out, "06_closing_diagnostic")
 
 
@@ -517,7 +545,7 @@ def build_signal_timeline(out: Path) -> None:
         x, y = points[idx]
         if row["candidate_signal"].lower() == "true":
             now_count += 1
-            c.circle(x, y, 10, RED)
+            c.circle(x, y, 10, BLUE)
         if row["closing_annotation"].lower() == "true":
             closing_count += 1
             c.diamond(x, y-23, 11, INK)
@@ -526,7 +554,7 @@ def build_signal_timeline(out: Path) -> None:
     for label, date_value in [("02 июня", dt.date(2026, 6, 2)), ("01 июля", dt.date(2026, 7, 1)), ("31 июля", dt.date(2026, 7, 31))]:
         idx = next(i for i, row in enumerate(selected) if dt.date.fromisoformat(row["date"]) == date_value)
         c.text(points[idx][0], 650, label, 17, fill=MUTED, anchor="ma")
-    c.circle(165, 696, 9, RED)
+    c.circle(165, 696, 9, BLUE)
     c.text(185, 703, "Выгодно сейчас", 18, bold=True)
     c.diamond(405, 696, 10, INK)
     c.text(425, 703, "Выгодно сейчас · окно может закрыться", 18, bold=True)
@@ -547,8 +575,8 @@ def build_trigger_map(out: Path) -> None:
             {*(f"ret{n}" for n in (1, 3, 5, 10, 20, 60)), *(f"pr{n}" for n in (20, 60, 120, 252))},
             "CBR · доходности 1–60 сессий · перцентили 20–252",
             ("Где сегодняшний RUB/KZT находится", "в недавнем диапазоне и насколько", "устойчиво меняется направление."),
-            PALE_RED,
-            RED,
+            PALE_BLUE,
+            BLUE,
         ),
         (
             "Волатильность и режим",
@@ -612,12 +640,12 @@ def build_signal_pipeline(out: Path) -> None:
     c = Canvas("От триггера до пуша", "Причинная цепочка AlphaTransfer от доступных данных до клиентского сообщения.")
     header(c, "От рыночного изменения до клиентского сообщения", "Модель выбирает момент; продуктовые правила решают, можно ли и как связаться с клиентом")
     stages = [
-        ("1", "Данные на сейчас", ("CBR · MOEX · OXR", "Halyk · Treasury", "с явным known-at"), PALE, INK),
-        ("2", "33 признака", ("уровень · импульс", "волатильность · basis", "банк · макрорежим"), PALE_RED, RED),
-        ("3", "TabM", ("P(NOW_H3)", "P(NOW_H5)", "две разные цели"), PALE_GREEN, GREEN),
-        ("4", "Causal policy", ("калибровка на прошлом", "rank среди 63 прошлых", "score + cooldown"), "#FFF5E8", AMBER),
-        ("5", "Delivery gates", ("коридор и намерение", "consent · срочность", "лимит ≤ 2 в неделю"), PALE, INK),
-        ("6", "Пуш или тишина", ("факты о настоящем", "и прошлом курсе", "актуальная цена в app"), PALE_RED, RED),
+        ("1", "Данные", ("CBR · MOEX · OXR", "Halyk · Treasury", "доступны к cutoff"), PALE, INK),
+        ("2", "Признаки", ("уровень · импульс", "волатильность · basis", "банк · макрорежим"), PALE_BLUE, BLUE),
+        ("3", "Модель TabM", ("P(NOW_H3)", "P(NOW_H5)", "отдельные цели"), PALE_GREEN, GREEN),
+        ("4", "Политика", ("калибровка: прошлое", "rank: 63 score", "порог · cooldown"), "#FFF5E8", AMBER),
+        ("5", "Доставка", ("коридор · намерение", "consent · срочность", "≤ 2 в неделю"), PALE, INK),
+        ("6", "Сообщение", ("текущий факт", "прошлая динамика", "цена заново в app"), PALE_BLUE, BLUE),
     ]
     box_w, gap, x_start = 220, 25, 55
     for idx, (number, title, lines, fill, accent) in enumerate(stages):
@@ -625,9 +653,9 @@ def build_signal_pipeline(out: Path) -> None:
         c.rect((x0, 180, x0 + box_w, 560), fill, radius=22)
         c.circle(x0 + 35, 218, 20, accent)
         c.text(x0 + 35, 218, number, 17, bold=True, fill=WHITE, anchor="mm")
-        c.text(x0 + 24, 285, title, 22, bold=True, fill=accent)
+        c.text(x0 + 22, 285, title, 21, bold=True, fill=accent)
         for line_idx, line in enumerate(lines):
-            c.text(x0 + 24, 350 + line_idx * 39, line, 17, bold=line_idx == 0)
+            c.text(x0 + 22, 350 + line_idx * 39, line, 16, bold=line_idx == 0)
         if idx < len(stages) - 1:
             c.arrow((x0 + box_w + 4, 370, x0 + box_w + gap - 5, 370), fill=INK, width=3)
 
@@ -637,8 +665,8 @@ def build_signal_pipeline(out: Path) -> None:
     c.text(104, 758, "Шкала курса остаётся доступной при входе в приложение;", 18, fill=MUTED)
     c.text(104, 790, "политика не создаёт искусственный сигнал в тихую неделю.", 18, fill=MUTED)
 
-    c.rect((800, 625, 1530, 825), PALE_RED, radius=22)
-    c.text(834, 671, "NOW прошёл все gates", 23, bold=True, fill=RED)
+    c.rect((800, 625, 1530, 825), PALE_BLUE, radius=22)
+    c.text(834, 671, "NOW прошёл все gates", 23, bold=True, fill=BLUE)
     c.text(834, 713, "«Курс сегодня — среди 15% самых низких", 23, bold=True)
     c.text(834, 748, "значений за три месяца»", 23, bold=True)
     c.text(834, 790, "CLOSING_H3 может усилить тот же контакт — без второго пуша.", 18, fill=MUTED)

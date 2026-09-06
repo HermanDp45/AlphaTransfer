@@ -4,26 +4,26 @@
 <rect width="1600" height="900" fill="#FFFFFF"/>
 <text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start">Сигнал должен давать выгоду, а не только попадать в класс</text>
 <text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#676767" text-anchor="start">Forward delta — преимущество к среднему дню; regret — упущенная выгода до лучшей точки окна</text>
-<rect x="70" y="165" width="730" height="625" rx="24" fill="#FFF0EF" stroke="none" stroke-width="1"/>
-<text x="105" y="220" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#EF3124" text-anchor="start">H3 · полная история</text>
+<rect x="70" y="165" width="730" height="625" rx="24" fill="#EEF4FD" stroke="none" stroke-width="1"/>
+<text x="105" y="220" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#3567B7" text-anchor="start">H3 · регулярный сигнал</text>
 <text x="105" y="315" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start">2024</text>
-<rect x="195" y="285" width="190" height="30" rx="8" fill="#EF3124" stroke="none" stroke-width="1"/>
-<text x="690" y="307" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#EF3124" text-anchor="end">+57,5 б.п.</text>
+<rect x="195" y="285" width="190" height="30" rx="8" fill="#3567B7" stroke="none" stroke-width="1"/>
+<text x="690" y="307" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#3567B7" text-anchor="end">+57,5 б.п.</text>
 <rect x="195" y="333" width="170" height="30" rx="8" fill="#9B9B9B" stroke="none" stroke-width="1"/>
 <text x="690" y="357" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="end">regret 51,6</text>
 <text x="105" y="450" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start">2025</text>
-<rect x="195" y="420" width="133" height="30" rx="8" fill="#EF3124" stroke="none" stroke-width="1"/>
-<text x="690" y="442" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#EF3124" text-anchor="end">+40,3 б.п.</text>
+<rect x="195" y="420" width="133" height="30" rx="8" fill="#3567B7" stroke="none" stroke-width="1"/>
+<text x="690" y="442" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#3567B7" text-anchor="end">+40,3 б.п.</text>
 <rect x="195" y="468" width="216" height="30" rx="8" fill="#9B9B9B" stroke="none" stroke-width="1"/>
 <text x="690" y="492" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="end">regret 65,3</text>
 <text x="105" y="585" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start">2026</text>
-<rect x="195" y="555" width="244" height="30" rx="8" fill="#EF3124" stroke="none" stroke-width="1"/>
-<text x="690" y="577" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#EF3124" text-anchor="end">+73,8 б.п.</text>
+<rect x="195" y="555" width="244" height="30" rx="8" fill="#3567B7" stroke="none" stroke-width="1"/>
+<text x="690" y="577" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#3567B7" text-anchor="end">+73,8 б.п.</text>
 <rect x="195" y="603" width="127" height="30" rx="8" fill="#9B9B9B" stroke="none" stroke-width="1"/>
 <text x="690" y="627" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="end">regret 38,4</text>
 <line x1="105" y1="705" x2="765" y2="705" stroke="#D4D4D4" stroke-width="2"/>
 <text x="105" y="752" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#171717" text-anchor="start">2024–2026</text>
-<text x="270" y="752" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#EF3124" text-anchor="start">+54,2 б.п.</text>
+<text x="270" y="752" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#3567B7" text-anchor="start">+54,2 б.п.</text>
 <text x="535" y="752" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#676767" text-anchor="start">regret 54,2</text>
 <rect x="835" y="165" width="730" height="625" rx="24" fill="#ECF7F0" stroke="none" stroke-width="1"/>
 <text x="870" y="220" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#1F8A55" text-anchor="start">H5 · редкий режим</text>

@@ -4,10 +4,10 @@
 <rect width="1600" height="900" fill="#FFFFFF"/>
 <text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start">На какие изменения реагируют модели</text>
 <text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#676767" text-anchor="start">33 point-in-time признака · одинаковый feature contract H3/H5 · RUB → KZT</text>
-<rect x="70" y="165" width="730" height="235" rx="24" fill="#FFF0EF" stroke="none" stroke-width="1"/>
-<circle cx="115" cy="213" r="22" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="70" y="165" width="730" height="235" rx="24" fill="#EEF4FD" stroke="none" stroke-width="1"/>
+<circle cx="115" cy="213" r="22" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
 <text x="115" y="213" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">10</text>
-<text x="152" y="222" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#EF3124" text-anchor="start">Уровень и импульс курса</text>
+<text x="152" y="222" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#3567B7" text-anchor="start">Уровень и импульс курса</text>
 <text x="104" y="266" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#676767" text-anchor="start">CBR · доходности 1–60 сессий · перцентили 20–252</text>
 <text x="104" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717" text-anchor="start">Где сегодняшний RUB/KZT находится</text>
 <text x="104" y="339" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#171717" text-anchor="start">в недавнем диапазоне и насколько</text>

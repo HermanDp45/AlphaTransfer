@@ -14,8 +14,8 @@
 <circle cx="858" cy="460" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
 <circle cx="1004" cy="543" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
 <circle cx="1113" cy="566" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
-<circle cx="1084" cy="552" r="13" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
-<text x="1098" y="538" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="start">H3 rank80</text>
+<circle cx="1084" cy="552" r="13" fill="#3567B7" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1098" y="538" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#3567B7" text-anchor="start">H3 rank80</text>
 <circle cx="1230" cy="656" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
 <circle cx="544" cy="321" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
 <text x="558" y="307" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">H3 strict05</text>
