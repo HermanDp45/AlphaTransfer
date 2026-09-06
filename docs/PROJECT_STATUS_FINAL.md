@@ -89,7 +89,7 @@ python3.11 final_solution/main.py --model h5 --action infer
 python3.11 final_solution/main.py --model h5 --action metrics
 ```
 
-Комплект включает веса, обработку признаков, настройки вероятностей и частоты, начальное состояние правил, проверочные прогнозы, контрольные суммы и описания источников. Подробный протокол приведён в [техническом отчёте](MODEL_METRICS.md), а публичные показатели собраны в [едином файле](assets/model-metrics/metrics_snapshot.csv).
+Комплект включает веса, обработку признаков, настройки вероятностей и частоты, начальное состояние правил, проверочные прогнозы, контрольные суммы и описания источников. Подробный протокол приведён в [техническом отчёте](https://github.com/HermanDp45/AlphaTransfer/blob/main/docs/MODEL_METRICS.md), а публичные показатели собраны в [едином файле](https://github.com/HermanDp45/AlphaTransfer/blob/main/docs/assets/model-metrics/metrics_snapshot.csv).
 
 ## Полученные результаты
 
@@ -157,10 +157,10 @@ CLOSING измеримо выделяет среди H3-сигналов слу�
 
 ## Материалы проекта
 
-- [Подробный технический отчёт](MODEL_METRICS.md)
-- [Инструкция по запуску](../README.md)
-- [Клиентский путь](../product_artifacts/CLIENT_JOURNEY.md)
-- [Библиотека сообщений](../product_artifacts/Библиотека_пушей.md)
-- [Исследование аудитории Казахстана](../Researches/chat_research_kz/executive_summary.md)
-- [Исследование P2P-котировок](../Researches/p2p_rub_kzt_rates/ANALYTICAL_REPORT.md)
-- [Канонический набор показателей](assets/model-metrics/metrics_snapshot.csv)
+- [Подробный технический отчёт](https://github.com/HermanDp45/AlphaTransfer/blob/main/docs/MODEL_METRICS.md)
+- [Инструкция по запуску](https://github.com/HermanDp45/AlphaTransfer/blob/main/README.md)
+- [Клиентский путь](https://github.com/HermanDp45/AlphaTransfer/blob/main/product_artifacts/CLIENT_JOURNEY.md)
+- [Библиотека сообщений](https://github.com/HermanDp45/AlphaTransfer/blob/main/product_artifacts/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0_%D0%BF%D1%83%D1%88%D0%B5%D0%B8%CC%86.md)
+- [Исследование аудитории Казахстана](https://github.com/HermanDp45/AlphaTransfer/blob/main/Researches/chat_research_kz/executive_summary.md)
+- [Исследование P2P-котировок](https://github.com/HermanDp45/AlphaTransfer/blob/main/Researches/p2p_rub_kzt_rates/ANALYTICAL_REPORT.md)
+- [Канонический набор показателей](https://github.com/HermanDp45/AlphaTransfer/blob/main/docs/assets/model-metrics/metrics_snapshot.csv)
