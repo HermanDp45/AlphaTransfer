@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "cohort_parity": true,
+  "label_maturity": true,
+  "h5_target_independently_recomputed": true,
+  "train_only_preprocessing": true,
+  "causal_rank_policy": true,
+  "test_outcome_poisoning_invariant": true,
+  "calibration_uses_precalibration_warmup": true,
+  "no_forced_silent_week_fill": true,
+  "annual_fullhistory_models": 3,
+  "exact_120m_controls": 3,
+  "replay_groups": 12,
+  "maximum_raw_replay_error": 0.0,
+  "selected_recipe": "full_history",
+  "selected_policy": "rare65",
+  "source_sha256": "b3cda0736e28200e465f980293f9c7dafd69b834b274788549fb0ab7c6375961",
+  "raw_predictions_sha256": "04750fde0a72ae049871ab11812fffe652f16c841f7e29845f561de88ddbb0ed",
+  "predictions_sha256": "2c8122611254620fb264942002181bb4321c1f78de1bc3e9810ba57db65e1295",
+  "selection_sha256": "9b069d0bd79ccb1607fb23df5d8c1ee52d2e9a2f5d97a6f19893041b87c5ce41"
+}

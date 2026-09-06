@@ -7,5 +7,8 @@ tabm==0.0.3
 rtdl-num-embeddings==0.0.12
 joblib==1.6.0
 threadpoolctl>=3.6,<4
+beautifulsoup4>=4.14,<5
+openpyxl>=3.1,<4
+xlrd>=2.0,<3
 
 pyarrow>=15.0.0,<17

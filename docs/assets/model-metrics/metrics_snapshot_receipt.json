@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "canonical_selected_profiles",
+  "rows": 8,
+  "sources": [
+    {
+      "path": "final_solution/tabm_h3/bundle.json",
+      "sha256": "50cdd004e0ce6110ca9bb191aedf042e61264eb2f3a4ea1d68fcfd8f80ba9d3f"
+    },
+    {
+      "path": "final_solution/tabm_h3/evaluation/selection.json",
+      "sha256": "61869b6bd29e207d6b5d0ef67caddbabf1d6c506df35a3366964df4e9e004ac8"
+    },
+    {
+      "path": "final_solution/tabm_h3/evaluation/summary.csv",
+      "sha256": "71e45ea1d04263ccf8c7b42c59de06a2880e0e0506a04a16f1a2ab1fe2802fba"
+    },
+    {
+      "path": "final_solution/tabm_h3/evaluation/by_year.csv",
+      "sha256": "4692c255fed5109000420c1b5524b49320fd03ff9f57a1569e6817b5ba806a54"
+    },
+    {
+      "path": "research_v4/h5_fullhistory/selection.json",
+      "sha256": "9b069d0bd79ccb1607fb23df5d8c1ee52d2e9a2f5d97a6f19893041b87c5ce41"
+    },
+    {
+      "path": "research_v4/h5_fullhistory/summary.csv",
+      "sha256": "941a35ed30b52a9180da3ed3d2808a0abd168da257ca79fb70adaeab2d0d04df"
+    },
+    {
+      "path": "research_v4/h5_fullhistory/by_year.csv",
+      "sha256": "f9a235111ead813f0589cf61228601749112d27498f36ae6336c317d0a4dbcc6"
+    },
+    {
+      "path": "research_v4/h5_fullhistory/receipts.json",
+      "sha256": "2c3db7c4ce0ae0f15bb1fa65b6535a17ac50d68d2c8543bcfd4e9d08ac6746d9"
+    },
+    {
+      "path": "research_v4/h5_fullhistory/paired_intervals.csv",
+      "sha256": "8434b9bb1a71739be1a2a55e7f15d149aaab00f31aac3f98661dd3466a2490c4"
+    },
+    {
+      "path": "research_v4/h5_fullhistory/verification.json",
+      "sha256": "fa6c5d1462dce6949296b63be867dddb60bc4af1c0ef91a3f6394e820a94e788"
+    },
+    {
+      "path": "research_v4/h3_finalization/closing_predictions.csv.gz",
+      "sha256": "1994e6d182ad41a9efb17f0af27e5e40a33407c2016f63a52816a62e835b785b"
+    }
+  ]
+}

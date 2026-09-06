@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Quality-cadence frontier</title>
+<desc id="desc">Компромисс lift и числа сигналов в неделю для политик H3 и H5.</desc>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start">Частота выбирается под пользовательский сценарий</text>
+<text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#676767" text-anchor="start">H3 поддерживает регулярный контакт; H5 даёт более редкий сигнал на расширенном горизонте</text>
+<rect x="70" y="165" width="1460" height="640" rx="24" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+<line x1="573" y1="245" x2="573" y2="710" stroke="#1F8A55" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="573" y="226" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1F8A55" text-anchor="middle">H5 0,60</text>
+<line x1="672" y1="245" x2="672" y2="710" stroke="#B56A00" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="672" y="226" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#B56A00" text-anchor="middle">H5 0,70</text>
+<line x1="180" y1="658" x2="1460" y2="658" stroke="#1F8A55" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="180" y="646" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1F8A55" text-anchor="start">lift 1,30×</text>
+<circle cx="858" cy="460" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1004" cy="543" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1113" cy="566" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1084" cy="552" r="13" fill="#EF3124" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1098" y="538" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#EF3124" text-anchor="start">H3 rank80</text>
+<circle cx="1230" cy="656" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="544" cy="321" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="558" y="307" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">H3 strict05</text>
+<circle cx="960" cy="561" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="996" cy="518" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1098" cy="535" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="989" cy="495" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1244" cy="592" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="340" cy="330" r="8" fill="#8F8F8F" stroke="#FFFFFF" stroke-width="3"/>
+<text x="354" y="316" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="start">H5 strict05</text>
+<circle cx="632" cy="303" r="13" fill="#1F8A55" stroke="#FFFFFF" stroke-width="3"/>
+<text x="646" y="289" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1F8A55" text-anchor="start">H5 редкий режим</text>
+<text x="820" y="765" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717" text-anchor="middle">Сигналов в неделю →</text>
+<text x="95" y="505" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#676767" text-anchor="start">Lift</text>
+<text x="95" y="532" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#676767" text-anchor="start">↑</text>
+<text x="1530" y="865" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="end">Выбранные точки выделены цветом; серые — альтернативные causal policies на тех же прогнозах.</text>
+</svg>

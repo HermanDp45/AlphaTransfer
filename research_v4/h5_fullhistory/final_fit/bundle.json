@@ -1,0 +1,1950 @@
+{
+  "schema_version": 1,
+  "profile_id": "tabm_kzt_h5_expanding2010_rare65",
+  "model_id": "tabm_kzt_h5_expanding2010_rare65_20260905",
+  "model_cutoff": "2026-09-05",
+  "train_horizon": 5,
+  "corridor": "KZT",
+  "history_mode": "full_history",
+  "features": [
+    "ret1",
+    "ret3",
+    "ret5",
+    "ret10",
+    "ret20",
+    "ret60",
+    "pr20",
+    "pr60",
+    "pr120",
+    "pr252",
+    "vol5",
+    "vol20",
+    "vol60",
+    "volratio",
+    "moex_cny_close_minus_fixing_same_session",
+    "oxr_log_basis",
+    "oxr_basis_chg1",
+    "oxr_basis_chg5",
+    "oxr_basis_z20",
+    "oxr_available",
+    "oxr_age_days",
+    "halyk_rub_sell_official_basis",
+    "halyk_rub_personal_legal_gap",
+    "halyk_personal_rub_ret1",
+    "halyk_personal_rub_ret5",
+    "halyk_personal_usd_ret1",
+    "halyk_personal_usd_ret5",
+    "treasury_t10yie_stale_level",
+    "treasury_t10yie_stale_chg5",
+    "treasury_t10yie_stale_chg20",
+    "treasury_t5yifr_stale_level",
+    "treasury_t5yifr_stale_chg5",
+    "treasury_t5yifr_stale_chg20"
+  ],
+  "seed": 20261105,
+  "architecture": {
+    "n_blocks": 2,
+    "d_block": 128,
+    "dropout": 0.1,
+    "k": 16
+  },
+  "numerical_embeddings": {
+    "d_embedding": 16,
+    "n_frequencies": 16,
+    "frequency_init_scale": 0.01,
+    "activation": true,
+    "lite": false
+  },
+  "model": {
+    "weights": "model/weights.pt",
+    "preprocessor": "model/preprocess.joblib",
+    "weights_sha256": "ee16f9c77c02a4bbc51ee52c0e10ccc9f88866d4f47e98100d06a5403fb81505",
+    "preprocessor_sha256": "f6f505fae8bb1ccef8946f8bf5c4ce68ce9732fa63cefd121adc74aee99c602f"
+  },
+  "calibration": {
+    "method": "prior_year_monotone_platt",
+    "intercept": 0.4305379092693329,
+    "slope": 1.0968760251998901
+  },
+  "policy": {
+    "name": "rare65",
+    "kind": "rank",
+    "threshold": 0.84,
+    "window": 63,
+    "min_history": 20,
+    "cooldown_sessions": 2,
+    "max_contacts_per_week": 2,
+    "calibration_target_signals_per_week": 0.65,
+    "calibration_realized_signals_per_week": 0.6730769230769231,
+    "selected_candidate": {
+      "threshold": 0.84,
+      "signals_per_corridor_week": 0.6730769230769231,
+      "absolute_frequency_error": 0.023076923076923106,
+      "lift": 2.03040293040293,
+      "forward_delta_bps": 122.30192055772498,
+      "signals": 35
+    },
+    "candidates": [
+      {
+        "threshold": 0.0,
+        "signals_per_corridor_week": 1.5576923076923077,
+        "absolute_frequency_error": 0.9076923076923077,
+        "lift": 0.9536245647356757,
+        "forward_delta_bps": 0.9864764763462214,
+        "signals": 81
+      },
+      {
+        "threshold": 0.005,
+        "signals_per_corridor_week": 1.5576923076923077,
+        "absolute_frequency_error": 0.9076923076923077,
+        "lift": 0.9536245647356757,
+        "forward_delta_bps": 0.9864764763462214,
+        "signals": 81
+      },
+      {
+        "threshold": 0.01,
+        "signals_per_corridor_week": 1.5576923076923077,
+        "absolute_frequency_error": 0.9076923076923077,
+        "lift": 0.9536245647356757,
+        "forward_delta_bps": 0.9864764763462214,
+        "signals": 81
+      },
+      {
+        "threshold": 0.015,
+        "signals_per_corridor_week": 1.5576923076923077,
+        "absolute_frequency_error": 0.9076923076923077,
+        "lift": 0.9536245647356757,
+        "forward_delta_bps": 0.9864764763462214,
+        "signals": 81
+      },
+      {
+        "threshold": 0.02,
+        "signals_per_corridor_week": 1.5576923076923077,
+        "absolute_frequency_error": 0.9076923076923077,
+        "lift": 0.9536245647356757,
+        "forward_delta_bps": 0.9864764763462214,
+        "signals": 81
+      },
+      {
+        "threshold": 0.025,
+        "signals_per_corridor_week": 1.5576923076923077,
+        "absolute_frequency_error": 0.9076923076923077,
+        "lift": 0.9536245647356757,
+        "forward_delta_bps": 0.9864764763462214,
+        "signals": 81
+      },
+      {
+        "threshold": 0.03,
+        "signals_per_corridor_week": 1.5576923076923077,
+        "absolute_frequency_error": 0.9076923076923077,
+        "lift": 0.9536245647356757,
+        "forward_delta_bps": 0.9864764763462214,
+        "signals": 81
+      },
+      {
+        "threshold": 0.035,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.1200320512820512,
+        "forward_delta_bps": 5.69741215823355,
+        "signals": 80
+      },
+      {
+        "threshold": 0.04,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.1200320512820512,
+        "forward_delta_bps": 5.69741215823355,
+        "signals": 80
+      },
+      {
+        "threshold": 0.045,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.1200320512820512,
+        "forward_delta_bps": 5.69741215823355,
+        "signals": 80
+      },
+      {
+        "threshold": 0.05,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.0427884615384613,
+        "forward_delta_bps": 9.946758359080302,
+        "signals": 80
+      },
+      {
+        "threshold": 0.055,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.0427884615384613,
+        "forward_delta_bps": 9.946758359080302,
+        "signals": 80
+      },
+      {
+        "threshold": 0.06,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.0427884615384613,
+        "forward_delta_bps": 9.946758359080302,
+        "signals": 80
+      },
+      {
+        "threshold": 0.065,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.0041666666666664,
+        "forward_delta_bps": 12.511803202336992,
+        "signals": 80
+      },
+      {
+        "threshold": 0.07,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.0041666666666664,
+        "forward_delta_bps": 12.511803202336992,
+        "signals": 80
+      },
+      {
+        "threshold": 0.075,
+        "signals_per_corridor_week": 1.5384615384615385,
+        "absolute_frequency_error": 0.8884615384615385,
+        "lift": 1.0041666666666664,
+        "forward_delta_bps": 12.511803202336992,
+        "signals": 80
+      },
+      {
+        "threshold": 0.08,
+        "signals_per_corridor_week": 1.5192307692307692,
+        "absolute_frequency_error": 0.8692307692307691,
+        "lift": 1.016877637130802,
+        "forward_delta_bps": 13.50203058288498,
+        "signals": 79
+      },
+      {
+        "threshold": 0.085,
+        "signals_per_corridor_week": 1.5192307692307692,
+        "absolute_frequency_error": 0.8692307692307691,
+        "lift": 1.016877637130802,
+        "forward_delta_bps": 13.50203058288498,
+        "signals": 79
+      },
+      {
+        "threshold": 0.09,
+        "signals_per_corridor_week": 1.5192307692307692,
+        "absolute_frequency_error": 0.8692307692307691,
+        "lift": 1.016877637130802,
+        "forward_delta_bps": 13.50203058288498,
+        "signals": 79
+      },
+      {
+        "threshold": 0.095,
+        "signals_per_corridor_week": 1.5192307692307692,
+        "absolute_frequency_error": 0.8692307692307691,
+        "lift": 1.016877637130802,
+        "forward_delta_bps": 13.50203058288498,
+        "signals": 79
+      },
+      {
+        "threshold": 0.1,
+        "signals_per_corridor_week": 1.5192307692307692,
+        "absolute_frequency_error": 0.8692307692307691,
+        "lift": 1.016877637130802,
+        "forward_delta_bps": 13.01434524476001,
+        "signals": 79
+      },
+      {
+        "threshold": 0.105,
+        "signals_per_corridor_week": 1.5192307692307692,
+        "absolute_frequency_error": 0.8692307692307691,
+        "lift": 1.016877637130802,
+        "forward_delta_bps": 13.01434524476001,
+        "signals": 79
+      },
+      {
+        "threshold": 0.11,
+        "signals_per_corridor_week": 1.5192307692307692,
+        "absolute_frequency_error": 0.8692307692307691,
+        "lift": 1.016877637130802,
+        "forward_delta_bps": 13.01434524476001,
+        "signals": 79
+      },
+      {
+        "threshold": 0.115,
+        "signals_per_corridor_week": 1.5,
+        "absolute_frequency_error": 0.85,
+        "lift": 1.069526627218935,
+        "forward_delta_bps": 16.90730431146616,
+        "signals": 78
+      },
+      {
+        "threshold": 0.12,
+        "signals_per_corridor_week": 1.5,
+        "absolute_frequency_error": 0.85,
+        "lift": 1.069526627218935,
+        "forward_delta_bps": 16.90730431146616,
+        "signals": 78
+      },
+      {
+        "threshold": 0.125,
+        "signals_per_corridor_week": 1.5,
+        "absolute_frequency_error": 0.85,
+        "lift": 1.069526627218935,
+        "forward_delta_bps": 16.90730431146616,
+        "signals": 78
+      },
+      {
+        "threshold": 0.13,
+        "signals_per_corridor_week": 1.4807692307692308,
+        "absolute_frequency_error": 0.8307692307692308,
+        "lift": 1.1235431235431237,
+        "forward_delta_bps": 20.962110000574118,
+        "signals": 77
+      },
+      {
+        "threshold": 0.135,
+        "signals_per_corridor_week": 1.4807692307692308,
+        "absolute_frequency_error": 0.8307692307692308,
+        "lift": 1.1235431235431237,
+        "forward_delta_bps": 20.962110000574118,
+        "signals": 77
+      },
+      {
+        "threshold": 0.14,
+        "signals_per_corridor_week": 1.4807692307692308,
+        "absolute_frequency_error": 0.8307692307692308,
+        "lift": 1.1235431235431237,
+        "forward_delta_bps": 20.962110000574118,
+        "signals": 77
+      },
+      {
+        "threshold": 0.145,
+        "signals_per_corridor_week": 1.4615384615384615,
+        "absolute_frequency_error": 0.8115384615384614,
+        "lift": 1.0570175438596492,
+        "forward_delta_bps": 16.73362937091021,
+        "signals": 76
+      },
+      {
+        "threshold": 0.15,
+        "signals_per_corridor_week": 1.4615384615384615,
+        "absolute_frequency_error": 0.8115384615384614,
+        "lift": 1.0570175438596492,
+        "forward_delta_bps": 16.73362937091021,
+        "signals": 76
+      },
+      {
+        "threshold": 0.155,
+        "signals_per_corridor_week": 1.4615384615384615,
+        "absolute_frequency_error": 0.8115384615384614,
+        "lift": 1.0570175438596492,
+        "forward_delta_bps": 16.73362937091021,
+        "signals": 76
+      },
+      {
+        "threshold": 0.16,
+        "signals_per_corridor_week": 1.4423076923076923,
+        "absolute_frequency_error": 0.7923076923076923,
+        "lift": 1.1123076923076924,
+        "forward_delta_bps": 21.85070373897649,
+        "signals": 75
+      },
+      {
+        "threshold": 0.165,
+        "signals_per_corridor_week": 1.4423076923076923,
+        "absolute_frequency_error": 0.7923076923076923,
+        "lift": 1.1123076923076924,
+        "forward_delta_bps": 21.85070373897649,
+        "signals": 75
+      },
+      {
+        "threshold": 0.17,
+        "signals_per_corridor_week": 1.4423076923076923,
+        "absolute_frequency_error": 0.7923076923076923,
+        "lift": 1.1123076923076924,
+        "forward_delta_bps": 21.85070373897649,
+        "signals": 75
+      },
+      {
+        "threshold": 0.17500000000000002,
+        "signals_per_corridor_week": 1.4038461538461537,
+        "absolute_frequency_error": 0.7538461538461537,
+        "lift": 1.1851071303126097,
+        "forward_delta_bps": 34.75261713138073,
+        "signals": 73
+      },
+      {
+        "threshold": 0.18,
+        "signals_per_corridor_week": 1.4038461538461537,
+        "absolute_frequency_error": 0.7538461538461537,
+        "lift": 1.1851071303126097,
+        "forward_delta_bps": 34.75261713138073,
+        "signals": 73
+      },
+      {
+        "threshold": 0.185,
+        "signals_per_corridor_week": 1.4038461538461537,
+        "absolute_frequency_error": 0.7538461538461537,
+        "lift": 1.1851071303126097,
+        "forward_delta_bps": 34.75261713138073,
+        "signals": 73
+      },
+      {
+        "threshold": 0.19,
+        "signals_per_corridor_week": 1.4038461538461537,
+        "absolute_frequency_error": 0.7538461538461537,
+        "lift": 1.1851071303126097,
+        "forward_delta_bps": 34.75261713138073,
+        "signals": 73
+      },
+      {
+        "threshold": 0.195,
+        "signals_per_corridor_week": 1.4038461538461537,
+        "absolute_frequency_error": 0.7538461538461537,
+        "lift": 1.1851071303126097,
+        "forward_delta_bps": 34.75261713138073,
+        "signals": 73
+      },
+      {
+        "threshold": 0.2,
+        "signals_per_corridor_week": 1.4038461538461537,
+        "absolute_frequency_error": 0.7538461538461537,
+        "lift": 1.1851071303126097,
+        "forward_delta_bps": 34.75261713138073,
+        "signals": 73
+      },
+      {
+        "threshold": 0.20500000000000002,
+        "signals_per_corridor_week": 1.4038461538461537,
+        "absolute_frequency_error": 0.7538461538461537,
+        "lift": 1.1851071303126097,
+        "forward_delta_bps": 34.75261713138073,
+        "signals": 73
+      },
+      {
+        "threshold": 0.21,
+        "signals_per_corridor_week": 1.3846153846153846,
+        "absolute_frequency_error": 0.7346153846153846,
+        "lift": 1.244480056980057,
+        "forward_delta_bps": 37.771024559567685,
+        "signals": 72
+      },
+      {
+        "threshold": 0.215,
+        "signals_per_corridor_week": 1.3846153846153846,
+        "absolute_frequency_error": 0.7346153846153846,
+        "lift": 1.244480056980057,
+        "forward_delta_bps": 37.771024559567685,
+        "signals": 72
+      },
+      {
+        "threshold": 0.22,
+        "signals_per_corridor_week": 1.3846153846153846,
+        "absolute_frequency_error": 0.7346153846153846,
+        "lift": 1.244480056980057,
+        "forward_delta_bps": 37.771024559567685,
+        "signals": 72
+      },
+      {
+        "threshold": 0.225,
+        "signals_per_corridor_week": 1.3653846153846154,
+        "absolute_frequency_error": 0.7153846153846154,
+        "lift": 1.2620079451065371,
+        "forward_delta_bps": 38.813009101346715,
+        "signals": 71
+      },
+      {
+        "threshold": 0.23,
+        "signals_per_corridor_week": 1.3653846153846154,
+        "absolute_frequency_error": 0.7153846153846154,
+        "lift": 1.2620079451065371,
+        "forward_delta_bps": 38.813009101346715,
+        "signals": 71
+      },
+      {
+        "threshold": 0.23500000000000001,
+        "signals_per_corridor_week": 1.3653846153846154,
+        "absolute_frequency_error": 0.7153846153846154,
+        "lift": 1.2620079451065371,
+        "forward_delta_bps": 38.813009101346715,
+        "signals": 71
+      },
+      {
+        "threshold": 0.24,
+        "signals_per_corridor_week": 1.3653846153846154,
+        "absolute_frequency_error": 0.7153846153846154,
+        "lift": 1.2620079451065371,
+        "forward_delta_bps": 38.813009101346715,
+        "signals": 71
+      },
+      {
+        "threshold": 0.245,
+        "signals_per_corridor_week": 1.3653846153846154,
+        "absolute_frequency_error": 0.7153846153846154,
+        "lift": 1.2620079451065371,
+        "forward_delta_bps": 38.813009101346715,
+        "signals": 71
+      },
+      {
+        "threshold": 0.25,
+        "signals_per_corridor_week": 1.3653846153846154,
+        "absolute_frequency_error": 0.7153846153846154,
+        "lift": 1.2620079451065371,
+        "forward_delta_bps": 38.813009101346715,
+        "signals": 71
+      },
+      {
+        "threshold": 0.255,
+        "signals_per_corridor_week": 1.3461538461538463,
+        "absolute_frequency_error": 0.6961538461538462,
+        "lift": 1.2800366300366304,
+        "forward_delta_bps": 40.26800765319645,
+        "signals": 70
+      },
+      {
+        "threshold": 0.26,
+        "signals_per_corridor_week": 1.3461538461538463,
+        "absolute_frequency_error": 0.6961538461538462,
+        "lift": 1.2800366300366304,
+        "forward_delta_bps": 40.26800765319645,
+        "signals": 70
+      },
+      {
+        "threshold": 0.265,
+        "signals_per_corridor_week": 1.3461538461538463,
+        "absolute_frequency_error": 0.6961538461538462,
+        "lift": 1.2800366300366304,
+        "forward_delta_bps": 40.26800765319645,
+        "signals": 70
+      },
+      {
+        "threshold": 0.27,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 47.71379438394893,
+        "signals": 68
+      },
+      {
+        "threshold": 0.275,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 47.71379438394893,
+        "signals": 68
+      },
+      {
+        "threshold": 0.28,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 47.71379438394893,
+        "signals": 68
+      },
+      {
+        "threshold": 0.28500000000000003,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 47.71379438394893,
+        "signals": 68
+      },
+      {
+        "threshold": 0.29,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 48.808690216891875,
+        "signals": 68
+      },
+      {
+        "threshold": 0.295,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 48.808690216891875,
+        "signals": 68
+      },
+      {
+        "threshold": 0.3,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 48.808690216891875,
+        "signals": 68
+      },
+      {
+        "threshold": 0.305,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.408559577677225,
+        "forward_delta_bps": 47.559884794137965,
+        "signals": 68
+      },
+      {
+        "threshold": 0.31,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.408559577677225,
+        "forward_delta_bps": 47.559884794137965,
+        "signals": 68
+      },
+      {
+        "threshold": 0.315,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.408559577677225,
+        "forward_delta_bps": 47.559884794137965,
+        "signals": 68
+      },
+      {
+        "threshold": 0.32,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.408559577677225,
+        "forward_delta_bps": 47.559884794137965,
+        "signals": 68
+      },
+      {
+        "threshold": 0.325,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.408559577677225,
+        "forward_delta_bps": 47.559884794137965,
+        "signals": 68
+      },
+      {
+        "threshold": 0.33,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.408559577677225,
+        "forward_delta_bps": 47.559884794137965,
+        "signals": 68
+      },
+      {
+        "threshold": 0.335,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 47.74936330527245,
+        "signals": 68
+      },
+      {
+        "threshold": 0.34,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 47.74936330527245,
+        "signals": 68
+      },
+      {
+        "threshold": 0.34500000000000003,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4539969834087483,
+        "forward_delta_bps": 47.74936330527245,
+        "signals": 68
+      },
+      {
+        "threshold": 0.35000000000000003,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4994343891402717,
+        "forward_delta_bps": 53.41799045807636,
+        "signals": 68
+      },
+      {
+        "threshold": 0.355,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4994343891402717,
+        "forward_delta_bps": 53.41799045807636,
+        "signals": 68
+      },
+      {
+        "threshold": 0.36,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4994343891402717,
+        "forward_delta_bps": 53.41799045807636,
+        "signals": 68
+      },
+      {
+        "threshold": 0.365,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4994343891402717,
+        "forward_delta_bps": 53.41799045807636,
+        "signals": 68
+      },
+      {
+        "threshold": 0.37,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4994343891402717,
+        "forward_delta_bps": 53.41799045807636,
+        "signals": 68
+      },
+      {
+        "threshold": 0.375,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4994343891402717,
+        "forward_delta_bps": 53.41799045807636,
+        "signals": 68
+      },
+      {
+        "threshold": 0.38,
+        "signals_per_corridor_week": 1.3076923076923077,
+        "absolute_frequency_error": 0.6576923076923077,
+        "lift": 1.4994343891402717,
+        "forward_delta_bps": 53.41799045807636,
+        "signals": 68
+      },
+      {
+        "threshold": 0.385,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.4295828549559895,
+        "forward_delta_bps": 56.07645636508107,
+        "signals": 67
+      },
+      {
+        "threshold": 0.39,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.4295828549559895,
+        "forward_delta_bps": 56.07645636508107,
+        "signals": 67
+      },
+      {
+        "threshold": 0.395,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.4295828549559895,
+        "forward_delta_bps": 56.07645636508107,
+        "signals": 67
+      },
+      {
+        "threshold": 0.4,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.337351703023345,
+        "forward_delta_bps": 51.262732488726805,
+        "signals": 67
+      },
+      {
+        "threshold": 0.405,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.337351703023345,
+        "forward_delta_bps": 51.262732488726805,
+        "signals": 67
+      },
+      {
+        "threshold": 0.41000000000000003,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.337351703023345,
+        "forward_delta_bps": 51.262732488726805,
+        "signals": 67
+      },
+      {
+        "threshold": 0.41500000000000004,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.337351703023345,
+        "forward_delta_bps": 51.262732488726805,
+        "signals": 67
+      },
+      {
+        "threshold": 0.42,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.337351703023345,
+        "forward_delta_bps": 51.262732488726805,
+        "signals": 67
+      },
+      {
+        "threshold": 0.425,
+        "signals_per_corridor_week": 1.2884615384615385,
+        "absolute_frequency_error": 0.6384615384615385,
+        "lift": 1.337351703023345,
+        "forward_delta_bps": 51.262732488726805,
+        "signals": 67
+      },
+      {
+        "threshold": 0.43,
+        "signals_per_corridor_week": 1.2692307692307692,
+        "absolute_frequency_error": 0.6192307692307691,
+        "lift": 1.4044289044289044,
+        "forward_delta_bps": 52.550394361811705,
+        "signals": 66
+      },
+      {
+        "threshold": 0.435,
+        "signals_per_corridor_week": 1.2692307692307692,
+        "absolute_frequency_error": 0.6192307692307691,
+        "lift": 1.4044289044289044,
+        "forward_delta_bps": 52.550394361811705,
+        "signals": 66
+      },
+      {
+        "threshold": 0.44,
+        "signals_per_corridor_week": 1.2692307692307692,
+        "absolute_frequency_error": 0.6192307692307691,
+        "lift": 1.4044289044289044,
+        "forward_delta_bps": 52.550394361811705,
+        "signals": 66
+      },
+      {
+        "threshold": 0.445,
+        "signals_per_corridor_week": 1.2115384615384615,
+        "absolute_frequency_error": 0.5615384615384614,
+        "lift": 1.520350020350021,
+        "forward_delta_bps": 64.71311345753698,
+        "signals": 63
+      },
+      {
+        "threshold": 0.45,
+        "signals_per_corridor_week": 1.2115384615384615,
+        "absolute_frequency_error": 0.5615384615384614,
+        "lift": 1.520350020350021,
+        "forward_delta_bps": 64.71311345753698,
+        "signals": 63
+      },
+      {
+        "threshold": 0.455,
+        "signals_per_corridor_week": 1.2115384615384615,
+        "absolute_frequency_error": 0.5615384615384614,
+        "lift": 1.520350020350021,
+        "forward_delta_bps": 64.71311345753698,
+        "signals": 63
+      },
+      {
+        "threshold": 0.46,
+        "signals_per_corridor_week": 1.2115384615384615,
+        "absolute_frequency_error": 0.5615384615384614,
+        "lift": 1.520350020350021,
+        "forward_delta_bps": 64.71311345753698,
+        "signals": 63
+      },
+      {
+        "threshold": 0.465,
+        "signals_per_corridor_week": 1.1923076923076923,
+        "absolute_frequency_error": 0.5423076923076923,
+        "lift": 1.5448717948717954,
+        "forward_delta_bps": 70.8798513365914,
+        "signals": 62
+      },
+      {
+        "threshold": 0.47000000000000003,
+        "signals_per_corridor_week": 1.1923076923076923,
+        "absolute_frequency_error": 0.5423076923076923,
+        "lift": 1.5448717948717954,
+        "forward_delta_bps": 70.8798513365914,
+        "signals": 62
+      },
+      {
+        "threshold": 0.47500000000000003,
+        "signals_per_corridor_week": 1.1923076923076923,
+        "absolute_frequency_error": 0.5423076923076923,
+        "lift": 1.5448717948717954,
+        "forward_delta_bps": 70.8798513365914,
+        "signals": 62
+      },
+      {
+        "threshold": 0.48,
+        "signals_per_corridor_week": 1.1730769230769231,
+        "absolute_frequency_error": 0.5230769230769231,
+        "lift": 1.5701975620008413,
+        "forward_delta_bps": 74.4675913742743,
+        "signals": 61
+      },
+      {
+        "threshold": 0.485,
+        "signals_per_corridor_week": 1.1730769230769231,
+        "absolute_frequency_error": 0.5230769230769231,
+        "lift": 1.5701975620008413,
+        "forward_delta_bps": 74.4675913742743,
+        "signals": 61
+      },
+      {
+        "threshold": 0.49,
+        "signals_per_corridor_week": 1.1730769230769231,
+        "absolute_frequency_error": 0.5230769230769231,
+        "lift": 1.5701975620008413,
+        "forward_delta_bps": 74.4675913742743,
+        "signals": 61
+      },
+      {
+        "threshold": 0.495,
+        "signals_per_corridor_week": 1.1538461538461537,
+        "absolute_frequency_error": 0.5038461538461537,
+        "lift": 1.5963675213675217,
+        "forward_delta_bps": 76.6869705720063,
+        "signals": 60
+      },
+      {
+        "threshold": 0.5,
+        "signals_per_corridor_week": 1.1538461538461537,
+        "absolute_frequency_error": 0.5038461538461537,
+        "lift": 1.5963675213675217,
+        "forward_delta_bps": 76.6869705720063,
+        "signals": 60
+      },
+      {
+        "threshold": 0.505,
+        "signals_per_corridor_week": 1.1538461538461537,
+        "absolute_frequency_error": 0.5038461538461537,
+        "lift": 1.5963675213675217,
+        "forward_delta_bps": 76.6869705720063,
+        "signals": 60
+      },
+      {
+        "threshold": 0.51,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6234245980008695,
+        "forward_delta_bps": 78.48180702082416,
+        "signals": 59
+      },
+      {
+        "threshold": 0.515,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6234245980008695,
+        "forward_delta_bps": 78.48180702082416,
+        "signals": 59
+      },
+      {
+        "threshold": 0.52,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6234245980008695,
+        "forward_delta_bps": 78.48180702082416,
+        "signals": 59
+      },
+      {
+        "threshold": 0.525,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6234245980008695,
+        "forward_delta_bps": 81.67814382563706,
+        "signals": 59
+      },
+      {
+        "threshold": 0.53,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6234245980008695,
+        "forward_delta_bps": 81.67814382563706,
+        "signals": 59
+      },
+      {
+        "threshold": 0.535,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6234245980008695,
+        "forward_delta_bps": 81.67814382563706,
+        "signals": 59
+      },
+      {
+        "threshold": 0.54,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6757931334202525,
+        "forward_delta_bps": 81.73574099240746,
+        "signals": 59
+      },
+      {
+        "threshold": 0.545,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6757931334202525,
+        "forward_delta_bps": 81.73574099240746,
+        "signals": 59
+      },
+      {
+        "threshold": 0.55,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6757931334202525,
+        "forward_delta_bps": 81.73574099240746,
+        "signals": 59
+      },
+      {
+        "threshold": 0.555,
+        "signals_per_corridor_week": 1.1346153846153846,
+        "absolute_frequency_error": 0.48461538461538456,
+        "lift": 1.6757931334202525,
+        "forward_delta_bps": 81.73574099240746,
+        "signals": 59
+      },
+      {
+        "threshold": 0.56,
+        "signals_per_corridor_week": 1.1153846153846154,
+        "absolute_frequency_error": 0.4653846153846154,
+        "lift": 1.7046861184792221,
+        "forward_delta_bps": 86.55565900053556,
+        "signals": 58
+      },
+      {
+        "threshold": 0.5650000000000001,
+        "signals_per_corridor_week": 1.1153846153846154,
+        "absolute_frequency_error": 0.4653846153846154,
+        "lift": 1.7046861184792221,
+        "forward_delta_bps": 86.55565900053556,
+        "signals": 58
+      },
+      {
+        "threshold": 0.5700000000000001,
+        "signals_per_corridor_week": 1.1153846153846154,
+        "absolute_frequency_error": 0.4653846153846154,
+        "lift": 1.7046861184792221,
+        "forward_delta_bps": 86.55565900053556,
+        "signals": 58
+      },
+      {
+        "threshold": 0.5750000000000001,
+        "signals_per_corridor_week": 1.0961538461538463,
+        "absolute_frequency_error": 0.44615384615384623,
+        "lift": 1.7345928924876295,
+        "forward_delta_bps": 88.05684604990732,
+        "signals": 57
+      },
+      {
+        "threshold": 0.58,
+        "signals_per_corridor_week": 1.0961538461538463,
+        "absolute_frequency_error": 0.44615384615384623,
+        "lift": 1.7345928924876295,
+        "forward_delta_bps": 88.05684604990732,
+        "signals": 57
+      },
+      {
+        "threshold": 0.585,
+        "signals_per_corridor_week": 1.0961538461538463,
+        "absolute_frequency_error": 0.44615384615384623,
+        "lift": 1.7345928924876295,
+        "forward_delta_bps": 88.05684604990732,
+        "signals": 57
+      },
+      {
+        "threshold": 0.59,
+        "signals_per_corridor_week": 1.0769230769230769,
+        "absolute_frequency_error": 0.42692307692307685,
+        "lift": 1.710393772893773,
+        "forward_delta_bps": 90.48294592139018,
+        "signals": 56
+      },
+      {
+        "threshold": 0.595,
+        "signals_per_corridor_week": 1.0769230769230769,
+        "absolute_frequency_error": 0.42692307692307685,
+        "lift": 1.710393772893773,
+        "forward_delta_bps": 90.48294592139018,
+        "signals": 56
+      },
+      {
+        "threshold": 0.6,
+        "signals_per_corridor_week": 1.0769230769230769,
+        "absolute_frequency_error": 0.42692307692307685,
+        "lift": 1.710393772893773,
+        "forward_delta_bps": 90.48294592139018,
+        "signals": 56
+      },
+      {
+        "threshold": 0.605,
+        "signals_per_corridor_week": 1.0384615384615385,
+        "absolute_frequency_error": 0.3884615384615385,
+        "lift": 1.716524216524217,
+        "forward_delta_bps": 96.39918601494934,
+        "signals": 54
+      },
+      {
+        "threshold": 0.61,
+        "signals_per_corridor_week": 1.0384615384615385,
+        "absolute_frequency_error": 0.3884615384615385,
+        "lift": 1.716524216524217,
+        "forward_delta_bps": 96.39918601494934,
+        "signals": 54
+      },
+      {
+        "threshold": 0.615,
+        "signals_per_corridor_week": 1.0384615384615385,
+        "absolute_frequency_error": 0.3884615384615385,
+        "lift": 1.716524216524217,
+        "forward_delta_bps": 96.39918601494934,
+        "signals": 54
+      },
+      {
+        "threshold": 0.62,
+        "signals_per_corridor_week": 1.0384615384615385,
+        "absolute_frequency_error": 0.3884615384615385,
+        "lift": 1.716524216524217,
+        "forward_delta_bps": 96.39918601494934,
+        "signals": 54
+      },
+      {
+        "threshold": 0.625,
+        "signals_per_corridor_week": 1.0384615384615385,
+        "absolute_frequency_error": 0.3884615384615385,
+        "lift": 1.716524216524217,
+        "forward_delta_bps": 96.39918601494934,
+        "signals": 54
+      },
+      {
+        "threshold": 0.63,
+        "signals_per_corridor_week": 1.0384615384615385,
+        "absolute_frequency_error": 0.3884615384615385,
+        "lift": 1.716524216524217,
+        "forward_delta_bps": 96.39918601494934,
+        "signals": 54
+      },
+      {
+        "threshold": 0.635,
+        "signals_per_corridor_week": 1.0,
+        "absolute_frequency_error": 0.35,
+        "lift": 1.8419625246548326,
+        "forward_delta_bps": 92.1510296832254,
+        "signals": 52
+      },
+      {
+        "threshold": 0.64,
+        "signals_per_corridor_week": 1.0,
+        "absolute_frequency_error": 0.35,
+        "lift": 1.8419625246548326,
+        "forward_delta_bps": 92.1510296832254,
+        "signals": 52
+      },
+      {
+        "threshold": 0.645,
+        "signals_per_corridor_week": 1.0,
+        "absolute_frequency_error": 0.35,
+        "lift": 1.8419625246548326,
+        "forward_delta_bps": 92.1510296832254,
+        "signals": 52
+      },
+      {
+        "threshold": 0.65,
+        "signals_per_corridor_week": 1.0,
+        "absolute_frequency_error": 0.35,
+        "lift": 1.8419625246548326,
+        "forward_delta_bps": 92.1510296832254,
+        "signals": 52
+      },
+      {
+        "threshold": 0.655,
+        "signals_per_corridor_week": 0.9807692307692307,
+        "absolute_frequency_error": 0.3307692307692307,
+        "lift": 1.8780794369029665,
+        "forward_delta_bps": 95.28737999337582,
+        "signals": 51
+      },
+      {
+        "threshold": 0.66,
+        "signals_per_corridor_week": 0.9807692307692307,
+        "absolute_frequency_error": 0.3307692307692307,
+        "lift": 1.8780794369029665,
+        "forward_delta_bps": 95.28737999337582,
+        "signals": 51
+      },
+      {
+        "threshold": 0.665,
+        "signals_per_corridor_week": 0.9807692307692307,
+        "absolute_frequency_error": 0.3307692307692307,
+        "lift": 1.8780794369029665,
+        "forward_delta_bps": 95.28737999337582,
+        "signals": 51
+      },
+      {
+        "threshold": 0.67,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.44309212490978,
+        "signals": 50
+      },
+      {
+        "threshold": 0.675,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.44309212490978,
+        "signals": 50
+      },
+      {
+        "threshold": 0.68,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.44309212490978,
+        "signals": 50
+      },
+      {
+        "threshold": 0.685,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.44309212490978,
+        "signals": 50
+      },
+      {
+        "threshold": 0.6900000000000001,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.44309212490978,
+        "signals": 50
+      },
+      {
+        "threshold": 0.6950000000000001,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.44309212490978,
+        "signals": 50
+      },
+      {
+        "threshold": 0.7000000000000001,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.67659663915707,
+        "signals": 50
+      },
+      {
+        "threshold": 0.705,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.67659663915707,
+        "signals": 50
+      },
+      {
+        "threshold": 0.71,
+        "signals_per_corridor_week": 0.9615384615384616,
+        "absolute_frequency_error": 0.31153846153846154,
+        "lift": 1.9774358974358974,
+        "forward_delta_bps": 94.67659663915707,
+        "signals": 50
+      },
+      {
+        "threshold": 0.715,
+        "signals_per_corridor_week": 0.8846153846153846,
+        "absolute_frequency_error": 0.23461538461538456,
+        "lift": 1.9478818283166104,
+        "forward_delta_bps": 95.4387488600617,
+        "signals": 46
+      },
+      {
+        "threshold": 0.72,
+        "signals_per_corridor_week": 0.8846153846153846,
+        "absolute_frequency_error": 0.23461538461538456,
+        "lift": 1.9478818283166104,
+        "forward_delta_bps": 95.4387488600617,
+        "signals": 46
+      },
+      {
+        "threshold": 0.725,
+        "signals_per_corridor_week": 0.8846153846153846,
+        "absolute_frequency_error": 0.23461538461538456,
+        "lift": 1.9478818283166104,
+        "forward_delta_bps": 95.4387488600617,
+        "signals": 46
+      },
+      {
+        "threshold": 0.73,
+        "signals_per_corridor_week": 0.8846153846153846,
+        "absolute_frequency_error": 0.23461538461538456,
+        "lift": 1.9478818283166104,
+        "forward_delta_bps": 95.4387488600617,
+        "signals": 46
+      },
+      {
+        "threshold": 0.735,
+        "signals_per_corridor_week": 0.8653846153846154,
+        "absolute_frequency_error": 0.2153846153846154,
+        "lift": 1.922507122507122,
+        "forward_delta_bps": 97.64177358744641,
+        "signals": 45
+      },
+      {
+        "threshold": 0.74,
+        "signals_per_corridor_week": 0.8653846153846154,
+        "absolute_frequency_error": 0.2153846153846154,
+        "lift": 1.922507122507122,
+        "forward_delta_bps": 97.64177358744641,
+        "signals": 45
+      },
+      {
+        "threshold": 0.745,
+        "signals_per_corridor_week": 0.8653846153846154,
+        "absolute_frequency_error": 0.2153846153846154,
+        "lift": 1.922507122507122,
+        "forward_delta_bps": 97.64177358744641,
+        "signals": 45
+      },
+      {
+        "threshold": 0.75,
+        "signals_per_corridor_week": 0.8461538461538461,
+        "absolute_frequency_error": 0.19615384615384612,
+        "lift": 1.8959790209790206,
+        "forward_delta_bps": 96.07032794999805,
+        "signals": 44
+      },
+      {
+        "threshold": 0.755,
+        "signals_per_corridor_week": 0.8461538461538461,
+        "absolute_frequency_error": 0.19615384615384612,
+        "lift": 1.8959790209790206,
+        "forward_delta_bps": 96.07032794999805,
+        "signals": 44
+      },
+      {
+        "threshold": 0.76,
+        "signals_per_corridor_week": 0.8461538461538461,
+        "absolute_frequency_error": 0.19615384615384612,
+        "lift": 1.8959790209790206,
+        "forward_delta_bps": 96.07032794999805,
+        "signals": 44
+      },
+      {
+        "threshold": 0.765,
+        "signals_per_corridor_week": 0.8269230769230769,
+        "absolute_frequency_error": 0.17692307692307685,
+        "lift": 2.011926058437686,
+        "forward_delta_bps": 101.11369100345702,
+        "signals": 43
+      },
+      {
+        "threshold": 0.77,
+        "signals_per_corridor_week": 0.8269230769230769,
+        "absolute_frequency_error": 0.17692307692307685,
+        "lift": 2.011926058437686,
+        "forward_delta_bps": 101.11369100345702,
+        "signals": 43
+      },
+      {
+        "threshold": 0.775,
+        "signals_per_corridor_week": 0.8269230769230769,
+        "absolute_frequency_error": 0.17692307692307685,
+        "lift": 2.011926058437686,
+        "forward_delta_bps": 101.11369100345702,
+        "signals": 43
+      },
+      {
+        "threshold": 0.78,
+        "signals_per_corridor_week": 0.7692307692307693,
+        "absolute_frequency_error": 0.11923076923076925,
+        "lift": 1.9310897435897436,
+        "forward_delta_bps": 112.83511599791059,
+        "signals": 40
+      },
+      {
+        "threshold": 0.785,
+        "signals_per_corridor_week": 0.7692307692307693,
+        "absolute_frequency_error": 0.11923076923076925,
+        "lift": 1.9310897435897436,
+        "forward_delta_bps": 112.83511599791059,
+        "signals": 40
+      },
+      {
+        "threshold": 0.79,
+        "signals_per_corridor_week": 0.7692307692307693,
+        "absolute_frequency_error": 0.11923076923076925,
+        "lift": 1.9310897435897436,
+        "forward_delta_bps": 112.83511599791059,
+        "signals": 40
+      },
+      {
+        "threshold": 0.795,
+        "signals_per_corridor_week": 0.75,
+        "absolute_frequency_error": 0.09999999999999998,
+        "lift": 1.9013806706114391,
+        "forward_delta_bps": 112.1780958916715,
+        "signals": 39
+      },
+      {
+        "threshold": 0.8,
+        "signals_per_corridor_week": 0.75,
+        "absolute_frequency_error": 0.09999999999999998,
+        "lift": 1.9013806706114391,
+        "forward_delta_bps": 112.1780958916715,
+        "signals": 39
+      },
+      {
+        "threshold": 0.805,
+        "signals_per_corridor_week": 0.75,
+        "absolute_frequency_error": 0.09999999999999998,
+        "lift": 1.9013806706114391,
+        "forward_delta_bps": 112.1780958916715,
+        "signals": 39
+      },
+      {
+        "threshold": 0.81,
+        "signals_per_corridor_week": 0.7307692307692307,
+        "absolute_frequency_error": 0.0807692307692307,
+        "lift": 1.9514170040485823,
+        "forward_delta_bps": 114.74539396787983,
+        "signals": 38
+      },
+      {
+        "threshold": 0.8150000000000001,
+        "signals_per_corridor_week": 0.7307692307692307,
+        "absolute_frequency_error": 0.0807692307692307,
+        "lift": 1.9514170040485823,
+        "forward_delta_bps": 114.74539396787983,
+        "signals": 38
+      },
+      {
+        "threshold": 0.8200000000000001,
+        "signals_per_corridor_week": 0.7307692307692307,
+        "absolute_frequency_error": 0.0807692307692307,
+        "lift": 1.9514170040485823,
+        "forward_delta_bps": 114.74539396787983,
+        "signals": 38
+      },
+      {
+        "threshold": 0.8250000000000001,
+        "signals_per_corridor_week": 0.7307692307692307,
+        "absolute_frequency_error": 0.0807692307692307,
+        "lift": 1.9514170040485823,
+        "forward_delta_bps": 114.74539396787983,
+        "signals": 38
+      },
+      {
+        "threshold": 0.8300000000000001,
+        "signals_per_corridor_week": 0.6730769230769231,
+        "absolute_frequency_error": 0.023076923076923106,
+        "lift": 2.03040293040293,
+        "forward_delta_bps": 122.30192055772498,
+        "signals": 35
+      },
+      {
+        "threshold": 0.835,
+        "signals_per_corridor_week": 0.6730769230769231,
+        "absolute_frequency_error": 0.023076923076923106,
+        "lift": 2.03040293040293,
+        "forward_delta_bps": 122.30192055772498,
+        "signals": 35
+      },
+      {
+        "threshold": 0.84,
+        "signals_per_corridor_week": 0.6730769230769231,
+        "absolute_frequency_error": 0.023076923076923106,
+        "lift": 2.03040293040293,
+        "forward_delta_bps": 122.30192055772498,
+        "signals": 35
+      },
+      {
+        "threshold": 0.845,
+        "signals_per_corridor_week": 0.6153846153846154,
+        "absolute_frequency_error": 0.0346153846153846,
+        "lift": 2.027644230769231,
+        "forward_delta_bps": 132.28432154060351,
+        "signals": 32
+      },
+      {
+        "threshold": 0.85,
+        "signals_per_corridor_week": 0.6153846153846154,
+        "absolute_frequency_error": 0.0346153846153846,
+        "lift": 2.027644230769231,
+        "forward_delta_bps": 132.28432154060351,
+        "signals": 32
+      },
+      {
+        "threshold": 0.855,
+        "signals_per_corridor_week": 0.6153846153846154,
+        "absolute_frequency_error": 0.0346153846153846,
+        "lift": 2.027644230769231,
+        "forward_delta_bps": 132.28432154060351,
+        "signals": 32
+      },
+      {
+        "threshold": 0.86,
+        "signals_per_corridor_week": 0.5769230769230769,
+        "absolute_frequency_error": 0.07307692307692315,
+        "lift": 2.162820512820512,
+        "forward_delta_bps": 143.4495868938146,
+        "signals": 30
+      },
+      {
+        "threshold": 0.865,
+        "signals_per_corridor_week": 0.5769230769230769,
+        "absolute_frequency_error": 0.07307692307692315,
+        "lift": 2.162820512820512,
+        "forward_delta_bps": 143.4495868938146,
+        "signals": 30
+      },
+      {
+        "threshold": 0.87,
+        "signals_per_corridor_week": 0.5769230769230769,
+        "absolute_frequency_error": 0.07307692307692315,
+        "lift": 2.162820512820512,
+        "forward_delta_bps": 143.4495868938146,
+        "signals": 30
+      },
+      {
+        "threshold": 0.875,
+        "signals_per_corridor_week": 0.5192307692307693,
+        "absolute_frequency_error": 0.13076923076923075,
+        "lift": 2.059829059829059,
+        "forward_delta_bps": 148.64948201437167,
+        "signals": 27
+      },
+      {
+        "threshold": 0.88,
+        "signals_per_corridor_week": 0.5192307692307693,
+        "absolute_frequency_error": 0.13076923076923075,
+        "lift": 2.059829059829059,
+        "forward_delta_bps": 148.64948201437167,
+        "signals": 27
+      },
+      {
+        "threshold": 0.885,
+        "signals_per_corridor_week": 0.5192307692307693,
+        "absolute_frequency_error": 0.13076923076923075,
+        "lift": 2.059829059829059,
+        "forward_delta_bps": 148.64948201437167,
+        "signals": 27
+      },
+      {
+        "threshold": 0.89,
+        "signals_per_corridor_week": 0.4807692307692308,
+        "absolute_frequency_error": 0.16923076923076924,
+        "lift": 2.1010256410256405,
+        "forward_delta_bps": 146.68463110112395,
+        "signals": 25
+      },
+      {
+        "threshold": 0.895,
+        "signals_per_corridor_week": 0.4807692307692308,
+        "absolute_frequency_error": 0.16923076923076924,
+        "lift": 2.1010256410256405,
+        "forward_delta_bps": 146.68463110112395,
+        "signals": 25
+      },
+      {
+        "threshold": 0.9,
+        "signals_per_corridor_week": 0.4807692307692308,
+        "absolute_frequency_error": 0.16923076923076924,
+        "lift": 2.1010256410256405,
+        "forward_delta_bps": 146.68463110112395,
+        "signals": 25
+      },
+      {
+        "threshold": 0.905,
+        "signals_per_corridor_week": 0.4807692307692308,
+        "absolute_frequency_error": 0.16923076923076924,
+        "lift": 2.1010256410256405,
+        "forward_delta_bps": 147.04752178429675,
+        "signals": 25
+      },
+      {
+        "threshold": 0.91,
+        "signals_per_corridor_week": 0.4807692307692308,
+        "absolute_frequency_error": 0.16923076923076924,
+        "lift": 2.1010256410256405,
+        "forward_delta_bps": 147.04752178429675,
+        "signals": 25
+      },
+      {
+        "threshold": 0.915,
+        "signals_per_corridor_week": 0.4807692307692308,
+        "absolute_frequency_error": 0.16923076923076924,
+        "lift": 2.1010256410256405,
+        "forward_delta_bps": 147.04752178429675,
+        "signals": 25
+      },
+      {
+        "threshold": 0.92,
+        "signals_per_corridor_week": 0.4807692307692308,
+        "absolute_frequency_error": 0.16923076923076924,
+        "lift": 2.1010256410256405,
+        "forward_delta_bps": 147.04752178429675,
+        "signals": 25
+      },
+      {
+        "threshold": 0.925,
+        "signals_per_corridor_week": 0.4423076923076923,
+        "absolute_frequency_error": 0.20769230769230773,
+        "lift": 2.283723522853958,
+        "forward_delta_bps": 166.13195989811948,
+        "signals": 23
+      },
+      {
+        "threshold": 0.93,
+        "signals_per_corridor_week": 0.4423076923076923,
+        "absolute_frequency_error": 0.20769230769230773,
+        "lift": 2.283723522853958,
+        "forward_delta_bps": 166.13195989811948,
+        "signals": 23
+      },
+      {
+        "threshold": 0.935,
+        "signals_per_corridor_week": 0.4423076923076923,
+        "absolute_frequency_error": 0.20769230769230773,
+        "lift": 2.283723522853958,
+        "forward_delta_bps": 166.13195989811948,
+        "signals": 23
+      },
+      {
+        "threshold": 0.9400000000000001,
+        "signals_per_corridor_week": 0.36538461538461536,
+        "absolute_frequency_error": 0.28461538461538466,
+        "lift": 2.439271255060729,
+        "forward_delta_bps": 181.05671763030986,
+        "signals": 19
+      },
+      {
+        "threshold": 0.9450000000000001,
+        "signals_per_corridor_week": 0.36538461538461536,
+        "absolute_frequency_error": 0.28461538461538466,
+        "lift": 2.439271255060729,
+        "forward_delta_bps": 181.05671763030986,
+        "signals": 19
+      },
+      {
+        "threshold": 0.9500000000000001,
+        "signals_per_corridor_week": 0.36538461538461536,
+        "absolute_frequency_error": 0.28461538461538466,
+        "lift": 2.439271255060729,
+        "forward_delta_bps": 181.05671763030986,
+        "signals": 19
+      },
+      {
+        "threshold": 0.9550000000000001,
+        "signals_per_corridor_week": 0.34615384615384615,
+        "absolute_frequency_error": 0.3038461538461539,
+        "lift": 2.574786324786325,
+        "forward_delta_bps": 198.2323424995757,
+        "signals": 18
+      },
+      {
+        "threshold": 0.96,
+        "signals_per_corridor_week": 0.34615384615384615,
+        "absolute_frequency_error": 0.3038461538461539,
+        "lift": 2.574786324786325,
+        "forward_delta_bps": 198.2323424995757,
+        "signals": 18
+      },
+      {
+        "threshold": 0.965,
+        "signals_per_corridor_week": 0.34615384615384615,
+        "absolute_frequency_error": 0.3038461538461539,
+        "lift": 2.574786324786325,
+        "forward_delta_bps": 198.2323424995757,
+        "signals": 18
+      },
+      {
+        "threshold": 0.97,
+        "signals_per_corridor_week": 0.3076923076923077,
+        "absolute_frequency_error": 0.3423076923076923,
+        "lift": 2.703525641025641,
+        "forward_delta_bps": 205.31473045231849,
+        "signals": 16
+      },
+      {
+        "threshold": 0.975,
+        "signals_per_corridor_week": 0.3076923076923077,
+        "absolute_frequency_error": 0.3423076923076923,
+        "lift": 2.703525641025641,
+        "forward_delta_bps": 205.31473045231849,
+        "signals": 16
+      },
+      {
+        "threshold": 0.98,
+        "signals_per_corridor_week": 0.3076923076923077,
+        "absolute_frequency_error": 0.3423076923076923,
+        "lift": 2.703525641025641,
+        "forward_delta_bps": 205.31473045231849,
+        "signals": 16
+      },
+      {
+        "threshold": 0.985,
+        "signals_per_corridor_week": 0.17307692307692307,
+        "absolute_frequency_error": 0.47692307692307695,
+        "lift": 2.4031339031339027,
+        "forward_delta_bps": 227.09863856233218,
+        "signals": 9
+      },
+      {
+        "threshold": 0.99,
+        "signals_per_corridor_week": 0.17307692307692307,
+        "absolute_frequency_error": 0.47692307692307695,
+        "lift": 2.4031339031339027,
+        "forward_delta_bps": 227.09863856233218,
+        "signals": 9
+      },
+      {
+        "threshold": 0.995,
+        "signals_per_corridor_week": 0.17307692307692307,
+        "absolute_frequency_error": 0.47692307692307695,
+        "lift": 2.4031339031339027,
+        "forward_delta_bps": 227.09863856233218,
+        "signals": 9
+      },
+      {
+        "threshold": 1.0,
+        "signals_per_corridor_week": 0.17307692307692307,
+        "absolute_frequency_error": 0.47692307692307695,
+        "lift": 2.4031339031339027,
+        "forward_delta_bps": 227.09863856233218,
+        "signals": 9
+      }
+    ]
+  },
+  "initial_state": "initial_state.json",
+  "source_paths": {
+    "cbr": "research_v4/h3_finalization/audit/latest_cbr.csv",
+    "moex_cny_close": "final_solution/data/normalized/moex_cnyrub_tom.csv",
+    "moex_cny_fixing": "final_solution/data/normalized/moex_cny_fixing.csv",
+    "oxr": "research_v4/oxr2010_bank/input_oxr_snapshot.csv",
+    "halyk": "research_v4/liquidity/halyk_sell_daily.csv",
+    "treasury_t10yie": "research_v3/external_data/normalized/treasury_t10yie.csv",
+    "treasury_t5yifr": "research_v3/external_data/normalized/treasury_t5yifr.csv"
+  },
+  "source_sha256": {
+    "cbr": "5678ec14d07b63a46e33e407cacb3c7e966cff45a89bf64607cb80b0aae55b10",
+    "moex_cny_close": "3057fcee8436b5fe8ff6b6b346a07913d88ad8f890c18e8cca8f3fe6f6cf5039",
+    "moex_cny_fixing": "d14b596218b670f8cb6112ebc939a0deefc5591ec287350778583b6de5b05433",
+    "oxr": "9cbe2f322c3e8c9885dce98702c66c5c928864ca155dd19eb950db0cc8bc8021",
+    "halyk": "4d12a63b0e7a820600d0d7da094469e323627e734b1a627603053b9eaf2cd563",
+    "treasury_t10yie": "a35f627e810aa12f579d1d3fc2b872e4cd8b2d0ae6ea3ce98cb758ef357a7429",
+    "treasury_t5yifr": "6d5a5528039eacb7eeedd87c0f0721d11dbb868aede8c6328e0546b291d3c1b1"
+  },
+  "metadata": {
+    "training": {
+      "status": "fitted",
+      "selected_recipe": "full_history",
+      "policy": "rare65",
+      "train_horizon": 5,
+      "cutoff": "2026-09-05 00:00:00",
+      "train_start": "2010-01-01 00:00:00",
+      "train_end": "2025-08-28 00:00:00",
+      "train_rows": 3867,
+      "train_latest_label": "2025-09-04 00:00:00",
+      "calibration_start": "2025-09-05 00:00:00",
+      "validation_start": "2025-09-05 00:00:00",
+      "validation_end": "2026-08-27 00:00:00",
+      "validation_latest_label": "2026-09-03 00:00:00",
+      "validation_rows": 241,
+      "history_rows": 246,
+      "history_last": "2026-09-03 00:00:00",
+      "warmup_dates": 63,
+      "tail_rows": 5,
+      "latest_panel_date": "2026-09-03 00:00:00",
+      "selected_epochs": 25,
+      "training_fingerprint": "745bfb513817ca934898b824a83aabf85b9bf6ebb5f00f5c28d3901664bd7a3d",
+      "weights_sha256": "ee16f9c77c02a4bbc51ee52c0e10ccc9f88866d4f47e98100d06a5403fb81505",
+      "preprocessor_sha256": "f6f505fae8bb1ccef8946f8bf5c4ce68ce9732fa63cefd121adc74aee99c602f",
+      "panel_sha256": "bf061d7bc487c55e16e00515587300680e24c0fd0bbbf04326dbc7d4b7152ada",
+      "panel_source": "audited_pickle",
+      "raw_predictions_sha256": "1f4d8910be68373bb47d8b0371e3110a29edcf1ea9680ebfcdabffce34ff67fc"
+    },
+    "selection": {
+      "selected_recipe": "full_history",
+      "selected_config_id": "tabm_kzt_h5_fullhistory",
+      "policy": "rare65",
+      "horizon": 5,
+      "selection_status": "qualified",
+      "gates": {
+        "aggregate_frequency": [
+          0.6,
+          0.7
+        ],
+        "annual_frequency": [
+          0.45,
+          0.85
+        ],
+        "minimum_annual_lift": 1.3,
+        "positive_annual_forward_delta": true
+      },
+      "ranking_rule": [
+        "maximum minimum annual forward delta",
+        "maximum minimum annual lift",
+        "maximum aggregate lift",
+        "maximum aggregate forward delta",
+        "minimum Brier",
+        "120m tie break"
+      ],
+      "selected_metrics": {
+        "aggregate": {
+          "config_id": "tabm_kzt_h5_fullhistory",
+          "history_mode": "full_history",
+          "policy": "rare65",
+          "period": "2024-2026",
+          "train_horizon": 5,
+          "evaluation_horizon": 5,
+          "evaluation_scope": "KZT",
+          "rows": 641,
+          "dates": 641,
+          "signals": 89,
+          "hits": 47,
+          "base_hit": 0.26521060842433697,
+          "hit_rate": 0.5280898876404494,
+          "lift": 1.9858935404634515,
+          "forward_delta_bps": 95.60917120942231,
+          "forward_signal_bps": 93.82548128222356,
+          "regret_bps": 68.03761486137073,
+          "brier": 0.17049452707470616,
+          "raw_brier": 0.17829887322132418,
+          "auc": 0.7372049456725366,
+          "log_loss": 0.5127820887657313,
+          "week_cells": 135,
+          "weeks_with_1_2": 76,
+          "week_coverage": 0.562962962962963,
+          "mean_cell_week_coverage": 0.5680332739156269,
+          "signals_per_corridor_week": 0.6592592592592592,
+          "silent_weeks": 59,
+          "max_week_signals": 2,
+          "max_silent_week_run": 8,
+          "min_year_corridor_coverage": 0.49019607843137253
+        },
+        "by_year": [
+          {
+            "config_id": "tabm_kzt_h5_fullhistory",
+            "history_mode": "full_history",
+            "policy": "rare65",
+            "year": 2024,
+            "train_horizon": 5,
+            "evaluation_horizon": 5,
+            "evaluation_scope": "KZT",
+            "rows": 243,
+            "dates": 243,
+            "signals": 29,
+            "hits": 16,
+            "base_hit": 0.2674897119341564,
+            "hit_rate": 0.5517241379310345,
+            "lift": 2.0625994694960212,
+            "forward_delta_bps": 96.55803557665179,
+            "forward_signal_bps": 95.39143300547853,
+            "regret_bps": 73.7078363179405,
+            "brier": 0.18192449259360113,
+            "raw_brier": 0.19736155300415797,
+            "auc": 0.7039757994814175,
+            "log_loss": 0.5375748008118622,
+            "week_cells": 51,
+            "weeks_with_1_2": 25,
+            "week_coverage": 0.49019607843137253,
+            "mean_cell_week_coverage": 0.49019607843137253,
+            "signals_per_corridor_week": 0.5686274509803921,
+            "silent_weeks": 26,
+            "max_week_signals": 2,
+            "max_silent_week_run": 8,
+            "min_year_corridor_coverage": 0.49019607843137253
+          },
+          {
+            "config_id": "tabm_kzt_h5_fullhistory",
+            "history_mode": "full_history",
+            "policy": "rare65",
+            "year": 2025,
+            "train_horizon": 5,
+            "evaluation_horizon": 5,
+            "evaluation_scope": "KZT",
+            "rows": 242,
+            "dates": 242,
+            "signals": 36,
+            "hits": 16,
+            "base_hit": 0.19834710743801653,
+            "hit_rate": 0.4444444444444444,
+            "lift": 2.2407407407407405,
+            "forward_delta_bps": 74.80180624291405,
+            "forward_signal_bps": 46.55550735519394,
+            "regret_bps": 76.24710926683974,
+            "brier": 0.1437770590048811,
+            "raw_brier": 0.14805454307773028,
+            "auc": 0.7305627147766323,
+            "log_loss": 0.44846561955654995,
+            "week_cells": 51,
+            "weeks_with_1_2": 31,
+            "week_coverage": 0.6078431372549019,
+            "mean_cell_week_coverage": 0.6078431372549019,
+            "signals_per_corridor_week": 0.7058823529411765,
+            "silent_weeks": 20,
+            "max_week_signals": 2,
+            "max_silent_week_run": 3,
+            "min_year_corridor_coverage": 0.6078431372549019
+          },
+          {
+            "config_id": "tabm_kzt_h5_fullhistory",
+            "history_mode": "full_history",
+            "policy": "rare65",
+            "year": 2026,
+            "train_horizon": 5,
+            "evaluation_horizon": 5,
+            "evaluation_scope": "KZT",
+            "rows": 156,
+            "dates": 156,
+            "signals": 24,
+            "hits": 15,
+            "base_hit": 0.36538461538461536,
+            "hit_rate": 0.625,
+            "lift": 1.710526315789474,
+            "forward_delta_bps": 125.67367421544911,
+            "forward_signal_bps": 162.83825050716823,
+            "regret_bps": 48.87185565981204,
+            "brier": 0.19413648638115616,
+            "raw_brier": 0.19552257006440824,
+            "auc": 0.7550948077263865,
+            "log_loss": 0.5739356562106803,
+            "week_cells": 33,
+            "weeks_with_1_2": 20,
+            "week_coverage": 0.6060606060606061,
+            "mean_cell_week_coverage": 0.6060606060606061,
+            "signals_per_corridor_week": 0.7272727272727273,
+            "silent_weeks": 13,
+            "max_week_signals": 2,
+            "max_silent_week_run": 7,
+            "min_year_corridor_coverage": 0.6060606060606061
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "config_id": "tabm_kzt_h5_fullhistory",
+          "history_mode": "full_history",
+          "policy": "rare65",
+          "qualified": true,
+          "aggregate_frequency_ok": true,
+          "annual_frequency_ok": true,
+          "annual_lift_ok": true,
+          "annual_utility_ok": true,
+          "violated_gates": 0,
+          "min_annual_frequency": 0.5686274509803921,
+          "max_annual_frequency": 0.7272727272727273,
+          "min_annual_forward_delta_bps": 74.80180624291405,
+          "min_annual_lift": 1.710526315789474,
+          "aggregate_lift": 1.9858935404634515,
+          "aggregate_forward_delta_bps": 95.60917120942231,
+          "aggregate_brier": 0.17049452707470616,
+          "rank": 1
+        },
+        {
+          "config_id": "tabm_kzt_h5_120m",
+          "history_mode": "120m",
+          "policy": "rare65",
+          "qualified": false,
+          "aggregate_frequency_ok": false,
+          "annual_frequency_ok": true,
+          "annual_lift_ok": true,
+          "annual_utility_ok": true,
+          "violated_gates": 1,
+          "min_annual_frequency": 0.6666666666666666,
+          "max_annual_frequency": 0.8181818181818182,
+          "min_annual_forward_delta_bps": 79.81010122374661,
+          "min_annual_lift": 1.6218323586744643,
+          "aggregate_lift": 1.8869900595834561,
+          "aggregate_forward_delta_bps": 89.43328834190959,
+          "aggregate_brier": 0.17136951642488152,
+          "rank": 2
+        }
+      ],
+      "inference_note": "Post-selection retrospective comparison on 2024-2026; final refit is not a new OOT test."
+    },
+    "historical_metrics_are_recipe_not_final_checkpoint": true,
+    "final_refit_has_no_future_confirmatory_test": true,
+    "model_target": "NOW_H5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model": "h5",
+  "status": "packaged",
+  "selected_recipe": "full_history",
+  "selected_config_id": "tabm_kzt_h5_fullhistory",
+  "selection_source": "research_v4/h5_fullhistory/selection.json",
+  "selection_sha256": "9b069d0bd79ccb1607fb23df5d8c1ee52d2e9a2f5d97a6f19893041b87c5ce41",
+  "bundle_source": "research_v4/h5_fullhistory/final_fit/bundle.json",
+  "bundle_sha256": "2d26195b9bca2d41933fff9b63bd7e076e52e808b86566f05b6b25910a76a4b8",
+  "artifacts": {
+    "by_year.csv": "f9a235111ead813f0589cf61228601749112d27498f36ae6336c317d0a4dbcc6",
+    "summary.csv": "941a35ed30b52a9180da3ed3d2808a0abd168da257ca79fb70adaeab2d0d04df",
+    "predictions.csv.gz": "2c8122611254620fb264942002181bb4321c1f78de1bc3e9810ba57db65e1295"
+  },
+  "weights_sha256": "ee16f9c77c02a4bbc51ee52c0e10ccc9f88866d4f47e98100d06a5403fb81505",
+  "preprocessor_sha256": "f6f505fae8bb1ccef8946f8bf5c4ce68ce9732fa63cefd121adc74aee99c602f"
+}

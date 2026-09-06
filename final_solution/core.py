@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """Production runner for final models.
 
-Provides a uniform CLI contract for:
-- TabM H3 (frozen production model in ``final_solution/tabm_h3``)
-- TabM H5 + rank90 export from ``research_v4.robust_selection``
+Provides a uniform CLI contract for the standalone TabM H3 and H5 bundles.
 
 Supported actions:
 - train: train/rebuild model artifacts
@@ -31,6 +29,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 TABM_H3_DIR = REPO_ROOT / "final_solution" / "tabm_h3"
 TABM_H5_DIR = REPO_ROOT / "final_solution" / "tabm_h5"
 ROBUST_SELECTION_DIR = REPO_ROOT / "research_v4" / "robust_selection"
+H5_RESEARCH_DIR = REPO_ROOT / "research_v4" / "h5_fullhistory"
 
 
 @dataclass(frozen=True)
@@ -54,6 +53,13 @@ class MetricRow:
     signals: float | None = None
     hits: float | None = None
     base_hit: float | None = None
+    auc: float | None = None
+    brier: float | None = None
+    raw_brier: float | None = None
+    log_loss: float | None = None
+    silent_weeks: float | None = None
+    week_cells: float | None = None
+    max_silent_week_run: float | None = None
 
     def as_dict(self) -> dict[str, Any]:
         return self.__dict__
@@ -199,6 +205,13 @@ def _row_from_metrics_dict(model: str, dataset: str, period: str, corridor_filte
         signals=_to_float(row.get("signals")),
         hits=_to_float(row.get("hits")),
         base_hit=_to_float(row.get("base_hit")),
+        auc=_to_float(row.get("auc")),
+        brier=_to_float(row.get("brier")),
+        raw_brier=_to_float(row.get("raw_brier")),
+        log_loss=_to_float(row.get("log_loss")),
+        silent_weeks=_to_float(row.get("silent_weeks")),
+        week_cells=_to_float(row.get("week_cells")),
+        max_silent_week_run=_to_float(row.get("max_silent_week_run")),
     ).as_dict()
 
 
@@ -471,6 +484,7 @@ class H3Runner(ModelRunner):
         still_missing = [path for path in self.artifacts() if not path.is_file()]
         if still_missing:
             raise RuntimeError("H3 packaging finished but required artifacts are still missing")
+        _ensure_dir(self.output)
         _write_json(
             self.output / "train_receipt.json",
             {
@@ -599,29 +613,60 @@ class H3Runner(ModelRunner):
 
 
 class H5Runner(ModelRunner):
-    """Runtime over TabM H5 rank policy exports."""
+    """Standalone H5 runtime backed by the selected full/120m recipe bundle."""
 
     def __init__(
         self,
         *,
-        policy: str = "rank90",
+        policy: str | None = None,
+        bundle: Path | None = None,
+        state_in: Path | None = None,
+        state_out: Path | None = None,
+        source_json: Path | None = None,
+        mode: str | None = None,
         **kwargs: Any,
     ) -> None:
-        self.policy = policy
+        self.bundle = (bundle or (TABM_H5_DIR / "bundle.json")).resolve()
+        self.requested_policy = policy
+        self.state_in = state_in
+        self.state_out = state_out
+        self.source_json = source_json
+        self.mode = mode
         super().__init__(model="h5", **kwargs)
-        self.selection_path = ROBUST_SELECTION_DIR / "selection.json"
-        self.policy_path = ROBUST_SELECTION_DIR / "policies.json"
-        self.calibration_path = ROBUST_SELECTION_DIR / "calibration.json"
-        self.predictions_path = ROBUST_SELECTION_DIR / "predictions.csv.gz"
-        self.summary_path = ROBUST_SELECTION_DIR / "summary.csv"
-        self.by_year_path = ROBUST_SELECTION_DIR / "by_year.csv"
-        self.by_year_corridor_path = ROBUST_SELECTION_DIR / "by_year_corridor.csv"
+        self.selection_path = TABM_H5_DIR / "evaluation" / "selection.json"
+        self.predictions_path = TABM_H5_DIR / "evaluation" / "predictions.csv.gz"
+        self.summary_path = TABM_H5_DIR / "evaluation" / "summary.csv"
+        self.by_year_path = TABM_H5_DIR / "evaluation" / "by_year.csv"
+
+    def _config(self) -> dict[str, Any]:
+        if not self.bundle.is_file():
+            raise FileNotFoundError(f"missing H5 bundle: {self.bundle}")
+        return _read_json(self.bundle)
+
+    @property
+    def policy(self) -> str:
+        selected = self._config().get("policy", {}).get("name", "rare65")
+        if self.requested_policy is not None and self.requested_policy != selected:
+            raise ValueError(
+                f"Requested H5 policy {self.requested_policy!r} is not the packaged selected policy {selected!r}"
+            )
+        return str(selected)
 
     def artifacts(self) -> list[Path]:
         return [
+            self.bundle,
+            TABM_H5_DIR / "model" / "weights.pt",
+            TABM_H5_DIR / "model" / "preprocess.joblib",
+            TABM_H5_DIR / "model" / "model.json",
+            TABM_H5_DIR / "initial_state.json",
+            TABM_H5_DIR / "training_receipt.json",
+            TABM_H5_DIR / "source_receipt.json",
+            TABM_H5_DIR / "selection_receipt.json",
+            TABM_H5_DIR / "feature_contract.json",
+            TABM_H5_DIR / "policy.json",
+            TABM_H5_DIR / "runtime_verification.json",
+            TABM_H5_DIR / "policy_calibration_receipt.json",
             self.selection_path,
-            self.policy_path,
-            self.calibration_path,
             self.predictions_path,
             self.summary_path,
             self.by_year_path,
@@ -631,18 +676,85 @@ class H5Runner(ModelRunner):
         return TABM_H5_DIR / "output"
 
     def ensure_data(self) -> None:
-        missing = [path for path in self.artifacts() if not path.exists()]
+        if not self.bundle.is_file():
+            return
+        config = self._config()
+        required = {name: self.bundle.parent / path for name, path in config.get("source_paths", {}).items()}
+        missing = [name for name, path in required.items() if not path.is_file()]
         if not missing:
             return
-        if self.skip_data_prefetch:
-            raise FileNotFoundError("Missing TabM H5 artifacts: " + ", ".join(str(path) for path in missing))
-        _run_python([
-            sys.executable,
-            str(REPO_ROOT / "research_v4" / "robust_selection" / "evaluate.py"),
-        ], cwd=REPO_ROOT)
-        still_missing = [path for path in self.artifacts() if not path.exists()]
-        if still_missing:
-            raise RuntimeError("Recompute of robust selection did not produce all required artifacts")
+        if not self.skip_data_prefetch:
+            # The two final models intentionally share the exact same point-in-time
+            # source contract. Restore from the shipped H3 cache before attempting
+            # to rebuild the selected bundle.
+            h3 = TABM_H3_DIR / "data"
+            for name in list(missing):
+                source = h3 / Path(config["source_paths"][name]).name
+                if source.is_file():
+                    target = required[name]
+                    _ensure_dir(target.parent)
+                    shutil.copy2(source, target)
+                    missing.remove(name)
+        if missing:
+            raise FileNotFoundError("Missing H5 source files: " + ", ".join(missing))
+
+        expected = config.get("source_sha256", {})
+        mismatched = [name for name, path in required.items() if expected.get(name) and _sha256(path) != expected[name]]
+        if mismatched:
+            raise RuntimeError("H5 source checksum mismatch: " + ", ".join(mismatched))
+
+    @staticmethod
+    def _research_bundle_ready(path: Path) -> bool:
+        """Return true only when a final-fit bundle and its heavy artifacts exist.
+
+        The JSON receipt is committed, while weights and preprocessing are
+        intentionally ignored by Git.  Checking the receipt alone would make a
+        clean clone skip the reproducible final refit and then fail packaging.
+        """
+        if not path.is_file():
+            return False
+        try:
+            config = _read_json(path)
+            model = config["model"]
+            required = (
+                path.parent / str(model["weights"]),
+                path.parent / str(model["preprocessor"]),
+            )
+        except (KeyError, TypeError, ValueError, OSError):
+            return False
+        return all(artifact.is_file() for artifact in required)
+
+    @staticmethod
+    def _run_research_refit(*, force: bool) -> None:
+        selection = H5_RESEARCH_DIR / "selection.json"
+        # Selection is sealed rolling-OOT evidence. ``--force`` retrains the
+        # selected production checkpoint; it must not silently rerun model
+        # selection and change the public recipe.
+        if not selection.is_file():
+            experiment = next(
+                (path for path in (H5_RESEARCH_DIR / "experiment.py", H5_RESEARCH_DIR / "run.py") if path.is_file()),
+                None,
+            )
+            if experiment is None:
+                raise RuntimeError(f"Cannot select H5 recipe: no experiment entrypoint under {H5_RESEARCH_DIR}")
+            _run_python([sys.executable, str(experiment)], cwd=REPO_ROOT)
+        # A final fit is distinct from annual OOT checkpoints and is required for
+        # production inference. Let the research selection choose 120m/full history.
+        final_fit = H5_RESEARCH_DIR / "final_fit.py"
+        conventional_bundles = [
+            H5_RESEARCH_DIR / "production_bundle" / "bundle.json",
+            H5_RESEARCH_DIR / "final_fit" / "bundle.json",
+        ]
+        if force or not any(H5Runner._research_bundle_ready(path) for path in conventional_bundles):
+            if not final_fit.is_file():
+                raise RuntimeError(
+                    f"H5 selection exists but final-fit entrypoint is missing: {final_fit}. "
+                    "Annual OOT checkpoints cannot substitute for a production refit."
+                )
+            argv = [sys.executable, str(final_fit)]
+            if force:
+                argv.append("--force")
+            _run_python(argv, cwd=REPO_ROOT)
 
     def train(self, *, force: bool = False) -> dict[str, Any]:
         if self._artifacts_ok() and not force:
@@ -652,13 +764,13 @@ class H5Runner(ModelRunner):
                 "action": "train",
                 "message": "artifacts already available",
             }
-        self.ensure_data()
-        _run_python([
-            sys.executable,
-            str(REPO_ROOT / "research_v4" / "robust_selection" / "evaluate.py"),
-        ], cwd=REPO_ROOT)
+        self._run_research_refit(force=force)
+        _run_python([sys.executable, str(TABM_H5_DIR / "package.py")], cwd=REPO_ROOT)
         if not self._artifacts_ok():
-            raise RuntimeError("Failed to build H5 artifacts")
+            missing = [str(path) for path in self.artifacts() if not path.is_file()]
+            raise RuntimeError("Failed to build standalone H5 artifacts: " + ", ".join(missing))
+        self.ensure_data()
+        _ensure_dir(self.output)
         _write_json(
             self.output / "train_receipt.json",
             {
@@ -678,104 +790,38 @@ class H5Runner(ModelRunner):
             "artifacts": [str(path.relative_to(REPO_ROOT)) for path in self.artifacts()],
         }
 
-    def _prediction_frame(self) -> pd.DataFrame:
-        self.ensure_ready_for("infer", force=False)
-        if not self.predictions_path.exists():
-            raise FileNotFoundError(self.predictions_path)
-        frame = pd.read_csv(
-            self.predictions_path,
-            parse_dates=["date", "label_available_date"],
-            float_precision="round_trip",
-            low_memory=False,
-        )
-        required = {
-            "config_id": "tabm_kzt",
-            "train_horizon": self.horizon,
-            "cohort": "native_matured",
-            "policy": self.policy,
-        }
-        filtered = frame
-        for column, value in required.items():
-            filtered = filtered[filtered[column] == value]
-        if filtered.empty:
-            raise RuntimeError("No rows for requested H5 config/horizon/cohort/policy")
-
-        if self.as_of_from:
-            start = pd.Timestamp(self.as_of_from)
-            filtered = filtered[filtered["date"] >= start]
-        if self.as_of_to:
-            end = pd.Timestamp(self.as_of_to)
-            filtered = filtered[filtered["date"] <= end]
-        if filtered.empty:
-            raise RuntimeError("No rows for requested date range")
-        if self.corridor_filter in {"KZT"}:
-            filtered = filtered[filtered["corridor"].astype(str) == "KZT"]
-        return filtered.sort_values(["date", "corridor", "session_ordinal"]).reset_index(drop=True)
-
     def infer(self, *, force: bool = False) -> dict[str, Any]:
-        self.ensure_data()
         self.ensure_ready_for("infer", force=force)
-        predictions = self._prediction_frame()
-        output = self.output
-        _ensure_dir(output)
+        self.ensure_data()
+        from final_solution.tabm_h5 import predict as h5_predict
 
-        if self.as_of:
-            as_of = pd.Timestamp(self.as_of)
-            predictions = predictions[predictions["date"] <= as_of]
-            if predictions.empty:
-                raise RuntimeError("No H5 rows up to requested as-of")
-        else:
-            as_of = pd.Timestamp(predictions["date"].max())
-
-        out = output / "predictions.csv.gz"
-        predictions.to_csv(out, index=False)
-        _write_json(
-            output / "infer_receipt.json",
-            {
-                "model": "h5",
-                "status": "infer_ok",
-                "policy": self.policy,
-                "rows": int(len(predictions)),
-                "signals": int(predictions["candidate_signal"].fillna(False).astype(bool).sum()),
-                "as_of": str(as_of.date()),
-                "corridor_filter": self.corridor_filter,
-                "period": _parse_period_label(self.as_of_from, self.as_of_to),
-                "action": "infer",
-            },
+        config = self._config()
+        as_of = self.as_of or config.get("default_as_of", config["model_cutoff"])
+        mode = self.mode or config.get("metadata", {}).get("default_mode", "historical_smoke")
+        return h5_predict.run(
+            self.bundle,
+            self.output,
+            as_of,
+            mode=mode,
+            state_in=self.state_in,
+            state_out=self.state_out,
+            source_config=self.source_json,
         )
-        last = predictions.iloc[-1]
-        return {
-            "model": "h5",
-            "action": "infer",
-            "status": "infer_ok",
-            "policy": self.policy,
-            "rows": int(len(predictions)),
-            "signals": int(predictions["candidate_signal"].fillna(False).astype(int).sum()),
-            "as_of": str(as_of.date()),
-            "output_path": str(out),
-            "prediction_path": str(out),
-            "last_decision": {
-                "date": str(last["date"].date()),
-                "corridor": str(last["corridor"]),
-                "candidate_signal": bool(last["candidate_signal"]),
-                "probability": _to_float(last.get("probability")),
-                "target": _to_float(last.get("target")),
-            },
-        }
 
     def metrics(self, *, force: bool = False) -> pd.DataFrame:
-        self.ensure_data()
         self.ensure_ready_for("metrics", force=force)
+        self.ensure_data()
         by_year = pd.read_csv(self.by_year_path)
         summary = pd.read_csv(self.summary_path)
 
-        filtered = by_year[
-            by_year["config_id"].astype(str).eq("tabm_kzt")
-            & by_year["policy"].astype(str).eq(self.policy)
+        by_year_mask = (
+            by_year["policy"].astype(str).eq(self.policy)
             & by_year["train_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
             & by_year["evaluation_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
-            & by_year["cohort"].astype(str).eq("native_matured")
-        ]
+        )
+        if "cohort" in by_year:
+            by_year_mask &= by_year["cohort"].astype(str).eq("native_matured")
+        filtered = by_year[by_year_mask]
         scope = _scope_from_filter(self.corridor_filter)
         if scope and "evaluation_scope" in filtered.columns:
             filtered = filtered[filtered["evaluation_scope"].astype(str).str.upper() == scope.upper()]
@@ -783,8 +829,14 @@ class H5Runner(ModelRunner):
         if filtered.empty:
             raise RuntimeError("No H5 by_year rows match requested filter")
 
-        dataset_by_year = str((ROBUST_SELECTION_DIR / "by_year.csv").relative_to(REPO_ROOT))
-        dataset_summary = str((ROBUST_SELECTION_DIR / "summary.csv").relative_to(REPO_ROOT))
+        if "config_id" in filtered:
+            selected_config = _read_json(self.selection_path).get("selected_config_id")
+            if selected_config:
+                filtered = filtered[filtered["config_id"].astype(str).eq(str(selected_config))]
+        if filtered.empty:
+            raise RuntimeError("No H5 annual rows match the packaged selected config")
+        dataset_by_year = str(self.by_year_path.relative_to(REPO_ROOT))
+        dataset_summary = str(self.summary_path.relative_to(REPO_ROOT))
         rows: list[dict[str, Any]] = []
         for _, row in filtered.iterrows():
             rows.append(
@@ -800,28 +852,25 @@ class H5Runner(ModelRunner):
                 )
             )
 
-        if self.as_of_from is None and self.as_of_to is None:
-            summary_filtered = summary[
-                summary["config_id"].astype(str).eq("tabm_kzt")
-                & summary["policy"].astype(str).eq(self.policy)
-                & summary["train_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
-                & summary["evaluation_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
-                & summary["cohort"].astype(str).eq("native_matured")
-            ]
-        else:
-            summary_filtered = summary[
-                summary["config_id"].astype(str).eq("tabm_kzt")
-                & summary["policy"].astype(str).eq(self.policy)
-                & summary["train_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
-                & summary["evaluation_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
-                & summary["cohort"].astype(str).eq("native_matured")
-                & pd.Series(
-                    [_period_intersects(self.as_of_from, self.as_of_to, p) for p in summary["period"].to_list()],
-                    index=summary.index,
-                )
-            ]
+        summary_mask = (
+            summary["policy"].astype(str).eq(self.policy)
+            & summary["train_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
+            & summary["evaluation_horizon"].fillna(self.horizon).astype(int).eq(self.horizon)
+        )
+        if "cohort" in summary:
+            summary_mask &= summary["cohort"].astype(str).eq("native_matured")
+        if self.as_of_from is not None or self.as_of_to is not None:
+            summary_mask &= pd.Series(
+                [_period_intersects(self.as_of_from, self.as_of_to, p) for p in summary["period"].to_list()],
+                index=summary.index,
+            )
+        summary_filtered = summary[summary_mask]
         if scope and "evaluation_scope" in summary_filtered.columns:
             summary_filtered = summary_filtered[summary_filtered["evaluation_scope"].astype(str).str.upper() == scope.upper()]
+        if "config_id" in summary_filtered:
+            selected_config = _read_json(self.selection_path).get("selected_config_id")
+            if selected_config:
+                summary_filtered = summary_filtered[summary_filtered["config_id"].astype(str).eq(str(selected_config))]
 
         for _, row in summary_filtered.iterrows():
             rows.append(
@@ -855,7 +904,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--as-of", dest="as_of", default=None)
     parser.add_argument("--as-of-from", dest="as_of_from", default=None)
     parser.add_argument("--as-of-to", dest="as_of_to", default=None)
-    parser.add_argument("--horizon", type=int, default=3)
+    parser.add_argument("--horizon", type=int, default=None)
     parser.add_argument("--corridor-filter", choices=("all", "all5", "KZT"), default="KZT")
     parser.add_argument("--skip-data-prefetch", action="store_true", default=False)
 
@@ -867,13 +916,14 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--sources", type=Path, default=None)
 
     # H5-specific
-    parser.add_argument("--h5-policy", default="rank90")
+    parser.add_argument("--h5-policy", default="rare65")
     return parser
 
 
 def execute(argv: list[str] | None = None) -> Any:
     parser = build_parser()
     args = parser.parse_args(argv)
+    horizon = args.horizon if args.horizon is not None else (5 if args.model == "h5" else 3)
 
     if args.model == "h3":
         runner = H3Runner(
@@ -883,7 +933,7 @@ def execute(argv: list[str] | None = None) -> Any:
             as_of=args.as_of,
             as_of_from=args.as_of_from,
             as_of_to=args.as_of_to,
-            horizon=args.horizon,
+            horizon=horizon,
             corridor_filter=args.corridor_filter,
             force=args.force,
             seed=args.seed,
@@ -896,16 +946,21 @@ def execute(argv: list[str] | None = None) -> Any:
     else:
         runner = H5Runner(
             policy=args.h5_policy,
+            bundle=args.bundle,
             output_dir=args.output_dir,
             action=args.action,
             as_of=args.as_of,
             as_of_from=args.as_of_from,
             as_of_to=args.as_of_to,
-            horizon=args.horizon,
+            horizon=horizon,
             corridor_filter=args.corridor_filter,
             force=args.force,
             seed=args.seed,
             skip_data_prefetch=args.skip_data_prefetch,
+            state_in=args.state_in,
+            state_out=args.state_out,
+            source_json=args.sources,
+            mode=args.mode,
         )
 
     if args.action == "train":

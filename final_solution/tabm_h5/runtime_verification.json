@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "selected_recipe": "full_history",
+  "train_horizon": 5,
+  "label_maturity": true,
+  "train_only_preprocessing": true,
+  "model_replay_exact": true,
+  "maximum_raw_replay_error": 0.0,
+  "causal_policy": true,
+  "bundle_sha256": "6c569f943163fcd44809cabe199a487ff611c1172da25bfb5781178a8b43827d"
+}

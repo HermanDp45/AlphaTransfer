@@ -1,0 +1,14 @@
+{
+  "created_unix": 1788702841.301815,
+  "selected_recipe": "full_history",
+  "policy": "rare65",
+  "cutoff": "2026-09-05 00:00:00",
+  "train_horizon": 5,
+  "train_start": "2010-01-01",
+  "calibration_months": 12,
+  "selection_sha256": "9b069d0bd79ccb1607fb23df5d8c1ee52d2e9a2f5d97a6f19893041b87c5ce41",
+  "panel_sha256": "bf061d7bc487c55e16e00515587300680e24c0fd0bbbf04326dbc7d4b7152ada",
+  "panel_source": "audited_pickle",
+  "source_receipt_sha256": "1d89d0c02b1037c9fc13cbd84608653eedb90d5792f4f31f41f2052e22f37ba7",
+  "code_sha256": "b162512f1fd86a8cca331999742f86887a63e9078ad6fbc586ceb66bb05319da"
+}

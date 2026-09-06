@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "last_processed_date": "2026-09-03",
+  "last_processed_session": 4117,
+  "past_scores": [
+    {
+      "date": "2026-06-06",
+      "session_ordinal": 4055,
+      "probability": 0.45564278960227966
+    },
+    {
+      "date": "2026-06-09",
+      "session_ordinal": 4056,
+      "probability": 0.035194382071495056
+    },
+    {
+      "date": "2026-06-10",
+      "session_ordinal": 4057,
+      "probability": 0.21376188099384308
+    },
+    {
+      "date": "2026-06-11",
+      "session_ordinal": 4058,
+      "probability": 0.22220131754875183
+    },
+    {
+      "date": "2026-06-12",
+      "session_ordinal": 4059,
+      "probability": 0.3776383101940155
+    },
+    {
+      "date": "2026-06-16",
+      "session_ordinal": 4060,
+      "probability": 0.15972384810447693
+    },
+    {
+      "date": "2026-06-17",
+      "session_ordinal": 4061,
+      "probability": 0.5903456807136536
+    },
+    {
+      "date": "2026-06-18",
+      "session_ordinal": 4062,
+      "probability": 0.334137499332428
+    },
+    {
+      "date": "2026-06-19",
+      "session_ordinal": 4063,
+      "probability": 0.31404510140419006
+    },
+    {
+      "date": "2026-06-20",
+      "session_ordinal": 4064,
+      "probability": 0.2955973148345947
+    },
+    {
+      "date": "2026-06-23",
+      "session_ordinal": 4065,
+      "probability": 0.6313096880912781
+    },
+    {
+      "date": "2026-06-24",
+      "session_ordinal": 4066,
+      "probability": 0.2343907505273819
+    },
+    {
+      "date": "2026-06-25",
+      "session_ordinal": 4067,
+      "probability": 0.36598193645477295
+    },
+    {
+      "date": "2026-06-26",
+      "session_ordinal": 4068,
+      "probability": 0.7863625288009644
+    },
+    {
+      "date": "2026-06-27",
+      "session_ordinal": 4069,
+      "probability": 0.3030063211917877
+    },
+    {
+      "date": "2026-06-30",
+      "session_ordinal": 4070,
+      "probability": 0.2398170381784439
+    },
+    {
+      "date": "2026-07-01",
+      "session_ordinal": 4071,
+      "probability": 0.8020557165145874
+    },
+    {
+      "date": "2026-07-02",
+      "session_ordinal": 4072,
+      "probability": 0.34334319829940796
+    },
+    {
+      "date": "2026-07-03",
+      "session_ordinal": 4073,
+      "probability": 0.4572467505931854
+    },
+    {
+      "date": "2026-07-04",
+      "session_ordinal": 4074,
+      "probability": 0.8241109251976013
+    },
+    {
+      "date": "2026-07-07",
+      "session_ordinal": 4075,
+      "probability": 0.07795701920986176
+    },
+    {
+      "date": "2026-07-08",
+      "session_ordinal": 4076,
+      "probability": 0.6865941882133484
+    },
+    {
+      "date": "2026-07-09",
+      "session_ordinal": 4077,
+      "probability": 0.6324242949485779
+    },
+    {
+      "date": "2026-07-10",
+      "session_ordinal": 4078,
+      "probability": 0.6401393413543701
+    },
+    {
+      "date": "2026-07-11",
+      "session_ordinal": 4079,
+      "probability": 0.46750882267951965
+    },
+    {
+      "date": "2026-07-14",
+      "session_ordinal": 4080,
+      "probability": 0.24717886745929718
+    },
+    {
+      "date": "2026-07-15",
+      "session_ordinal": 4081,
+      "probability": 0.8647717833518982
+    },
+    {
+      "date": "2026-07-16",
+      "session_ordinal": 4082,
+      "probability": 0.0635901466012001
+    },
+    {
+      "date": "2026-07-17",
+      "session_ordinal": 4083,
+      "probability": 0.7741702198982239
+    },
+    {
+      "date": "2026-07-18",
+      "session_ordinal": 4084,
+      "probability": 0.37290245294570923
+    },
+    {
+      "date": "2026-07-21",
+      "session_ordinal": 4085,
+      "probability": 0.8113726377487183
+    },
+    {
+      "date": "2026-07-22",
+      "session_ordinal": 4086,
+      "probability": 0.584814727306366
+    },
+    {
+      "date": "2026-07-23",
+      "session_ordinal": 4087,
+      "probability": 0.45446106791496277
+    },
+    {
+      "date": "2026-07-24",
+      "session_ordinal": 4088,
+      "probability": 0.2717032730579376
+    },
+    {
+      "date": "2026-07-25",
+      "session_ordinal": 4089,
+      "probability": 0.07986926287412643
+    },
+    {
+      "date": "2026-07-28",
+      "session_ordinal": 4090,
+      "probability": 0.387088418006897
+    },
+    {
+      "date": "2026-07-29",
+      "session_ordinal": 4091,
+      "probability": 0.31694507598876953
+    },
+    {
+      "date": "2026-07-30",
+      "session_ordinal": 4092,
+      "probability": 0.3978143632411957
+    },
+    {
+      "date": "2026-07-31",
+      "session_ordinal": 4093,
+      "probability": 0.322996586561203
+    },
+    {
+      "date": "2026-08-01",
+      "session_ordinal": 4094,
+      "probability": 0.17223423719406128
+    },
+    {
+      "date": "2026-08-04",
+      "session_ordinal": 4095,
+      "probability": 0.8878340721130371
+    },
+    {
+      "date": "2026-08-05",
+      "session_ordinal": 4096,
+      "probability": 0.6090584397315979
+    },
+    {
+      "date": "2026-08-06",
+      "session_ordinal": 4097,
+      "probability": 0.6069848537445068
+    },
+    {
+      "date": "2026-08-07",
+      "session_ordinal": 4098,
+      "probability": 0.6883847713470459
+    },
+    {
+      "date": "2026-08-08",
+      "session_ordinal": 4099,
+      "probability": 0.7820712327957153
+    },
+    {
+      "date": "2026-08-11",
+      "session_ordinal": 4100,
+      "probability": 0.39961081743240356
+    },
+    {
+      "date": "2026-08-12",
+      "session_ordinal": 4101,
+      "probability": 0.8893657326698303
+    },
+    {
+      "date": "2026-08-13",
+      "session_ordinal": 4102,
+      "probability": 0.5847130417823792
+    },
+    {
+      "date": "2026-08-14",
+      "session_ordinal": 4103,
+      "probability": 0.4919074475765228
+    },
+    {
+      "date": "2026-08-15",
+      "session_ordinal": 4104,
+      "probability": 0.6995100378990173
+    },
+    {
+      "date": "2026-08-18",
+      "session_ordinal": 4105,
+      "probability": 0.5080179572105408
+    },
+    {
+      "date": "2026-08-19",
+      "session_ordinal": 4106,
+      "probability": 0.22876989841461182
+    },
+    {
+      "date": "2026-08-20",
+      "session_ordinal": 4107,
+      "probability": 0.2179996222257614
+    },
+    {
+      "date": "2026-08-21",
+      "session_ordinal": 4108,
+      "probability": 0.26872000098228455
+    },
+    {
+      "date": "2026-08-22",
+      "session_ordinal": 4109,
+      "probability": 0.46823447942733765
+    },
+    {
+      "date": "2026-08-25",
+      "session_ordinal": 4110,
+      "probability": 0.6393208503723145
+    },
+    {
+      "date": "2026-08-26",
+      "session_ordinal": 4111,
+      "probability": 0.32656532526016235
+    },
+    {
+      "date": "2026-08-27",
+      "session_ordinal": 4112,
+      "probability": 0.5096797943115234
+    },
+    {
+      "date": "2026-08-28",
+      "session_ordinal": 4113,
+      "probability": 0.21171346306800842
+    },
+    {
+      "date": "2026-08-29",
+      "session_ordinal": 4114,
+      "probability": 0.792290985584259
+    },
+    {
+      "date": "2026-09-01",
+      "session_ordinal": 4115,
+      "probability": 0.3475205898284912
+    },
+    {
+      "date": "2026-09-02",
+      "session_ordinal": 4116,
+      "probability": 0.6704679131507874
+    },
+    {
+      "date": "2026-09-03",
+      "session_ordinal": 4117,
+      "probability": 0.731768786907196
+    }
+  ],
+  "selector_state": {
+    "KZT": {
+      "last": 4117,
+      "week": "2026-08-31/2026-09-06",
+      "count": 1
+    }
+  }
+}

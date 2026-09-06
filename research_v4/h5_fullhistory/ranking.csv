@@ -1,0 +1,3 @@
+config_id,history_mode,policy,qualified,aggregate_frequency_ok,annual_frequency_ok,annual_lift_ok,annual_utility_ok,violated_gates,min_annual_frequency,max_annual_frequency,min_annual_forward_delta_bps,min_annual_lift,aggregate_lift,aggregate_forward_delta_bps,aggregate_brier,rank
+tabm_kzt_h5_fullhistory,full_history,rare65,True,True,True,True,True,0,0.5686274509803921,0.7272727272727273,74.80180624291405,1.710526315789474,1.9858935404634515,95.60917120942231,0.17049452707470616,1
+tabm_kzt_h5_120m,120m,rare65,False,False,True,True,True,1,0.6666666666666666,0.8181818181818182,79.81010122374661,1.6218323586744643,1.8869900595834561,89.43328834190959,0.17136951642488152,2

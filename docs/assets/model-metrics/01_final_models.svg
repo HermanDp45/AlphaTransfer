@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Два горизонта AlphaTransfer</title>
+<desc id="desc">Scorecard выбранных H3 и H5 на rolling OOT 2024–2026.</desc>
+<rect width="1600" height="900" fill="#FFFFFF"/>
+<text x="72" y="78" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#171717" text-anchor="start">Два горизонта — два режима коммуникации</text>
+<text x="72" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#676767" text-anchor="start">RUB → KZT · rolling OOT 2024–2026 · только доступная на дату решения информация</text>
+<rect x="70" y="165" width="730" height="535" rx="26" fill="#FFF0EF" stroke="none" stroke-width="1"/>
+<text x="108" y="218" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#EF3124" text-anchor="start">H3 · полная история</text>
+<text x="108" y="268" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#676767" text-anchor="start">Горизонт 3 сессии · регулярный режим</text>
+<text x="108" y="340" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" fill="#EF3124" text-anchor="start">1,504×</text>
+<text x="108" y="428" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start">lift к случайному дню</text>
+<text x="108" y="520" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">49,0%</text>
+<text x="108" y="554" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">hit rate</text>
+<text x="448" y="520" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">85,9%</text>
+<text x="448" y="554" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">недель с 1–2 сигналами</text>
+<text x="108" y="625" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">1,12</text>
+<text x="108" y="659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">сигналов / неделю</text>
+<text x="448" y="625" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">+54,2 б.п.</text>
+<text x="448" y="659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">выгода момента</text>
+<line x1="108" y1="470" x2="762" y2="470" stroke="#DCCFCD" stroke-width="2"/>
+<rect x="835" y="165" width="730" height="535" rx="26" fill="#ECF7F0" stroke="none" stroke-width="1"/>
+<text x="873" y="218" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#1F8A55" text-anchor="start">H5 · редкий режим</text>
+<text x="873" y="268" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#676767" text-anchor="start">Горизонт 5 сессии · 0,6–0,7 сигнала / неделю</text>
+<text x="873" y="340" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" fill="#1F8A55" text-anchor="start">1,986×</text>
+<text x="873" y="428" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#171717" text-anchor="start">lift к случайному дню</text>
+<text x="873" y="520" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">52,8%</text>
+<text x="873" y="554" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">hit rate</text>
+<text x="1213" y="520" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">56,3%</text>
+<text x="1213" y="554" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">недель с 1–2 сигналами</text>
+<text x="873" y="625" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">0,66</text>
+<text x="873" y="659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">сигналов / неделю</text>
+<text x="1213" y="625" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#171717" text-anchor="start">+95,6 б.п.</text>
+<text x="1213" y="659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#676767" text-anchor="start">выгода момента</text>
+<line x1="873" y1="470" x2="1527" y2="470" stroke="#CCDED3" stroke-width="2"/>
+<rect x="70" y="735" width="1460" height="100" rx="20" fill="#171717" stroke="none" stroke-width="1"/>
+<text x="105" y="787" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF" text-anchor="start">H3</text>
+<text x="165" y="787" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#FFFFFF" text-anchor="start">регулярный сигнал, короткий горизонт</text>
+<text x="650" y="787" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#7DE2AA" text-anchor="start">H5</text>
+<text x="710" y="787" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#FFFFFF" text-anchor="start">реже, избирательнее, горизонт шире</text>
+<text x="1488" y="787" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#BBBBBB" text-anchor="end">151 + 89 ретроспективных сигналов</text>
+<text x="1530" y="882" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#676767" text-anchor="end">Разные горизонты и base rate: hit rate между H3 и H5 напрямую не сравнивается.</text>
+</svg>

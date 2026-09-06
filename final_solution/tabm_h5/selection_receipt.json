@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "selection_sha256": "9b069d0bd79ccb1607fb23df5d8c1ee52d2e9a2f5d97a6f19893041b87c5ce41",
+  "selected_recipe": "full_history",
+  "selected_config_id": "tabm_kzt_h5_fullhistory",
+  "policy": "rare65",
+  "horizon": 5
+}

@@ -18,8 +18,10 @@ work/
 *.tmp
 *.temp
 
-# Final H5 runtime artifacts
-tabm_h5/
+# Final H5 code, configuration and receipts are versioned. Runtime outputs and
+# binary weights remain covered by the rules above.
+tabm_h5/output/
+!tabm_h5/evaluation/predictions.csv.gz
 
 # Keep H3 production bundle in version control
 !tabm_h3/model/model.json

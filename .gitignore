@@ -48,6 +48,13 @@ Thumbs.db
 **/all_predictions.csv.gz
 research_v3/behavior/results/client_policy_results.csv
 
+# Compact sealed H5 evidence is intentionally versioned so metrics can be
+# reproduced without the 516 MB research panel or neural checkpoints.
+!research_v4/h5_fullhistory/predictions.csv.gz
+!research_v4/h5_fullhistory/raw_predictions.csv.gz
+!research_v4/h5_fullhistory/warmup.csv.gz
+research_v4/h5_fullhistory/final_fit/*.csv.gz
+
 # The compact active production bundle is intentionally versioned.
 !final_solution/tabm_h3/model/weights.pt
 !final_solution/tabm_h3/model/preprocess.joblib

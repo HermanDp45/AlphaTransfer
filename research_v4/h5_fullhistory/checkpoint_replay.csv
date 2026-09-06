@@ -1,0 +1,13 @@
+year,split,rows,maximum_raw_error
+2024,validation,242,0.0
+2024,history,247,0.0
+2024,test,243,0.0
+2024,warmup,63,0.0
+2025,validation,243,0.0
+2025,history,248,0.0
+2025,test,242,0.0
+2025,warmup,63,0.0
+2026,validation,242,0.0
+2026,history,247,0.0
+2026,test,156,0.0
+2026,warmup,63,0.0
