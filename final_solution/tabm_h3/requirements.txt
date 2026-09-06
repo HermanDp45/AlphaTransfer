@@ -7,3 +7,5 @@ tabm==0.0.3
 rtdl-num-embeddings==0.0.12
 joblib==1.6.0
 threadpoolctl>=3.6,<4
+
+pyarrow>=15.0.0,<17

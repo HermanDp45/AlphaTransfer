@@ -49,3 +49,44 @@ NOW_H3 означает прогноз, что текущий RUB/KZT не вы�
 - `../research_v4/h3_finalization/REPORTING_ALL_METRICS.csv` — единый CSV всех сравнений.
 
 Прежний путь доступен через `python3.11 final_solution/main.py --legacy`; его документация сохранена в `README.legacy.md`. Корневой `config.toml` относится кlegacy-контру; активная H3-конфигурация находится в `tabm_h3/bundle.json`.
+
+
+## Единый CLI (новый)
+
+Новый единый интерфейс запускается через флаги `--action` и/или `--model`:
+
+```bash
+python3.11 final_solution/main.py --model h3 --action infer --as-of 2026-09-05 --mode historical_smoke
+python3.11 final_solution/main.py --model h3 --action train --force
+python3.11 final_solution/main.py --model h3 --action metrics --corridor-filter KZT --as-of-from 2024-01-01 --as-of-to 2024-12-31
+
+python3.11 final_solution/main.py --model h5 --action infer --corridor-filter all5 --h5-policy rank90
+python3.11 final_solution/main.py --model h5 --action train --force
+python3.11 final_solution/main.py --model h5 --action metrics --corridor-filter KZT
+```
+
+`metrics` и `infer` автоматически запускают обучение, если артефакты отсутствуют (или сломаны),
+если не указан `--force` и артефакты валидны, повторная выдача идёт без переобучения.
+
+Результаты метрик всегда пишутся в CSV через общий формат в `--output-dir`:
+- `model`
+- `action`
+- `dataset`
+- `period`
+- `corridor_filter`
+- `horizon`
+- `threshold_policy`
+- `threshold`
+- `hit_rate`
+- `lift`
+- `forward_delta_bps`
+- `regret_bps`
+- `signals_per_corridor_week`
+- `mean_cell_week_coverage`
+- и диагностические столбцы строк/дней/сигналов.
+
+Устаревшие режимы сохранены:
+- `python3.11 final_solution/main.py --legacy`
+- `python3.11 final_solution/main.py --research-v3`
+- а также прямой запуск H3 без новых флагов как раньше:
+  `python3.11 final_solution/main.py --as-of 2026-09-05 --mode historical_smoke`

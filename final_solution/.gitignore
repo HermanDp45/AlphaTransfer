@@ -1,4 +1,25 @@
+# Local runtime outputs
 __pycache__/
 *.py[cod]
-output*/
+output/
+output-*/
 work/
+
+# Large generated artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.joblib
+*.pkl
+*.npz
+*.csv.gz
+*.log
+*.tmp
+*.temp
+
+# Final H5 runtime artifacts
+tabm_h5/
+
+# Keep H3 production bundle in version control
+!tabm_h3/model/model.json

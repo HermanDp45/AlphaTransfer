@@ -1,21 +1,32 @@
 #!/usr/bin/env python3
 """Default standalone TabM H3, with explicit legacy/research entry points."""
+
+from __future__ import annotations
+
 import sys
 from pathlib import Path
 
-SOLUTION_ROOT=Path(__file__).resolve().parent
+SOLUTION_ROOT = Path(__file__).resolve().parent
+
+# Backward-compatible special modes.
 if "--research-v3" in sys.argv:
     sys.argv.remove("--research-v3")
-    sys.path.insert(0,str(SOLUTION_ROOT.parent))
+    sys.path.insert(0, str(SOLUTION_ROOT.parent))
     from research_v3.preview import main
 elif "--legacy" in sys.argv:
     sys.argv.remove("--legacy")
-    if not any(x=="--config" or x.startswith("--config=") for x in sys.argv[1:]):
-        sys.argv.extend(["--config",str(SOLUTION_ROOT/"config.legacy.toml")])
+    if not any(x == "--config" or x.startswith("--config=") for x in sys.argv[1:]):
+        sys.argv.extend(["--config", str(SOLUTION_ROOT / "config.legacy.toml")])
     from alphatransfer_final.cli import main
+elif "--action" in sys.argv or "--model" in sys.argv:
+    # New unified production runner.
+    sys.path.insert(0, str(SOLUTION_ROOT.parent))
+    from final_solution.core import main
 else:
-    sys.path.insert(0,str(SOLUTION_ROOT.parent))
+    # Preserve historical default behavior for H3 inference.
+    sys.path.insert(0, str(SOLUTION_ROOT.parent))
     from final_solution.tabm_h3.predict import main
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     raise SystemExit(main())
